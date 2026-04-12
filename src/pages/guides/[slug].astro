@@ -1,31 +1,148 @@
 ---
 import { getCollection, render, type CollectionEntry } from 'astro:content';
-import ReadingLayout from '../../layouts/ReadingLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogSidebar from '../../components/BlogSidebar.astro';
 
 type GuideEntry = CollectionEntry<'guides'>;
 
 export async function getStaticPaths() {
-  const guides = await getCollection('guides');
-  console.log('GUIDES:', guides.map((g) => g.id));
+  const entries = await getCollection('guides');
 
-  return guides.map((guide) => ({
-    params: { slug: guide.id },
-    props: { guide }
+  return entries.map((entry: GuideEntry) => ({
+    params: { slug: entry.id },
+    props: { entry }
   }));
 }
 
-const { guide } = Astro.props as { guide: GuideEntry };
-const { Content } = await render(guide);
+const { entry } = Astro.props as { entry: GuideEntry };
+const { Content } = await render(entry);
+
+// 📚 Get all guides sorted (optional — if you add date later)
+const allGuides: GuideEntry[] = await getCollection('guides');
+
+// Find current index
+const currentIndex = allGuides.findIndex((g: GuideEntry) => g.id === entry.id);
+
+const nextGuide = allGuides[currentIndex + 1];
+const prevGuide = allGuides[currentIndex - 1];
+
+// Optional: map guides to plan (for sidebar CTA)
+const plan = "anxiety";
 ---
 
-<ReadingLayout title={guide.data.title}>
-  <div class="mx-auto max-w-3xl px-5">
-    <h1 class="text-4xl font-semibold mb-6">
-      {guide.data.title}
-    </h1>
+<BaseLayout title={entry.data.title} full={true}>
 
-    <article class="space-y-6 text-lg leading-relaxed">
-      <Content />
-    </article>
+  <!-- 📊 PROGRESS BAR -->
+  <div
+    id="reading-progress"
+    class="fixed top-0 left-0 h-1 bg-[var(--color-primary)] w-0 z-50"
+  ></div>
+
+  <!-- ✅ SAME SYSTEM AS BLOG -->
+  <div class="mx-auto w-[90%] max-w-[1400px] px-4">
+
+    <div class="grid lg:grid-cols-[minmax(0,1fr)_260px] gap-12">
+
+      <!-- MAIN -->
+      <article class="max-w-2xl mx-auto py-12">
+
+        <!-- HEADER -->
+        <header class="mb-10">
+          <h1 class="text-3xl md:text-5xl font-semibold leading-tight tracking-tight">
+            {entry.data.title}
+          </h1>
+
+          {entry.data.description && (
+            <p class="mt-4 text-[var(--color-muted)] text-lg leading-relaxed">
+              {entry.data.description}
+            </p>
+          )}
+        </header>
+
+        <!-- CONTENT -->
+        <div class="prose prose-neutral dark:prose-invert max-w-none text-lg leading-relaxed">
+          <Content />
+        </div>
+
+        <!-- 🔁 NEXT / PREV -->
+        <div class="mt-16 grid gap-4 sm:grid-cols-2">
+
+          {prevGuide && (
+            <a
+              href={`/guides/${prevGuide.id}`}
+              class="block rounded-xl border border-[var(--color-border)] p-4 hover:bg-[var(--color-primary)]/5 transition"
+            >
+              <p class="text-xs text-[var(--color-muted)]">← Previous</p>
+              <p class="mt-1 font-medium">{prevGuide.data.title}</p>
+            </a>
+          )}
+
+          {nextGuide && (
+            <a
+              href={`/guides/${nextGuide.id}`}
+              class="block rounded-xl border border-[var(--color-border)] p-4 text-right hover:bg-[var(--color-primary)]/5 transition"
+            >
+              <p class="text-xs text-[var(--color-muted)]">Next →</p>
+              <p class="mt-1 font-medium">{nextGuide.data.title}</p>
+            </a>
+          )}
+
+        </div>
+
+        <!-- DIVIDER -->
+        <div class="my-16 h-px bg-gradient-to-r from-transparent via-[var(--color-border)] to-transparent"></div>
+
+        <!-- CTA -->
+        <section class="text-center space-y-6">
+          <p class="text-lg text-[var(--color-muted)]">
+            Take a moment and apply what you’ve read
+          </p>
+
+          <div class="flex flex-wrap justify-center gap-4">
+            <a
+              href={`/plans/${plan}/day-1`}
+              class="px-5 py-2.5 rounded-lg bg-[var(--color-primary)] text-white hover:opacity-90 transition"
+            >
+              Begin a journey →
+            </a>
+
+            <a
+              href="/guides"
+              class="px-5 py-2.5 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] transition"
+            >
+              ← Back to guides
+            </a>
+          </div>
+        </section>
+
+      </article>
+
+      <!-- SIDEBAR -->
+      <aside class="hidden lg:block py-12">
+        <div class="sticky top-24">
+          <BlogSidebar plan={plan} />
+        </div>
+      </aside>
+
+    </div>
+
   </div>
-</ReadingLayout>
+
+  <!-- SCRIPT -->
+  <script is:inline>
+    const progressBar = document.getElementById("reading-progress");
+
+    const updateProgress = () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.body.scrollHeight - window.innerHeight;
+      const progress = (scrollTop / docHeight) * 100;
+
+      if (progressBar) {
+        progressBar.style.width = progress + "%";
+      }
+    };
+
+    window.addEventListener("scroll", updateProgress);
+  </script>
+
+</BaseLayout>

@@ -3,7 +3,11 @@ import "../styles/global.css";
 import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
 
-const { title = "First7", description = "Build a daily habit of faith through Scripture, devotionals, and guided plans." } = Astro.props;
+const {
+  title = "First7",
+  description = "Build a daily habit of faith through Scripture, devotionals, and guided plans.",
+  full = false // ✅ NEW
+} = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -12,30 +16,32 @@ const { title = "First7", description = "Build a daily habit of faith through Sc
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- SEO -->
     <title>{title}</title>
     <meta name="description" content={description} />
 
-    <!-- Favicon (add later if needed) -->
     <link rel="icon" href="/favicon.svg" />
-
   </head>
 
   <body class="bg-[var(--color-bg)] text-[var(--color-text)] min-h-screen flex flex-col">
 
-    <!-- NAVBAR -->
     <Navbar />
 
-    <!-- MAIN CONTENT -->
     <main class="flex-1 w-full">
 
-      <div class="max-w-4xl mx-auto px-5 py-10 md:py-12">
-        <slot />
-      </div>
+      {full ? (
+        <!-- ✅ FULL WIDTH MODE -->
+        <div class="w-full px-4 py-8 md:px-8">
+          <slot />
+        </div>
+      ) : (
+        <!-- ✅ DEFAULT MODE -->
+        <div class="max-w-4xl mx-auto px-5 py-10 md:py-12">
+          <slot />
+        </div>
+      )}
 
     </main>
 
-    <!-- FOOTER -->
     <Footer />
 
   </body>

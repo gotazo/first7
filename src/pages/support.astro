@@ -1,39 +1,124 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="Support This Project">
+<BaseLayout title="Support the Mission">
 
-  <div class="max-w-2xl mx-auto text-center space-y-6 py-16">
+  <section class="max-w-3xl mx-auto px-5 py-16 space-y-16">
 
-    <h1 class="text-3xl font-semibold">
-      Support This Project
-    </h1>
+    <!-- HERO -->
+    <div class="text-center space-y-4">
+      <h1 class="text-4xl md:text-5xl font-semibold leading-tight">
+        Support the mission
+      </h1>
 
-    <p class="text-[var(--color-muted)]">
-      If First7 has helped you grow in your faith, you can support its continued development.
-    </p>
+      <p class="text-lg text-[var(--color-muted)]">
+        This platform exists to help people grow in faith,
+        build consistency, and walk daily with God.
+      </p>
+    </div>
 
-    <p class="text-[var(--color-muted)]">
-      Your support helps keep this site simple, fast, and accessible to everyone.
-    </p>
+    <!-- WHY THIS EXISTS -->
+    <div class="space-y-4 text-lg leading-relaxed">
+      <p>
+        First7 was created to make spiritual growth simple.
+      </p>
 
-    <!-- BUTTONS (add later) -->
-    <div class="flex justify-center gap-4 pt-4">
+      <p>
+        No pressure. No noise. Just a clear path to spend time with God each day.
+      </p>
 
-      <a
-        href="#"
-        class="px-6 py-3 rounded-lg bg-[var(--color-primary)] text-white font-medium"
-      >
-        Donate
-      </a>
+      <p>
+        Everything here is designed to be accessible to anyone,
+        whether you're just starting or growing deeper in your faith.
+      </p>
+    </div>
+
+    <!-- PRINCIPLE -->
+    <div class="rounded-2xl border border-[var(--color-border)] p-6 bg-[var(--color-primary)]/5 space-y-3">
+      <p class="font-medium">
+        This will always be free.
+      </p>
+
+      <p class="text-[var(--color-muted)]">
+        You can go through every plan, read every article, and use this system
+        without ever paying.
+      </p>
+
+      <p class="text-[var(--color-muted)]">
+        If this has helped you and you feel led to support it,
+        you can do that below.
+      </p>
+    </div>
+
+    <!-- SUPPORT OPTIONS -->
+    <div class="space-y-6">
+
+      <div class="text-center space-y-2">
+        <h2 class="text-2xl font-semibold">
+          Ways to support
+        </h2>
+
+        <p class="text-[var(--color-muted)]">
+          Only if you want to
+        </p>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-2">
+
+        <!-- DONATION -->
+        <div class="rounded-2xl border border-[var(--color-border)] p-6 space-y-3">
+          <p class="font-medium">
+            Give
+          </p>
+
+          <p class="text-sm text-[var(--color-muted)]">
+            Support the platform so it can continue to grow and reach more people.
+          </p>
+
+          <a
+            href="#"
+            class="inline-block mt-2 text-[var(--color-primary)] font-medium"
+          >
+            Support →
+          </a>
+        </div>
+
+        <!-- SHARE -->
+        <div class="rounded-2xl border border-[var(--color-border)] p-6 space-y-3">
+          <p class="font-medium">
+            Share
+          </p>
+
+          <p class="text-sm text-[var(--color-muted)]">
+            Send this to someone who might need it.
+          </p>
+
+          <a
+            href="/start"
+            class="inline-block mt-2 text-[var(--color-primary)] font-medium"
+          >
+            Start a plan →
+          </a>
+        </div>
+
+      </div>
 
     </div>
 
-    <p class="text-xs text-[var(--color-muted)] pt-6">
-      Thank you for supporting this work.
-    </p>
+    <!-- FINAL NOTE -->
+    <div class="text-center space-y-3">
 
-  </div>
+      <p class="text-[var(--color-muted)]">
+        Whether you support or not,
+      </p>
+
+      <p class="text-xl font-medium">
+        keep showing up daily.
+      </p>
+
+    </div>
+
+  </section>
 
 </BaseLayout>

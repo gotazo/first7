@@ -1,7 +1,7 @@
 ---
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import VerseLink from '../../../components/VerseLink.astro';
-import ReadingLayout from '../../../layouts/ReadingLayout.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
 
 type StartEntry = CollectionEntry<'start'>;
 
@@ -10,7 +10,7 @@ export async function getStaticPaths() {
 
   return entries.map((entry) => ({
     params: {
-      plan: entry.data.plan,
+      plan: entry.data.plan.trim(),
       day: `day-${entry.data.day}`
     },
     props: { entry }
@@ -20,13 +20,10 @@ export async function getStaticPaths() {
 const { entry } = Astro.props as { entry: StartEntry };
 
 const allEntries = await getCollection('start');
-const planEntries = allEntries
-  .filter((candidate) => candidate.data.plan === entry.data.plan)
-  .sort((a, b) => a.data.day - b.data.day);
 
-const currentIndex = planEntries.findIndex((candidate) => candidate.id === entry.id);
-const previousEntry = currentIndex > 0 ? planEntries[currentIndex - 1] : undefined;
-const nextEntry = currentIndex >= 0 ? planEntries[currentIndex + 1] : undefined;
+const planEntries = allEntries
+  .filter((e) => e.data.plan === entry.data.plan)
+  .sort((a, b) => a.data.day - b.data.day);
 
 const { Content } = await render(entry);
 
@@ -35,188 +32,200 @@ const day = entry.data.day;
 const totalDays = planEntries.length;
 ---
 
-<ReadingLayout title={entry.data.title}>
+<BaseLayout title={entry.data.title} full={true}>
 
-  <div class="mx-auto max-w-2xl px-5 py-10 space-y-12">
+  <div class="mx-auto w-[90%] max-w-[1400px] px-4 py-10">
 
-    <!-- 🧭 PROGRESS -->
-    <div class="space-y-4">
+    <div class="grid lg:grid-cols-[260px_minmax(0,1fr)] gap-8">
 
-      <div class="flex items-center justify-between text-sm text-[var(--color-muted)]">
-        <span>Day {day} of {totalDays}</span>
-        <span>{Math.round((day / totalDays) * 100)}%</span>
-      </div>
+      <!-- SIDEBAR -->
+      <aside class="hidden lg:block">
+        <div class="lg:sticky lg:top-24 space-y-6">
 
-      <div class="flex gap-2">
-        {Array.from({ length: totalDays }).map((_, i) => (
-          <div
-            class={`h-2 flex-1 rounded-full transition ${
-              i < day
-                ? 'bg-[var(--color-primary)]'
-                : 'bg-[var(--color-border)]'
-            }`}
-          />
-        ))}
-      </div>
+          <div>
+            <p class="text-sm text-[var(--color-muted)]">Plan</p>
+            <h2 class="text-xl font-semibold capitalize">
+              {plan.replace(/-/g, " ")}
+            </h2>
+            <p class="text-xs text-[var(--color-muted)] mt-1">
+              {totalDays} days
+            </p>
+          </div>
 
-    </div>
+          <!-- DAYS -->
+          <div class="space-y-2">
+            {planEntries.map((d) => (
+              <a
+                href={`/plans/${plan}/day-${d.data.day}`}
+                class="flex justify-between px-3 py-2 rounded-lg text-sm transition"
+                data-day={d.data.day}
+              >
+                <span>Day {d.data.day}</span>
+                <span data-status={d.data.day}></span>
+              </a>
+            ))}
+          </div>
 
-    <!-- 📖 TITLE -->
-    <div class="space-y-3">
-      <h1 class="text-3xl md:text-4xl font-semibold leading-tight tracking-tight">
-        {entry.data.title}
-      </h1>
+        </div>
+      </aside>
 
-      <p class="text-[var(--color-muted)] leading-relaxed">
-        {entry.data.description}
-      </p>
-    </div>
+      <!-- MAIN -->
+      <main>
+        <div class="max-w-2xl mx-auto space-y-12 py-6"></div>
 
-    <!-- ✨ FOCUS VERSE -->
-    <div class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 p-6 space-y-3">
+          <!-- PROGRESS -->
+          <div class="space-y-3">
+            <div class="flex justify-between text-sm text-[var(--color-muted)]">
+              <span>Day {day} of {totalDays}</span>
+              <span id="progress-text">0%</span>
+            </div>
 
-      <p class="text-xs uppercase tracking-wide text-[var(--color-muted)]">
-        Today’s Focus
-      </p>
+            <div class="flex gap-2">
+              {Array.from({ length: totalDays }).map((_, i) => (
+                <div
+                  class="h-2 flex-1 rounded-full bg-[var(--color-border)]"
+                  data-bar={i + 1}
+                />
+              ))}
+            </div>
+          </div>
 
-      <p class="text-lg font-medium leading-relaxed">
-        <VerseLink verse={entry.data.verse} />
-      </p>
+          <!-- TITLE -->
+          <div>
+            <h1 class="text-3xl md:text-4xl font-semibold">
+              {entry.data.title}
+            </h1>
+            <p class="text-[var(--color-muted)] mt-2">
+              {entry.data.description}
+            </p>
+          </div>
 
-    </div>
+          <!-- VERSE -->
+          <div class="rounded-2xl border bg-[var(--color-primary)]/5 p-6">
+            <p class="text-xs text-[var(--color-muted)]">
+              Today's Focus
+            </p>
+            <p class="mt-2 text-lg font-medium">
+              <VerseLink verse={entry.data.verse} />
+            </p>
+          </div>
 
-    <!-- 📖 READ -->
-    <div class="space-y-6">
-      <p class="text-xs uppercase tracking-wide text-[var(--color-muted)]">
-        Read
-      </p>
+          <!-- CONTENT -->
+          <article class="space-y-6 text-lg leading-relaxed">
+            <Content />
+          </article>
 
-      <article class="space-y-6 text-lg leading-relaxed">
-        <Content />
-      </article>
-    </div>
+          <!-- REFLECTION -->
+          <div class="space-y-3">
+            <p class="text-sm text-[var(--color-muted)]">
+              Reflect
+            </p>
 
-    <!-- 🔁 STREAK -->
-    <div class="rounded-xl border bg-[var(--color-primary)]/5 p-5 flex items-center justify-between">
-      <div>
-        <p class="text-sm text-[var(--color-muted)]">Your streak</p>
-        <p id="streak-count" class="text-2xl font-semibold">0 days</p>
-      </div>
+            <textarea
+              id="reflection"
+              rows="5"
+              class="w-full rounded-xl border border-[var(--color-border)] p-4"
+              placeholder="Write what stood out to you..."
+            ></textarea>
 
-      <div class="text-3xl">🔥</div>
-    </div>
+            <p id="save-status" class="text-xs text-[var(--color-muted)]">
+              Not saved
+            </p>
+          </div>
 
-    <!-- 🎯 ACTION -->
-    <div class="text-center space-y-4">
+          <!-- ACTION -->
+          <div class="text-center space-y-4">
+            <button
+              id="complete-btn"
+              class="w-full rounded-xl bg-[var(--color-primary)] px-6 py-4 text-white font-medium"
+            >
+              Complete Day {day} →
+            </button>
+          </div>
 
-      <button
-        id="complete-btn"
-        class="w-full rounded-xl bg-[var(--color-primary)] px-6 py-4 text-white font-medium text-lg shadow-sm hover:shadow-md hover:scale-[1.01] transition"
-        type="button"
-      >
-        Complete Day {day} →
-      </button>
-
-      <a
-        id="next-btn"
-        class="hidden text-sm text-[var(--color-muted)] hover:text-[var(--color-primary)] transition"
-      >
-        Skip →
-      </a>
-
-    </div>
-
-    <!-- 🎉 COMPLETION -->
-    <div
-      id="celebration-box"
-      class="hidden rounded-2xl border bg-[var(--color-primary)]/10 p-6 text-center space-y-2"
-    >
-      <p class="text-sm text-[var(--color-muted)]">Completed</p>
-      <h2 class="text-2xl font-semibold">You finished this plan 🎉</h2>
-      <p class="text-[var(--color-muted)]">
-        Keep going — your journey is just beginning.
-      </p>
-    </div>
-
-    <!-- 🔙 NAV -->
-    <div class="flex justify-between text-sm text-[var(--color-muted)]">
-
-      {previousEntry ? (
-        <a href={`/plans/${plan}/day-${previousEntry.data.day}`} class="hover:text-[var(--color-primary)]">
-          ← Day {previousEntry.data.day}
-        </a>
-      ) : <span />}
-
-      {nextEntry ? (
-        <a href={`/plans/${plan}/day-${nextEntry.data.day}`} class="hover:text-[var(--color-primary)]">
-          Day {nextEntry.data.day} →
-        </a>
-      ) : <span />}
+        </div>
+      </main>
 
     </div>
 
   </div>
 
-  <!-- 🧠 SCRIPT -->
+  <!-- SCRIPT -->
   <script is:inline define:vars={{ plan, day, totalDays }}>
-    const getSavedDays = (storageKey) => {
-      try {
-        const rawValue = localStorage.getItem(storageKey);
-        const parsed = rawValue ? JSON.parse(rawValue) : [];
-        return Array.isArray(parsed) ? parsed.filter((value) => Number.isInteger(value)) : [];
-      } catch {
-        return [];
-      }
-    };
 
-    const storageKey = `first7-${plan}`;
-    let savedDays = getSavedDays(storageKey);
+    const key = `first7-${plan}`;
+    let saved = [];
 
-    const completeButton = document.getElementById('complete-btn');
-    const nextButton = document.getElementById('next-btn');
-    const celebrationBox = document.getElementById('celebration-box');
-    const streakCount = document.getElementById('streak-count');
+    try {
+      saved = JSON.parse(localStorage.getItem(key) || "[]");
+    } catch {}
 
-    if (streakCount) {
-      streakCount.textContent = `${savedDays.length} day${savedDays.length === 1 ? '' : 's'}`;
-    }
+    // PROGRESS
+    const percent = Math.round((saved.length / totalDays) * 100);
+    const progressText = document.getElementById("progress-text");
+    if (progressText) progressText.textContent = percent + "%";
 
-    const showCompletionState = () => {
-      if (completeButton) {
-        completeButton.textContent = 'Completed ✓';
-        completeButton.disabled = true;
-      }
-
-      if (day < totalDays && nextButton instanceof HTMLAnchorElement) {
-        nextButton.href = `/plans/${plan}/day-${day + 1}`;
-        nextButton.classList.remove('hidden');
-      } else {
-        celebrationBox?.classList.remove('hidden');
-      }
-    };
-
-    if (savedDays.includes(day)) {
-      showCompletionState();
-    }
-
-    completeButton?.addEventListener('click', () => {
-      if (!savedDays.includes(day)) {
-        savedDays = [...savedDays, day].sort((a, b) => a - b);
-        localStorage.setItem(storageKey, JSON.stringify(savedDays));
-      }
-
-      if (streakCount) {
-        streakCount.textContent = `${savedDays.length} day${savedDays.length === 1 ? '' : 's'}`;
-      }
-
-      showCompletionState();
-
-      if (day < totalDays) {
-        setTimeout(() => {
-          window.location.href = `/plans/${plan}/day-${day + 1}`;
-        }, 700);
+    document.querySelectorAll("[data-bar]").forEach(el => {
+      const d = Number(el.getAttribute("data-bar"));
+      if (saved.includes(d)) {
+        el.classList.add("bg-[var(--color-primary)]");
       }
     });
+
+    // 🔒 LOCK LOGIC
+    const lastDay = saved.length > 0 ? Math.max(...saved) : 0;
+
+    document.querySelectorAll("[data-day]").forEach(link => {
+      const d = Number(link.getAttribute("data-day"));
+      const status = link.querySelector("[data-status]");
+
+      if (saved.includes(d)) {
+        // ✅ completed
+        link.classList.add("bg-[var(--color-primary)]/10");
+        if (status) status.textContent = "✓";
+      } else if (d === lastDay + 1) {
+        // ▶ current
+        link.classList.add("text-[var(--color-primary)]", "font-medium");
+        if (status) status.textContent = "→";
+      } else {
+        // 🔒 locked
+        link.classList.add("opacity-50", "pointer-events-none");
+        if (status) status.textContent = "🔒";
+      }
+    });
+
+    // REFLECTION
+    const reflectionKey = `reflection-${plan}-${day}`;
+    const textarea = document.getElementById("reflection");
+    const status = document.getElementById("save-status");
+
+    if (textarea) {
+      textarea.value = localStorage.getItem(reflectionKey) || "";
+
+      textarea.addEventListener("input", () => {
+        localStorage.setItem(reflectionKey, textarea.value);
+        if (status) status.textContent = "Saved";
+      });
+    }
+
+    // COMPLETE BUTTON
+    const btn = document.getElementById("complete-btn");
+
+    btn?.addEventListener("click", () => {
+
+      if (!saved.includes(day)) {
+        saved.push(day);
+        localStorage.setItem(key, JSON.stringify(saved));
+      }
+
+      btn.textContent = "Great job. Moving to next day...";
+
+      setTimeout(() => {
+        window.location.href = `/plans/${plan}/day-${day + 1}`;
+      }, 1200);
+
+    });
+
   </script>
 
-</ReadingLayout>
+</BaseLayout>

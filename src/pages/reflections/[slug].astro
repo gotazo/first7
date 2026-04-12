@@ -1,0 +1,132 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogSidebar from '../../components/BlogSidebar.astro';
+import ReflectionBoxGeneric from '../../components/ReflectionBoxGeneric.astro';
+
+type ReflectionEntry = CollectionEntry<'reflections'>;
+
+export async function getStaticPaths() {
+  const entries = await getCollection('reflections');
+
+  return entries.map((entry: ReflectionEntry) => ({
+    params: { slug: entry.id },
+    props: { entry }
+  }));
+}
+
+const { entry } = Astro.props as { entry: ReflectionEntry };
+const { Content } = await render(entry);
+
+// ✅ FIXED TYPING HERE
+const allReflections: ReflectionEntry[] = (await getCollection('reflections'))
+  .sort((a: ReflectionEntry, b: ReflectionEntry) =>
+    a.data.date.getTime() - b.data.date.getTime()
+  );
+
+// ✅ FIXED TYPING HERE
+const currentIndex = allReflections.findIndex((r: ReflectionEntry) => r.id === entry.id);
+
+const nextReflection = allReflections[currentIndex + 1];
+const prevReflection = allReflections[currentIndex - 1];
+
+// simple default plan
+const plan = "anxiety";
+---
+
+<BaseLayout title={entry.data.title} full={true}>
+
+  <!-- PROGRESS BAR -->
+  <div id="reading-progress" class="fixed top-0 left-0 h-1 bg-[var(--color-primary)] w-0 z-50"></div>
+
+  <div class="mx-auto w-[90%] max-w-[1400px] px-4">
+
+    <div class="grid lg:grid-cols-[minmax(0,1fr)_260px] gap-12">
+
+      <!-- MAIN -->
+      <article class="max-w-2xl mx-auto py-12">
+
+        <header class="mb-10">
+          <h1 class="text-3xl md:text-5xl font-semibold leading-tight tracking-tight">
+            {entry.data.title}
+          </h1>
+
+          <p class="mt-4 text-sm text-[var(--color-muted)]">
+            {entry.data.date.toLocaleDateString()}
+          </p>
+        </header>
+
+        <div class="prose prose-neutral dark:prose-invert max-w-none text-lg leading-relaxed">
+          <Content />
+        </div>
+
+        <div class="mt-16 w-full max-w-3xl mx-auto">
+  <ReflectionBoxGeneric id={entry.id} />
+</div>
+
+        <!-- NEXT / PREV -->
+        <div class="mt-16 grid gap-4 sm:grid-cols-2">
+
+          {prevReflection && (
+            <a href={`/reflections/${prevReflection.id}`} class="block rounded-xl border p-4 hover:bg-[var(--color-primary)]/5 transition">
+              <p class="text-xs text-[var(--color-muted)]">← Previous</p>
+              <p class="mt-1 font-medium">{prevReflection.data.title}</p>
+            </a>
+          )}
+
+          {nextReflection && (
+            <a href={`/reflections/${nextReflection.id}`} class="block rounded-xl border p-4 text-right hover:bg-[var(--color-primary)]/5 transition">
+              <p class="text-xs text-[var(--color-muted)]">Next →</p>
+              <p class="mt-1 font-medium">{nextReflection.data.title}</p>
+            </a>
+          )}
+
+        </div>
+
+        <!-- CTA -->
+        <section class="mt-16 text-center space-y-6">
+          <p class="text-lg text-[var(--color-muted)]">
+            Take a moment before moving on
+          </p>
+
+          <div class="flex flex-wrap justify-center gap-4">
+            <a href={`/plans/${plan}/day-1`} class="px-5 py-2.5 rounded-lg bg-[var(--color-primary)] text-white">
+              Begin →
+            </a>
+
+            <a href="/reflections" class="px-5 py-2.5 rounded-lg border">
+              Back →
+            </a>
+          </div>
+        </section>
+
+      </article>
+
+      <!-- SIDEBAR -->
+      <aside class="hidden lg:block py-12">
+        <div class="sticky top-24">
+          <BlogSidebar plan={plan} />
+        </div>
+      </aside>
+
+    </div>
+
+  </div>
+
+  <script is:inline>
+    const progressBar = document.getElementById("reading-progress");
+
+    const updateProgress = () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.body.scrollHeight - window.innerHeight;
+      const progress = (scrollTop / docHeight) * 100;
+
+      if (progressBar) {
+        progressBar.style.width = progress + "%";
+      }
+    };
+
+    window.addEventListener("scroll", updateProgress);
+  </script>
+
+</BaseLayout>

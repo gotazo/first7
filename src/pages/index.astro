@@ -1,213 +1,182 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-import { getCollection } from "astro:content";
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
 
-const devotionals = (await getCollection("devotionals")).slice(0, 3);
-const plans = await getCollection("start");
+// Get plans
+const entries = await getCollection('start');
+const plans = [...new Set(entries.map((e) => e.data.plan))];
 
-const uniquePlans = [...new Set(plans.map(p => p.data.plan))];
+// Get blog posts
+const posts = (await getCollection('blog'))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
 ---
 
-<BaseLayout title="First7 - Build Your Daily Faith">
+<BaseLayout title="First7">
 
-  <div class="mx-auto max-w-5xl px-5 py-16 space-y-20">
-
-    <!-- 🔁 RESUME -->
-    <div
-      id="resume-box"
-      class="hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/10 p-6 shadow-sm"
-    >
-      <p class="text-sm text-[var(--color-muted)]">Continue your journey</p>
-
-      <a
-        id="resume-link"
-        class="mt-2 inline-block text-lg font-semibold text-[var(--color-primary)]"
-      >
-        Resume →
-      </a>
-    </div>
+  <section class="max-w-5xl mx-auto px-4 py-20 space-y-24">
 
     <!-- HERO -->
-    <section class="text-center space-y-8">
-
-      <h1 class="text-4xl md:text-6xl font-semibold leading-tight tracking-tight">
-        Build a Daily Rhythm  
-        <span class="block text-[var(--color-primary)]">of Faith</span>
+    <div class="text-center max-w-2xl mx-auto space-y-6">
+      <h1 class="text-4xl md:text-6xl font-semibold leading-tight">
+        Walk with God, one day at a time
       </h1>
 
-      <p class="text-[var(--color-muted)] text-lg max-w-xl mx-auto leading-relaxed">
-        Read Scripture, reflect deeply, and grow consistently —  
-        one day at a time.
+      <p class="text-lg text-[var(--color-muted)]">
+        You don’t need to have everything figured out.
+        Just show up as you are.
       </p>
 
-      <div class="flex justify-center gap-4 flex-wrap mt-6">
+      <p class="text-[var(--color-muted)]">
+        Read, reflect, and take one step forward — with God.
+      </p>
+
+      <div class="flex justify-center gap-4 pt-4">
+        <a
+          href="/start"
+          class="px-6 py-3 rounded-xl bg-[var(--color-primary)] text-white font-medium hover:opacity-90 transition"
+        >
+          Begin your journey →
+        </a>
 
         <a
-          href="/guides/how-to-use"
-          class="px-6 py-3 rounded-xl bg-[var(--color-primary)] text-white font-medium shadow-sm hover:shadow-md hover:scale-[1.02] transition"
+          href="/reflections"
+          class="px-6 py-3 rounded-xl border border-[var(--color-border)] hover:border-[var(--color-primary)] transition"
         >
-          Start Here
-        </a>
-
-        <a
-          href="/plans"
-          class="px-6 py-3 rounded-xl border border-[var(--color-border)] hover:bg-[var(--color-primary)]/10 transition"
-        >
-          Browse Plans
-        </a>
-
-      </div>
-
-    </section>
-
-    <!-- 🧠 SYSTEM -->
-    <section class="space-y-8">
-
-      <h2 class="text-2xl font-semibold text-center">
-        A simple system for daily growth
-      </h2>
-
-      <div class="grid md:grid-cols-3 gap-6 text-sm">
-
-        <div class="p-6 rounded-xl border bg-[var(--color-primary)]/5 hover:shadow-md transition">
-          <p class="font-medium text-base">📖 Read</p>
-          <p class="text-[var(--color-muted)] mt-2">
-            Start with a short passage and reflection
-          </p>
-        </div>
-
-        <div class="p-6 rounded-xl border bg-[var(--color-primary)]/5 hover:shadow-md transition">
-          <p class="font-medium text-base">✍️ Reflect</p>
-          <p class="text-[var(--color-muted)] mt-2">
-            Write honestly and process what you’re learning
-          </p>
-        </div>
-
-        <div class="p-6 rounded-xl border bg-[var(--color-primary)]/5 hover:shadow-md transition">
-          <p class="font-medium text-base">🔁 Apply</p>
-          <p class="text-[var(--color-muted)] mt-2">
-            Take one small step each day
-          </p>
-        </div>
-
-      </div>
-
-    </section>
-
-    <!-- 🚀 PLANS -->
-    <section class="space-y-8">
-
-      <div class="flex justify-between items-center">
-        <h2 class="text-2xl font-semibold">Start a Plan</h2>
-
-        <a href="/plans" class="text-sm text-[var(--color-muted)] hover:text-[var(--color-primary)]">
-          View all →
+          Explore reflections
         </a>
       </div>
+    </div>
 
-      <div class="grid md:grid-cols-3 gap-6">
+    <!-- HOW IT WORKS -->
+    <div class="grid md:grid-cols-3 gap-8 md:gap-10">
 
-        {uniquePlans.map((plan) => (
+      <!-- READ -->
+      <div class="p-6 md:p-8 rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 text-center space-y-4 transition hover:shadow-md hover:-translate-y-1">
+        <p class="text-2xl">📖</p>
+        <p class="font-medium text-lg">Read</p>
+        <p class="text-sm text-[var(--color-muted)] leading-relaxed">
+          Spend a few quiet minutes in Scripture and guided words
+        </p>
+      </div>
+
+      <!-- REFLECT -->
+      <div class="p-6 md:p-8 rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 text-center space-y-4 transition hover:shadow-md hover:-translate-y-1">
+        <p class="text-2xl">✍️</p>
+        <p class="font-medium text-lg">Reflect</p>
+        <p class="text-sm text-[var(--color-muted)] leading-relaxed">
+          Notice what stands out and what God is gently showing you
+        </p>
+      </div>
+
+      <!-- STEP -->
+      <div class="p-6 md:p-8 rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 text-center space-y-4 transition hover:shadow-md hover:-translate-y-1">
+        <p class="text-2xl">🔁</p>
+        <p class="font-medium text-lg">Take a step</p>
+        <p class="text-sm text-[var(--color-muted)] leading-relaxed">
+          Take one simple step forward in your day
+        </p>
+      </div>
+
+    </div>
+
+    <!-- PLANS -->
+    <div class="space-y-8">
+
+      <div class="text-center space-y-2">
+        <h2 class="text-3xl font-semibold">
+          Start where you need it
+        </h2>
+
+        <p class="text-[var(--color-muted)]">
+          Start where you are — not where you think you should be
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+        {plans.map((plan) => (
           <a
             href={`/plans/${plan}`}
-            class="p-6 rounded-xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 hover:bg-[var(--color-primary)]/10 hover:shadow-md hover:scale-[1.02] transition"
+            class="group block rounded-2xl border border-[var(--color-border)] p-6 transition hover:-translate-y-1 hover:shadow-md hover:border-[var(--color-primary)]"
           >
-            <h3 class="font-medium capitalize text-base">
-              {plan.replace(/-/g, ' ')}
+            <h3 class="text-lg font-semibold capitalize group-hover:text-[var(--color-primary)] transition">
+              {plan.replace(/-/g, " ")}
             </h3>
 
-            <p class="text-sm text-[var(--color-muted)] mt-2 leading-relaxed">
-              A guided journey to build consistency and grow daily.
+            <p class="mt-2 text-sm text-[var(--color-muted)]">
+              A quiet 7-day space to walk through this
             </p>
 
-            <p class="mt-4 text-sm text-[var(--color-primary)] font-medium">
-              Start →
-            </p>
+            <div class="mt-4 text-sm text-[var(--color-muted)] group-hover:translate-x-1 transition">
+              Enter →
+            </div>
           </a>
         ))}
 
       </div>
 
-    </section>
+    </div>
 
-    <!-- 📖 DEVOTIONALS -->
-    <section class="space-y-8">
+    <!-- BLOG -->
+    <div class="space-y-8">
 
       <div class="flex justify-between items-center">
-        <h2 class="text-2xl font-semibold">Latest Devotionals</h2>
+        <h2 class="text-3xl font-semibold">
+          From the journey
+        </h2>
 
-        <a href="/devotionals" class="text-sm text-[var(--color-muted)] hover:text-[var(--color-primary)]">
+        <a
+          href="/blog"
+          class="text-sm text-[var(--color-primary)] font-medium"
+        >
           View all →
         </a>
       </div>
 
-      <div class="grid md:grid-cols-3 gap-6">
+      <div class="grid gap-6 md:grid-cols-3">
 
-        {devotionals.map((post) => (
+        {posts.map((post) => (
           <a
-            href={`/devotionals/${post.id}`}
-            class="p-5 rounded-xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 hover:bg-[var(--color-primary)]/10 hover:shadow-md transition"
+            href={`/blog/${post.id}`}
+            class="group block rounded-2xl border border-[var(--color-border)] p-5 transition hover:-translate-y-1 hover:shadow-md hover:border-[var(--color-primary)]"
           >
-            <h3 class="font-medium">{post.data.title}</h3>
+            <h3 class="font-medium group-hover:text-[var(--color-primary)] transition">
+              {post.data.title}
+            </h3>
 
-            <p class="text-sm text-[var(--color-muted)] mt-2 line-clamp-2">
+            <p class="mt-2 text-sm text-[var(--color-muted)] line-clamp-3">
               {post.data.excerpt}
             </p>
+
+            <div class="mt-3 text-xs text-[var(--color-muted)]">
+              {post.data.date.toLocaleDateString()}
+            </div>
           </a>
         ))}
 
       </div>
 
-    </section>
+    </div>
 
-  </div>
+    <!-- FINAL CTA -->
+    <div class="text-center space-y-4 pt-10">
 
-  <!-- 🧠 SCRIPT -->
-  <script is:inline>
-    const getSavedDays = (storageKey) => {
-      try {
-        const rawValue = localStorage.getItem(storageKey);
-        const parsed = rawValue ? JSON.parse(rawValue) : [];
-        return Array.isArray(parsed) ? parsed.filter((value) => Number.isInteger(value)) : [];
-      } catch {
-        return [];
-      }
-    };
+      <p class="text-[var(--color-muted)] text-lg">
+        You don’t need to do everything.
+        Just take the next step.
+      </p>
 
-    let latestPlan = null;
-    let latestDay = 0;
-    const totalDays = 7;
+      <a
+        href={`/plans/${plans[0]}/day-1`}
+        class="inline-block px-6 py-3 rounded-xl text-white font-medium text-lg hover:opacity-90 transition"
+        style="background-color: var(--color-primary);"
+      >
+        Start today →
+      </a>
 
-    Object.keys(localStorage).forEach((key) => {
-      if (!key.startsWith('first7-')) return;
+    </div>
 
-      const plan = key.replace('first7-', '');
-      const days = getSavedDays(key);
-
-      if (days.length === 0) return;
-
-      const maxDay = Math.max(...days);
-
-      if (maxDay > latestDay) {
-        latestDay = maxDay;
-        latestPlan = plan;
-      }
-    });
-
-    const resumeBox = document.getElementById('resume-box');
-    const resumeLink = document.getElementById('resume-link');
-
-    if (latestPlan && resumeBox && resumeLink) {
-      resumeBox.classList.remove('hidden');
-
-      if (latestDay >= totalDays) {
-        resumeLink.href = `/plans/${latestPlan}`;
-        resumeLink.textContent = `View your journey →`;
-      } else {
-        resumeLink.href = `/plans/${latestPlan}/day-${latestDay + 1}`;
-        resumeLink.textContent = `Resume Day ${latestDay + 1} →`;
-      }
-    }
-  </script>
+  </section>
 
 </BaseLayout>

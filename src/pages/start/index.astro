@@ -1,0 +1,104 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const entries = await getCollection('start');
+const plans = [...new Set(entries.map((e) => e.data.plan))];
+---
+
+<BaseLayout title="Start">
+
+  <section class="max-w-5xl mx-auto px-4 py-16 space-y-20">
+
+    <!-- HERO -->
+    <div class="text-center max-w-2xl mx-auto space-y-4">
+      <h1 class="text-4xl md:text-5xl font-semibold leading-tight">
+        Begin your time with God
+      </h1>
+
+      <p class="text-lg text-[var(--color-muted)]">
+        You don’t need to rush this.
+      </p>
+
+      <p class="text-[var(--color-muted)]">
+        Just take one step, and trust that God will meet you there.
+      </p>
+    </div>
+
+    <!-- HOW IT WORKS -->
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <div class="p-6 rounded-2xl border text-center space-y-3">
+        <p class="text-2xl">📖</p>
+        <p class="font-medium">Read</p>
+        <p class="text-sm text-[var(--color-muted)]">
+          Spend a few minutes with Scripture
+        </p>
+      </div>
+
+      <div class="p-6 rounded-2xl border text-center space-y-3">
+        <p class="text-2xl">✍️</p>
+        <p class="font-medium">Reflect</p>
+        <p class="text-sm text-[var(--color-muted)]">
+          Notice what stays with you
+        </p>
+      </div>
+
+      <div class="p-6 rounded-2xl border text-center space-y-3">
+        <p class="text-2xl">🔁</p>
+        <p class="font-medium">Continue</p>
+        <p class="text-sm text-[var(--color-muted)]">
+          Come back again tomorrow
+        </p>
+      </div>
+
+    </div>
+
+    <!-- PLANS -->
+    <div class="space-y-6">
+
+      <div class="text-center">
+        <h2 class="text-2xl font-semibold">
+          Choose a place to begin
+        </h2>
+      </div>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+        {plans.map((plan) => (
+          <a
+            href={`/plans/${plan}`}
+            class="group block rounded-2xl border border-[var(--color-border)] p-6 transition hover:-translate-y-1 hover:shadow-md hover:border-[var(--color-primary)]"
+          >
+            <h3 class="text-lg font-semibold capitalize group-hover:text-[var(--color-primary)] transition">
+              {plan.replace(/-/g, " ")}
+            </h3>
+
+            <p class="mt-2 text-sm text-[var(--color-muted)]">
+              Walk through this over 7 days
+            </p>
+
+            <div class="mt-4 text-sm text-[var(--color-muted)] group-hover:translate-x-1 transition">
+              Begin →
+            </div>
+          </a>
+        ))}
+
+      </div>
+
+    </div>
+
+    <!-- FINAL -->
+    <div class="text-center space-y-4">
+      <p class="text-[var(--color-muted)]">
+        There’s no pressure here.
+      </p>
+
+      <p class="text-xl font-medium">
+        Just begin.
+      </p>
+    </div>
+
+  </section>
+
+</BaseLayout>

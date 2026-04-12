@@ -3,16 +3,13 @@ import { glob } from 'astro/loaders';
 import { z } from 'zod';
 
 /* =========================
-   📖 DEVOTIONALS
+   🌿 REFLECTIONS (NEW)
 ========================= */
-const devotionals = defineCollection({
-  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/devotionals' }),
+const reflections = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/reflections' }),
   schema: z.object({
     title: z.string(),
-    day: z.number(),
-    date: z.coerce.date().optional(),
-    series: z.string(),
-    verse: z.string(),
+    date: z.coerce.date(),
     excerpt: z.string()
   })
 });
@@ -32,7 +29,7 @@ const blog = defineCollection({
 });
 
 /* =========================
-   📜 BIBLE
+   📜 BIBLE (OPTIONAL - KEEP OR REMOVE LATER)
 ========================= */
 const bible = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/bible' }),
@@ -43,19 +40,20 @@ const bible = defineCollection({
 });
 
 /* =========================
-   📥 DOWNLOADS
+   📥 RESOURCES
 ========================= */
-const downloads = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/downloads' }),
+const resources = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/resources' }),
   schema: z.object({
     title: z.string(),
-    file: z.string(),
-    description: z.string()
+    description: z.string(),
+    file: z.string().optional(),
+    type: z.string().optional() // pdf, guide, etc
   })
 });
 
 /* =========================
-   🚀 PLANS (START)
+   🚀 PLANS (CORE SYSTEM)
 ========================= */
 const start = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/plans' }),
@@ -69,19 +67,15 @@ const start = defineCollection({
 });
 
 /* =========================
-   🧭 GUIDES (FIXED)
+   🧭 GUIDES (OPTIONAL)
 ========================= */
 const guides = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/guides' }),
   schema: z.object({
     title: z.string(),
-
-    // 🏷️ Badge system
     featured: z.boolean().optional(),
     new: z.boolean().optional(),
     updated: z.boolean().optional(),
-
-    // ✨ Optional
     description: z.string().optional(),
   })
 });
@@ -90,10 +84,10 @@ const guides = defineCollection({
    📦 EXPORT
 ========================= */
 export const collections = {
-  devotionals,
+  reflections,
   blog,
   bible,
-  downloads,
+  resources,
   start,
   guides
 };
