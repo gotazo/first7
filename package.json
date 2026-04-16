@@ -1,5 +1,6 @@
 {
   "name": "first7",
+  "private": true,
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -16,6 +17,7 @@
     "@tailwindcss/typography": "^0.5.19",
     "astro": "^6.1.1",
     "jspdf": "^4.2.1",
+    "vite": "^8.0.8",
     "zod": "^4.3.6"
   },
   "devDependencies": {
