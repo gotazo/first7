@@ -6,96 +6,119 @@ const planSummaries = await getStartPlanSummaries();
 const knownPlans = planSummaries.map((summary) => summary.plan);
 ---
 
+<style>
+  .divider {
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      var(--color-border),
+      transparent
+    );
+  }
+</style>
+
 <BaseLayout>
 
-  <section class="max-w-5xl mx-auto py-16 px-4 space-y-12">
+  <section class="max-w-5xl mx-auto py-24 px-4 space-y-16">
 
-    <!-- HEADER -->
+    <!-- HERO -->
     <div class="text-center max-w-2xl mx-auto">
-      <h1 class="text-4xl md:text-5xl font-semibold">
-        Start Your Journey
+      <h1 class="text-4xl md:text-5xl font-semibold leading-tight">
+        Start your <span class="text-[var(--color-primary)]">journey</span>
       </h1>
-      <p class="mt-3 text-[var(--color-muted)]">
-        Choose a 7-day plan to grow your faith, step by step.
+
+      <p class="mt-4 text-[var(--color-muted)]">
+        Choose a 7-day plan to grow your faith, one step at a time.
       </p>
+
+      <div class="mt-6 flex justify-center">
+        <a
+          href="/guides/how-to-use"
+          class="px-5 py-2.5 rounded-xl border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition"
+        >
+          How to use this →
+        </a>
+      </div>
     </div>
 
-    <!-- HOW TO USE CTA -->
-    <div class="flex justify-center">
-      <a
-        href="/guides/how-to-use"
-        class="px-5 py-2.5 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] transition"
-      >
-        How to use this →
-      </a>
-    </div>
+    <!-- DIVIDER -->
+    <div class="divider"></div>
 
-    <!-- PLANS GRID -->
-    <div class="grid gap-6 md:grid-cols-2">
-
-      {planSummaries.map((summary) => (
-
-          <a
-            href={`/plans/${summary.plan}`}
-            class="group p-6 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] hover:shadow-md transition"
-          >
-            <div class="flex items-center justify-between">
-
-              <h2 class="text-xl font-semibold capitalize">
-                {summary.plan.replace(/-/g, ' ')}
-              </h2>
-
-              <span class="text-sm text-[var(--color-muted)]">
-                {summary.entries.length} days
-              </span>
-
-            </div>
-
-            <p class="mt-3 text-sm text-[var(--color-muted)]">
-              A guided journey to help you grow daily.
-            </p>
-
-            <div class="mt-5 text-[var(--color-primary)] text-sm font-medium flex items-center gap-1">
-              Start →
-            </div>
-
-          </a>
-
-        ))}
-
-    </div>
-
-    <!-- CONTINUE BOX -->
-    <div id="reminder-box" class="hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 p-6 text-center">
+    <!-- CONTINUE BOX (moved here ✅) -->
+    <div 
+      id="reminder-box" 
+      class="hidden max-w-md mx-auto rounded-2xl border border-[var(--color-border)] 
+      bg-[var(--color-primary)]/5 p-6 text-center transition"
+    >
 
       <p class="text-sm text-[var(--color-muted)]">
         Continue your journey
       </p>
 
-      <p class="mt-2 text-lg font-medium">
+      <p class="mt-2 text-lg font-semibold">
         Don’t break your streak
       </p>
 
       <a
         id="continue-btn"
-        class="mt-4 inline-block px-5 py-2.5 rounded-lg text-white font-medium"
-        style="background-color: var(--color-primary);"
+        class="mt-4 inline-block px-5 py-2.5 rounded-xl text-white font-medium 
+        bg-[var(--color-primary)] hover:opacity-90 transition shadow-sm"
       >
         Continue →
       </a>
 
     </div>
 
+    <!-- DIVIDER -->
+    <div class="divider"></div>
+
+    <!-- PLANS GRID -->
+    <div class="grid gap-6 md:grid-cols-2">
+
+      {planSummaries.map((summary) => (
+
+        <a
+          href={`/plans/${summary.plan}`}
+          class="group p-6 rounded-2xl border border-[var(--color-border)] 
+          bg-[var(--color-primary)]/5 
+          transition hover:-translate-y-1 hover:shadow-lg hover:border-[var(--color-primary)]"
+        >
+
+          <div class="flex items-center justify-between">
+
+            <h2 class="text-xl font-semibold capitalize group-hover:text-[var(--color-primary)] transition">
+              {summary.plan.replace(/-/g, ' ')}
+            </h2>
+
+            <span class="text-sm text-[var(--color-muted)]">
+              {summary.entries.length} days
+            </span>
+
+          </div>
+
+          <p class="mt-3 text-sm text-[var(--color-muted)]">
+            A guided journey to help you grow daily.
+          </p>
+
+          <div class="mt-5 text-[var(--color-primary)] text-sm font-medium flex items-center gap-1 group-hover:translate-x-1 transition">
+            Start →
+          </div>
+
+        </a>
+
+      ))}
+
+    </div>
+
   </section>
 
-  <!-- KEEP YOUR SCRIPT (no change needed) -->
-
   <script is:inline define:vars={{ knownPlans }}>
-    const getSavedDays = (storageKey) => {
+    const getSavedDays = (key) => {
       try {
-        const rawValue = localStorage.getItem(storageKey);
-        const parsed = rawValue ? JSON.parse(rawValue) : [];
-        return Array.isArray(parsed) ? parsed.filter((value) => Number.isInteger(value)) : [];
+        const raw = localStorage.getItem(key);
+        const parsed = raw ? JSON.parse(raw) : [];
+        return Array.isArray(parsed) ? parsed.filter(Number.isInteger) : [];
       } catch {
         return [];
       }
@@ -104,31 +127,24 @@ const knownPlans = planSummaries.map((summary) => summary.plan);
     let latestPlan = null;
     let latestDay = 0;
 
-    knownPlans.forEach((planName) => {
-      const completedDays = getSavedDays(`first7-${planName}`);
+    knownPlans.forEach((plan) => {
+      const days = getSavedDays(`first7-${plan}`);
+      if (!days.length) return;
 
-      if (completedDays.length === 0) {
-        return;
-      }
-
-      const maxDay = Math.max(...completedDays);
-
-      if (maxDay > latestDay) {
-        latestDay = maxDay;
-        latestPlan = planName;
+      const max = Math.max(...days);
+      if (max > latestDay) {
+        latestDay = max;
+        latestPlan = plan;
       }
     });
 
-    const reminderBox = document.getElementById('reminder-box');
-    const continueButton = document.getElementById('continue-btn');
+    const box = document.getElementById('reminder-box');
+    const btn = document.getElementById('continue-btn');
 
-    if (
-      latestPlan &&
-      reminderBox instanceof HTMLElement &&
-      continueButton instanceof HTMLAnchorElement
-    ) {
-      reminderBox.classList.remove('hidden');
-      continueButton.href = `/plans/${latestPlan}/day-${latestDay + 1}`;
+    if (latestPlan && box && btn) {
+      box.classList.remove('hidden');
+      btn.href = `/plans/${latestPlan}/day-${latestDay + 1}`;
     }
   </script>
+
 </BaseLayout>
