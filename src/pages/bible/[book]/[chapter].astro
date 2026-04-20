@@ -1,8 +1,40 @@
 ---
-export const prerender = false;
-
 import BibleLayout from "../../../layouts/BibleLayout.astro";
 
+type BibleData = {
+  book: string;
+  chapters: Record<string, string[]>;
+};
+
+/**
+ * 🚀 Load ALL books at build time
+ */
+const bibleModules = import.meta.glob(
+  "../../../data/bible/*.json",
+  { eager: true }
+) as Record<string, { default: BibleData }>;
+
+/**
+ * ✅ Generate ALL static routes
+ */
+export function getStaticPaths() {
+  return Object.entries(bibleModules).flatMap(([key, module]) => {
+    const book = key.split("/").pop()?.replace(".json", "");
+
+    if (!book) return [];
+
+    return Object.keys(module.default.chapters).map((chapter) => ({
+      params: {
+        book,
+        chapter,
+      },
+    }));
+  });
+}
+
+/**
+ * 📍 Get params
+ */
 const { book, chapter } = Astro.params as {
   book: string;
   chapter: string;
@@ -12,21 +44,8 @@ if (!book || !chapter) {
   throw new Error("Missing route params");
 }
 
-type BibleData = {
-  book: string;
-  chapters: Record<string, string[]>;
-};
-
 /**
- * 🚀 Load ALL books (preloaded)
- */
-const bibleModules = import.meta.glob(
-  "../../../data/bible/*.json",
-  { eager: true }
-) as Record<string, { default: BibleData }>;
-
-/**
- * ✅ Find correct file using slug
+ * 🔍 SAFE MATCH (your original logic retained)
  */
 const fileKey = Object.keys(bibleModules).find((key) =>
   key.endsWith(`${book.toLowerCase()}.json`)
@@ -38,7 +57,6 @@ let verses: string[] = [];
 if (fileKey) {
   data = bibleModules[fileKey].default;
 
-  // ensure correct chapter format
   const chapterKey = String(Number(chapter));
   verses = data.chapters[chapterKey] || [];
 } else {
