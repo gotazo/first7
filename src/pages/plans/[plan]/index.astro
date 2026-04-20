@@ -1,0 +1,181 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getStartPlanStaticPaths } from '../../../lib/start-plans';
+
+export async function getStaticPaths() {
+  const planPaths = await getStartPlanStaticPaths();
+
+  return planPaths.map((planPath) => ({
+    params: { plan: planPath.plan },
+    props: {
+      plan: planPath.plan,
+      days: planPath.days
+    }
+  }));
+}
+
+const { plan, days } = Astro.props as {
+  plan: string;
+  days: Array<{ day: number; title: string }>;
+};
+
+const totalDays = days.length;
+---
+
+<BaseLayout title={plan}>
+
+  <div class="mx-auto max-w-2xl px-5 py-10 space-y-10">
+
+    <!-- HEADER -->
+    <div class="space-y-3">
+      <h1 class="text-3xl md:text-4xl font-semibold capitalize">
+        {plan.replace(/-/g, ' ')}
+      </h1>
+
+      <p class="text-[var(--color-muted)]">
+        A {totalDays}-day guided journey to grow consistently.
+      </p>
+    </div>
+
+    <!-- CONTINUE -->
+    <div
+      id="continue-box"
+      class="hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/10 p-6"
+    >
+      <p id="continue-text" class="text-sm text-[var(--color-muted)]">
+        Continue your journey
+      </p>
+
+      <a
+        id="continue-link"
+        class="mt-2 inline-block text-lg font-medium text-[var(--color-primary)]"
+      >
+        Resume ->
+      </a>
+    </div>
+
+    <!-- PROGRESS -->
+    <div class="space-y-3">
+
+      <div class="flex justify-between text-sm text-[var(--color-muted)]">
+        <span>Progress</span>
+        <span id="progress-text">0%</span>
+      </div>
+
+      <div class="h-2 w-full overflow-hidden rounded-full bg-[var(--color-border)]">
+        <div
+          id="progress-bar"
+          class="h-full w-0 bg-[var(--color-primary)] transition-all duration-500"
+        ></div>
+      </div>
+
+    </div>
+
+    <!-- DAYS -->
+    <div class="space-y-3">
+
+      {days.map((dayEntry) => (
+        <a
+          href={`/plans/${plan}/day-${dayEntry.day}`}
+          data-day={dayEntry.day}
+          class="group flex items-center justify-between rounded-xl border border-[var(--color-border)] p-4 transition hover:bg-[var(--color-primary)]/5"
+        >
+
+          <!-- LEFT -->
+          <div>
+            <p class="font-medium">
+              Day {dayEntry.day}
+            </p>
+
+            <p class="text-sm text-[var(--color-muted)]">
+              {dayEntry.title}
+            </p>
+          </div>
+
+          <!-- RIGHT -->
+          <div
+            class="text-xs text-[var(--color-muted)] group-hover:text-[var(--color-primary)]"
+            data-status
+          >
+            ->
+          </div>
+
+        </a>
+      ))}
+
+    </div>
+
+  </div>
+
+  <script is:inline define:vars={{ plan, totalDays }}>
+    const getSavedDays = (storageKey) => {
+      try {
+        const rawValue = localStorage.getItem(storageKey);
+        const parsed = rawValue ? JSON.parse(rawValue) : [];
+        return Array.isArray(parsed) ? parsed.filter((value) => Number.isInteger(value)) : [];
+      } catch {
+        return [];
+      }
+    };
+
+    const storageKey = `first7-${plan}`;
+    const savedDays = getSavedDays(storageKey);
+
+    // PROGRESS
+    const percent = totalDays === 0 ? 0 : Math.round((savedDays.length / totalDays) * 100);
+
+    const progressBar = document.getElementById('progress-bar');
+    const progressText = document.getElementById('progress-text');
+
+    if (progressBar) {
+      progressBar.style.width = `${percent}%`;
+    }
+
+    if (progressText) {
+      progressText.textContent = `${percent}%`;
+    }
+
+    // MARK COMPLETED DAYS
+    savedDays.forEach((savedDay) => {
+      const dayLink = document.querySelector(`[data-day="${savedDay}"]`);
+      const status = dayLink?.querySelector('[data-status]');
+
+      if (dayLink) {
+        dayLink.classList.add('bg-[var(--color-primary)]/10');
+      }
+
+      if (status) {
+        status.textContent = 'Done';
+      }
+    });
+
+    // CONTINUE
+    const continueBox = document.getElementById('continue-box');
+    const continueLink = document.getElementById('continue-link');
+    const continueText = document.getElementById('continue-text');
+
+    if (continueBox && continueLink && savedDays.length > 0) {
+
+      const lastDay = Math.max(...savedDays);
+
+      continueBox.classList.remove('hidden');
+
+      if (lastDay >= totalDays) {
+
+        continueLink.href = `/plans/${plan}`;
+        continueLink.textContent = 'View your journey ->';
+
+        if (continueText) {
+          continueText.textContent = "You've completed this plan.";
+        }
+
+      } else {
+
+        continueLink.href = `/plans/${plan}/day-${lastDay + 1}`;
+        continueLink.textContent = `Resume Day ${lastDay + 1} ->`;
+
+      }
+    }
+  </script>
+
+</BaseLayout>

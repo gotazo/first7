@@ -1,0 +1,29 @@
+---
+const { title, description, link } = Astro.props;
+---
+
+<div class="group p-6 md:p-7 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] shadow-sm hover:shadow-md transition">
+
+  <!-- TITLE -->
+  <h3 class="text-xl font-semibold tracking-tight text-[var(--color-text)]">
+    {title}
+  </h3>
+
+  <!-- DESCRIPTION -->
+  <p class="text-sm text-[var(--color-muted)] mt-2 leading-relaxed">
+    {description}
+  </p>
+
+  <!-- CTA BUTTON -->
+  <div class="mt-5">
+    <a 
+      href={link}
+      class="btn inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold shadow-md transition-all duration-200 hover:scale-[1.03]"
+      style="background-color: var(--color-primary); color: #ffffff;"
+    >
+      Continue
+      <span class="transition group-hover:translate-x-1">→</span>
+    </a>
+  </div>
+
+</div>

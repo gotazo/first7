@@ -1,0 +1,166 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogSidebar from '../../components/BlogSidebar.astro';
+
+type BlogEntry = CollectionEntry<'blog'>;
+
+// 🚀 Optimized: single fetch + sorted once
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+
+  const sorted = posts.sort(
+    (a, b) => a.data.date.getTime() - b.data.date.getTime()
+  );
+
+  return sorted.map((post, index) => ({
+    params: { slug: post.id },
+    props: {
+      post,
+      prevPost: sorted[index - 1] || null,
+      nextPost: sorted[index + 1] || null
+    }
+  }));
+}
+
+const { post, prevPost, nextPost } = Astro.props as {
+  post: BlogEntry;
+  prevPost: BlogEntry | null;
+  nextPost: BlogEntry | null;
+};
+
+const { Content } = await render(post);
+
+// 🧠 Tag → plan mapping
+const tagToPlan: Record<string, string> = {
+  anxiety: "anxiety",
+  discipline: "discipline",
+  purpose: "purpose",
+};
+
+const firstTag = post.data.tags?.[0]?.toLowerCase();
+const plan = tagToPlan[firstTag] || "anxiety";
+---
+
+<BaseLayout 
+  title={post.data.title} 
+  description={post.data.excerpt}
+  full={true}
+>
+
+  <!-- 📊 PROGRESS BAR -->
+  <div
+    id="reading-progress"
+    class="fixed top-0 left-0 h-1 bg-[var(--color-primary)] w-0 z-50"
+  ></div>
+
+  <div class="mx-auto w-[90%] max-w-[1400px] px-4">
+
+    <div class="grid lg:grid-cols-[minmax(0,1fr)_260px] gap-12">
+
+      <!-- MAIN -->
+      <article class="max-w-2xl mx-auto py-12">
+
+        <!-- TITLE -->
+        <header class="mb-10">
+          <h1 class="text-3xl md:text-5xl font-semibold leading-tight tracking-tight">
+            {post.data.title}
+          </h1>
+
+          <div class="mt-5 flex flex-wrap items-center gap-3 text-sm text-[var(--color-muted)]">
+            <span>{post.data.date.toLocaleDateString()}</span>
+
+            {post.data.tags?.map(tag => (
+              <span class="px-2 py-1 rounded-full bg-[var(--color-primary)]/10 text-[var(--color-primary)] text-xs">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </header>
+
+        <!-- CONTENT (optimized render) -->
+        <div class="prose prose-neutral dark:prose-invert max-w-none">
+          <div style="content-visibility: auto;">
+            <Content />
+          </div>
+        </div>
+
+        <!-- NEXT / PREV -->
+        <div class="mt-16 grid gap-4 sm:grid-cols-2">
+          {prevPost && (
+            <a href={`/blog/${prevPost.id}`} rel="prefetch"
+              class="block rounded-xl border border-[var(--color-border)] p-4 hover:bg-[var(--color-primary)]/5 transition">
+              <p class="text-xs text-[var(--color-muted)]">← Previous</p>
+              <p class="mt-1 font-medium">{prevPost.data.title}</p>
+            </a>
+          )}
+
+          {nextPost && (
+            <a href={`/blog/${nextPost.id}`} rel="prefetch"
+              class="block rounded-xl border border-[var(--color-border)] p-4 text-right hover:bg-[var(--color-primary)]/5 transition">
+              <p class="text-xs text-[var(--color-muted)]">Next →</p>
+              <p class="mt-1 font-medium">{nextPost.data.title}</p>
+            </a>
+          )}
+        </div>
+
+        <!-- CTA -->
+        <section class="mt-16 text-center space-y-6">
+          <p class="text-xl font-medium">
+            Don’t just read this. Live it.
+          </p>
+
+          <div class="flex flex-wrap justify-center gap-4">
+            <a href={`/plans/${plan}/day-1`}
+              class="px-5 py-2.5 rounded-lg bg-[var(--color-primary)] text-white hover:opacity-90 transition">
+              Begin →
+            </a>
+
+            <a href="/blog"
+              class="px-5 py-2.5 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] transition">
+              Back →
+            </a>
+          </div>
+        </section>
+
+      </article>
+
+      <!-- SIDEBAR -->
+      <aside class="hidden lg:block py-12">
+        <div class="sticky top-24">
+          <BlogSidebar plan={plan} />
+        </div>
+      </aside>
+
+    </div>
+
+  </div>
+
+  <!-- 🚀 Optimized scroll script -->
+  <script is:inline>
+    const progressBar = document.getElementById("reading-progress");
+
+    const updateProgress = () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.body.scrollHeight - window.innerHeight;
+      const progress = (scrollTop / docHeight) * 100;
+
+      if (progressBar) {
+        progressBar.style.width = progress + "%";
+      }
+    };
+
+    let ticking = false;
+
+    window.addEventListener("scroll", () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          updateProgress();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
+  </script>
+
+</BaseLayout>

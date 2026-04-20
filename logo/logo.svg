@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="99.238289mm"
+   height="24.578022mm"
+   viewBox="0 0 99.238289 24.578022"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="99.238289"
+       height="24.578022"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-47.774891,-155.95788)">
+    <text
+       xml:space="preserve"
+       style="font-size:37.0678px;line-height:0.7;font-family:Montserrat;-inkscape-font-specification:Montserrat;writing-mode:lr-tb;direction:ltr;fill:#483e37;fill-opacity:0.940741;stroke-width:0.264583"
+       x="40.9813"
+       y="206.74779"
+       id="text1"
+       transform="scale(1.1481186,0.87099015)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="fill:#483e37;stroke-width:0.264583"
+         x="40.9813"
+         y="206.74779">first</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:35.5805px;line-height:0.7;font-family:Montserrat;-inkscape-font-specification:Montserrat;writing-mode:lr-tb;direction:ltr;fill:#5aa02c;fill-opacity:0.940741;stroke-width:0.264583"
+       x="108.55762"
+       y="207.37784"
+       id="text2"
+       transform="scale(1.1486791,0.87056515)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="fill:#5aa02c;stroke-width:0.264583"
+         x="108.55762"
+         y="207.37784">7</tspan></text>
+  </g>
+</svg>

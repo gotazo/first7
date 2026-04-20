@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+/* =========================
+   🎨 THEME
+========================= */
+:root {
+  --color-bg: #FAFAF7;
+  --color-text: #1C1C1C;
+  --color-muted: #4B5563;
+  --color-border: #E5E7EB;
+  --color-primary: #6F8F76;
+}
+
+.dark {
+  --color-bg: #0F172A;
+  --color-text: #E5E7EB;
+  --color-muted: #94A3B8;
+  --color-border: #1E293B;
+  --color-primary: #8FAF97;
+}
+
+/* =========================
+   📖 TYPOGRAPHY
+========================= */
+
+article {
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+/* Headings */
+article h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+article h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+
+article h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+}
+
+/* Paragraphs */
+article p {
+  margin: 1.2em 0;
+}
+
+/* Lists */
+article ul {
+  margin: 1em 0;
+  padding-left: 1.2em;
+}
+
+article li {
+  margin: 0.4em 0;
+}
+
+/* Blockquotes */
+article blockquote {
+  border-left: 3px solid var(--color-primary);
+  padding-left: 1rem;
+  margin: 1.5em 0;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* Links inside content */
+article a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* =========================
+   🔘 BUTTON FIX (IMPORTANT)
+========================= */
+
+/* Default links */
+a:not(.btn) {
+  color: var(--color-text);
+}
+
+/* Button override */
+.btn {
+  color: white !important;
+}
+
+/* =========================
+   ✨ SMOOTH SCROLL
+========================= */
+html {
+  scroll-behavior: smooth;
+}

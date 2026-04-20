@@ -1,0 +1,151 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+type BibleData = {
+  book: string;
+  chapters: Record<string, string[]>;
+};
+
+/**
+ * 🚀 Load ALL books from JSON
+ */
+const bibleModules = import.meta.glob(
+  '../../data/bible/*.json',
+  { eager: true }
+) as Record<string, { default: BibleData }>;
+
+const allBooks = Object.values(bibleModules).map((mod) => mod.default);
+
+/**
+ * 📚 Normalize into same structure as before
+ */
+const books: Record<string, { chapter: number }[]> = Object.create(null);
+
+for (const bookData of allBooks) {
+  const bookName = bookData.book.toLowerCase();
+
+  books[bookName] = Object.keys(bookData.chapters).map((ch) => ({
+    chapter: Number(ch)
+  }));
+}
+
+/**
+ * 🧠 Helper
+ */
+const formatBook = (book: string) =>
+  book.replace(/\b\w/g, (l) => l.toUpperCase());
+
+const slugify = (book: string) =>
+  book.toLowerCase().replace(/\s+/g, '-');
+
+/**
+ * 📖 Testament lists (same as yours)
+ */
+const oldTestament = [
+  "genesis","exodus","leviticus","numbers","deuteronomy",
+  "joshua","judges","ruth","1 samuel","2 samuel",
+  "1 kings","2 kings","1 chronicles","2 chronicles",
+  "ezra","nehemiah","esther","job","psalms","proverbs",
+  "ecclesiastes","song of solomon","isaiah","jeremiah",
+  "lamentations","ezekiel","daniel","hosea","joel","amos",
+  "obadiah","jonah","micah","nahum","habakkuk","zephaniah",
+  "haggai","zechariah","malachi"
+];
+
+const newTestament = [
+  "matthew","mark","luke","john","acts","romans",
+  "1 corinthians","2 corinthians","galatians","ephesians",
+  "philippians","colossians","1 thessalonians","2 thessalonians",
+  "1 timothy","2 timothy","titus","philemon","hebrews",
+  "james","1 peter","2 peter","1 john","2 john","3 john",
+  "jude","revelation"
+];
+---
+
+<BaseLayout title="Bible">
+
+  <div class="max-w-5xl mx-auto px-4 py-16 space-y-16">
+
+    <h1 class="text-3xl font-semibold">
+      The Holy <span class="text-[var(--color-primary)]">Bible</span>
+    </h1>
+
+    <!-- OLD TESTAMENT -->
+    <section class="space-y-8">
+      <h2 class="text-2xl font-semibold">Old Testament</h2>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        {oldTestament
+          .filter((book) => books[book])
+          .map((book) => {
+            const chapters = books[book].sort(
+              (a, b) => a.chapter - b.chapter
+            );
+
+            return (
+              <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-4 hover:bg-[var(--color-primary)]/5 transition">
+
+                <h3 class="font-semibold text-lg">
+                  {formatBook(book)}
+                </h3>
+
+                <div class="flex flex-wrap gap-2">
+                  {chapters.map((entry) => (
+                    <a
+                      href={`/bible/${slugify(book)}/${entry.chapter}`}
+                      class="px-2.5 py-1 text-sm rounded-md border border-[var(--color-border)] hover:bg-[var(--color-primary)]/10 transition"
+                    >
+                      {entry.chapter}
+                    </a>
+                  ))}
+                </div>
+
+              </div>
+            );
+          })}
+
+      </div>
+    </section>
+
+    <!-- NEW TESTAMENT -->
+    <section class="space-y-8">
+      <h2 class="text-2xl font-semibold">New Testament</h2>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        {newTestament
+          .filter((book) => books[book])
+          .map((book) => {
+            const chapters = books[book].sort(
+              (a, b) => a.chapter - b.chapter
+            );
+
+            return (
+              <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-4 hover:bg-[var(--color-primary)]/5 transition">
+
+                <h3 class="font-semibold text-lg">
+                  {formatBook(book)}
+                </h3>
+
+                <div class="flex flex-wrap gap-2">
+                  {chapters.map((entry) => (
+                    <a
+                      href={`/bible/${slugify(book)}/${entry.chapter}`}
+                      class="px-2.5 py-1 text-sm rounded-md border border-[var(--color-border)] hover:bg-[var(--color-primary)]/10 transition"
+                    >
+                      {entry.chapter}
+                    </a>
+                  ))}
+                </div>
+
+              </div>
+            );
+          })}
+
+      </div>
+    </section>
+
+  </div>
+
+</BaseLayout>

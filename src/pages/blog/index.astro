@@ -1,0 +1,114 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Fetch + sort posts
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+
+// Reading time (FIXED TYPE)
+function getReadingTime(text: string) {
+  const wordsPerMinute = 200;
+  const words = text.split(/\s+/).length;
+  return Math.max(1, Math.ceil(words / wordsPerMinute));
+}
+
+// Add reading time safely
+const enrichedPosts = posts.map((post) => ({
+  ...post,
+  readingTime: getReadingTime(post.body ?? ''),
+}));
+
+// "Most Popular" (top 3 latest for now)
+const popularPosts = enrichedPosts.slice(0, 3);
+const restPosts = enrichedPosts.slice(3);
+---
+
+<BaseLayout>
+
+  <!-- HEADER -->
+  <div class="mb-12">
+    <h1 class="text-4xl font-semibold">Explore Faith</h1>
+    <p class="text-[var(--color-muted)] mt-2">
+      Stories, truth, and reflections to guide your journey.
+    </p>
+  </div>
+
+  <!-- 🔥 MOST POPULAR -->
+  <div class="mb-14">
+    <h2 class="text-2xl font-semibold mb-6">🔥 Most Popular</h2>
+
+    <div class="grid gap-6 md:grid-cols-3">
+      {popularPosts.map((post) => (
+        <a
+          href={`/blog/${post.id}`}
+          class="group block rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 p-6 transition hover:-translate-y-1 hover:shadow-lg hover:border-[var(--color-primary)]"
+        >
+          <!-- BADGE -->
+          <div class="mb-3">
+            <span class="text-xs px-2 py-1 rounded-full bg-[var(--color-primary)]/10 text-[var(--color-primary)]">
+              Featured
+            </span>
+          </div>
+
+          <!-- TITLE -->
+          <h3 class="text-lg font-semibold group-hover:text-[var(--color-primary)] transition">
+            {post.data.title}
+          </h3>
+
+          <!-- EXCERPT -->
+          <p class="mt-3 text-sm text-[var(--color-muted)] line-clamp-3">
+            {post.data.excerpt}
+          </p>
+
+          <!-- FOOTER -->
+          <div class="mt-4 flex justify-between text-xs text-[var(--color-muted)]">
+            <span>{post.readingTime} min read</span>
+            <span>→</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <!-- 📚 ALL POSTS -->
+  <div>
+    <h2 class="text-2xl font-semibold mb-6">Latest Articles</h2>
+
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {restPosts.map((post) => (
+        <a
+          href={`/blog/${post.id}`}
+          class="group block rounded-2xl border border-[var(--color-border)] bg-white/5 p-6 transition hover:-translate-y-1 hover:shadow-lg hover:border-[var(--color-primary)]"
+        >
+          <!-- TAGS -->
+          <div class="flex flex-wrap gap-2 mb-3">
+            {post.data.tags?.slice(0, 2).map((tag) => (
+              <span class="text-xs px-2 py-1 rounded-full bg-[var(--color-primary)]/10 text-[var(--color-primary)]">
+                {tag}
+              </span>
+            ))}
+          </div>
+
+          <!-- TITLE -->
+          <h3 class="text-lg font-semibold leading-snug group-hover:text-[var(--color-primary)] transition">
+            {post.data.title}
+          </h3>
+
+          <!-- EXCERPT -->
+          <p class="mt-3 text-sm text-[var(--color-muted)] line-clamp-3">
+            {post.data.excerpt}
+          </p>
+
+          <!-- FOOTER -->
+          <div class="mt-4 flex items-center justify-between text-xs text-[var(--color-muted)]">
+            <span>{post.readingTime} min read</span>
+            <span class="group-hover:translate-x-1 transition">→</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+</BaseLayout>

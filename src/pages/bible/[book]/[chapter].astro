@@ -1,0 +1,68 @@
+---
+export const prerender = false;
+
+import BibleLayout from "../../../layouts/BibleLayout.astro";
+
+const { book, chapter } = Astro.params as {
+  book: string;
+  chapter: string;
+};
+
+if (!book || !chapter) {
+  throw new Error("Missing route params");
+}
+
+type BibleData = {
+  book: string;
+  chapters: Record<string, string[]>;
+};
+
+/**
+ * 🚀 Load ALL books (preloaded)
+ */
+const bibleModules = import.meta.glob(
+  "../../../data/bible/*.json",
+  { eager: true }
+) as Record<string, { default: BibleData }>;
+
+/**
+ * ✅ Find correct file using slug
+ */
+const fileKey = Object.keys(bibleModules).find((key) =>
+  key.endsWith(`${book.toLowerCase()}.json`)
+);
+
+let data: BibleData | null = null;
+let verses: string[] = [];
+
+if (fileKey) {
+  data = bibleModules[fileKey].default;
+
+  // ensure correct chapter format
+  const chapterKey = String(Number(chapter));
+  verses = data.chapters[chapterKey] || [];
+} else {
+  console.error("Book not found:", book);
+}
+---
+
+<BibleLayout 
+  currentBook={book} 
+  currentChapter={Number(chapter)}
+>
+
+  <Fragment slot="header">
+    <h1 class="text-2xl font-semibold capitalize">
+      {data?.book} {chapter}
+    </h1>
+  </Fragment>
+
+  <div class="space-y-4 text-lg leading-relaxed">
+    {verses.map((verse: string, i: number) => (
+      <p id={`v${i + 1}`} class="bible-verse">
+        <span class="verse-number">{i + 1}</span> {verse}
+      </p>
+    ))}
+  </div>
+
+</BibleLayout>

@@ -1,0 +1,161 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Your Journal">
+
+  <section class="max-w-4xl mx-auto py-16 px-4">
+
+    <!-- HEADER -->
+    <div class="mb-8 flex items-center justify-between">
+      <div>
+        <h1 class="text-3xl md:text-4xl font-semibold">
+          Your Journal
+        </h1>
+        <p class="text-[var(--color-muted)] mt-2">
+          Your reflections are saved locally on your device.
+        </p>
+      </div>
+
+      <!-- PDF BUTTON -->
+      <button 
+        id="download-pdf"
+        class="px-4 py-2 rounded-lg bg-[var(--color-primary)] text-white font-medium shadow-sm hover:opacity-90 transition"
+      >
+        Download PDF
+      </button>
+    </div>
+
+    <!-- EMPTY STATE -->
+    <div id="empty" class="hidden text-center py-20 border border-dashed rounded-xl">
+      <p class="text-lg">No reflections yet</p>
+      <p class="text-sm text-[var(--color-muted)] mt-2">
+        Start a plan and your journal will appear here.
+      </p>
+    </div>
+
+    <!-- JOURNAL LIST -->
+    <div id="journal-list" class="space-y-6"></div>
+
+  </section>
+
+</BaseLayout>
+
+<script type="module">
+  import { jsPDF } from "jspdf";
+
+  const container = document.getElementById("journal-list");
+  const empty = document.getElementById("empty");
+  const downloadBtn = document.getElementById("download-pdf");
+
+  if (!container || !empty) return;
+
+  const entries = Object.keys(localStorage).filter(key =>
+    key.startsWith("journal-")
+  );
+
+  if (entries.length === 0) {
+    empty.classList.remove("hidden");
+  } else {
+
+    const grouped = {};
+
+    entries.forEach(key => {
+      const parts = key.split("-");
+      const plan = parts[1];
+      const day = parts[2];
+
+      if (!grouped[plan]) grouped[plan] = [];
+
+      grouped[plan].push({
+        day,
+        text: localStorage.getItem(key),
+        key,
+      });
+    });
+
+    Object.keys(grouped).forEach(plan => {
+
+      const section = document.createElement("div");
+
+      section.innerHTML = `
+        <h2 class="text-xl font-semibold mb-4 capitalize">${plan}</h2>
+      `;
+
+      const list = document.createElement("div");
+      list.className = "space-y-4";
+
+      grouped[plan]
+        .sort((a, b) => Number(a.day) - Number(b.day))
+        .forEach(entry => {
+
+          const card = document.createElement("div");
+          card.className = "p-5 rounded-xl border border-[var(--color-border)] bg-[var(--color-bg)]";
+
+          card.innerHTML = `
+            <div class="flex justify-between items-center">
+              <p class="text-sm text-[var(--color-muted)]">Day ${entry.day}</p>
+              <button class="text-xs text-red-500 hover:underline" data-key="${entry.key}">
+                Delete
+              </button>
+            </div>
+
+            <p class="mt-3 leading-relaxed whitespace-pre-line">
+              ${entry.text || ""}
+            </p>
+          `;
+
+          list.appendChild(card);
+        });
+
+      section.appendChild(list);
+      container.appendChild(section);
+    });
+
+    // DELETE
+    container.addEventListener("click", (e) => {
+      const target = e.target;
+
+      if (target && target.dataset && target.dataset.key) {
+        localStorage.removeItem(target.dataset.key);
+        location.reload();
+      }
+    });
+  }
+
+  // PDF EXPORT
+  downloadBtn?.addEventListener("click", () => {
+    const doc = new jsPDF();
+
+    const entries = Object.keys(localStorage).filter(key =>
+      key.startsWith("journal-")
+    );
+
+    let y = 10;
+
+    doc.setFontSize(18);
+    doc.text("My Journal", 10, y);
+    y += 10;
+
+    entries.forEach((key) => {
+      const text = localStorage.getItem(key);
+      const label = key.replace("journal-", "").toUpperCase();
+
+      if (y > 270) {
+        doc.addPage();
+        y = 10;
+      }
+
+      doc.setFontSize(12);
+      doc.text(label, 10, y);
+      y += 6;
+
+      const splitText = doc.splitTextToSize(text || "", 180);
+      doc.text(splitText, 10, y);
+
+      y += splitText.length * 6 + 6;
+    });
+
+    doc.save("journal.pdf");
+  });
+</script>

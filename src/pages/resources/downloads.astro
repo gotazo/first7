@@ -1,0 +1,156 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const downloads = [
+  {
+    title: "Release Control",
+    subtitle: "A 7-Day Guide for Anxiety",
+    file: "/downloads/anxiety-first7.pdf",
+    tag: "Start Here"
+  },
+  {
+    title: "Find Peace",
+    subtitle: "A 7-Day Guide to Inner Calm",
+    file: "/downloads/find-peace-first7.pdf"
+  },
+  {
+    title: "Come and Pray",
+    subtitle: "A 7-Day Prayer Journey",
+    file: "/downloads/come-and-pray-first7.pdf"
+  },
+  {
+    title: "Know Your Worth",
+    subtitle: "A 7-Day Identity Reset",
+    file: "/downloads/know-your-worth-first7.pdf"
+  },
+  {
+    title: "Walk in Purpose",
+    subtitle: "A 7-Day Direction Guide",
+    file: "/downloads/walk-in-purpose-first7.pdf",
+    tag: "Popular"
+  },
+  {
+    title: "Stay Steady",
+    subtitle: "A 7-Day Stability Guide",
+    file: "/downloads/stay-steady-first7.pdf"
+  },
+  {
+    title: "Trust the Process",
+    subtitle: "A 7-Day Faith Journey",
+    file: "/downloads/trust-the-process-first7.pdf"
+  }
+];
+---
+
+<BaseLayout title="First7 Downloads">
+
+  <div class="max-w-6xl mx-auto px-4 py-16">
+
+    <!-- HERO -->
+    <section class="text-center mb-20">
+      <h1 class="text-4xl md:text-5xl font-semibold">
+        Start Your First7 Journey
+      </h1>
+
+      <p class="mt-4 text-[var(--color-muted)] max-w-xl mx-auto">
+        7-day guided journals to help you slow down, reflect, and walk forward—one step at a time.
+      </p>
+    </section>
+
+    <!-- FREE (ENTRY) -->
+    <section class="mb-20">
+      <h2 class="text-2xl font-semibold mb-6">Start Here</h2>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        {downloads.slice(0,1).map((item) => (
+          <div class="p-6 rounded-2xl border shadow-sm">
+
+            <span class="text-xs px-2 py-1 rounded bg-green-100 text-green-700">
+              Free
+            </span>
+
+            <h3 class="text-xl font-semibold mt-3">
+              {item.title}
+            </h3>
+
+            <p class="mt-1 text-sm text-[var(--color-muted)]">
+              {item.subtitle}
+            </p>
+
+            <ul class="mt-4 text-sm space-y-1">
+              <li>• 7 structured days</li>
+              <li>• Reflection prompts</li>
+              <li>• Simple daily guidance</li>
+            </ul>
+
+            <a
+              href={item.file}
+              download
+              class="mt-6 inline-block px-5 py-3 rounded-xl bg-[var(--color-primary)] text-white"
+              onclick={`gtag('event','download_click',{file:'${item.file}',type:'free'})`}
+            >
+              Start Day 1 →
+            </a>
+
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- LOCKED JOURNALS -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-6">Guided Journals</h2>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        {downloads.slice(1).map((item) => (
+          <div class="p-6 rounded-2xl border shadow-sm relative">
+
+            {item.tag && (
+              <span class="absolute top-4 right-4 text-xs px-2 py-1 rounded bg-gray-200">
+                {item.tag}
+              </span>
+            )}
+
+            <span class="text-xs px-2 py-1 rounded bg-gray-100">
+              Locked
+            </span>
+
+            <h3 class="text-lg font-semibold mt-3">
+              {item.title}
+            </h3>
+
+            <p class="mt-1 text-sm text-[var(--color-muted)]">
+              {item.subtitle}
+            </p>
+
+            <ul class="mt-4 text-sm space-y-1">
+              <li>• Guided reflection</li>
+              <li>• Daily structure</li>
+              <li>• Designed for clarity</li>
+            </ul>
+
+            <a
+              href={`/unlock?file=${encodeURIComponent(item.file)}`}
+              class="mt-6 inline-block px-5 py-3 rounded-xl bg-black text-white"
+              onclick={`gtag('event','unlock_click',{file:'${item.file}',type:'locked'})`}
+            >
+              🔒 Unlock →
+            </a>
+
+          </div>
+        ))}
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="text-center mt-24">
+      <p class="text-sm text-[var(--color-muted)]">
+        No pressure. Just show up each day. One step is enough.
+      </p>
+    </section>
+
+  </div>
+
+</BaseLayout>

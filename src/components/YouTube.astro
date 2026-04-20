@@ -1,0 +1,33 @@
+---
+const { id } = Astro.props;
+
+const thumbnail = `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
+const videoUrl = `https://www.youtube.com/watch?v=${id}`;
+---
+
+<a 
+  href={videoUrl}
+  target="_blank"
+  rel="noopener noreferrer nofollow"
+  aria-label="Watch video on YouTube"
+  class="block relative w-full aspect-video my-6 group"
+>
+
+  <img
+    src={thumbnail}
+    alt="YouTube thumbnail"
+    class="w-full h-full object-cover rounded-xl"
+    loading="lazy"
+  />
+
+  <div class="absolute inset-0 flex items-center justify-center">
+    <div class="transition group-hover:scale-110">
+      <!-- SVG stays same -->
+    </div>
+  </div>
+
+  <div class="absolute bottom-2 right-2 text-xs bg-black/70 px-2 py-1 rounded text-white">
+    Watch on YouTube
+  </div>
+
+</a>

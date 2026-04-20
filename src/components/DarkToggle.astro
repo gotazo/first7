@@ -1,0 +1,55 @@
+<button
+  id="theme-toggle"
+  class="relative flex items-center justify-center w-9 h-9 rounded-xl border border-[var(--color-border)] 
+  bg-[var(--color-bg)] hover:bg-[var(--color-primary)]/10 
+  transition duration-200 ease-out active:scale-95"
+  aria-label="Toggle theme"
+  type="button"
+>
+
+  <!-- Moon -->
+  <svg id="icon-moon"
+    xmlns="http://www.w3.org/2000/svg"
+    class="absolute h-4 w-4 transition-all duration-300 ease-out"
+    fill="currentColor"
+    viewBox="0 0 24 24">
+    <path d="M21 12.79A9 9 0 0111.21 3c0 .34.02.67.05 1A7 7 0 1019 19.74a9 9 0 002-6.95z"></path>
+  </svg>
+
+  <!-- Sun -->
+  <svg id="icon-sun"
+    xmlns="http://www.w3.org/2000/svg"
+    class="absolute h-4 w-4 transition-all duration-300 ease-out scale-0 opacity-0"
+    fill="currentColor"
+    viewBox="0 0 24 24">
+    <path d="M12 4.5a1 1 0 011 1V7a1 1 0 11-2 0V5.5a1 1 0 011-1zm0 11a1 1 0 011 1V18a1 1 0 11-2 0v-1.5a1 1 0 011-1zm7.5-5.5a1 1 0 010 2H18a1 1 0 110-2h1.5zM6 12a1 1 0 110 2H4.5a1 1 0 110-2H6zm9.19-5.69a1 1 0 011.42 0l1.06 1.06a1 1 0 01-1.42 1.42l-1.06-1.06a1 1 0 010-1.42zM6.75 15.94a1 1 0 011.42 0l1.06 1.06a1 1 0 11-1.42 1.42l-1.06-1.06a1 1 0 010-1.42zm9.19 2.48a1 1 0 010 1.42l-1.06 1.06a1 1 0 01-1.42-1.42l1.06-1.06a1 1 0 011.42 0zM6.75 6.06a1 1 0 010 1.42L5.69 8.54a1 1 0 11-1.42-1.42l1.06-1.06a1 1 0 011.42 0zM12 8a4 4 0 100 8 4 4 0 000-8z"></path>
+  </svg>
+
+</button>
+
+<script is:inline>
+  const btn = document.getElementById("theme-toggle");
+  const moon = document.getElementById("icon-moon");
+  const sun = document.getElementById("icon-sun");
+
+  const update = () => {
+    const dark = document.documentElement.classList.contains("dark");
+
+    moon?.classList.toggle("scale-0", dark);
+    moon?.classList.toggle("opacity-0", dark);
+
+    sun?.classList.toggle("scale-100", dark);
+    sun?.classList.toggle("opacity-100", dark);
+  };
+
+  btn?.addEventListener("click", () => {
+    document.documentElement.classList.toggle("dark");
+
+    const dark = document.documentElement.classList.contains("dark");
+    localStorage.setItem("theme", dark ? "dark" : "light");
+
+    update();
+  });
+
+  update();
+</script>

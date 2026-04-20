@@ -1,0 +1,76 @@
+---
+const { id = "default" } = Astro.props;
+const storageKey = `reflection-${id}`;
+---
+
+<div class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 p-6 space-y-4">
+
+  <!-- HEADER -->
+  <div>
+    <p class="text-sm font-medium text-[var(--color-muted)]">
+      Reflection
+    </p>
+
+    <p class="mt-2 text-lg leading-relaxed">
+      What is God showing you right now?
+    </p>
+
+    <p class="mt-1 text-xs text-[var(--color-muted)]">
+      You can write honestly.
+    </p>
+  </div>
+
+  <!-- TEXTAREA -->
+  <textarea 
+    id={`reflection-${id}`}
+    class="w-full rounded-xl border border-[var(--color-border)] p-4 bg-white/40 dark:bg-transparent focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]/30 transition"
+    rows="5"
+    placeholder="Write your thoughts..."
+  ></textarea>
+
+  <!-- FOOTER -->
+  <div class="flex items-center justify-between text-xs text-[var(--color-muted)]">
+    <span id={`save-status-${id}`}>
+      Not saved
+    </span>
+
+    <button 
+      id={`clear-${id}`} 
+      class="hover:text-red-500 transition"
+      type="button"
+    >
+      Clear
+    </button>
+  </div>
+
+</div>
+
+<script is:inline define:vars={{ id, storageKey }}>
+  const textarea = document.getElementById(`reflection-${id}`);
+  const status = document.getElementById(`save-status-${id}`);
+  const clearBtn = document.getElementById(`clear-${id}`);
+
+  if (textarea && status) {
+
+    // Load
+    const saved = localStorage.getItem(storageKey);
+    if (saved) {
+      textarea.value = saved;
+      status.textContent = "Saved ✓";
+    }
+
+    // Save
+    textarea.addEventListener("input", () => {
+      localStorage.setItem(storageKey, textarea.value);
+      status.textContent = "Saved ✓";
+    });
+
+    // Clear
+    clearBtn?.addEventListener("click", () => {
+      localStorage.removeItem(storageKey);
+      textarea.value = "";
+      status.textContent = "Cleared";
+    });
+
+  }
+</script>

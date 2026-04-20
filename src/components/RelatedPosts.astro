@@ -1,0 +1,20 @@
+---
+interface Post {
+  title: string;
+  href: string;
+}
+
+const { posts } = Astro.props as { posts: Post[] };
+---
+
+<div class="mt-12 border-t border-zinc-800 pt-8">
+  <h3 class="text-xl font-semibold mb-4">Continue Reading</h3>
+
+  <div class="grid gap-4">
+    {posts.map((post: Post) => (
+      <a href={post.href} class="block p-4 rounded-xl border border-zinc-800 hover:bg-zinc-900 transition">
+        <h4 class="font-medium">{post.title}</h4>
+      </a>
+    ))}
+  </div>
+</div>
