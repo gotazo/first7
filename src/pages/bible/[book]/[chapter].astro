@@ -7,17 +7,14 @@ type BibleData = {
 };
 
 /**
- * 🚀 Load ALL books at build time
- */
-const bibleModules = import.meta.glob(
-  "../../../data/bible/*.json",
-  { eager: true }
-) as Record<string, { default: BibleData }>;
-
-/**
- * ✅ Generate ALL static routes
+ * ✅ STATIC PATHS (self-contained)
  */
 export function getStaticPaths() {
+  const bibleModules = import.meta.glob(
+    "../../../data/bible/*.json",
+    { eager: true }
+  ) as Record<string, { default: BibleData }>;
+
   return Object.entries(bibleModules).flatMap(([key, module]) => {
     const book = key.split("/").pop()?.replace(".json", "");
 
@@ -33,7 +30,15 @@ export function getStaticPaths() {
 }
 
 /**
- * 📍 Get params
+ * 🚀 Load again for page usage
+ */
+const bibleModules = import.meta.glob(
+  "../../../data/bible/*.json",
+  { eager: true }
+) as Record<string, { default: BibleData }>;
+
+/**
+ * 📍 Params
  */
 const { book, chapter } = Astro.params as {
   book: string;
@@ -45,7 +50,7 @@ if (!book || !chapter) {
 }
 
 /**
- * 🔍 SAFE MATCH (your original logic retained)
+ * 🔍 Safe match
  */
 const fileKey = Object.keys(bibleModules).find((key) =>
   key.endsWith(`${book.toLowerCase()}.json`)
