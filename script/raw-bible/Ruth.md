@@ -7,7 +7,7 @@ weight: 8
 ## RUTH
 
 
-## CHAPTER 1
+## RUTH 1
 **1** Now it came to pass in the days when the judges ruled, that there was a famine in the land. And a certain man of Beth-lehem-judah went to sojourn in the country of Moab, he, and his wife, and his two sons.
 **2** And the name of the man was Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Beth-lehem-judah. And they came into the country of Moab, and continued there.
 **3** And Elimelech Naomi's husband died; and she was left, and her two sons.
@@ -31,7 +31,7 @@ weight: 8
 **21** I went out full, and the LORD hath brought me home again empty: why then call ye me Naomi, seeing the LORD hath testified against me, and the Almighty hath afflicted me?
 **22** So Naomi returned, and Ruth the Moabitess, her daughter in law, with her, which returned out of the country of Moab: and they came to Beth-lehem in the beginning of barley harvest.
 
-## CHAPTER 2
+## RUTH 2
 **1** And Naomi had a kinsman of her husband's, a mighty man of wealth, of the family of Elimelech; and his name was Boaz.
 **2** And Ruth the Moabitess said unto Naomi, Let me now go to the field, and glean ears of corn after him in whose sight I shall find grace. And she said unto her, Go, my daughter.
 **3** And she went, and came, and gleaned in the field after the reapers: and her hap was to light on a part of the field belonging unto Boaz, who was of the kindred of Elimelech.
@@ -56,7 +56,7 @@ weight: 8
 **22** And Naomi said unto Ruth her daughter in law, It is good, my daughter, that thou go out with his maidens, that they meet thee not in any other field.
 **23** So she kept fast by the maidens of Boaz to glean unto the end of barley harvest and of wheat harvest; and dwelt with her mother in law.
 
-## CHAPTER 3
+## RUTH 3
 **1** Then Naomi her mother in law said unto her, My daughter, shall I not seek rest for thee, that it may be well with thee?
 **2** And now is not Boaz of our kindred, with whose maidens thou wast? Behold, he winnoweth barley to night in the threshingfloor.
 **3** Wash thyself therefore, and anoint thee, and put thy raiment upon thee, and get thee down to the floor: but make not thyself known unto the man, until he shall have done eating and drinking.
@@ -76,7 +76,7 @@ weight: 8
 **17** And she said, These six measures of barley gave he me; for he said to me, Go not empty unto thy mother in law.
 **18** Then said she, Sit still, my daughter, until thou know how the matter will fall: for the man will not be in rest, until he have finished the thing this day.
 
-## CHAPTER 4
+## RUTH 4
 **1** Then went Boaz up to the gate, and sat him down there: and, behold, the kinsman of whom Boaz spake came by; unto whom he said, Ho, such a one! turn aside, sit down here. And he turned aside, and sat down.
 **2** And he took ten men of the elders of the city, and said, Sit ye down here. And they sat down.
 **3** And he said unto the kinsman, Naomi, that is come again out of the country of Moab, selleth a parcel of land, which was our brother Elimelech's:

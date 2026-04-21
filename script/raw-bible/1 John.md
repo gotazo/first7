@@ -7,7 +7,7 @@ weight: 23
 ## JOHN
 
 
-## CHAPTER 1
+## 1 JOHN 1
 **1** That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked upon, and our hands have handled, of the Word of life;
 **2** (For the life was manifested, and we have seen it, and bear witness, and shew unto you that eternal life, which was with the Father, and was manifested unto us;)
 **3** That which we have seen and heard declare we unto you, that ye also may have fellowship with us: and truly our fellowship is with the Father, and with his Son Jesus Christ.
@@ -19,7 +19,7 @@ weight: 23
 **9** If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.
 **10** If we say that we have not sinned, we make him a liar, and his word is not in us.
 
-## CHAPTER 2
+## 1 JOHN 2
 **1** My little children, these things write I unto you, that ye sin not. And if any man sin, we have an advocate with the Father, Jesus Christ the righteous:
 **2** And he is the propitiation for our sins: and not for our's only, but also for the sins of the whole world.
 **3** And hereby we do know that we know him, if we keep his commandments.
@@ -50,7 +50,7 @@ weight: 23
 **28** And now, little children, abide in him; that, when he shall appear, we may have confidence, and not be ashamed before him at his coming.
 **29** If ye know that he is righteous, ye know that every one that doeth righteousness is born of him.
 
-## CHAPTER 3
+## 1 JOHN 3
 **1** Behold, what manner of love the Father hath bestowed upon us, that we should be called the sons of God: therefore the world knoweth us not, because it knew him not.
 **2** Beloved, now are we the sons of God, and it doth not yet appear what we shall be: but we know that, when he shall appear, we shall be like him; for we shall see him as he is.
 **3** And every man that hath this hope in him purifieth himself, even as he is pure.
@@ -76,7 +76,7 @@ weight: 23
 **23** And this is his commandment, That we should believe on the name of his Son Jesus Christ, and love one another, as he gave us commandment.
 **24** And he that keepeth his commandments dwelleth in him, and he in him. And hereby we know that he abideth in us, by the Spirit which he hath given us.
 
-## CHAPTER 4
+## 1 JOHN 4
 **1** Beloved, believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out into the world.
 **2** Hereby know ye the Spirit of God: Every spirit that confesseth that Jesus Christ is come in the flesh is of God:
 **3** And every spirit that confesseth not that Jesus Christ is come in the flesh is not of God: and this is that spirit of antichrist, whereof ye have heard that it should come; and even now already is it in the world.
@@ -99,7 +99,7 @@ weight: 23
 **20** If a man say, I love God, and hateth his brother, he is a liar: for he that loveth not his brother whom he hath seen, how can he love God whom he hath not seen?
 **21** And this commandment have we from him, That he who loveth God love his brother also.
 
-## CHAPTER 5
+## 1 JOHN 5
 **1** Whosoever believeth that Jesus is the Christ is born of God: and every one that loveth him that begat loveth him also that is begotten of him.
 **2** By this we know that we love the children of God, when we love God, and keep his commandments.
 **3** For this is the love of God, that we keep his commandments: and his commandments are not grievous.
@@ -121,7 +121,7 @@ weight: 23
 **19** And we know that we are of God, and the whole world lieth in wickedness.
 **20** And we know that the Son of God is come, and hath given us an understanding, that we may know him that is true, and we are in him that is true, even in his Son Jesus Christ. This is the true God, and eternal life.
 **21** Little children, keep yourselves from idols. Amen.
-1 JOHN
+**1** JOHN
 
 
 

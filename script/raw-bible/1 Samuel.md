@@ -8,7 +8,7 @@ weight: 9
 ## OTHERWISE CALLED, THE FIRST BOOK OF THE KINGS
 
 
-## CHAPTER 1
+## 1 SAMUEL 1
 **1** Now there was a certain man of Ramathaim-zophim, of mount Ephraim, and his name was Elkanah, the son of Jeroham, the son of Elihu, the son of Tohu, the son of Zuph, an Ephrathite:
 **2** And he had two wives; the name of the one was Hannah, and the name of the other Peninnah: and Peninnah had children, but Hannah had no children.
 **3** And this man went up out of his city yearly to worship and to sacrifice unto the LORD of hosts in Shiloh. And the two sons of Eli, Hophni and Phinehas, the priests of the LORD, were there.
@@ -38,7 +38,7 @@ weight: 9
 **27** For this child I prayed; and the LORD hath given me my petition which I asked of him:
 **28** Therefore also I have lent him to the LORD; as long as he liveth he shall be lent to the LORD. And he worshipped the LORD there.
 
-## CHAPTER 2
+## 1 SAMUEL 2
 **1** And Hannah prayed, and said, My heart rejoiceth in the LORD, mine horn is exalted in the LORD: my mouth is enlarged over mine enemies; because I rejoice in thy salvation.
 **2** There is none holy as the LORD: for there is none beside thee: neither is there any rock like our God.
 **3** Talk no more so exceeding proudly; let not arrogancy come out of your mouth: for the LORD is a God of knowledge, and by him actions are weighed.
@@ -76,7 +76,7 @@ weight: 9
 **35** And I will raise me up a faithful priest, that shall do according to that which is in mine heart and in my mind: and I will build him a sure house; and he shall walk before mine anointed for ever.
 **36** And it shall come to pass, that every one that is left in thine house shall come and crouch to him for a piece of silver and a morsel of bread, and shall say, Put me, I pray thee, into one of the priests' offices, that I may eat a piece of bread.
 
-## CHAPTER 3
+## 1 SAMUEL 3
 **1** And the child Samuel ministered unto the LORD before Eli. And the word of the LORD was precious in those days; there was no open vision.
 **2** And it came to pass at that time, when Eli was laid down in his place, and his eyes began to wax dim, that he could not see;
 **3** And ere the lamp of God went out in the temple of the LORD, where the ark of God was, and Samuel was laid down to sleep;
@@ -99,7 +99,7 @@ weight: 9
 **20** And all Israel from Dan even to Beer-sheba knew that Samuel was established to be a prophet of the LORD.
 **21** And the LORD appeared again in Shiloh: for the LORD revealed himself to Samuel in Shiloh by the word of the LORD.
 
-## CHAPTER 4
+## 1 SAMUEL 4
 **1** And the word of Samuel came to all Israel. Now Israel went out against the Philistines to battle, and pitched beside Eben-ezer: and the Philistines pitched in Aphek.
 **2** And the Philistines put themselves in array against Israel: and when they joined battle, Israel was smitten before the Philistines: and they slew of the army in the field about four thousand men.
 **3** And when the people were come into the camp, the elders of Israel said, Wherefore hath the LORD smitten us to day before the Philistines? Let us fetch the ark of the covenant of the LORD out of Shiloh unto us, that, when it cometh among us, it may save us out of the hand of our enemies.
@@ -123,7 +123,7 @@ weight: 9
 **21** And she named the child I-chabod, saying, The glory is departed from Israel: because the ark of God was taken, and because of her father in law and her husband.
 **22** And she said, The glory is departed from Israel: for the ark of God is taken.
 
-## CHAPTER 5
+## 1 SAMUEL 5
 **1** And the Philistines took the ark of God, and brought it from Eben-ezer unto Ashdod.
 **2** When the Philistines took the ark of God, they brought it into the house of Dagon, and set it by Dagon.
 **3** And when they of Ashdod arose early on the morrow, behold, Dagon was fallen upon his face to the earth before the ark of the LORD. And they took Dagon, and set him in his place again.
@@ -137,7 +137,7 @@ weight: 9
 **11** So they sent and gathered together all the lords of the Philistines, and said, Send away the ark of the God of Israel, and let it go again to his own place, that it slay us not, and our people: for there was a deadly destruction throughout all the city; the hand of God was very heavy there.
 **12** And the men that died not were smitten with the emerods: and the cry of the city went up to heaven.
 
-## CHAPTER 6
+## 1 SAMUEL 6
 **1** And the ark of the LORD was in the country of the Philistines seven months.
 **2** And the Philistines called for the priests and the diviners, saying, What shall we do to the ark of the LORD? tell us wherewith we shall send it to his place.
 **3** And they said, If ye send away the ark of the God of Israel, send it not empty; but in any wise return him a trespass offering: then ye shall be healed, and it shall be known to you why his hand is not removed from you.
@@ -160,7 +160,7 @@ weight: 9
 **20** And the men of Beth-shemesh said, Who is able to stand before this holy LORD God? and to whom shall he go up from us?
 **21** And they sent messengers to the inhabitants of Kirjath-jearim, saying, The Philistines have brought again the ark of the LORD; come ye down, and fetch it up to you.
 
-## CHAPTER 7
+## 1 SAMUEL 7
 **1** And the men of Kirjath-jearim came, and fetched up the ark of the LORD, and brought it into the house of Abinadab in the hill, and sanctified Eleazar his son to keep the ark of the LORD.
 **2** And it came to pass, while the ark abode in Kirjath-jearim, that the time was long; for it was twenty years: and all the house of Israel lamented after the LORD.
 **3** And Samuel spake unto all the house of Israel, saying, If ye do return unto the LORD with all your hearts, then put away the strange gods and Ashtaroth from among you, and prepare your hearts unto the LORD, and serve him only: and he will deliver you out of the hand of the Philistines.
@@ -179,7 +179,7 @@ weight: 9
 **16** And he went from year to year in circuit to Beth-el, and Gilgal, and Mizpeh, and judged Israel in all those places.
 **17** And his return was to Ramah; for there was his house; and there he judged Israel; and there he built an altar unto the LORD.
 
-## CHAPTER 8
+## 1 SAMUEL 8
 **1** And it came to pass, when Samuel was old, that he made his sons judges over Israel.
 **2** Now the name of his firstborn was Joel; and the name of his second, Abiah: they were judges in Beer-sheba.
 **3** And his sons walked not in his ways, but turned aside after lucre, and took bribes, and perverted judgment.
@@ -203,7 +203,7 @@ weight: 9
 **21** And Samuel heard all the words of the people, and he rehearsed them in the ears of the LORD.
 **22** And the LORD said to Samuel, Hearken unto their voice, and make them a king. And Samuel said unto the men of Israel, Go ye every man unto his city.
 
-## CHAPTER 9
+## 1 SAMUEL 9
 **1** Now there was a man of Benjamin, whose name was Kish, the son of Abiel, the son of Zeror, the son of Bechorath, the son of Aphiah, a Benjamite, a mighty man of power.
 **2** And he had a son, whose name was Saul, a choice young man, and a goodly: and there was not among the children of Israel a goodlier person than he: from his shoulders and upward he was higher than any of the people.
 **3** And the asses of Kish Saul's father were lost. And Kish said to Saul his son, Take now one of the servants with thee, and arise, go seek the asses.
@@ -232,7 +232,7 @@ weight: 9
 **26** And they arose early: and it came to pass about the spring of the day, that Samuel called Saul to the top of the house, saying, Up, that I may send thee away. And Saul arose, and they went out both of them, he and Samuel, abroad.
 **27** And as they were going down to the end of the city, Samuel said to Saul, Bid the servant pass on before us, (and he passed on,) but stand thou still a while, that I may shew thee the word of God.
 
-## CHAPTER 10
+## 1 SAMUEL 10
 **1** Then Samuel took a vial of oil, and poured it upon his head, and kissed him, and said, Is it not because the LORD hath anointed thee to be captain over his inheritance?
 **2** When thou art departed from me to day, then thou shalt find two men by Rachel's sepulchre in the border of Benjamin at Zelzah; and they will say unto thee, The asses which thou wentest to seek are found: and, lo, thy father hath left the care of the asses, and sorroweth for you, saying, What shall I do for my son?
 **3** Then shalt thou go on forward from thence, and thou shalt come to the plain of Tabor, and there shall meet thee three men going up to God to Beth-el, one carrying three kids, and another carrying three loaves of bread, and another carrying a bottle of wine:
@@ -261,7 +261,7 @@ weight: 9
 **26** And Saul also went home to Gibeah; and there went with him a band of men, whose hearts God had touched.
 **27** But the children of Belial said, How shall this man save us? And they despised him, and brought him no presents. But he held his peace.
 
-## CHAPTER 11
+## 1 SAMUEL 11
 **1** Then Nahash the Ammonite came up, and encamped against Jabesh-gilead: and all the men of Jabesh said unto Nahash, Make a covenant with us, and we will serve thee.
 **2** And Nahash the Ammonite answered them, On this condition will I make a covenant with you, that I may thrust out all your right eyes, and lay it for a reproach upon all Israel.
 **3** And the elders of Jabesh said unto him, Give us seven days' respite, that we may send messengers unto all the coasts of Israel: and then, if there be no man to save us, we will come out to thee.
@@ -278,7 +278,7 @@ weight: 9
 **14** Then said Samuel to the people, Come, and let us go to Gilgal, and renew the kingdom there.
 **15** And all the people went to Gilgal; and there they made Saul king before the LORD in Gilgal; and there they sacrificed sacrifices of peace offerings before the LORD; and there Saul and all the men of Israel rejoiced greatly.
 
-## CHAPTER 12
+## 1 SAMUEL 12
 **1** And Samuel said unto all Israel, Behold, I have hearkened unto your voice in all that ye said unto me, and have made a king over you.
 **2** And now, behold, the king walketh before you: and I am old and grayheaded; and, behold, my sons are with you: and I have walked before you from my childhood unto this day.
 **3** Behold, here I am: witness against me before the LORD, and before his anointed: whose ox have I taken? or whose ass have I taken? or whom have I defrauded? whom have I oppressed? or of whose hand have I received any bribe to blind mine eyes therewith? and I will restore it you.
@@ -305,7 +305,7 @@ weight: 9
 **24** Only fear the LORD, and serve him in truth with all your heart: for consider how great things he hath done for you.
 **25** But if ye shall still do wickedly, ye shall be consumed, both ye and your king.
 
-## CHAPTER 13
+## 1 SAMUEL 13
 **1** Saul reigned one year; and when he had reigned two years over Israel,
 **2** Saul chose him three thousand men of Israel; whereof two thousand were with Saul in Michmash and in mount Beth-el, and a thousand were with Jonathan in Gibeah of Benjamin: and the rest of the people he sent every man to his tent.
 **3** And Jonathan smote the garrison of the Philistines that was in Geba, and the Philistines heard of it. And Saul blew the trumpet throughout all the land, saying, Let the Hebrews hear.
@@ -330,7 +330,7 @@ weight: 9
 **22** So it came to pass in the day of battle, that there was neither sword nor spear found in the hand of any of the people that were with Saul and Jonathan: but with Saul and with Jonathan his son was there found.
 **23** And the garrison of the Philistines went out to the passage of Michmash.
 
-## CHAPTER 14
+## 1 SAMUEL 14
 **1** Now it came to pass upon a day, that Jonathan the son of Saul said unto the young man that bare his armour, Come, and let us go over to the Philistines' garrison, that is on the other side. But he told not his father.
 **2** And Saul tarried in the uttermost part of Gibeah under a pomegranate tree which is in Migron: and the people that were with him were about six hundred men;
 **3** And Ahiah, the son of Ahitub, I-chabod's brother, the son of Phinehas, the son of Eli, the LORD'S priest in Shiloh, wearing an ephod. And the people knew not that Jonathan was gone.
@@ -384,7 +384,7 @@ weight: 9
 **51** And Kish was the father of Saul; and Ner the father of Abner was the son of Abiel.
 **52** And there was sore war against the Philistines all the days of Saul: and when Saul saw any strong man, or any valiant man, he took him unto him.
 
-## CHAPTER 15
+## 1 SAMUEL 15
 **1** Samuel also said unto Saul, The LORD sent me to anoint thee to be king over his people, over Israel: now therefore hearken thou unto the voice of the words of the LORD.
 **2** Thus saith the LORD of hosts, I remember that which Amalek did to Israel, how he laid wait for him in the way, when he came up from Egypt.
 **3** Now go and smite Amalek, and utterly destroy all that they have, and spare them not; but slay both man and woman, infant and suckling, ox and sheep, camel and ass.
@@ -421,7 +421,7 @@ weight: 9
 **34** Then Samuel went to Ramah; and Saul went up to his house to Gibeah of Saul.
 **35** And Samuel came no more to see Saul until the day of his death: nevertheless Samuel mourned for Saul: and the LORD repented that he had made Saul king over Israel.
 
-## CHAPTER 16
+## 1 SAMUEL 16
 **1** And the LORD said unto Samuel, How long wilt thou mourn for Saul, seeing I have rejected him from reigning over Israel? fill thine horn with oil, and go, I will send thee to Jesse the Beth-lehemite: for I have provided me a king among his sons.
 **2** And Samuel said, How can I go? if Saul hear it, he will kill me. And the LORD said, Take an heifer with thee, and say, I am come to sacrifice to the LORD.
 **3** And call Jesse to the sacrifice, and I will shew thee what thou shalt do: and thou shalt anoint unto me him whom I name unto thee.
@@ -446,7 +446,7 @@ weight: 9
 **22** And Saul sent to Jesse, saying, Let David, I pray thee, stand before me; for he hath found favour in my sight.
 **23** And it came to pass, when the evil spirit from God was upon Saul, that David took an harp, and played with his hand: so Saul was refreshed, and was well, and the evil spirit departed from him.
 
-## CHAPTER 17
+## 1 SAMUEL 17
 **1** Now the Philistines gathered together their armies to battle, and were gathered together at Shochoh, which belongeth to Judah, and pitched between Shochoh and Azekah, in Ephes-dammim.
 **2** And Saul and the men of Israel were gathered together, and pitched by the valley of Elah, and set the battle in array against the Philistines.
 **3** And the Philistines stood on a mountain on the one side, and Israel stood on a mountain on the other side: and there was a valley between them.
@@ -506,7 +506,7 @@ weight: 9
 **57** And as David returned from the slaughter of the Philistine, Abner took him, and brought him before Saul with the head of the Philistine in his hand.
 **58** And Saul said to him, Whose son art thou, thou young man? And David answered, I am the son of thy servant Jesse the Beth-lehemite.
 
-## CHAPTER 18
+## 1 SAMUEL 18
 **1** And it came to pass, when he had made an end of speaking unto Saul, that the soul of Jonathan was knit with the soul of David, and Jonathan loved him as his own soul.
 **2** And Saul took him that day, and would let him go no more home to his father's house.
 **3** Then Jonathan and David made a covenant, because he loved him as his own soul.
@@ -538,7 +538,7 @@ weight: 9
 **29** And Saul was yet the more afraid of David; and Saul became David's enemy continually.
 **30** Then the princes of the Philistines went forth: and it came to pass, after they went forth, that David behaved himself more wisely than all the servants of Saul; so that his name was much set by.
 
-## CHAPTER 19
+## 1 SAMUEL 19
 **1** And Saul spake to Jonathan his son, and to all his servants, that they should kill David.
 **2** But Jonathan Saul's son delighted much in David: and Jonathan told David, saying, Saul my father seeketh to kill thee: now therefore, I pray thee, take heed to thyself until the morning, and abide in a secret place, and hide thyself:
 **3** And I will go out and stand beside my father in the field where thou art, and I will commune with my father of thee; and what I see, that I will tell thee.
@@ -564,7 +564,7 @@ weight: 9
 **23** And he went thither to Naioth in Ramah: and the Spirit of God was upon him also, and he went on, and prophesied, until he came to Naioth in Ramah.
 **24** And he stripped off his clothes also, and prophesied before Samuel in like manner, and lay down naked all that day and all that night. Wherefore they say, Is Saul also among the prophets?
 
-## CHAPTER 20
+## 1 SAMUEL 20
 **1** And David fled from Naioth in Ramah, and came and said before Jonathan, What have I done? what is mine iniquity? and what is my sin before thy father, that he seeketh my life?
 **2** And he said unto him, God forbid; thou shalt not die: behold, my father will do nothing either great or small, but that he will shew it me: and why should my father hide this thing from me? it is not so.
 **3** And David sware moreover, and said, Thy father certainly knoweth that I have found grace in thine eyes; and he saith, Let not Jonathan know this, lest he be grieved: but truly as the LORD liveth, and as thy soul liveth, there is but a step between me and death.
@@ -608,7 +608,7 @@ weight: 9
 **41** And as soon as the lad was gone, David arose out of a place toward the south, and fell on his face to the ground, and bowed himself three times: and they kissed one another, and wept one with another, until David exceeded.
 **42** And Jonathan said to David, Go in peace, forasmuch as we have sworn both of us in the name of the LORD, saying, The LORD be between me and thee, and between my seed and thy seed for ever. And he arose and departed: and Jonathan went into the city.
 
-## CHAPTER 21
+## 1 SAMUEL 21
 **1** Then came David to Nob to Ahimelech the priest: and Ahimelech was afraid at the meeting of David, and said unto him, Why art thou alone, and no man with thee?
 **2** And David said unto Ahimelech the priest, The king hath commanded me a business, and hath said unto me, Let no man know any thing of the business whereabout I send thee, and what I have commanded thee: and I have appointed my servants to such and such a place.
 **3** Now therefore what is under thine hand? give me five loaves of bread in mine hand, or what there is present.
@@ -625,7 +625,7 @@ weight: 9
 **14** Then said Achish unto his servants, Lo, ye see the man is mad: wherefore then have ye brought him to me?
 **15** Have I need of mad men, that ye have brought this fellow to play the mad man in my presence? shall this fellow come into my house?
 
-## CHAPTER 22
+## 1 SAMUEL 22
 **1** David therefore departed thence, and escaped to the cave Adullam: and when his brethren and all his father's house heard it, they went down thither to him.
 **2** And every one that was in distress, and every one that was in debt, and every one that was discontented, gathered themselves unto him; and he became a captain over them: and there were with him about four hundred men.
 **3** And David went thence to Mizpeh of Moab: and he said unto the king of Moab, Let my father and my mother, I pray thee, come forth, and be with you, till I know what God will do for me.
@@ -650,7 +650,7 @@ weight: 9
 **22** And David said unto Abiathar, I knew it that day, when Doeg the Edomite was there, that he would surely tell Saul: I have occasioned the death of all the persons of thy father's house.
 **23** Abide thou with me, fear not: for he that seeketh my life seeketh thy life: but with me thou shalt be in safeguard.
 
-## CHAPTER 23
+## 1 SAMUEL 23
 **1** Then they told David, saying, Behold, the Philistines fight against Keilah, and they rob the threshingfloors.
 **2** Therefore David enquired of the LORD, saying, Shall I go and smite these Philistines? And the LORD said unto David, Go, and smite the Philistines, and save Keilah.
 **3** And David's men said unto him, Behold, we be afraid here in Judah: how much more then if we come to Keilah against the armies of the Philistines?
@@ -681,7 +681,7 @@ weight: 9
 **28** Wherefore Saul returned from pursuing after David, and went against the Philistines: therefore they called that place Selahammahlekoth.
 **29** And David went up from thence, and dwelt in strong holds at En-gedi.
 
-## CHAPTER 24
+## 1 SAMUEL 24
 **1** And it came to pass, when Saul was returned from following the Philistines, that it was told him, saying, Behold, David is in the wilderness of En-gedi.
 **2** Then Saul took three thousand chosen men out of all Israel, and went to seek David and his men upon the rocks of the wild goats.
 **3** And he came to the sheepcotes by the way, where was a cave; and Saul went in to cover his feet: and David and his men remained in the sides of the cave.
@@ -705,7 +705,7 @@ weight: 9
 **21** Swear now therefore unto me by the LORD, that thou wilt not cut off my seed after me, and that thou wilt not destroy my name out of my father's house.
 **22** And David sware unto Saul. And Saul went home; but David and his men gat them up unto the hold.
 
-## CHAPTER 25
+## 1 SAMUEL 25
 **1** And Samuel died; and all the Israelites were gathered together, and lamented him, and buried him in his house at Ramah. And David arose, and went down to the wilderness of Paran.
 **2** And there was a man in Maon, whose possessions were in Carmel; and the man was very great, and he had three thousand sheep, and a thousand goats: and he was shearing his sheep in Carmel.
 **3** Now the name of the man was Nabal; and the name of his wife Abigail: and she was a woman of good understanding, and of a beautiful countenance: but the man was churlish and evil in his doings; and he was of the house of Caleb.
@@ -751,7 +751,7 @@ weight: 9
 **43** David also took Ahinoam of Jezreel; and they were also both of them his wives.
 **44** But Saul had given Michal his daughter, David's wife, to Phalti the son of Laish, which was of Gallim.
 
-## CHAPTER 26
+## 1 SAMUEL 26
 **1** And the Ziphites came unto Saul to Gibeah, saying, Doth not David hide himself in the hill of Hachilah, which is before Jeshimon?
 **2** Then Saul arose, and went down to the wilderness of Ziph, having three thousand chosen men of Israel with him, to seek David in the wilderness of Ziph.
 **3** And Saul pitched in the hill of Hachilah, which is before Jeshimon, by the way. But David abode in the wilderness, and he saw that Saul came after him into the wilderness.
@@ -778,7 +778,7 @@ weight: 9
 **24** And, behold, as thy life was much set by this day in mine eyes, so let my life be much set by in the eyes of the LORD, and let him deliver me out of all tribulation.
 **25** Then Saul said to David, Blessed be thou, my son David: thou shalt both do great things, and also shalt still prevail. So David went on his way, and Saul returned to his place.
 
-## CHAPTER 27
+## 1 SAMUEL 27
 **1** And David said in his heart, I shall now perish one day by the hand of Saul: there is nothing better for me than that I should speedily escape into the land of the Philistines; and Saul shall despair of me, to seek me any more in any coast of Israel: so shall I escape out of his hand.
 **2** And David arose, and he passed over with the six hundred men that were with him unto Achish, the son of Maoch, king of Gath.
 **3** And David dwelt with Achish at Gath, he and his men, every man with his household, even David with his two wives, Ahinoam the Jezreelitess, and Abigail the Carmelitess, Nabal's wife.
@@ -792,7 +792,7 @@ weight: 9
 **11** And David saved neither man nor woman alive, to bring tidings to Gath, saying, Lest they should tell on us, saying, So did David, and so will be his manner all the while he dwelleth in the country of the Philistines.
 **12** And Achish believed David, saying, He hath made his people Israel utterly to abhor him; therefore he shall be my servant for ever.
 
-## CHAPTER 28
+## 1 SAMUEL 28
 **1** And it came to pass in those days, that the Philistines gathered their armies together for warfare, to fight with Israel. And Achish said unto David, Know thou assuredly, that thou shalt go out with me to battle, thou and thy men.
 **2** And David said to Achish, Surely thou shalt know what thy servant can do. And Achish said to David, Therefore will I make thee keeper of mine head for ever.
 **3** Now Samuel was dead, and all Israel had lamented him, and buried him in Ramah, even in his own city. And Saul had put away those that had familiar spirits, and the wizards, out of the land.
@@ -819,7 +819,7 @@ weight: 9
 **24** And the woman had a fat calf in the house; and she hasted, and killed it, and took flour, and kneaded it, and did bake unleavened bread thereof:
 **25** And she brought it before Saul, and before his servants; and they did eat. Then they rose up, and went away that night.
 
-## CHAPTER 29
+## 1 SAMUEL 29
 **1** Now the Philistines gathered together all their armies to Aphek: and the Israelites pitched by a fountain which is in Jezreel.
 **2** And the lords of the Philistines passed on by hundreds, and by thousands: but David and his men passed on in the rereward with Achish.
 **3** Then said the princes of the Philistines, What do these Hebrews here? And Achish said unto the princes of the Philistines, Is not this David, the servant of Saul the king of Israel, which hath been with me these days, or these years, and I have found no fault in him since he fell unto me unto this day?
@@ -832,7 +832,7 @@ weight: 9
 **10** Wherefore now rise up early in the morning with thy master's servants that are come with thee: and as soon as ye be up early in the morning, and have light, depart.
 **11** So David and his men rose up early to depart in the morning, to return into the land of the Philistines. And the Philistines went up to Jezreel.
 
-## CHAPTER 30
+## 1 SAMUEL 30
 **1** And it came to pass, when David and his men were come to Ziklag on the third day, that the Amalekites had invaded the south, and Ziklag, and smitten Ziklag, and burned it with fire;
 **2** And had taken the women captives, that were therein: they slew not any, either great or small, but carried them away, and went on their way.
 **3** So David and his men came to the city, and, behold, it was burned with fire; and their wives, and their sons, and their daughters, were taken captives.
@@ -865,7 +865,7 @@ weight: 9
 **30** And to them which were in Hormah, and to them which were in Chorashan, and to them which were in Athach,
 **31** And to them which were in Hebron, and to all the places where David himself and his men were wont to haunt.
 
-## CHAPTER 31
+## 1 SAMUEL 31
 **1** Now the Philistines fought against Israel: and the men of Israel fled from before the Philistines, and fell down slain in mount Gilboa.
 **2** And the Philistines followed hard upon Saul and upon his sons; and the Philistines slew Jonathan, and Abinadab, and Malchi-shua, Saul's sons.
 **3** And the battle went sore against Saul, and the archers hit him; and he was sore wounded of the archers.

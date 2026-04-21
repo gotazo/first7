@@ -6,7 +6,7 @@ weight: 20
 ## THE PROVERBS
 
 
-## CHAPTER 1
+## PROVERBS 1
 **1** The proverbs of Solomon the son of David, king of Israel;
 **2** To know wisdom and instruction; to perceive the words of understanding;
 **3** To receive the instruction of wisdom, justice, and judgment, and equity;
@@ -41,7 +41,7 @@ weight: 20
 **32** For the turning away of the simple shall slay them, and the prosperity of fools shall destroy them.
 **33** But whoso hearkeneth unto me shall dwell safely, and shall be quiet from fear of evil.
 
-## CHAPTER 2
+## PROVERBS 2
 **1** My son, if thou wilt receive my words, and hide my commandments with thee;
 **2** So that thou incline thine ear unto wisdom, and apply thine heart to understanding;
 **3** Yea, if thou criest after knowledge, and liftest up thy voice for understanding;
@@ -65,7 +65,7 @@ weight: 20
 **21** For the upright shall dwell in the land, and the perfect shall remain in it.
 **22** But the wicked shall be cut off from the earth, and the transgressors shall be rooted out of it.
 
-## CHAPTER 3
+## PROVERBS 3
 **1** My son, forget not my law; but let thine heart keep my commandments:
 **2** For length of days, and long life, and peace, shall they add to thee.
 **3** Let not mercy and truth forsake thee: bind them about thy neck; write them upon the table of thine heart:
@@ -102,7 +102,7 @@ weight: 20
 **34** Surely he scorneth the scorners: but he giveth grace unto the lowly.
 **35** The wise shall inherit glory: but shame shall be the promotion of fools.
 
-## CHAPTER 4
+## PROVERBS 4
 **1** Hear, ye children, the instruction of a father, and attend to know understanding.
 **2** For I give you good doctrine, forsake ye not my law.
 **3** For I was my father's son, tender and only beloved in the sight of my mother.
@@ -131,7 +131,7 @@ weight: 20
 **26** Ponder the path of thy feet, and let all thy ways be established.
 **27** Turn not to the right hand nor to the left: remove thy foot from evil.
 
-## CHAPTER 5
+## PROVERBS 5
 **1** My son, attend unto my wisdom, and bow thine ear to my understanding:
 **2** That thou mayest regard discretion, and that thy lips may keep knowledge.
 **3** For the lips of a strange woman drop as an honeycomb, and her mouth is smoother than oil:
@@ -156,7 +156,7 @@ weight: 20
 **22** His own iniquities shall take the wicked himself, and he shall be holden with the cords of his sins.
 **23** He shall die without instruction; and in the greatness of his folly he shall go astray.
 
-## CHAPTER 6
+## PROVERBS 6
 **1** My son, if thou be surety for thy friend, if thou hast stricken thy hand with a stranger,
 **2** Thou art snared with the words of thy mouth, thou art taken with the words of thy mouth.
 **3** Do this now, my son, and deliver thyself, when thou art come into the hand of thy friend; go, humble thyself, and make sure thy friend.
@@ -193,7 +193,7 @@ weight: 20
 **34** For jealousy is the rage of a man: therefore he will not spare in the day of vengeance.
 **35** He will not regard any ransom; neither will he rest content, though thou givest many gifts.
 
-## CHAPTER 7
+## PROVERBS 7
 **1** My son, keep my words, and lay up my commandments with thee.
 **2** Keep my commandments, and live; and my law as the apple of thine eye.
 **3** Bind them upon thy fingers, write them upon the table of thine heart.
@@ -222,7 +222,7 @@ weight: 20
 **26** For she hath cast down many wounded: yea, many strong men have been slain by her.
 **27** Her house is the way to hell, going down to the chambers of death.
 
-## CHAPTER 8
+## PROVERBS 8
 **1** Doth not wisdom cry? and understanding put forth her voice?
 **2** She standeth in the top of high places, by the way in the places of the paths.
 **3** She crieth at the gates, at the entry of the city, at the coming in at the doors.
@@ -260,7 +260,7 @@ weight: 20
 **35** For whoso findeth me findeth life, and shall obtain favour of the LORD.
 **36** But he that sinneth against me wrongeth his own soul: all they that hate me love death.
 
-## CHAPTER 9
+## PROVERBS 9
 **1** Wisdom hath builded her house, she hath hewn out her seven pillars:
 **2** She hath killed her beasts; she hath mingled her wine; she hath also furnished her table.
 **3** She hath sent forth her maidens: she crieth upon the highest places of the city,
@@ -280,7 +280,7 @@ weight: 20
 **17** Stolen waters are sweet, and bread eaten in secret is pleasant.
 **18** But he knoweth not that the dead are there; and that her guests are in the depths of hell.
 
-## CHAPTER 10
+## PROVERBS 10
 **1** The proverbs of Solomon. A wise son maketh a glad father: but a foolish son is the heaviness of his mother.
 **2** Treasures of wickedness profit nothing: but righteousness delivereth from death.
 **3** The LORD will not suffer the soul of the righteous to famish: but he casteth away the substance of the wicked.
@@ -314,7 +314,7 @@ weight: 20
 **31** The mouth of the just bringeth forth wisdom: but the froward tongue shall be cut out.
 **32** The lips of the righteous know what is acceptable: but the mouth of the wicked speaketh frowardness.
 
-## CHAPTER 11
+## PROVERBS 11
 **1** A false balance is abomination to the LORD: but a just weight is his delight.
 **2** When pride cometh, then cometh shame: but with the lowly is wisdom.
 **3** The integrity of the upright shall guide them: but the perverseness of transgressors shall destroy them.
@@ -347,7 +347,7 @@ weight: 20
 **30** The fruit of the righteous is a tree of life; and he that winneth souls is wise.
 **31** Behold, the righteous shall be recompensed in the earth: much more the wicked and the sinner.
 
-## CHAPTER 12
+## PROVERBS 12
 **1** Whoso loveth instruction loveth knowledge: but he that hateth reproof is brutish.
 **2** A good man obtaineth favour of the LORD: but a man of wicked devices will he condemn.
 **3** A man shall not be established by wickedness: but the root of the righteous shall not be moved.
@@ -377,7 +377,7 @@ weight: 20
 **27** The slothful man roasteth not that which he took in hunting: but the substance of a diligent man is precious.
 **28** In the way of righteousness is life; and in the pathway thereof there is no death.
 
-## CHAPTER 13
+## PROVERBS 13
 **1** A wise son heareth his father's instruction: but a scorner heareth not rebuke.
 **2** A man shall eat good by the fruit of his mouth: but the soul of the transgressors shall eat violence.
 **3** He that keepeth his mouth keepeth his life: but he that openeth wide his lips shall have destruction.
@@ -404,7 +404,7 @@ weight: 20
 **24** He that spareth his rod hateth his son: but he that loveth him chasteneth him betimes.
 **25** The righteous eateth to the satisfying of his soul: but the belly of the wicked shall want.
 
-## CHAPTER 14
+## PROVERBS 14
 **1** Every wise woman buildeth her house: but the foolish plucketh it down with her hands.
 **2** He that walketh in his uprightness feareth the LORD: but he that is perverse in his ways despiseth him.
 **3** In the mouth of the foolish is a rod of pride: but the lips of the wise shall preserve them.
@@ -441,7 +441,7 @@ weight: 20
 **34** Righteousness exalteth a nation: but sin is a reproach to any people.
 **35** The king's favour is toward a wise servant: but his wrath is against him that causeth shame.
 
-## CHAPTER 15
+## PROVERBS 15
 **1** A soft answer turneth away wrath: but grievous words stir up anger.
 **2** The tongue of the wise useth knowledge aright: but the mouth of fools poureth out foolishness.
 **3** The eyes of the LORD are in every place, beholding the evil and the good.
@@ -476,7 +476,7 @@ weight: 20
 **32** He that refuseth instruction despiseth his own soul: but he that heareth reproof getteth understanding.
 **33** The fear of the LORD is the instruction of wisdom; and before honour is humility.
 
-## CHAPTER 16
+## PROVERBS 16
 **1** The preparations of the heart in man, and the answer of the tongue, is from the LORD.
 **2** All the ways of a man are clean in his own eyes; but the LORD weigheth the spirits.
 **3** Commit thy works unto the LORD, and thy thoughts shall be established.
@@ -511,7 +511,7 @@ weight: 20
 **32** He that is slow to anger is better than the mighty; and he that ruleth his spirit than he that taketh a city.
 **33** The lot is cast into the lap; but the whole disposing thereof is of the LORD.
 
-## CHAPTER 17
+## PROVERBS 17
 **1** Better is a dry morsel, and quietness therewith, than an house full of sacrifices with strife.
 **2** A wise servant shall have rule over a son that causeth shame, and shall have part of the inheritance among the brethren.
 **3** The fining pot is for silver, and the furnace for gold: but the LORD trieth the hearts.
@@ -541,7 +541,7 @@ weight: 20
 **27** He that hath knowledge spareth his words: and a man of understanding is of an excellent spirit.
 **28** Even a fool, when he holdeth his peace, is counted wise: and he that shutteth his lips is esteemed a man of understanding.
 
-## CHAPTER 18
+## PROVERBS 18
 **1** Through desire a man, having separated himself, seeketh and intermeddleth with all wisdom.
 **2** A fool hath no delight in understanding, but that his heart may discover itself.
 **3** When the wicked cometh, then cometh also contempt, and with ignominy reproach.
@@ -567,7 +567,7 @@ weight: 20
 **23** The poor useth intreaties; but the rich answereth roughly.
 **24** A man that hath friends must shew himself friendly: and there is a friend that sticketh closer than a brother.
 
-## CHAPTER 19
+## PROVERBS 19
 **1** Better is the poor that walketh in his integrity, than he that is perverse in his lips, and is a fool.
 **2** Also, that the soul be without knowledge, it is not good; and he that hasteth with his feet sinneth.
 **3** The foolishness of man perverteth his way: and his heart fretteth against the LORD.
@@ -598,7 +598,7 @@ weight: 20
 **28** An ungodly witness scorneth judgment: and the mouth of the wicked devoureth iniquity.
 **29** Judgments are prepared for scorners, and stripes for the back of fools.
 
-## CHAPTER 20
+## PROVERBS 20
 **1** Wine is a mocker, strong drink is raging: and whosoever is deceived thereby is not wise.
 **2** The fear of a king is as the roaring of a lion: whoso provoketh him to anger sinneth against his own soul.
 **3** It is an honour for a man to cease from strife: but every fool will be meddling.
@@ -630,7 +630,7 @@ weight: 20
 **29** The glory of young men is their strength: and the beauty of old men is the gray head.
 **30** The blueness of a wound cleanseth away evil: so do stripes the inward parts of the belly.
 
-## CHAPTER 21
+## PROVERBS 21
 **1** The king's heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will.
 **2** Every way of a man is right in his own eyes: but the LORD pondereth the hearts.
 **3** To do justice and judgment is more acceptable to the LORD than sacrifice.
@@ -663,7 +663,7 @@ weight: 20
 **30** There is no wisdom nor understanding nor counsel against the LORD.
 **31** The horse is prepared against the day of battle: but safety is of the LORD.
 
-## CHAPTER 22
+## PROVERBS 22
 **1** A good name is rather to be chosen than great riches, and loving favour rather than silver and gold.
 **2** The rich and poor meet together: the LORD is the maker of them all.
 **3** A prudent man foreseeth the evil, and hideth himself: but the simple pass on, and are punished.
@@ -694,7 +694,7 @@ weight: 20
 **28** Remove not the ancient landmark, which thy fathers have set.
 **29** Seest thou a man diligent in his business? he shall stand before kings; he shall not stand before mean men.
 
-## CHAPTER 23
+## PROVERBS 23
 **1** When thou sittest to eat with a ruler, consider diligently what is before thee:
 **2** And put a knife to thy throat, if thou be a man given to appetite.
 **3** Be not desirous of his dainties: for they are deceitful meat.
@@ -731,7 +731,7 @@ weight: 20
 **34** Yea, thou shalt be as he that lieth down in the midst of the sea, or as he that lieth upon the top of a mast.
 **35** They have stricken me, shalt thou say, and I was not sick; they have beaten me, and I felt it not: when shall I awake? I will seek it yet again.
 
-## CHAPTER 24
+## PROVERBS 24
 **1** Be not thou envious against evil men, neither desire to be with them.
 **2** For their heart studieth destruction, and their lips talk of mischief.
 **3** Through wisdom is an house builded; and by understanding it is established:
@@ -767,7 +767,7 @@ weight: 20
 **33** Yet a little sleep, a little slumber, a little folding of the hands to sleep:
 **34** So shall thy poverty come as one that travelleth; and thy want as an armed man.
 
-## CHAPTER 25
+## PROVERBS 25
 **1** These are also proverbs of Solomon, which the men of Hezekiah king of Judah copied out.
 **2** It is the glory of God to conceal a thing: but the honour of kings is to search out a matter.
 **3** The heaven for height, and the earth for depth, and the heart of kings is unsearchable.
@@ -797,7 +797,7 @@ weight: 20
 **27** It is not good to eat much honey: so for men to search their own glory is not glory.
 **28** He that hath no rule over his own spirit is like a city that is broken down, and without walls.
 
-## CHAPTER 26
+## PROVERBS 26
 **1** As snow in summer, and as rain in harvest, so honour is not seemly for a fool.
 **2** As the bird by wandering, as the swallow by flying, so the curse causeless shall not come.
 **3** A whip for the horse, a bridle for the ass, and a rod for the fool's back.
@@ -827,7 +827,7 @@ weight: 20
 **27** Whoso diggeth a pit shall fall therein: and he that rolleth a stone, it will return upon him.
 **28** A lying tongue hateth those that are afflicted by it; and a flattering mouth worketh ruin.
 
-## CHAPTER 27
+## PROVERBS 27
 **1** Boast not thyself of to morrow; for thou knowest not what a day may bring forth.
 **2** Let another man praise thee, and not thine own mouth; a stranger, and not thine own lips.
 **3** A stone is heavy, and the sand weighty; but a fool's wrath is heavier than them both.
@@ -856,7 +856,7 @@ weight: 20
 **26** The lambs are for thy clothing, and the goats are the price of the field.
 **27** And thou shalt have goats' milk enough for thy food, for the food of thy household, and for the maintenance for thy maidens.
 
-## CHAPTER 28
+## PROVERBS 28
 **1** The wicked flee when no man pursueth: but the righteous are bold as a lion.
 **2** For the transgression of a land many are the princes thereof: but by a man of understanding and knowledge the state thereof shall be prolonged.
 **3** A poor man that oppresseth the poor is like a sweeping rain which leaveth no food.
@@ -886,7 +886,7 @@ weight: 20
 **27** He that giveth unto the poor shall not lack: but he that hideth his eyes shall have many a curse.
 **28** When the wicked rise, men hide themselves: but when they perish, the righteous increase.
 
-## CHAPTER 29
+## PROVERBS 29
 **1** He, that being often reproved hardeneth his neck, shall suddenly be destroyed, and that without remedy.
 **2** When the righteous are in authority, the people rejoice: but when the wicked beareth rule, the people mourn.
 **3** Whoso loveth wisdom rejoiceth his father: but he that keepeth company with harlots spendeth his substance.
@@ -915,7 +915,7 @@ weight: 20
 **26** Many seek the ruler's favour; but every man's judgment cometh from the LORD.
 **27** An unjust man is an abomination to the just: and he that is upright in the way is abomination to the wicked.
 
-## CHAPTER 30
+## PROVERBS 30
 **1** The words of Agur the son of Jakeh, even the prophecy: the man spake unto Ithiel, even unto Ithiel and Ucal,
 **2** Surely I am more brutish than any man, and have not the understanding of a man.
 **3** I neither learned wisdom, nor have the knowledge of the holy.
@@ -950,7 +950,7 @@ weight: 20
 **32** If thou hast done foolishly in lifting up thyself, or if thou hast thought evil, lay thine hand upon thy mouth.
 **33** Surely the churning of milk bringeth forth butter, and the wringing of the nose bringeth forth blood: so the forcing of wrath bringeth forth strife.
 
-## CHAPTER 31
+## PROVERBS 31
 **1** The words of king Lemuel, the prophecy that his mother taught him.
 **2** What, my son? and what, the son of my womb? and what, the son of my vows?
 **3** Give not thy strength unto women, nor thy ways to that which destroyeth kings.

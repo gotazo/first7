@@ -7,7 +7,7 @@ weight: 21
 ## PETER
 
 
-## CHAPTER 1
+## 1 PETER 1
 **1** Peter, an apostle of Jesus Christ, to the strangers scattered throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia,
 **2** Elect according to the foreknowledge of God the Father, through sanctification of the Spirit, unto obedience and sprinkling of the blood of Jesus Christ: Grace unto you, and peace, be multiplied.
 **3** Blessed be the God and Father of our Lord Jesus Christ, which according to his abundant mercy hath begotten us again unto a lively hope by the resurrection of Jesus Christ from the dead,
@@ -34,7 +34,7 @@ weight: 21
 **24** For all flesh is as grass, and all the glory of man as the flower of grass. The grass withereth, and the flower thereof falleth away:
 **25** But the word of the Lord endureth for ever. And this is the word which by the gospel is preached unto you.
 
-## CHAPTER 2
+## 1 PETER 2
 **1** Wherefore laying aside all malice, and all guile, and hypocrisies, and envies, and all evil speakings,
 **2** As newborn babes, desire the sincere milk of the word, that ye may grow thereby:
 **3** If so be ye have tasted that the Lord is gracious.
@@ -61,7 +61,7 @@ weight: 21
 **24** Who his own self bare our sins in his own body on the tree, that we, being dead to sins, should live unto righteousness: by whose stripes ye were healed.
 **25** For ye were as sheep going astray; but are now returned unto the Shepherd and Bishop of your souls.
 
-## CHAPTER 3
+## 1 PETER 3
 **1** Likewise, ye wives, be in subjection to your own husbands; that, if any obey not the word, they also may without the word be won by the conversation of the wives;
 **2** While they behold your chaste conversation coupled with fear.
 **3** Whose adorning let it not be that outward adorning of plaiting the hair, and of wearing of gold, or of putting on of apparel;
@@ -85,7 +85,7 @@ weight: 21
 **21** The like figure whereunto even baptism doth also now save us (not the putting away of the filth of the flesh, but the answer of a good conscience toward God,) by the resurrection of Jesus Christ:
 **22** Who is gone into heaven, and is on the right hand of God; angels and authorities and powers being made subject unto him.
 
-## CHAPTER 4
+## 1 PETER 4
 **1** Forasmuch then as Christ hath suffered for us in the flesh, arm yourselves likewise with the same mind: for he that hath suffered in the flesh hath ceased from sin;
 **2** That he no longer should live the rest of his time in the flesh to the lusts of men, but to the will of God.
 **3** For the time past of our life may suffice us to have wrought the will of the Gentiles, when we walked in lasciviousness, lusts, excess of wine, revellings, banquetings, and abominable idolatries:
@@ -106,7 +106,7 @@ weight: 21
 **18** And if the righteous scarcely be saved, where shall the ungodly and the sinner appear?
 **19** Wherefore let them that suffer according to the will of God commit the keeping of their souls to him in well doing, as unto a faithful Creator.
 
-## CHAPTER 5
+## 1 PETER 5
 **1** The elders which are among you I exhort, who am also an elder, and a witness of the sufferings of Christ, and also a partaker of the glory that shall be revealed:
 **2** Feed the flock of God which is among you, taking the oversight thereof, not by constraint, but willingly; not for filthy lucre, but of a ready mind;
 **3** Neither as being lords over God's heritage, but being ensamples to the flock.
@@ -121,7 +121,7 @@ weight: 21
 **12** By Silvanus, a faithful brother unto you, as I suppose, I have written briefly, exhorting, and testifying that this is the true grace of God wherein ye stand.
 **13** The church that is at Babylon, elected together with you, saluteth you; and so doth Marcus my son.
 **14** Greet ye one another with a kiss of charity. Peace be with you all that are in Christ Jesus. Amen.
-1 PETER
+**1** PETER
 
 
 

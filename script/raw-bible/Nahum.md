@@ -6,7 +6,7 @@ weight: 34
 ## NAHUM
 
 
-## CHAPTER 1
+## NAHUM 1
 **1** The burden of Nineveh. The book of the vision of Nahum the Elkoshite.
 **2** God is jealous, and the LORD revengeth; the LORD revengeth, and is furious; the LORD will take vengeance on his adversaries, and he reserveth wrath for his enemies.
 **3** The LORD is slow to anger, and great in power, and will not at all acquit the wicked: the LORD hath his way in the whirlwind and in the storm, and the clouds are the dust of his feet.
@@ -23,7 +23,7 @@ weight: 34
 **14** And the LORD hath given a commandment concerning thee, that no more of thy name be sown: out of the house of thy gods will I cut off the graven image and the molten image: I will make thy grave; for thou art vile.
 **15** Behold upon the mountains the feet of him that bringeth good tidings, that publisheth peace! O Judah, keep thy solemn feasts, perform thy vows: for the wicked shall no more pass through thee; he is utterly cut off.
 
-## CHAPTER 2
+## NAHUM 2
 **1** He that dasheth in pieces is come up before thy face: keep the munition, watch the way, make thy loins strong, fortify thy power mightily.
 **2** For the LORD hath turned away the excellency of Jacob, as the excellency of Israel: for the emptiers have emptied them out, and marred their vine branches.
 **3** The shield of his mighty men is made red, the valiant men are in scarlet: the chariots shall be with flaming torches in the day of his preparation, and the fir trees shall be terribly shaken.
@@ -38,7 +38,7 @@ weight: 34
 **12** The lion did tear in pieces enough for his whelps, and strangled for his lionesses, and filled his holes with prey, and his dens with ravin.
 **13** Behold, I am against thee, saith the LORD of hosts, and I will burn her chariots in the smoke, and the sword shall devour thy young lions: and I will cut off thy prey from the earth, and the voice of thy messengers shall no more be heard.
 
-## CHAPTER 3
+## NAHUM 3
 **1** Woe to the bloody city! it is all full of lies and robbery; the prey departeth not;
 **2** The noise of a whip, and the noise of the rattling of the wheels, and of the pransing horses, and of the jumping chariots.
 **3** The horseman lifteth up both the bright sword and the glittering spear: and there is a multitude of slain, and a great number of carcases; and there is none end of their corpses; they stumble upon their corpses:

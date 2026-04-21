@@ -6,7 +6,7 @@ weight: 30
 ## AMOS
 
 
-## CHAPTER 1
+## AMOS 1
 **1** The words of Amos, who was among the herdmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah, and in the days of Jeroboam the son of Joash king of Israel, two years before the earthquake.
 **2** And he said, The LORD will roar from Zion, and utter his voice from Jerusalem; and the habitations of the shepherds shall mourn, and the top of Carmel shall wither.
 **3** Thus saith the LORD; For three transgressions of Damascus, and for four, I will not turn away the punishment thereof; because they have threshed Gilead with threshing instruments of iron:
@@ -23,7 +23,7 @@ weight: 30
 **14** But I will kindle a fire in the wall of Rabbah, and it shall devour the palaces thereof, with shouting in the day of battle, with a tempest in the day of the whirlwind:
 **15** And their king shall go into captivity, he and his princes together, saith the LORD.
 
-## CHAPTER 2
+## AMOS 2
 **1** Thus saith the LORD; For three transgressions of Moab, and for four, I will not turn away the punishment thereof; because he burned the bones of the king of Edom into lime:
 **2** But I will send a fire upon Moab, and it shall devour the palaces of Kerioth: and Moab shall die with tumult, with shouting, and with the sound of the trumpet:
 **3** And I will cut off the judge from the midst thereof, and will slay all the princes thereof with him, saith the LORD.
@@ -41,7 +41,7 @@ weight: 30
 **15** Neither shall he stand that handleth the bow; and he that is swift of foot shall not deliver himself: neither shall he that rideth the horse deliver himself.
 **16** And he that is courageous among the mighty shall flee away naked in that day, saith the LORD.
 
-## CHAPTER 3
+## AMOS 3
 **1** Hear this word that the LORD hath spoken against you, O children of Israel, against the whole family which I brought up from the land of Egypt, saying,
 **2** You only have I known of all the families of the earth: therefore I will punish you for all your iniquities.
 **3** Can two walk together, except they be agreed?
@@ -58,7 +58,7 @@ weight: 30
 **14** That in the day that I shall visit the transgressions of Israel upon him I will also visit the altars of Beth-el: and the horns of the altar shall be cut off, and fall to the ground.
 **15** And I will smite the winter house with the summer house; and the houses of ivory shall perish, and the great houses shall have an end, saith the LORD.
 
-## CHAPTER 4
+## AMOS 4
 **1** Hear this word, ye kine of Bashan, that are in the mountain of Samaria, which oppress the poor, which crush the needy, which say to their masters, Bring, and let us drink.
 **2** The Lord GOD hath sworn by his holiness, that, lo, the days shall come upon you, that he will take you away with hooks, and your posterity with fishhooks.
 **3** And ye shall go out at the breaches, every cow at that which is before her; and ye shall cast them into the palace, saith the LORD.
@@ -73,7 +73,7 @@ weight: 30
 **12** Therefore thus will I do unto thee, O Israel: and because I will do this unto thee, prepare to meet thy God, O Israel.
 **13** For, lo, he that formeth the mountains, and createth the wind, and declareth unto man what is his thought, that maketh the morning darkness, and treadeth upon the high places of the earth, The LORD, The God of hosts, is his name.
 
-## CHAPTER 5
+## AMOS 5
 **1** Hear ye this word which I take up against you, even a lamentation, O house of Israel.
 **2** The virgin of Israel is fallen; she shall no more rise: she is forsaken upon her land; there is none to raise her up.
 **3** For thus saith the Lord GOD; The city that went out by a thousand shall leave an hundred, and that which went forth by an hundred shall leave ten, to the house of Israel.
@@ -102,7 +102,7 @@ weight: 30
 **26** But ye have borne the tabernacle of your Moloch and Chiun your images, the star of your god, which ye made to yourselves.
 **27** Therefore will I cause you to go into captivity beyond Damascus, saith the LORD, whose name is The God of hosts.
 
-## CHAPTER 6
+## AMOS 6
 **1** Woe to them that are at ease in Zion, and trust in the mountain of Samaria, which are named chief of the nations, to whom the house of Israel came!
 **2** Pass ye unto Calneh, and see; and from thence go ye to Hamath the great: then go down to Gath of the Philistines: be they better than these kingdoms? or their border greater than your border?
 **3** Ye that put far away the evil day, and cause the seat of violence to come near;
@@ -118,7 +118,7 @@ weight: 30
 **13** Ye which rejoice in a thing of nought, which say, Have we not taken to us horns by our own strength?
 **14** But, behold, I will raise up against you a nation, O house of Israel, saith the LORD the God of hosts; and they shall afflict you from the entering in of Hemath unto the river of the wilderness.
 
-## CHAPTER 7
+## AMOS 7
 **1** Thus hath the Lord GOD shewed unto me; and, behold, he formed grasshoppers in the beginning of the shooting up of the latter growth; and, lo, it was the latter growth after the king's mowings.
 **2** And it came to pass, that when they had made an end of eating the grass of the land, then I said, O Lord GOD, forgive, I beseech thee: by whom shall Jacob arise? for he is small.
 **3** The LORD repented for this: It shall not be, saith the LORD.
@@ -137,7 +137,7 @@ weight: 30
 **16** Now therefore hear thou the word of the LORD: Thou sayest, Prophesy not against Israel, and drop not thy word against the house of Isaac.
 **17** Therefore thus saith the LORD; Thy wife shall be an harlot in the city, and thy sons and thy daughters shall fall by the sword, and thy land shall be divided by line; and thou shalt die in a polluted land: and Israel shall surely go into captivity forth of his land.
 
-## CHAPTER 8
+## AMOS 8
 **1** Thus hath the Lord GOD shewed unto me: and behold a basket of summer fruit.
 **2** And he said, Amos, what seest thou? And I said, A basket of summer fruit. Then said the LORD unto me, The end is come upon my people of Israel; I will not again pass by them any more.
 **3** And the songs of the temple shall be howlings in that day, saith the Lord GOD: there shall be many dead bodies in every place; they shall cast them forth with silence.
@@ -153,7 +153,7 @@ weight: 30
 **13** In that day shall the fair virgins and young men faint for thirst.
 **14** They that swear by the sin of Samaria, and say, Thy god, O Dan, liveth; and, The manner of Beer-sheba liveth; even they shall fall, and never rise up again.
 
-## CHAPTER 9
+## AMOS 9
 **1** I saw the Lord standing upon the altar: and he said, Smite the lintel of the door, that the posts may shake: and cut them in the head, all of them; and I will slay the last of them with the sword: he that fleeth of them shall not flee away, and he that escapeth of them shall not be delivered.
 **2** Though they dig into hell, thence shall mine hand take them; though they climb up to heaven, thence will I bring them down:
 **3** And though they hide themselves in the top of Carmel, I will search and take them out thence; and though they be hid from my sight in the bottom of the sea, thence will I command the serpent, and he shall bite them:

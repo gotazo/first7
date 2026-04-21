@@ -7,7 +7,7 @@ weight: 19
 ## HEBREWS
 
 
-## CHAPTER 1
+## HEBREWS 1
 **1** God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets,
 **2** Hath in these last days spoken unto us by his Son, whom he hath appointed heir of all things, by whom also he made the worlds;
 **3** Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high;
@@ -23,7 +23,7 @@ weight: 19
 **13** But to which of the angels said he at any time, Sit on my right hand, until I make thine enemies thy footstool?
 **14** Are they not all ministering spirits, sent forth to minister for them who shall be heirs of salvation?
 
-## CHAPTER 2
+## HEBREWS 2
 **1** Therefore we ought to give the more earnest heed to the things which we have heard, lest at any time we should let them slip.
 **2** For if the word spoken by angels was stedfast, and every transgression and disobedience received a just recompence of reward;
 **3** How shall we escape, if we neglect so great salvation; which at the first began to be spoken by the Lord, and was confirmed unto us by them that heard him;
@@ -43,7 +43,7 @@ weight: 19
 **17** Wherefore in all things it behoved him to be made like unto his brethren, that he might be a merciful and faithful high priest in things pertaining to God, to make reconciliation for the sins of the people.
 **18** For in that he himself hath suffered being tempted, he is able to succour them that are tempted.
 
-## CHAPTER 3
+## HEBREWS 3
 **1** Wherefore, holy brethren, partakers of the heavenly calling, consider the Apostle and High Priest of our profession, Christ Jesus;
 **2** Who was faithful to him that appointed him, as also Moses was faithful in all his house.
 **3** For this man was counted worthy of more glory than Moses, inasmuch as he who hath builded the house hath more honour than the house.
@@ -64,7 +64,7 @@ weight: 19
 **18** And to whom sware he that they should not enter into his rest, but to them that believed not?
 **19** So we see that they could not enter in because of unbelief.
 
-## CHAPTER 4
+## HEBREWS 4
 **1** Let us therefore fear, lest, a promise being left us of entering into his rest, any of you should seem to come short of it.
 **2** For unto us was the gospel preached, as well as unto them: but the word preached did not profit them, not being mixed with faith in them that heard it.
 **3** For we which have believed do enter into rest, as he said, As I have sworn in my wrath, if they shall enter into my rest: although the works were finished from the foundation of the world.
@@ -82,7 +82,7 @@ weight: 19
 **15** For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as we are, yet without sin.
 **16** Let us therefore come boldly unto the throne of grace, that we may obtain mercy, and find grace to help in time of need.
 
-## CHAPTER 5
+## HEBREWS 5
 **1** For every high priest taken from among men is ordained for men in things pertaining to God, that he may offer both gifts and sacrifices for sins:
 **2** Who can have compassion on the ignorant, and on them that are out of the way; for that he himself also is compassed with infirmity.
 **3** And by reason hereof he ought, as for the people, so also for himself, to offer for sins.
@@ -98,7 +98,7 @@ weight: 19
 **13** For every one that useth milk is unskilful in the word of righteousness: for he is a babe.
 **14** But strong meat belongeth to them that are of full age, even those who by reason of use have their senses exercised to discern both good and evil.
 
-## CHAPTER 6
+## HEBREWS 6
 **1** Therefore leaving the principles of the doctrine of Christ, let us go on unto perfection; not laying again the foundation of repentance from dead works, and of faith toward God,
 **2** Of the doctrine of baptisms, and of laying on of hands, and of resurrection of the dead, and of eternal judgment.
 **3** And this will we do, if God permit.
@@ -120,7 +120,7 @@ weight: 19
 **19** Which hope we have as an anchor of the soul, both sure and stedfast, and which entereth into that within the veil;
 **20** Whither the forerunner is for us entered, even Jesus, made an high priest for ever after the order of Melchisedec.
 
-## CHAPTER 7
+## HEBREWS 7
 **1** For this Melchisedec, king of Salem, priest of the most high God, who met Abraham returning from the slaughter of the kings, and blessed him;
 **2** To whom also Abraham gave a tenth part of all; first being by interpretation King of righteousness, and after that also King of Salem, which is, King of peace;
 **3** Without father, without mother, without descent, having neither beginning of days, nor end of life; but made like unto the Son of God; abideth a priest continually.
@@ -150,7 +150,7 @@ weight: 19
 **27** Who needeth not daily, as those high priests, to offer up sacrifice, first for his own sins, and then for the people's: for this he did once, when he offered up himself.
 **28** For the law maketh men high priests which have infirmity; but the word of the oath, which was since the law, maketh the Son, who is consecrated for evermore.
 
-## CHAPTER 8
+## HEBREWS 8
 **1** Now of the things which we have spoken this is the sum: We have such an high priest, who is set on the right hand of the throne of the Majesty in the heavens;
 **2** A minister of the sanctuary, and of the true tabernacle, which the Lord pitched, and not man.
 **3** For every high priest is ordained to offer gifts and sacrifices: wherefore it is of necessity that this man have somewhat also to offer.
@@ -165,7 +165,7 @@ weight: 19
 **12** For I will be merciful to their unrighteousness, and their sins and their iniquities will I remember no more.
 **13** In that he saith, A new covenant, he hath made the first old. Now that which decayeth and waxeth old is ready to vanish away.
 
-## CHAPTER 9
+## HEBREWS 9
 **1** Then verily the first covenant had also ordinances of divine service, and a worldly sanctuary.
 **2** For there was a tabernacle made; the first, wherein was the candlestick, and the table, and the shewbread; which is called the sanctuary.
 **3** And after the second veil, the tabernacle which is called the Holiest of all;
@@ -195,7 +195,7 @@ weight: 19
 **27** And as it is appointed unto men once to die, but after this the judgment:
 **28** So Christ was once offered to bear the sins of many; and unto them that look for him shall he appear the second time without sin unto salvation.
 
-## CHAPTER 10
+## HEBREWS 10
 **1** For the law having a shadow of good things to come, and not the very image of the things, can never with those sacrifices which they offered year by year continually make the comers thereunto perfect.
 **2** For then would they not have ceased to be offered? because that the worshippers once purged should have had no more conscience of sins.
 **3** But in those sacrifices there is a remembrance again made of sins every year.
@@ -236,7 +236,7 @@ weight: 19
 **38** Now the just shall live by faith: but if any man draw back, my soul shall have no pleasure in him.
 **39** But we are not of them who draw back unto perdition; but of them that believe to the saving of the soul.
 
-## CHAPTER 11
+## HEBREWS 11
 **1** Now faith is the substance of things hoped for, the evidence of things not seen.
 **2** For by it the elders obtained a good report.
 **3** Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear.
@@ -278,7 +278,7 @@ weight: 19
 **39** And these all, having obtained a good report through faith, received not the promise:
 **40** God having provided some better thing for us, that they without us should not be made perfect.
 
-## CHAPTER 12
+## HEBREWS 12
 **1** Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us,
 **2** Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God.
 **3** For consider him that endured such contradiction of sinners against himself, lest ye be wearied and faint in your minds.
@@ -309,7 +309,7 @@ weight: 19
 **28** Wherefore we receiving a kingdom which cannot be moved, let us have grace, whereby we may serve God acceptably with reverence and godly fear:
 **29** For our God is a consuming fire.
 
-## CHAPTER 13
+## HEBREWS 13
 **1** Let brotherly love continue.
 **2** Be not forgetful to entertain strangers: for thereby some have entertained angels unawares.
 **3** Remember them that are in bonds, as bound with them; and them which suffer adversity, as being yourselves also in the body.

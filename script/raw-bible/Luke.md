@@ -6,7 +6,7 @@ weight: 3
 ## THE GOSPEL ACCORDING TO
 ## SAINT LUKE
 
-## CHAPTER 1
+## LUKE 1
 **1** Forasmuch as many have taken in hand to set forth in order a declaration of those things which are most surely believed among us,
 **2** Even as they delivered them unto us, which from the beginning were eyewitnesses, and ministers of the word;
 **3** It seemed good to me also, having had perfect understanding of all things from the very first, to write unto thee in order, most excellent Theophilus,
@@ -88,7 +88,7 @@ weight: 3
 **79** To give light to them that sit in darkness and in the shadow of death, to guide our feet into the way of peace.
 **80** And the child grew, and waxed strong in spirit, and was in the deserts till the day of his shewing unto Israel.
 
-## CHAPTER 2
+## LUKE 2
 **1** And it came to pass in those days, that there went out a decree from Caesar Augustus, that all the world should be taxed.
 **2** (And this taxing was first made when Cyrenius was governor of Syria.)
 **3** And all went to be taxed, every one into his own city.
@@ -142,7 +142,7 @@ weight: 3
 **51** And he went down with them, and came to Nazareth, and was subject unto them: but his mother kept all these sayings in her heart.
 **52** And Jesus increased in wisdom and stature, and in favour with God and man.
 
-## CHAPTER 3
+## LUKE 3
 **1** Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of Ituraea and of the region of Trachonitis, and Lysanias the tetrarch of Abilene,
 **2** Annas and Caiaphas being the high priests, the word of God came unto John the son of Zacharias in the wilderness.
 **3** And he came into all the country about Jordan, preaching the baptism of repentance for the remission of sins;
@@ -182,7 +182,7 @@ weight: 3
 **37** Which was the son of Mathusala, which was the son of Enoch, which was the son of Jared, which was the son of Maleleel, which was the son of Cainan,
 **38** Which was the son of Enos, which was the son of Seth, which was the son of Adam, which was the son of God.
 
-## CHAPTER 4
+## LUKE 4
 **1** And Jesus being full of the Holy Ghost returned from Jordan, and was led by the Spirit into the wilderness,
 **2** Being forty days tempted of the devil. And in those days he did eat nothing: and when they were ended, he afterward hungered.
 **3** And the devil said unto him, If thou be the Son of God, command this stone that it be made bread.
@@ -228,7 +228,7 @@ weight: 3
 **43** And he said unto them, I must preach the kingdom of God to other cities also: for therefore am I sent.
 **44** And he preached in the synagogues of Galilee.
 
-## CHAPTER 5
+## LUKE 5
 **1** And it came to pass, that, as the people pressed upon him to hear the word of God, he stood by the lake of Gennesaret,
 **2** And saw two ships standing by the lake: but the fishermen were gone out of them, and were washing their nets.
 **3** And he entered into one of the ships, which was Simon's, and prayed him that he would thrust out a little from the land. And he sat down, and taught the people out of the ship.
@@ -269,7 +269,7 @@ weight: 3
 **38** But new wine must be put into new bottles; and both are preserved.
 **39** No man also having drunk old wine straightway desireth new: for he saith, The old is better.
 
-## CHAPTER 6
+## LUKE 6
 **1** And it came to pass on the second sabbath after the first, that he went through the corn fields; and his disciples plucked the ears of corn, and did eat, rubbing them in their hands.
 **2** And certain of the Pharisees said unto them, Why do ye that which is not lawful to do on the sabbath days?
 **3** And Jesus answering them said, Have ye not read so much as this, what David did, when himself was an hungred, and they which were with him;
@@ -320,7 +320,7 @@ weight: 3
 **48** He is like a man which built an house, and digged deep, and laid the foundation on a rock: and when the flood arose, the stream beat vehemently upon that house, and could not shake it: for it was founded upon a rock.
 **49** But he that heareth, and doeth not, is like a man that without a foundation built an house upon the earth; against which the stream did beat vehemently, and immediately it fell; and the ruin of that house was great.
 
-## CHAPTER 7
+## LUKE 7
 **1** Now when he had ended all his sayings in the audience of the people, he entered into Capernaum.
 **2** And a certain centurion's servant, who was dear unto him, was sick, and ready to die.
 **3** And when he heard of Jesus, he sent unto him the elders of the Jews, beseeching him that he would come and heal his servant.
@@ -372,7 +372,7 @@ weight: 3
 **49** And they that sat at meat with him began to say within themselves, Who is this that forgiveth sins also?
 **50** And he said to the woman, Thy faith hath saved thee; go in peace.
 
-## CHAPTER 8
+## LUKE 8
 **1** And it came to pass afterward, that he went throughout every city and village, preaching and shewing the glad tidings of the kingdom of God: and the twelve were with him,
 **2** And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils,
 **3** And Joanna the wife of Chuza Herod's steward, and Susanna, and many others, which ministered unto him of their substance.
@@ -430,7 +430,7 @@ weight: 3
 **55** And her spirit came again, and she arose straightway: and he commanded to give her meat.
 **56** And her parents were astonished: but he charged them that they should tell no man what was done.
 
-## CHAPTER 9
+## LUKE 9
 **1** Then he called his twelve disciples together, and gave them power and authority over all devils, and to cure diseases.
 **2** And he sent them to preach the kingdom of God, and to heal the sick.
 **3** And he said unto them, Take nothing for your journey, neither staves, nor scrip, neither bread, neither money; neither have two coats apiece.
@@ -494,7 +494,7 @@ weight: 3
 **61** And another also said, Lord, I will follow thee; but let me first go bid them farewell, which are at home at my house.
 **62** And Jesus said unto him, No man, having put his hand to the plough, and looking back, is fit for the kingdom of God.
 
-## CHAPTER 10
+## LUKE 10
 **1** After these things the Lord appointed other seventy also, and sent them two and two before his face into every city and place, whither he himself would come.
 **2** Therefore said he unto them, The harvest truly is great, but the labourers are few: pray ye therefore the Lord of the harvest, that he would send forth labourers into his harvest.
 **3** Go your ways: behold, I send you forth as lambs among wolves.
@@ -538,7 +538,7 @@ weight: 3
 **41** And Jesus answered and said unto her, Martha, Martha, thou art careful and troubled about many things:
 **42** But one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her.
 
-## CHAPTER 11
+## LUKE 11
 **1** And it came to pass, that, as he was praying in a certain place, when he ceased, one of his disciples said unto him, Lord, teach us to pray, as John also taught his disciples.
 **2** And he said unto them, When ye pray, say, Our Father which art in heaven, Hallowed be thy name. Thy kingdom come. Thy will be done, as in heaven, so in earth.
 **3** Give us day by day our daily bread.
@@ -594,7 +594,7 @@ weight: 3
 **53** And as he said these things unto them, the scribes and the Pharisees began to urge him vehemently, and to provoke him to speak of many things:
 **54** Laying wait for him, and seeking to catch something out of his mouth, that they might accuse him.
 
-## CHAPTER 12
+## LUKE 12
 **1** In the mean time, when there were gathered together an innumerable multitude of people, insomuch that they trode one upon another, he began to say unto his disciples first of all, Beware ye of the leaven of the Pharisees, which is hypocrisy.
 **2** For there is nothing covered, that shall not be revealed; neither hid, that shall not be known.
 **3** Therefore whatsoever ye have spoken in darkness shall be heard in the light; and that which ye have spoken in the ear in closets shall be proclaimed upon the housetops.
@@ -655,7 +655,7 @@ weight: 3
 **58** When thou goest with thine adversary to the magistrate, as thou art in the way, give diligence that thou mayest be delivered from him; lest he hale thee to the judge, and the judge deliver thee to the officer, and the officer cast thee into prison.
 **59** I tell thee, thou shalt not depart thence, till thou hast paid the very last mite.
 
-## CHAPTER 13
+## LUKE 13
 **1** There were present at that season some that told him of the Galilaeans, whose blood Pilate had mingled with their sacrifices.
 **2** And Jesus answering said unto them, Suppose ye that these Galilaeans were sinners above all the Galilaeans, because they suffered such things?
 **3** I tell you, Nay: but, except ye repent, ye shall all likewise perish.
@@ -692,7 +692,7 @@ weight: 3
 **34** O Jerusalem, Jerusalem, which killest the prophets, and stonest them that are sent unto thee; how often would I have gathered thy children together, as a hen doth gather her brood under her wings, and ye would not!
 **35** Behold, your house is left unto you desolate: and verily I say unto you, Ye shall not see me, until the time come when ye shall say, Blessed is he that cometh in the name of the Lord.
 
-## CHAPTER 14
+## LUKE 14
 **1** And it came to pass, as he went into the house of one of the chief Pharisees to eat bread on the sabbath day, that they watched him.
 **2** And, behold, there was a certain man before him which had the dropsy.
 **3** And Jesus answering spake unto the lawyers and Pharisees, saying, Is it lawful to heal on the sabbath day?
@@ -729,7 +729,7 @@ weight: 3
 **34** Salt is good: but if the salt have lost his savour, wherewith shall it be seasoned?
 **35** It is neither fit for the land, nor yet for the dunghill; but men cast it out. He that hath ears to hear, let him hear.
 
-## CHAPTER 15
+## LUKE 15
 **1** Then drew near unto him all the publicans and sinners for to hear him.
 **2** And the Pharisees and scribes murmured, saying, This man receiveth sinners, and eateth with them.
 **3** And he spake this parable unto them, saying,
@@ -763,7 +763,7 @@ weight: 3
 **31** And he said unto him, Son, thou art ever with me, and all that I have is thine.
 **32** It was meet that we should make merry, and be glad: for this thy brother was dead, and is alive again; and was lost, and is found.
 
-## CHAPTER 16
+## LUKE 16
 **1** And he said also unto his disciples, There was a certain rich man, which had a steward; and the same was accused unto him that he had wasted his goods.
 **2** And he called him, and said unto him, How is it that I hear this of thee? give an account of thy stewardship; for thou mayest be no longer steward.
 **3** Then the steward said within himself, What shall I do? for my lord taketh away from me the stewardship: I cannot dig; to beg I am ashamed.
@@ -796,7 +796,7 @@ weight: 3
 **30** And he said, Nay, father Abraham: but if one went unto them from the dead, they will repent.
 **31** And he said unto him, If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead.
 
-## CHAPTER 17
+## LUKE 17
 **1** Then said he unto the disciples, It is impossible but that offences will come: but woe unto him, through whom they come!
 **2** It were better for him that a millstone were hanged about his neck, and he cast into the sea, than that he should offend one of these little ones.
 **3** Take heed to yourselves: If thy brother trespass against thee, rebuke him; and if he repent, forgive him.
@@ -835,7 +835,7 @@ weight: 3
 **36** Two men shall be in the field; the one shall be taken, and the other left.
 **37** And they answered and said unto him, Where, Lord? And he said unto them, Wheresoever the body is, thither will the eagles be gathered together.
 
-## CHAPTER 18
+## LUKE 18
 **1** And he spake a parable unto them to this end, that men ought always to pray, and not to faint;
 **2** Saying, There was in a city a judge, which feared not God, neither regarded man:
 **3** And there was a widow in that city; and she came unto him, saying, Avenge me of mine adversary.
@@ -880,7 +880,7 @@ weight: 3
 **42** And Jesus said unto him, Receive thy sight: thy faith hath saved thee.
 **43** And immediately he received his sight, and followed him, glorifying God: and all the people, when they saw it, gave praise unto God.
 
-## CHAPTER 19
+## LUKE 19
 **1** And Jesus entered and passed through Jericho.
 **2** And, behold, there was a man named Zacchaeus, which was the chief among the publicans, and he was rich.
 **3** And he sought to see Jesus who he was; and could not for the press, because he was little of stature.
@@ -930,7 +930,7 @@ weight: 3
 **47** And he taught daily in the temple. But the chief priests and the scribes and the chief of the people sought to destroy him,
 **48** And could not find what they might do: for all the people were very attentive to hear him.
 
-## CHAPTER 20
+## LUKE 20
 **1** And it came to pass, that on one of those days, as he taught the people in the temple, and preached the gospel, the chief priests and the scribes came upon him with the elders,
 **2** And spake unto him, saying, Tell us, by what authority doest thou these things? or who is he that gave thee this authority?
 **3** And he answered and said unto them, I will also ask you one thing; and answer me:
@@ -979,7 +979,7 @@ weight: 3
 **46** Beware of the scribes, which desire to walk in long robes, and love greetings in the markets, and the highest seats in the synagogues, and the chief rooms at feasts;
 **47** Which devour widows' houses, and for a shew make long prayers: the same shall receive greater damnation.
 
-## CHAPTER 21
+## LUKE 21
 **1** And he looked up, and saw the rich men casting their gifts into the treasury.
 **2** And he saw also a certain poor widow casting in thither two mites.
 **3** And he said, Of a truth I say unto you, that this poor widow hath cast in more than they all:
@@ -1019,7 +1019,7 @@ weight: 3
 **37** And in the day time he was teaching in the temple; and at night he went out, and abode in the mount that is called the mount of Olives.
 **38** And all the people came early in the morning to him in the temple, for to hear him.
 
-## CHAPTER 22
+## LUKE 22
 **1** Now the feast of unleavened bread drew nigh, which is called the Passover.
 **2** And the chief priests and scribes sought how they might kill him; for they feared the people.
 **3** Then entered Satan into Judas surnamed Iscariot, being of the number of the twelve.
@@ -1092,7 +1092,7 @@ weight: 3
 **70** Then said they all, Art thou then the Son of God? And he said unto them, Ye say that I am.
 **71** And they said, What need we any further witness? for we ourselves have heard of his own mouth.
 
-## CHAPTER 23
+## LUKE 23
 **1** And the whole multitude of them arose, and led him unto Pilate.
 **2** And they began to accuse him, saying, We found this fellow perverting the nation, and forbidding to give tribute to Caesar, saying that he himself is Christ a King.
 **3** And Pilate asked him, saying, Art thou the King of the Jews? And he answered him and said, Thou sayest it.
@@ -1150,7 +1150,7 @@ weight: 3
 **55** And the women also, which came with him from Galilee, followed after, and beheld the sepulchre, and how his body was laid.
 **56** And they returned, and prepared spices and ointments; and rested the sabbath day according to the commandment.
 
-## CHAPTER 24
+## LUKE 24
 **1** Now upon the first day of the week, very early in the morning, they came unto the sepulchre, bringing the spices which they had prepared, and certain others with them.
 **2** And they found the stone rolled away from the sepulchre.
 **3** And they entered in, and found not the body of the Lord Jesus.

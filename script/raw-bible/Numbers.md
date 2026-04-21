@@ -7,7 +7,7 @@ THE FOURTH BOOK OF MOSES, CALLED
 NUMBERS
 
 
-## CHAPTER 1
+## NUMBERS 1
 **1** And the LORD spake unto Moses in the wilderness of Sinai, in the tabernacle of the congregation, on the first day of the second month, in the second year after they were come out of the land of Egypt, saying,
 **2** Take ye the sum of all the congregation of the children of Israel, after their families, by the house of their fathers, with the number of their names, every male by their polls;
 **3** From twenty years old and upward, all that are able to go forth to war in Israel: thou and Aaron shall number them by their armies.
@@ -63,7 +63,7 @@ NUMBERS
 **53** But the Levites shall pitch round about the tabernacle of testimony, that there be no wrath upon the congregation of the children of Israel: and the Levites shall keep the charge of the tabernacle of testimony.
 **54** And the children of Israel did according to all that the LORD commanded Moses, so did they.
 
-## CHAPTER 2
+## NUMBERS 2
 **1** And the LORD spake unto Moses and unto Aaron, saying,
 **2** Every man of the children of Israel shall pitch by his own standard, with the ensign of their father's house: far off about the tabernacle of the congregation shall they pitch.
 **3** And on the east side toward the rising of the sun shall they of the standard of the camp of Judah pitch throughout their armies: and Nahshon the son of Amminadab shall be captain of the children of Judah.
@@ -99,7 +99,7 @@ NUMBERS
 **33** But the Levites were not numbered among the children of Israel; as the LORD commanded Moses.
 **34** And the children of Israel did according to all that the LORD commanded Moses: so they pitched by their standards, and so they set forward, every one after their families, according to the house of their fathers.
 
-## CHAPTER 3
+## NUMBERS 3
 **1** These also are the generations of Aaron and Moses in the day that the LORD spake with Moses in mount Sinai.
 **2** And these are the names of the sons of Aaron; Nadab the firstborn, and Abihu, Eleazar, and Ithamar.
 **3** These are the names of the sons of Aaron, the priests which were anointed, whom he consecrated to minister in the priest's office.
@@ -152,7 +152,7 @@ NUMBERS
 **50** Of the firstborn of the children of Israel took he the money; a thousand three hundred and threescore and five shekels, after the shekel of the sanctuary:
 **51** And Moses gave the money of them that were redeemed unto Aaron and to his sons, according to the word of the LORD, as the LORD commanded Moses.
 
-## CHAPTER 4
+## NUMBERS 4
 **1** And the LORD spake unto Moses and unto Aaron, saying,
 **2** Take the sum of the sons of Kohath from among the sons of Levi, after their families, by the house of their fathers,
 **3** From thirty years old and upward even until fifty years old, all that enter into the host, to do the work in the tabernacle of the congregation.
@@ -203,7 +203,7 @@ NUMBERS
 **48** Even those that were numbered of them, were eight thousand and five hundred and fourscore.
 **49** According to the commandment of the LORD they were numbered by the hand of Moses, every one according to his service, and according to his burden: thus were they numbered of him, as the LORD commanded Moses.
 
-## CHAPTER 5
+## NUMBERS 5
 **1** And the LORD spake unto Moses, saying,
 **2** Command the children of Israel, that they put out of the camp every leper, and every one that hath an issue, and whosoever is defiled by the dead:
 **3** Both male and female shall ye put out, without the camp shall ye put them; that they defile not their camps, in the midst whereof I dwell.
@@ -236,7 +236,7 @@ NUMBERS
 **30** Or when the spirit of jealousy cometh upon him, and he be jealous over his wife, and shall set the woman before the LORD, and the priest shall execute upon her all this law.
 **31** Then shall the man be guiltless from iniquity, and this woman shall bear her iniquity.
 
-## CHAPTER 6
+## NUMBERS 6
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto the children of Israel, and say unto them, When either man or woman shall separate themselves to vow a vow of a Nazarite, to separate themselves unto the LORD:
 **3** He shall separate himself from wine and strong drink, and shall drink no vinegar of wine, or vinegar of strong drink, neither shall he drink any liquor of grapes, nor eat moist grapes, or dried.
@@ -265,7 +265,7 @@ NUMBERS
 **26** The LORD lift up his countenance upon thee, and give thee peace.
 **27** And they shall put my name upon the children of Israel; and I will bless them.
 
-## CHAPTER 7
+## NUMBERS 7
 **1** And it came to pass on the day that Moses had fully set up the tabernacle, and had anointed it, and sanctified it, and all the instruments thereof, both the altar and all the vessels thereof, and had anointed them, and sanctified them;
 **2** That the princes of Israel, heads of the house of their fathers, who were the princes of the tribes, and were over them that were numbered, offered:
 **3** And they brought their offering before the LORD, six covered wagons, and twelve oxen; a wagon for two of the princes, and for each one an ox: and they brought them before the tabernacle.
@@ -356,7 +356,7 @@ NUMBERS
 **88** And all the oxen for the sacrifice of the peace offerings were twenty and four bullocks, the rams sixty, the he goats sixty, the lambs of the first year sixty. This was the dedication of the altar, after that it was anointed.
 **89** And when Moses was gone into the tabernacle of the congregation to speak with him, then he heard the voice of one speaking unto him from off the mercy seat that was upon the ark of testimony, from between the two cherubims: and he spake unto him.
 
-## CHAPTER 8
+## NUMBERS 8
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto Aaron, and say unto him, When thou lightest the lamps, the seven lamps shall give light over against the candlestick.
 **3** And Aaron did so; he lighted the lamps thereof over against the candlestick, as the LORD commanded Moses.
@@ -384,7 +384,7 @@ NUMBERS
 **25** And from the age of fifty years they shall cease waiting upon the service thereof, and shall serve no more:
 **26** But shall minister with their brethren in the tabernacle of the congregation, to keep the charge, and shall do no service. Thus shalt thou do unto the Levites touching their charge.
 
-## CHAPTER 9
+## NUMBERS 9
 **1** And the LORD spake unto Moses in the wilderness of Sinai, in the first month of the second year after they were come out of the land of Egypt, saying,
 **2** Let the children of Israel also keep the passover at his appointed season.
 **3** In the fourteenth day of this month, at even, ye shall keep it in his appointed season: according to all the rites of it, and according to all the ceremonies thereof, shall ye keep it.
@@ -409,7 +409,7 @@ NUMBERS
 **22** Or whether it were two days, or a month, or a year, that the cloud tarried upon the tabernacle, remaining thereon, the children of Israel abode in their tents, and journeyed not: but when it was taken up, they journeyed.
 **23** At the commandment of the LORD they rested in the tents, and at the commandment of the LORD they journeyed: they kept the charge of the LORD, at the commandment of the LORD by the hand of Moses.
 
-## CHAPTER 10
+## NUMBERS 10
 **1** And the LORD spake unto Moses, saying,
 **2** Make thee two trumpets of silver; of a whole piece shalt thou make them: that thou mayest use them for the calling of the assembly, and for the journeying of the camps.
 **3** And when they shall blow with them, all the assembly shall assemble themselves to thee at the door of the tabernacle of the congregation.
@@ -447,7 +447,7 @@ NUMBERS
 **35** And it came to pass, when the ark set forward, that Moses said, Rise up, LORD, and let thine enemies be scattered; and let them that hate thee flee before thee.
 **36** And when it rested, he said, Return, O LORD, unto the many thousands of Israel.
 
-## CHAPTER 11
+## NUMBERS 11
 **1** And when the people complained, it displeased the LORD: and the LORD heard it; and his anger was kindled; and the fire of the LORD burnt among them, and consumed them that were in the uttermost parts of the camp.
 **2** And the people cried unto Moses; and when Moses prayed unto the LORD, the fire was quenched.
 **3** And he called the name of the place Taberah: because the fire of the LORD burnt among them.
@@ -484,7 +484,7 @@ NUMBERS
 **34** And he called the name of that place Kibroth-hattaavah: because there they buried the people that lusted.
 **35** And the people journeyed from Kibroth-hattaavah unto Hazeroth; and abode at Hazeroth.
 
-## CHAPTER 12
+## NUMBERS 12
 **1** And Miriam and Aaron spake against Moses because of the Ethiopian woman whom he had married: for he had married an Ethiopian woman.
 **2** And they said, Hath the LORD indeed spoken only by Moses? hath he not spoken also by us? And the LORD heard it.
 **3** (Now the man Moses was very meek, above all the men which were upon the face of the earth.)
@@ -502,7 +502,7 @@ NUMBERS
 **15** And Miriam was shut out from the camp seven days: and the people journeyed not till Miriam was brought in again.
 **16** And afterward the people removed from Hazeroth, and pitched in the wilderness of Paran.
 
-## CHAPTER 13
+## NUMBERS 13
 **1** And the LORD spake unto Moses, saying,
 **2** Send thou men, that they may search the land of Canaan, which I give unto the children of Israel: of every tribe of their fathers shall ye send a man, every one a ruler among them.
 **3** And Moses by the commandment of the LORD sent them from the wilderness of Paran: all those men were heads of the children of Israel.
@@ -537,7 +537,7 @@ NUMBERS
 **32** And they brought up an evil report of the land which they had searched unto the children of Israel, saying, The land, through which we have gone to search it, is a land that eateth up the inhabitants thereof; and all the people that we saw in it are men of a great stature.
 **33** And there we saw the giants, the sons of Anak, which come of the giants: and we were in our own sight as grasshoppers, and so we were in their sight.
 
-## CHAPTER 14
+## NUMBERS 14
 **1** And all the congregation lifted up their voice, and cried; and the people wept that night.
 **2** And all the children of Israel murmured against Moses and against Aaron: and the whole congregation said unto them, Would God that we had died in the land of Egypt! or would God we had died in this wilderness!
 **3** And wherefore hath the LORD brought us unto this land, to fall by the sword, that our wives and our children should be a prey? were it not better for us to return into Egypt?
@@ -584,7 +584,7 @@ NUMBERS
 **44** But they presumed to go up unto the hill top: nevertheless the ark of the covenant of the LORD, and Moses, departed not out of the camp.
 **45** Then the Amalekites came down, and the Canaanites which dwelt in that hill, and smote them, and discomfited them, even unto Hormah.
 
-## CHAPTER 15
+## NUMBERS 15
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto the children of Israel, and say unto them, When ye be come into the land of your habitations, which I give unto you,
 **3** And will make an offering by fire unto the LORD, a burnt offering, or a sacrifice in performing a vow, or in a freewill offering, or in your solemn feasts, to make a sweet savour unto the LORD, of the herd, or of the flock:
@@ -627,7 +627,7 @@ NUMBERS
 **40** That ye may remember, and do all my commandments, and be holy unto your God.
 **41** I am the LORD your God, which brought you out of the land of Egypt, to be your God: I am the LORD your God.
 
-## CHAPTER 16
+## NUMBERS 16
 **1** Now Korah, the son of Izhar, the son of Kohath, the son of Levi, and Dathan and Abiram, the sons of Eliab, and On, the son of Peleth, sons of Reuben, took men:
 **2** And they rose up before Moses, with certain of the children of Israel, two hundred and fifty princes of the assembly, famous in the congregation, men of renown:
 **3** And they gathered themselves together against Moses and against Aaron, and said unto them, Ye take too much upon you, seeing all the congregation are holy, every one of them, and the LORD is among them: wherefore then lift ye up yourselves above the congregation of the LORD?
@@ -679,7 +679,7 @@ NUMBERS
 **49** Now they that died in the plague were fourteen thousand and seven hundred, beside them that died about the matter of Korah.
 **50** And Aaron returned unto Moses unto the door of the tabernacle of the congregation: and the plague was stayed.
 
-## CHAPTER 17
+## NUMBERS 17
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto the children of Israel, and take of every one of them a rod according to the house of their fathers, of all their princes according to the house of their fathers twelve rods: write thou every man's name upon his rod.
 **3** And thou shalt write Aaron's name upon the rod of Levi: for one rod shall be for the head of the house of their fathers.
@@ -694,7 +694,7 @@ NUMBERS
 **12** And the children of Israel spake unto Moses, saying, Behold, we die, we perish, we all perish.
 **13** Whosoever cometh any thing near unto the tabernacle of the LORD shall die: shall we be consumed with dying?
 
-## CHAPTER 18
+## NUMBERS 18
 **1** And the LORD said unto Aaron, Thou and thy sons and thy father's house with thee shall bear the iniquity of the sanctuary: and thou and thy sons with thee shall bear the iniquity of your priesthood.
 **2** And thy brethren also of the tribe of Levi, the tribe of thy father, bring thou with thee, that they may be joined unto thee, and minister unto thee: but thou and thy sons with thee shall minister before the tabernacle of witness.
 **3** And they shall keep thy charge, and the charge of all the tabernacle: only they shall not come nigh the vessels of the sanctuary and the altar, that neither they, nor ye also, die.
@@ -728,7 +728,7 @@ NUMBERS
 **31** And ye shall eat it in every place, ye and your households: for it is your reward for your service in the tabernacle of the congregation.
 **32** And ye shall bear no sin by reason of it, when ye have heaved from it the best of it: neither shall ye pollute the holy things of the children of Israel, lest ye die.
 
-## CHAPTER 19
+## NUMBERS 19
 **1** And the LORD spake unto Moses and unto Aaron, saying,
 **2** This is the ordinance of the law which the LORD hath commanded, saying, Speak unto the children of Israel, that they bring thee a red heifer without spot, wherein is no blemish, and upon which never came yoke:
 **3** And ye shall give her unto Eleazar the priest, that he may bring her forth without the camp, and one shall slay her before his face:
@@ -752,7 +752,7 @@ NUMBERS
 **21** And it shall be a perpetual statute unto them, that he that sprinkleth the water of separation shall wash his clothes; and he that toucheth the water of separation shall be unclean until even.
 **22** And whatsoever the unclean person toucheth shall be unclean; and the soul that toucheth it shall be unclean until even.
 
-## CHAPTER 20
+## NUMBERS 20
 **1** Then came the children of Israel, even the whole congregation, into the desert of Zin in the first month: and the people abode in Kadesh; and Miriam died there, and was buried there.
 **2** And there was no water for the congregation: and they gathered themselves together against Moses and against Aaron.
 **3** And the people chode with Moses, and spake, saying, Would God that we had died when our brethren died before the LORD!
@@ -783,7 +783,7 @@ NUMBERS
 **28** And Moses stripped Aaron of his garments, and put them upon Eleazar his son; and Aaron died there in the top of the mount: and Moses and Eleazar came down from the mount.
 **29** And when all the congregation saw that Aaron was dead, they mourned for Aaron thirty days, even all the house of Israel.
 
-## CHAPTER 21
+## NUMBERS 21
 **1** And when king Arad the Canaanite, which dwelt in the south, heard tell that Israel came by the way of the spies; then he fought against Israel, and took some of them prisoners.
 **2** And Israel vowed a vow unto the LORD, and said, If thou wilt indeed deliver this people into my hand, then I will utterly destroy their cities.
 **3** And the LORD hearkened to the voice of Israel, and delivered up the Canaanites; and they utterly destroyed them and their cities: and he called the name of the place Hormah.
@@ -820,7 +820,7 @@ NUMBERS
 **34** And the LORD said unto Moses, Fear him not: for I have delivered him into thy hand, and all his people, and his land; and thou shalt do to him as thou didst unto Sihon king of the Amorites, which dwelt at Heshbon.
 **35** So they smote him, and his sons, and all his people, until there was none left him alive: and they possessed his land.
 
-## CHAPTER 22
+## NUMBERS 22
 **1** And the children of Israel set forward, and pitched in the plains of Moab on this side Jordan by Jericho.
 **2** And Balak the son of Zippor saw all that Israel had done to the Amorites.
 **3** And Moab was sore afraid of the people, because they were many: and Moab was distressed because of the children of Israel.
@@ -863,7 +863,7 @@ NUMBERS
 **40** And Balak offered oxen and sheep, and sent to Balaam, and to the princes that were with him.
 **41** And it came to pass on the morrow, that Balak took Balaam, and brought him up into the high places of Baal, that thence he might see the utmost part of the people.
 
-## CHAPTER 23
+## NUMBERS 23
 **1** And Balaam said unto Balak, Build me here seven altars, and prepare me here seven oxen and seven rams.
 **2** And Balak did as Balaam had spoken; and Balak and Balaam offered on every altar a bullock and a ram.
 **3** And Balaam said unto Balak, Stand by thy burnt offering, and I will go: peradventure the LORD will come to meet me: and whatsoever he sheweth me I will tell thee. And he went to an high place.
@@ -895,7 +895,7 @@ NUMBERS
 **29** And Balaam said unto Balak, Build me here seven altars, and prepare me here seven bullocks and seven rams.
 **30** And Balak did as Balaam had said, and offered a bullock and a ram on every altar.
 
-## CHAPTER 24
+## NUMBERS 24
 **1** And when Balaam saw that it pleased the LORD to bless Israel, he went not, as at other times, to seek for enchantments, but he set his face toward the wilderness.
 **2** And Balaam lifted up his eyes, and he saw Israel abiding in his tents according to their tribes; and the spirit of God came upon him.
 **3** And he took up his parable, and said, Balaam the son of Beor hath said, and the man whose eyes are open hath said:
@@ -922,7 +922,7 @@ NUMBERS
 **24** And ships shall come from the coast of Chittim, and shall afflict Asshur, and shall afflict Eber, and he also shall perish for ever.
 **25** And Balaam rose up, and went and returned to his place: and Balak also went his way.
 
-## CHAPTER 25
+## NUMBERS 25
 **1** And Israel abode in Shittim, and the people began to commit whoredom with the daughters of Moab.
 **2** And they called the people unto the sacrifices of their gods: and the people did eat, and bowed down to their gods.
 **3** And Israel joined himself unto Baal-peor: and the anger of the LORD was kindled against Israel.
@@ -942,7 +942,7 @@ NUMBERS
 **17** Vex the Midianites, and smite them:
 **18** For they vex you with their wiles, wherewith they have beguiled you in the matter of Peor, and in the matter of Cozbi, the daughter of a prince of Midian, their sister, which was slain in the day of the plague for Peor's sake.
 
-## CHAPTER 26
+## NUMBERS 26
 **1** And it came to pass after the plague, that the LORD spake unto Moses and unto Eleazar the son of Aaron the priest, saying,
 **2** Take the sum of all the congregation of the children of Israel, from twenty years old and upward, throughout their fathers' house, all that are able to go to war in Israel.
 **3** And Moses and Eleazar the priest spake with them in the plains of Moab by Jordan near Jericho, saying,
@@ -1009,7 +1009,7 @@ NUMBERS
 **64** But among these there was not a man of them whom Moses and Aaron the priest numbered, when they numbered the children of Israel in the wilderness of Sinai.
 **65** For the LORD had said of them, They shall surely die in the wilderness. And there was not left a man of them, save Caleb the son of Jephunneh, and Joshua the son of Nun.
 
-## CHAPTER 27
+## NUMBERS 27
 **1** Then came the daughters of Zelophehad, the son of Hepher, the son of Gilead, the son of Machir, the son of Manasseh, of the families of Manasseh the son of Joseph: and these are the names of his daughters; Mahlah, Noah, and Hoglah, and Milcah, and Tirzah.
 **2** And they stood before Moses, and before Eleazar the priest, and before the princes and all the congregation, by the door of the tabernacle of the congregation, saying,
 **3** Our father died in the wilderness, and he was not in the company of them that gathered themselves together against the LORD in the company of Korah; but died in his own sin, and had no sons.
@@ -1034,7 +1034,7 @@ NUMBERS
 **22** And Moses did as the LORD commanded him: and he took Joshua, and set him before Eleazar the priest, and before all the congregation:
 **23** And he laid his hands upon him, and gave him a charge, as the LORD commanded by the hand of Moses.
 
-## CHAPTER 28
+## NUMBERS 28
 **1** And the LORD spake unto Moses, saying,
 **2** Command the children of Israel, and say unto them, My offering, and my bread for my sacrifices made by fire, for a sweet savour unto me, shall ye observe to offer unto me in their due season.
 **3** And thou shalt say unto them, This is the offering made by fire which ye shall offer unto the LORD; two lambs of the first year without spot day by day, for a continual burnt offering.
@@ -1067,7 +1067,7 @@ NUMBERS
 **30** And one kid of the goats, to make an atonement for you.
 **31** Ye shall offer them beside the continual burnt offering, and his meat offering, (they shall be unto you without blemish) and their drink offerings.
 
-## CHAPTER 29
+## NUMBERS 29
 **1** And in the seventh month, on the first day of the month, ye shall have an holy convocation; ye shall do no servile work: it is a day of blowing the trumpets unto you.
 **2** And ye shall offer a burnt offering for a sweet savour unto the LORD; one young bullock, one ram, and seven lambs of the first year without blemish:
 **3** And their meat offering shall be of flour mingled with oil, three tenth deals for a bullock, and two tenth deals for a ram,
@@ -1109,7 +1109,7 @@ NUMBERS
 **39** These things ye shall do unto the LORD in your set feasts, beside your vows, and your freewill offerings, for your burnt offerings, and for your meat offerings, and for your drink offerings, and for your peace offerings.
 **40** And Moses told the children of Israel according to all that the LORD commanded Moses.
 
-## CHAPTER 30
+## NUMBERS 30
 **1** And Moses spake unto the heads of the tribes concerning the children of Israel, saying, This is the thing which the LORD hath commanded.
 **2** If a man vow a vow unto the LORD, or swear an oath to bind his soul with a bond; he shall not break his word, he shall do according to all that proceedeth out of his mouth.
 **3** If a woman also vow a vow unto the LORD, and bind herself by a bond, being in her father's house in her youth;
@@ -1127,7 +1127,7 @@ NUMBERS
 **15** But if he shall any ways make them void after that he hath heard them; then he shall bear her iniquity.
 **16** These are the statutes, which the LORD commanded Moses, between a man and his wife, between the father and his daughter, being yet in her youth in her father's house.
 
-## CHAPTER 31
+## NUMBERS 31
 **1** And the LORD spake unto Moses, saying,
 **2** Avenge the children of Israel of the Midianites: afterward shalt thou be gathered unto thy people.
 **3** And Moses spake unto the people, saying, Arm some of yourselves unto the war, and let them go against the Midianites, and avenge the LORD of Midian.
@@ -1183,7 +1183,7 @@ NUMBERS
 **53** (For the men of war had taken spoil, every man for himself.)
 **54** And Moses and Eleazar the priest took the gold of the captains of thousands and of hundreds, and brought it into the tabernacle of the congregation, for a memorial for the children of Israel before the LORD.
 
-## CHAPTER 32
+## NUMBERS 32
 **1** Now the children of Reuben and the children of Gad had a very great multitude of cattle: and when they saw the land of Jazer, and the land of Gilead, that, behold, the place was a place for cattle;
 **2** The children of Gad and the children of Reuben came and spake unto Moses, and to Eleazar the priest, and unto the princes of the congregation, saying,
 **3** Ataroth, and Dibon, and Jazer, and Nimrah, and Heshbon, and Elealeh, and Shebam, and Nebo, and Beon,
@@ -1227,7 +1227,7 @@ NUMBERS
 **41** And Jair the son of Manasseh went and took the small towns thereof, and called them Havoth-jair.
 **42** And Nobah went and took Kenath, and the villages thereof, and called it Nobah, after his own name.
 
-## CHAPTER 33
+## NUMBERS 33
 **1** These are the journeys of the children of Israel, which went forth out of the land of Egypt with their armies under the hand of Moses and Aaron.
 **2** And Moses wrote their goings out according to their journeys by the commandment of the LORD: and these are their journeys according to their goings out.
 **3** And they departed from Rameses in the first month, on the fifteenth day of the first month; on the morrow after the passover the children of Israel went out with an high hand in the sight of all the Egyptians.
@@ -1285,7 +1285,7 @@ NUMBERS
 **55** But if ye will not drive out the inhabitants of the land from before you; then it shall come to pass, that those which ye let remain of them shall be pricks in your eyes, and thorns in your sides, and shall vex you in the land wherein ye dwell.
 **56** Moreover it shall come to pass, that I shall do unto you, as I thought to do unto them.
 
-## CHAPTER 34
+## NUMBERS 34
 **1** And the LORD spake unto Moses, saying,
 **2** Command the children of Israel, and say unto them, When ye come into the land of Canaan; (this is the land that shall fall unto you for an inheritance, even the land of Canaan with the coasts thereof:)
 **3** Then your south quarter shall be from the wilderness of Zin along by the coast of Edom, and your south border shall be the outmost coast of the salt sea eastward:
@@ -1316,7 +1316,7 @@ NUMBERS
 **28** And the prince of the tribe of the children of Naphtali, Pedahel the son of Ammihud.
 **29** These are they whom the LORD commanded to divide the inheritance unto the children of Israel in the land of Canaan.
 
-## CHAPTER 35
+## NUMBERS 35
 **1** And the LORD spake unto Moses in the plains of Moab by Jordan near Jericho, saying,
 **2** Command the children of Israel, that they give unto the Levites of the inheritance of their possession cities to dwell in; and ye shall give also unto the Levites suburbs for the cities round about them.
 **3** And the cities shall they have to dwell in; and the suburbs of them shall be for their cattle, and for their goods, and for all their beasts.
@@ -1352,7 +1352,7 @@ NUMBERS
 **33** So ye shall not pollute the land wherein ye are: for blood it defileth the land: and the land cannot be cleansed of the blood that is shed therein, but by the blood of him that shed it.
 **34** Defile not therefore the land which ye shall inhabit, wherein I dwell: for I the LORD dwell among the children of Israel.
 
-## CHAPTER 36
+## NUMBERS 36
 **1** And the chief fathers of the families of the children of Gilead, the son of Machir, the son of Manasseh, of the families of the sons of Joseph, came near, and spake before Moses, and before the princes, the chief fathers of the children of Israel:
 **2** And they said, The LORD commanded my lord to give the land for an inheritance by lot to the children of Israel: and my lord was commanded by the LORD to give the inheritance of Zelophehad our brother unto his daughters.
 **3** And if they be married to any of the sons of the other tribes of the children of Israel, then shall their inheritance be taken from the inheritance of our fathers, and shall be put to the inheritance of the tribe whereunto they are received: so shall it be taken from the lot of our inheritance.

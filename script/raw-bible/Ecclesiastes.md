@@ -7,7 +7,7 @@ weight: 21
 ## OR, THE PREACHER
 
 
-## CHAPTER 1
+## ECCLESIASTES 1
 **1** The words of the Preacher, the son of David, king in Jerusalem.
 **2** Vanity of vanities, saith the Preacher, vanity of vanities; all is vanity.
 **3** What profit hath a man of all his labour which he taketh under the sun?
@@ -27,7 +27,7 @@ weight: 21
 **17** And I gave my heart to know wisdom, and to know madness and folly: I perceived that this also is vexation of spirit.
 **18** For in much wisdom is much grief: and he that increaseth knowledge increaseth sorrow.
 
-## CHAPTER 2
+## ECCLESIASTES 2
 **1** I said in mine heart, Go to now, I will prove thee with mirth, therefore enjoy pleasure: and, behold, this also is vanity.
 **2** I said of laughter, It is mad: and of mirth, What doeth it?
 **3** I sought in mine heart to give myself unto wine, yet acquainting mine heart with wisdom; and to lay hold on folly, till I might see what was that good for the sons of men, which they should do under the heaven all the days of their life.
@@ -55,7 +55,7 @@ weight: 21
 **25** For who can eat, or who else can hasten hereunto, more than I?
 **26** For God giveth to a man that is good in his sight wisdom, and knowledge, and joy: but to the sinner he giveth travail, to gather and to heap up, that he may give to him that is good before God. This also is vanity and vexation of spirit.
 
-## CHAPTER 3
+## ECCLESIASTES 3
 **1** To every thing there is a season, and a time to every purpose under the heaven:
 **2** A time to be born, and a time to die; a time to plant, and a time to pluck up that which is planted;
 **3** A time to kill, and a time to heal; a time to break down, and a time to build up;
@@ -79,7 +79,7 @@ weight: 21
 **21** Who knoweth the spirit of man that goeth upward, and the spirit of the beast that goeth downward to the earth?
 **22** Wherefore I perceive that there is nothing better, than that a man should rejoice in his own works; for that is his portion: for who shall bring him to see what shall be after him?
 
-## CHAPTER 4
+## ECCLESIASTES 4
 **1** So I returned, and considered all the oppressions that are done under the sun: and behold the tears of such as were oppressed, and they had no comforter; and on the side of their oppressors there was power; but they had no comforter.
 **2** Wherefore I praised the dead which are already dead more than the living which are yet alive.
 **3** Yea, better is he than both they, which hath not yet been, who hath not seen the evil work that is done under the sun.
@@ -97,7 +97,7 @@ weight: 21
 **15** I considered all the living which walk under the sun, with the second child that shall stand up in his stead.
 **16** There is no end of all the people, even of all that have been before them: they also that come after shall not rejoice in him. Surely this also is vanity and vexation of spirit.
 
-## CHAPTER 5
+## ECCLESIASTES 5
 **1** Keep thy foot when thou goest to the house of God, and be more ready to hear, than to give the sacrifice of fools: for they consider not that they do evil.
 **2** Be not rash with thy mouth, and let not thine heart be hasty to utter any thing before God: for God is in heaven, and thou upon earth: therefore let thy words be few.
 **3** For a dream cometh through the multitude of business; and a fool's voice is known by multitude of words.
@@ -119,7 +119,7 @@ weight: 21
 **19** Every man also to whom God hath given riches and wealth, and hath given him power to eat thereof, and to take his portion, and to rejoice in his labour; this is the gift of God.
 **20** For he shall not much remember the days of his life; because God answereth him in the joy of his heart.
 
-## CHAPTER 6
+## ECCLESIASTES 6
 **1** There is an evil which I have seen under the sun, and it is common among men:
 **2** A man to whom God hath given riches, wealth, and honour, so that he wanteth nothing for his soul of all that he desireth, yet God giveth him not power to eat thereof, but a stranger eateth it: this is vanity, and it is an evil disease.
 **3** If a man beget an hundred children, and live many years, so that the days of his years be many, and his soul be not filled with good, and also that he have no burial; I say, that an untimely birth is better than he.
@@ -133,7 +133,7 @@ weight: 21
 **11** Seeing there be many things that increase vanity, what is man the better?
 **12** For who knoweth what is good for man in this life, all the days of his vain life which he spendeth as a shadow? for who can tell a man what shall be after him under the sun?
 
-## CHAPTER 7
+## ECCLESIASTES 7
 **1** A good name is better than precious ointment; and the day of death than the day of one's birth.
 **2** It is better to go to the house of mourning, than to go to the house of feasting: for that is the end of all men; and the living will lay it to his heart.
 **3** Sorrow is better than laughter: for by the sadness of the countenance the heart is made better.
@@ -164,7 +164,7 @@ weight: 21
 **28** Which yet my soul seeketh, but I find not: one man among a thousand have I found; but a woman among all those have I not found.
 **29** Lo, this only have I found, that God hath made man upright; but they have sought out many inventions.
 
-## CHAPTER 8
+## ECCLESIASTES 8
 **1** Who is as the wise man? and who knoweth the interpretation of a thing? a man's wisdom maketh his face to shine, and the boldness of his face shall be changed.
 **2** I counsel thee to keep the king's commandment, and that in regard of the oath of God.
 **3** Be not hasty to go out of his sight: stand not in an evil thing; for he doeth whatsoever pleaseth him.
@@ -183,7 +183,7 @@ weight: 21
 **16** When I applied mine heart to know wisdom, and to see the business that is done upon the earth: (for also there is that neither day nor night seeth sleep with his eyes:)
 **17** Then I beheld all the work of God, that a man cannot find out the work that is done under the sun: because though a man labour to seek it out, yet he shall not find it; yea further; though a wise man think to know it, yet shall he not be able to find it.
 
-## CHAPTER 9
+## ECCLESIASTES 9
 **1** For all this I considered in my heart even to declare all this, that the righteous, and the wise, and their works, are in the hand of God: no man knoweth either love or hatred by all that is before them.
 **2** All things come alike to all: there is one event to the righteous, and to the wicked; to the good and to the clean, and to the unclean; to him that sacrificeth, and to him that sacrificeth not: as is the good, so is the sinner; and he that sweareth, as he that feareth an oath.
 **3** This is an evil among all things that are done under the sun, that there is one event unto all: yea, also the heart of the sons of men is full of evil, and madness is in their heart while they live, and after that they go to the dead.
@@ -203,7 +203,7 @@ weight: 21
 **17** The words of wise men are heard in quiet more than the cry of him that ruleth among fools.
 **18** Wisdom is better than weapons of war: but one sinner destroyeth much good.
 
-## CHAPTER 10
+## ECCLESIASTES 10
 **1** Dead flies cause the ointment of the apothecary to send forth a stinking savour: so doth a little folly him that is in reputation for wisdom and honour.
 **2** A wise man's heart is at his right hand; but a fool's heart at his left.
 **3** Yea also, when he that is a fool walketh by the way, his wisdom faileth him, and he saith to every one that he is a fool.
@@ -225,7 +225,7 @@ weight: 21
 **19** A feast is made for laughter, and wine maketh merry: but money answereth all things.
 **20** Curse not the king, no not in thy thought; and curse not the rich in thy bedchamber: for a bird of the air shall carry the voice, and that which hath wings shall tell the matter.
 
-## CHAPTER 11
+## ECCLESIASTES 11
 **1** Cast thy bread upon the waters: for thou shalt find it after many days.
 **2** Give a portion to seven, and also to eight; for thou knowest not what evil shall be upon the earth.
 **3** If the clouds be full of rain, they empty themselves upon the earth: and if the tree fall toward the south, or toward the north, in the place where the tree falleth, there it shall be.
@@ -237,7 +237,7 @@ weight: 21
 **9** Rejoice, O young man, in thy youth; and let thy heart cheer thee in the days of thy youth, and walk in the ways of thine heart, and in the sight of thine eyes: but know thou, that for all these things God will bring thee into judgment.
 **10** Therefore remove sorrow from thy heart, and put away evil from thy flesh: for childhood and youth are vanity.
 
-## CHAPTER 12
+## ECCLESIASTES 12
 **1** Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them;
 **2** While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain:
 **3** In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened,

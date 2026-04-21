@@ -7,7 +7,7 @@ weight: 20
 ## JAMES
 
 
-## CHAPTER 1
+## JAMES 1
 **1** James, a servant of God and of the Lord Jesus Christ, to the twelve tribes which are scattered abroad, greeting.
 **2** My brethren, count it all joy when ye fall into divers temptations;
 **3** Knowing this, that the trying of your faith worketh patience.
@@ -36,7 +36,7 @@ weight: 20
 **26** If any man among you seem to be religious, and bridleth not his tongue, but deceiveth his own heart, this man's religion is vain.
 **27** Pure religion and undefiled before God and the Father is this, To visit the fatherless and widows in their affliction, and to keep himself unspotted from the world.
 
-## CHAPTER 2
+## JAMES 2
 **1** My brethren, have not the faith of our Lord Jesus Christ, the Lord of glory, with respect of persons.
 **2** For if there come unto your assembly a man with a gold ring, in goodly apparel, and there come in also a poor man in vile raiment;
 **3** And ye have respect to him that weareth the gay clothing, and say unto him, Sit thou here in a good place; and say to the poor, Stand thou there, or sit here under my footstool:
@@ -64,7 +64,7 @@ weight: 20
 **25** Likewise also was not Rahab the harlot justified by works, when she had received the messengers, and had sent them out another way?
 **26** For as the body without the spirit is dead, so faith without works is dead also.
 
-## CHAPTER 3
+## JAMES 3
 **1** My brethren, be not many masters, knowing that we shall receive the greater condemnation.
 **2** For in many things we offend all. If any man offend not in word, the same is a perfect man, and able also to bridle the whole body.
 **3** Behold, we put bits in the horses' mouths, that they may obey us; and we turn about their whole body.
@@ -84,7 +84,7 @@ weight: 20
 **17** But the wisdom that is from above is first pure, then peaceable, gentle, and easy to be intreated, full of mercy and good fruits, without partiality, and without hypocrisy.
 **18** And the fruit of righteousness is sown in peace of them that make peace.
 
-## CHAPTER 4
+## JAMES 4
 **1** From whence come wars and fightings among you? come they not hence, even of your lusts that war in your members?
 **2** Ye lust, and have not: ye kill, and desire to have, and cannot obtain: ye fight and war, yet ye have not, because ye ask not.
 **3** Ye ask, and receive not, because ye ask amiss, that ye may consume it upon your lusts.
@@ -103,7 +103,7 @@ weight: 20
 **16** But now ye rejoice in your boastings: all such rejoicing is evil.
 **17** Therefore to him that knoweth to do good, and doeth it not, to him it is sin.
 
-## CHAPTER 5
+## JAMES 5
 **1** Go to now, ye rich men, weep and howl for your miseries that shall come upon you.
 **2** Your riches are corrupted, and your garments are motheaten.
 **3** Your gold and silver is cankered; and the rust of them shall be a witness against you, and shall eat your flesh as it were fire. Ye have heaped treasure together for the last days.

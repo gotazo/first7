@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getEntry, render } from 'astro:content';
+
+const entry = await getEntry('pages', 'dedicatory');
+
+if (!entry) {
+  throw new Error('Dedicatory not found');
+}
+
+const { Content } = await render(entry);
+---
+
+<BaseLayout title="Dedicatory">
+
+  <section class="max-w-3xl mx-auto px-5 py-16 space-y-16">
+
+    <div class="text-center space-y-4">
+      <h1 class="text-4xl md:text-5xl font-semibold leading-tight">
+        The <span class="text-[var(--color-primary)]">Dedicatory</span>
+      </h1>
+    </div>
+
+    <article class="prose prose-neutral dark:prose-invert max-w-none">
+      <Content />
+    </article>
+
+    <div class="flex justify-between text-sm pt-6 border-t border-[var(--color-border)]">
+      <a href="/preface" class="hover:underline">← Preface</a>
+      <a href="/bible" class="hover:underline">Back to Bible →</a>
+    </div>
+
+  </section>
+
+</BaseLayout>

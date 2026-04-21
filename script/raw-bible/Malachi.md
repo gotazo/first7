@@ -6,7 +6,7 @@ weight: 39
 ## MALACHI
 
 
-## CHAPTER 1
+## MALACHI 1
 **1** The burden of the word of the LORD to Israel by Malachi.
 **2** I have loved you, saith the LORD. Yet ye say, Wherein hast thou loved us? Was not Esau Jacob's brother? saith the LORD: yet I loved Jacob,
 **3** And I hated Esau, and laid his mountains and his heritage waste for the dragons of the wilderness.
@@ -22,7 +22,7 @@ weight: 39
 **13** Ye said also, Behold, what a weariness is it! and ye have snuffed at it, saith the LORD of hosts; and ye brought that which was torn, and the lame, and the sick; thus ye brought an offering: should I accept this of your hand? saith the LORD.
 **14** But cursed be the deceiver, which hath in his flock a male, and voweth, and sacrificeth unto the Lord a corrupt thing: for I am a great King, saith the LORD of hosts, and my name is dreadful among the heathen.
 
-## CHAPTER 2
+## MALACHI 2
 **1** And now, O ye priests, this commandment is for you.
 **2** If ye will not hear, and if ye will not lay it to heart, to give glory unto my name, saith the LORD of hosts, I will even send a curse upon you, and I will curse your blessings: yea, I have cursed them already, because ye do not lay it to heart.
 **3** Behold, I will corrupt your seed, and spread dung upon your faces, even the dung of your solemn feasts; and one shall take you away with it.
@@ -41,7 +41,7 @@ weight: 39
 **16** For the LORD, the God of Israel, saith that he hateth putting away: for one covereth violence with his garment, saith the LORD of hosts: therefore take heed to your spirit, that ye deal not treacherously.
 **17** Ye have wearied the LORD with your words. Yet ye say, Wherein have we wearied him? When ye say, Every one that doeth evil is good in the sight of the LORD, and he delighteth in them; or, Where is the God of judgment?
 
-## CHAPTER 3
+## MALACHI 3
 **1** Behold, I will send my messenger, and he shall prepare the way before me: and the Lord, whom ye seek, shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in: behold, he shall come, saith the LORD of hosts.
 **2** But who may abide the day of his coming? and who shall stand when he appeareth? for he is like a refiner's fire, and like fullers' sope:
 **3** And he shall sit as a refiner and purifier of silver: and he shall purify the sons of Levi, and purge them as gold and silver, that they may offer unto the LORD an offering in righteousness.
@@ -61,7 +61,7 @@ weight: 39
 **17** And they shall be mine, saith the LORD of hosts, in that day when I make up my jewels; and I will spare them, as a man spareth his own son that serveth him.
 **18** Then shall ye return, and discern between the righteous and the wicked, between him that serveth God and him that serveth him not.
 
-## CHAPTER 4
+## MALACHI 4
 **1** For, behold, the day cometh, that shall burn as an oven; and all the proud, yea, and all that do wickedly, shall be stubble: and the day that cometh shall burn them up, saith the LORD of hosts, that it shall leave them neither root nor branch.
 **2** But unto you that fear my name shall the Sun of righteousness arise with healing in his wings; and ye shall go forth, and grow up as calves of the stall.
 **3** And ye shall tread down the wicked; for they shall be ashes under the soles of your feet in the day that I shall do this, saith the LORD of hosts.

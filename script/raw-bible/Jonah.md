@@ -6,7 +6,7 @@ weight: 32
 ## JONAH
 
 
-## CHAPTER 1
+## JONAH 1
 **1** Now the word of the LORD came unto Jonah the son of Amittai, saying,
 **2** Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me.
 **3** But Jonah rose up to flee unto Tarshish from the presence of the LORD, and went down to Joppa; and he found a ship going to Tarshish: so he paid the fare thereof, and went down into it, to go with them unto Tarshish from the presence of the LORD.
@@ -25,7 +25,7 @@ weight: 32
 **16** Then the men feared the LORD exceedingly, and offered a sacrifice unto the LORD, and made vows.
 **17** Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights.
 
-## CHAPTER 2
+## JONAH 2
 **1** Then Jonah prayed unto the LORD his God out of the fish's belly,
 **2** And said, I cried by reason of mine affliction unto the LORD, and he heard me; out of the belly of hell cried I, and thou heardest my voice.
 **3** For thou hadst cast me into the deep, in the midst of the seas; and the floods compassed me about: all thy billows and thy waves passed over me.
@@ -37,7 +37,7 @@ weight: 32
 **9** But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the LORD.
 **10** And the LORD spake unto the fish, and it vomited out Jonah upon the dry land.
 
-## CHAPTER 3
+## JONAH 3
 **1** And the word of the LORD came unto Jonah the second time, saying,
 **2** Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee.
 **3** So Jonah arose, and went unto Nineveh, according to the word of the LORD. Now Nineveh was an exceeding great city of three days' journey.
@@ -49,7 +49,7 @@ weight: 32
 **9** Who can tell if God will turn and repent, and turn away from his fierce anger, that we perish not?
 **10** And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them; and he did it not.
 
-## CHAPTER 4
+## JONAH 4
 **1** But it displeased Jonah exceedingly, and he was very angry.
 **2** And he prayed unto the LORD, and said, I pray thee, O LORD, was not this my saying, when I was yet in my country? Therefore I fled before unto Tarshish: for I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil.
 **3** Therefore now, O LORD, take, I beseech thee, my life from me; for it is better for me to die than to live.

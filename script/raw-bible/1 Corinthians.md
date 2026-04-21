@@ -7,7 +7,7 @@ weight: 7
 ## CORINTHIANS
 
 
-## ## CHAPTER 1
+## ## 1 CORINTHIANS 1
 **1** Paul, called to be an apostle of Jesus Christ through the will of God, and Sosthenes our brother,
 **2** Unto the church of God which is at Corinth, to them that are sanctified in Christ Jesus, called to be saints, with all that in every place call upon the name of Jesus Christ our Lord, both their's and our's:
 **3** Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ.
@@ -40,7 +40,7 @@ weight: 7
 **30** But of him are ye in Christ Jesus, who of God is made unto us wisdom, and righteousness, and sanctification, and redemption:
 **31** That, according as it is written, He that glorieth, let him glory in the Lord.
 
-## CHAPTER 2
+## 1 CORINTHIANS 2
 **1** And I, brethren, when I came to you, came not with excellency of speech or of wisdom, declaring unto you the testimony of God.
 **2** For I determined not to know any thing among you, save Jesus Christ, and him crucified.
 **3** And I was with you in weakness, and in fear, and in much trembling.
@@ -58,7 +58,7 @@ weight: 7
 **15** But he that is spiritual judgeth all things, yet he himself is judged of no man.
 **16** For who hath known the mind of the Lord, that he may instruct him? But we have the mind of Christ.
 
-## CHAPTER 3
+## 1 CORINTHIANS 3
 **1** And I, brethren, could not speak unto you as unto spiritual, but as unto carnal, even as unto babes in Christ.
 **2** I have fed you with milk, and not with meat: for hitherto ye were not able to bear it, neither yet now are ye able.
 **3** For ye are yet carnal: for whereas there is among you envying, and strife, and divisions, are ye not carnal, and walk as men?
@@ -83,7 +83,7 @@ weight: 7
 **22** Whether Paul, or Apollos, or Cephas, or the world, or life, or death, or things present, or things to come; all are your's;
 **23** And ye are Christ's; and Christ is God's.
 
-## CHAPTER 4
+## 1 CORINTHIANS 4
 **1** Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of God.
 **2** Moreover it is required in stewards, that a man be found faithful.
 **3** But with me it is a very small thing that I should be judged of you, or of man's judgment: yea, I judge not mine own self.
@@ -106,7 +106,7 @@ weight: 7
 **20** For the kingdom of God is not in word, but in power.
 **21** What will ye? shall I come unto you with a rod, or in love, and in the spirit of meekness?
 
-## CHAPTER 5
+## 1 CORINTHIANS 5
 **1** It is reported commonly that there is fornication among you, and such fornication as is not so much as named among the Gentiles, that one should have his father's wife.
 **2** And ye are puffed up, and have not rather mourned, that he that hath done this deed might be taken away from among you.
 **3** For I verily, as absent in body, but present in spirit, have judged already, as though I were present, concerning him that hath so done this deed,
@@ -121,7 +121,7 @@ weight: 7
 **12** For what have I to do to judge them also that are without? do not ye judge them that are within?
 **13** But them that are without God judgeth. Therefore put away from among yourselves that wicked person.
 
-## CHAPTER 6
+## 1 CORINTHIANS 6
 **1** Dare any of you, having a matter against another, go to law before the unjust, and not before the saints?
 **2** Do ye not know that the saints shall judge the world? and if the world shall be judged by you, are ye unworthy to judge the smallest matters?
 **3** Know ye not that we shall judge angels? how much more things that pertain to this life?
@@ -143,7 +143,7 @@ weight: 7
 **19** What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own?
 **20** For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God's.
 
-## CHAPTER 7
+## 1 CORINTHIANS 7
 **1** Now concerning the things whereof ye wrote unto me: It is good for a man not to touch a woman.
 **2** Nevertheless, to avoid fornication, let every man have his own wife, and let every woman have her own husband.
 **3** Let the husband render unto the wife due benevolence: and likewise also the wife unto the husband.
@@ -185,7 +185,7 @@ weight: 7
 **39** The wife is bound by the law as long as her husband liveth; but if her husband be dead, she is at liberty to be married to whom she will; only in the Lord.
 **40** But she is happier if she so abide, after my judgment: and I think also that I have the Spirit of God.
 
-## CHAPTER 8
+## 1 CORINTHIANS 8
 **1** Now as touching things offered unto idols, we know that we all have knowledge. Knowledge puffeth up, but charity edifieth.
 **2** And if any man think that he knoweth any thing, he knoweth nothing yet as he ought to know.
 **3** But if any man love God, the same is known of him.
@@ -200,7 +200,7 @@ weight: 7
 **12** But when ye sin so against the brethren, and wound their weak conscience, ye sin against Christ.
 **13** Wherefore, if meat make my brother to offend, I will eat no flesh while the world standeth, lest I make my brother to offend.
 
-## CHAPTER 9
+## 1 CORINTHIANS 9
 **1** Am I not an apostle? am I not free? have I not seen Jesus Christ our Lord? are not ye my work in the Lord?
 **2** If I be not an apostle unto others, yet doubtless I am to you: for the seal of mine apostleship are ye in the Lord.
 **3** Mine answer to them that do examine me is this,
@@ -229,7 +229,7 @@ weight: 7
 **26** I therefore so run, not as uncertainly; so fight I, not as one that beateth the air:
 **27** But I keep under my body, and bring it into subjection: lest that by any means, when I have preached to others, I myself should be a castaway.
 
-## CHAPTER 10
+## 1 CORINTHIANS 10
 **1** Moreover, brethren, I would not that ye should be ignorant, how that all our fathers were under the cloud, and all passed through the sea;
 **2** And were all baptized unto Moses in the cloud and in the sea;
 **3** And did all eat the same spiritual meat;
@@ -264,7 +264,7 @@ weight: 7
 **32** Give none offence, neither to the Jews, nor to the Gentiles, nor to the church of God:
 **33** Even as I please all men in all things, not seeking mine own profit, but the profit of many, that they may be saved.
 
-## CHAPTER 11
+## 1 CORINTHIANS 11
 **1** Be ye followers of me, even as I also am of Christ.
 **2** Now I praise you, brethren, that ye remember me in all things, and keep the ordinances, as I delivered them to you.
 **3** But I would have you know, that the head of every man is Christ; and the head of the woman is the man; and the head of Christ is God.
@@ -300,7 +300,7 @@ weight: 7
 **33** Wherefore, my brethren, when ye come together to eat, tarry one for another.
 **34** And if any man hunger, let him eat at home; that ye come not together unto condemnation. And the rest will I set in order when I come.
 
-## CHAPTER 12
+## 1 CORINTHIANS 12
 **1** Now concerning spiritual gifts, brethren, I would not have you ignorant.
 **2** Ye know that ye were Gentiles, carried away unto these dumb idols, even as ye were led.
 **3** Wherefore I give you to understand, that no man speaking by the Spirit of God calleth Jesus accursed: and that no man can say that Jesus is the Lord, but by the Holy Ghost.
@@ -333,7 +333,7 @@ weight: 7
 **30** Have all the gifts of healing? do all speak with tongues? do all interpret?
 **31** But covet earnestly the best gifts: and yet shew I unto you a more excellent way.
 
-## CHAPTER 13
+## 1 CORINTHIANS 13
 **1** Though I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal.
 **2** And though I have the gift of prophecy, and understand all mysteries, and all knowledge; and though I have all faith, so that I could remove mountains, and have not charity, I am nothing.
 **3** And though I bestow all my goods to feed the poor, and though I give my body to be burned, and have not charity, it profiteth me nothing.
@@ -348,7 +348,7 @@ weight: 7
 **12** For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known.
 **13** And now abideth faith, hope, charity, these three; but the greatest of these is charity.
 
-## CHAPTER 14
+## 1 CORINTHIANS 14
 **1** Follow after charity, and desire spiritual gifts, but rather that ye may prophesy.
 **2** For he that speaketh in an unknown tongue speaketh not unto men, but unto God: for no man understandeth him; howbeit in the spirit he speaketh mysteries.
 **3** But he that prophesieth speaketh unto men to edification, and exhortation, and comfort.
@@ -390,7 +390,7 @@ weight: 7
 **39** Wherefore, brethren, covet to prophesy, and forbid not to speak with tongues.
 **40** Let all things be done decently and in order.
 
-## CHAPTER 15
+## 1 CORINTHIANS 15
 **1** Moreover, brethren, I declare unto you the gospel which I preached unto you, which also ye have received, and wherein ye stand;
 **2** By which also ye are saved, if ye keep in memory what I preached unto you, unless ye have believed in vain.
 **3** For I delivered unto you first of all that which I also received, how that Christ died for our sins according to the scriptures;
@@ -450,7 +450,7 @@ weight: 7
 **57** But thanks be to God, which giveth us the victory through our Lord Jesus Christ.
 **58** Therefore, my beloved brethren, be ye stedfast, unmoveable, always abounding in the work of the Lord, forasmuch as ye know that your labour is not in vain in the Lord.
 
-## CHAPTER 16
+## 1 CORINTHIANS 16
 **1** Now concerning the collection for the saints, as I have given order to the churches of Galatia, even so do ye.
 **2** Upon the first day of the week let every one of you lay by him in store, as God hath prospered him, that there be no gatherings when I come.
 **3** And when I come, whomsoever ye shall approve by your letters, them will I send to bring your liberality unto Jerusalem.
@@ -476,7 +476,7 @@ weight: 7
 **23** The grace of our Lord Jesus Christ be with you.
 **24** My love be with you all in Christ Jesus. Amen.
 The first epistle to the Corinthians was written from Philippi by Stephanas, and Fortunatus, and Achaicus, and Timotheus.
-1 CORINTHIANS
+**1** CORINTHIANS
 
 
 

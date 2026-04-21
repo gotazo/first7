@@ -6,7 +6,7 @@ weight: 10
 ## THE EPISTLE OF PAUL THE APOSTLE TO THE
 ## EPHESIANS
 
-## CHAPTER 1
+## EPHESIANS 1
 **1** Paul, an apostle of Jesus Christ by the will of God, to the saints which are at Ephesus, and to the faithful in Christ Jesus:
 **2** Grace be to you, and peace, from God our Father, and from the Lord Jesus Christ.
 **3** Blessed be the God and Father of our Lord Jesus Christ, who hath blessed us with all spiritual blessings in heavenly places in Christ:
@@ -31,7 +31,7 @@ weight: 10
 **22** And hath put all things under his feet, and gave him to be the head over all things to the church,
 **23** Which is his body, the fulness of him that filleth all in all.
 
-## CHAPTER 2
+## EPHESIANS 2
 **1** And you hath he quickened, who were dead in trespasses and sins;
 **2** Wherein in time past ye walked according to the course of this world, according to the prince of the power of the air, the spirit that now worketh in the children of disobedience:
 **3** Among whom also we all had our conversation in times past in the lusts of our flesh, fulfilling the desires of the flesh and of the mind; and were by nature the children of wrath, even as others.
@@ -55,7 +55,7 @@ weight: 10
 **21** In whom all the building fitly framed together groweth unto an holy temple in the Lord:
 **22** In whom ye also are builded together for an habitation of God through the Spirit.
 
-## CHAPTER 3
+## EPHESIANS 3
 **1** For this cause I Paul, the prisoner of Jesus Christ for you Gentiles,
 **2** If ye have heard of the dispensation of the grace of God which is given me to you-ward:
 **3** How that by revelation he made known unto me the mystery; (as I wrote afore in few words,
@@ -78,7 +78,7 @@ weight: 10
 **20** Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us,
 **21** Unto him be glory in the church by Christ Jesus throughout all ages, world without end. Amen.
 
-## CHAPTER 4
+## EPHESIANS 4
 **1** I therefore, the prisoner of the Lord, beseech you that ye walk worthy of the vocation wherewith ye are called,
 **2** With all lowliness and meekness, with longsuffering, forbearing one another in love;
 **3** Endeavouring to keep the unity of the Spirit in the bond of peace.
@@ -112,7 +112,7 @@ weight: 10
 **31** Let all bitterness, and wrath, and anger, and clamour, and evil speaking, be put away from you, with all malice:
 **32** And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you.
 
-## CHAPTER 5
+## EPHESIANS 5
 **1** Be ye therefore followers of God, as dear children;
 **2** And walk in love, as Christ also hath loved us, and hath given himself for us an offering and a sacrifice to God for a sweetsmelling savour.
 **3** But fornication, and all uncleanness, or covetousness, let it not be once named among you, as becometh saints;
@@ -147,7 +147,7 @@ weight: 10
 **32** This is a great mystery: but I speak concerning Christ and the church.
 **33** Nevertheless let every one of you in particular so love his wife even as himself; and the wife see that she reverence her husband.
 
-## CHAPTER 6
+## EPHESIANS 6
 **1** Children, obey your parents in the Lord: for this is right.
 **2** Honour thy father and mother; (which is the first commandment with promise;)
 **3** That it may be well with thee, and thou mayest live long on the earth.

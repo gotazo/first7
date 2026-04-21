@@ -7,7 +7,7 @@ weight: 14
 ## THESSALONIANS
 
 
-## CHAPTER 1
+## 2 THESSALONIANS 1
 **1** Paul, and Silvanus, and Timotheus, unto the church of the Thessalonians in God our Father and the Lord Jesus Christ:
 **2** Grace unto you, and peace, from God our Father and the Lord Jesus Christ.
 **3** We are bound to thank God always for you, brethren, as it is meet, because that your faith groweth exceedingly, and the charity of every one of you all toward each other aboundeth;
@@ -21,7 +21,7 @@ weight: 14
 **11** Wherefore also we pray always for you, that our God would count you worthy of this calling, and fulfil all the good pleasure of his goodness, and the work of faith with power:
 **12** That the name of our Lord Jesus Christ may be glorified in you, and ye in him, according to the grace of our God and the Lord Jesus Christ.
 
-## CHAPTER 2
+## 2 THESSALONIANS 2
 **1** Now we beseech you, brethren, by the coming of our Lord Jesus Christ, and by our gathering together unto him,
 **2** That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand.
 **3** Let no man deceive you by any means: for that day shall not come, except there come a falling away first, and that man of sin be revealed, the son of perdition;
@@ -40,7 +40,7 @@ weight: 14
 **16** Now our Lord Jesus Christ himself, and God, even our Father, which hath loved us, and hath given us everlasting consolation and good hope through grace,
 **17** Comfort your hearts, and stablish you in every good word and work.
 
-## CHAPTER 3
+## 2 THESSALONIANS 3
 **1** Finally, brethren, pray for us, that the word of the Lord may have free course, and be glorified, even as it is with you:
 **2** And that we may be delivered from unreasonable and wicked men: for all men have not faith.
 **3** But the Lord is faithful, who shall stablish you, and keep you from evil.
@@ -60,7 +60,7 @@ weight: 14
 **17** The salutation of Paul with mine own hand, which is the token in every epistle: so I write.
 **18** The grace of our Lord Jesus Christ be with you all. Amen.
 The second epistle to the Thessalonians was written from Athens.
-2 THESSALONIANS
+**2** THESSALONIANS
 
 
 

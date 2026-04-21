@@ -7,7 +7,7 @@ weight: 16
 ## TIMOTHY
 
 
-## CHAPTER 1
+## 2 TIMOTHY 1
 **1** Paul, an apostle of Jesus Christ by the will of God, according to the promise of life which is in Christ Jesus,
 **2** To Timothy, my dearly beloved son: Grace, mercy, and peace, from God the Father and Christ Jesus our Lord.
 **3** I thank God, whom I serve from my forefathers with pure conscience, that without ceasing I have remembrance of thee in my prayers night and day;
@@ -27,7 +27,7 @@ weight: 16
 **17** But, when he was in Rome, he sought me out very diligently, and found me.
 **18** The Lord grant unto him that he may find mercy of the Lord in that day: and in how many things he ministered unto me at Ephesus, thou knowest very well.
 
-## CHAPTER 2
+## 2 TIMOTHY 2
 **1** Thou therefore, my son, be strong in the grace that is in Christ Jesus.
 **2** And the things that thou hast heard of me among many witnesses, the same commit thou to faithful men, who shall be able to teach others also.
 **3** Thou therefore endure hardness, as a good soldier of Jesus Christ.
@@ -55,7 +55,7 @@ weight: 16
 **25** In meekness instructing those that oppose themselves; if God peradventure will give them repentance to the acknowledging of the truth;
 **26** And that they may recover themselves out of the snare of the devil, who are taken captive by him at his will.
 
-## CHAPTER 3
+## 2 TIMOTHY 3
 **1** This know also, that in the last days perilous times shall come.
 **2** For men shall be lovers of their own selves, covetous, boasters, proud, blasphemers, disobedient to parents, unthankful, unholy,
 **3** Without natural affection, trucebreakers, false accusers, incontinent, fierce, despisers of those that are good,
@@ -74,7 +74,7 @@ weight: 16
 **16** All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness:
 **17** That the man of God may be perfect, throughly furnished unto all good works.
 
-## CHAPTER 4
+## 2 TIMOTHY 4
 **1** I charge thee therefore before God, and the Lord Jesus Christ, who shall judge the quick and the dead at his appearing and his kingdom;
 **2** Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and doctrine.
 **3** For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;
@@ -98,7 +98,7 @@ weight: 16
 **21** Do thy diligence to come before winter. Eubulus greeteth thee, and Pudens, and Linus, and Claudia, and all the brethren.
 **22** The Lord Jesus Christ be with thy spirit. Grace be with you. Amen.
 The second epistle unto Timotheus, ordained the first bishop of the church of the Ephesians, was written from Rome, when Paul was brought before Nero the second time.
-2 TIMOTHY
+**2** TIMOTHY
 
 
 

@@ -7,7 +7,7 @@ weight: 16
 ## NEHEMIAH
 
 
-## CHAPTER 1
+## NEHEMIAH 1
 **1** The words of Nehemiah the son of Hachaliah. And it came to pass in the month Chisleu, in the twentieth year, as I was in Shushan the palace,
 **2** That Hanani, one of my brethren, came, he and certain men of Judah; and I asked them concerning the Jews that had escaped, which were left of the captivity, and concerning Jerusalem.
 **3** And they said unto me, The remnant that are left of the captivity there in the province are in great affliction and reproach: the wall of Jerusalem also is broken down, and the gates thereof are burned with fire.
@@ -20,7 +20,7 @@ weight: 16
 **10** Now these are thy servants and thy people, whom thou hast redeemed by thy great power, and by thy strong hand.
 **11** O Lord, I beseech thee, let now thine ear be attentive to the prayer of thy servant, and to the prayer of thy servants, who desire to fear thy name: and prosper, I pray thee, thy servant this day, and grant him mercy in the sight of this man. For I was the king's cupbearer.
 
-## CHAPTER 2
+## NEHEMIAH 2
 **1** And it came to pass in the month Nisan, in the twentieth year of Artaxerxes the king, that wine was before him: and I took up the wine, and gave it unto the king. Now I had not been beforetime sad in his presence.
 **2** Wherefore the king said unto me, Why is thy countenance sad, seeing thou art not sick? this is nothing else but sorrow of heart. Then I was very sore afraid,
 **3** And said unto the king, Let the king live for ever: why should not my countenance be sad, when the city, the place of my fathers' sepulchres, lieth waste, and the gates thereof are consumed with fire?
@@ -42,7 +42,7 @@ weight: 16
 **19** But when Sanballat the Horonite, and Tobiah the servant, the Ammonite, and Geshem the Arabian, heard it, they laughed us to scorn, and despised us, and said, What is this thing that ye do? will ye rebel against the king?
 **20** Then answered I them, and said unto them, The God of heaven, he will prosper us; therefore we his servants will arise and build: but ye have no portion, nor right, nor memorial, in Jerusalem.
 
-## CHAPTER 3
+## NEHEMIAH 3
 **1** Then Eliashib the high priest rose up with his brethren the priests, and they builded the sheep gate; they sanctified it, and set up the doors of it; even unto the tower of Meah they sanctified it, unto the tower of Hananeel.
 **2** And next unto him builded the men of Jericho. And next to them builded Zaccur the son of Imri.
 **3** But the fish gate did the sons of Hassenaah build, who also laid the beams thereof, and set up the doors thereof, the locks thereof, and the bars thereof.
@@ -76,7 +76,7 @@ weight: 16
 **31** After him repaired Malchiah the goldsmith's son unto the place of the Nethinims, and of the merchants, over against the gate Miphkad, and to the going up of the corner.
 **32** And between the going up of the corner unto the sheep gate repaired the goldsmiths and the merchants.
 
-## CHAPTER 4
+## NEHEMIAH 4
 **1** But it came to pass, that when Sanballat heard that we builded the wall, he was wroth, and took great indignation, and mocked the Jews.
 **2** And he spake before his brethren and the army of Samaria, and said, What do these feeble Jews? will they fortify themselves? will they sacrifice? will they make an end in a day? will they revive the stones out of the heaps of the rubbish which are burned?
 **3** Now Tobiah the Ammonite was by him, and he said, Even that which they build, if a fox go up, he shall even break down their stone wall.
@@ -101,7 +101,7 @@ weight: 16
 **22** Likewise at the same time said I unto the people, Let every one with his servant lodge within Jerusalem, that in the night they may be a guard to us, and labour on the day.
 **23** So neither I, nor my brethren, nor my servants, nor the men of the guard which followed me, none of us put off our clothes, saving that every one put them off for washing.
 
-## CHAPTER 5
+## NEHEMIAH 5
 **1** And there was a great cry of the people and of their wives against their brethren the Jews.
 **2** For there were that said, We, our sons, and our daughters, are many: therefore we take up corn for them, that we may eat, and live.
 **3** Some also there were that said, We have mortgaged our lands, vineyards, and houses, that we might buy corn, because of the dearth.
@@ -122,7 +122,7 @@ weight: 16
 **18** Now that which was prepared for me daily was one ox and six choice sheep; also fowls were prepared for me, and once in ten days store of all sorts of wine: yet for all this required not I the bread of the governor, because the bondage was heavy upon this people.
 **19** Think upon me, my God, for good, according to all that I have done for this people.
 
-## CHAPTER 6
+## NEHEMIAH 6
 **1** Now it came to pass, when Sanballat, and Tobiah, and Geshem the Arabian, and the rest of our enemies, heard that I had builded the wall, and that there was no breach left therein; (though at that time I had not set up the doors upon the gates;)
 **2** That Sanballat and Geshem sent unto me, saying, Come, let us meet together in some one of the villages in the plain of Ono. But they thought to do me mischief.
 **3** And I sent messengers unto them, saying, I am doing a great work, so that I cannot come down: why should the work cease, whilst I leave it, and come down to you?
@@ -143,7 +143,7 @@ weight: 16
 **18** For there were many in Judah sworn unto him, because he was the son in law of Shechaniah the son of Arah; and his son Johanan had taken the daughter of Meshullam the son of Berechiah.
 **19** Also they reported his good deeds before me, and uttered my words to him. And Tobiah sent letters to put me in fear.
 
-## CHAPTER 7
+## NEHEMIAH 7
 **1** Now it came to pass, when the wall was built, and I had set up the doors, and the porters and the singers and the Levites were appointed,
 **2** That I gave my brother Hanani, and Hananiah the ruler of the palace, charge over Jerusalem: for he was a faithful man, and feared God above many.
 **3** And I said unto them, Let not the gates of Jerusalem be opened until the sun be hot; and while they stand by, let them shut the doors, and bar them: and appoint watches of the inhabitants of Jerusalem, every one in his watch, and every one to be over against his house.
@@ -218,7 +218,7 @@ weight: 16
 **72** And that which the rest of the people gave was twenty thousand drams of gold, and two thousand pound of silver, and threescore and seven priests' garments.
 **73** So the priests, and the Levites, and the porters, and the singers, and some of the people, and the Nethinims, and all Israel, dwelt in their cities; and when the seventh month came, the children of Israel were in their cities.
 
-## CHAPTER 8
+## NEHEMIAH 8
 **1** And all the people gathered themselves together as one man into the street that was before the water gate; and they spake unto Ezra the scribe to bring the book of the law of Moses, which the LORD had commanded to Israel.
 **2** And Ezra the priest brought the law before the congregation both of men and women, and all that could hear with understanding, upon the first day of the seventh month.
 **3** And he read therein before the street that was before the water gate from the morning until midday, before the men and the women, and those that could understand; and the ears of all the people were attentive unto the book of the law.
@@ -238,7 +238,7 @@ weight: 16
 **17** And all the congregation of them that were come again out of the captivity made booths, and sat under the booths: for since the days of Jeshua the son of Nun unto that day had not the children of Israel done so. And there was very great gladness.
 **18** Also day by day, from the first day unto the last day, he read in the book of the law of God. And they kept the feast seven days; and on the eighth day was a solemn assembly, according unto the manner.
 
-## CHAPTER 9
+## NEHEMIAH 9
 **1** Now in the twenty and fourth day of this month the children of Israel were assembled with fasting, and with sackclothes, and earth upon them.
 **2** And the seed of Israel separated themselves from all strangers, and stood and confessed their sins, and the iniquities of their fathers.
 **3** And they stood up in their place, and read in the book of the law of the LORD their God one fourth part of the day; and another fourth part they confessed, and worshipped the LORD their God.
@@ -278,7 +278,7 @@ weight: 16
 **37** And it yieldeth much increase unto the kings whom thou hast set over us because of our sins: also they have dominion over our bodies, and over our cattle, at their pleasure, and we are in great distress.
 **38** And because of all this we make a sure covenant, and write it; and our princes, Levites, and priests, seal unto it.
 
-## CHAPTER 10
+## NEHEMIAH 10
 **1** Now those that sealed were, Nehemiah, the Tirshatha, the son of Hachaliah, and Zidkijah,
 **2** Seraiah, Azariah, Jeremiah,
 **3** Pashur, Amariah, Malchijah,
@@ -319,7 +319,7 @@ weight: 16
 **38** And the priest the son of Aaron shall be with the Levites, when the Levites take tithes: and the Levites shall bring up the tithe of the tithes unto the house of our God, to the chambers, into the treasure house.
 **39** For the children of Israel and the children of Levi shall bring the offering of the corn, of the new wine, and the oil, unto the chambers, where are the vessels of the sanctuary, and the priests that minister, and the porters, and the singers: and we will not forsake the house of our God.
 
-## CHAPTER 11
+## NEHEMIAH 11
 **1** And the rulers of the people dwelt at Jerusalem: the rest of the people also cast lots, to bring one of ten to dwell in Jerusalem the holy city, and nine parts to dwell in other cities.
 **2** And the people blessed all the men, that willingly offered themselves to dwell at Jerusalem.
 **3** Now these are the chief of the province that dwelt in Jerusalem: but in the cities of Judah dwelt every one in his possession in their cities, to wit, Israel, the priests, and the Levites, and the Nethinims, and the children of Solomon's servants.
@@ -357,7 +357,7 @@ weight: 16
 **35** Lod, and Ono, the valley of craftsmen.
 **36** And of the Levites were divisions in Judah, and in Benjamin.
 
-## CHAPTER 12
+## NEHEMIAH 12
 **1** Now these are the priests and the Levites that went up with Zerubbabel the son of Shealtiel, and Jeshua: Seraiah, Jeremiah, Ezra,
 **2** Amariah, Malluch, Hattush,
 **3** Shechaniah, Rehum, Meremoth,
@@ -406,7 +406,7 @@ weight: 16
 **46** For in the days of David and Asaph of old there were chief of the singers, and songs of praise and thanksgiving unto God.
 **47** And all Israel in the days of Zerubbabel, and in the days of Nehemiah, gave the portions of the singers and the porters, every day his portion: and they sanctified holy things unto the Levites; and the Levites sanctified them unto the children of Aaron.
 
-## CHAPTER 13
+## NEHEMIAH 13
 **1** On that day they read in the book of Moses in the audience of the people; and therein was found written, that the Ammonite and the Moabite should not come into the congregation of God for ever;
 **2** Because they met not the children of Israel with bread and with water, but hired Balaam against them, that he should curse them: howbeit our God turned the curse into a blessing.
 **3** Now it came to pass, when they had heard the law, that they separated from Israel all the mixed multitude.

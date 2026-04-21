@@ -7,7 +7,7 @@ weight: 25
 ## LAMENTATIONS OF JEREMIAH
 
 
-## CHAPTER 1
+## LAMENTATIONS 1
 **1** How doth the city sit solitary, that was full of people! how is she become as a widow! she that was great among the nations, and princess among the provinces, how is she become tributary!
 **2** She weepeth sore in the night, and her tears are on her cheeks: among all her lovers she hath none to comfort her: all her friends have dealt treacherously with her, they are become her enemies.
 **3** Judah is gone into captivity because of affliction, and because of great servitude: she dwelleth among the heathen, she findeth no rest: all her persecutors overtook her between the straits.
@@ -31,7 +31,7 @@ weight: 25
 **21** They have heard that I sigh: there is none to comfort me: all mine enemies have heard of my trouble; they are glad that thou hast done it: thou wilt bring the day that thou hast called, and they shall be like unto me.
 **22** Let all their wickedness come before thee; and do unto them, as thou hast done unto me for all my transgressions: for my sighs are many, and my heart is faint.
 
-## CHAPTER 2
+## LAMENTATIONS 2
 **1** How hath the Lord covered the daughter of Zion with a cloud in his anger, and cast down from heaven unto the earth the beauty of Israel, and remembered not his footstool in the day of his anger!
 **2** The Lord hath swallowed up all the habitations of Jacob, and hath not pitied: he hath thrown down in his wrath the strong holds of the daughter of Judah; he hath brought them down to the ground: he hath polluted the kingdom and the princes thereof.
 **3** He hath cut off in his fierce anger all the horn of Israel: he hath drawn back his right hand from before the enemy, and he burned against Jacob like a flaming fire, which devoureth round about.
@@ -55,7 +55,7 @@ weight: 25
 **21** The young and the old lie on the ground in the streets: my virgins and my young men are fallen by the sword; thou hast slain them in the day of thine anger; thou hast killed, and not pitied.
 **22** Thou hast called as in a solemn day my terrors round about, so that in the day of the LORD'S anger none escaped nor remained: those that I have swaddled and brought up hath mine enemy consumed.
 
-## CHAPTER 3
+## LAMENTATIONS 3
 **1** I am the man that hath seen affliction by the rod of his wrath.
 **2** He hath led me, and brought me into darkness, but not into light.
 **3** Surely against me is he turned; he turneth his hand against me all the day.
@@ -123,7 +123,7 @@ weight: 25
 **65** Give them sorrow of heart, thy curse unto them.
 **66** Persecute and destroy them in anger from under the heavens of the LORD.
 
-## CHAPTER 4
+## LAMENTATIONS 4
 **1** How is the gold become dim! how is the most fine gold changed! the stones of the sanctuary are poured out in the top of every street.
 **2** The precious sons of Zion, comparable to fine gold, how are they esteemed as earthen pitchers, the work of the hands of the potter!
 **3** Even the sea monsters draw out the breast, they give suck to their young ones: the daughter of my people is become cruel, like the ostriches in the wilderness.
@@ -147,7 +147,7 @@ weight: 25
 **21** Â¶ Rejoice and be glad, O daughter of Edom, that dwellest in the land of Uz; the cup also shall pass through unto thee: thou shalt be drunken, and shalt make thyself naked.
 **22** Â¶ The punishment of thine iniquity is accomplished, O daughter of Zion; he will no more carry thee away into captivity: he will visit thine iniquity, O daughter of Edom; he will discover thy sins.
 
-## CHAPTER 5
+## LAMENTATIONS 5
 **1** Remember, O LORD, what is come upon us: consider, and behold our reproach.
 **2** Our inheritance is turned to strangers, our houses to aliens.
 **3** We are orphans and fatherless, our mothers are as widows.

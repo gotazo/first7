@@ -6,7 +6,7 @@ weight: 22
 ## THE SONG OF SOLOMON
 
 
-## CHAPTER 1
+## SONGOFSOLOMON 1
 **1** The song of songs, which is Solomon's.
 **2** Let him kiss me with the kisses of his mouth: for thy love is better than wine.
 **3** Because of the savour of thy good ointments thy name is as ointment poured forth, therefore do the virgins love thee.
@@ -25,7 +25,7 @@ weight: 22
 **16** Behold, thou art fair, my beloved, yea, pleasant: also our bed is green.
 **17** The beams of our house are cedar, and our rafters of fir.
 
-## CHAPTER 2
+## SONGOFSOLOMON 2
 **1** I am the rose of Sharon, and the lily of the valleys.
 **2** As the lily among thorns, so is my love among the daughters.
 **3** As the apple tree among the trees of the wood, so is my beloved among the sons. I sat down under his shadow with great delight, and his fruit was sweet to my taste.
@@ -44,7 +44,7 @@ weight: 22
 **16** My beloved is mine, and I am his: he feedeth among the lilies.
 **17** Until the day break, and the shadows flee away, turn, my beloved, and be thou like a roe or a young hart upon the mountains of Bether.
 
-## CHAPTER 3
+## SONGOFSOLOMON 3
 **1** By night on my bed I sought him whom my soul loveth: I sought him, but I found him not.
 **2** I will rise now, and go about the city in the streets, and in the broad ways I will seek him whom my soul loveth: I sought him, but I found him not.
 **3** The watchmen that go about the city found me: to whom I said, Saw ye him whom my soul loveth?
@@ -57,7 +57,7 @@ weight: 22
 **10** He made the pillars thereof of silver, the bottom thereof of gold, the covering of it of purple, the midst thereof being paved with love, for the daughters of Jerusalem.
 **11** Go forth, O ye daughters of Zion, and behold king Solomon with the crown wherewith his mother crowned him in the day of his espousals, and in the day of the gladness of his heart.
 
-## CHAPTER 4
+## SONGOFSOLOMON 4
 **1** Behold, thou art fair, my love; behold, thou art fair; thou hast doves' eyes within thy locks: thy hair is as a flock of goats, that appear from mount Gilead.
 **2** Thy teeth are like a flock of sheep that are even shorn, which came up from the washing; whereof every one bear twins, and none is barren among them.
 **3** Thy lips are like a thread of scarlet, and thy speech is comely: thy temples are like a piece of a pomegranate within thy locks.
@@ -75,7 +75,7 @@ weight: 22
 **15** A fountain of gardens, a well of living waters, and streams from Lebanon.
 **16** Awake, O north wind; and come, thou south; blow upon my garden, that the spices thereof may flow out. Let my beloved come into his garden, and eat his pleasant fruits.
 
-## CHAPTER 5
+## SONGOFSOLOMON 5
 **1** I am come into my garden, my sister, my spouse: I have gathered my myrrh with my spice; I have eaten my honeycomb with my honey; I have drunk my wine with my milk: eat, O friends; drink, yea, drink abundantly, O beloved.
 **2** I sleep, but my heart waketh: it is the voice of my beloved that knocketh, saying, Open to me, my sister, my love, my dove, my undefiled: for my head is filled with dew, and my locks with the drops of the night.
 **3** I have put off my coat; how shall I put it on? I have washed my feet; how shall I defile them?
@@ -93,7 +93,7 @@ weight: 22
 **15** His legs are as pillars of marble, set upon sockets of fine gold: his countenance is as Lebanon, excellent as the cedars.
 **16** His mouth is most sweet: yea, he is altogether lovely. This is my beloved, and this is my friend, O daughters of Jerusalem.
 
-## CHAPTER 6
+## SONGOFSOLOMON 6
 **1** Whither is thy beloved gone, O thou fairest among women? whither is thy beloved turned aside? that we may seek him with thee.
 **2** My beloved is gone down into his garden, to the beds of spices, to feed in the gardens, and to gather lilies.
 **3** I am my beloved's, and my beloved is mine: he feedeth among the lilies.
@@ -108,7 +108,7 @@ weight: 22
 **12** Or ever I was aware, my soul made me like the chariots of Amminadib.
 **13** Return, return, O Shulamite; return, return, that we may look upon thee. What will ye see in the Shulamite? As it were the company of two armies.
 
-## CHAPTER 7
+## SONGOFSOLOMON 7
 **1** How beautiful are thy feet with shoes, O prince's daughter! the joints of thy thighs are like jewels, the work of the hands of a cunning workman.
 **2** Thy navel is like a round goblet, which wanteth not liquor: thy belly is like an heap of wheat set about with lilies.
 **3** Thy two breasts are like two young roes that are twins.
@@ -123,7 +123,7 @@ weight: 22
 **12** Let us get up early to the vineyards; let us see if the vine flourish, whether the tender grape appear, and the pomegranates bud forth: there will I give thee my loves.
 **13** The mandrakes give a smell, and at our gates are all manner of pleasant fruits, new and old, which I have laid up for thee, O my beloved.
 
-## CHAPTER 8
+## SONGOFSOLOMON 8
 **1** O that thou wert as my brother, that sucked the breasts of my mother! when I should find thee without, I would kiss thee; yea, I should not be despised.
 **2** I would lead thee, and bring thee into my mother's house, who would instruct me: I would cause thee to drink of spiced wine of the juice of my pomegranate.
 **3** His left hand should be under my head, and his right hand should embrace me.

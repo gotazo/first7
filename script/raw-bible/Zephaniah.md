@@ -5,7 +5,7 @@ weight: 36
 
 ## ZEPHANIAH
 
-## CHAPTER 1
+## ZEPHANIAH 1
 **1** The word of the LORD which came unto Zephaniah the son of Cushi, the son of Gedaliah, the son of Amariah, the son of Hizkiah, in the days of Josiah the son of Amon, king of Judah.
 **2** I will utterly consume all things from off the land, saith the LORD.
 **3** I will consume man and beast; I will consume the fowls of the heaven, and the fishes of the sea, and the stumblingblocks with the wicked; and I will cut off man from off the land, saith the LORD.
@@ -25,7 +25,7 @@ weight: 36
 **17** And I will bring distress upon men, that they shall walk like blind men, because they have sinned against the LORD: and their blood shall be poured out as dust, and their flesh as the dung.
 **18** Neither their silver nor their gold shall be able to deliver them in the day of the LORD'S wrath; but the whole land shall be devoured by the fire of his jealousy: for he shall make even a speedy riddance of all them that dwell in the land.
 
-## CHAPTER 2
+## ZEPHANIAH 2
 **1** Gather yourselves together, yea, gather together, O nation not desired;
 **2** Before the decree bring forth, before the day pass as the chaff, before the fierce anger of the LORD come upon you, before the day of the LORD'S anger come upon you.
 **3** Seek ye the LORD, all ye meek of the earth, which have wrought his judgment; seek righteousness, seek meekness: it may be ye shall be hid in the day of the LORD'S anger.
@@ -42,7 +42,7 @@ weight: 36
 **14** And flocks shall lie down in the midst of her, all the beasts of the nations: both the cormorant and the bittern shall lodge in the upper lintels of it; their voice shall sing in the windows; desolation shall be in the thresholds: for he shall uncover the cedar work.
 **15** This is the rejoicing city that dwelt carelessly, that said in her heart, I am, and there is none beside me: how is she become a desolation, a place for beasts to lie down in! every one that passeth by her shall hiss, and wag his hand.
 
-## CHAPTER 3
+## ZEPHANIAH 3
 **1** Woe to her that is filthy and polluted, to the oppressing city!
 **2** She obeyed not the voice; she received not correction; she trusted not in the LORD; she drew not near to her God.
 **3** Her princes within her are roaring lions; her judges are evening wolves; they gnaw not the bones till the morrow.

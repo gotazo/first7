@@ -7,7 +7,7 @@ weight: 18
 ## PHILEMON
 
 
-## CHAPTER 1
+## PHILEMON 1
 **1** Paul, a prisoner of Jesus Christ, and Timothy our brother, unto Philemon our dearly beloved, and fellowlabourer, 2 And to our beloved Apphia, and Archippus our fellowsoldier, and to the church in thy house:
 **3** Grace to you, and peace, from God our Father and the Lord Jesus Christ.
 **4** I thank my God, making mention of thee always in my prayers,

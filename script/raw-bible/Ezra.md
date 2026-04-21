@@ -3,10 +3,11 @@ title: Ezra
 weight: 15
 ---
 
-EZRA
+## THE BOOK OF EZRA
+## EZRA
 
 
-CHAPTER 1
+## EZRA 1
 **1** Now in the first year of Cyrus king of Persia, that the word of the LORD by the mouth of Jeremiah might be fulfilled, the LORD stirred up the spirit of Cyrus king of Persia, that he made a proclamation throughout all his kingdom, and put it also in writing, saying,
 **2** Thus saith Cyrus king of Persia, The LORD God of heaven hath given me all the kingdoms of the earth; and he hath charged me to build him an house at Jerusalem, which is in Judah.
 **3** Who is there among you of all his people? his God be with him, and let him go up to Jerusalem, which is in Judah, and build the house of the LORD God of Israel, (he is the God,) which is in Jerusalem.
@@ -19,7 +20,7 @@ EZRA
 **10** Thirty basons of gold, silver basons of a second sort four hundred and ten, and other vessels a thousand.
 **11** All the vessels of gold and of silver were five thousand and four hundred. All these did Sheshbazzar bring up with them of the captivity that were brought up from Babylon unto Jerusalem.
 
-CHAPTER 2
+## EZRA 2
 **1** Now these are the children of the province that went up out of the captivity, of those which had been carried away, whom Nebuchadnezzar the king of Babylon had carried away unto Babylon, and came again unto Jerusalem and Judah, every one unto his city;
 **2** Which came with Zerubbabel: Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mispar, Bigvai, Rehum, Baanah. The number of the men of the people of Israel:
 **3** The children of Parosh, two thousand an hundred seventy and two.
@@ -91,7 +92,7 @@ CHAPTER 2
 **69** They gave after their ability unto the treasure of the work threescore and one thousand drams of gold, and five thousand pound of silver, and one hundred priests' garments.
 **70** So the priests, and the Levites, and some of the people, and the singers, and the porters, and the Nethinims, dwelt in their cities, and all Israel in their cities.
 
-CHAPTER 3
+## EZRA 3
 **1** And when the seventh month was come, and the children of Israel were in the cities, the people gathered themselves together as one man to Jerusalem.
 **2** Then stood up Jeshua the son of Jozadak, and his brethren the priests, and Zerubbabel the son of Shealtiel, and his brethren, and builded the altar of the God of Israel, to offer burnt offerings thereon, as it is written in the law of Moses the man of God.
 **3** And they set the altar upon his bases; for fear was upon them because of the people of those countries: and they offered burnt offerings thereon unto the LORD, even burnt offerings morning and evening.
@@ -106,7 +107,7 @@ CHAPTER 3
 **12** But many of the priests and Levites and chief of the fathers, who were ancient men, that had seen the first house, when the foundation of this house was laid before their eyes, wept with a loud voice; and many shouted aloud for joy:
 **13** So that the people could not discern the noise of the shout of joy from the noise of the weeping of the people: for the people shouted with a loud shout, and the noise was heard afar off.
 
-CHAPTER 4
+## EZRA 4
 **1** Now when the adversaries of Judah and Benjamin heard that the children of the captivity builded the temple unto the LORD God of Israel;
 **2** Then they came to Zerubbabel, and to the chief of the fathers, and said unto them, Let us build with you: for we seek your God, as ye do; and we do sacrifice unto him since the days of Esar-haddon king of Assur, which brought us up hither.
 **3** But Zerubbabel, and Jeshua, and the rest of the chief of the fathers of Israel, said unto them, Ye have nothing to do with us to build an house unto our God; but we ourselves together will build unto the LORD God of Israel, as king Cyrus the king of Persia hath commanded us.
@@ -132,7 +133,7 @@ CHAPTER 4
 **23** Now when the copy of king Artaxerxes' letter was read before Rehum, and Shimshai the scribe, and their companions, they went up in haste to Jerusalem unto the Jews, and made them to cease by force and power.
 **24** Then ceased the work of the house of God which is at Jerusalem. So it ceased unto the second year of the reign of Darius king of Persia.
 
-CHAPTER 5
+## EZRA 5
 **1** Then the prophets, Haggai the prophet, and Zechariah the son of Iddo, prophesied unto the Jews that were in Judah and Jerusalem in the name of the God of Israel, even unto them.
 **2** Then rose up Zerubbabel the son of Shealtiel, and Jeshua the son of Jozadak, and began to build the house of God which is at Jerusalem: and with them were the prophets of God helping them.
 **3** At the same time came to them Tatnai, governor on this side the river, and Shethar-boznai, and their companions, and said thus unto them, Who hath commanded you to build this house, and to make up this wall?
@@ -151,7 +152,7 @@ CHAPTER 5
 **16** Then came the same Sheshbazzar, and laid the foundation of the house of God which is in Jerusalem: and since that time even until now hath it been in building, and yet it is not finished.
 **17** Now therefore, if it seem good to the king, let there be search made in the king's treasure house, which is there at Babylon, whether it be so, that a decree was made of Cyrus the king to build this house of God at Jerusalem, and let the king send his pleasure to us concerning this matter.
 
-CHAPTER 6
+## EZRA 6
 **1** Then Darius the king made a decree, and search was made in the house of the rolls, where the treasures were laid up in Babylon.
 **2** And there was found at Achmetha, in the palace that is in the province of the Medes, a roll, and therein was a record thus written:
 **3** In the first year of Cyrus the king the same Cyrus the king made a decree concerning the house of God at Jerusalem, Let the house be builded, the place where they offered sacrifices, and let the foundations thereof be strongly laid; the height thereof threescore cubits, and the breadth thereof threescore cubits;
@@ -175,7 +176,7 @@ CHAPTER 6
 **21** And the children of Israel, which were come again out of captivity, and all such as had separated themselves unto them from the filthiness of the heathen of the land, to seek the LORD God of Israel, did eat,
 **22** And kept the feast of unleavened bread seven days with joy: for the LORD had made them joyful, and turned the heart of the king of Assyria unto them, to strengthen their hands in the work of the house of God, the God of Israel.
 
-CHAPTER 7
+## EZRA 7
 **1** Now after these things, in the reign of Artaxerxes king of Persia, Ezra the son of Seraiah, the son of Azariah, the son of Hilkiah,
 **2** The son of Shallum, the son of Zadok, the son of Ahitub,
 **3** The son of Amariah, the son of Azariah, the son of Meraioth,
@@ -205,7 +206,7 @@ CHAPTER 7
 **27** Blessed be the LORD God of our fathers, which hath put such a thing as this in the king's heart, to beautify the house of the LORD which is in Jerusalem:
 **28** And hath extended mercy unto me before the king, and his counsellors, and before all the king's mighty princes. And I was strengthened as the hand of the LORD my God was upon me, and I gathered together out of Israel chief men to go up with me.
 
-CHAPTER 8
+## EZRA 8
 **1** These are now the chief of their fathers, and this is the genealogy of them that went up with me from Babylon, in the reign of Artaxerxes the king.
 **2** Of the sons of Phinehas; Gershom: of the sons of Ithamar; Daniel: of the sons of David; Hattush.
 **3** Of the sons of Shechaniah, of the sons of Pharosh; Zechariah: and with him were reckoned by genealogy of the males an hundred and fifty.
@@ -243,7 +244,7 @@ CHAPTER 8
 **35** Also the children of those that had been carried away, which were come out of the captivity, offered burnt offerings unto the God of Israel, twelve bullocks for all Israel, ninety and six rams, seventy and seven lambs, twelve he goats for a sin offering: all this was a burnt offering unto the LORD.
 **36** And they delivered the king's commissions unto the king's lieutenants, and to the governors on this side the river: and they furthered the people, and the house of God.
 
-CHAPTER 9
+## EZRA 9
 **1** Now when these things were done, the princes came to me, saying, The people of Israel, and the priests, and the Levites, have not separated themselves from the people of the lands, doing according to their abominations, even of the Canaanites, the Hittites, the Perizzites, the Jebusites, the Ammonites, the Moabites, the Egyptians, and the Amorites.
 **2** For they have taken of their daughters for themselves, and for their sons: so that the holy seed have mingled themselves with the people of those lands: yea, the hand of the princes and rulers hath been chief in this trespass.
 **3** And when I heard this thing, I rent my garment and my mantle, and plucked off the hair of my head and of my beard, and sat down astonied.
@@ -260,7 +261,7 @@ CHAPTER 9
 **14** Should we again break thy commandments, and join in affinity with the people of these abominations? wouldest not thou be angry with us till thou hadst consumed us, so that there should be no remnant nor escaping?
 **15** O LORD God of Israel, thou art righteous: for we remain yet escaped, as it is this day: behold, we are before thee in our trespasses: for we cannot stand before thee because of this.
 
-CHAPTER 10
+## EZRA 10
 **1** Now when Ezra had prayed, and when he had confessed, weeping and casting himself down before the house of God, there assembled unto him out of Israel a very great congregation of men and women and children: for the people wept very sore.
 **2** And Shechaniah the son of Jehiel, one of the sons of Elam, answered and said unto Ezra, We have trespassed against our God, and have taken strange wives of the people of the land: yet now there is hope in Israel concerning this thing.
 **3** Now therefore let us make a covenant with our God to put away all the wives, and such as are born of them, according to the counsel of my lord, and of those that tremble at the commandment of our God; and let it be done according to the law.
@@ -306,5 +307,3 @@ CHAPTER 10
 **43** Of the sons of Nebo; Jeiel, Mattithiah, Zabad, Zebina, Jadau, and Joel, Benaiah.
 **44** All these had taken strange wives: and some of them had wives by whom they had children.
 EZRA
-
-

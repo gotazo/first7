@@ -6,7 +6,7 @@ weight: 35
 HABAKKUK
 
 
-## CHAPTER 1
+## HABAKKUK 1
 **1** The burden which Habakkuk the prophet did see.
 **2** O LORD, how long shall I cry, and thou wilt not hear! even cry out unto thee of violence, and thou wilt not save!
 **3** Why dost thou shew me iniquity, and cause me to behold grievance? for spoiling and violence are before me: and there are that raise up strife and contention.
@@ -25,7 +25,7 @@ HABAKKUK
 **16** Therefore they sacrifice unto their net, and burn incense unto their drag; because by them their portion is fat, and their meat plenteous.
 **17** Shall they therefore empty their net, and not spare continually to slay the nations?
 
-## CHAPTER 2
+## HABAKKUK 2
 **1** I will stand upon my watch, and set me upon the tower, and will watch to see what he will say unto me, and what I shall answer when I am reproved.
 **2** And the LORD answered me, and said, Write the vision, and make it plain upon tables, that he may run that readeth it.
 **3** For the vision is yet for an appointed time, but at the end it shall speak, and not lie: though it tarry, wait for it; because it will surely come, it will not tarry.
@@ -47,7 +47,7 @@ HABAKKUK
 **19** Woe unto him that saith to the wood, Awake; to the dumb stone, Arise, it shall teach! Behold, it is laid over with gold and silver, and there is no breath at all in the midst of it.
 **20** But the LORD is in his holy temple: let all the earth keep silence before him.
 
-## CHAPTER 3
+## HABAKKUK 3
 **1** A prayer of Habakkuk the prophet upon Shigionoth.
 **2** O LORD, I have heard thy speech, and was afraid: O LORD, revive thy work in the midst of the years, in the midst of the years make known; in wrath remember mercy.
 **3** God came from Teman, and the Holy One from mount Paran. Selah. His glory covered the heavens, and the earth was full of his praise.

@@ -7,7 +7,7 @@ weight: 8
 ## CORINTHIANS
 
 
-## CHAPTER 1
+## 2 CORINTHIANS 1
 **1** Paul, an apostle of Jesus Christ by the will of God, and Timothy our brother, unto the church of God which is at Corinth, with all the saints which are in all Achaia:
 **2** Grace be to you and peace from God our Father, and from the Lord Jesus Christ.
 **3** Blessed be God, even the Father of our Lord Jesus Christ, the Father of mercies, and the God of all comfort;
@@ -33,7 +33,7 @@ weight: 8
 **23** Moreover I call God for a record upon my soul, that to spare you I came not as yet unto Corinth.
 **24** Not for that we have dominion over your faith, but are helpers of your joy: for by faith ye stand.
 
-## CHAPTER 2
+## 2 CORINTHIANS 2
 **1** But I determined this with myself, that I would not come again to you in heaviness.
 **2** For if I make you sorry, who is he then that maketh me glad, but the same which is made sorry by me?
 **3** And I wrote this same unto you, lest, when I came, I should have sorrow from them of whom I ought to rejoice; having confidence in you all, that my joy is the joy of you all.
@@ -52,7 +52,7 @@ weight: 8
 **16** To the one we are the savour of death unto death; and to the other the savour of life unto life. And who is sufficient for these things?
 **17** For we are not as many, which corrupt the word of God: but as of sincerity, but as of God, in the sight of God speak we in Christ.
 
-## CHAPTER 3
+## 2 CORINTHIANS 3
 **1** Do we begin again to commend ourselves? or need we, as some others, epistles of commendation to you, or letters of commendation from you?
 **2** Ye are our epistle written in our hearts, known and read of all men:
 **3** Forasmuch as ye are manifestly declared to be the epistle of Christ ministered by us, written not with ink, but with the Spirit of the living God; not in tables of stone, but in fleshy tables of the heart.
@@ -72,7 +72,7 @@ weight: 8
 **17** Now the Lord is that Spirit: and where the Spirit of the Lord is, there is liberty.
 **18** But we all, with open face beholding as in a glass the glory of the Lord, are changed into the same image from glory to glory, even as by the Spirit of the Lord.
 
-## CHAPTER 4
+## 2 CORINTHIANS 4
 **1** Therefore seeing we have this ministry, as we have received mercy, we faint not;
 **2** But have renounced the hidden things of dishonesty, not walking in craftiness, nor handling the word of God deceitfully; but by manifestation of the truth commending ourselves to every man's conscience in the sight of God.
 **3** But if our gospel be hid, it is hid to them that are lost:
@@ -92,7 +92,7 @@ weight: 8
 **17** For our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory;
 **18** While we look not at the things which are seen, but at the things which are not seen: for the things which are seen are temporal; but the things which are not seen are eternal.
 
-## CHAPTER 5
+## 2 CORINTHIANS 5
 **1** For we know that if our earthly house of this tabernacle were dissolved, we have a building of God, an house not made with hands, eternal in the heavens.
 **2** For in this we groan, earnestly desiring to be clothed upon with our house which is from heaven:
 **3** If so be that being clothed we shall not be found naked.
@@ -115,7 +115,7 @@ weight: 8
 **20** Now then we are ambassadors for Christ, as though God did beseech you by us: we pray you in Christ's stead, be ye reconciled to God.
 **21** For he hath made him to be sin for us, who knew no sin; that we might be made the righteousness of God in him.
 
-## CHAPTER 6
+## 2 CORINTHIANS 6
 **1** We then, as workers together with him, beseech you also that ye receive not the grace of God in vain.
 **2** (For he saith, I have heard thee in a time accepted, and in the day of salvation have I succoured thee: behold, now is the accepted time; behold, now is the day of salvation.)
 **3** Giving no offence in any thing, that the ministry be not blamed:
@@ -135,7 +135,7 @@ weight: 8
 **17** Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you,
 **18** And will be a Father unto you, and ye shall be my sons and daughters, saith the Lord Almighty.
 
-## CHAPTER 7
+## 2 CORINTHIANS 7
 **1** Having therefore these promises, dearly beloved, let us cleanse ourselves from all filthiness of the flesh and spirit, perfecting holiness in the fear of God.
 **2** Receive us; we have wronged no man, we have corrupted no man, we have defrauded no man.
 **3** I speak not this to condemn you: for I have said before, that ye are in our hearts to die and live with you.
@@ -153,7 +153,7 @@ weight: 8
 **15** And his inward affection is more abundant toward you, whilst he remembereth the obedience of you all, how with fear and trembling ye received him.
 **16** I rejoice therefore that I have confidence in you in all things.
 
-## CHAPTER 8
+## 2 CORINTHIANS 8
 **1** Moreover, brethren, we do you to wit of the grace of God bestowed on the churches of Macedonia;
 **2** How that in a great trial of affliction the abundance of their joy and their deep poverty abounded unto the riches of their liberality.
 **3** For to their power, I bear record, yea, and beyond their power they were willing of themselves;
@@ -179,7 +179,7 @@ weight: 8
 **23** Whether any do enquire of Titus, he is my partner and fellowhelper concerning you: or our brethren be enquired of, they are the messengers of the churches, and the glory of Christ.
 **24** Wherefore shew ye to them, and before the churches, the proof of your love, and of our boasting on your behalf.
 
-## CHAPTER 9
+## 2 CORINTHIANS 9
 **1** For as touching the ministering to the saints, it is superfluous for me to write to you:
 **2** For I know the forwardness of your mind, for which I boast of you to them of Macedonia, that Achaia was ready a year ago; and your zeal hath provoked very many.
 **3** Yet have I sent the brethren, lest our boasting of you should be in vain in this behalf; that, as I said, ye may be ready:
@@ -196,7 +196,7 @@ weight: 8
 **14** And by their prayer for you, which long after you for the exceeding grace of God in you.
 **15** Thanks be unto God for his unspeakable gift.
 
-## CHAPTER 10
+## 2 CORINTHIANS 10
 **1** Now I Paul myself beseech you by the meekness and gentleness of Christ, who in presence am base among you, but being absent am bold toward you:
 **2** But I beseech you, that I may not be bold when I am present with that confidence, wherewith I think to be bold against some, which think of us as if we walked according to the flesh.
 **3** For though we walk in the flesh, we do not war after the flesh:
@@ -216,7 +216,7 @@ weight: 8
 **17** But he that glorieth, let him glory in the Lord.
 **18** For not he that commendeth himself is approved, but whom the Lord commendeth.
 
-## CHAPTER 11
+## 2 CORINTHIANS 11
 **1** Would to God ye could bear with me a little in my folly: and indeed bear with me.
 **2** For I am jealous over you with godly jealousy: for I have espoused you to one husband, that I may present you as a chaste virgin to Christ.
 **3** But I fear, lest by any means, as the serpent beguiled Eve through his subtilty, so your minds should be corrupted from the simplicity that is in Christ.
@@ -251,7 +251,7 @@ weight: 8
 **32** In Damascus the governor under Aretas the king kept the city of the Damascenes with a garrison, desirous to apprehend me:
 **33** And through a window in a basket was I let down by the wall, and escaped his hands.
 
-## CHAPTER 12
+## 2 CORINTHIANS 12
 **1** It is not expedient for me doubtless to glory. I will come to visions and revelations of the Lord.
 **2** I knew a man in Christ above fourteen years ago, (whether in the body, I cannot tell; or whether out of the body, I cannot tell: God knoweth;) such an one caught up to the third heaven.
 **3** And I knew such a man, (whether in the body, or out of the body, I cannot tell: God knoweth;)
@@ -274,7 +274,7 @@ weight: 8
 **20** For I fear, lest, when I come, I shall not find you such as I would, and that I shall be found unto you such as ye would not: lest there be debates, envyings, wraths, strifes, backbitings, whisperings, swellings, tumults:
 **21** And lest, when I come again, my God will humble me among you, and that I shall bewail many which have sinned already, and have not repented of the uncleanness and fornication and lasciviousness which they have committed.
 
-## CHAPTER 13
+## 2 CORINTHIANS 13
 **1** This is the third time I am coming to you. In the mouth of two or three witnesses shall every word be established.
 **2** I told you before, and foretell you, as if I were present, the second time; and being absent now I write to them which heretofore have sinned, and to all other, that, if I come again, I will not spare:
 **3** Since ye seek a proof of Christ speaking in me, which to you-ward is not weak, but is mighty in you.
@@ -290,4 +290,4 @@ weight: 8
 **13** All the saints salute you.
 **14** The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost, be with you all. Amen.
 The second epistle to the Corinthians was written from Philippi, a city of Macedonia, by Titus and Lucas.
-2 CORINTHIANS
+**2** CORINTHIANS

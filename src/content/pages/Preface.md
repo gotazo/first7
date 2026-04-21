@@ -1,6 +1,5 @@
 ﻿---
 title: Preface
-weight: 41
 ---
 
 ## THE TRANSLATORS TO THE READER

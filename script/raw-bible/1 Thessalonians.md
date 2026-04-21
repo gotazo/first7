@@ -7,7 +7,7 @@ weight: 13
 ## THESSALONIANS
 
 
-## CHAPTER 1
+## 1 THESSALONIANS 1
 **1** Paul, and Silvanus, and Timotheus, unto the church of the Thessalonians which is in God the Father and in the Lord Jesus Christ: Grace be unto you, and peace, from God our Father, and the Lord Jesus Christ.
 **2** We give thanks to God always for you all, making mention of you in our prayers;
 **3** Remembering without ceasing your work of faith, and labour of love, and patience of hope in our Lord Jesus Christ, in the sight of God and our Father;
@@ -19,7 +19,7 @@ weight: 13
 **9** For they themselves shew of us what manner of entering in we had unto you, and how ye turned to God from idols to serve the living and true God;
 **10** And to wait for his Son from heaven, whom he raised from the dead, even Jesus, which delivered us from the wrath to come.
 
-## CHAPTER 2
+## 1 THESSALONIANS 2
 **1** For yourselves, brethren, know our entrance in unto you, that it was not in vain:
 **2** But even after that we had suffered before, and were shamefully entreated, as ye know, at Philippi, we were bold in our God to speak unto you the gospel of God with much contention.
 **3** For our exhortation was not of deceit, nor of uncleanness, nor in guile:
@@ -41,7 +41,7 @@ weight: 13
 **19** For what is our hope, or joy, or crown of rejoicing? Are not even ye in the presence of our Lord Jesus Christ at his coming?
 **20** For ye are our glory and joy.
 
-## CHAPTER 3
+## 1 THESSALONIANS 3
 **1** Wherefore when we could no longer forbear, we thought it good to be left at Athens alone;
 **2** And sent Timotheus, our brother, and minister of God, and our fellowlabourer in the gospel of Christ, to establish you, and to comfort you concerning your faith:
 **3** That no man should be moved by these afflictions: for yourselves know that we are appointed thereunto.
@@ -56,7 +56,7 @@ weight: 13
 **12** And the Lord make you to increase and abound in love one toward another, and toward all men, even as we do toward you:
 **13** To the end he may stablish your hearts unblameable in holiness before God, even our Father, at the coming of our Lord Jesus Christ with all his saints.
 
-## CHAPTER 4
+## 1 THESSALONIANS 4
 **1** Furthermore then we beseech you, brethren, and exhort you by the Lord Jesus, that as ye have received of us how ye ought to walk and to please God, so ye would abound more and more.
 **2** For ye know what commandments we gave you by the Lord Jesus.
 **3** For this is the will of God, even your sanctification, that ye should abstain from fornication:
@@ -76,7 +76,7 @@ weight: 13
 **17** Then we which are alive and remain shall be caught up together with them in the clouds, to meet the Lord in the air: and so shall we ever be with the Lord.
 **18** Wherefore comfort one another with these words.
 
-## CHAPTER 5
+## 1 THESSALONIANS 5
 **1** But of the times and the seasons, brethren, ye have no need that I write unto you.
 **2** For yourselves know perfectly that the day of the Lord so cometh as a thief in the night.
 **3** For when they shall say, Peace and safety; then sudden destruction cometh upon them, as travail upon a woman with child; and they shall not escape.
@@ -106,7 +106,7 @@ weight: 13
 **27** I charge you by the Lord that this epistle be read unto all the holy brethren.
 **28** The grace of our Lord Jesus Christ be with you. Amen.
 The first epistle unto the Thessalonians was written from Athens.
-1 THESSALONIANS
+**1** THESSALONIANS
 
 
 

@@ -6,7 +6,7 @@ weight: 38
 ## ZECHARIAH
 
 
-## CHAPTER 1
+## ZECHARIAH 1
 **1** In the eighth month, in the second year of Darius, came the word of the LORD unto Zechariah, the son of Berechiah, the son of Iddo the prophet, saying,
 **2** The LORD hath been sore displeased with your fathers.
 **3** Therefore say thou unto them, Thus saith the LORD of hosts; Turn ye unto me, saith the LORD of hosts, and I will turn unto you, saith the LORD of hosts.
@@ -29,7 +29,7 @@ weight: 38
 **20** And the LORD shewed me four carpenters.
 **21** Then said I, What come these to do? And he spake, saying, These are the horns which have scattered Judah, so that no man did lift up his head: but these are come to fray them, to cast out the horns of the Gentiles, which lifted up their horn over the land of Judah to scatter it.
 
-## CHAPTER 2
+## ZECHARIAH 2
 **1** I lifted up mine eyes again, and looked, and behold a man with a measuring line in his hand.
 **2** Then said I, Whither goest thou? And he said unto me, To measure Jerusalem, to see what is the breadth thereof, and what is the length thereof.
 **3** And, behold, the angel that talked with me went forth, and another angel went out to meet him,
@@ -44,7 +44,7 @@ weight: 38
 **12** And the LORD shall inherit Judah his portion in the holy land, and shall choose Jerusalem again.
 **13** Be silent, O all flesh, before the LORD: for he is raised up out of his holy habitation.
 
-## CHAPTER 3
+## ZECHARIAH 3
 **1** And he shewed me Joshua the high priest standing before the angel of the LORD, and Satan standing at his right hand to resist him.
 **2** And the LORD said unto Satan, The LORD rebuke thee, O Satan; even the LORD that hath chosen Jerusalem rebuke thee: is not this a brand plucked out of the fire?
 **3** Now Joshua was clothed with filthy garments, and stood before the angel.
@@ -56,7 +56,7 @@ weight: 38
 **9** For behold the stone that I have laid before Joshua; upon one stone shall be seven eyes: behold, I will engrave the graving thereof, saith the LORD of hosts, and I will remove the iniquity of that land in one day.
 **10** In that day, saith the LORD of hosts, shall ye call every man his neighbour under the vine and under the fig tree.
 
-## CHAPTER 4
+## ZECHARIAH 4
 **1** And the angel that talked with me came again, and waked me, as a man that is wakened out of his sleep,
 **2** And said unto me, What seest thou? And I said, I have looked, and behold a candlestick all of gold, with a bowl upon the top of it, and his seven lamps thereon, and seven pipes to the seven lamps, which are upon the top thereof:
 **3** And two olive trees by it, one upon the right side of the bowl, and the other upon the left side thereof.
@@ -72,7 +72,7 @@ weight: 38
 **13** And he answered me and said, Knowest thou not what these be? And I said, No, my lord.
 **14** Then said he, These are the two anointed ones, that stand by the Lord of the whole earth.
 
-## CHAPTER 5
+## ZECHARIAH 5
 **1** Then I turned, and lifted up mine eyes, and looked, and behold a flying roll.
 **2** And he said unto me, What seest thou? And I answered, I see a flying roll; the length thereof is twenty cubits, and the breadth thereof ten cubits.
 **3** Then said he unto me, This is the curse that goeth forth over the face of the whole earth: for every one that stealeth shall be cut off as on this side according to it; and every one that sweareth shall be cut off as on that side according to it.
@@ -85,7 +85,7 @@ weight: 38
 **10** Then said I to the angel that talked with me, Whither do these bear the ephah?
 **11** And he said unto me, To build it an house in the land of Shinar: and it shall be established, and set there upon her own base.
 
-## CHAPTER 6
+## ZECHARIAH 6
 **1** And I turned, and lifted up mine eyes, and looked, and, behold, there came four chariots out from between two mountains; and the mountains were mountains of brass.
 **2** In the first chariot were red horses; and in the second chariot black horses;
 **3** And in the third chariot white horses; and in the fourth chariot grisled and bay horses.
@@ -102,7 +102,7 @@ weight: 38
 **14** And the crowns shall be to Helem, and to Tobijah, and to Jedaiah, and to Hen the son of Zephaniah, for a memorial in the temple of the LORD.
 **15** And they that are far off shall come and build in the temple of the LORD, and ye shall know that the LORD of hosts hath sent me unto you. And this shall come to pass, if ye will diligently obey the voice of the LORD your God.
 
-## CHAPTER 7
+## ZECHARIAH 7
 **1** And it came to pass in the fourth year of king Darius, that the word of the LORD came unto Zechariah in the fourth day of the ninth month, even in Chisleu;
 **2** When they had sent unto the house of God Sherezer and Regem-melech, and their men, to pray before the LORD,
 **3** And to speak unto the priests which were in the house of the LORD of hosts, and to the prophets, saying, Should I weep in the fifth month, separating myself, as I have done these so many years?
@@ -118,7 +118,7 @@ weight: 38
 **13** Therefore it is come to pass, that as he cried, and they would not hear; so they cried, and I would not hear, saith the LORD of hosts:
 **14** But I scattered them with a whirlwind among all the nations whom they knew not. Thus the land was desolate after them, that no man passed through nor returned: for they laid the pleasant land desolate.
 
-## CHAPTER 8
+## ZECHARIAH 8
 **1** Again the word of the LORD of hosts came to me, saying,
 **2** Thus saith the LORD of hosts; I was jealous for Zion with great jealousy, and I was jealous for her with great fury.
 **3** Thus saith the LORD; I am returned unto Zion, and will dwell in the midst of Jerusalem: and Jerusalem shall be called a city of truth; and the mountain of the LORD of hosts the holy mountain.
@@ -143,7 +143,7 @@ weight: 38
 **22** Yea, many people and strong nations shall come to seek the LORD of hosts in Jerusalem, and to pray before the LORD.
 **23** Thus saith the LORD of hosts; In those days it shall come to pass, that ten men shall take hold out of all languages of the nations, even shall take hold of the skirt of him that is a Jew, saying, We will go with you: for we have heard that God is with you.
 
-## CHAPTER 9
+## ZECHARIAH 9
 **1** The burden of the word of the LORD in the land of Hadrach, and Damascus shall be the rest thereof: when the eyes of man, as of all the tribes of Israel, shall be toward the LORD.
 **2** And Hamath also shall border thereby; Tyrus, and Zidon, though it be very wise.
 **3** And Tyrus did build herself a strong hold, and heaped up silver as the dust, and fine gold as the mire of the streets.
@@ -162,7 +162,7 @@ weight: 38
 **16** And the LORD their God shall save them in that day as the flock of his people: for they shall be as the stones of a crown, lifted up as an ensign upon his land.
 **17** For how great is his goodness, and how great is his beauty! corn shall make the young men cheerful, and new wine the maids.
 
-## CHAPTER 10
+## ZECHARIAH 10
 **1** Ask ye of the LORD rain in the time of the latter rain; so the LORD shall make bright clouds, and give them showers of rain, to every one grass in the field.
 **2** For the idols have spoken vanity, and the diviners have seen a lie, and have told false dreams; they comfort in vain: therefore they went their way as a flock, they were troubled, because there was no shepherd.
 **3** Mine anger was kindled against the shepherds, and I punished the goats: for the LORD of hosts hath visited his flock the house of Judah, and hath made them as his goodly horse in the battle.
@@ -176,7 +176,7 @@ weight: 38
 **11** And he shall pass through the sea with affliction, and shall smite the waves in the sea, and all the deeps of the river shall dry up: and the pride of Assyria shall be brought down, and the sceptre of Egypt shall depart away.
 **12** And I will strengthen them in the LORD; and they shall walk up and down in his name, saith the LORD.
 
-## CHAPTER 11
+## ZECHARIAH 11
 **1** Open thy doors, O Lebanon, that the fire may devour thy cedars.
 **2** Howl, fir tree; for the cedar is fallen; because the mighty are spoiled: howl, O ye oaks of Bashan; for the forest of the vintage is come down.
 **3** There is a voice of the howling of the shepherds; for their glory is spoiled: a voice of the roaring of young lions; for the pride of Jordan is spoiled.
@@ -195,7 +195,7 @@ weight: 38
 **16** For, lo, I will raise up a shepherd in the land, which shall not visit those that be cut off, neither shall seek the young one, nor heal that that is broken, nor feed that that standeth still: but he shall eat the flesh of the fat, and tear their claws in pieces.
 **17** Woe to the idol shepherd that leaveth the flock! the sword shall be upon his arm, and upon his right eye: his arm shall be clean dried up, and his right eye shall be utterly darkened.
 
-## CHAPTER 12
+## ZECHARIAH 12
 **1** The burden of the word of the LORD for Israel, saith the LORD, which stretcheth forth the heavens, and layeth the foundation of the earth, and formeth the spirit of man within him.
 **2** Behold, I will make Jerusalem a cup of trembling unto all the people round about, when they shall be in the siege both against Judah and against Jerusalem.
 **3** And in that day will I make Jerusalem a burdensome stone for all people: all that burden themselves with it shall be cut in pieces, though all the people of the earth be gathered together against it.
@@ -211,7 +211,7 @@ weight: 38
 **13** The family of the house of Levi apart, and their wives apart; the family of Shimei apart, and their wives apart;
 **14** All the families that remain, every family apart, and their wives apart.
 
-## CHAPTER 13
+## ZECHARIAH 13
 **1** In that day there shall be a fountain opened to the house of David and to the inhabitants of Jerusalem for sin and for uncleanness.
 **2** And it shall come to pass in that day, saith the LORD of hosts, that I will cut off the names of the idols out of the land, and they shall no more be remembered: and also I will cause the prophets and the unclean spirit to pass out of the land.
 **3** And it shall come to pass, that when any shall yet prophesy, then his father and his mother that begat him shall say unto him, Thou shalt not live; for thou speakest lies in the name of the LORD: and his father and his mother that begat him shall thrust him through when he prophesieth.
@@ -222,7 +222,7 @@ weight: 38
 **8** And it shall come to pass, that in all the land, saith the LORD, two parts therein shall be cut off and die; but the third shall be left therein.
 **9** And I will bring the third part through the fire, and will refine them as silver is refined, and will try them as gold is tried: they shall call on my name, and I will hear them: I will say, It is my people: and they shall say, The LORD is my God.
 
-## CHAPTER 14
+## ZECHARIAH 14
 **1** Behold, the day of the LORD cometh, and thy spoil shall be divided in the midst of thee.
 **2** For I will gather all nations against Jerusalem to battle; and the city shall be taken, and the houses rifled, and the women ravished; and half of the city shall go forth into captivity, and the residue of the people shall not be cut off from the city.
 **3** Then shall the LORD go forth, and fight against those nations, as when he fought in the day of battle.

@@ -7,7 +7,7 @@ weight: 3
 ## LEVITICUS
 
 
-## CHAPTER 1
+## LEVITICUS 1
 **1** And the LORD called unto Moses, and spake unto him out of the tabernacle of the congregation, saying,
 **2** Speak unto the children of Israel, and say unto them, If any man of you bring an offering unto the LORD, ye shall bring your offering of the cattle, even of the herd, and of the flock.
 **3** If his offering be a burnt sacrifice of the herd, let him offer a male without blemish: he shall offer it of his own voluntary will at the door of the tabernacle of the congregation before the LORD.
@@ -26,7 +26,7 @@ weight: 3
 **16** And he shall pluck away his crop with his feathers, and cast it beside the altar on the east part, by the place of the ashes:
 **17** And he shall cleave it with the wings thereof, but shall not divide it asunder: and the priest shall burn it upon the altar, upon the wood that is upon the fire: it is a burnt sacrifice, an offering made by fire, of a sweet savour unto the LORD.
 
-## CHAPTER 2
+## LEVITICUS 2
 **1** And when any will offer a meat offering unto the LORD, his offering shall be of fine flour; and he shall pour oil upon it, and put frankincense thereon:
 **2** And he shall bring it to Aaron's sons the priests: and he shall take thereout his handful of the flour thereof, and of the oil thereof, with all the frankincense thereof; and the priest shall burn the memorial of it upon the altar, to be an offering made by fire, of a sweet savour unto the LORD:
 **3** And the remnant of the meat offering shall be Aaron's and his sons': it is a thing most holy of the offerings of the LORD made by fire.
@@ -44,7 +44,7 @@ weight: 3
 **15** And thou shalt put oil upon it, and lay frankincense thereon: it is a meat offering.
 **16** And the priest shall burn the memorial of it, part of the beaten corn thereof, and part of the oil thereof, with all the frankincense thereof: it is an offering made by fire unto the LORD.
 
-## CHAPTER 3
+## LEVITICUS 3
 **1** And if his oblation be a sacrifice of peace offering, if he offer it of the herd; whether it be a male or female, he shall offer it without blemish before the LORD.
 **2** And he shall lay his hand upon the head of his offering, and kill it at the door of the tabernacle of the congregation: and Aaron's sons the priests shall sprinkle the blood upon the altar round about.
 **3** And he shall offer of the sacrifice of the peace offering an offering made by fire unto the LORD; the fat that covereth the inwards, and all the fat that is upon the inwards,
@@ -63,7 +63,7 @@ weight: 3
 **16** And the priest shall burn them upon the altar: it is the food of the offering made by fire for a sweet savour: all the fat is the LORD'S.
 **17** It shall be a perpetual statute for your generations throughout all your dwellings, that ye eat neither fat nor blood.
 
-## CHAPTER 4
+## LEVITICUS 4
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto the children of Israel, saying, If a soul shall sin through ignorance against any of the commandments of the LORD concerning things which ought not to be done, and shall do against any of them:
 **3** If the priest that is anointed do sin according to the sin of the people; then let him bring for his sin, which he hath sinned, a young bullock without blemish unto the LORD for a sin offering.
@@ -100,7 +100,7 @@ weight: 3
 **34** And the priest shall take of the blood of the sin offering with his finger, and put it upon the horns of the altar of burnt offering, and shall pour out all the blood thereof at the bottom of the altar:
 **35** And he shall take away all the fat thereof, as the fat of the lamb is taken away from the sacrifice of the peace offerings; and the priest shall burn them upon the altar, according to the offerings made by fire unto the LORD: and the priest shall make an atonement for his sin that he hath committed, and it shall be forgiven him.
 
-## CHAPTER 5
+## LEVITICUS 5
 **1** And if a soul sin, and hear the voice of swearing, and is a witness, whether he hath seen or known of it; if he do not utter it, then he shall bear his iniquity.
 **2** Or if a soul touch any unclean thing, whether it be a carcase of an unclean beast, or a carcase of unclean cattle, or the carcase of unclean creeping things, and if it be hidden from him; he also shall be unclean, and guilty.
 **3** Or if he touch the uncleanness of man, whatsoever uncleanness it be that a man shall be defiled withal, and it be hid from him; when he knoweth of it, then he shall be guilty.
@@ -121,7 +121,7 @@ weight: 3
 **18** And he shall bring a ram without blemish out of the flock, with thy estimation, for a trespass offering, unto the priest: and the priest shall make an atonement for him concerning his ignorance wherein he erred and wist it not, and it shall be forgiven him.
 **19** It is a trespass offering: he hath certainly trespassed against the LORD.
 
-## CHAPTER 6
+## LEVITICUS 6
 **1** And the LORD spake unto Moses, saying,
 **2** If a soul sin, and commit a trespass against the LORD, and lie unto his neighbour in that which was delivered him to keep, or in fellowship, or in a thing taken away by violence, or hath deceived his neighbour;
 **3** Or have found that which was lost, and lieth concerning it, and sweareth falsely; in any of all these that a man doeth, sinning therein:
@@ -153,7 +153,7 @@ weight: 3
 **29** All the males among the priests shall eat thereof: it is most holy.
 **30** And no sin offering, whereof any of the blood is brought into the tabernacle of the congregation to reconcile withal in the holy place, shall be eaten: it shall be burnt in the fire.
 
-## CHAPTER 7
+## LEVITICUS 7
 **1** Likewise this is the law of the trespass offering: it is most holy.
 **2** In the place where they kill the burnt offering shall they kill the trespass offering: and the blood thereof shall he sprinkle round about upon the altar.
 **3** And he shall offer of it all the fat thereof; the rump, and the fat that covereth the inwards,
@@ -193,7 +193,7 @@ weight: 3
 **37** This is the law of the burnt offering, of the meat offering, and of the sin offering, and of the trespass offering, and of the consecrations, and of the sacrifice of the peace offerings;
 **38** Which the LORD commanded Moses in mount Sinai, in the day that he commanded the children of Israel to offer their oblations unto the LORD, in the wilderness of Sinai.
 
-## CHAPTER 8
+## LEVITICUS 8
 **1** And the LORD spake unto Moses, saying,
 **2** Take Aaron and his sons with him, and the garments, and the anointing oil, and a bullock for the sin offering, and two rams, and a basket of unleavened bread;
 **3** And gather thou all the congregation together unto the door of the tabernacle of the congregation.
@@ -231,7 +231,7 @@ weight: 3
 **35** Therefore shall ye abide at the door of the tabernacle of the congregation day and night seven days, and keep the charge of the LORD, that ye die not: for so I am commanded.
 **36** So Aaron and his sons did all things which the LORD commanded by the hand of Moses.
 
-## CHAPTER 9
+## LEVITICUS 9
 **1** And it came to pass on the eighth day, that Moses called Aaron and his sons, and the elders of Israel;
 **2** And he said unto Aaron, Take thee a young calf for a sin offering, and a ram for a burnt offering, without blemish, and offer them before the LORD.
 **3** And unto the children of Israel thou shalt speak, saying, Take ye a kid of the goats for a sin offering; and a calf and a lamb, both of the first year, without blemish, for a burnt offering;
@@ -257,7 +257,7 @@ weight: 3
 **23** And Moses and Aaron went into the tabernacle of the congregation, and came out, and blessed the people: and the glory of the LORD appeared unto all the people.
 **24** And there came a fire out from before the LORD, and consumed upon the altar the burnt offering and the fat: which when all the people saw, they shouted, and fell on their faces.
 
-## CHAPTER 10
+## LEVITICUS 10
 **1** And Nadab and Abihu, the sons of Aaron, took either of them his censer, and put fire therein, and put incense thereon, and offered strange fire before the LORD, which he commanded them not.
 **2** And there went out fire from the LORD, and devoured them, and they died before the LORD.
 **3** Then Moses said unto Aaron, This is it that the LORD spake, saying, I will be sanctified in them that come nigh me, and before all the people I will be glorified. And Aaron held his peace.
@@ -279,7 +279,7 @@ weight: 3
 **19** And Aaron said unto Moses, Behold, this day have they offered their sin offering and their burnt offering before the LORD; and such things have befallen me: and if I had eaten the sin offering to day, should it have been accepted in the sight of the LORD?
 **20** And when Moses heard that, he was content.
 
-## CHAPTER 11
+## LEVITICUS 11
 **1** And the LORD spake unto Moses and to Aaron, saying unto them,
 **2** Speak unto the children of Israel, saying, These are the beasts which ye shall eat among all the beasts that are on the earth.
 **3** Whatsoever parteth the hoof, and is clovenfooted, and cheweth the cud, among the beasts, that shall ye eat.
@@ -328,7 +328,7 @@ weight: 3
 **46** This is the law of the beasts, and of the fowl, and of every living creature that moveth in the waters, and of every creature that creepeth upon the earth:
 **47** To make a difference between the unclean and the clean, and between the beast that may be eaten and the beast that may not be eaten.
 
-## CHAPTER 12
+## LEVITICUS 12
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto the children of Israel, saying, If a woman have conceived seed, and born a man child: then she shall be unclean seven days; according to the days of the separation for her infirmity shall she be unclean.
 **3** And in the eighth day the flesh of his foreskin shall be circumcised.
@@ -338,7 +338,7 @@ weight: 3
 **7** Who shall offer it before the LORD, and make an atonement for her; and she shall be cleansed from the issue of her blood. This is the law for her that hath born a male or a female.
 **8** And if she be not able to bring a lamb, then she shall bring two turtles, or two young pigeons; the one for the burnt offering, and the other for a sin offering: and the priest shall make an atonement for her, and she shall be clean.
 
-## CHAPTER 13
+## LEVITICUS 13
 **1** And the LORD spake unto Moses and Aaron, saying,
 **2** When a man shall have in the skin of his flesh a rising, a scab, or bright spot, and it be in the skin of his flesh like the plague of leprosy; then he shall be brought unto Aaron the priest, or unto one of his sons the priests:
 **3** And the priest shall look on the plague in the skin of the flesh: and when the hair in the plague is turned white, and the plague in sight be deeper than the skin of his flesh, it is a plague of leprosy: and the priest shall look on him, and pronounce him unclean.
@@ -399,7 +399,7 @@ weight: 3
 **58** And the garment, either warp, or woof, or whatsoever thing of skin it be, which thou shalt wash, if the plague be departed from them, then it shall be washed the second time, and shall be clean.
 **59** This is the law of the plague of leprosy in a garment of woollen or linen, either in the warp, or woof, or any thing of skins, to pronounce it clean, or to pronounce it unclean.
 
-## CHAPTER 14
+## LEVITICUS 14
 **1** And the LORD spake unto Moses, saying,
 **2** This shall be the law of the leper in the day of his cleansing: He shall be brought unto the priest:
 **3** And the priest shall go forth out of the camp; and the priest shall look, and, behold, if the plague of leprosy be healed in the leper;
@@ -458,7 +458,7 @@ weight: 3
 **56** And for a rising, and for a scab, and for a bright spot:
 **57** To teach when it is unclean, and when it is clean: this is the law of leprosy.
 
-## CHAPTER 15
+## LEVITICUS 15
 **1** And the LORD spake unto Moses and to Aaron, saying,
 **2** Speak unto the children of Israel, and say unto them, When any man hath a running issue out of his flesh, because of his issue he is unclean.
 **3** And this shall be his uncleanness in his issue: whether his flesh run with his issue, or his flesh be stopped from his issue, it is his uncleanness.
@@ -493,7 +493,7 @@ weight: 3
 **32** This is the law of him that hath an issue, and of him whose seed goeth from him, and is defiled therewith;
 **33** And of her that is sick of her flowers, and of him that hath an issue, of the man, and of the woman, and of him that lieth with her that is unclean.
 
-## CHAPTER 16
+## LEVITICUS 16
 **1** And the LORD spake unto Moses after the death of the two sons of Aaron, when they offered before the LORD, and died;
 **2** And the LORD said unto Moses, Speak unto Aaron thy brother, that he come not at all times into the holy place within the vail before the mercy seat, which is upon the ark; that he die not: for I will appear in the cloud upon the mercy seat.
 **3** Thus shall Aaron come into the holy place: with a young bullock for a sin offering, and a ram for a burnt offering.
@@ -529,7 +529,7 @@ weight: 3
 **33** And he shall make an atonement for the holy sanctuary, and he shall make an atonement for the tabernacle of the congregation, and for the altar, and he shall make an atonement for the priests, and for all the people of the congregation.
 **34** And this shall be an everlasting statute unto you, to make an atonement for the children of Israel for all their sins once a year. And he did as the LORD commanded Moses.
 
-## CHAPTER 17
+## LEVITICUS 17
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto Aaron, and unto his sons, and unto all the children of Israel, and say unto them; This is the thing which the LORD hath commanded, saying,
 **3** What man soever there be of the house of Israel, that killeth an ox, or lamb, or goat, in the camp, or that killeth it out of the camp,
@@ -547,7 +547,7 @@ weight: 3
 **15** And every soul that eateth that which died of itself, or that which was torn with beasts, whether it be one of your own country, or a stranger, he shall both wash his clothes, and bathe himself in water, and be unclean until the even: then shall he be clean.
 **16** But if he wash them not, nor bathe his flesh; then he shall bear his iniquity.
 
-## CHAPTER 18
+## LEVITICUS 18
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto the children of Israel, and say unto them, I am the LORD your God.
 **3** After the doings of the land of Egypt, wherein ye dwelt, shall ye not do: and after the doings of the land of Canaan, whither I bring you, shall ye not do: neither shall ye walk in their ordinances.
@@ -579,7 +579,7 @@ weight: 3
 **29** For whosoever shall commit any of these abominations, even the souls that commit them shall be cut off from among their people.
 **30** Therefore shall ye keep mine ordinance, that ye commit not any one of these abominable customs, which were committed before you, and that ye defile not yourselves therein: I am the LORD your God.
 
-## CHAPTER 19
+## LEVITICUS 19
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto all the congregation of the children of Israel, and say unto them, Ye shall be holy: for I the LORD your God am holy.
 **3** Ye shall fear every man his mother, and his father, and keep my sabbaths: I am the LORD your God.
@@ -618,7 +618,7 @@ weight: 3
 **36** Just balances, just weights, a just ephah, and a just hin, shall ye have: I am the LORD your God, which brought you out of the land of Egypt.
 **37** Therefore shall ye observe all my statutes, and all my judgments, and do them: I am the LORD.
 
-## CHAPTER 20
+## LEVITICUS 20
 **1** And the LORD spake unto Moses, saying,
 **2** Again, thou shalt say to the children of Israel, Whosoever he be of the children of Israel, or of the strangers that sojourn in Israel, that giveth any of his seed unto Molech; he shall surely be put to death: the people of the land shall stone him with stones.
 **3** And I will set my face against that man, and will cut him off from among his people; because he hath given of his seed unto Molech, to defile my sanctuary, and to profane my holy name.
@@ -647,7 +647,7 @@ weight: 3
 **26** And ye shall be holy unto me: for I the LORD am holy, and have severed you from other people, that ye should be mine.
 **27** A man also or woman that hath a familiar spirit, or that is a wizard, shall surely be put to death: they shall stone them with stones: their blood shall be upon them.
 
-## CHAPTER 21
+## LEVITICUS 21
 **1** And the LORD said unto Moses, Speak unto the priests the sons of Aaron, and say unto them, There shall none be defiled for the dead among his people:
 **2** But for his kin, that is near unto him, that is, for his mother, and for his father, and for his son, and for his daughter, and for his brother,
 **3** And for his sister a virgin, that is nigh unto him, which hath had no husband; for her may he be defiled.
@@ -673,7 +673,7 @@ weight: 3
 **23** Only he shall not go in unto the vail, nor come nigh unto the altar, because he hath a blemish; that he profane not my sanctuaries: for I the LORD do sanctify them.
 **24** And Moses told it unto Aaron, and to his sons, and unto all the children of Israel.
 
-## CHAPTER 22
+## LEVITICUS 22
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto Aaron and to his sons, that they separate themselves from the holy things of the children of Israel, and that they profane not my holy name in those things which they hallow unto me: I am the LORD.
 **3** Say unto them, Whosoever he be of all your seed among your generations, that goeth unto the holy things, which the children of Israel hallow unto the LORD, having his uncleanness upon him, that soul shall be cut off from my presence: I am the LORD.
@@ -708,7 +708,7 @@ weight: 3
 **32** Neither shall ye profane my holy name; but I will be hallowed among the children of Israel: I am the LORD which hallow you,
 **33** That brought you out of the land of Egypt, to be your God: I am the LORD.
 
-## CHAPTER 23
+## LEVITICUS 23
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto the children of Israel, and say unto them, Concerning the feasts of the LORD, which ye shall proclaim to be holy convocations, even these are my feasts.
 **3** Six days shall work be done: but the seventh day is the sabbath of rest, an holy convocation; ye shall do no work therein: it is the sabbath of the LORD in all your dwellings.
@@ -754,7 +754,7 @@ weight: 3
 **43** That your generations may know that I made the children of Israel to dwell in booths, when I brought them out of the land of Egypt: I am the LORD your God.
 **44** And Moses declared unto the children of Israel the feasts of the LORD.
 
-## CHAPTER 24
+## LEVITICUS 24
 **1** And the LORD spake unto Moses, saying,
 **2** Command the children of Israel, that they bring unto thee pure oil olive beaten for the light, to cause the lamps to burn continually.
 **3** Without the vail of the testimony, in the tabernacle of the congregation, shall Aaron order it from the evening unto the morning before the LORD continually: it shall be a statute for ever in your generations.
@@ -779,7 +779,7 @@ weight: 3
 **22** Ye shall have one manner of law, as well for the stranger, as for one of your own country: for I am the LORD your God.
 **23** And Moses spake to the children of Israel, that they should bring forth him that had cursed out of the camp, and stone him with stones. And the children of Israel did as the LORD commanded Moses.
 
-## CHAPTER 25
+## LEVITICUS 25
 **1** And the LORD spake unto Moses in mount Sinai, saying,
 **2** Speak unto the children of Israel, and say unto them, When ye come into the land which I give you, then shall the land keep a sabbath unto the LORD.
 **3** Six years thou shalt sow thy field, and six years thou shalt prune thy vineyard, and gather in the fruit thereof;
@@ -836,7 +836,7 @@ weight: 3
 **54** And if he be not redeemed in these years, then he shall go out in the year of jubile, both he, and his children with him.
 **55** For unto me the children of Israel are servants; they are my servants whom I brought forth out of the land of Egypt: I am the LORD your God.
 
-## CHAPTER 26
+## LEVITICUS 26
 **1** Ye shall make you no idols nor graven image, neither rear you up a standing image, neither shall ye set up any image of stone in your land, to bow down unto it: for I am the LORD your God.
 **2** Ye shall keep my sabbaths, and reverence my sanctuary: I am the LORD.
 **3** If ye walk in my statutes, and keep my commandments, and do them;
@@ -884,7 +884,7 @@ weight: 3
 **45** But I will for their sakes remember the covenant of their ancestors, whom I brought forth out of the land of Egypt in the sight of the heathen, that I might be their God: I am the LORD.
 **46** These are the statutes and judgments and laws, which the LORD made between him and the children of Israel in mount Sinai by the hand of Moses.
 
-## CHAPTER 27
+## LEVITICUS 27
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto the children of Israel, and say unto them, When a man shall make a singular vow, the persons shall be for the LORD by thy estimation.
 **3** And thy estimation shall be of the male from twenty years old even unto sixty years old, even thy estimation shall be fifty shekels of silver, after the shekel of the sanctuary.

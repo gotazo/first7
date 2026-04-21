@@ -6,7 +6,7 @@ weight: 5
 ## THE ACTS OF THE APOSTLES
 
 
-## CHAPTER 1
+## ACTS 1
 **1** The former treatise have I made, O Theophilus, of all that Jesus began both to do and teach,
 **2** Until the day in which he was taken up, after that he through the Holy Ghost had given commandments unto the apostles whom he had chosen:
 **3** To whom also he shewed himself alive after his passion by many infallible proofs, being seen of them forty days, and speaking of the things pertaining to the kingdom of God:
@@ -34,7 +34,7 @@ weight: 5
 **25** That he may take part of this ministry and apostleship, from which Judas by transgression fell, that he might go to his own place.
 **26** And they gave forth their lots; and the lot fell upon Matthias; and he was numbered with the eleven apostles.
 
-## CHAPTER 2
+## ACTS 2
 **1** And when the day of Pentecost was fully come, they were all with one accord in one place.
 **2** And suddenly there came a sound from heaven as of a rushing mighty wind, and it filled all the house where they were sitting.
 **3** And there appeared unto them cloven tongues like as of fire, and it sat upon each of them.
@@ -83,7 +83,7 @@ weight: 5
 **46** And they, continuing daily with one accord in the temple, and breaking bread from house to house, did eat their meat with gladness and singleness of heart,
 **47** Praising God, and having favour with all the people. And the Lord added to the church daily such as should be saved.
 
-## CHAPTER 3
+## ACTS 3
 **1** Now Peter and John went up together into the temple at the hour of prayer, being the ninth hour.
 **2** And a certain man lame from his mother's womb was carried, whom they laid daily at the gate of the temple which is called Beautiful, to ask alms of them that entered into the temple;
 **3** Who seeing Peter and John about to go into the temple asked an alms.
@@ -111,7 +111,7 @@ weight: 5
 **25** Ye are the children of the prophets, and of the covenant which God made with our fathers, saying unto Abraham, And in thy seed shall all the kindreds of the earth be blessed.
 **26** Unto you first God, having raised up his Son Jesus, sent him to bless you, in turning away every one of you from his iniquities.
 
-## CHAPTER 4
+## ACTS 4
 **1** And as they spake unto the people, the priests, and the captain of the temple, and the Sadducees, came upon them,
 **2** Being grieved that they taught the people, and preached through Jesus the resurrection from the dead.
 **3** And they laid hands on them, and put them in hold unto the next day: for it was now eventide.
@@ -150,7 +150,7 @@ weight: 5
 **36** And Joses, who by the apostles was surnamed Barnabas, (which is, being interpreted, The son of consolation,) a Levite, and of the country of Cyprus,
 **37** Having land, sold it, and brought the money, and laid it at the apostles' feet.
 
-## CHAPTER 5
+## ACTS 5
 **1** But a certain man named Ananias, with Sapphira his wife, sold a possession,
 **2** And kept back part of the price, his wife also being privy to it, and brought a certain part, and laid it at the apostles' feet.
 **3** But Peter said, Ananias, why hath Satan filled thine heart to lie to the Holy Ghost, and to keep back part of the price of the land?
@@ -194,7 +194,7 @@ weight: 5
 **41** And they departed from the presence of the council, rejoicing that they were counted worthy to suffer shame for his name.
 **42** And daily in the temple, and in every house, they ceased not to teach and preach Jesus Christ.
 
-## CHAPTER 6
+## ACTS 6
 **1** And in those days, when the number of the disciples was multiplied, there arose a murmuring of the Grecians against the Hebrews, because their widows were neglected in the daily ministration.
 **2** Then the twelve called the multitude of the disciples unto them, and said, It is not reason that we should leave the word of God, and serve tables.
 **3** Wherefore, brethren, look ye out among you seven men of honest report, full of the Holy Ghost and wisdom, whom we may appoint over this business.
@@ -211,7 +211,7 @@ weight: 5
 **14** For we have heard him say, that this Jesus of Nazareth shall destroy this place, and shall change the customs which Moses delivered us.
 **15** And all that sat in the council, looking stedfastly on him, saw his face as it had been the face of an angel.
 
-## CHAPTER 7
+## ACTS 7
 **1** Then said the high priest, Are these things so?
 **2** And he said, Men, brethren, and fathers, hearken; The God of glory appeared unto our father Abraham, when he was in Mesopotamia, before he dwelt in Charran,
 **3** And said unto him, Get thee out of thy country, and from thy kindred, and come into the land which I shall shew thee.
@@ -273,7 +273,7 @@ weight: 5
 **59** And they stoned Stephen, calling upon God, and saying, Lord Jesus, receive my spirit.
 **60** And he kneeled down, and cried with a loud voice, Lord, lay not this sin to their charge. And when he had said this, he fell asleep.
 
-## CHAPTER 8
+## ACTS 8
 **1** And Saul was consenting unto his death. And at that time there was a great persecution against the church which was at Jerusalem; and they were all scattered abroad throughout the regions of Judaea and Samaria, except the apostles.
 **2** And devout men carried Stephen to his burial, and made great lamentation over him.
 **3** As for Saul, he made havock of the church, entering into every house, and haling men and women committed them to prison.
@@ -315,7 +315,7 @@ weight: 5
 **39** And when they were come up out of the water, the Spirit of the Lord caught away Philip, that the eunuch saw him no more: and he went on his way rejoicing.
 **40** But Philip was found at Azotus: and passing through he preached in all the cities, till he came to Caesarea.
 
-## CHAPTER 9
+## ACTS 9
 **1** And Saul, yet breathing out threatenings and slaughter against the disciples of the Lord, went unto the high priest,
 **2** And desired of him letters to Damascus to the synagogues, that if he found any of this way, whether they were men or women, he might bring them bound unto Jerusalem.
 **3** And as he journeyed, he came near Damascus: and suddenly there shined round about him a light from heaven:
@@ -360,7 +360,7 @@ weight: 5
 **42** And it was known throughout all Joppa; and many believed in the Lord.
 **43** And it came to pass, that he tarried many days in Joppa with one Simon a tanner.
 
-## CHAPTER 10
+## ACTS 10
 **1** There was a certain man in Caesarea called Cornelius, a centurion of the band called the Italian band,
 **2** A devout man, and one that feared God with all his house, which gave much alms to the people, and prayed to God alway.
 **3** He saw in a vision evidently about the ninth hour of the day an angel of God coming in to him, and saying unto him, Cornelius.
@@ -410,7 +410,7 @@ weight: 5
 **47** Can any man forbid water, that these should not be baptized, which have received the Holy Ghost as well as we?
 **48** And he commanded them to be baptized in the name of the Lord. Then prayed they him to tarry certain days.
 
-## CHAPTER 11
+## ACTS 11
 **1** And the apostles and brethren that were in Judaea heard that the Gentiles had also received the word of God.
 **2** And when Peter was come up to Jerusalem, they that were of the circumcision contended with him,
 **3** Saying, Thou wentest in to men uncircumcised, and didst eat with them.
@@ -442,7 +442,7 @@ weight: 5
 **29** Then the disciples, every man according to his ability, determined to send relief unto the brethren which dwelt in Judaea:
 **30** Which also they did, and sent it to the elders by the hands of Barnabas and Saul.
 
-## CHAPTER 12
+## ACTS 12
 **1** Now about that time Herod the king stretched forth his hands to vex certain of the church.
 **2** And he killed James the brother of John with the sword.
 **3** And because he saw it pleased the Jews, he proceeded further to take Peter also. (Then were the days of unleavened bread.)
@@ -469,7 +469,7 @@ weight: 5
 **24** But the word of God grew and multiplied.
 **25** And Barnabas and Saul returned from Jerusalem, when they had fulfilled their ministry, and took with them John, whose surname was Mark.
 
-## CHAPTER 13
+## ACTS 13
 **1** Now there were in the church that was at Antioch certain prophets and teachers; as Barnabas, and Simeon that was called Niger, and Lucius of Cyrene, and Manaen, which had been brought up with Herod the tetrarch, and Saul.
 **2** As they ministered to the Lord, and fasted, the Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them.
 **3** And when they had fasted and prayed, and laid their hands on them, they sent them away.
@@ -523,7 +523,7 @@ weight: 5
 **51** But they shook off the dust of their feet against them, and came unto Iconium.
 **52** And the disciples were filled with joy, and with the Holy Ghost.
 
-## CHAPTER 14
+## ACTS 14
 **1** And it came to pass in Iconium, that they went both together into the synagogue of the Jews, and so spake, that a great multitude both of the Jews and also of the Greeks believed.
 **2** But the unbelieving Jews stirred up the Gentiles, and made their minds evil affected against the brethren.
 **3** Long time therefore abode they speaking boldly in the Lord, which gave testimony unto the word of his grace, and granted signs and wonders to be done by their hands.
@@ -553,7 +553,7 @@ weight: 5
 **27** And when they were come, and had gathered the church together, they rehearsed all that God had done with them, and how he had opened the door of faith unto the Gentiles.
 **28** And there they abode long time with the disciples.
 
-## CHAPTER 15
+## ACTS 15
 **1** And certain men which came down from Judaea taught the brethren, and said, Except ye be circumcised after the manner of Moses, ye cannot be saved.
 **2** When therefore Paul and Barnabas had no small dissension and disputation with them, they determined that Paul and Barnabas, and certain other of them, should go up to Jerusalem unto the apostles and elders about this question.
 **3** And being brought on their way by the church, they passed through Phenice and Samaria, declaring the conversion of the Gentiles: and they caused great joy unto all the brethren.
@@ -596,7 +596,7 @@ weight: 5
 **40** And Paul chose Silas, and departed, being recommended by the brethren unto the grace of God.
 **41** And he went through Syria and Cilicia, confirming the churches.
 
-## CHAPTER 16
+## ACTS 16
 **1** Then came he to Derbe and Lystra: and, behold, a certain disciple was there, named Timotheus, the son of a certain woman, which was a Jewess, and believed; but his father was a Greek:
 **2** Which was well reported of by the brethren that were at Lystra and Iconium.
 **3** Him would Paul have to go forth with him; and took and circumcised him because of the Jews which were in those quarters: for they knew all that his father was a Greek.
@@ -638,7 +638,7 @@ weight: 5
 **39** And they came and besought them, and brought them out, and desired them to depart out of the city.
 **40** And they went out of the prison, and entered into the house of Lydia: and when they had seen the brethren, they comforted them, and departed.
 
-## CHAPTER 17
+## ACTS 17
 **1** Now when they had passed through Amphipolis and Apollonia, they came to Thessalonica, where was a synagogue of the Jews:
 **2** And Paul, as his manner was, went in unto them, and three sabbath days reasoned with them out of the scriptures,
 **3** Opening and alleging, that Christ must needs have suffered, and risen again from the dead; and that this Jesus, whom I preach unto you, is Christ.
@@ -674,7 +674,7 @@ weight: 5
 **33** So Paul departed from among them.
 **34** Howbeit certain men clave unto him, and believed: among the which was Dionysius the Areopagite, and a woman named Damaris, and others with them.
 
-## CHAPTER 18
+## ACTS 18
 **1** After these things Paul departed from Athens, and came to Corinth;
 **2** And found a certain Jew named Aquila, born in Pontus, lately come from Italy, with his wife Priscilla; (because that Claudius had commanded all Jews to depart from Rome:) and came unto them.
 **3** And because he was of the same craft, he abode with them, and wrought: for by their occupation they were tentmakers.
@@ -704,7 +704,7 @@ weight: 5
 **27** And when he was disposed to pass into Achaia, the brethren wrote, exhorting the disciples to receive him: who, when he was come, helped them much which had believed through grace:
 **28** For he mightily convinced the Jews, and that publickly, shewing by the scriptures that Jesus was Christ.
 
-## CHAPTER 19
+## ACTS 19
 **1** And it came to pass, that, while Apollos was at Corinth, Paul having passed through the upper coasts came to Ephesus: and finding certain disciples,
 **2** He said unto them, Have ye received the Holy Ghost since ye believed? And they said unto him, We have not so much as heard whether there be any Holy Ghost.
 **3** And he said unto them, Unto what then were ye baptized? And they said, Unto John's baptism.
@@ -747,7 +747,7 @@ weight: 5
 **40** For we are in danger to be called in question for this day's uproar, there being no cause whereby we may give an account of this concourse.
 **41** And when he had thus spoken, he dismissed the assembly.
 
-## CHAPTER 20
+## ACTS 20
 **1** And after the uproar was ceased, Paul called unto him the disciples, and embraced them, and departed for to go into Macedonia.
 **2** And when he had gone over those parts, and had given them much exhortation, he came into Greece,
 **3** And there abode three months. And when the Jews laid wait for him, as he was about to sail into Syria, he purposed to return through Macedonia.
@@ -787,7 +787,7 @@ weight: 5
 **37** And they all wept sore, and fell on Paul's neck, and kissed him,
 **38** Sorrowing most of all for the words which he spake, that they should see his face no more. And they accompanied him unto the ship.
 
-## CHAPTER 21
+## ACTS 21
 **1** And it came to pass, that after we were gotten from them, and had launched, we came with a straight course unto Coos, and the day following unto Rhodes, and from thence unto Patara:
 **2** And finding a ship sailing over unto Phenicia, we went aboard, and set forth.
 **3** Now when we had discovered Cyprus, we left it on the left hand, and sailed into Syria, and landed at Tyre: for there the ship was to unlade her burden.
@@ -829,7 +829,7 @@ weight: 5
 **39** But Paul said, I am a man which am a Jew of Tarsus, a city in Cilicia, a citizen of no mean city: and, I beseech thee, suffer me to speak unto the people.
 **40** And when he had given him licence, Paul stood on the stairs, and beckoned with the hand unto the people. And when there was made a great silence, he spake unto them in the Hebrew tongue, saying,
 
-## CHAPTER 22
+## ACTS 22
 **1** Men, brethren, and fathers, hear ye my defence which I make now unto you.
 **2** (And when they heard that he spake in the Hebrew tongue to them, they kept the more silence: and he saith,)
 **3** I am verily a man which am a Jew, born in Tarsus, a city in Cilicia, yet brought up in this city at the feet of Gamaliel, and taught according to the perfect manner of the law of the fathers, and was zealous toward God, as ye all are this day.
@@ -861,7 +861,7 @@ weight: 5
 **29** Then straightway they departed from him which should have examined him: and the chief captain also was afraid, after he knew that he was a Roman, and because he had bound him.
 **30** On the morrow, because he would have known the certainty wherefore he was accused of the Jews, he loosed him from his bands, and commanded the chief priests and all their council to appear, and brought Paul down, and set him before them.
 
-## CHAPTER 23
+## ACTS 23
 **1** And Paul, earnestly beholding the council, said, Men and brethren, I have lived in all good conscience before God until this day.
 **2** And the high priest Ananias commanded them that stood by him to smite him on the mouth.
 **3** Then said Paul unto him, God shall smite thee, thou whited wall: for sittest thou to judge me after the law, and commandest me to be smitten contrary to the law?
@@ -898,7 +898,7 @@ weight: 5
 **34** And when the governor had read the letter, he asked of what province he was. And when he understood that he was of Cilicia;
 **35** I will hear thee, said he, when thine accusers are also come. And he commanded him to be kept in Herod's judgment hall.
 
-## CHAPTER 24
+## ACTS 24
 **1** And after five days Ananias the high priest descended with the elders, and with a certain orator named Tertullus, who informed the governor against Paul.
 **2** And when he was called forth, Tertullus began to accuse him, saying, Seeing that by thee we enjoy great quietness, and that very worthy deeds are done unto this nation by thy providence,
 **3** We accept it always, and in all places, most noble Felix, with all thankfulness.
@@ -927,7 +927,7 @@ weight: 5
 **26** He hoped also that money should have been given him of Paul, that he might loose him: wherefore he sent for him the oftener, and communed with him.
 **27** But after two years Porcius Festus came into Felix' room: and Felix, willing to shew the Jews a pleasure, left Paul bound.
 
-## CHAPTER 25
+## ACTS 25
 **1** Now when Festus was come into the province, after three days he ascended from Caesarea to Jerusalem.
 **2** Then the high priest and the chief of the Jews informed him against Paul, and besought him,
 **3** And desired favour against him, that he would send for him to Jerusalem, laying wait in the way to kill him.
@@ -956,7 +956,7 @@ weight: 5
 **26** Of whom I have no certain thing to write unto my lord. Wherefore I have brought him forth before you, and specially before thee, O king Agrippa, that, after examination had, I might have somewhat to write.
 **27** For it seemeth to me unreasonable to send a prisoner, and not withal to signify the crimes laid against him.
 
-## CHAPTER 26
+## ACTS 26
 **1** Then Agrippa said unto Paul, Thou art permitted to speak for thyself. Then Paul stretched forth the hand, and answered for himself:
 **2** I think myself happy, king Agrippa, because I shall answer for myself this day before thee touching all the things whereof I am accused of the Jews:
 **3** Especially because I know thee to be expert in all customs and questions which are among the Jews: wherefore I beseech thee to hear me patiently.
@@ -990,7 +990,7 @@ weight: 5
 **31** And when they were gone aside, they talked between themselves, saying, This man doeth nothing worthy of death or of bonds.
 **32** Then said Agrippa unto Festus, This man might have been set at liberty, if he had not appealed unto Caesar.
 
-## CHAPTER 27
+## ACTS 27
 **1** And when it was determined that we should sail into Italy, they delivered Paul and certain other prisoners unto one named Julius, a centurion of Augustus' band.
 **2** And entering into a ship of Adramyttium, we launched, meaning to sail by the coasts of Asia; one Aristarchus, a Macedonian of Thessalonica, being with us.
 **3** And the next day we touched at Sidon. And Julius courteously entreated Paul, and gave him liberty to go unto his friends to refresh himself.
@@ -1036,7 +1036,7 @@ weight: 5
 **43** But the centurion, willing to save Paul, kept them from their purpose; and commanded that they which could swim should cast themselves first into the sea, and get to land:
 **44** And the rest, some on boards, and some on broken pieces of the ship. And so it came to pass, that they escaped all safe to land.
 
-## CHAPTER 28
+## ACTS 28
 **1** And when they were escaped, then they knew that the island was called Melita.
 **2** And the barbarous people shewed us no little kindness: for they kindled a fire, and received us every one, because of the present rain, and because of the cold.
 **3** And when Paul had gathered a bundle of sticks, and laid them on the fire, there came a viper out of the heat, and fastened on his hand.

@@ -7,7 +7,7 @@ weight: 13
 ## CHRONICLES
 
 
-## CHAPTER 1
+## 1 CHRONICLES 1
 **1** Adam, Sheth, Enosh,
 **2** Kenan, Mahalaleel, Jered,
 **3** Henoch, Methuselah, Lamech,
@@ -63,7 +63,7 @@ weight: 13
 **53** Duke Kenaz, duke Teman, duke Mibzar,
 **54** Duke Magdiel, duke Iram. These are the dukes of Edom.
 
-## CHAPTER 2
+## 1 CHRONICLES 2
 **1** These are the sons of Israel; Reuben, Simeon, Levi, and Judah, Issachar, and Zebulun,
 **2** Dan, Joseph, and Benjamin, Naphtali, Gad, and Asher.
 **3** The sons of Judah; Er, and Onan, and Shelah: which three were born unto him of the daughter of Shua the Canaanitess. And Er, the firstborn of Judah, was evil in the sight of the LORD; and he slew him.
@@ -120,7 +120,7 @@ weight: 13
 **54** The sons of Salma; Beth-lehem, and the Netophathites, Ataroth, the house of Joab, and half of the Manahethites, the Zorites.
 **55** And the families of the scribes which dwelt at Jabez; the Tirathites, the Shimeathites, and Suchathites. These are the Kenites that came of Hemath, the father of the house of Rechab.
 
-## CHAPTER 3
+## 1 CHRONICLES 3
 **1** Now these were the sons of David, which were born unto him in Hebron; the firstborn Amnon, of Ahinoam the Jezreelitess; the second Daniel, of Abigail the Carmelitess:
 **2** The third, Absalom the son of Maachah the daughter of Talmai king of Geshur: the fourth, Adonijah the son of Haggith:
 **3** The fifth, Shephatiah of Abital: the sixth, Ithream by Eglah his wife.
@@ -146,7 +146,7 @@ weight: 13
 **23** And the sons of Neariah; Elioenai, and Hezekiah, and Azrikam, three.
 **24** And the sons of Elioenai were, Hodaiah, and Eliashib, and Pelaiah, and Akkub, and Johanan, and Dalaiah, and Anani, seven.
 
-## CHAPTER 4
+## 1 CHRONICLES 4
 **1** The sons of Judah; Pharez, Hezron, and Carmi, and Hur, and Shobal.
 **2** And Reaiah the son of Shobal begat Jahath; and Jahath begat Ahumai, and Lahad. These are the families of the Zorathites.
 **3** And these were of the father of Etam; Jezreel, and Ishma, and Idbash: and the name of their sister was Hazelelponi:
@@ -191,7 +191,7 @@ weight: 13
 **42** And some of them, even of the sons of Simeon, five hundred men, went to mount Seir, having for their captains Pelatiah, and Neariah, and Rephaiah, and Uzziel, the sons of Ishi.
 **43** And they smote the rest of the Amalekites that were escaped, and dwelt there unto this day.
 
-## CHAPTER 5
+## 1 CHRONICLES 5
 **1** Now the sons of Reuben the firstborn of Israel, (for he was the firstborn; but, forasmuch as he defiled his father's bed, his birthright was given unto the sons of Joseph the son of Israel: and the genealogy is not to be reckoned after the birthright.
 **2** For Judah prevailed above his brethren, and of him came the chief ruler; but the birthright was Joseph's:)
 **3** The sons, I say, of Reuben the firstborn of Israel were, Hanoch, and Pallu, Hezron, and Carmi.
@@ -219,7 +219,7 @@ weight: 13
 **25** And they transgressed against the God of their fathers, and went a whoring after the gods of the people of the land, whom God destroyed before them.
 **26** And the God of Israel stirred up the spirit of Pul king of Assyria, and the spirit of Tilgath-pilneser king of Assyria, and he carried them away, even the Reubenites, and the Gadites, and the half tribe of Manasseh, and brought them unto Halah, and Habor, and Hara, and to the river Gozan, unto this day.
 
-## CHAPTER 6
+## 1 CHRONICLES 6
 **1** The sons of Levi; Gershon, Kohath, and Merari.
 **2** And the sons of Kohath; Amram, Izhar, and Hebron, and Uzziel.
 **3** And the children of Amram; Aaron, and Moses, and Miriam. The sons also of Aaron; Nadab, and Abihu, Eleazar, and Ithamar.
@@ -302,7 +302,7 @@ weight: 13
 **80** And out of the tribe of Gad; Ramoth in Gilead with her suburbs, and Mahanaim with her suburbs,
 **81** And Heshbon with her suburbs, and Jazer with her suburbs.
 
-## CHAPTER 7
+## 1 CHRONICLES 7
 **1** Now the sons of Issachar were, Tola, and Puah, Jashub, and Shimron, four.
 **2** And the sons of Tola; Uzzi, and Rephaiah, and Jeriel, and Jahmai, and Jibsam, and Shemuel, heads of their father's house, to wit, of Tola: they were valiant men of might in their generations; whose number was in the days of David two and twenty thousand and six hundred.
 **3** And the sons of Uzzi; Izrahiah: and the sons of Izrahiah; Michael, and Obadiah, and Joel, Ishiah, five: all of them chief men.
@@ -344,7 +344,7 @@ weight: 13
 **39** And the sons of Ulla; Arah, and Haniel, and Rezia.
 **40** All these were the children of Asher, heads of their father's house, choice and mighty men of valour, chief of the princes. And the number throughout the genealogy of them that were apt to the war and to battle was twenty and six thousand men.
 
-## CHAPTER 8
+## 1 CHRONICLES 8
 **1** Now Benjamin begat Bela his firstborn, Ashbel the second, and Aharah the third,
 **2** Nohah the fourth, and Rapha the fifth.
 **3** And the sons of Bela were, Addar, and Gera, and Abihud,
@@ -386,7 +386,7 @@ weight: 13
 **39** And the sons of Eshek his brother were, Ulam his firstborn, Jehush the second, and Eliphelet the third.
 **40** And the sons of Ulam were mighty men of valour, archers, and had many sons, and sons' sons, an hundred and fifty. All these are of the sons of Benjamin.
 
-## CHAPTER 9
+## 1 CHRONICLES 9
 **1** So all Israel were reckoned by genealogies; and, behold, they were written in the book of the kings of Israel and Judah, who were carried away to Babylon for their transgression.
 **2** Now the first inhabitants that dwelt in their possessions in their cities were, the Israelites, the priests, Levites, and the Nethinims.
 **3** And in Jerusalem dwelt of the children of Judah, and of the children of Benjamin, and of the children of Ephraim, and Manasseh;
@@ -432,7 +432,7 @@ weight: 13
 **43** And Moza begat Binea; and Rephaiah his son, Eleasah his son, Azel his son.
 **44** And Azel had six sons, whose names are these, Azrikam, Bocheru, and Ishmael, and Sheariah, and Obadiah, and Hanan: these were the sons of Azel.
 
-## CHAPTER 10
+## 1 CHRONICLES 10
 **1** Now the Philistines fought against Israel; and the men of Israel fled from before the Philistines, and fell down slain in mount Gilboa.
 **2** And the Philistines followed hard after Saul, and after his sons; and the Philistines slew Jonathan, and Abinadab, and Malchi-shua, the sons of Saul.
 **3** And the battle went sore against Saul, and the archers hit him, and he was wounded of the archers.
@@ -448,7 +448,7 @@ weight: 13
 **13** So Saul died for his transgression which he committed against the LORD, even against the word of the LORD, which he kept not, and also for asking counsel of one that had a familiar spirit, to enquire of it;
 **14** And enquired not of the LORD: therefore he slew him, and turned the kingdom unto David the son of Jesse.
 
-## CHAPTER 11
+## 1 CHRONICLES 11
 **1** Then all Israel gathered themselves to David unto Hebron, saying, Behold, we are thy bone and thy flesh.
 **2** And moreover in time past, even when Saul was king, thou wast he that leddest out and broughtest in Israel: and the LORD thy God said unto thee, Thou shalt feed my people Israel, and thou shalt be ruler over my people Israel.
 **3** Therefore came all the elders of Israel to the king to Hebron; and David made a covenant with them in Hebron before the LORD; and they anointed David king over Israel, according to the word of the LORD by Samuel.
@@ -497,7 +497,7 @@ weight: 13
 **46** Eliel the Mahavite, and Jeribai, and Joshaviah, the sons of Elnaam, and Ithmah the Moabite,
 **47** Eliel, and Obed, and Jasiel the Mesobaite.
 
-## CHAPTER 12
+## 1 CHRONICLES 12
 **1** Now these are they that came to David to Ziklag, while he yet kept himself close because of Saul the son of Kish: and they were among the mighty men, helpers of the war.
 **2** They were armed with bows, and could use both the right hand and the left in hurling stones and shooting arrows out of a bow, even of Saul's brethren of Benjamin.
 **3** The chief was Ahiezer, then Joash, the sons of Shemaah the Gibeathite; and Jeziel, and Pelet, the sons of Azmaveth; and Berachah, and Jehu the Antothite,
@@ -539,7 +539,7 @@ weight: 13
 **39** And there they were with David three days, eating and drinking: for their brethren had prepared for them.
 **40** Moreover they that were nigh them, even unto Issachar and Zebulun and Naphtali, brought bread on asses, and on camels, and on mules, and on oxen, and meat, meal, cakes of figs, and bunches of raisins, and wine, and oil, and oxen, and sheep abundantly: for there was joy in Israel.
 
-## CHAPTER 13
+## 1 CHRONICLES 13
 **1** And David consulted with the captains of thousands and hundreds, and with every leader.
 **2** And David said unto all the congregation of Israel, If it seem good unto you, and that it be of the LORD our God, let us send abroad unto our brethren every where, that are left in all the land of Israel, and with them also to the priests and Levites which are in their cities and suburbs, that they may gather themselves unto us:
 **3** And let us bring again the ark of our God to us: for we enquired not at it in the days of Saul.
@@ -555,7 +555,7 @@ weight: 13
 **13** So David brought not the ark home to himself to the city of David, but carried it aside into the house of Obed-edom the Gittite.
 **14** And the ark of God remained with the family of Obed-edom in his house three months. And the LORD blessed the house of Obed-edom, and all that he had.
 
-## CHAPTER 14
+## 1 CHRONICLES 14
 **1** Now Hiram king of Tyre sent messengers to David, and timber of cedars, with masons and carpenters, to build him an house.
 **2** And David perceived that the LORD had confirmed him king over Israel, for his kingdom was lifted up on high, because of his people Israel.
 **3** And David took more wives at Jerusalem: and David begat more sons and daughters.
@@ -574,7 +574,7 @@ weight: 13
 **16** David therefore did as God commanded him: and they smote the host of the Philistines from Gibeon even to Gazer.
 **17** And the fame of David went out into all lands; and the LORD brought the fear of him upon all nations.
 
-## CHAPTER 15
+## 1 CHRONICLES 15
 **1** And David made him houses in the city of David, and prepared a place for the ark of God, and pitched for it a tent.
 **2** Then David said, None ought to carry the ark of God but the Levites: for them hath the LORD chosen to carry the ark of God, and to minister unto him for ever.
 **3** And David gathered all Israel together to Jerusalem, to bring up the ark of the LORD unto his place, which he had prepared for it.
@@ -605,7 +605,7 @@ weight: 13
 **28** Thus all Israel brought up the ark of the covenant of the LORD with shouting, and with sound of the cornet, and with trumpets, and with cymbals, making a noise with psalteries and harps.
 **29** And it came to pass, as the ark of the covenant of the LORD came to the city of David, that Michal the daughter of Saul looking out at a window saw king David dancing and playing: and she despised him in her heart.
 
-## CHAPTER 16
+## 1 CHRONICLES 16
 **1** So they brought the ark of God, and set it in the midst of the tent that David had pitched for it: and they offered burnt sacrifices and peace offerings before God.
 **2** And when David had made an end of offering the burnt offerings and the peace offerings, he blessed the people in the name of the LORD.
 **3** And he dealt to every one of Israel, both man and woman, to every one a loaf of bread, and a good piece of flesh, and a flagon of wine.
@@ -650,7 +650,7 @@ weight: 13
 **42** And with them Heman and Jeduthun with trumpets and cymbals for those that should make a sound, and with musical instruments of God. And the sons of Jeduthun were porters.
 **43** And all the people departed every man to his house: and David returned to bless his house.
 
-## CHAPTER 17
+## 1 CHRONICLES 17
 **1** Now it came to pass, as David sat in his house, that David said to Nathan the prophet, Lo, I dwell in an house of cedars, but the ark of the covenant of the LORD remaineth under curtains.
 **2** Then Nathan said unto David, Do all that is in thine heart; for God is with thee.
 **3** And it came to pass the same night, that the word of God came to Nathan, saying,
@@ -679,7 +679,7 @@ weight: 13
 **26** And now, LORD, thou art God, and hast promised this goodness unto thy servant:
 **27** Now therefore let it please thee to bless the house of thy servant, that it may be before thee for ever: for thou blessest, O LORD, and it shall be blessed for ever.
 
-## CHAPTER 18
+## 1 CHRONICLES 18
 **1** Now after this it came to pass, that David smote the Philistines, and subdued them, and took Gath and her towns out of the hand of the Philistines.
 **2** And he smote Moab; and the Moabites became David's servants, and brought gifts.
 **3** And David smote Hadarezer king of Zobah unto Hamath, as he went to stablish his dominion by the river Euphrates.
@@ -698,7 +698,7 @@ weight: 13
 **16** And Zadok the son of Ahitub, and Abimelech the son of Abiathar, were the priests; and Shavsha was scribe;
 **17** And Benaiah the son of Jehoiada was over the Cherethites and the Pelethites; and the sons of David were chief about the king.
 
-## CHAPTER 19
+## 1 CHRONICLES 19
 **1** Now it came to pass after this, that Nahash the king of the children of Ammon died, and his son reigned in his stead.
 **2** And David said, I will shew kindness unto Hanun the son of Nahash, because his father shewed kindness to me. And David sent messengers to comfort him concerning his father. So the servants of David came into the land of the children of Ammon to Hanun, to comfort him.
 **3** But the princes of the children of Ammon said to Hanun, Thinkest thou that David doth honour thy father, that he hath sent comforters unto thee? are not his servants come unto thee for to search, and to overthrow, and to spy out the land?
@@ -719,7 +719,7 @@ weight: 13
 **18** But the Syrians fled before Israel; and David slew of the Syrians seven thousand men which fought in chariots, and forty thousand footmen, and killed Shophach the captain of the host.
 **19** And when the servants of Hadarezer saw that they were put to the worse before Israel, they made peace with David, and became his servants: neither would the Syrians help the children of Ammon any more.
 
-## CHAPTER 20
+## 1 CHRONICLES 20
 **1** And it came to pass, that after the year was expired, at the time that kings go out to battle, Joab led forth the power of the army, and wasted the country of the children of Ammon, and came and besieged Rabbah. But David tarried at Jerusalem. And Joab smote Rabbah, and destroyed it.
 **2** And David took the crown of their king from off his head, and found it to weigh a talent of gold, and there were precious stones in it; and it was set upon David's head: and he brought also exceeding much spoil out of the city.
 **3** And he brought out the people that were in it, and cut them with saws, and with harrows of iron, and with axes. Even so dealt David with all the cities of the children of Ammon. And David and all the people returned to Jerusalem.
@@ -729,7 +729,7 @@ weight: 13
 **7** But when he defied Israel, Jonathan the son of Shimea David's brother slew him.
 **8** These were born unto the giant in Gath; and they fell by the hand of David, and by the hand of his servants.
 
-## CHAPTER 21
+## 1 CHRONICLES 21
 **1** And Satan stood up against Israel, and provoked David to number Israel.
 **2** And David said to Joab and to the rulers of the people, Go, number Israel from Beer-sheba even to Dan; and bring the number of them to me, that I may know it.
 **3** And Joab answered, The LORD make his people an hundred times so many more as they be: but, my lord the king, are they not all my lord's servants? why then doth my lord require this thing? why will he be a cause of trespass to Israel?
@@ -761,7 +761,7 @@ weight: 13
 **29** For the tabernacle of the LORD, which Moses made in the wilderness, and the altar of the burnt offering, were at that season in the high place at Gibeon.
 **30** But David could not go before it to enquire of God: for he was afraid because of the sword of the angel of the LORD.
 
-## CHAPTER 22
+## 1 CHRONICLES 22
 **1** Then David said, This is the house of the LORD God, and this is the altar of the burnt offering for Israel.
 **2** And David commanded to gather together the strangers that were in the land of Israel; and he set masons to hew wrought stones to build the house of God.
 **3** And David prepared iron in abundance for the nails for the doors of the gates, and for the joinings; and brass in abundance without weight;
@@ -782,7 +782,7 @@ weight: 13
 **18** Is not the LORD your God with you? and hath he not given you rest on every side? for he hath given the inhabitants of the land into mine hand; and the land is subdued before the LORD, and before his people.
 **19** Now set your heart and your soul to seek the LORD your God; arise therefore, and build ye the sanctuary of the LORD God, to bring the ark of the covenant of the LORD, and the holy vessels of God, into the house that is to be built to the name of the LORD.
 
-## CHAPTER 23
+## 1 CHRONICLES 23
 **1** So when David was old and full of days, he made Solomon his son king over Israel.
 **2** And he gathered together all the princes of Israel, with the priests and the Levites.
 **3** Now the Levites were numbered from the age of thirty years and upward: and their number by their polls, man by man, was thirty and eight thousand.
@@ -816,7 +816,7 @@ weight: 13
 **31** And to offer all burnt sacrifices unto the LORD in the sabbaths, in the new moons, and on the set feasts, by number, according to the order commanded unto them, continually before the LORD:
 **32** And that they should keep the charge of the tabernacle of the congregation, and the charge of the holy place, and the charge of the sons of Aaron their brethren, in the service of the house of the LORD.
 
-## CHAPTER 24
+## 1 CHRONICLES 24
 **1** Now these are the divisions of the sons of Aaron. The sons of Aaron; Nadab, and Abihu, Eleazar, and Ithamar.
 **2** But Nadab and Abihu died before their father, and had no children: therefore Eleazar and Ithamar executed the priest's office.
 **3** And David distributed them, both Zadok of the sons of Eleazar, and Ahimelech of the sons of Ithamar, according to their offices in their service.
@@ -849,7 +849,7 @@ weight: 13
 **30** The sons also of Mushi; Mahli, and Eder, and Jerimoth. These were the sons of the Levites after the house of their fathers.
 **31** These likewise cast lots over against their brethren the sons of Aaron in the presence of David the king, and Zadok, and Ahimelech, and the chief of the fathers of the priests and Levites, even the principal fathers over against their younger brethren.
 
-## CHAPTER 25
+## 1 CHRONICLES 25
 **1** Moreover David and the captains of the host separated to the service of the sons of Asaph, and of Heman, and of Jeduthun, who should prophesy with harps, with psalteries, and with cymbals: and the number of the workmen according to their service was:
 **2** Of the sons of Asaph; Zaccur, and Joseph, and Nethaniah, and Asarelah, the sons of Asaph under the hands of Asaph, which prophesied according to the order of the king.
 **3** Of Jeduthun: the sons of Jeduthun; Gedaliah, and Zeri, and Jeshaiah, Hashabiah, and Mattithiah, six, under the hands of their father Jeduthun, who prophesied with a harp, to give thanks and to praise the LORD.
@@ -882,7 +882,7 @@ weight: 13
 **30** The three and twentieth to Mahazioth, he, his sons, and his brethren, were twelve:
 **31** The four and twentieth to Romamti-ezer, he, his sons, and his brethren, were twelve.
 
-## CHAPTER 26
+## 1 CHRONICLES 26
 **1** Concerning the divisions of the porters: Of the Korhites was Meshelemiah the son of Kore, of the sons of Asaph.
 **2** And the sons of Meshelemiah were, Zechariah the firstborn, Jediael the second, Zebadiah the third, Jathniel the fourth,
 **3** Elam the fifth, Jehohanan the sixth, Elioenai the seventh.
@@ -916,7 +916,7 @@ weight: 13
 **31** Among the Hebronites was Jerijah the chief, even among the Hebronites, according to the generations of his fathers. In the fortieth year of the reign of David they were sought for, and there were found among them mighty men of valour at Jazer of Gilead.
 **32** And his brethren, men of valour, were two thousand and seven hundred chief fathers, whom king David made rulers over the Reubenites, the Gadites, and the half tribe of Manasseh, for every matter pertaining to God, and affairs of the king.
 
-## CHAPTER 27
+## 1 CHRONICLES 27
 **1** Now the children of Israel after their number, to wit, the chief fathers and captains of thousands and hundreds, and their officers that served the king in any matter of the courses, which came in and went out month by month throughout all the months of the year, of every course were twenty and four thousand.
 **2** Over the first course for the first month was Jashobeam the son of Zabdiel: and in his course were twenty and four thousand.
 **3** Of the children of Perez was the chief of all the captains of the host for the first month.
@@ -952,7 +952,7 @@ weight: 13
 **33** And Ahithophel was the king's counsellor: and Hushai the Archite was the king's companion:
 **34** And after Ahithophel was Jehoiada the son of Benaiah, and Abiathar: and the general of the king's army was Joab.
 
-## CHAPTER 28
+## 1 CHRONICLES 28
 **1** And David assembled all the princes of Israel, the princes of the tribes, and the captains of the companies that ministered to the king by course, and the captains over the thousands, and captains over the hundreds, and the stewards over all the substance and possession of the king, and of his sons, with the officers, and with the mighty men, and with all the valiant men, unto Jerusalem.
 **2** Then David the king stood up upon his feet, and said, Hear me, my brethren, and my people: As for me, I had in mine heart to build an house of rest for the ark of the covenant of the LORD, and for the footstool of our God, and had made ready for the building:
 **3** But God said unto me, Thou shalt not build an house for my name, because thou hast been a man of war, and hast shed blood.
@@ -975,7 +975,7 @@ weight: 13
 **20** And David said to Solomon his son, Be strong and of good courage, and do it: fear not, nor be dismayed: for the LORD God, even my God, will be with thee; he will not fail thee, nor forsake thee, until thou hast finished all the work for the service of the house of the LORD.
 **21** And, behold, the courses of the priests and the Levites, even they shall be with thee for all the service of the house of God: and there shall be with thee for all manner of workmanship every willing skilful man, for any manner of service: also the princes and all the people will be wholly at thy commandment.
 
-## CHAPTER 29
+## 1 CHRONICLES 29
 **1** Furthermore David the king said unto all the congregation, Solomon my son, whom alone God hath chosen, is yet young and tender, and the work is great: for the palace is not for man, but for the LORD God.
 **2** Now I have prepared with all my might for the house of my God the gold for things to be made of gold, and the silver for things of silver, and the brass for things of brass, the iron for things of iron, and wood for things of wood; onyx stones, and stones to be set, glistering stones, and of divers colours, and all manner of precious stones, and marble stones in abundance.
 **3** Moreover, because I have set my affection to the house of my God, I have of mine own proper good, of gold and silver, which I have given to the house of my God, over and above all that I have prepared for the holy house,
@@ -1006,7 +1006,7 @@ weight: 13
 **28** And he died in a good old age, full of days, riches, and honour: and Solomon his son reigned in his stead.
 **29** Now the acts of David the king, first and last, behold, they are written in the book of Samuel the seer, and in the book of Nathan the prophet, and in the book of Gad the seer,
 **30** With all his reign and his might, and the times that went over him, and over Israel, and over all the kingdoms of the countries.
-1 CHRONICLES
+**1** CHRONICLES
 
 
 

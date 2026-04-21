@@ -7,7 +7,7 @@ weight: 1
 ## SAINT MATTHEW
 
 
-## CHAPTER 1
+## MATTHEW 1
 **1** The book of the generation of Jesus Christ, the son of David, the son of Abraham.
 **2** Abraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his brethren;
 **3** And Judas begat Phares and Zara of Thamar; and Phares begat Esrom; and Esrom begat Aram;
@@ -34,7 +34,7 @@ weight: 1
 **24** Then Joseph being raised from sleep did as the angel of the Lord had bidden him, and took unto him his wife:
 **25** And knew her not till she had brought forth her firstborn son: and he called his name JESUS.
 
-## CHAPTER 2
+## MATTHEW 2
 **1** Now when Jesus was born in Bethlehem of Judaea in the days of Herod the king, behold, there came wise men from the east to Jerusalem,
 **2** Saying, Where is he that is born King of the Jews? for we have seen his star in the east, and are come to worship him.
 **3** When Herod the king had heard these things, he was troubled, and all Jerusalem with him.
@@ -59,7 +59,7 @@ weight: 1
 **22** But when he heard that Archelaus did reign in Judaea in the room of his father Herod, he was afraid to go thither: notwithstanding, being warned of God in a dream, he turned aside into the parts of Galilee:
 **23** And he came and dwelt in a city called Nazareth: that it might be fulfilled which was spoken by the prophets, He shall be called a Nazarene.
 
-## CHAPTER 3
+## MATTHEW 3
 **1** In those days came John the Baptist, preaching in the wilderness of Judaea,
 **2** And saying, Repent ye: for the kingdom of heaven is at hand.
 **3** For this is he that was spoken of by the prophet Esaias, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.
@@ -78,7 +78,7 @@ weight: 1
 **16** And Jesus, when he was baptized, went up straightway out of the water: and, lo, the heavens were opened unto him, and he saw the Spirit of God descending like a dove, and lighting upon him:
 **17** And lo a voice from heaven, saying, This is my beloved Son, in whom I am well pleased.
 
-## CHAPTER 4
+## MATTHEW 4
 **1** Then was Jesus led up of the Spirit into the wilderness to be tempted of the devil.
 **2** And when he had fasted forty days and forty nights, he was afterward an hungred.
 **3** And when the tempter came to him, he said, If thou be the Son of God, command that these stones be made bread.
@@ -105,7 +105,7 @@ weight: 1
 **24** And his fame went throughout all Syria: and they brought unto him all sick people that were taken with divers diseases and torments, and those which were possessed with devils, and those which were lunatick, and those that had the palsy; and he healed them.
 **25** And there followed him great multitudes of people from Galilee, and from Decapolis, and from Jerusalem, and from Judaea, and from beyond Jordan.
 
-## CHAPTER 5
+## MATTHEW 5
 **1** And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him:
 **2** And he opened his mouth, and taught them, saying,
 **3** Blessed are the poor in spirit: for their's is the kingdom of heaven.
@@ -155,7 +155,7 @@ weight: 1
 **47** And if ye salute your brethren only, what do ye more than others? do not even the publicans so?
 **48** Be ye therefore perfect, even as your Father which is in heaven is perfect.
 
-## CHAPTER 6
+## MATTHEW 6
 **1** Take heed that ye do not your alms before men, to be seen of them: otherwise ye have no reward of your Father which is in heaven.
 **2** Therefore when thou doest thine alms, do not sound a trumpet before thee, as the hypocrites do in the synagogues and in the streets, that they may have glory of men. Verily I say unto you, They have their reward.
 **3** But when thou doest alms, let not thy left hand know what thy right hand doeth:
@@ -191,7 +191,7 @@ weight: 1
 **33** But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.
 **34** Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself. Sufficient unto the day is the evil thereof.
 
-## CHAPTER 7
+## MATTHEW 7
 **1** Judge not, that ye be not judged.
 **2** For with what judgment ye judge, ye shall be judged: and with what measure ye mete, it shall be measured to you again.
 **3** And why beholdest thou the mote that is in thy brother's eye, but considerest not the beam that is in thine own eye?
@@ -222,7 +222,7 @@ weight: 1
 **28** And it came to pass, when Jesus had ended these sayings, the people were astonished at his doctrine:
 **29** For he taught them as one having authority, and not as the scribes.
 
-## CHAPTER 8
+## MATTHEW 8
 **1** When he was come down from the mountain, great multitudes followed him.
 **2** And, behold, there came a leper and worshipped him, saying, Lord, if thou wilt, thou canst make me clean.
 **3** And Jesus put forth his hand, and touched him, saying, I will; be thou clean. And immediately his leprosy was cleansed.
@@ -258,7 +258,7 @@ weight: 1
 **33** And they that kept them fled, and went their ways into the city, and told every thing, and what was befallen to the possessed of the devils.
 **34** And, behold, the whole city came out to meet Jesus: and when they saw him, they besought him that he would depart out of their coasts.
 
-## CHAPTER 9
+## MATTHEW 9
 **1** And he entered into a ship, and passed over, and came into his own city.
 **2** And, behold, they brought to him a man sick of the palsy, lying on a bed: and Jesus seeing their faith said unto the sick of the palsy; Son, be of good cheer; thy sins be forgiven thee.
 **3** And, behold, certain of the scribes said within themselves, This man blasphemeth.
@@ -298,7 +298,7 @@ weight: 1
 **37** Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few;
 **38** Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest.
 
-## CHAPTER 10
+## MATTHEW 10
 **1** And when he had called unto him his twelve disciples, he gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease.
 **2** Now the names of the twelve apostles are these; The first, Simon, who is called Peter, and Andrew his brother; James the son of Zebedee, and John his brother;
 **3** Philip, and Bartholomew; Thomas, and Matthew the publican; James the son of Alphaeus, and Lebbaeus, whose surname was Thaddaeus;
@@ -342,7 +342,7 @@ weight: 1
 **41** He that receiveth a prophet in the name of a prophet shall receive a prophet's reward; and he that receiveth a righteous man in the name of a righteous man shall receive a righteous man's reward.
 **42** And whosoever shall give to drink unto one of these little ones a cup of cold water only in the name of a disciple, verily I say unto you, he shall in no wise lose his reward.
 
-## CHAPTER 11
+## MATTHEW 11
 **1** And it came to pass, when Jesus had made an end of commanding his twelve disciples, he departed thence to teach and to preach in their cities.
 **2** Now when John had heard in the prison the works of Christ, he sent two of his disciples,
 **3** And said unto him, Art thou he that should come, or do we look for another?
@@ -374,7 +374,7 @@ weight: 1
 **29** Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls.
 **30** For my yoke is easy, and my burden is light.
 
-## CHAPTER 12
+## MATTHEW 12
 **1** At that time Jesus went on the sabbath day through the corn; and his disciples were an hungred, and began to pluck the ears of corn, and to eat.
 **2** But when the Pharisees saw it, they said unto him, Behold, thy disciples do that which is not lawful to do upon the sabbath day.
 **3** But he said unto them, Have ye not read what David did, when he was an hungred, and they that were with him;
@@ -426,7 +426,7 @@ weight: 1
 **49** And he stretched forth his hand toward his disciples, and said, Behold my mother and my brethren!
 **50** For whosoever shall do the will of my Father which is in heaven, the same is my brother, and sister, and mother.
 
-## CHAPTER 13
+## MATTHEW 13
 **1** The same day went Jesus out of the house, and sat by the sea side.
 **2** And great multitudes were gathered together unto him, so that he went into a ship, and sat; and the whole multitude stood on the shore.
 **3** And he spake many things unto them in parables, saying, Behold, a sower went forth to sow;
@@ -486,7 +486,7 @@ weight: 1
 **57** And they were offended in him. But Jesus said unto them, A prophet is not without honour, save in his own country, and in his own house.
 **58** And he did not many mighty works there because of their unbelief.
 
-## CHAPTER 14
+## MATTHEW 14
 **1** At that time Herod the tetrarch heard of the fame of Jesus,
 **2** And said unto his servants, This is John the Baptist; he is risen from the dead; and therefore mighty works do shew forth themselves in him.
 **3** For Herod had laid hold on John, and bound him, and put him in prison for Herodias' sake, his brother Philip's wife.
@@ -524,7 +524,7 @@ weight: 1
 **35** And when the men of that place had knowledge of him, they sent out into all that country round about, and brought unto him all that were diseased;
 **36** And besought him that they might only touch the hem of his garment: and as many as touched were made perfectly whole.
 
-## CHAPTER 15
+## MATTHEW 15
 **1** Then came to Jesus scribes and Pharisees, which were of Jerusalem, saying,
 **2** Why do thy disciples transgress the tradition of the elders? for they wash not their hands when they eat bread.
 **3** But he answered and said unto them, Why do ye also transgress the commandment of God by your tradition?
@@ -565,7 +565,7 @@ weight: 1
 **38** And they that did eat were four thousand men, beside women and children.
 **39** And he sent away the multitude, and took ship, and came into the coasts of Magdala.
 
-## CHAPTER 16
+## MATTHEW 16
 **1** The Pharisees also with the Sadducees came, and tempting desired him that he would shew them a sign from heaven.
 **2** He answered and said unto them, When it is evening, ye say, It will be fair weather: for the sky is red.
 **3** And in the morning, It will be foul weather to day: for the sky is red and lowring. O ye hypocrites, ye can discern the face of the sky; but can ye not discern the signs of the times?
@@ -595,7 +595,7 @@ weight: 1
 **27** For the Son of man shall come in the glory of his Father with his angels; and then he shall reward every man according to his works.
 **28** Verily I say unto you, There be some standing here, which shall not taste of death, till they see the Son of man coming in his kingdom.
 
-## CHAPTER 17
+## MATTHEW 17
 **1** And after six days Jesus taketh Peter, James, and John his brother, and bringeth them up into an high mountain apart,
 **2** And was transfigured before them: and his face did shine as the sun, and his raiment was white as the light.
 **3** And, behold, there appeared unto them Moses and Elias talking with him.
@@ -624,7 +624,7 @@ weight: 1
 **26** Peter saith unto him, Of strangers. Jesus saith unto him, Then are the children free.
 **27** Notwithstanding, lest we should offend them, go thou to the sea, and cast an hook, and take up the fish that first cometh up; and when thou hast opened his mouth, thou shalt find a piece of money: that take, and give unto them for me and thee.
 
-## CHAPTER 18
+## MATTHEW 18
 **1** At the same time came the disciples unto Jesus, saying, Who is the greatest in the kingdom of heaven?
 **2** And Jesus called a little child unto him, and set him in the midst of them,
 **3** And said, Verily I say unto you, Except ye be converted, and become as little children, ye shall not enter into the kingdom of heaven.
@@ -661,7 +661,7 @@ weight: 1
 **34** And his lord was wroth, and delivered him to the tormentors, till he should pay all that was due unto him.
 **35** So likewise shall my heavenly Father do also unto you, if ye from your hearts forgive not every one his brother their trespasses.
 
-## CHAPTER 19
+## MATTHEW 19
 **1** And it came to pass, that when Jesus had finished these sayings, he departed from Galilee, and came into the coasts of Judaea beyond Jordan;
 **2** And great multitudes followed him; and he healed them there.
 **3** The Pharisees also came unto him, tempting him, and saying unto him, Is it lawful for a man to put away his wife for every cause?
@@ -693,7 +693,7 @@ weight: 1
 **29** And every one that hath forsaken houses, or brethren, or sisters, or father, or mother, or wife, or children, or lands, for my name's sake, shall receive an hundredfold, and shall inherit everlasting life.
 **30** But many that are first shall be last; and the last shall be first.
 
-## CHAPTER 20
+## MATTHEW 20
 **1** For the kingdom of heaven is like unto a man that is an householder, which went out early in the morning to hire labourers into his vineyard.
 **2** And when he had agreed with the labourers for a penny a day, he sent them into his vineyard.
 **3** And he went out about the third hour, and saw others standing idle in the marketplace,
@@ -729,7 +729,7 @@ weight: 1
 **33** They say unto him, Lord, that our eyes may be opened.
 **34** So Jesus had compassion on them, and touched their eyes: and immediately their eyes received sight, and they followed him.
 
-## CHAPTER 21
+## MATTHEW 21
 **1** And when they drew nigh unto Jerusalem, and were come to Bethphage, unto the mount of Olives, then sent Jesus two disciples,
 **2** Saying unto them, Go into the village over against you, and straightway ye shall find an ass tied, and a colt with her: loose them, and bring them unto me.
 **3** And if any man say ought unto you, ye shall say, The Lord hath need of them; and straightway he will send them.
@@ -777,7 +777,7 @@ weight: 1
 **45** And when the chief priests and Pharisees had heard his parables, they perceived that he spake of them.
 **46** But when they sought to lay hands on him, they feared the multitude, because they took him for a prophet.
 
-## CHAPTER 22
+## MATTHEW 22
 **1** And Jesus answered and spake unto them again by parables, and said,
 **2** The kingdom of heaven is like unto a certain king, which made a marriage for his son,
 **3** And sent forth his servants to call them that were bidden to the wedding: and they would not come.
@@ -825,7 +825,7 @@ weight: 1
 **45** If David then call him Lord, how is he his son?
 **46** And no man was able to answer him a word, neither durst any man from that day forth ask him any more questions.
 
-## CHAPTER 23
+## MATTHEW 23
 **1** Then spake Jesus to the multitude, and to his disciples,
 **2** Saying, The scribes and the Pharisees sit in Moses' seat:
 **3** All therefore whatsoever they bid you observe, that observe and do; but do not ye after their works: for they say, and do not.
@@ -866,7 +866,7 @@ weight: 1
 **38** Behold, your house is left unto you desolate.
 **39** For I say unto you, Ye shall not see me henceforth, till ye shall say, Blessed is he that cometh in the name of the Lord.
 
-## CHAPTER 24
+## MATTHEW 24
 **1** And Jesus went out, and departed from the temple: and his disciples came to him for to shew him the buildings of the temple.
 **2** And Jesus said unto them, See ye not all these things? verily I say unto you, There shall not be left here one stone upon another, that shall not be thrown down.
 **3** And as he sat upon the mount of Olives, the disciples came unto him privately, saying, Tell us, when shall these things be? and what shall be the sign of thy coming, and of the end of the world?
@@ -919,7 +919,7 @@ weight: 1
 **50** The lord of that servant shall come in a day when he looketh not for him, and in an hour that he is not aware of,
 **51** And shall cut him asunder, and appoint him his portion with the hypocrites: there shall be weeping and gnashing of teeth.
 
-## CHAPTER 25
+## MATTHEW 25
 **1** Then shall the kingdom of heaven be likened unto ten virgins, which took their lamps, and went forth to meet the bridegroom.
 **2** And five of them were wise, and five were foolish.
 **3** They that were foolish took their lamps, and took no oil with them:
@@ -967,7 +967,7 @@ weight: 1
 **45** Then shall he answer them, saying, Verily I say unto you, Inasmuch as ye did it not to one of the least of these, ye did it not to me.
 **46** And these shall go away into everlasting punishment: but the righteous into life eternal.
 
-## CHAPTER 26
+## MATTHEW 26
 **1** And it came to pass, when Jesus had finished all these sayings, he said unto his disciples,
 **2** Ye know that after two days is the feast of the passover, and the Son of man is betrayed to be crucified.
 **3** Then assembled together the chief priests, and the scribes, and the elders of the people, unto the palace of the high priest, who was called Caiaphas,
@@ -1044,7 +1044,7 @@ weight: 1
 **74** Then began he to curse and to swear, saying, I know not the man. And immediately the cock crew.
 **75** And Peter remembered the word of Jesus, which said unto him, Before the cock crow, thou shalt deny me thrice. And he went out, and wept bitterly.
 
-## CHAPTER 27
+## MATTHEW 27
 **1** When the morning was come, all the chief priests and elders of the people took counsel against Jesus to put him to death:
 **2** And when they had bound him, they led him away, and delivered him to Pontius Pilate the governor.
 **3** Then Judas, which had betrayed him, when he saw that he was condemned, repented himself, and brought again the thirty pieces of silver to the chief priests and elders,
@@ -1112,7 +1112,7 @@ weight: 1
 **65** Pilate said unto them, Ye have a watch: go your way, make it as sure as ye can.
 **66** So they went, and made the sepulchre sure, sealing the stone, and setting a watch.
 
-## CHAPTER 28
+## MATTHEW 28
 **1** In the end of the sabbath, as it began to dawn toward the first day of the week, came Mary Magdalene and the other Mary to see the sepulchre.
 **2** And, behold, there was a great earthquake: for the angel of the Lord descended from heaven, and came and rolled back the stone from the door, and sat upon it.
 **3** His countenance was like lightning, and his raiment white as snow:

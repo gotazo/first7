@@ -8,7 +8,7 @@ weight: 10
 ## OTHERWISE CALLED, THE SECOND BOOK OF THE KINGS
 
 
-## CHAPTER 1
+## 2 SAMUEL 1
 **1** Now it came to pass after the death of Saul, when David was returned from the slaughter of the Amalekites, and David had abode two days in Ziklag;
 **2** It came even to pass on the third day, that, behold, a man came out of the camp from Saul with his clothes rent, and earth upon his head: and so it was, when he came to David, that he fell to the earth, and did obeisance.
 **3** And David said unto him, From whence comest thou? And he said unto him, Out of the camp of Israel am I escaped.
@@ -37,7 +37,7 @@ weight: 10
 **26** I am distressed for thee, my brother Jonathan: very pleasant hast thou been unto me: thy love to me was wonderful, passing the love of women.
 **27** How are the mighty fallen, and the weapons of war perished!
 
-## CHAPTER 2
+## 2 SAMUEL 2
 **1** And it came to pass after this, that David enquired of the LORD, saying, Shall I go up into any of the cities of Judah? And the LORD said unto him, Go up. And David said, Whither shall I go up? And he said, Unto Hebron.
 **2** So David went up thither, and his two wives also, Ahinoam the Jezreelitess, and Abigail Nabal's wife the Carmelite.
 **3** And his men that were with him did David bring up, every man with his household: and they dwelt in the cities of Hebron.
@@ -71,7 +71,7 @@ weight: 10
 **31** But the servants of David had smitten of Benjamin, and of Abner's men, so that three hundred and threescore men died.
 **32** And they took up Asahel, and buried him in the sepulchre of his father, which was in Beth-lehem. And Joab and his men went all night, and they came to Hebron at break of day.
 
-## CHAPTER 3
+## 2 SAMUEL 3
 **1** Now there was long war between the house of Saul and the house of David: but David waxed stronger and stronger, and the house of Saul waxed weaker and weaker.
 **2** And unto David were sons born in Hebron: and his firstborn was Amnon, of Ahinoam the Jezreelitess;
 **3** And his second, Chileab, of Abigail the wife of Nabal the Carmelite; and the third, Absalom the son of Maacah the daughter of Talmai king of Geshur;
@@ -112,7 +112,7 @@ weight: 10
 **38** And the king said unto his servants, Know ye not that there is a prince and a great man fallen this day in Israel?
 **39** And I am this day weak, though anointed king; and these men the sons of Zeruiah be too hard for me: the LORD shall reward the doer of evil according to his wickedness.
 
-## CHAPTER 4
+## 2 SAMUEL 4
 **1** And when Saul's son heard that Abner was dead in Hebron, his hands were feeble, and all the Israelites were troubled.
 **2** And Saul's son had two men that were captains of bands: the name of the one was Baanah, and the name of the other Rechab, the sons of Rimmon a Beerothite, of the children of Benjamin: (for Beeroth also was reckoned to Benjamin:
 **3** And the Beerothites fled to Gittaim, and were sojourners there until this day.)
@@ -126,7 +126,7 @@ weight: 10
 **11** How much more, when wicked men have slain a righteous person in his own house upon his bed? shall I not therefore now require his blood of your hand, and take you away from the earth?
 **12** And David commanded his young men, and they slew them, and cut off their hands and their feet, and hanged them up over the pool in Hebron. But they took the head of Ish-bosheth, and buried it in the sepulchre of Abner in Hebron.
 
-## CHAPTER 5
+## 2 SAMUEL 5
 **1** Then came all the tribes of Israel to David unto Hebron, and spake, saying, Behold, we are thy bone and thy flesh.
 **2** Also in time past, when Saul was king over us, thou wast he that leddest out and broughtest in Israel: and the LORD said to thee, Thou shalt feed my people Israel, and thou shalt be a captain over Israel.
 **3** So all the elders of Israel came to the king to Hebron; and king David made a league with them in Hebron before the LORD: and they anointed David king over Israel.
@@ -153,7 +153,7 @@ weight: 10
 **24** And let it be, when thou hearest the sound of a going in the tops of the mulberry trees, that then thou shalt bestir thyself: for then shall the LORD go out before thee, to smite the host of the Philistines.
 **25** And David did so, as the LORD had commanded him; and smote the Philistines from Geba until thou come to Gazer.
 
-## CHAPTER 6
+## 2 SAMUEL 6
 **1** Again, David gathered together all the chosen men of Israel, thirty thousand.
 **2** And David arose, and went with all the people that were with him from Baale of Judah, to bring up from thence the ark of God, whose name is called by the name of the LORD of hosts that dwelleth between the cherubims.
 **3** And they set the ark of God upon a new cart, and brought it out of the house of Abinadab that was in Gibeah: and Uzzah and Ahio, the sons of Abinadab, drave the new cart.
@@ -178,7 +178,7 @@ weight: 10
 **22** And I will yet be more vile than thus, and will be base in mine own sight: and of the maidservants which thou hast spoken of, of them shall I be had in honour.
 **23** Therefore Michal the daughter of Saul had no child unto the day of her death.
 
-## CHAPTER 7
+## 2 SAMUEL 7
 **1** And it came to pass, when the king sat in his house, and the LORD had given him rest round about from all his enemies;
 **2** That the king said unto Nathan the prophet, See now, I dwell in an house of cedar, but the ark of God dwelleth within curtains.
 **3** And Nathan said to the king, Go, do all that is in thine heart; for the LORD is with thee.
@@ -209,7 +209,7 @@ weight: 10
 **28** And now, O Lord GOD, thou art that God, and thy words be true, and thou hast promised this goodness unto thy servant:
 **29** Therefore now let it please thee to bless the house of thy servant, that it may continue for ever before thee: for thou, O Lord GOD, hast spoken it: and with thy blessing let the house of thy servant be blessed for ever.
 
-## CHAPTER 8
+## 2 SAMUEL 8
 **1** And after this it came to pass, that David smote the Philistines, and subdued them: and David took Metheg-ammah out of the hand of the Philistines.
 **2** And he smote Moab, and measured them with a line, casting them down to the ground; even with two lines measured he to put to death, and with one full line to keep alive. And so the Moabites became David's servants, and brought gifts.
 **3** David smote also Hadadezer, the son of Rehob, king of Zobah, as he went to recover his border at the river Euphrates.
@@ -229,7 +229,7 @@ weight: 10
 **17** And Zadok the son of Ahitub, and Ahimelech the son of Abiathar, were the priests; and Seraiah was the scribe;
 **18** And Benaiah the son of Jehoiada was over both the Cherethites and the Pelethites; and David's sons were chief rulers.
 
-## CHAPTER 9
+## 2 SAMUEL 9
 **1** And David said, Is there yet any that is left of the house of Saul, that I may shew him kindness for Jonathan's sake?
 **2** And there was of the house of Saul a servant whose name was Ziba. And when they had called him unto David, the king said unto him, Art thou Ziba? And he said, Thy servant is he.
 **3** And the king said, Is there not yet any of the house of Saul, that I may shew the kindness of God unto him? And Ziba said unto the king, Jonathan hath yet a son, which is lame on his feet.
@@ -244,7 +244,7 @@ weight: 10
 **12** And Mephibosheth had a young son, whose name was Micha. And all that dwelt in the house of Ziba were servants unto Mephibosheth.
 **13** So Mephibosheth dwelt in Jerusalem: for he did eat continually at the king's table; and was lame on both his feet.
 
-## CHAPTER 10
+## 2 SAMUEL 10
 **1** And it came to pass after this, that the king of the children of Ammon died, and Hanun his son reigned in his stead.
 **2** Then said David, I will shew kindness unto Hanun the son of Nahash, as his father shewed kindness unto me. And David sent to comfort him by the hand of his servants for his father. And David's servants came into the land of the children of Ammon.
 **3** And the princes of the children of Ammon said unto Hanun their lord, Thinkest thou that David doth honour thy father, that he hath sent comforters unto thee? hath not David rather sent his servants unto thee, to search the city, and to spy it out, and to overthrow it?
@@ -265,7 +265,7 @@ weight: 10
 **18** And the Syrians fled before Israel; and David slew the men of seven hundred chariots of the Syrians, and forty thousand horsemen, and smote Shobach the captain of their host, who died there.
 **19** And when all the kings that were servants to Hadarezer saw that they were smitten before Israel, they made peace with Israel, and served them. So the Syrians feared to help the children of Ammon any more.
 
-## CHAPTER 11
+## 2 SAMUEL 11
 **1** And it came to pass, after the year was expired, at the time when kings go forth to battle, that David sent Joab, and his servants with him, and all Israel; and they destroyed the children of Ammon, and besieged Rabbah. But David tarried still at Jerusalem.
 **2** And it came to pass in an eveningtide, that David arose from off his bed, and walked upon the roof of the king's house: and from the roof he saw a woman washing herself; and the woman was very beautiful to look upon.
 **3** And David sent and enquired after the woman. And one said, Is not this Bath-sheba, the daughter of Eliam, the wife of Uriah the Hittite?
@@ -294,7 +294,7 @@ weight: 10
 **26** And when the wife of Uriah heard that Uriah her husband was dead, she mourned for her husband.
 **27** And when the mourning was past, David sent and fetched her to his house, and she became his wife, and bare him a son. But the thing that David had done displeased the LORD.
 
-## CHAPTER 12
+## 2 SAMUEL 12
 **1** And the LORD sent Nathan unto David. And he came unto him, and said unto him, There were two men in one city; the one rich, and the other poor.
 **2** The rich man had exceeding many flocks and herds:
 **3** But the poor man had nothing, save one little ewe lamb, which he had bought and nourished up: and it grew up together with him, and with his children; it did eat of his own meat, and drank of his own cup, and lay in his bosom, and was unto him as a daughter.
@@ -327,7 +327,7 @@ weight: 10
 **30** And he took their king's crown from off his head, the weight whereof was a talent of gold with the precious stones: and it was set on David's head. And he brought forth the spoil of the city in great abundance.
 **31** And he brought forth the people that were therein, and put them under saws, and under harrows of iron, and under axes of iron, and made them pass through the brickkiln: and thus did he unto all the cities of the children of Ammon. So David and all the people returned unto Jerusalem.
 
-## CHAPTER 13
+## 2 SAMUEL 13
 **1** And it came to pass after this, that Absalom the son of David had a fair sister, whose name was Tamar; and Amnon the son of David loved her.
 **2** And Amnon was so vexed, that he fell sick for his sister Tamar; for she was a virgin; and Amnon thought it hard for him to do any thing to her.
 **3** But Amnon had a friend, whose name was Jonadab, the son of Shimeah David's brother: and Jonadab was a very subtil man.
@@ -368,7 +368,7 @@ weight: 10
 **38** So Absalom fled, and went to Geshur, and was there three years.
 **39** And the soul of king David longed to go forth unto Absalom: for he was comforted concerning Amnon, seeing he was dead.
 
-## CHAPTER 14
+## 2 SAMUEL 14
 **1** Now Joab the son of Zeruiah perceived that the king's heart was toward Absalom.
 **2** And Joab sent to Tekoah, and fetched thence a wise woman, and said unto her, I pray thee, feign thyself to be a mourner, and put on now mourning apparel, and anoint not thyself with oil, but be as a woman that had a long time mourned for the dead:
 **3** And come to the king, and speak on this manner unto him. So Joab put the words in her mouth.
@@ -403,7 +403,7 @@ weight: 10
 **32** And Absalom answered Joab, Behold, I sent unto thee, saying, Come hither, that I may send thee to the king, to say, Wherefore am I come from Geshur? it had been good for me to have been there still: now therefore let me see the king's face; and if there be any iniquity in me, let him kill me.
 **33** So Joab came to the king, and told him: and when he had called for Absalom, he came to the king, and bowed himself on his face to the ground before the king: and the king kissed Absalom.
 
-## CHAPTER 15
+## 2 SAMUEL 15
 **1** And it came to pass after this, that Absalom prepared him chariots and horses, and fifty men to run before him.
 **2** And Absalom rose up early, and stood beside the way of the gate: and it was so, that when any man that had a controversy came to the king for judgment, then Absalom called unto him, and said, Of what city art thou? And he said, Thy servant is of one of the tribes of Israel.
 **3** And Absalom said unto him, See, thy matters are good and right; but there is no man deputed of the king to hear thee.
@@ -442,7 +442,7 @@ weight: 10
 **36** Behold, they have there with them their two sons, Ahimaaz Zadok's son, and Jonathan Abiathar's son; and by them ye shall send unto me every thing that ye can hear.
 **37** So Hushai David's friend came into the city, and Absalom came into Jerusalem.
 
-## CHAPTER 16
+## 2 SAMUEL 16
 **1** And when David was a little past the top of the hill, behold, Ziba the servant of Mephibosheth met him, with a couple of asses saddled, and upon them two hundred loaves of bread, and an hundred bunches of raisins, and an hundred of summer fruits, and a bottle of wine.
 **2** And the king said unto Ziba, What meanest thou by these? And Ziba said, The asses be for the king's household to ride on; and the bread and summer fruit for the young men to eat; and the wine, that such as be faint in the wilderness may drink.
 **3** And the king said, And where is thy master's son? And Ziba said unto the king, Behold, he abideth at Jerusalem: for he said, To day shall the house of Israel restore me the kingdom of my father.
@@ -467,7 +467,7 @@ weight: 10
 **22** So they spread Absalom a tent upon the top of the house; and Absalom went in unto his father's concubines in the sight of all Israel.
 **23** And the counsel of Ahithophel, which he counselled in those days, was as if a man had enquired at the oracle of God: so was all the counsel of Ahithophel both with David and with Absalom.
 
-## CHAPTER 17
+## 2 SAMUEL 17
 **1** Moreover Ahithophel said unto Absalom, Let me now choose out twelve thousand men, and I will arise and pursue after David this night:
 **2** And I will come upon him while he is weary and weak handed, and will make him afraid: and all the people that are with him shall flee; and I will smite the king only:
 **3** And I will bring back all the people unto thee: the man whom thou seekest is as if all returned: so all the people shall be in peace.
@@ -498,7 +498,7 @@ weight: 10
 **28** Brought beds, and basons, and earthen vessels, and wheat, and barley, and flour, and parched corn, and beans, and lentiles, and parched pulse,
 **29** And honey, and butter, and sheep, and cheese of kine, for David, and for the people that were with him, to eat: for they said, The people is hungry, and weary, and thirsty, in the wilderness.
 
-## CHAPTER 18
+## 2 SAMUEL 18
 **1** And David numbered the people that were with him, and set captains of thousands and captains of hundreds over them.
 **2** And David sent forth a third part of the people under the hand of Joab, and a third part under the hand of Abishai the son of Zeruiah, Joab's brother, and a third part under the hand of Ittai the Gittite. And the king said unto the people, I will surely go forth with you myself also.
 **3** But the people answered, Thou shalt not go forth: for if we flee away, they will not care for us; neither if half of us die, will they care for us: but now thou art worth ten thousand of us: therefore now it is better that thou succour us out of the city.
@@ -533,7 +533,7 @@ weight: 10
 **32** And the king said unto Cushi, Is the young man Absalom safe? And Cushi answered, The enemies of my lord the king, and all that rise against thee to do thee hurt, be as that young man is.
 **33** And the king was much moved, and went up to the chamber over the gate, and wept: and as he went, thus he said, O my son Absalom, my son, my son Absalom! would God I had died for thee, O Absalom, my son, my son!
 
-## CHAPTER 19
+## 2 SAMUEL 19
 **1** And it was told Joab, Behold, the king weepeth and mourneth for Absalom.
 **2** And the victory that day was turned into mourning unto all the people: for the people heard say that day how the king was grieved for his son.
 **3** And the people gat them by stealth that day into the city, as people being ashamed steal away when they flee in battle.
@@ -578,7 +578,7 @@ weight: 10
 **42** And all the men of Judah answered the men of Israel, Because the king is near of kin to us: wherefore then be ye angry for this matter? have we eaten at all of the king's cost? or hath he given us any gift?
 **43** And the men of Israel answered the men of Judah, and said, We have ten parts in the king, and we have also more right in David than ye: why then did ye despise us, that our advice should not be first had in bringing back our king? And the words of the men of Judah were fiercer than the words of the men of Israel.
 
-## CHAPTER 20
+## 2 SAMUEL 20
 **1** And there happened to be there a man of Belial, whose name was Sheba, the son of Bichri, a Benjamite: and he blew a trumpet, and said, We have no part in David, neither have we inheritance in the son of Jesse: every man to his tents, O Israel.
 **2** So every man of Israel went up from after David, and followed Sheba the son of Bichri: but the men of Judah clave unto their king, from Jordan even to Jerusalem.
 **3** And David came to his house at Jerusalem; and the king took the ten women his concubines, whom he had left to keep the house, and put them in ward, and fed them, but went not in unto them. So they were shut up unto the day of their death, living in widowhood.
@@ -606,7 +606,7 @@ weight: 10
 **25** And Sheva was scribe: and Zadok and Abiathar were the priests:
 **26** And Ira also the Jairite was a chief ruler about David.
 
-## CHAPTER 21
+## 2 SAMUEL 21
 **1** Then there was a famine in the days of David three years, year after year; and David enquired of the LORD. And the LORD answered, It is for Saul, and for his bloody house, because he slew the Gibeonites.
 **2** And the king called the Gibeonites, and said unto them; (now the Gibeonites were not of the children of Israel, but of the remnant of the Amorites; and the children of Israel had sworn unto them: and Saul sought to slay them in his zeal to the children of Israel and Judah.)
 **3** Wherefore David said unto the Gibeonites, What shall I do for you? and wherewith shall I make the atonement, that ye may bless the inheritance of the LORD?
@@ -630,7 +630,7 @@ weight: 10
 **21** And when he defied Israel, Jonathan the son of Shimea the brother of David slew him.
 **22** These four were born to the giant in Gath, and fell by the hand of David, and by the hand of his servants.
 
-## CHAPTER 22
+## 2 SAMUEL 22
 **1** And David spake unto the LORD the words of this song in the day that the LORD had delivered him out of the hand of all his enemies, and out of the hand of Saul:
 **2** And he said, The LORD is my rock, and my fortress, and my deliverer;
 **3** The God of my rock; in him will I trust: he is my shield, and the horn of my salvation, my high tower, and my refuge, my saviour; thou savest me from violence.
@@ -683,7 +683,7 @@ weight: 10
 **50** Therefore I will give thanks unto thee, O LORD, among the heathen, and I will sing praises unto thy name.
 **51** He is the tower of salvation for his king: and sheweth mercy to his anointed, unto David, and to his seed for evermore.
 
-## CHAPTER 23
+## 2 SAMUEL 23
 **1** Now these be the last words of David. David the son of Jesse said, and the man who was raised up on high, the anointed of the God of Jacob, and the sweet psalmist of Israel, said,
 **2** The Spirit of the LORD spake by me, and his word was in my tongue.
 **3** The God of Israel said, the Rock of Israel spake to me, He that ruleth over men must be just, ruling in the fear of God.
@@ -724,7 +724,7 @@ weight: 10
 **38** Ira an Ithrite, Gareb an Ithrite,
 **39** Uriah the Hittite: thirty and seven in all.
 
-## CHAPTER 24
+## 2 SAMUEL 24
 **1** And again the anger of the LORD was kindled against Israel, and he moved David against them to say, Go, number Israel and Judah.
 **2** For the king said to Joab the captain of the host, which was with him, Go now through all the tribes of Israel, from Dan even to Beer-sheba, and number ye the people, that I may know the number of the people.
 **3** And Joab said unto the king, Now the LORD thy God add unto the people, how many soever they be, an hundredfold, and that the eyes of my lord the king may see it: but why doth my lord the king delight in this thing?

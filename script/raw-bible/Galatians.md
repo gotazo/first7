@@ -7,7 +7,7 @@ weight: 9
 ## GALATIANS
 
 
-## CHAPTER 1
+## GALATIANS 1
 **1** Paul, an apostle, (not of men, neither by man, but by Jesus Christ, and God the Father, who raised him from the dead;)
 **2** And all the brethren which are with me, unto the churches of Galatia:
 **3** Grace be to you and peace from God the Father, and from our Lord Jesus Christ,
@@ -33,7 +33,7 @@ weight: 9
 **23** But they had heard only, That he which persecuted us in times past now preacheth the faith which once he destroyed.
 **24** And they glorified God in me.
 
-## CHAPTER 2
+## GALATIANS 2
 **1** Then fourteen years after I went up again to Jerusalem with Barnabas, and took Titus with me also.
 **2** And I went up by revelation, and communicated unto them that gospel which I preach among the Gentiles, but privately to them which were of reputation, lest by any means I should run, or had run, in vain.
 **3** But neither Titus, who was with me, being a Greek, was compelled to be circumcised:
@@ -56,7 +56,7 @@ weight: 9
 **20** I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.
 **21** I do not frustrate the grace of God: for if righteousness come by the law, then Christ is dead in vain.
 
-## CHAPTER 3
+## GALATIANS 3
 **1** O foolish Galatians, who hath bewitched you, that ye should not obey the truth, before whose eyes Jesus Christ hath been evidently set forth, crucified among you?
 **2** This only would I learn of you, Received ye the Spirit by the works of the law, or by the hearing of faith?
 **3** Are ye so foolish? having begun in the Spirit, are ye now made perfect by the flesh?
@@ -87,7 +87,7 @@ weight: 9
 **28** There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.
 **29** And if ye be Christ's, then are ye Abraham's seed, and heirs according to the promise.
 
-## CHAPTER 4
+## GALATIANS 4
 **1** Now I say, That the heir, as long as he is a child, differeth nothing from a servant, though he be lord of all;
 **2** But is under tutors and governors until the time appointed of the father.
 **3** Even so we, when we were children, were in bondage under the elements of the world:
@@ -120,7 +120,7 @@ weight: 9
 **30** Nevertheless what saith the scripture? Cast out the bondwoman and her son: for the son of the bondwoman shall not be heir with the son of the freewoman.
 **31** So then, brethren, we are not children of the bondwoman, but of the free.
 
-## CHAPTER 5
+## GALATIANS 5
 **1** Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.
 **2** Behold, I Paul say unto you, that if ye be circumcised, Christ shall profit you nothing.
 **3** For I testify again to every man that is circumcised, that he is a debtor to do the whole law.
@@ -148,7 +148,7 @@ weight: 9
 **25** If we live in the Spirit, let us also walk in the Spirit.
 **26** Let us not be desirous of vain glory, provoking one another, envying one another.
 
-## CHAPTER 6
+## GALATIANS 6
 **1** Brethren, if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted.
 **2** Bear ye one another's burdens, and so fulfil the law of Christ.
 **3** For if a man think himself to be something, when he is nothing, he deceiveth himself.

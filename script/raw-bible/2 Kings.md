@@ -8,7 +8,7 @@ weight: 12
 ## COMMONLY CALLED, THE FOURTH BOOK OF THE KINGS
 
 
-## CHAPTER 1
+## 2 KINGS 1
 **1** Then Moab rebelled against Israel after the death of Ahab.
 **2** And Ahaziah fell down through a lattice in his upper chamber that was in Samaria, and was sick: and he sent messengers, and said unto them, Go, enquire of Baal-zebub the god of Ekron whether I shall recover of this disease.
 **3** But the angel of the LORD said to Elijah the Tishbite, Arise, go up to meet the messengers of the king of Samaria, and say unto them, Is it not because there is not a God in Israel, that ye go to enquire of Baal-zebub the god of Ekron?
@@ -28,7 +28,7 @@ weight: 12
 **17** So he died according to the word of the LORD which Elijah had spoken. And Jehoram reigned in his stead in the second year of Jehoram the son of Jehoshaphat king of Judah; because he had no son.
 **18** Now the rest of the acts of Ahaziah which he did, are they not written in the book of the chronicles of the kings of Israel?
 
-## CHAPTER 2
+## 2 KINGS 2
 **1** And it came to pass, when the LORD would take up Elijah into heaven by a whirlwind, that Elijah went with Elisha from Gilgal.
 **2** And Elijah said unto Elisha, Tarry here, I pray thee; for the LORD hath sent me to Beth-el. And Elisha said unto him, As the LORD liveth, and as thy soul liveth, I will not leave thee. So they went down to Beth-el.
 **3** And the sons of the prophets that were at Beth-el came forth to Elisha, and said unto him, Knowest thou that the LORD will take away thy master from thy head to day? And he said, Yea, I know it; hold ye your peace.
@@ -55,7 +55,7 @@ weight: 12
 **24** And he turned back, and looked on them, and cursed them in the name of the LORD. And there came forth two she bears out of the wood, and tare forty and two children of them.
 **25** And he went from thence to mount Carmel, and from thence he returned to Samaria.
 
-## CHAPTER 3
+## 2 KINGS 3
 **1** Now Jehoram the son of Ahab began to reign over Israel in Samaria the eighteenth year of Jehoshaphat king of Judah, and reigned twelve years.
 **2** And he wrought evil in the sight of the LORD; but not like his father, and like his mother: for he put away the image of Baal that his father had made.
 **3** Nevertheless he cleaved unto the sins of Jeroboam the son of Nebat, which made Israel to sin; he departed not therefrom.
@@ -84,7 +84,7 @@ weight: 12
 **26** And when the king of Moab saw that the battle was too sore for him, he took with him seven hundred men that drew swords, to break through even unto the king of Edom: but they could not.
 **27** Then he took his eldest son that should have reigned in his stead, and offered him for a burnt offering upon the wall. And there was great indignation against Israel: and they departed from him, and returned to their own land.
 
-## CHAPTER 4
+## 2 KINGS 4
 **1** Now there cried a certain woman of the wives of the sons of the prophets unto Elisha, saying, Thy servant my husband is dead; and thou knowest that thy servant did fear the LORD: and the creditor is come to take unto him my two sons to be bondmen.
 **2** And Elisha said unto her, What shall I do for thee? tell me, what hast thou in the house? And she said, Thine handmaid hath not any thing in the house, save a pot of oil.
 **3** Then he said, Go, borrow thee vessels abroad of all thy neighbours, even empty vessels; borrow not a few.
@@ -130,7 +130,7 @@ weight: 12
 **43** And his servitor said, What, should I set this before an hundred men? He said again, Give the people, that they may eat: for thus saith the LORD, They shall eat, and shall leave thereof.
 **44** So he set it before them, and they did eat, and left thereof, according to the word of the LORD.
 
-## CHAPTER 5
+## 2 KINGS 5
 **1** Now Naaman, captain of the host of the king of Syria, was a great man with his master, and honourable, because by him the LORD had given deliverance unto Syria: he was also a mighty man in valour, but he was a leper.
 **2** And the Syrians had gone out by companies, and had brought away captive out of the land of Israel a little maid; and she waited on Naaman's wife.
 **3** And she said unto her mistress, Would God my lord were with the prophet that is in Samaria! for he would recover him of his leprosy.
@@ -159,7 +159,7 @@ weight: 12
 **26** And he said unto him, Went not mine heart with thee, when the man turned again from his chariot to meet thee? Is it a time to receive money, and to receive garments, and oliveyards, and vineyards, and sheep, and oxen, and menservants, and maidservants?
 **27** The leprosy therefore of Naaman shall cleave unto thee, and unto thy seed for ever. And he went out from his presence a leper as white as snow.
 
-## CHAPTER 6
+## 2 KINGS 6
 **1** And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us.
 **2** Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye.
 **3** And one said, Be content, I pray thee, and go with thy servants. And he answered, I will go.
@@ -194,7 +194,7 @@ weight: 12
 **32** But Elisha sat in his house, and the elders sat with him; and the king sent a man from before him: but ere the messenger came to him, he said to the elders, See ye how this son of a murderer hath sent to take away mine head? look, when the messenger cometh, shut the door, and hold him fast at the door: is not the sound of his master's feet behind him?
 **33** And while he yet talked with them, behold, the messenger came down unto him: and he said, Behold, this evil is of the LORD; what should I wait for the LORD any longer?
 
-## CHAPTER 7
+## 2 KINGS 7
 **1** Then Elisha said, Hear ye the word of the LORD; Thus saith the LORD, To morrow about this time shall a measure of fine flour be sold for a shekel, and two measures of barley for a shekel, in the gate of Samaria.
 **2** Then a lord on whose hand the king leaned answered the man of God, and said, Behold, if the LORD would make windows in heaven, might this thing be? And he said, Behold, thou shalt see it with thine eyes, but shalt not eat thereof.
 **3** And there were four leprous men at the entering in of the gate: and they said one to another, Why sit we here until we die?
@@ -216,7 +216,7 @@ weight: 12
 **19** And that lord answered the man of God, and said, Now, behold, if the LORD should make windows in heaven, might such a thing be? And he said, Behold, thou shalt see it with thine eyes, but shalt not eat thereof.
 **20** And so it fell out unto him: for the people trode upon him in the gate, and he died.
 
-## CHAPTER 8
+## 2 KINGS 8
 **1** Then spake Elisha unto the woman, whose son he had restored to life, saying, Arise, and go thou and thine household, and sojourn wheresoever thou canst sojourn: for the LORD hath called for a famine; and it shall also come upon the land seven years.
 **2** And the woman arose, and did after the saying of the man of God: and she went with her household, and sojourned in the land of the Philistines seven years.
 **3** And it came to pass at the seven years' end, that the woman returned out of the land of the Philistines: and she went forth to cry unto the king for her house and for her land.
@@ -247,7 +247,7 @@ weight: 12
 **28** And he went with Joram the son of Ahab to the war against Hazael king of Syria in Ramoth-gilead; and the Syrians wounded Joram.
 **29** And king Joram went back to be healed in Jezreel of the wounds which the Syrians had given him at Ramah, when he fought against Hazael king of Syria. And Ahaziah the son of Jehoram king of Judah went down to see Joram the son of Ahab in Jezreel, because he was sick.
 
-## CHAPTER 9
+## 2 KINGS 9
 **1** And Elisha the prophet called one of the children of the prophets, and said unto him, Gird up thy loins, and take this box of oil in thine hand, and go to Ramoth-gilead:
 **2** And when thou comest thither, look out there Jehu the son of Jehoshaphat the son of Nimshi, and go in, and make him arise up from among his brethren, and carry him to an inner chamber;
 **3** Then take the box of oil, and pour it on his head, and say, Thus saith the LORD, I have anointed thee king over Israel. Then open the door, and flee, and tarry not.
@@ -286,7 +286,7 @@ weight: 12
 **36** Wherefore they came again, and told him. And he said, This is the word of the LORD, which he spake by his servant Elijah the Tishbite, saying, In the portion of Jezreel shall dogs eat the flesh of Jezebel:
 **37** And the carcase of Jezebel shall be as dung upon the face of the field in the portion of Jezreel; so that they shall not say, This is Jezebel.
 
-## CHAPTER 10
+## 2 KINGS 10
 **1** And Ahab had seventy sons in Samaria. And Jehu wrote letters, and sent to Samaria, unto the rulers of Jezreel, to the elders, and to them that brought up Ahab's children, saying,
 **2** Now as soon as this letter cometh to you, seeing your master's sons are with you, and there are with you chariots and horses, a fenced city also, and armour;
 **3** Look even out the best and meetest of your master's sons, and set him on his father's throne, and fight for your master's house.
@@ -324,7 +324,7 @@ weight: 12
 **35** And Jehu slept with his fathers: and they buried him in Samaria. And Jehoahaz his son reigned in his stead.
 **36** And the time that Jehu reigned over Israel in Samaria was twenty and eight years.
 
-## CHAPTER 11
+## 2 KINGS 11
 **1** And when Athaliah the mother of Ahaziah saw that her son was dead, she arose and destroyed all the seed royal.
 **2** But Jehosheba, the daughter of king Joram, sister of Ahaziah, took Joash the son of Ahaziah, and stole him from among the king's sons which were slain; and they hid him, even him and his nurse, in the bedchamber from Athaliah, so that he was not slain.
 **3** And he was with her hid in the house of the LORD six years. And Athaliah did reign over the land.
@@ -347,7 +347,7 @@ weight: 12
 **20** And all the people of the land rejoiced, and the city was in quiet: and they slew Athaliah with the sword beside the king's house.
 **21** Seven years old was Jehoash when he began to reign.
 
-## CHAPTER 12
+## 2 KINGS 12
 **1** In the seventh year of Jehu Jehoash began to reign; and forty years reigned he in Jerusalem. And his mother's name was Zibiah of Beer-sheba.
 **2** And Jehoash did that which was right in the sight of the LORD all his days wherein Jehoiada the priest instructed him.
 **3** But the high places were not taken away: the people still sacrificed and burnt incense in the high places.
@@ -370,7 +370,7 @@ weight: 12
 **20** And his servants arose, and made a conspiracy, and slew Joash in the house of Millo, which goeth down to Silla.
 **21** For Jozachar the son of Shimeath, and Jehozabad the son of Shomer, his servants, smote him, and he died; and they buried him with his fathers in the city of David: and Amaziah his son reigned in his stead.
 
-## CHAPTER 13
+## 2 KINGS 13
 **1** In the three and twentieth year of Joash the son of Ahaziah king of Judah Jehoahaz the son of Jehu began to reign over Israel in Samaria, and reigned seventeen years.
 **2** And he did that which was evil in the sight of the LORD, and followed the sins of Jeroboam the son of Nebat, which made Israel to sin; he departed not therefrom.
 **3** And the anger of the LORD was kindled against Israel, and he delivered them into the hand of Hazael king of Syria, and into the hand of Ben-hadad the son of Hazael, all their days.
@@ -397,7 +397,7 @@ weight: 12
 **24** So Hazael king of Syria died; and Ben-hadad his son reigned in his stead.
 **25** And Jehoash the son of Jehoahaz took again out of the hand of Ben-hadad the son of Hazael the cities, which he had taken out of the hand of Jehoahaz his father by war. Three times did Joash beat him, and recovered the cities of Israel.
 
-## CHAPTER 14
+## 2 KINGS 14
 **1** In the second year of Joash son of Jehoahaz king of Israel reigned Amaziah the son of Joash king of Judah.
 **2** He was twenty and five years old when he began to reign, and reigned twenty and nine years in Jerusalem. And his mother's name was Jehoaddan of Jerusalem.
 **3** And he did that which was right in the sight of the LORD, yet not like David his father: he did according to all things as Joash his father did.
@@ -428,7 +428,7 @@ weight: 12
 **28** Now the rest of the acts of Jeroboam, and all that he did, and his might, how he warred, and how he recovered Damascus, and Hamath, which belonged to Judah, for Israel, are they not written in the book of the chronicles of the kings of Israel?
 **29** And Jeroboam slept with his fathers, even with the kings of Israel; and Zachariah his son reigned in his stead.
 
-## CHAPTER 15
+## 2 KINGS 15
 **1** In the twenty and seventh year of Jeroboam king of Israel began Azariah son of Amaziah king of Judah to reign.
 **2** Sixteen years old was he when he began to reign, and he reigned two and fifty years in Jerusalem. And his mother's name was Jecholiah of Jerusalem.
 **3** And he did that which was right in the sight of the LORD, according to all that his father Amaziah had done;
@@ -468,7 +468,7 @@ weight: 12
 **37** In those days the LORD began to send against Judah Rezin the king of Syria, and Pekah the son of Remaliah.
 **38** And Jotham slept with his fathers, and was buried with his fathers in the city of David his father: and Ahaz his son reigned in his stead.
 
-## CHAPTER 16
+## 2 KINGS 16
 **1** In the seventeenth year of Pekah the son of Remaliah Ahaz the son of Jotham king of Judah began to reign.
 **2** Twenty years old was Ahaz when he began to reign, and reigned sixteen years in Jerusalem, and did not that which was right in the sight of the LORD his God, like David his father.
 **3** But he walked in the way of the kings of Israel, yea, and made his son to pass through the fire, according to the abominations of the heathen, whom the LORD cast out from before the children of Israel.
@@ -490,7 +490,7 @@ weight: 12
 **19** Now the rest of the acts of Ahaz which he did, are they not written in the book of the chronicles of the kings of Judah?
 **20** And Ahaz slept with his fathers, and was buried with his fathers in the city of David: and Hezekiah his son reigned in his stead.
 
-## CHAPTER 17
+## 2 KINGS 17
 **1** In the twelfth year of Ahaz king of Judah began Hoshea the son of Elah to reign in Samaria over Israel nine years.
 **2** And he did that which was evil in the sight of the LORD, but not as the kings of Israel that were before him.
 **3** Against him came up Shalmaneser king of Assyria; and Hoshea became his servant, and gave him presents.
@@ -533,7 +533,7 @@ weight: 12
 **40** Howbeit they did not hearken, but they did after their former manner.
 **41** So these nations feared the LORD, and served their graven images, both their children, and their children's children: as did their fathers, so do they unto this day.
 
-## CHAPTER 18
+## 2 KINGS 18
 **1** Now it came to pass in the third year of Hoshea son of Elah king of Israel, that Hezekiah the son of Ahaz king of Judah began to reign.
 **2** Twenty and five years old was he when he began to reign; and he reigned twenty and nine years in Jerusalem. His mother's name also was Abi, the daughter of Zachariah.
 **3** And he did that which was right in the sight of the LORD, according to all that David his father did.
@@ -572,7 +572,7 @@ weight: 12
 **36** But the people held their peace, and answered him not a word: for the king's commandment was, saying, Answer him not.
 **37** Then came Eliakim the son of Hilkiah, which was over the household, and Shebna the scribe, and Joah the son of Asaph the recorder, to Hezekiah with their clothes rent, and told him the words of Rabshakeh.
 
-## CHAPTER 19
+## 2 KINGS 19
 **1** And it came to pass, when king Hezekiah heard it, that he rent his clothes, and covered himself with sackcloth, and went into the house of the LORD.
 **2** And he sent Eliakim, which was over the household, and Shebna the scribe, and the elders of the priests, covered with sackcloth, to Isaiah the prophet the son of Amoz.
 **3** And they said unto him, Thus saith Hezekiah, This day is a day of trouble, and of rebuke, and blasphemy: for the children are come to the birth, and there is not strength to bring forth.
@@ -611,7 +611,7 @@ weight: 12
 **36** So Sennacherib king of Assyria departed, and went and returned, and dwelt at Nineveh.
 **37** And it came to pass, as he was worshipping in the house of Nisroch his god, that Adrammelech and Sharezer his sons smote him with the sword: and they escaped into the land of Armenia. And Esar-haddon his son reigned in his stead.
 
-## CHAPTER 20
+## 2 KINGS 20
 **1** In those days was Hezekiah sick unto death. And the prophet Isaiah the son of Amoz came to him, and said unto him, Thus saith the LORD, Set thine house in order; for thou shalt die, and not live.
 **2** Then he turned his face to the wall, and prayed unto the LORD, saying,
 **3** I beseech thee, O LORD, remember now how I have walked before thee in truth and with a perfect heart, and have done that which is good in thy sight. And Hezekiah wept sore.
@@ -634,7 +634,7 @@ weight: 12
 **20** And the rest of the acts of Hezekiah, and all his might, and how he made a pool, and a conduit, and brought water into the city, are they not written in the book of the chronicles of the kings of Judah?
 **21** And Hezekiah slept with his fathers: and Manasseh his son reigned in his stead.
 
-## CHAPTER 21
+## 2 KINGS 21
 **1** Manasseh was twelve years old when he began to reign, and reigned fifty and five years in Jerusalem. And his mother's name was Hephzi-bah.
 **2** And he did that which was evil in the sight of the LORD, after the abominations of the heathen, whom the LORD cast out before the children of Israel.
 **3** For he built up again the high places which Hezekiah his father had destroyed; and he reared up altars for Baal, and made a grove, as did Ahab king of Israel; and worshipped all the host of heaven, and served them.
@@ -662,7 +662,7 @@ weight: 12
 **25** Now the rest of the acts of Amon which he did, are they not written in the book of the chronicles of the kings of Judah?
 **26** And he was buried in his sepulchre in the garden of Uzza: and Josiah his son reigned in his stead.
 
-## CHAPTER 22
+## 2 KINGS 22
 **1** Josiah was eight years old when he began to reign, and he reigned thirty and one years in Jerusalem. And his mother's name was Jedidah, the daughter of Adaiah of Boscath.
 **2** And he did that which was right in the sight of the LORD, and walked in all the way of David his father, and turned not aside to the right hand or to the left.
 **3** And it came to pass in the eighteenth year of king Josiah, that the king sent Shaphan the son of Azaliah, the son of Meshullam, the scribe, to the house of the LORD, saying,
@@ -684,7 +684,7 @@ weight: 12
 **19** Because thine heart was tender, and thou hast humbled thyself before the LORD, when thou heardest what I spake against this place, and against the inhabitants thereof, that they should become a desolation and a curse, and hast rent thy clothes, and wept before me; I also have heard thee, saith the LORD.
 **20** Behold therefore, I will gather thee unto thy fathers, and thou shalt be gathered into thy grave in peace; and thine eyes shall not see all the evil which I will bring upon this place. And they brought the king word again.
 
-## CHAPTER 23
+## 2 KINGS 23
 **1** And the king sent, and they gathered unto him all the elders of Judah and of Jerusalem.
 **2** And the king went up into the house of the LORD, and all the men of Judah and all the inhabitants of Jerusalem with him, and the priests, and the prophets, and all the people, both small and great: and he read in their ears all the words of the book of the covenant which was found in the house of the LORD.
 **3** And the king stood by a pillar, and made a covenant before the LORD, to walk after the LORD, and to keep his commandments and his testimonies and his statutes with all their heart and all their soul, to perform the words of this covenant that were written in this book. And all the people stood to the covenant.
@@ -723,7 +723,7 @@ weight: 12
 **36** Jehoiakim was twenty and five years old when he began to reign; and he reigned eleven years in Jerusalem. And his mother's name was Zebudah, the daughter of Pedaiah of Rumah.
 **37** And he did that which was evil in the sight of the LORD, according to all that his fathers had done.
 
-## CHAPTER 24
+## 2 KINGS 24
 **1** In his days Nebuchadnezzar king of Babylon came up, and Jehoiakim became his servant three years: then he turned and rebelled against him.
 **2** And the LORD sent against him bands of the Chaldees, and bands of the Syrians, and bands of the Moabites, and bands of the children of Ammon, and sent them against Judah to destroy it, according to the word of the LORD, which he spake by his servants the prophets.
 **3** Surely at the commandment of the LORD came this upon Judah, to remove them out of his sight, for the sins of Manasseh, according to all that he did;
@@ -745,7 +745,7 @@ weight: 12
 **19** And he did that which was evil in the sight of the LORD, according to all that Jehoiakim had done.
 **20** For through the anger of the LORD it came to pass in Jerusalem and Judah, until he had cast them out from his presence, that Zedekiah rebelled against the king of Babylon.
 
-## CHAPTER 25
+## 2 KINGS 25
 **1** And it came to pass in the ninth year of his reign, in the tenth month, in the tenth day of the month, that Nebuchadnezzar king of Babylon came, he, and all his host, against Jerusalem, and pitched against it; and they built forts against it round about.
 **2** And the city was besieged unto the eleventh year of king Zedekiah.
 **3** And on the ninth day of the fourth month the famine prevailed in the city, and there was no bread for the people of the land.

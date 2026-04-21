@@ -7,7 +7,7 @@ weight: 6
 ## ROMANS
 
 
-## CHAPTER 1
+## ROMANS 1
 **1** Paul, a servant of Jesus Christ, called to be an apostle, separated unto the gospel of God,
 **2** (Which he had promised afore by his prophets in the holy scriptures,)
 **3** Concerning his Son Jesus Christ our Lord, which was made of the seed of David according to the flesh;
@@ -41,7 +41,7 @@ weight: 6
 **31** Without understanding, covenantbreakers, without natural affection, implacable, unmerciful:
 **32** Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them.
 
-## CHAPTER 2
+## ROMANS 2
 **1** Therefore thou art inexcusable, O man, whosoever thou art that judgest: for wherein thou judgest another, thou condemnest thyself; for thou that judgest doest the same things.
 **2** But we are sure that the judgment of God is according to truth against them which commit such things.
 **3** And thinkest thou this, O man, that judgest them which do such things, and doest the same, that thou shalt escape the judgment of God?
@@ -72,7 +72,7 @@ weight: 6
 **28** For he is not a Jew, which is one outwardly; neither is that circumcision, which is outward in the flesh:
 **29** But he is a Jew, which is one inwardly; and circumcision is that of the heart, in the spirit, and not in the letter; whose praise is not of men, but of God.
 
-## CHAPTER 3
+## ROMANS 3
 **1** What advantage then hath the Jew? or what profit is there of circumcision?
 **2** Much every way: chiefly, because that unto them were committed the oracles of God.
 **3** For what if some did not believe? shall their unbelief make the faith of God without effect?
@@ -105,7 +105,7 @@ weight: 6
 **30** Seeing it is one God, which shall justify the circumcision by faith, and uncircumcision through faith.
 **31** Do we then make void the law through faith? God forbid: yea, we establish the law.
 
-## CHAPTER 4
+## ROMANS 4
 **1** What shall we say then that Abraham our father, as pertaining to the flesh, hath found?
 **2** For if Abraham were justified by works, he hath whereof to glory; but not before God.
 **3** For what saith the scripture? Abraham believed God, and it was counted unto him for righteousness.
@@ -132,7 +132,7 @@ weight: 6
 **24** But for us also, to whom it shall be imputed, if we believe on him that raised up Jesus our Lord from the dead;
 **25** Who was delivered for our offences, and was raised again for our justification.
 
-## CHAPTER 5
+## ROMANS 5
 **1** Therefore being justified by faith, we have peace with God through our Lord Jesus Christ:
 **2** By whom also we have access by faith into this grace wherein we stand, and rejoice in hope of the glory of God.
 **3** And not only so, but we glory in tribulations also: knowing that tribulation worketh patience;
@@ -155,7 +155,7 @@ weight: 6
 **20** Moreover the law entered, that the offence might abound. But where sin abounded, grace did much more abound:
 **21** That as sin hath reigned unto death, even so might grace reign through righteousness unto eternal life by Jesus Christ our Lord.
 
-## CHAPTER 6
+## ROMANS 6
 **1** What shall we say then? Shall we continue in sin, that grace may abound?
 **2** God forbid. How shall we, that are dead to sin, live any longer therein?
 **3** Know ye not, that so many of us as were baptized into Jesus Christ were baptized into his death?
@@ -180,7 +180,7 @@ weight: 6
 **22** But now being made free from sin, and become servants to God, ye have your fruit unto holiness, and the end everlasting life.
 **23** For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.
 
-## CHAPTER 7
+## ROMANS 7
 **1** Know ye not, brethren, (for I speak to them that know the law,) how that the law hath dominion over a man as long as he liveth?
 **2** For the woman which hath an husband is bound by the law to her husband so long as he liveth; but if the husband be dead, she is loosed from the law of her husband.
 **3** So then if, while her husband liveth, she be married to another man, she shall be called an adulteress: but if her husband be dead, she is free from that law; so that she is no adulteress, though she be married to another man.
@@ -207,7 +207,7 @@ weight: 6
 **24** O wretched man that I am! who shall deliver me from the body of this death?
 **25** I thank God through Jesus Christ our Lord. So then with the mind I myself serve the law of God; but with the flesh the law of sin.
 
-## CHAPTER 8
+## ROMANS 8
 **1** There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.
 **2** For the law of the Spirit of life in Christ Jesus hath made me free from the law of sin and death.
 **3** For what the law could not do, in that it was weak through the flesh, God sending his own Son in the likeness of sinful flesh, and for sin, condemned sin in the flesh:
@@ -248,7 +248,7 @@ weight: 6
 **38** For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come,
 **39** Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.
 
-## CHAPTER 9
+## ROMANS 9
 **1** I say the truth in Christ, I lie not, my conscience also bearing me witness in the Holy Ghost,
 **2** That I have great heaviness and continual sorrow in my heart.
 **3** For I could wish that myself were accursed from Christ for my brethren, my kinsmen according to the flesh:
@@ -283,7 +283,7 @@ weight: 6
 **32** Wherefore? Because they sought it not by faith, but as it were by the works of the law. For they stumbled at that stumblingstone;
 **33** As it is written, Behold, I lay in Sion a stumblingstone and rock of offence: and whosoever believeth on him shall not be ashamed.
 
-## CHAPTER 10
+## ROMANS 10
 **1** Brethren, my heart's desire and prayer to God for Israel is, that they might be saved.
 **2** For I bear them record that they have a zeal of God, but not according to knowledge.
 **3** For they being ignorant of God's righteousness, and going about to establish their own righteousness, have not submitted themselves unto the righteousness of God.
@@ -306,7 +306,7 @@ weight: 6
 **20** But Esaias is very bold, and saith, I was found of them that sought me not; I was made manifest unto them that asked not after me.
 **21** But to Israel he saith, All day long I have stretched forth my hands unto a disobedient and gainsaying people.
 
-## CHAPTER 11
+## ROMANS 11
 **1** I say then, Hath God cast away his people? God forbid. For I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin.
 **2** God hath not cast away his people which he foreknew. Wot ye not what the scripture saith of Elias? how he maketh intercession to God against Israel, saying,
 **3** Lord, they have killed thy prophets, and digged down thine altars; and I am left alone, and they seek my life.
@@ -344,7 +344,7 @@ weight: 6
 **35** Or who hath first given to him, and it shall be recompensed unto him again?
 **36** For of him, and through him, and to him, are all things: to whom be glory for ever. Amen.
 
-## CHAPTER 12
+## ROMANS 12
 **1** I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.
 **2** And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.
 **3** For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.
@@ -367,7 +367,7 @@ weight: 6
 **20** Therefore if thine enemy hunger, feed him; if he thirst, give him drink: for in so doing thou shalt heap coals of fire on his head.
 **21** Be not overcome of evil, but overcome evil with good.
 
-## CHAPTER 13
+## ROMANS 13
 **1** Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God.
 **2** Whosoever therefore resisteth the power, resisteth the ordinance of God: and they that resist shall receive to themselves damnation.
 **3** For rulers are not a terror to good works, but to the evil. Wilt thou then not be afraid of the power? do that which is good, and thou shalt have praise of the same:
@@ -383,7 +383,7 @@ weight: 6
 **13** Let us walk honestly, as in the day; not in rioting and drunkenness, not in chambering and wantonness, not in strife and envying.
 **14** But put ye on the Lord Jesus Christ, and make not provision for the flesh, to fulfil the lusts thereof.
 
-## CHAPTER 14
+## ROMANS 14
 **1** Him that is weak in the faith receive ye, but not to doubtful disputations.
 **2** For one believeth that he may eat all things: another, who is weak, eateth herbs.
 **3** Let not him that eateth despise him that eateth not; and let not him which eateth not judge him that eateth: for God hath received him.
@@ -408,7 +408,7 @@ weight: 6
 **22** Hast thou faith? have it to thyself before God. Happy is he that condemneth not himself in that thing which he alloweth.
 **23** And he that doubteth is damned if he eat, because he eateth not of faith: for whatsoever is not of faith is sin.
 
-## CHAPTER 15
+## ROMANS 15
 **1** We then that are strong ought to bear the infirmities of the weak, and not to please ourselves.
 **2** Let every one of us please his neighbour for his good to edification.
 **3** For even Christ pleased not himself; but, as it is written, The reproaches of them that reproached thee fell on me.
@@ -443,7 +443,7 @@ weight: 6
 **32** That I may come unto you with joy by the will of God, and may with you be refreshed.
 **33** Now the God of peace be with you all. Amen.
 
-## CHAPTER 16
+## ROMANS 16
 **1** I commend unto you Phebe our sister, which is a servant of the church which is at Cenchrea:
 **2** That ye receive her in the Lord, as becometh saints, and that ye assist her in whatsoever business she hath need of you: for she hath been a succourer of many, and of myself also.
 **3** Greet Priscilla and Aquila my helpers in Christ Jesus:

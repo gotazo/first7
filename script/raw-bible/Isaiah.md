@@ -7,7 +7,7 @@ weight: 23
 ## ISAIAH
 
 
-## CHAPTER 1
+## ISAIAH 1
 **1** The vision of Isaiah the son of Amoz, which he saw concerning Judah and Jerusalem in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah.
 **2** Hear, O heavens, and give ear, O earth: for the LORD hath spoken, I have nourished and brought up children, and they have rebelled against me.
 **3** The ox knoweth his owner, and the ass his master's crib: but Israel doth not know, my people doth not consider.
@@ -40,7 +40,7 @@ weight: 23
 **30** For ye shall be as an oak whose leaf fadeth, and as a garden that hath no water.
 **31** And the strong shall be as tow, and the maker of it as a spark, and they shall both burn together, and none shall quench them.
 
-## CHAPTER 2
+## ISAIAH 2
 **1** The word that Isaiah the son of Amoz saw concerning Judah and Jerusalem.
 **2** And it shall come to pass in the last days, that the mountain of the LORD'S house shall be established in the top of the mountains, and shall be exalted above the hills; and all nations shall flow unto it.
 **3** And many people shall go and say, Come ye, and let us go up to the mountain of the LORD, to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths: for out of Zion shall go forth the law, and the word of the LORD from Jerusalem.
@@ -64,7 +64,7 @@ weight: 23
 **21** To go into the clefts of the rocks, and into the tops of the ragged rocks, for fear of the LORD, and for the glory of his majesty, when he ariseth to shake terribly the earth.
 **22** Cease ye from man, whose breath is in his nostrils: for wherein is he to be accounted of?
 
-## CHAPTER 3
+## ISAIAH 3
 **1** For, behold, the Lord, the LORD of hosts, doth take away from Jerusalem and from Judah the stay and the staff, the whole stay of bread, and the whole stay of water,
 **2** The mighty man, and the man of war, the judge, and the prophet, and the prudent, and the ancient,
 **3** The captain of fifty, and the honourable man, and the counsellor, and the cunning artificer, and the eloquent orator.
@@ -92,7 +92,7 @@ weight: 23
 **25** Thy men shall fall by the sword, and thy mighty in the war.
 **26** And her gates shall lament and mourn; and she being desolate shall sit upon the ground.
 
-## CHAPTER 4
+## ISAIAH 4
 **1** And in that day seven women shall take hold of one man, saying, We will eat our own bread, and wear our own apparel: only let us be called by thy name, to take away our reproach.
 **2** In that day shall the branch of the LORD be beautiful and glorious, and the fruit of the earth shall be excellent and comely for them that are escaped of Israel.
 **3** And it shall come to pass, that he that is left in Zion, and he that remaineth in Jerusalem, shall be called holy, even every one that is written among the living in Jerusalem:
@@ -100,7 +100,7 @@ weight: 23
 **5** And the LORD will create upon every dwelling place of mount Zion, and upon her assemblies, a cloud and smoke by day, and the shining of a flaming fire by night: for upon all the glory shall be a defence.
 **6** And there shall be a tabernacle for a shadow in the daytime from the heat, and for a place of refuge, and for a covert from storm and from rain.
 
-## CHAPTER 5
+## ISAIAH 5
 **1** Now will I sing to my wellbeloved a song of my beloved touching his vineyard. My wellbeloved hath a vineyard in a very fruitful hill:
 **2** And he fenced it, and gathered out the stones thereof, and planted it with the choicest vine, and built a tower in the midst of it, and also made a winepress therein: and he looked that it should bring forth grapes, and it brought forth wild grapes.
 **3** And now, O inhabitants of Jerusalem, and men of Judah, judge, I pray you, betwixt me and my vineyard.
@@ -132,7 +132,7 @@ weight: 23
 **29** Their roaring shall be like a lion, they shall roar like young lions: yea, they shall roar, and lay hold of the prey, and shall carry it away safe, and none shall deliver it.
 **30** And in that day they shall roar against them like the roaring of the sea: and if one look unto the land, behold darkness and sorrow, and the light is darkened in the heavens thereof.
 
-## CHAPTER 6
+## ISAIAH 6
 **1** In the year that king Uzziah died I saw also the Lord sitting upon a throne, high and lifted up, and his train filled the temple.
 **2** Above it stood the seraphims: each one had six wings; with twain he covered his face, and with twain he covered his feet, and with twain he did fly.
 **3** And one cried unto another, and said, Holy, holy, holy, is the LORD of hosts: the whole earth is full of his glory.
@@ -147,7 +147,7 @@ weight: 23
 **12** And the LORD have removed men far away, and there be a great forsaking in the midst of the land.
 **13** But yet in it shall be a tenth, and it shall return, and shall be eaten: as a teil tree, and as an oak, whose substance is in them, when they cast their leaves: so the holy seed shall be the substance thereof.
 
-## CHAPTER 7
+## ISAIAH 7
 **1** And it came to pass in the days of Ahaz the son of Jotham, the son of Uzziah, king of Judah, that Rezin the king of Syria, and Pekah the son of Remaliah, king of Israel, went up toward Jerusalem to war against it, but could not prevail against it.
 **2** And it was told the house of David, saying, Syria is confederate with Ephraim. And his heart was moved, and the heart of his people, as the trees of the wood are moved with the wind.
 **3** Then said the LORD unto Isaiah, Go forth now to meet Ahaz, thou, and Shear-jashub thy son, at the end of the conduit of the upper pool in the highway of the fuller's field;
@@ -174,7 +174,7 @@ weight: 23
 **24** With arrows and with bows shall men come thither; because all the land shall become briers and thorns.
 **25** And on all hills that shall be digged with the mattock, there shall not come thither the fear of briers and thorns: but it shall be for the sending forth of oxen, and for the treading of lesser cattle.
 
-## CHAPTER 8
+## ISAIAH 8
 **1** Moreover the LORD said unto me, Take thee a great roll, and write in it with a man's pen concerning Maher-shalal-hash-baz.
 **2** And I took unto me faithful witnesses to record, Uriah the priest, and Zechariah the son of Jeberechiah.
 **3** And I went unto the prophetess; and she conceived, and bare a son. Then said the LORD to me, Call his name Maher-shalal-hash-baz.
@@ -198,7 +198,7 @@ weight: 23
 **21** And they shall pass through it, hardly bestead and hungry: and it shall come to pass, that when they shall be hungry, they shall fret themselves, and curse their king and their God, and look upward.
 **22** And they shall look unto the earth; and behold trouble and darkness, dimness of anguish; and they shall be driven to darkness.
 
-## CHAPTER 9
+## ISAIAH 9
 **1** Nevertheless the dimness shall not be such as was in her vexation, when at the first he lightly afflicted the land of Zebulun and the land of Naphtali, and afterward did more grievously afflict her by the way of the sea, beyond Jordan, in Galilee of the nations.
 **2** The people that walked in darkness have seen a great light: they that dwell in the land of the shadow of death, upon them hath the light shined.
 **3** Thou hast multiplied the nation, and not increased the joy: they joy before thee according to the joy in harvest, and as men rejoice when they divide the spoil.
@@ -221,7 +221,7 @@ weight: 23
 **20** And he shall snatch on the right hand, and be hungry; and he shall eat on the left hand, and they shall not be satisfied: they shall eat every man the flesh of his own arm:
 **21** Manasseh, Ephraim; and Ephraim, Manasseh: and they together shall be against Judah. For all this his anger is not turned away, but his hand is stretched out still.
 
-## CHAPTER 10
+## ISAIAH 10
 **1** Woe unto them that decree unrighteous decrees, and that write grievousness which they have prescribed;
 **2** To turn aside the needy from judgment, and to take away the right from the poor of my people, that widows may be their prey, and that they may rob the fatherless!
 **3** And what will ye do in the day of visitation, and in the desolation which shall come from far? to whom will ye flee for help? and where will ye leave your glory?
@@ -257,7 +257,7 @@ weight: 23
 **33** Behold, the Lord, the LORD of hosts, shall lop the bough with terror: and the high ones of stature shall be hewn down, and the haughty shall be humbled.
 **34** And he shall cut down the thickets of the forest with iron, and Lebanon shall fall by a mighty one.
 
-## CHAPTER 11
+## ISAIAH 11
 **1** And there shall come forth a rod out of the stem of Jesse, and a Branch shall grow out of his roots:
 **2** And the spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the LORD;
 **3** And shall make him of quick understanding in the fear of the LORD: and he shall not judge after the sight of his eyes, neither reprove after the hearing of his ears:
@@ -275,7 +275,7 @@ weight: 23
 **15** And the LORD shall utterly destroy the tongue of the Egyptian sea; and with his mighty wind shall he shake his hand over the river, and shall smite it in the seven streams, and make men go over dryshod.
 **16** And there shall be an highway for the remnant of his people, which shall be left, from Assyria; like as it was to Israel in the day that he came up out of the land of Egypt.
 
-## CHAPTER 12
+## ISAIAH 12
 **1** And in that day thou shalt say, O LORD, I will praise thee: though thou wast angry with me, thine anger is turned away, and thou comfortedst me.
 **2** Behold, God is my salvation; I will trust, and not be afraid: for the LORD JEHOVAH is my strength and my song; he also is become my salvation.
 **3** Therefore with joy shall ye draw water out of the wells of salvation.
@@ -283,7 +283,7 @@ weight: 23
 **5** Sing unto the LORD; for he hath done excellent things: this is known in all the earth.
 **6** Cry out and shout, thou inhabitant of Zion: for great is the Holy One of Israel in the midst of thee.
 
-## CHAPTER 13
+## ISAIAH 13
 **1** The burden of Babylon, which Isaiah the son of Amoz did see.
 **2** Lift ye up a banner upon the high mountain, exalt the voice unto them, shake the hand, that they may go into the gates of the nobles.
 **3** I have commanded my sanctified ones, I have also called my mighty ones for mine anger, even them that rejoice in my highness.
@@ -307,7 +307,7 @@ weight: 23
 **21** But wild beasts of the desert shall lie there; and their houses shall be full of doleful creatures; and owls shall dwell there, and satyrs shall dance there.
 **22** And the wild beasts of the islands shall cry in their desolate houses, and dragons in their pleasant palaces: and her time is near to come, and her days shall not be prolonged.
 
-## CHAPTER 14
+## ISAIAH 14
 **1** For the LORD will have mercy on Jacob, and will yet choose Israel, and set them in their own land: and the strangers shall be joined with them, and they shall cleave to the house of Jacob.
 **2** And the people shall take them, and bring them to their place: and the house of Israel shall possess them in the land of the LORD for servants and handmaids: and they shall take them captives, whose captives they were; and they shall rule over their oppressors.
 **3** And it shall come to pass in the day that the LORD shall give thee rest from thy sorrow, and from thy fear, and from the hard bondage wherein thou wast made to serve,
@@ -341,7 +341,7 @@ weight: 23
 **31** Howl, O gate; cry, O city; thou, whole Palestina, art dissolved: for there shall come from the north a smoke, and none shall be alone in his appointed times.
 **32** What shall one then answer the messengers of the nation? That the LORD hath founded Zion, and the poor of his people shall trust in it.
 
-## CHAPTER 15
+## ISAIAH 15
 **1** The burden of Moab. Because in the night Ar of Moab is laid waste, and brought to silence; because in the night Kir of Moab is laid waste, and brought to silence;
 **2** He is gone up to Bajith, and to Dibon, the high places, to weep: Moab shall howl over Nebo, and over Medeba: on all their heads shall be baldness, and every beard cut off.
 **3** In their streets they shall gird themselves with sackcloth: on the tops of their houses, and in their streets, every one shall howl, weeping abundantly.
@@ -352,7 +352,7 @@ weight: 23
 **8** For the cry is gone round about the borders of Moab; the howling thereof unto Eglaim, and the howling thereof unto Beer-elim.
 **9** For the waters of Dimon shall be full of blood: for I will bring more upon Dimon, lions upon him that escapeth of Moab, and upon the remnant of the land.
 
-## CHAPTER 16
+## ISAIAH 16
 **1** Send ye the lamb to the ruler of the land from Sela to the wilderness, unto the mount of the daughter of Zion.
 **2** For it shall be, that, as a wandering bird cast out of the nest, so the daughters of Moab shall be at the fords of Arnon.
 **3** Take counsel, execute judgment; make thy shadow as the night in the midst of the noonday; hide the outcasts; bewray not him that wandereth.
@@ -368,7 +368,7 @@ weight: 23
 **13** This is the word that the LORD hath spoken concerning Moab since that time.
 **14** But now the LORD hath spoken, saying, Within three years, as the years of an hireling, and the glory of Moab shall be contemned, with all that great multitude; and the remnant shall be very small and feeble.
 
-## CHAPTER 17
+## ISAIAH 17
 **1** The burden of Damascus. Behold, Damascus is taken away from being a city, and it shall be a ruinous heap.
 **2** The cities of Aroer are forsaken: they shall be for flocks, which shall lie down, and none shall make them afraid.
 **3** The fortress also shall cease from Ephraim, and the kingdom from Damascus, and the remnant of Syria: they shall be as the glory of the children of Israel, saith the LORD of hosts.
@@ -384,7 +384,7 @@ weight: 23
 **13** The nations shall rush like the rushing of many waters: but God shall rebuke them, and they shall flee far off, and shall be chased as the chaff of the mountains before the wind, and like a rolling thing before the whirlwind.
 **14** And behold at eveningtide trouble; and before the morning he is not. This is the portion of them that spoil us, and the lot of them that rob us.
 
-## CHAPTER 18
+## ISAIAH 18
 **1** Woe to the land shadowing with wings, which is beyond the rivers of Ethiopia:
 **2** That sendeth ambassadors by the sea, even in vessels of bulrushes upon the waters, saying, Go, ye swift messengers, to a nation scattered and peeled, to a people terrible from their beginning hitherto; a nation meted out and trodden down, whose land the rivers have spoiled!
 **3** All ye inhabitants of the world, and dwellers on the earth, see ye, when he lifteth up an ensign on the mountains; and when he bloweth a trumpet, hear ye.
@@ -393,7 +393,7 @@ weight: 23
 **6** They shall be left together unto the fowls of the mountains, and to the beasts of the earth: and the fowls shall summer upon them, and all the beasts of the earth shall winter upon them.
 **7** In that time shall the present be brought unto the LORD of hosts of a people scattered and peeled, and from a people terrible from their beginning hitherto; a nation meted out and trodden under foot, whose land the rivers have spoiled, to the place of the name of the LORD of hosts, the mount Zion.
 
-## CHAPTER 19
+## ISAIAH 19
 **1** The burden of Egypt. Behold, the LORD rideth upon a swift cloud, and shall come into Egypt: and the idols of Egypt shall be moved at his presence, and the heart of Egypt shall melt in the midst of it.
 **2** And I will set the Egyptians against the Egyptians: and they shall fight every one against his brother, and every one against his neighbour; city against city, and kingdom against kingdom.
 **3** And the spirit of Egypt shall fail in the midst thereof; and I will destroy the counsel thereof: and they shall seek to the idols, and to the charmers, and to them that have familiar spirits, and to the wizards.
@@ -420,7 +420,7 @@ weight: 23
 **24** In that day shall Israel be the third with Egypt and with Assyria, even a blessing in the midst of the land:
 **25** Whom the LORD of hosts shall bless, saying, Blessed be Egypt my people, and Assyria the work of my hands, and Israel mine inheritance.
 
-## CHAPTER 20
+## ISAIAH 20
 **1** In the year that Tartan came unto Ashdod, (when Sargon the king of Assyria sent him,) and fought against Ashdod, and took it;
 **2** At the same time spake the LORD by Isaiah the son of Amoz, saying, Go and loose the sackcloth from off thy loins, and put off thy shoe from thy foot. And he did so, walking naked and barefoot.
 **3** And the LORD said, Like as my servant Isaiah hath walked naked and barefoot three years for a sign and wonder upon Egypt and upon Ethiopia;
@@ -428,7 +428,7 @@ weight: 23
 **5** And they shall be afraid and ashamed of Ethiopia their expectation, and of Egypt their glory.
 **6** And the inhabitant of this isle shall say in that day, Behold, such is our expectation, whither we flee for help to be delivered from the king of Assyria: and how shall we escape?
 
-## CHAPTER 21
+## ISAIAH 21
 **1** The burden of the desert of the sea. As whirlwinds in the south pass through; so it cometh from the desert, from a terrible land.
 **2** A grievous vision is declared unto me; the treacherous dealer dealeth treacherously, and the spoiler spoileth. Go up, O Elam: besiege, O Media; all the sighing thereof have I made to cease.
 **3** Therefore are my loins filled with pain: pangs have taken hold upon me, as the pangs of a woman that travaileth: I was bowed down at the hearing of it; I was dismayed at the seeing of it.
@@ -447,7 +447,7 @@ weight: 23
 **16** For thus hath the Lord said unto me, Within a year, according to the years of an hireling, and all the glory of Kedar shall fail:
 **17** And the residue of the number of archers, the mighty men of the children of Kedar, shall be diminished: for the LORD God of Israel hath spoken it.
 
-## CHAPTER 22
+## ISAIAH 22
 **1** The burden of the valley of vision. What aileth thee now, that thou art wholly gone up to the housetops?
 **2** Thou that art full of stirs, a tumultuous city, a joyous city: thy slain men are not slain with the sword, nor dead in battle.
 **3** All thy rulers are fled together, they are bound by the archers: all that are found in thee are bound together, which have fled from far.
@@ -474,7 +474,7 @@ weight: 23
 **24** And they shall hang upon him all the glory of his father's house, the offspring and the issue, all vessels of small quantity, from the vessels of cups, even to all the vessels of flagons.
 **25** In that day, saith the LORD of hosts, shall the nail that is fastened in the sure place be removed, and be cut down, and fall; and the burden that was upon it shall be cut off: for the LORD hath spoken it.
 
-## CHAPTER 23
+## ISAIAH 23
 **1** The burden of Tyre. Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no entering in: from the land of Chittim it is revealed to them.
 **2** Be still, ye inhabitants of the isle; thou whom the merchants of Zidon, that pass over the sea, have replenished.
 **3** And by great waters the seed of Sihor, the harvest of the river, is her revenue; and she is a mart of nations.
@@ -494,7 +494,7 @@ weight: 23
 **17** And it shall come to pass after the end of seventy years, that the LORD will visit Tyre, and she shall turn to her hire, and shall commit fornication with all the kingdoms of the world upon the face of the earth.
 **18** And her merchandise and her hire shall be holiness to the LORD: it shall not be treasured nor laid up; for her merchandise shall be for them that dwell before the LORD, to eat sufficiently, and for durable clothing.
 
-## CHAPTER 24
+## ISAIAH 24
 **1** Behold, the LORD maketh the earth empty, and maketh it waste, and turneth it upside down, and scattereth abroad the inhabitants thereof.
 **2** And it shall be, as with the people, so with the priest; as with the servant, so with his master; as with the maid, so with her mistress; as with the buyer, so with the seller; as with the lender, so with the borrower; as with the taker of usury, so with the giver of usury to him.
 **3** The land shall be utterly emptied, and utterly spoiled: for the LORD hath spoken this word.
@@ -519,7 +519,7 @@ weight: 23
 **22** And they shall be gathered together, as prisoners are gathered in the pit, and shall be shut up in the prison, and after many days shall they be visited.
 **23** Then the moon shall be confounded, and the sun ashamed, when the LORD of hosts shall reign in mount Zion, and in Jerusalem, and before his ancients gloriously.
 
-## CHAPTER 25
+## ISAIAH 25
 **1** O LORD, thou art my God; I will exalt thee, I will praise thy name; for thou hast done wonderful things; thy counsels of old are faithfulness and truth.
 **2** For thou hast made of a city an heap; of a defenced city a ruin: a palace of strangers to be no city; it shall never be built.
 **3** Therefore shall the strong people glorify thee, the city of the terrible nations shall fear thee.
@@ -533,7 +533,7 @@ weight: 23
 **11** And he shall spread forth his hands in the midst of them, as he that swimmeth spreadeth forth his hands to swim: and he shall bring down their pride together with the spoils of their hands.
 **12** And the fortress of the high fort of thy walls shall he bring down, lay low, and bring to the ground, even to the dust.
 
-## CHAPTER 26
+## ISAIAH 26
 **1** In that day shall this song be sung in the land of Judah; We have a strong city; salvation will God appoint for walls and bulwarks.
 **2** Open ye the gates, that the righteous nation which keepeth the truth may enter in.
 **3** Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee.
@@ -556,7 +556,7 @@ weight: 23
 **20** Come, my people, enter thou into thy chambers, and shut thy doors about thee: hide thyself as it were for a little moment, until the indignation be overpast.
 **21** For, behold, the LORD cometh out of his place to punish the inhabitants of the earth for their iniquity: the earth also shall disclose her blood, and shall no more cover her slain.
 
-## CHAPTER 27
+## ISAIAH 27
 **1** In that day the LORD with his sore and great and strong sword shall punish leviathan the piercing serpent, even leviathan that crooked serpent; and he shall slay the dragon that is in the sea.
 **2** In that day sing ye unto her, A vineyard of red wine.
 **3** I the LORD do keep it; I will water it every moment: lest any hurt it, I will keep it night and day.
@@ -571,7 +571,7 @@ weight: 23
 **12** And it shall come to pass in that day, that the LORD shall beat off from the channel of the river unto the stream of Egypt, and ye shall be gathered one by one, O ye children of Israel.
 **13** And it shall come to pass in that day, that the great trumpet shall be blown, and they shall come which were ready to perish in the land of Assyria, and the outcasts in the land of Egypt, and shall worship the LORD in the holy mount at Jerusalem.
 
-## CHAPTER 28
+## ISAIAH 28
 **1** Woe to the crown of pride, to the drunkards of Ephraim, whose glorious beauty is a fading flower, which are on the head of the fat valleys of them that are overcome with wine!
 **2** Behold, the Lord hath a mighty and strong one, which as a tempest of hail and a destroying storm, as a flood of mighty waters overflowing, shall cast down to the earth with the hand.
 **3** The crown of pride, the drunkards of Ephraim, shall be trodden under feet:
@@ -602,7 +602,7 @@ weight: 23
 **28** Bread corn is bruised; because he will not ever be threshing it, nor break it with the wheel of his cart, nor bruise it with his horsemen.
 **29** This also cometh forth from the LORD of hosts, which is wonderful in counsel, and excellent in working.
 
-## CHAPTER 29
+## ISAIAH 29
 **1** Woe to Ariel, to Ariel, the city where David dwelt! add ye year to year; let them kill sacrifices.
 **2** Yet I will distress Ariel, and there shall be heaviness and sorrow: and it shall be unto me as Ariel.
 **3** And I will camp against thee round about, and will lay siege against thee with a mount, and I will raise forts against thee.
@@ -628,7 +628,7 @@ weight: 23
 **23** But when he seeth his children, the work of mine hands, in the midst of him, they shall sanctify my name, and sanctify the Holy One of Jacob, and shall fear the God of Israel.
 **24** They also that erred in spirit shall come to understanding, and they that murmured shall learn doctrine.
 
-## CHAPTER 30
+## ISAIAH 30
 **1** Woe to the rebellious children, saith the LORD, that take counsel, but not of me; and that cover with a covering, but not of my spirit, that they may add sin to sin:
 **2** That walk to go down into Egypt, and have not asked at my mouth; to strengthen themselves in the strength of Pharaoh, and to trust in the shadow of Egypt!
 **3** Therefore shall the strength of Pharaoh be your shame, and the trust in the shadow of Egypt your confusion.
@@ -663,7 +663,7 @@ weight: 23
 **32** And in every place where the grounded staff shall pass, which the LORD shall lay upon him, it shall be with tabrets and harps: and in battles of shaking will he fight with it.
 **33** For Tophet is ordained of old; yea, for the king it is prepared; he hath made it deep and large: the pile thereof is fire and much wood; the breath of the LORD, like a stream of brimstone, doth kindle it.
 
-## CHAPTER 31
+## ISAIAH 31
 **1** Woe to them that go down to Egypt for help; and stay on horses, and trust in chariots, because they are many; and in horsemen, because they are very strong; but they look not unto the Holy One of Israel, neither seek the LORD!
 **2** Yet he also is wise, and will bring evil, and will not call back his words: but will arise against the house of the evildoers, and against the help of them that work iniquity.
 **3** Now the Egyptians are men, and not God; and their horses flesh, and not spirit. When the LORD shall stretch out his hand, both he that helpeth shall fall, and he that is holpen shall fall down, and they all shall fail together.
@@ -674,7 +674,7 @@ weight: 23
 **8** Then shall the Assyrian fall with the sword, not of a mighty man; and the sword, not of a mean man, shall devour him: but he shall flee from the sword, and his young men shall be discomfited.
 **9** And he shall pass over to his strong hold for fear, and his princes shall be afraid of the ensign, saith the LORD, whose fire is in Zion, and his furnace in Jerusalem.
 
-## CHAPTER 32
+## ISAIAH 32
 **1** Behold, a king shall reign in righteousness, and princes shall rule in judgment.
 **2** And a man shall be as an hiding place from the wind, and a covert from the tempest; as rivers of water in a dry place, as the shadow of a great rock in a weary land.
 **3** And the eyes of them that see shall not be dim, and the ears of them that hear shall hearken.
@@ -696,7 +696,7 @@ weight: 23
 **19** When it shall hail, coming down on the forest; and the city shall be low in a low place.
 **20** Blessed are ye that sow beside all waters, that send forth thither the feet of the ox and the ass.
 
-## CHAPTER 33
+## ISAIAH 33
 **1** Woe to thee that spoilest, and thou wast not spoiled; and dealest treacherously, and they dealt not treacherously with thee! when thou shalt cease to spoil, thou shalt be spoiled; and when thou shalt make an end to deal treacherously, they shall deal treacherously with thee.
 **2** O LORD, be gracious unto us; we have waited for thee: be thou their arm every morning, our salvation also in the time of trouble.
 **3** At the noise of the tumult the people fled; at the lifting up of thyself the nations were scattered.
@@ -722,7 +722,7 @@ weight: 23
 **23** Thy tacklings are loosed; they could not well strengthen their mast, they could not spread the sail: then is the prey of a great spoil divided; the lame take the prey.
 **24** And the inhabitant shall not say, I am sick: the people that dwell therein shall be forgiven their iniquity.
 
-## CHAPTER 34
+## ISAIAH 34
 **1** Come near, ye nations, to hear; and hearken, ye people: let the earth hear, and all that is therein; the world, and all things that come forth of it.
 **2** For the indignation of the LORD is upon all nations, and his fury upon all their armies: he hath utterly destroyed them, he hath delivered them to the slaughter.
 **3** Their slain also shall be cast out, and their stink shall come up out of their carcases, and the mountains shall be melted with their blood.
@@ -741,7 +741,7 @@ weight: 23
 **16** Seek ye out of the book of the LORD, and read: no one of these shall fail, none shall want her mate: for my mouth it hath commanded, and his spirit it hath gathered them.
 **17** And he hath cast the lot for them, and his hand hath divided it unto them by line: they shall possess it for ever, from generation to generation shall they dwell therein.
 
-## CHAPTER 35
+## ISAIAH 35
 **1** The wilderness and the solitary place shall be glad for them; and the desert shall rejoice, and blossom as the rose.
 **2** It shall blossom abundantly, and rejoice even with joy and singing: the glory of Lebanon shall be given unto it, the excellency of Carmel and Sharon, they shall see the glory of the LORD, and the excellency of our God.
 **3** Strengthen ye the weak hands, and confirm the feeble knees.
@@ -753,7 +753,7 @@ weight: 23
 **9** No lion shall be there, nor any ravenous beast shall go up thereon, it shall not be found there; but the redeemed shall walk there:
 **10** And the ransomed of the LORD shall return, and come to Zion with songs and everlasting joy upon their heads: they shall obtain joy and gladness, and sorrow and sighing shall flee away.
 
-## CHAPTER 36
+## ISAIAH 36
 **1** Now it came to pass in the fourteenth year of king Hezekiah, that Sennacherib king of Assyria came up against all the defenced cities of Judah, and took them.
 **2** And the king of Assyria sent Rabshakeh from Lachish to Jerusalem unto king Hezekiah with a great army. And he stood by the conduit of the upper pool in the highway of the fuller's field.
 **3** Then came forth unto him Eliakim, Hilkiah's son, which was over the house, and Shebna the scribe, and Joah, Asaph's son, the recorder.
@@ -777,7 +777,7 @@ weight: 23
 **21** But they held their peace, and answered him not a word: for the king's commandment was, saying, Answer him not.
 **22** Then came Eliakim, the son of Hilkiah, that was over the household, and Shebna the scribe, and Joah, the son of Asaph, the recorder, to Hezekiah with their clothes rent, and told him the words of Rabshakeh.
 
-## CHAPTER 37
+## ISAIAH 37
 **1** And it came to pass, when king Hezekiah heard it, that he rent his clothes, and covered himself with sackcloth, and went into the house of the LORD.
 **2** And he sent Eliakim, who was over the household, and Shebna the scribe, and the elders of the priests covered with sackcloth, unto Isaiah the prophet the son of Amoz.
 **3** And they said unto him, Thus saith Hezekiah, This day is a day of trouble, and of rebuke, and of blasphemy: for the children are come to the birth, and there is not strength to bring forth.
@@ -817,7 +817,7 @@ weight: 23
 **37** So Sennacherib king of Assyria departed, and went and returned, and dwelt at Nineveh.
 **38** And it came to pass, as he was worshipping in the house of Nisroch his god, that Adrammelech and Sharezer his sons smote him with the sword; and they escaped into the land of Armenia: and Esar-haddon his son reigned in his stead.
 
-## CHAPTER 38
+## ISAIAH 38
 **1** In those days was Hezekiah sick unto death. And Isaiah the prophet the son of Amoz came unto him, and said unto him, Thus saith the LORD, Set thine house in order: for thou shalt die, and not live.
 **2** Then Hezekiah turned his face toward the wall, and prayed unto the LORD,
 **3** And said, Remember now, O LORD, I beseech thee, how I have walked before thee in truth and with a perfect heart, and have done that which is good in thy sight. And Hezekiah wept sore.
@@ -841,7 +841,7 @@ weight: 23
 **21** For Isaiah had said, Let them take a lump of figs, and lay it for a plaister upon the boil, and he shall recover.
 **22** Hezekiah also had said, What is the sign that I shall go up to the house of the LORD?
 
-## CHAPTER 39
+## ISAIAH 39
 **1** At that time Merodach-baladan, the son of Baladan, king of Babylon, sent letters and a present to Hezekiah: for he had heard that he had been sick, and was recovered.
 **2** And Hezekiah was glad of them, and shewed them the house of his precious things, the silver, and the gold, and the spices, and the precious ointment, and all the house of his armour, and all that was found in his treasures: there was nothing in his house, nor in all his dominion, that Hezekiah shewed them not.
 **3** Then came Isaiah the prophet unto king Hezekiah, and said unto him, What said these men? and from whence came they unto thee? And Hezekiah said, They are come from a far country unto me, even from Babylon.
@@ -851,7 +851,7 @@ weight: 23
 **7** And of thy sons that shall issue from thee, which thou shalt beget, shall they take away; and they shall be eunuchs in the palace of the king of Babylon.
 **8** Then said Hezekiah to Isaiah, Good is the word of the LORD which thou hast spoken. He said moreover, For there shall be peace and truth in my days.
 
-## CHAPTER 40
+## ISAIAH 40
 **1** Comfort ye, comfort ye my people, saith your God.
 **2** Speak ye comfortably to Jerusalem, and cry unto her, that her warfare is accomplished, that her iniquity is pardoned: for she hath received of the LORD'S hand double for all her sins.
 **3** The voice of him that crieth in the wilderness, Prepare ye the way of the LORD, make straight in the desert a highway for our God.
@@ -884,7 +884,7 @@ weight: 23
 **30** Even the youths shall faint and be weary, and the young men shall utterly fall:
 **31** But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.
 
-## CHAPTER 41
+## ISAIAH 41
 **1** Keep silence before me, O islands; and let the people renew their strength: let them come near; then let them speak: let us come near together to judgment.
 **2** Who raised up the righteous man from the east, called him to his foot, gave the nations before him, and made him rule over kings? he gave them as the dust to his sword, and as driven stubble to his bow.
 **3** He pursued them, and passed safely; even by the way that he had not gone with his feet.
@@ -915,7 +915,7 @@ weight: 23
 **28** For I beheld, and there was no man; even among them, and there was no counsellor, that, when I asked of them, could answer a word.
 **29** Behold, they are all vanity; their works are nothing: their molten images are wind and confusion.
 
-## CHAPTER 42
+## ISAIAH 42
 **1** Behold my servant, whom I uphold; mine elect, in whom my soul delighteth; I have put my spirit upon him: he shall bring forth judgment to the Gentiles.
 **2** He shall not cry, nor lift up, nor cause his voice to be heard in the street.
 **3** A bruised reed shall he not break, and the smoking flax shall he not quench: he shall bring forth judgment unto truth.
@@ -942,7 +942,7 @@ weight: 23
 **24** Who gave Jacob for a spoil, and Israel to the robbers? did not the LORD, he against whom we have sinned? for they would not walk in his ways, neither were they obedient unto his law.
 **25** Therefore he hath poured upon him the fury of his anger, and the strength of battle: and it hath set him on fire round about, yet he knew not; and it burned him, yet he laid it not to heart.
 
-## CHAPTER 43
+## ISAIAH 43
 **1** But now thus saith the LORD that created thee, O Jacob, and he that formed thee, O Israel, Fear not: for I have redeemed thee, I have called thee by thy name; thou art mine.
 **2** When thou passest through the waters, I will be with thee; and through the rivers, they shall not overflow thee: when thou walkest through the fire, thou shalt not be burned; neither shall the flame kindle upon thee.
 **3** For I am the LORD thy God, the Holy One of Israel, thy Saviour: I gave Egypt for thy ransom, Ethiopia and Seba for thee.
@@ -972,7 +972,7 @@ weight: 23
 **27** Thy first father hath sinned, and thy teachers have transgressed against me.
 **28** Therefore I have profaned the princes of the sanctuary, and have given Jacob to the curse, and Israel to reproaches.
 
-## CHAPTER 44
+## ISAIAH 44
 **1** Yet now hear, O Jacob my servant; and Israel, whom I have chosen:
 **2** Thus saith the LORD that made thee, and formed thee from the womb, which will help thee; Fear not, O Jacob, my servant; and thou, Jesurun, whom I have chosen.
 **3** For I will pour water upon him that is thirsty, and floods upon the dry ground: I will pour my spirit upon thy seed, and my blessing upon thine offspring:
@@ -1002,7 +1002,7 @@ weight: 23
 **27** That saith to the deep, Be dry, and I will dry up thy rivers:
 **28** That saith of Cyrus, He is my shepherd, and shall perform all my pleasure: even saying to Jerusalem, Thou shalt be built; and to the temple, Thy foundation shall be laid.
 
-## CHAPTER 45
+## ISAIAH 45
 **1** Thus saith the LORD to his anointed, to Cyrus, whose right hand I have holden, to subdue nations before him; and I will loose the loins of kings, to open before him the two leaved gates; and the gates shall not be shut;
 **2** I will go before thee, and make the crooked places straight: I will break in pieces the gates of brass, and cut in sunder the bars of iron:
 **3** And I will give thee the treasures of darkness, and hidden riches of secret places, that thou mayest know that I, the LORD, which call thee by thy name, am the God of Israel.
@@ -1029,7 +1029,7 @@ weight: 23
 **24** Surely, shall one say, in the LORD have I righteousness and strength: even to him shall men come; and all that are incensed against him shall be ashamed.
 **25** In the LORD shall all the seed of Israel be justified, and shall glory.
 
-## CHAPTER 46
+## ISAIAH 46
 **1** Bel boweth down, Nebo stoopeth, their idols were upon the beasts, and upon the cattle: your carriages were heavy loaden; they are a burden to the weary beast.
 **2** They stoop, they bow down together; they could not deliver the burden, but themselves are gone into captivity.
 **3** Hearken unto me, O house of Jacob, and all the remnant of the house of Israel, which are borne by me from the belly, which are carried from the womb:
@@ -1044,7 +1044,7 @@ weight: 23
 **12** Hearken unto me, ye stouthearted, that are far from righteousness:
 **13** I bring near my righteousness; it shall not be far off, and my salvation shall not tarry: and I will place salvation in Zion for Israel my glory.
 
-## CHAPTER 47
+## ISAIAH 47
 **1** Come down, and sit in the dust, O virgin daughter of Babylon, sit on the ground: there is no throne, O daughter of the Chaldeans: for thou shalt no more be called tender and delicate.
 **2** Take the millstones, and grind meal: uncover thy locks, make bare the leg, uncover the thigh, pass over the rivers.
 **3** Thy nakedness shall be uncovered, yea, thy shame shall be seen: I will take vengeance, and I will not meet thee as a man.
@@ -1061,7 +1061,7 @@ weight: 23
 **14** Behold, they shall be as stubble; the fire shall burn them; they shall not deliver themselves from the power of the flame: there shall not be a coal to warm at, nor fire to sit before it.
 **15** Thus shall they be unto thee with whom thou hast laboured, even thy merchants, from thy youth: they shall wander every one to his quarter; none shall save thee.
 
-## CHAPTER 48
+## ISAIAH 48
 **1** Hear ye this, O house of Jacob, which are called by the name of Israel, and are come forth out of the waters of Judah, which swear by the name of the LORD, and make mention of the God of Israel, but not in truth, nor in righteousness.
 **2** For they call themselves of the holy city, and stay themselves upon the God of Israel; The LORD of hosts is his name.
 **3** I have declared the former things from the beginning; and they went forth out of my mouth, and I shewed them; I did them suddenly, and they came to pass.
@@ -1085,7 +1085,7 @@ weight: 23
 **21** And they thirsted not when he led them through the deserts: he caused the waters to flow out of the rock for them: he clave the rock also, and the waters gushed out.
 **22** There is no peace, saith the LORD, unto the wicked.
 
-## CHAPTER 49
+## ISAIAH 49
 **1** Listen, O isles, unto me; and hearken, ye people, from far; The LORD hath called me from the womb; from the bowels of my mother hath he made mention of my name.
 **2** And he hath made my mouth like a sharp sword; in the shadow of his hand hath he hid me, and made me a polished shaft; in his quiver hath he hid me;
 **3** And said unto me, Thou art my servant, O Israel, in whom I will be glorified.
@@ -1113,7 +1113,7 @@ weight: 23
 **25** But thus saith the LORD, Even the captives of the mighty shall be taken away, and the prey of the terrible shall be delivered: for I will contend with him that contendeth with thee, and I will save thy children.
 **26** And I will feed them that oppress thee with their own flesh; and they shall be drunken with their own blood, as with sweet wine: and all flesh shall know that I the LORD am thy Saviour and thy Redeemer, the mighty One of Jacob.
 
-## CHAPTER 50
+## ISAIAH 50
 **1** Thus saith the LORD, Where is the bill of your mother's divorcement, whom I have put away? or which of my creditors is it to whom I have sold you? Behold, for your iniquities have ye sold yourselves, and for your transgressions is your mother put away.
 **2** Wherefore, when I came, was there no man? when I called, was there none to answer? Is my hand shortened at all, that it cannot redeem? or have I no power to deliver? behold, at my rebuke I dry up the sea, I make the rivers a wilderness: their fish stinketh, because there is no water, and dieth for thirst.
 **3** I clothe the heavens with blackness, and I make sackcloth their covering.
@@ -1126,7 +1126,7 @@ weight: 23
 **10** Who is among you that feareth the LORD, that obeyeth the voice of his servant, that walketh in darkness, and hath no light? let him trust in the name of the LORD, and stay upon his God.
 **11** Behold, all ye that kindle a fire, that compass yourselves about with sparks: walk in the light of your fire, and in the sparks that ye have kindled. This shall ye have of mine hand; ye shall lie down in sorrow.
 
-## CHAPTER 51
+## ISAIAH 51
 **1** Hearken to me, ye that follow after righteousness, ye that seek the LORD: look unto the rock whence ye are hewn, and to the hole of the pit whence ye are digged.
 **2** Look unto Abraham your father, and unto Sarah that bare you: for I called him alone, and blessed him, and increased him.
 **3** For the LORD shall comfort Zion: he will comfort all her waste places; and he will make her wilderness like Eden, and her desert like the garden of the LORD; joy and gladness shall be found therein, thanksgiving, and the voice of melody.
@@ -1151,7 +1151,7 @@ weight: 23
 **22** Thus saith thy Lord the LORD, and thy God that pleadeth the cause of his people, Behold, I have taken out of thine hand the cup of trembling, even the dregs of the cup of my fury; thou shalt no more drink it again:
 **23** But I will put it into the hand of them that afflict thee; which have said to thy soul, Bow down, that we may go over: and thou hast laid thy body as the ground, and as the street, to them that went over.
 
-## CHAPTER 52
+## ISAIAH 52
 **1** Awake, awake; put on thy strength, O Zion; put on thy beautiful garments, O Jerusalem, the holy city: for henceforth there shall no more come into thee the uncircumcised and the unclean.
 **2** Shake thyself from the dust; arise, and sit down, O Jerusalem: loose thyself from the bands of thy neck, O captive daughter of Zion.
 **3** For thus saith the LORD, Ye have sold yourselves for nought; and ye shall be redeemed without money.
@@ -1168,7 +1168,7 @@ weight: 23
 **14** As many were astonied at thee; his visage was so marred more than any man, and his form more than the sons of men:
 **15** So shall he sprinkle many nations; the kings shall shut their mouths at him: for that which had not been told them shall they see; and that which they had not heard shall they consider.
 
-## CHAPTER 53
+## ISAIAH 53
 **1** Who hath believed our report? and to whom is the arm of the LORD revealed?
 **2** For he shall grow up before him as a tender plant, and as a root out of a dry ground: he hath no form nor comeliness; and when we shall see him, there is no beauty that we should desire him.
 **3** He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not.
@@ -1182,7 +1182,7 @@ weight: 23
 **11** He shall see of the travail of his soul, and shall be satisfied: by his knowledge shall my righteous servant justify many; for he shall bear their iniquities.
 **12** Therefore will I divide him a portion with the great, and he shall divide the spoil with the strong; because he hath poured out his soul unto death: and he was numbered with the transgressors; and he bare the sin of many, and made intercession for the transgressors.
 
-## CHAPTER 54
+## ISAIAH 54
 **1** Sing, O barren, thou that didst not bear; break forth into singing, and cry aloud, thou that didst not travail with child: for more are the children of the desolate than the children of the married wife, saith the LORD.
 **2** Enlarge the place of thy tent, and let them stretch forth the curtains of thine habitations: spare not, lengthen thy cords, and strengthen thy stakes;
 **3** For thou shalt break forth on the right hand and on the left; and thy seed shall inherit the Gentiles, and make the desolate cities to be inhabited.
@@ -1201,7 +1201,7 @@ weight: 23
 **16** Behold, I have created the smith that bloweth the coals in the fire, and that bringeth forth an instrument for his work; and I have created the waster to destroy.
 **17** No weapon that is formed against thee shall prosper; and every tongue that shall rise against thee in judgment thou shalt condemn. This is the heritage of the servants of the LORD, and their righteousness is of me, saith the LORD.
 
-## CHAPTER 55
+## ISAIAH 55
 **1** Ho, every one that thirsteth, come ye to the waters, and he that hath no money; come ye, buy, and eat; yea, come, buy wine and milk without money and without price.
 **2** Wherefore do ye spend money for that which is not bread? and your labour for that which satisfieth not? hearken diligently unto me, and eat ye that which is good, and let your soul delight itself in fatness.
 **3** Incline your ear, and come unto me: hear, and your soul shall live; and I will make an everlasting covenant with you, even the sure mercies of David.
@@ -1216,7 +1216,7 @@ weight: 23
 **12** For ye shall go out with joy, and be led forth with peace: the mountains and the hills shall break forth before you into singing, and all the trees of the field shall clap their hands.
 **13** Instead of the thorn shall come up the fir tree, and instead of the brier shall come up the myrtle tree: and it shall be to the LORD for a name, for an everlasting sign that shall not be cut off.
 
-## CHAPTER 56
+## ISAIAH 56
 **1** Thus saith the LORD, Keep ye judgment, and do justice: for my salvation is near to come, and my righteousness to be revealed.
 **2** Blessed is the man that doeth this, and the son of man that layeth hold on it; that keepeth the sabbath from polluting it, and keepeth his hand from doing any evil.
 **3** Neither let the son of the stranger, that hath joined himself to the LORD, speak, saying, The LORD hath utterly separated me from his people: neither let the eunuch say, Behold, I am a dry tree.
@@ -1230,7 +1230,7 @@ weight: 23
 **11** Yea, they are greedy dogs which can never have enough, and they are shepherds that cannot understand: they all look to their own way, every one for his gain, from his quarter.
 **12** Come ye, say they, I will fetch wine, and we will fill ourselves with strong drink; and to morrow shall be as this day, and much more abundant.
 
-## CHAPTER 57
+## ISAIAH 57
 **1** The righteous perisheth, and no man layeth it to heart: and merciful men are taken away, none considering that the righteous is taken away from the evil to come.
 **2** He shall enter into peace: they shall rest in their beds, each one walking in his uprightness.
 **3** But draw near hither, ye sons of the sorceress, the seed of the adulterer and the whore.
@@ -1253,7 +1253,7 @@ weight: 23
 **20** But the wicked are like the troubled sea, when it cannot rest, whose waters cast up mire and dirt.
 **21** There is no peace, saith my God, to the wicked.
 
-## CHAPTER 58
+## ISAIAH 58
 **1** Cry aloud, spare not, lift up thy voice like a trumpet, and shew my people their transgression, and the house of Jacob their sins.
 **2** Yet they seek me daily, and delight to know my ways, as a nation that did righteousness, and forsook not the ordinance of their God: they ask of me the ordinances of justice; they take delight in approaching to God.
 **3** Wherefore have we fasted, say they, and thou seest not? wherefore have we afflicted our soul, and thou takest no knowledge? Behold, in the day of your fast ye find pleasure, and exact all your labours.
@@ -1269,7 +1269,7 @@ weight: 23
 **13** If thou turn away thy foot from the sabbath, from doing thy pleasure on my holy day; and call the sabbath a delight, the holy of the LORD, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words:
 **14** Then shalt thou delight thyself in the LORD; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of the LORD hath spoken it.
 
-## CHAPTER 59
+## ISAIAH 59
 **1** Behold, the LORD'S hand is not shortened, that it cannot save; neither his ear heavy, that it cannot hear:
 **2** But your iniquities have separated between you and your God, and your sins have hid his face from you, that he will not hear.
 **3** For your hands are defiled with blood, and your fingers with iniquity; your lips have spoken lies, your tongue hath muttered perverseness.
@@ -1292,7 +1292,7 @@ weight: 23
 **20** And the Redeemer shall come to Zion, and unto them that turn from transgression in Jacob, saith the LORD.
 **21** As for me, this is my covenant with them, saith the LORD; My spirit that is upon thee, and my words which I have put in thy mouth, shall not depart out of thy mouth, nor out of the mouth of thy seed, nor out of the mouth of thy seed's seed, saith the LORD, from henceforth and for ever.
 
-## CHAPTER 60
+## ISAIAH 60
 **1** Arise, shine; for thy light is come, and the glory of the LORD is risen upon thee.
 **2** For, behold, the darkness shall cover the earth, and gross darkness the people: but the LORD shall arise upon thee, and his glory shall be seen upon thee.
 **3** And the Gentiles shall come to thy light, and kings to the brightness of thy rising.
@@ -1316,7 +1316,7 @@ weight: 23
 **21** Thy people also shall be all righteous: they shall inherit the land for ever, the branch of my planting, the work of my hands, that I may be glorified.
 **22** A little one shall become a thousand, and a small one a strong nation: I the LORD will hasten it in his time.
 
-## CHAPTER 61
+## ISAIAH 61
 **1** The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek; he hath sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to them that are bound;
 **2** To proclaim the acceptable year of the LORD, and the day of vengeance of our God; to comfort all that mourn;
 **3** To appoint unto them that mourn in Zion, to give unto them beauty for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness; that they might be called trees of righteousness, the planting of the LORD, that he might be glorified.
@@ -1329,7 +1329,7 @@ weight: 23
 **10** I will greatly rejoice in the LORD, my soul shall be joyful in my God; for he hath clothed me with the garments of salvation, he hath covered me with the robe of righteousness, as a bridegroom decketh himself with ornaments, and as a bride adorneth herself with her jewels.
 **11** For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations.
 
-## CHAPTER 62
+## ISAIAH 62
 **1** For Zion's sake will I not hold my peace, and for Jerusalem's sake I will not rest, until the righteousness thereof go forth as brightness, and the salvation thereof as a lamp that burneth.
 **2** And the Gentiles shall see thy righteousness, and all kings thy glory: and thou shalt be called by a new name, which the mouth of the LORD shall name.
 **3** Thou shalt also be a crown of glory in the hand of the LORD, and a royal diadem in the hand of thy God.
@@ -1343,7 +1343,7 @@ weight: 23
 **11** Behold, the LORD hath proclaimed unto the end of the world, Say ye to the daughter of Zion, Behold, thy salvation cometh; behold, his reward is with him, and his work before him.
 **12** And they shall call them, The holy people, The redeemed of the LORD: and thou shalt be called, Sought out, A city not forsaken.
 
-## CHAPTER 63
+## ISAIAH 63
 **1** Who is this that cometh from Edom, with dyed garments from Bozrah? this that is glorious in his apparel, travelling in the greatness of his strength? I that speak in righteousness, mighty to save.
 **2** Wherefore art thou red in thine apparel, and thy garments like him that treadeth in the winefat?
 **3** I have trodden the winepress alone; and of the people there was none with me: for I will tread them in mine anger, and trample them in my fury; and their blood shall be sprinkled upon my garments, and I will stain all my raiment.
@@ -1364,7 +1364,7 @@ weight: 23
 **18** The people of thy holiness have possessed it but a little while: our adversaries have trodden down thy sanctuary.
 **19** We are thine: thou never barest rule over them; they were not called by thy name.
 
-## CHAPTER 64
+## ISAIAH 64
 **1** Oh that thou wouldest rend the heavens, that thou wouldest come down, that the mountains might flow down at thy presence,
 **2** As when the melting fire burneth, the fire causeth the waters to boil, to make thy name known to thine adversaries, that the nations may tremble at thy presence!
 **3** When thou didst terrible things which we looked not for, thou camest down, the mountains flowed down at thy presence.
@@ -1378,7 +1378,7 @@ weight: 23
 **11** Our holy and our beautiful house, where our fathers praised thee, is burned up with fire: and all our pleasant things are laid waste.
 **12** Wilt thou refrain thyself for these things, O LORD? wilt thou hold thy peace, and afflict us very sore?
 
-## CHAPTER 65
+## ISAIAH 65
 **1** I am sought of them that asked not for me; I am found of them that sought me not: I said, Behold me, behold me, unto a nation that was not called by my name.
 **2** I have spread out my hands all the day unto a rebellious people, which walketh in a way that was not good, after their own thoughts;
 **3** A people that provoketh me to anger continually to my face; that sacrificeth in gardens, and burneth incense upon altars of brick;
@@ -1405,7 +1405,7 @@ weight: 23
 **24** And it shall come to pass, that before they call, I will answer; and while they are yet speaking, I will hear.
 **25** The wolf and the lamb shall feed together, and the lion shall eat straw like the bullock: and dust shall be the serpent's meat. They shall not hurt nor destroy in all my holy mountain, saith the LORD.
 
-## CHAPTER 66
+## ISAIAH 66
 **1** Thus saith the LORD, The heaven is my throne, and the earth is my footstool: where is the house that ye build unto me? and where is the place of my rest?
 **2** For all those things hath mine hand made, and all those things have been, saith the LORD: but to this man will I look, even to him that is poor and of a contrite spirit, and trembleth at my word.
 **3** He that killeth an ox is as if he slew a man; he that sacrificeth a lamb, as if he cut off a dog's neck; he that offereth an oblation, as if he offered swine's blood; he that burneth incense, as if he blessed an idol. Yea, they have chosen their own ways, and their soul delighteth in their abominations.

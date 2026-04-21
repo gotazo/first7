@@ -7,7 +7,7 @@ weight: 11
 ## PHILIPPIANS
 
 
-## CHAPTER 1
+## PHILIPPIANS 1
 **1** Paul and Timotheus, the servants of Jesus Christ, to all the saints in Christ Jesus which are at Philippi, with the bishops and deacons:
 **2** Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ.
 **3** I thank my God upon every remembrance of you,
@@ -39,7 +39,7 @@ weight: 11
 **29** For unto you it is given in the behalf of Christ, not only to believe on him, but also to suffer for his sake;
 **30** Having the same conflict which ye saw in me, and now hear to be in me.
 
-## CHAPTER 2
+## PHILIPPIANS 2
 **1** If there be therefore any consolation in Christ, if any comfort of love, if any fellowship of the Spirit, if any bowels and mercies,
 **2** Fulfil ye my joy, that ye be likeminded, having the same love, being of one accord, of one mind.
 **3** Let nothing be done through strife or vainglory; but in lowliness of mind let each esteem other better than themselves.
@@ -71,7 +71,7 @@ weight: 11
 **29** Receive him therefore in the Lord with all gladness; and hold such in reputation:
 **30** Because for the work of Christ he was nigh unto death, not regarding his life, to supply your lack of service toward me.
 
-## CHAPTER 3
+## PHILIPPIANS 3
 **1** Finally, my brethren, rejoice in the Lord. To write the same things to you, to me indeed is not grievous, but for you it is safe.
 **2** Beware of dogs, beware of evil workers, beware of the concision.
 **3** For we are the circumcision, which worship God in the spirit, and rejoice in Christ Jesus, and have no confidence in the flesh.
@@ -94,7 +94,7 @@ weight: 11
 **20** For our conversation is in heaven; from whence also we look for the Saviour, the Lord Jesus Christ:
 **21** Who shall change our vile body, that it may be fashioned like unto his glorious body, according to the working whereby he is able even to subdue all things unto himself.
 
-## CHAPTER 4
+## PHILIPPIANS 4
 **1** Therefore, my brethren dearly beloved and longed for, my joy and crown, so stand fast in the Lord, my dearly beloved.
 **2** I beseech Euodias, and beseech Syntyche, that they be of the same mind in the Lord.
 **3** And I intreat thee also, true yokefellow, help those women which laboured with me in the gospel, with Clement also, and with other my fellowlabourers, whose names are in the book of life.

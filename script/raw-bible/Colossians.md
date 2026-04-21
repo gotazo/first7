@@ -7,7 +7,7 @@ weight: 12
 ## COLOSSIANS
 
 
-## CHAPTER 1
+## COLOSSIANS 1
 **1** Paul, an apostle of Jesus Christ by the will of God, and Timotheus our brother,
 **2** To the saints and faithful brethren in Christ which are at Colosse: Grace be unto you, and peace, from God our Father and the Lord Jesus Christ.
 **3** We give thanks to God and the Father of our Lord Jesus Christ, praying always for you,
@@ -38,7 +38,7 @@ weight: 12
 **28** Whom we preach, warning every man, and teaching every man in all wisdom; that we may present every man perfect in Christ Jesus:
 **29** Whereunto I also labour, striving according to his working, which worketh in me mightily.
 
-## CHAPTER 2
+## COLOSSIANS 2
 **1** For I would that ye knew what great conflict I have for you, and for them at Laodicea, and for as many as have not seen my face in the flesh;
 **2** That their hearts might be comforted, being knit together in love, and unto all riches of the full assurance of understanding, to the acknowledgement of the mystery of God, and of the Father, and of Christ;
 **3** In whom are hid all the treasures of wisdom and knowledge.
@@ -63,7 +63,7 @@ weight: 12
 **22** Which all are to perish with the using;) after the commandments and doctrines of men?
 **23** Which things have indeed a shew of wisdom in will worship, and humility, and neglecting of the body; not in any honour to the satisfying of the flesh.
 
-## CHAPTER 3
+## COLOSSIANS 3
 **1** If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God.
 **2** Set your affection on things above, not on things on the earth.
 **3** For ye are dead, and your life is hid with Christ in God.
@@ -90,7 +90,7 @@ weight: 12
 **24** Knowing that of the Lord ye shall receive the reward of the inheritance: for ye serve the Lord Christ.
 **25** But he that doeth wrong shall receive for the wrong which he hath done: and there is no respect of persons.
 
-## CHAPTER 4
+## COLOSSIANS 4
 **1** Masters, give unto your servants that which is just and equal; knowing that ye also have a Master in heaven.
 **2** Continue in prayer, and watch in the same with thanksgiving;
 **3** Withal praying also for us, that God would open unto us a door of utterance, to speak the mystery of Christ, for which I am also in bonds:

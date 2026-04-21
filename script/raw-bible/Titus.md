@@ -7,7 +7,7 @@ weight: 17
 ## TITUS
 
 
-## CHAPTER 1
+## TITUS 1
 **1** Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of God's elect, and the acknowledging of the truth which is after godliness;
 **2** In hope of eternal life, which God, that cannot lie, promised before the world began;
 **3** But hath in due times manifested his word through preaching, which is committed unto me according to the commandment of God our Saviour;
@@ -25,7 +25,7 @@ weight: 17
 **15** Unto the pure all things are pure: but unto them that are defiled and unbelieving is nothing pure; but even their mind and conscience is defiled.
 **16** They profess that they know God; but in works they deny him, being abominable, and disobedient, and unto every good work reprobate.
 
-## CHAPTER 2
+## TITUS 2
 **1** But speak thou the things which become sound doctrine:
 **2** That the aged men be sober, grave, temperate, sound in faith, in charity, in patience.
 **3** The aged women likewise, that they be in behaviour as becometh holiness, not false accusers, not given to much wine, teachers of good things;
@@ -42,7 +42,7 @@ weight: 17
 **14** Who gave himself for us, that he might redeem us from all iniquity, and purify unto himself a peculiar people, zealous of good works.
 **15** These things speak, and exhort, and rebuke with all authority. Let no man despise thee.
 
-## CHAPTER 3
+## TITUS 3
 **1** Put them in mind to be subject to principalities and powers, to obey magistrates, to be ready to every good work,
 **2** To speak evil of no man, to be no brawlers, but gentle, shewing all meekness unto all men.
 **3** For we ourselves also were sometimes foolish, disobedient, deceived, serving divers lusts and pleasures, living in malice and envy, hateful, and hating one another.

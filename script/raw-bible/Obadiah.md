@@ -6,7 +6,7 @@ weight: 31
 ## OBADIAH
 
 
-## CHAPTER 1
+## OBADIAH 1
 **1** The vision of Obadiah. Thus saith the Lord GOD concerning Edom; We have heard a rumour from the LORD, and an ambassador is sent among the heathen, Arise ye, and let us rise up against her in battle.
 **2** Behold, I have made thee small among the heathen: thou art greatly despised.
 **3** The pride of thine heart hath deceived thee, thou that dwellest in the clefts of the rock, whose habitation is high; that saith in his heart, Who shall bring me down to the ground?

@@ -7,7 +7,7 @@ weight: 15
 ## TIMOTHY
 
 
-## CHAPTER 1
+## 1 TIMOTHY 1
 **1** Paul, an apostle of Jesus Christ by the commandment of God our Saviour, and Lord Jesus Christ, which is our hope;
 **2** Unto Timothy, my own son in the faith: Grace, mercy, and peace, from God our Father and Jesus Christ our Lord.
 **3** As I besought thee to abide still at Ephesus, when I went into Macedonia, that thou mightest charge some that they teach no other doctrine,
@@ -29,7 +29,7 @@ weight: 15
 **19** Holding faith, and a good conscience; which some having put away concerning faith have made shipwreck:
 **20** Of whom is Hymenaeus and Alexander; whom I have delivered unto Satan, that they may learn not to blaspheme.
 
-## CHAPTER 2
+## 1 TIMOTHY 2
 **1** I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men;
 **2** For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty.
 **3** For this is good and acceptable in the sight of God our Saviour;
@@ -46,7 +46,7 @@ weight: 15
 **14** And Adam was not deceived, but the woman being deceived was in the transgression.
 **15** Notwithstanding she shall be saved in childbearing, if they continue in faith and charity and holiness with sobriety.
 
-## CHAPTER 3
+## 1 TIMOTHY 3
 **1** This is a true saying, If a man desire the office of a bishop, he desireth a good work.
 **2** A bishop then must be blameless, the husband of one wife, vigilant, sober, of good behaviour, given to hospitality, apt to teach;
 **3** Not given to wine, no striker, not greedy of filthy lucre; but patient, not a brawler, not covetous;
@@ -64,7 +64,7 @@ weight: 15
 **15** But if I tarry long, that thou mayest know how thou oughtest to behave thyself in the house of God, which is the church of the living God, the pillar and ground of the truth.
 **16** And without controversy great is the mystery of godliness: God was manifest in the flesh, justified in the Spirit, seen of angels, preached unto the Gentiles, believed on in the world, received up into glory.
 
-## CHAPTER 4
+## 1 TIMOTHY 4
 **1** Now the Spirit speaketh expressly, that in the latter times some shall depart from the faith, giving heed to seducing spirits, and doctrines of devils;
 **2** Speaking lies in hypocrisy; having their conscience seared with a hot iron;
 **3** Forbidding to marry, and commanding to abstain from meats, which God hath created to be received with thanksgiving of them which believe and know the truth.
@@ -82,7 +82,7 @@ weight: 15
 **15** Meditate upon these things; give thyself wholly to them; that thy profiting may appear to all.
 **16** Take heed unto thyself, and unto the doctrine; continue in them: for in doing this thou shalt both save thyself, and them that hear thee.
 
-## CHAPTER 5
+## 1 TIMOTHY 5
 **1** Rebuke not an elder, but intreat him as a father; and the younger men as brethren;
 **2** The elder women as mothers; the younger as sisters, with all purity.
 **3** Honour widows that are widows indeed.
@@ -109,7 +109,7 @@ weight: 15
 **24** Some men's sins are open beforehand, going before to judgment; and some men they follow after.
 **25** Likewise also the good works of some are manifest beforehand; and they that are otherwise cannot be hid.
 
-## CHAPTER 6
+## 1 TIMOTHY 6
 **1** Let as many servants as are under the yoke count their own masters worthy of all honour, that the name of God and his doctrine be not blasphemed.
 **2** And they that have believing masters, let them not despise them, because they are brethren; but rather do them service, because they are faithful and beloved, partakers of the benefit. These things teach and exhort.
 **3** If any man teach otherwise, and consent not to wholesome words, even the words of our Lord Jesus Christ, and to the doctrine which is according to godliness;
@@ -132,7 +132,7 @@ weight: 15
 **20** O Timothy, keep that which is committed to thy trust, avoiding profane and vain babblings, and oppositions of science falsely so called:
 **21** Which some professing have erred concerning the faith. Grace be with thee. Amen.
 The first to Timothy was written from Laodicea, which is the chiefest city of Phrygia Pacatiana.
-1 TIMOTHY
+**1** TIMOTHY
 
 
 

@@ -7,7 +7,7 @@ weight: 17
 ## ESTHER
 
 
-## CHAPTER 1
+## ESTHER 1
 **1** Now it came to pass in the days of Ahasuerus, (this is Ahasuerus which reigned, from India even unto Ethiopia, over an hundred and seven and twenty provinces:)
 **2** That in those days, when the king Ahasuerus sat on the throne of his kingdom, which was in Shushan the palace,
 **3** In the third year of his reign, he made a feast unto all his princes and his servants; the power of Persia and Media, the nobles and princes of the provinces, being before him:
@@ -31,7 +31,7 @@ weight: 17
 **21** And the saying pleased the king and the princes; and the king did according to the word of Memucan:
 **22** For he sent letters into all the king's provinces, into every province according to the writing thereof, and to every people after their language, that every man should bear rule in his own house, and that it should be published according to the language of every people.
 
-## CHAPTER 2
+## ESTHER 2
 **1** After these things, when the wrath of king Ahasuerus was appeased, he remembered Vashti, and what she had done, and what was decreed against her.
 **2** Then said the king's servants that ministered unto him, Let there be fair young virgins sought for the king:
 **3** And let the king appoint officers in all the provinces of his kingdom, that they may gather together all the fair young virgins unto Shushan the palace, to the house of the women, unto the custody of Hege the king's chamberlain, keeper of the women; and let their things for purification be given them:
@@ -56,7 +56,7 @@ weight: 17
 **22** And the thing was known to Mordecai, who told it unto Esther the queen; and Esther certified the king thereof in Mordecai's name.
 **23** And when inquisition was made of the matter, it was found out; therefore they were both hanged on a tree: and it was written in the book of the chronicles before the king.
 
-## CHAPTER 3
+## ESTHER 3
 **1** After these things did king Ahasuerus promote Haman the son of Hammedatha the Agagite, and advanced him, and set his seat above all the princes that were with him.
 **2** And all the king's servants, that were in the king's gate, bowed, and reverenced Haman: for the king had so commanded concerning him. But Mordecai bowed not, nor did him reverence.
 **3** Then the king's servants, which were in the king's gate, said unto Mordecai, Why transgressest thou the king's commandment?
@@ -73,7 +73,7 @@ weight: 17
 **14** The copy of the writing for a commandment to be given in every province was published unto all people, that they should be ready against that day.
 **15** The posts went out, being hastened by the king's commandment, and the decree was given in Shushan the palace. And the king and Haman sat down to drink; but the city Shushan was perplexed.
 
-## CHAPTER 4
+## ESTHER 4
 **1** When Mordecai perceived all that was done, Mordecai rent his clothes, and put on sackcloth with ashes, and went out into the midst of the city, and cried with a loud and a bitter cry;
 **2** And came even before the king's gate: for none might enter into the king's gate clothed with sackcloth.
 **3** And in every province, whithersoever the king's commandment and his decree came, there was great mourning among the Jews, and fasting, and weeping, and wailing; and many lay in sackcloth and ashes.
@@ -92,7 +92,7 @@ weight: 17
 **16** Go, gather together all the Jews that are present in Shushan, and fast ye for me, and neither eat nor drink three days, night or day: I also and my maidens will fast likewise; and so will I go in unto the king, which is not according to the law: and if I perish, I perish.
 **17** So Mordecai went his way, and did according to all that Esther had commanded him.
 
-## CHAPTER 5
+## ESTHER 5
 **1** Now it came to pass on the third day, that Esther put on her royal apparel, and stood in the inner court of the king's house, over against the king's house: and the king sat upon his royal throne in the royal house, over against the gate of the house.
 **2** And it was so, when the king saw Esther the queen standing in the court, that she obtained favour in his sight: and the king held out to Esther the golden sceptre that was in his hand. So Esther drew near, and touched the top of the sceptre.
 **3** Then said the king unto her, What wilt thou, queen Esther? and what is thy request? it shall be even given thee to the half of the kingdom.
@@ -108,7 +108,7 @@ weight: 17
 **13** Yet all this availeth me nothing, so long as I see Mordecai the Jew sitting at the king's gate.
 **14** Then said Zeresh his wife and all his friends unto him, Let a gallows be made of fifty cubits high, and to morrow speak thou unto the king that Mordecai may be hanged thereon: then go thou in merrily with the king unto the banquet. And the thing pleased Haman; and he caused the gallows to be made.
 
-## CHAPTER 6
+## ESTHER 6
 **1** On that night could not the king sleep, and he commanded to bring the book of records of the chronicles; and they were read before the king.
 **2** And it was found written, that Mordecai had told of Bigthana and Teresh, two of the king's chamberlains, the keepers of the door, who sought to lay hand on the king Ahasuerus.
 **3** And the king said, What honour and dignity hath been done to Mordecai for this? Then said the king's servants that ministered unto him, There is nothing done for him.
@@ -124,7 +124,7 @@ weight: 17
 **13** And Haman told Zeresh his wife and all his friends every thing that had befallen him. Then said his wise men and Zeresh his wife unto him, If Mordecai be of the seed of the Jews, before whom thou hast begun to fall, thou shalt not prevail against him, but shalt surely fall before him.
 **14** And while they were yet talking with him, came the king's chamberlains, and hasted to bring Haman unto the banquet that Esther had prepared.
 
-## CHAPTER 7
+## ESTHER 7
 **1** So the king and Haman came to banquet with Esther the queen.
 **2** And the king said again unto Esther on the second day at the banquet of wine, What is thy petition, queen Esther? and it shall be granted thee: and what is thy request? and it shall be performed, even to the half of the kingdom.
 **3** Then Esther the queen answered and said, If I have found favour in thy sight, O king, and if it please the king, let my life be given me at my petition, and my people at my request:
@@ -136,7 +136,7 @@ weight: 17
 **9** And Harbonah, one of the chamberlains, said before the king, Behold also, the gallows fifty cubits high, which Haman had made for Mordecai, who had spoken good for the king, standeth in the house of Haman. Then the king said, Hang him thereon.
 **10** So they hanged Haman on the gallows that he had prepared for Mordecai. Then was the king's wrath pacified.
 
-## CHAPTER 8
+## ESTHER 8
 **1** On that day did the king Ahasuerus give the house of Haman the Jews' enemy unto Esther the queen. And Mordecai came before the king; for Esther had told what he was unto her.
 **2** And the king took off his ring, which he had taken from Haman, and gave it unto Mordecai. And Esther set Mordecai over the house of Haman.
 **3** And Esther spake yet again before the king, and fell down at his feet, and besought him with tears to put away the mischief of Haman the Agagite, and his device that he had devised against the Jews.
@@ -155,7 +155,7 @@ weight: 17
 **16** The Jews had light, and gladness, and joy, and honour.
 **17** And in every province, and in every city, whithersoever the king's commandment and his decree came, the Jews had joy and gladness, a feast and a good day. And many of the people of the land became Jews; for the fear of the Jews fell upon them.
 
-## CHAPTER 9
+## ESTHER 9
 **1** Now in the twelfth month, that is, the month Adar, on the thirteenth day of the same, when the king's commandment and his decree drew near to be put in execution, in the day that the enemies of the Jews hoped to have power over them, (though it was turned to the contrary, that the Jews had rule over them that hated them;)
 **2** The Jews gathered themselves together in their cities throughout all the provinces of the king Ahasuerus, to lay hand on such as sought their hurt: and no man could withstand them; for the fear of them fell upon all people.
 **3** And all the rulers of the provinces, and the lieutenants, and the deputies, and officers of the king, helped the Jews; because the fear of Mordecai fell upon them.
@@ -189,7 +189,7 @@ weight: 17
 **31** To confirm these days of Purim in their times appointed, according as Mordecai the Jew and Esther the queen had enjoined them, and as they had decreed for themselves and for their seed, the matters of the fastings and their cry.
 **32** And the decree of Esther confirmed these matters of Purim; and it was written in the book.
 
-## CHAPTER 10
+## ESTHER 10
 **1** And the king Ahasuerus laid a tribute upon the land, and upon the isles of the sea.
 **2** And all the acts of his power and of his might, and the declaration of the greatness of Mordecai, whereunto the king advanced him, are they not written in the book of the chronicles of the kings of Media and Persia?
 **3** For Mordecai the Jew was next unto king Ahasuerus, and great among the Jews, and accepted of the multitude of his brethren, seeking the wealth of his people, and speaking peace to all his seed.

@@ -17,7 +17,7 @@ const bibleModules = import.meta.glob(
 const allBooks = Object.values(bibleModules).map((mod) => mod.default);
 
 /**
- * 📚 Normalize into same structure as before
+ * 📚 Normalize structure
  */
 const books: Record<string, { chapter: number }[]> = Object.create(null);
 
@@ -30,7 +30,7 @@ for (const bookData of allBooks) {
 }
 
 /**
- * 🧠 Helper
+ * 🧠 Helpers
  */
 const formatBook = (book: string) =>
   book.replace(/\b\w/g, (l) => l.toUpperCase());
@@ -39,7 +39,7 @@ const slugify = (book: string) =>
   book.toLowerCase().replace(/\s+/g, '-');
 
 /**
- * 📖 Testament lists (same as yours)
+ * 📖 Testament lists
  */
 const oldTestament = [
   "genesis","exodus","leviticus","numbers","deuteronomy",
@@ -66,9 +66,19 @@ const newTestament = [
 
   <div class="max-w-5xl mx-auto px-4 py-16 space-y-16">
 
-    <h1 class="text-3xl font-semibold">
-      The Holy <span class="text-[var(--color-primary)]">Bible</span>
-    </h1>
+    <!-- Header -->
+    <div class="space-y-2">
+      <h1 class="text-3xl font-semibold">
+        The Holy <span class="text-[var(--color-primary)]">Bible</span>
+      </h1>
+
+      <p class="text-sm opacity-70">
+        New to the KJV?
+        <a href="/preface" class="underline">
+          Read the Preface
+        </a>
+      </p>
+    </div>
 
     <!-- OLD TESTAMENT -->
     <section class="space-y-8">
@@ -79,7 +89,7 @@ const newTestament = [
         {oldTestament
           .filter((book) => books[book])
           .map((book) => {
-            const chapters = books[book].sort(
+            const chapters = [...(books[book] || [])].sort(
               (a, b) => a.chapter - b.chapter
             );
 
@@ -117,7 +127,7 @@ const newTestament = [
         {newTestament
           .filter((book) => books[book])
           .map((book) => {
-            const chapters = books[book].sort(
+            const chapters = [...(books[book] || [])].sort(
               (a, b) => a.chapter - b.chapter
             );
 

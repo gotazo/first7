@@ -7,7 +7,7 @@ weight: 4
 ## SAINT JOHN
 
 
-## CHAPTER 1
+## JOHN 1
 **1** In the beginning was the Word, and the Word was with God, and the Word was God.
 **2** The same was in the beginning with God.
 **3** All things were made by him; and without him was not any thing made that was made.
@@ -60,7 +60,7 @@ weight: 4
 **50** Jesus answered and said unto him, Because I said unto thee, I saw thee under the fig tree, believest thou? thou shalt see greater things than these.
 **51** And he saith unto him, Verily, verily, I say unto you, Hereafter ye shall see heaven open, and the angels of God ascending and descending upon the Son of man.
 
-## CHAPTER 2
+## JOHN 2
 **1** And the third day there was a marriage in Cana of Galilee; and the mother of Jesus was there:
 **2** And both Jesus was called, and his disciples, to the marriage.
 **3** And when they wanted wine, the mother of Jesus saith unto him, They have no wine.
@@ -87,7 +87,7 @@ weight: 4
 **24** But Jesus did not commit himself unto them, because he knew all men,
 **25** And needed not that any should testify of man: for he knew what was in man.
 
-## CHAPTER 3
+## JOHN 3
 **1** There was a man of the Pharisees, named Nicodemus, a ruler of the Jews:
 **2** The same came to Jesus by night, and said unto him, Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him.
 **3** Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.
@@ -125,7 +125,7 @@ weight: 4
 **35** The Father loveth the Son, and hath given all things into his hand.
 **36** He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life; but the wrath of God abideth on him.
 
-## CHAPTER 4
+## JOHN 4
 **1** When therefore the Lord knew how the Pharisees had heard that Jesus made and baptized more disciples than John,
 **2** (Though Jesus himself baptized not, but his disciples,)
 **3** He left Judaea, and departed again into Galilee.
@@ -181,7 +181,7 @@ weight: 4
 **53** So the father knew that it was at the same hour, in the which Jesus said unto him, Thy son liveth: and himself believed, and his whole house.
 **54** This is again the second miracle that Jesus did, when he was come out of Judaea into Galilee.
 
-## CHAPTER 5
+## JOHN 5
 **1** After this there was a feast of the Jews; and Jesus went up to Jerusalem.
 **2** Now there is at Jerusalem by the sheep market a pool, which is called in the Hebrew tongue Bethesda, having five porches.
 **3** In these lay a great multitude of impotent folk, of blind, halt, withered, waiting for the moving of the water.
@@ -230,7 +230,7 @@ weight: 4
 **46** For had ye believed Moses, ye would have believed me: for he wrote of me.
 **47** But if ye believe not his writings, how shall ye believe my words?
 
-## CHAPTER 6
+## JOHN 6
 **1** After these things Jesus went over the sea of Galilee, which is the sea of Tiberias.
 **2** And a great multitude followed him, because they saw his miracles which he did on them that were diseased.
 **3** And Jesus went up into a mountain, and there he sat with his disciples.
@@ -303,7 +303,7 @@ weight: 4
 **70** Jesus answered them, Have not I chosen you twelve, and one of you is a devil?
 **71** He spake of Judas Iscariot the son of Simon: for he it was that should betray him, being one of the twelve.
 
-## CHAPTER 7
+## JOHN 7
 **1** After these things Jesus walked in Galilee: for he would not walk in Jewry, because the Jews sought to kill him.
 **2** Now the Jews' feast of tabernacles was at hand.
 **3** His brethren therefore said unto him, Depart hence, and go into Judaea, that thy disciples also may see the works that thou doest.
@@ -358,7 +358,7 @@ weight: 4
 **52** They answered and said unto him, Art thou also of Galilee? Search, and look: for out of Galilee ariseth no prophet.
 **53** And every man went unto his own house.
 
-## CHAPTER 8
+## JOHN 8
 **1** Jesus went unto the mount of Olives.
 **2** And early in the morning he came again into the temple, and all the people came unto him; and he sat down, and taught them.
 **3** And the scribes and Pharisees brought unto him a woman taken in adultery; and when they had set her in the midst,
@@ -419,7 +419,7 @@ weight: 4
 **58** Jesus said unto them, Verily, verily, I say unto you, Before Abraham was, I am.
 **59** Then took they up stones to cast at him: but Jesus hid himself, and went out of the temple, going through the midst of them, and so passed by.
 
-## CHAPTER 9
+## JOHN 9
 **1** And as Jesus passed by, he saw a man which was blind from his birth.
 **2** And his disciples asked him, saying, Master, who did sin, this man, or his parents, that he was born blind?
 **3** Jesus answered, Neither hath this man sinned, nor his parents: but that the works of God should be made manifest in him.
@@ -462,7 +462,7 @@ weight: 4
 **40** And some of the Pharisees which were with him heard these words, and said unto him, Are we blind also?
 **41** Jesus said unto them, If ye were blind, ye should have no sin: but now ye say, We see; therefore your sin remaineth.
 
-## CHAPTER 10
+## JOHN 10
 **1** Verily, verily, I say unto you, He that entereth not by the door into the sheepfold, but climbeth up some other way, the same is a thief and a robber.
 **2** But he that entereth in by the door is the shepherd of the sheep.
 **3** To him the porter openeth; and the sheep hear his voice: and he calleth his own sheep by name, and leadeth them out.
@@ -506,7 +506,7 @@ weight: 4
 **41** And many resorted unto him, and said, John did no miracle: but all things that John spake of this man were true.
 **42** And many believed on him there.
 
-## CHAPTER 11
+## JOHN 11
 **1** Now a certain man was sick, named Lazarus, of Bethany, the town of Mary and her sister Martha.
 **2** (It was that Mary which anointed the Lord with ointment, and wiped his feet with her hair, whose brother Lazarus was sick.)
 **3** Therefore his sisters sent unto him, saying, Lord, behold, he whom thou lovest is sick.
@@ -565,7 +565,7 @@ weight: 4
 **56** Then sought they for Jesus, and spake among themselves, as they stood in the temple, What think ye, that he will not come to the feast?
 **57** Now both the chief priests and the Pharisees had given a commandment, that, if any man knew where he were, he should shew it, that they might take him.
 
-## CHAPTER 12
+## JOHN 12
 **1** Then Jesus six days before the passover came to Bethany, where Lazarus was which had been dead, whom he raised from the dead.
 **2** There they made him a supper; and Martha served: but Lazarus was one of them that sat at the table with him.
 **3** Then took Mary a pound of ointment of spikenard, very costly, and anointed the feet of Jesus, and wiped his feet with her hair: and the house was filled with the odour of the ointment.
@@ -617,7 +617,7 @@ weight: 4
 **49** For I have not spoken of myself; but the Father which sent me, he gave me a commandment, what I should say, and what I should speak.
 **50** And I know that his commandment is life everlasting: whatsoever I speak therefore, even as the Father said unto me, so I speak.
 
-## CHAPTER 13
+## JOHN 13
 **1** Now before the feast of the passover, when Jesus knew that his hour was come that he should depart out of this world unto the Father, having loved his own which were in the world, he loved them unto the end.
 **2** And supper being ended, the devil having now put into the heart of Judas Iscariot, Simon's son, to betray him;
 **3** Jesus knowing that the Father had given all things into his hands, and that he was come from God, and went to God;
@@ -657,7 +657,7 @@ weight: 4
 **37** Peter said unto him, Lord, why cannot I follow thee now? I will lay down my life for thy sake.
 **38** Jesus answered him, Wilt thou lay down thy life for my sake? Verily, verily, I say unto thee, The cock shall not crow, till thou hast denied me thrice.
 
-## CHAPTER 14
+## JOHN 14
 **1** Let not your heart be troubled: ye believe in God, believe also in me.
 **2** In my Father's house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.
 **3** And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also.
@@ -690,7 +690,7 @@ weight: 4
 **30** Hereafter I will not talk much with you: for the prince of this world cometh, and hath nothing in me.
 **31** But that the world may know that I love the Father; and as the Father gave me commandment, even so I do. Arise, let us go hence.
 
-## CHAPTER 15
+## JOHN 15
 **1** I am the true vine, and my Father is the husbandman.
 **2** Every branch in me that beareth not fruit he taketh away: and every branch that beareth fruit, he purgeth it, that it may bring forth more fruit.
 **3** Now ye are clean through the word which I have spoken unto you.
@@ -719,7 +719,7 @@ weight: 4
 **26** But when the Comforter is come, whom I will send unto you from the Father, even the Spirit of truth, which proceedeth from the Father, he shall testify of me:
 **27** And ye also shall bear witness, because ye have been with me from the beginning.
 
-## CHAPTER 16
+## JOHN 16
 **1** These things have I spoken unto you, that ye should not be offended.
 **2** They shall put you out of the synagogues: yea, the time cometh, that whosoever killeth you will think that he doeth God service.
 **3** And these things will they do unto you, because they have not known the Father, nor me.
@@ -754,7 +754,7 @@ weight: 4
 **32** Behold, the hour cometh, yea, is now come, that ye shall be scattered, every man to his own, and shall leave me alone: and yet I am not alone, because the Father is with me.
 **33** These things I have spoken unto you, that in me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world.
 
-## CHAPTER 17
+## JOHN 17
 **1** These words spake Jesus, and lifted up his eyes to heaven, and said, Father, the hour is come; glorify thy Son, that thy Son also may glorify thee:
 **2** As thou hast given him power over all flesh, that he should give eternal life to as many as thou hast given him.
 **3** And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.
@@ -782,7 +782,7 @@ weight: 4
 **25** O righteous Father, the world hath not known thee: but I have known thee, and these have known that thou hast sent me.
 **26** And I have declared unto them thy name, and will declare it: that the love wherewith thou hast loved me may be in them, and I in them.
 
-## CHAPTER 18
+## JOHN 18
 **1** When Jesus had spoken these words, he went forth with his disciples over the brook Cedron, where was a garden, into the which he entered, and his disciples.
 **2** And Judas also, which betrayed him, knew the place: for Jesus ofttimes resorted thither with his disciples.
 **3** Judas then, having received a band of men and officers from the chief priests and Pharisees, cometh thither with lanterns and torches and weapons.
@@ -824,7 +824,7 @@ weight: 4
 **39** But ye have a custom, that I should release unto you one at the passover: will ye therefore that I release unto you the King of the Jews?
 **40** Then cried they all again, saying, Not this man, but Barabbas. Now Barabbas was a robber.
 
-## CHAPTER 19
+## JOHN 19
 **1** Then Pilate therefore took Jesus, and scourged him.
 **2** And the soldiers platted a crown of thorns, and put it on his head, and they put on him a purple robe,
 **3** And said, Hail, King of the Jews! and they smote him with their hands.
@@ -868,7 +868,7 @@ weight: 4
 **41** Now in the place where he was crucified there was a garden; and in the garden a new sepulchre, wherein was never man yet laid.
 **42** There laid they Jesus therefore because of the Jews' preparation day; for the sepulchre was nigh at hand.
 
-## CHAPTER 20
+## JOHN 20
 **1** The first day of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre, and seeth the stone taken away from the sepulchre.
 **2** Then she runneth, and cometh to Simon Peter, and to the other disciple, whom Jesus loved, and saith unto them, They have taken away the Lord out of the sepulchre, and we know not where they have laid him.
 **3** Peter therefore went forth, and that other disciple, and came to the sepulchre.
@@ -901,7 +901,7 @@ weight: 4
 **30** And many other signs truly did Jesus in the presence of his disciples, which are not written in this book:
 **31** But these are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name.
 
-## CHAPTER 21
+## JOHN 21
 **1** After these things Jesus shewed himself again to the disciples at the sea of Tiberias; and on this wise shewed he himself.
 **2** There were together Simon Peter, and Thomas called Didymus, and Nathanael of Cana in Galilee, and the sons of Zebedee, and two other of his disciples.
 **3** Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They went forth, and entered into a ship immediately; and that night they caught nothing.

@@ -7,7 +7,7 @@ weight: 5
 ## DEUTERONOMY
 
 
-## CHAPTER 1
+## DEUTERONOMY 1
 **1** These be the words which Moses spake unto all Israel on this side Jordan in the wilderness, in the plain over against the Red sea, between Paran, and Tophel, and Laban, and Hazeroth, and Dizahab.
 **2** (There are eleven days' journey from Horeb by the way of mount Seir unto Kadesh-barnea.)
 **3** And it came to pass in the fortieth year, in the eleventh month, on the first day of the month, that Moses spake unto the children of Israel, according unto all that the LORD had given him in commandment unto them;
@@ -55,7 +55,7 @@ weight: 5
 **45** And ye returned and wept before the LORD; but the LORD would not hearken to your voice, nor give ear unto you.
 **46** So ye abode in Kadesh many days, according unto the days that ye abode there.
 
-## CHAPTER 2
+## DEUTERONOMY 2
 **1** Then we turned, and took our journey into the wilderness by the way of the Red sea, as the LORD spake unto me: and we compassed mount Seir many days.
 **2** And the LORD spake unto me, saying,
 **3** Ye have compassed this mountain long enough: turn you northward.
@@ -94,7 +94,7 @@ weight: 5
 **36** From Aroer, which is by the brink of the river of Arnon, and from the city that is by the river, even unto Gilead, there was not one city too strong for us: the LORD our God delivered all unto us:
 **37** Only unto the land of the children of Ammon thou camest not, nor unto any place of the river Jabbok, nor unto the cities in the mountains, nor unto whatsoever the LORD our God forbad us.
 
-## CHAPTER 3
+## DEUTERONOMY 3
 **1** Then we turned, and went up the way to Bashan: and Og the king of Bashan came out against us, he and all his people, to battle at Edrei.
 **2** And the LORD said unto me, Fear him not: for I will deliver him, and all his people, and his land, into thy hand; and thou shalt do unto him as thou didst unto Sihon king of the Amorites, which dwelt at Heshbon.
 **3** So the LORD our God delivered into our hands Og also, the king of Bashan, and all his people: and we smote him until none was left to him remaining.
@@ -125,7 +125,7 @@ weight: 5
 **28** But charge Joshua, and encourage him, and strengthen him: for he shall go over before this people, and he shall cause them to inherit the land which thou shalt see.
 **29** So we abode in the valley over against Beth-peor.
 
-## CHAPTER 4
+## DEUTERONOMY 4
 **1** Now therefore hearken, O Israel, unto the statutes and unto the judgments, which I teach you, for to do them, that ye may live, and go in and possess the land which the LORD God of your fathers giveth you.
 **2** Ye shall not add unto the word which I command you, neither shall ye diminish ought from it, that ye may keep the commandments of the LORD your God which I command you.
 **3** Your eyes have seen what the LORD did because of Baal-peor: for all the men that followed Baal-peor, the LORD thy God hath destroyed them from among you.
@@ -176,7 +176,7 @@ weight: 5
 **48** From Aroer, which is by the bank of the river Arnon, even unto mount Sion, which is Hermon,
 **49** And all the plain on this side Jordan eastward, even unto the sea of the plain, under the springs of Pisgah.
 
-## CHAPTER 5
+## DEUTERONOMY 5
 **1** And Moses called all Israel, and said unto them, Hear, O Israel, the statutes and judgments which I speak in your ears this day, that ye may learn them, and keep, and do them.
 **2** The LORD our God made a covenant with us in Horeb.
 **3** The LORD made not this covenant with our fathers, but with us, even us, who are all of us here alive this day.
@@ -211,7 +211,7 @@ weight: 5
 **32** Ye shall observe to do therefore as the LORD your God hath commanded you: ye shall not turn aside to the right hand or to the left.
 **33** Ye shall walk in all the ways which the LORD your God hath commanded you, that ye may live, and that it may be well with you, and that ye may prolong your days in the land which ye shall possess.
 
-## CHAPTER 6
+## DEUTERONOMY 6
 **1** Now these are the commandments, the statutes, and the judgments, which the LORD your God commanded to teach you, that ye might do them in the land whither ye go to possess it:
 **2** That thou mightest fear the LORD thy God, to keep all his statutes and his commandments, which I command thee, thou, and thy son, and thy son's son, all the days of thy life; and that thy days may be prolonged.
 **3** Hear therefore, O Israel, and observe to do it; that it may be well with thee, and that ye may increase mightily, as the LORD God of thy fathers hath promised thee, in the land that floweth with milk and honey.
@@ -238,7 +238,7 @@ weight: 5
 **24** And the LORD commanded us to do all these statutes, to fear the LORD our God, for our good always, that he might preserve us alive, as it is at this day.
 **25** And it shall be our righteousness, if we observe to do all these commandments before the LORD our God, as he hath commanded us.
 
-## CHAPTER 7
+## DEUTERONOMY 7
 **1** When the LORD thy God shall bring thee into the land whither thou goest to possess it, and hath cast out many nations before thee, the Hittites, and the Girgashites, and the Amorites, and the Canaanites, and the Perizzites, and the Hivites, and the Jebusites, seven nations greater and mightier than thou;
 **2** And when the LORD thy God shall deliver them before thee; thou shalt smite them, and utterly destroy them; thou shalt make no covenant with them, nor shew mercy unto them:
 **3** Neither shalt thou make marriages with them; thy daughter thou shalt not give unto his son, nor his daughter shalt thou take unto thy son.
@@ -266,7 +266,7 @@ weight: 5
 **25** The graven images of their gods shall ye burn with fire: thou shalt not desire the silver or gold that is on them, nor take it unto thee, lest thou be snared therein: for it is an abomination to the LORD thy God.
 **26** Neither shalt thou bring an abomination into thine house, lest thou be a cursed thing like it: but thou shalt utterly detest it, and thou shalt utterly abhor it; for it is a cursed thing.
 
-## CHAPTER 8
+## DEUTERONOMY 8
 **1** All the commandments which I command thee this day shall ye observe to do, that ye may live, and multiply, and go in and possess the land which the LORD sware unto your fathers.
 **2** And thou shalt remember all the way which the LORD thy God led thee these forty years in the wilderness, to humble thee, and to prove thee, to know what was in thine heart, whether thou wouldest keep his commandments, or no.
 **3** And he humbled thee, and suffered thee to hunger, and fed thee with manna, which thou knewest not, neither did thy fathers know; that he might make thee know that man doth not live by bread only, but by every word that proceedeth out of the mouth of the LORD doth man live.
@@ -288,7 +288,7 @@ weight: 5
 **19** And it shall be, if thou do at all forget the LORD thy God, and walk after other gods, and serve them, and worship them, I testify against you this day that ye shall surely perish.
 **20** As the nations which the LORD destroyeth before your face, so shall ye perish; because ye would not be obedient unto the voice of the LORD your God.
 
-## CHAPTER 9
+## DEUTERONOMY 9
 **1** Hear, O Israel: Thou art to pass over Jordan this day, to go in to possess nations greater and mightier than thyself, cities great and fenced up to heaven,
 **2** A people great and tall, the children of the Anakims, whom thou knowest, and of whom thou hast heard say, Who can stand before the children of Anak!
 **3** Understand therefore this day, that the LORD thy God is he which goeth over before thee; as a consuming fire he shall destroy them, and he shall bring them down before thy face: so shalt thou drive them out, and destroy them quickly, as the LORD hath said unto thee.
@@ -319,7 +319,7 @@ weight: 5
 **28** Lest the land whence thou broughtest us out say, Because the LORD was not able to bring them into the land which he promised them, and because he hated them, he hath brought them out to slay them in the wilderness.
 **29** Yet they are thy people and thine inheritance, which thou broughtest out by thy mighty power and by thy stretched out arm.
 
-## CHAPTER 10
+## DEUTERONOMY 10
 **1** At that time the LORD said unto me, Hew thee two tables of stone like unto the first, and come up unto me into the mount, and make thee an ark of wood.
 **2** And I will write on the tables the words that were in the first tables which thou brakest, and thou shalt put them in the ark.
 **3** And I made an ark of shittim wood, and hewed two tables of stone like unto the first, and went up into the mount, having the two tables in mine hand.
@@ -343,7 +343,7 @@ weight: 5
 **21** He is thy praise, and he is thy God, that hath done for thee these great and terrible things, which thine eyes have seen.
 **22** Thy fathers went down into Egypt with threescore and ten persons; and now the LORD thy God hath made thee as the stars of heaven for multitude.
 
-## CHAPTER 11
+## DEUTERONOMY 11
 **1** Therefore thou shalt love the LORD thy God, and keep his charge, and his statutes, and his judgments, and his commandments, alway.
 **2** And know ye this day: for I speak not with your children which have not known, and which have not seen the chastisement of the LORD your God, his greatness, his mighty hand, and his stretched out arm,
 **3** And his miracles, and his acts, which he did in the midst of Egypt unto Pharaoh the king of Egypt, and unto all his land;
@@ -377,7 +377,7 @@ weight: 5
 **31** For ye shall pass over Jordan to go in to possess the land which the LORD your God giveth you, and ye shall possess it, and dwell therein.
 **32** And ye shall observe to do all the statutes and judgments which I set before you this day.
 
-## CHAPTER 12
+## DEUTERONOMY 12
 **1** These are the statutes and judgments, which ye shall observe to do in the land, which the LORD God of thy fathers giveth thee to possess it, all the days that ye live upon the earth.
 **2** Ye shall utterly destroy all the places, wherein the nations which ye shall possess served their gods, upon the high mountains, and upon the hills, and under every green tree:
 **3** And ye shall overthrow their altars, and break their pillars, and burn their groves with fire; and ye shall hew down the graven images of their gods, and destroy the names of them out of that place.
@@ -411,7 +411,7 @@ weight: 5
 **31** Thou shalt not do so unto the LORD thy God: for every abomination to the LORD, which he hateth, have they done unto their gods; for even their sons and their daughters they have burnt in the fire to their gods.
 **32** What thing soever I command you, observe to do it: thou shalt not add thereto, nor diminish from it.
 
-## CHAPTER 13
+## DEUTERONOMY 13
 **1** If there arise among you a prophet, or a dreamer of dreams, and giveth thee a sign or a wonder,
 **2** And the sign or the wonder come to pass, whereof he spake unto thee, saying, Let us go after other gods, which thou hast not known, and let us serve them;
 **3** Thou shalt not hearken unto the words of that prophet, or that dreamer of dreams: for the LORD your God proveth you, to know whether ye love the LORD your God with all your heart and with all your soul.
@@ -431,7 +431,7 @@ weight: 5
 **17** And there shall cleave nought of the cursed thing to thine hand: that the LORD may turn from the fierceness of his anger, and shew thee mercy, and have compassion upon thee, and multiply thee, as he hath sworn unto thy fathers;
 **18** When thou shalt hearken to the voice of the LORD thy God, to keep all his commandments which I command thee this day, to do that which is right in the eyes of the LORD thy God.
 
-## CHAPTER 14
+## DEUTERONOMY 14
 **1** Ye are the children of the LORD your God: ye shall not cut yourselves, nor make any baldness between your eyes for the dead.
 **2** For thou art an holy people unto the LORD thy God, and the LORD hath chosen thee to be a peculiar people unto himself, above all the nations that are upon the earth.
 **3** Thou shalt not eat any abominable thing.
@@ -462,7 +462,7 @@ weight: 5
 **28** At the end of three years thou shalt bring forth all the tithe of thine increase the same year, and shalt lay it up within thy gates:
 **29** And the Levite, (because he hath no part nor inheritance with thee,) and the stranger, and the fatherless, and the widow, which are within thy gates, shall come, and shall eat and be satisfied; that the LORD thy God may bless thee in all the work of thine hand which thou doest.
 
-## CHAPTER 15
+## DEUTERONOMY 15
 **1** At the end of every seven years thou shalt make a release.
 **2** And this is the manner of the release: Every creditor that lendeth ought unto his neighbour shall release it; he shall not exact it of his neighbour, or of his brother; because it is called the LORD'S release.
 **3** Of a foreigner thou mayest exact it again: but that which is thine with thy brother thine hand shall release;
@@ -487,7 +487,7 @@ weight: 5
 **22** Thou shalt eat it within thy gates: the unclean and the clean person shall eat it alike, as the roebuck, and as the hart.
 **23** Only thou shalt not eat the blood thereof; thou shalt pour it upon the ground as water.
 
-## CHAPTER 16
+## DEUTERONOMY 16
 **1** Observe the month of Abib, and keep the passover unto the LORD thy God: for in the month of Abib the LORD thy God brought thee forth out of Egypt by night.
 **2** Thou shalt therefore sacrifice the passover unto the LORD thy God, of the flock and the herd, in the place which the LORD shall choose to place his name there.
 **3** Thou shalt eat no leavened bread with it; seven days shalt thou eat unleavened bread therewith, even the bread of affliction; for thou camest forth out of the land of Egypt in haste: that thou mayest remember the day when thou camest forth out of the land of Egypt all the days of thy life.
@@ -511,7 +511,7 @@ weight: 5
 **21** Thou shalt not plant thee a grove of any trees near unto the altar of the LORD thy God, which thou shalt make thee.
 **22** Neither shalt thou set thee up any image; which the LORD thy God hateth.
 
-## CHAPTER 17
+## DEUTERONOMY 17
 **1** Thou shalt not sacrifice unto the LORD thy God any bullock, or sheep, wherein is blemish, or any evilfavouredness: for that is an abomination unto the LORD thy God.
 **2** If there be found among you, within any of thy gates which the LORD thy God giveth thee, man or woman, that hath wrought wickedness in the sight of the LORD thy God, in transgressing his covenant,
 **3** And hath gone and served other gods, and worshipped them, either the sun, or moon, or any of the host of heaven, which I have not commanded;
@@ -533,7 +533,7 @@ weight: 5
 **19** And it shall be with him, and he shall read therein all the days of his life: that he may learn to fear the LORD his God, to keep all the words of this law and these statutes, to do them:
 **20** That his heart be not lifted up above his brethren, and that he turn not aside from the commandment, to the right hand, or to the left: to the end that he may prolong his days in his kingdom, he, and his children, in the midst of Israel.
 
-## CHAPTER 18
+## DEUTERONOMY 18
 **1** The priests the Levites, and all the tribe of Levi, shall have no part nor inheritance with Israel: they shall eat the offerings of the LORD made by fire, and his inheritance.
 **2** Therefore shall they have no inheritance among their brethren: the LORD is their inheritance, as he hath said unto them.
 **3** And this shall be the priest's due from the people, from them that offer a sacrifice, whether it be ox or sheep; and they shall give unto the priest the shoulder, and the two cheeks, and the maw.
@@ -557,7 +557,7 @@ weight: 5
 **21** And if thou say in thine heart, How shall we know the word which the LORD hath not spoken?
 **22** When a prophet speaketh in the name of the LORD, if the thing follow not, nor come to pass, that is the thing which the LORD hath not spoken, but the prophet hath spoken it presumptuously: thou shalt not be afraid of him.
 
-## CHAPTER 19
+## DEUTERONOMY 19
 **1** When the LORD thy God hath cut off the nations, whose land the LORD thy God giveth thee, and thou succeedest them, and dwellest in their cities, and in their houses;
 **2** Thou shalt separate three cities for thee in the midst of thy land, which the LORD thy God giveth thee to possess it.
 **3** Thou shalt prepare thee a way, and divide the coasts of thy land, which the LORD thy God giveth thee to inherit, into three parts, that every slayer may flee thither.
@@ -580,7 +580,7 @@ weight: 5
 **20** And those which remain shall hear, and fear, and shall henceforth commit no more any such evil among you.
 **21** And thine eye shall not pity; but life shall go for life, eye for eye, tooth for tooth, hand for hand, foot for foot.
 
-## CHAPTER 20
+## DEUTERONOMY 20
 **1** When thou goest out to battle against thine enemies, and seest horses, and chariots, and a people more than thou, be not afraid of them: for the LORD thy God is with thee, which brought thee up out of the land of Egypt.
 **2** And it shall be, when ye are come nigh unto the battle, that the priest shall approach and speak unto the people,
 **3** And shall say unto them, Hear, O Israel, ye approach this day unto battle against your enemies: let not your hearts faint, fear not, and do not tremble, neither be ye terrified because of them;
@@ -602,7 +602,7 @@ weight: 5
 **19** When thou shalt besiege a city a long time, in making war against it to take it, thou shalt not destroy the trees thereof by forcing an axe against them: for thou mayest eat of them, and thou shalt not cut them down (for the tree of the field is man's life) to employ them in the siege:
 **20** Only the trees which thou knowest that they be not trees for meat, thou shalt destroy and cut them down; and thou shalt build bulwarks against the city that maketh war with thee, until it be subdued.
 
-## CHAPTER 21
+## DEUTERONOMY 21
 **1** If one be found slain in the land which the LORD thy God giveth thee to possess it, lying in the field, and it be not known who hath slain him:
 **2** Then thy elders and thy judges shall come forth, and they shall measure unto the cities which are round about him that is slain:
 **3** And it shall be, that the city which is next unto the slain man, even the elders of that city shall take an heifer, which hath not been wrought with, and which hath not drawn in the yoke;
@@ -627,7 +627,7 @@ weight: 5
 **22** And if a man have committed a sin worthy of death, and he be to be put to death, and thou hang him on a tree:
 **23** His body shall not remain all night upon the tree, but thou shalt in any wise bury him that day; (for he that is hanged is accursed of God;) that thy land be not defiled, which the LORD thy God giveth thee for an inheritance.
 
-## CHAPTER 22
+## DEUTERONOMY 22
 **1** Thou shalt not see thy brother's ox or his sheep go astray, and hide thyself from them: thou shalt in any case bring them again unto thy brother.
 **2** And if thy brother be not nigh unto thee, or if thou know him not, then thou shalt bring it unto thine own house, and it shall be with thee until thy brother seek after it, and thou shalt restore it to him again.
 **3** In like manner shalt thou do with his ass; and so shalt thou do with his raiment; and with all lost thing of thy brother's, which he hath lost, and thou hast found, shalt thou do likewise: thou mayest not hide thyself.
@@ -659,7 +659,7 @@ weight: 5
 **29** Then the man that lay with her shall give unto the damsel's father fifty shekels of silver, and she shall be his wife; because he hath humbled her, he may not put her away all his days.
 **30** A man shall not take his father's wife, nor discover his father's skirt.
 
-## CHAPTER 23
+## DEUTERONOMY 23
 **1** He that is wounded in the stones, or hath his privy member cut off, shall not enter into the congregation of the LORD.
 **2** A bastard shall not enter into the congregation of the LORD; even to his tenth generation shall he not enter into the congregation of the LORD.
 **3** An Ammonite or Moabite shall not enter into the congregation of the LORD; even to their tenth generation shall they not enter into the congregation of the LORD for ever:
@@ -686,7 +686,7 @@ weight: 5
 **24** When thou comest into thy neighbour's vineyard, then thou mayest eat grapes thy fill at thine own pleasure; but thou shalt not put any in thy vessel.
 **25** When thou comest into the standing corn of thy neighbour, then thou mayest pluck the ears with thine hand; but thou shalt not move a sickle unto thy neighbour's standing corn.
 
-## CHAPTER 24
+## DEUTERONOMY 24
 **1** When a man hath taken a wife, and married her, and it come to pass that she find no favour in his eyes, because he hath found some uncleanness in her: then let him write her a bill of divorcement, and give it in her hand, and send her out of his house.
 **2** And when she is departed out of his house, she may go and be another man's wife.
 **3** And if the latter husband hate her, and write her a bill of divorcement, and giveth it in her hand, and sendeth her out of his house; or if the latter husband die, which took her to be his wife;
@@ -710,7 +710,7 @@ weight: 5
 **21** When thou gatherest the grapes of thy vineyard, thou shalt not glean it afterward: it shall be for the stranger, for the fatherless, and for the widow.
 **22** And thou shalt remember that thou wast a bondman in the land of Egypt: therefore I command thee to do this thing.
 
-## CHAPTER 25
+## DEUTERONOMY 25
 **1** If there be a controversy between men, and they come unto judgment, that the judges may judge them; then they shall justify the righteous, and condemn the wicked.
 **2** And it shall be, if the wicked man be worthy to be beaten, that the judge shall cause him to lie down, and to be beaten before his face, according to his fault, by a certain number.
 **3** Forty stripes he may give him, and not exceed: lest, if he should exceed, and beat him above these with many stripes, then thy brother should seem vile unto thee.
@@ -731,7 +731,7 @@ weight: 5
 **18** How he met thee by the way, and smote the hindmost of thee, even all that were feeble behind thee, when thou wast faint and weary; and he feared not God.
 **19** Therefore it shall be, when the LORD thy God hath given thee rest from all thine enemies round about, in the land which the LORD thy God giveth thee for an inheritance to possess it, that thou shalt blot out the remembrance of Amalek from under heaven; thou shalt not forget it.
 
-## CHAPTER 26
+## DEUTERONOMY 26
 **1** And it shall be, when thou art come in unto the land which the LORD thy God giveth thee for an inheritance, and possessest it, and dwellest therein;
 **2** That thou shalt take of the first of all the fruit of the earth, which thou shalt bring of thy land that the LORD thy God giveth thee, and shalt put it in a basket, and shalt go unto the place which the LORD thy God shall choose to place his name there.
 **3** And thou shalt go unto the priest that shall be in those days, and say unto him, I profess this day unto the LORD thy God, that I am come unto the country which the LORD sware unto our fathers for to give us.
@@ -752,7 +752,7 @@ weight: 5
 **18** And the LORD hath avouched thee this day to be his peculiar people, as he hath promised thee, and that thou shouldest keep all his commandments;
 **19** And to make thee high above all nations which he hath made, in praise, and in name, and in honour; and that thou mayest be an holy people unto the LORD thy God, as he hath spoken.
 
-## CHAPTER 27
+## DEUTERONOMY 27
 **1** And Moses with the elders of Israel commanded the people, saying, Keep all the commandments which I command you this day.
 **2** And it shall be on the day when ye shall pass over Jordan unto the land which the LORD thy God giveth thee, that thou shalt set thee up great stones, and plaister them with plaister:
 **3** And thou shalt write upon them all the words of this law, when thou art passed over, that thou mayest go in unto the land which the LORD thy God giveth thee, a land that floweth with milk and honey; as the LORD God of thy fathers hath promised thee.
@@ -780,7 +780,7 @@ weight: 5
 **25** Cursed be he that taketh reward to slay an innocent person. And all the people shall say, Amen.
 **26** Cursed be he that confirmeth not all the words of this law to do them. And all the people shall say, Amen.
 
-## CHAPTER 28
+## DEUTERONOMY 28
 **1** And it shall come to pass, if thou shalt hearken diligently unto the voice of the LORD thy God, to observe and to do all his commandments which I command thee this day, that the LORD thy God will set thee on high above all nations of the earth:
 **2** And all these blessings shall come on thee, and overtake thee, if thou shalt hearken unto the voice of the LORD thy God.
 **3** Blessed shalt thou be in the city, and blessed shalt thou be in the field.
@@ -850,7 +850,7 @@ weight: 5
 **67** In the morning thou shalt say, Would God it were even! and at even thou shalt say, Would God it were morning! for the fear of thine heart wherewith thou shalt fear, and for the sight of thine eyes which thou shalt see.
 **68** And the LORD shall bring thee into Egypt again with ships, by the way whereof I spake unto thee, Thou shalt see it no more again: and there ye shall be sold unto your enemies for bondmen and bondwomen, and no man shall buy you.
 
-## CHAPTER 29
+## DEUTERONOMY 29
 **1** These are the words of the covenant, which the LORD commanded Moses to make with the children of Israel in the land of Moab, beside the covenant which he made with them in Horeb.
 **2** And Moses called unto all Israel, and said unto them, Ye have seen all that the LORD did before your eyes in the land of Egypt unto Pharaoh, and unto all his servants, and unto all his land;
 **3** The great temptations which thine eyes have seen, the signs, and those great miracles:
@@ -881,7 +881,7 @@ weight: 5
 **28** And the LORD rooted them out of their land in anger, and in wrath, and in great indignation, and cast them into another land, as it is this day.
 **29** The secret things belong unto the LORD our God: but those things which are revealed belong unto us and to our children for ever, that we may do all the words of this law.
 
-## CHAPTER 30
+## DEUTERONOMY 30
 **1** And it shall come to pass, when all these things are come upon thee, the blessing and the curse, which I have set before thee, and thou shalt call them to mind among all the nations, whither the LORD thy God hath driven thee,
 **2** And shalt return unto the LORD thy God, and shalt obey his voice according to all that I command thee this day, thou and thy children, with all thine heart, and with all thy soul;
 **3** That then the LORD thy God will turn thy captivity, and have compassion upon thee, and will return and gather thee from all the nations, whither the LORD thy God hath scattered thee.
@@ -903,7 +903,7 @@ weight: 5
 **19** I call heaven and earth to record this day against you, that I have set before you life and death, blessing and cursing: therefore choose life, that both thou and thy seed may live:
 **20** That thou mayest love the LORD thy God, and that thou mayest obey his voice, and that thou mayest cleave unto him: for he is thy life, and the length of thy days: that thou mayest dwell in the land which the LORD sware unto thy fathers, to Abraham, to Isaac, and to Jacob, to give them.
 
-## CHAPTER 31
+## DEUTERONOMY 31
 **1** And Moses went and spake these words unto all Israel.
 **2** And he said unto them, I am an hundred and twenty years old this day; I can no more go out and come in: also the LORD hath said unto me, Thou shalt not go over this Jordan.
 **3** The LORD thy God, he will go over before thee, and he will destroy these nations from before thee, and thou shalt possess them: and Joshua, he shall go over before thee, as the LORD hath said.
@@ -935,7 +935,7 @@ weight: 5
 **29** For I know that after my death ye will utterly corrupt yourselves, and turn aside from the way which I have commanded you; and evil will befall you in the latter days; because ye will do evil in the sight of the LORD, to provoke him to anger through the work of your hands.
 **30** And Moses spake in the ears of all the congregation of Israel the words of this song, until they were ended.
 
-## CHAPTER 32
+## DEUTERONOMY 32
 **1** Give ear, O ye heavens, and I will speak; and hear, O earth, the words of my mouth.
 **2** My doctrine shall drop as the rain, my speech shall distil as the dew, as the small rain upon the tender herb, and as the showers upon the grass:
 **3** Because I will publish the name of the LORD: ascribe ye greatness unto our God.
@@ -989,7 +989,7 @@ weight: 5
 **51** Because ye trespassed against me among the children of Israel at the waters of Meribah-Kadesh, in the wilderness of Zin; because ye sanctified me not in the midst of the children of Israel.
 **52** Yet thou shalt see the land before thee; but thou shalt not go thither unto the land which I give the children of Israel.
 
-## CHAPTER 33
+## DEUTERONOMY 33
 **1** And this is the blessing, wherewith Moses the man of God blessed the children of Israel before his death.
 **2** And he said, The LORD came from Sinai, and rose up from Seir unto them; he shined forth from mount Paran, and he came with ten thousands of saints: from his right hand went a fiery law for them.
 **3** Yea, he loved the people; all his saints are in thy hand: and they sat down at thy feet; every one shall receive of thy words.
@@ -1020,7 +1020,7 @@ weight: 5
 **28** Israel then shall dwell in safety alone: the fountain of Jacob shall be upon a land of corn and wine; also his heavens shall drop down dew.
 **29** Happy art thou, O Israel: who is like unto thee, O people saved by the LORD, the shield of thy help, and who is the sword of thy excellency! and thine enemies shall be found liars unto thee; and thou shalt tread upon their high places.
 
-## CHAPTER 34
+## DEUTERONOMY 34
 **1** And Moses went up from the plains of Moab unto the mountain of Nebo, to the top of Pisgah, that is over against Jericho. And the LORD shewed him all the land of Gilead, unto Dan,
 **2** And all Naphtali, and the land of Ephraim, and Manasseh, and all the land of Judah, unto the utmost sea,
 **3** And the south, and the plain of the valley of Jericho, the city of palm trees, unto Zoar.

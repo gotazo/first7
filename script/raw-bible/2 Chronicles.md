@@ -26,7 +26,7 @@ weight: 14
 **16** And Solomon had horses brought out of Egypt, and linen yarn: the king's merchants received the linen yarn at a price.
 **17** And they fetched up, and brought forth out of Egypt a chariot for six hundred shekels of silver, and an horse for an hundred and fifty: and so brought they out horses for all the kings of the Hittites, and for the kings of Syria, by their means.
 
-## CHAPTER 2
+## 2 CHRONICLES 2
 **1** And Solomon determined to build an house for the name of the LORD, and an house for his kingdom.
 **2** And Solomon told out threescore and ten thousand men to bear burdens, and fourscore thousand to hew in the mountain, and three thousand and six hundred to oversee them.
 **3** And Solomon sent to Huram the king of Tyre, saying, As thou didst deal with David my father, and didst send him cedars to build him an house to dwell therein, even so deal with me.
@@ -46,7 +46,7 @@ weight: 14
 **17** And Solomon numbered all the strangers that were in the land of Israel, after the numbering wherewith David his father had numbered them; and they were found an hundred and fifty thousand and three thousand and six hundred.
 **18** And he set threescore and ten thousand of them to be bearers of burdens, and fourscore thousand to be hewers in the mountain, and three thousand and six hundred overseers to set the people a work.
 
-## CHAPTER 3
+## 2 CHRONICLES 3
 **1** Then Solomon began to build the house of the LORD at Jerusalem in mount Moriah, where the LORD appeared unto David his father, in the place that David had prepared in the threshingfloor of Ornan the Jebusite.
 **2** And he began to build in the second day of the second month, in the fourth year of his reign.
 **3** Now these are the things wherein Solomon was instructed for the building of the house of God. The length by cubits after the first measure was threescore cubits, and the breadth twenty cubits.
@@ -65,7 +65,7 @@ weight: 14
 **16** And he made chains, as in the oracle, and put them on the heads of the pillars; and made an hundred pomegranates, and put them on the chains.
 **17** And he reared up the pillars before the temple, one on the right hand, and the other on the left; and called the name of that on the right hand Jachin, and the name of that on the left Boaz.
 
-## CHAPTER 4
+## 2 CHRONICLES 4
 **1** Moreover he made an altar of brass, twenty cubits the length thereof, and twenty cubits the breadth thereof, and ten cubits the height thereof.
 **2** Also he made a molten sea of ten cubits from brim to brim, round in compass, and five cubits the height thereof; and a line of thirty cubits did compass it round about.
 **3** And under it was the similitude of oxen, which did compass it round about: ten in a cubit, compassing the sea round about. Two rows of oxen were cast, when it was cast.
@@ -89,7 +89,7 @@ weight: 14
 **21** And the flowers, and the lamps, and the tongs, made he of gold, and that perfect gold;
 **22** And the snuffers, and the basons, and the spoons, and the censers, of pure gold: and the entry of the house, the inner doors thereof for the most holy place, and the doors of the house of the temple, were of gold.
 
-## CHAPTER 5
+## 2 CHRONICLES 5
 **1** Thus all the work that Solomon made for the house of the LORD was finished: and Solomon brought in all the things that David his father had dedicated; and the silver, and the gold, and all the instruments, put he among the treasures of the house of God.
 **2** Then Solomon assembled the elders of Israel, and all the heads of the tribes, the chief of the fathers of the children of Israel, unto Jerusalem, to bring up the ark of the covenant of the LORD out of the city of David, which is Zion.
 **3** Wherefore all the men of Israel assembled themselves unto the king in the feast which was in the seventh month.
@@ -105,7 +105,7 @@ weight: 14
 **13** It came even to pass, as the trumpeters and singers were as one, to make one sound to be heard in praising and thanking the LORD; and when they lifted up their voice with the trumpets and cymbals and instruments of musick, and praised the LORD, saying, For he is good; for his mercy endureth for ever: that then the house was filled with a cloud, even the house of the LORD;
 **14** So that the priests could not stand to minister by reason of the cloud: for the glory of the LORD had filled the house of God.
 
-## CHAPTER 6
+## 2 CHRONICLES 6
 **1** Then said Solomon, The LORD hath said that he would dwell in the thick darkness.
 **2** But I have built an house of habitation for thee, and a place for thy dwelling for ever.
 **3** And the king turned his face, and blessed the whole congregation of Israel: and all the congregation of Israel stood.
@@ -149,7 +149,7 @@ weight: 14
 **41** Now therefore arise, O LORD God, into thy resting place, thou, and the ark of thy strength: let thy priests, O LORD God, be clothed with salvation, and let thy saints rejoice in goodness.
 **42** O LORD God, turn not away the face of thine anointed: remember the mercies of David thy servant.
 
-## CHAPTER 7
+## 2 CHRONICLES 7
 **1** Now when Solomon had made an end of praying, the fire came down from heaven, and consumed the burnt offering and the sacrifices; and the glory of the LORD filled the house.
 **2** And the priests could not enter into the house of the LORD, because the glory of the LORD had filled the LORD'S house.
 **3** And when all the children of Israel saw how the fire came down, and the glory of the LORD upon the house, they bowed themselves with their faces to the ground upon the pavement, and worshipped, and praised the LORD, saying, For he is good; for his mercy endureth for ever.
@@ -173,7 +173,7 @@ weight: 14
 **21** And this house, which is high, shall be an astonishment to every one that passeth by it; so that he shall say, Why hath the LORD done thus unto this land, and unto this house?
 **22** And it shall be answered, Because they forsook the LORD God of their fathers, which brought them forth out of the land of Egypt, and laid hold on other gods, and worshipped them, and served them: therefore hath he brought all this evil upon them.
 
-## CHAPTER 8
+## 2 CHRONICLES 8
 **1** And it came to pass at the end of twenty years, wherein Solomon had built the house of the LORD, and his own house,
 **2** That the cities which Huram had restored to Solomon, Solomon built them, and caused the children of Israel to dwell there.
 **3** And Solomon went to Hamath-zobah, and prevailed against it.
@@ -193,7 +193,7 @@ weight: 14
 **17** Then went Solomon to Ezion-geber, and to Eloth, at the sea side in the land of Edom.
 **18** And Huram sent him by the hands of his servants ships, and servants that had knowledge of the sea; and they went with the servants of Solomon to Ophir, and took thence four hundred and fifty talents of gold, and brought them to king Solomon.
 
-## CHAPTER 9
+## 2 CHRONICLES 9
 **1** And when the queen of Sheba heard of the fame of Solomon, she came to prove Solomon with hard questions at Jerusalem, with a very great company, and camels that bare spices, and gold in abundance, and precious stones: and when she was come to Solomon, she communed with him of all that was in her heart.
 **2** And Solomon told her all her questions: and there was nothing hid from Solomon which he told her not.
 **3** And when the queen of Sheba had seen the wisdom of Solomon, and the house that he had built,
@@ -226,7 +226,7 @@ weight: 14
 **30** And Solomon reigned in Jerusalem over all Israel forty years.
 **31** And Solomon slept with his fathers, and he was buried in the city of David his father: and Rehoboam his son reigned in his stead.
 
-## CHAPTER 10
+## 2 CHRONICLES 10
 **1** And Rehoboam went to Shechem: for to Shechem were all Israel come to make him king.
 **2** And it came to pass, when Jeroboam the son of Nebat, who was in Egypt, whither he had fled from the presence of Solomon the king, heard it, that Jeroboam returned out of Egypt.
 **3** And they sent and called him. So Jeroboam and all Israel came and spake to Rehoboam, saying,
@@ -247,7 +247,7 @@ weight: 14
 **18** Then king Rehoboam sent Hadoram that was over the tribute; and the children of Israel stoned him with stones, that he died. But king Rehoboam made speed to get him up to his chariot, to flee to Jerusalem.
 **19** And Israel rebelled against the house of David unto this day.
 
-## CHAPTER 11
+## 2 CHRONICLES 11
 **1** And when Rehoboam was come to Jerusalem, he gathered of the house of Judah and Benjamin an hundred and fourscore thousand chosen men, which were warriors, to fight against Israel, that he might bring the kingdom again to Rehoboam.
 **2** But the word of the LORD came to Shemaiah the man of God, saying,
 **3** Speak unto Rehoboam the son of Solomon, king of Judah, and to all Israel in Judah and Benjamin, saying,
@@ -272,7 +272,7 @@ weight: 14
 **22** And Rehoboam made Abijah the son of Maachah the chief, to be ruler among his brethren: for he thought to make him king.
 **23** And he dealt wisely, and dispersed of all his children throughout all the countries of Judah and Benjamin, unto every fenced city: and he gave them victual in abundance. And he desired many wives.
 
-## CHAPTER 12
+## 2 CHRONICLES 12
 **1** And it came to pass, when Rehoboam had established the kingdom, and had strengthened himself, he forsook the law of the LORD, and all Israel with him.
 **2** And it came to pass, that in the fifth year of king Rehoboam Shishak king of Egypt came up against Jerusalem, because they had transgressed against the LORD,
 **3** With twelve hundred chariots, and threescore thousand horsemen: and the people were without number that came with him out of Egypt; the Lubims, the Sukkiims, and the Ethiopians.
@@ -290,7 +290,7 @@ weight: 14
 **15** Now the acts of Rehoboam, first and last, are they not written in the book of Shemaiah the prophet, and of Iddo the seer concerning genealogies? And there were wars between Rehoboam and Jeroboam continually.
 **16** And Rehoboam slept with his fathers, and was buried in the city of David: and Abijah his son reigned in his stead.
 
-## CHAPTER 13
+## 2 CHRONICLES 13
 **1** Now in the eighteenth year of king Jeroboam began Abijah to reign over Judah.
 **2** He reigned three years in Jerusalem. His mother's name also was Michaiah the daughter of Uriel of Gibeah. And there was war between Abijah and Jeroboam.
 **3** And Abijah set the battle in array with an army of valiant men of war, even four hundred thousand chosen men: Jeroboam also set the battle in array against him with eight hundred thousand chosen men, being mighty men of valour.
@@ -314,7 +314,7 @@ weight: 14
 **21** But Abijah waxed mighty, and married fourteen wives, and begat twenty and two sons, and sixteen daughters.
 **22** And the rest of the acts of Abijah, and his ways, and his sayings, are written in the story of the prophet Iddo.
 
-## CHAPTER 14
+## 2 CHRONICLES 14
 **1** So Abijah slept with his fathers, and they buried him in the city of David: and Asa his son reigned in his stead. In his days the land was quiet ten years.
 **2** And Asa did that which was good and right in the eyes of the LORD his God:
 **3** For he took away the altars of the strange gods, and the high places, and brake down the images, and cut down the groves:
@@ -331,7 +331,7 @@ weight: 14
 **14** And they smote all the cities round about Gerar; for the fear of the LORD came upon them: and they spoiled all the cities; for there was exceeding much spoil in them.
 **15** They smote also the tents of cattle, and carried away sheep and camels in abundance, and returned to Jerusalem.
 
-## CHAPTER 15
+## 2 CHRONICLES 15
 **1** And the Spirit of God came upon Azariah the son of Oded:
 **2** And he went out to meet Asa, and said unto him, Hear ye me, Asa, and all Judah and Benjamin; The LORD is with you, while ye be with him; and if ye seek him, he will be found of you; but if ye forsake him, he will forsake you.
 **3** Now for a long season Israel hath been without the true God, and without a teaching priest, and without law.
@@ -352,7 +352,7 @@ weight: 14
 **18** And he brought into the house of God the things that his father had dedicated, and that he himself had dedicated, silver, and gold, and vessels.
 **19** And there was no more war unto the five and thirtieth year of the reign of Asa.
 
-## CHAPTER 16
+## 2 CHRONICLES 16
 **1** In the six and thirtieth year of the reign of Asa Baasha king of Israel came up against Judah, and built Ramah, to the intent that he might let none go out or come in to Asa king of Judah.
 **2** Then Asa brought out silver and gold out of the treasures of the house of the LORD and of the king's house, and sent to Ben-hadad king of Syria, that dwelt at Damascus, saying,
 **3** There is a league between me and thee, as there was between my father and thy father: behold, I have sent thee silver and gold; go, break thy league with Baasha king of Israel, that he may depart from me.
@@ -368,7 +368,7 @@ weight: 14
 **13** And Asa slept with his fathers, and died in the one and fortieth year of his reign.
 **14** And they buried him in his own sepulchres, which he had made for himself in the city of David, and laid him in the bed which was filled with sweet odours and divers kinds of spices prepared by the apothecaries' art: and they made a very great burning for him.
 
-## CHAPTER 17
+## 2 CHRONICLES 17
 **1** And Jehoshaphat his son reigned in his stead, and strengthened himself against Israel.
 **2** And he placed forces in all the fenced cities of Judah, and set garrisons in the land of Judah, and in the cities of Ephraim, which Asa his father had taken.
 **3** And the LORD was with Jehoshaphat, because he walked in the first ways of his father David, and sought not unto Baalim;
@@ -389,7 +389,7 @@ weight: 14
 **18** And next him was Jehozabad, and with him an hundred and fourscore thousand ready prepared for the war.
 **19** These waited on the king, beside those whom the king put in the fenced cities throughout all Judah.
 
-## CHAPTER 18
+## 2 CHRONICLES 18
 **1** Now Jehoshaphat had riches and honour in abundance, and joined affinity with Ahab.
 **2** And after certain years he went down to Ahab to Samaria. And Ahab killed sheep and oxen for him in abundance, and for the people that he had with him, and persuaded him to go up with him to Ramoth-gilead.
 **3** And Ahab king of Israel said unto Jehoshaphat king of Judah, Wilt thou go with me to Ramoth-gilead? And he answered him, I am as thou art, and my people as thy people; and we will be with thee in the war.
@@ -425,7 +425,7 @@ weight: 14
 **33** And a certain man drew a bow at a venture, and smote the king of Israel between the joints of the harness: therefore he said to his chariot man, Turn thine hand, that thou mayest carry me out of the host; for I am wounded.
 **34** And the battle increased that day: howbeit the king of Israel stayed himself up in his chariot against the Syrians until the even: and about the time of the sun going down he died.
 
-## CHAPTER 19
+## 2 CHRONICLES 19
 **1** And Jehoshaphat the king of Judah returned to his house in peace to Jerusalem.
 **2** And Jehu the son of Hanani the seer went out to meet him, and said to king Jehoshaphat, Shouldest thou help the ungodly, and love them that hate the LORD? therefore is wrath upon thee from before the LORD.
 **3** Nevertheless there are good things found in thee, in that thou hast taken away the groves out of the land, and hast prepared thine heart to seek God.
@@ -438,7 +438,7 @@ weight: 14
 **10** And what cause soever shall come to you of your brethren that dwell in their cities, between blood and blood, between law and commandment, statutes and judgments, ye shall even warn them that they trespass not against the LORD, and so wrath come upon you, and upon your brethren: this do, and ye shall not trespass.
 **11** And, behold, Amariah the chief priest is over you in all matters of the LORD; and Zebadiah the son of Ishmael, the ruler of the house of Judah, for all the king's matters: also the Levites shall be officers before you. Deal courageously, and the LORD shall be with the good.
 
-## CHAPTER 20
+## 2 CHRONICLES 20
 **1** It came to pass after this also, that the children of Moab, and the children of Ammon, and with them other beside the Ammonites, came against Jehoshaphat to battle.
 **2** Then there came some that told Jehoshaphat, saying, There cometh a great multitude against thee from beyond the sea on this side Syria; and, behold, they be in Hazazon-tamar, which is En-gedi.
 **3** And Jehoshaphat feared, and set himself to seek the LORD, and proclaimed a fast throughout all Judah.
@@ -477,7 +477,7 @@ weight: 14
 **36** And he joined himself with him to make ships to go to Tarshish: and they made the ships in Ezion-geber.
 **37** Then Eliezer the son of Dodavah of Mareshah prophesied against Jehoshaphat, saying, Because thou hast joined thyself with Ahaziah, the LORD hath broken thy works. And the ships were broken, that they were not able to go to Tarshish.
 
-## CHAPTER 21
+## 2 CHRONICLES 21
 **1** Now Jehoshaphat slept with his fathers, and was buried with his fathers in the city of David. And Jehoram his son reigned in his stead.
 **2** And he had brethren the sons of Jehoshaphat, Azariah, and Jehiel, and Zechariah, and Azariah, and Michael, and Shephatiah: all these were the sons of Jehoshaphat king of Israel.
 **3** And their father gave them great gifts of silver, and of gold, and of precious things, with fenced cities in Judah: but the kingdom gave he to Jehoram; because he was the firstborn.
@@ -499,7 +499,7 @@ weight: 14
 **19** And it came to pass, that in process of time, after the end of two years, his bowels fell out by reason of his sickness: so he died of sore diseases. And his people made no burning for him, like the burning of his fathers.
 **20** Thirty and two years old was he when he began to reign, and he reigned in Jerusalem eight years, and departed without being desired. Howbeit they buried him in the city of David, but not in the sepulchres of the kings.
 
-## CHAPTER 22
+## 2 CHRONICLES 22
 **1** And the inhabitants of Jerusalem made Ahaziah his youngest son king in his stead: for the band of men that came with the Arabians to the camp had slain all the eldest. So Ahaziah the son of Jehoram king of Judah reigned.
 **2** Forty and two years old was Ahaziah when he began to reign, and he reigned one year in Jerusalem. His mother's name also was Athaliah the daughter of Omri.
 **3** He also walked in the ways of the house of Ahab: for his mother was his counsellor to do wickedly.
@@ -513,7 +513,7 @@ weight: 14
 **11** But Jehoshabeath, the daughter of the king, took Joash the son of Ahaziah, and stole him from among the king's sons that were slain, and put him and his nurse in a bedchamber. So Jehoshabeath, the daughter of king Jehoram, the wife of Jehoiada the priest, (for she was the sister of Ahaziah,) hid him from Athaliah, so that she slew him not.
 **12** And he was with them hid in the house of God six years: and Athaliah reigned over the land.
 
-## CHAPTER 23
+## 2 CHRONICLES 23
 **1** And in the seventh year Jehoiada strengthened himself, and took the captains of hundreds, Azariah the son of Jeroham, and Ishmael the son of Jehohanan, and Azariah the son of Obed, and Maaseiah the son of Adaiah, and Elishaphat the son of Zichri, into covenant with him.
 **2** And they went about in Judah, and gathered the Levites out of all the cities of Judah, and the chief of the fathers of Israel, and they came to Jerusalem.
 **3** And all the congregation made a covenant with the king in the house of God. And he said unto them, Behold, the king's son shall reign, as the LORD hath said of the sons of David.
@@ -536,7 +536,7 @@ weight: 14
 **20** And he took the captains of hundreds, and the nobles, and the governors of the people, and all the people of the land, and brought down the king from the house of the LORD: and they came through the high gate into the king's house, and set the king upon the throne of the kingdom.
 **21** And all the people of the land rejoiced: and the city was quiet, after that they had slain Athaliah with the sword.
 
-## CHAPTER 24
+## 2 CHRONICLES 24
 **1** Joash was seven years old when he began to reign, and he reigned forty years in Jerusalem. His mother's name also was Zibiah of Beer-sheba.
 **2** And Joash did that which was right in the sight of the LORD all the days of Jehoiada the priest.
 **3** And Jehoiada took for him two wives; and he begat sons and daughters.
@@ -565,7 +565,7 @@ weight: 14
 **26** And these are they that conspired against him; Zabad the son of Shimeath an Ammonitess, and Jehozabad the son of Shimrith a Moabitess.
 **27** Now concerning his sons, and the greatness of the burdens laid upon him, and the repairing of the house of God, behold, they are written in the story of the book of the kings. And Amaziah his son reigned in his stead.
 
-## CHAPTER 25
+## 2 CHRONICLES 25
 **1** Amaziah was twenty and five years old when he began to reign, and he reigned twenty and nine years in Jerusalem. And his mother's name was Jehoaddan of Jerusalem.
 **2** And he did that which was right in the sight of the LORD, but not with a perfect heart.
 **3** Now it came to pass, when the kingdom was established to him, that he slew his servants that had killed the king his father.
@@ -595,7 +595,7 @@ weight: 14
 **27** Now after the time that Amaziah did turn away from following the LORD they made a conspiracy against him in Jerusalem; and he fled to Lachish: but they sent to Lachish after him, and slew him there.
 **28** And they brought him upon horses, and buried him with his fathers in the city of Judah.
 
-## CHAPTER 26
+## 2 CHRONICLES 26
 **1** Then all the people of Judah took Uzziah, who was sixteen years old, and made him king in the room of his father Amaziah.
 **2** He built Eloth, and restored it to Judah, after that the king slept with his fathers.
 **3** Sixteen years old was Uzziah when he began to reign, and he reigned fifty and two years in Jerusalem. His mother's name also was Jecoliah of Jerusalem.
@@ -620,7 +620,7 @@ weight: 14
 **22** Now the rest of the acts of Uzziah, first and last, did Isaiah the prophet, the son of Amoz, write.
 **23** So Uzziah slept with his fathers, and they buried him with his fathers in the field of the burial which belonged to the kings; for they said, He is a leper: and Jotham his son reigned in his stead.
 
-## CHAPTER 27
+## 2 CHRONICLES 27
 **1** Jotham was twenty and five years old when he began to reign, and he reigned sixteen years in Jerusalem. His mother's name also was Jerushah, the daughter of Zadok.
 **2** And he did that which was right in the sight of the LORD, according to all that his father Uzziah did: howbeit he entered not into the temple of the LORD. And the people did yet corruptly.
 **3** He built the high gate of the house of the LORD, and on the wall of Ophel he built much.
@@ -631,7 +631,7 @@ weight: 14
 **8** He was five and twenty years old when he began to reign, and reigned sixteen years in Jerusalem.
 **9** And Jotham slept with his fathers, and they buried him in the city of David: and Ahaz his son reigned in his stead.
 
-## CHAPTER 28
+## 2 CHRONICLES 28
 **1** Ahaz was twenty years old when he began to reign, and he reigned sixteen years in Jerusalem: but he did not that which was right in the sight of the LORD, like David his father:
 **2** For he walked in the ways of the kings of Israel, and made also molten images for Baalim.
 **3** Moreover he burnt incense in the valley of the son of Hinnom, and burnt his children in the fire, after the abominations of the heathen whom the LORD had cast out before the children of Israel.
@@ -660,7 +660,7 @@ weight: 14
 **26** Now the rest of his acts and of all his ways, first and last, behold, they are written in the book of the kings of Judah and Israel.
 **27** And Ahaz slept with his fathers, and they buried him in the city, even in Jerusalem: but they brought him not into the sepulchres of the kings of Israel: and Hezekiah his son reigned in his stead.
 
-## CHAPTER 29
+## 2 CHRONICLES 29
 **1** Hezekiah began to reign when he was five and twenty years old, and he reigned nine and twenty years in Jerusalem. And his mother's name was Abijah, the daughter of Zechariah.
 **2** And he did that which was right in the sight of the LORD, according to all that David his father had done.
 **3** He in the first year of his reign, in the first month, opened the doors of the house of the LORD, and repaired them.
@@ -698,7 +698,7 @@ weight: 14
 **35** And also the burnt offerings were in abundance, with the fat of the peace offerings, and the drink offerings for every burnt offering. So the service of the house of the LORD was set in order.
 **36** And Hezekiah rejoiced, and all the people, that God had prepared the people: for the thing was done suddenly.
 
-## CHAPTER 30
+## 2 CHRONICLES 30
 **1** And Hezekiah sent to all Israel and Judah, and wrote letters also to Ephraim and Manasseh, that they should come to the house of the LORD at Jerusalem, to keep the passover unto the LORD God of Israel.
 **2** For the king had taken counsel, and his princes, and all the congregation in Jerusalem, to keep the passover in the second month.
 **3** For they could not keep it at that time, because the priests had not sanctified themselves sufficiently, neither had the people gathered themselves together to Jerusalem.
@@ -727,7 +727,7 @@ weight: 14
 **26** So there was great joy in Jerusalem: for since the time of Solomon the son of David king of Israel there was not the like in Jerusalem.
 **27** Then the priests the Levites arose and blessed the people: and their voice was heard, and their prayer came up to his holy dwelling place, even unto heaven.
 
-## CHAPTER 31
+## 2 CHRONICLES 31
 **1** Now when all this was finished, all Israel that were present went out to the cities of Judah, and brake the images in pieces, and cut down the groves, and threw down the high places and the altars out of all Judah and Benjamin, in Ephraim also and Manasseh, until they had utterly destroyed them all. Then all the children of Israel returned, every man to his possession, into their own cities.
 **2** And Hezekiah appointed the courses of the priests and the Levites after their courses, every man according to his service, the priests and Levites for burnt offerings and for peace offerings, to minister, and to give thanks, and to praise in the gates of the tents of the LORD.
 **3** He appointed also the king's portion of his substance for the burnt offerings, to wit, for the morning and evening burnt offerings, and the burnt offerings for the sabbaths, and for the new moons, and for the set feasts, as it is written in the law of the LORD.
@@ -750,7 +750,7 @@ weight: 14
 **20** And thus did Hezekiah throughout all Judah, and wrought that which was good and right and truth before the LORD his God.
 **21** And in every work that he began in the service of the house of God, and in the law, and in the commandments, to seek his God, he did it with all his heart, and prospered.
 
-## CHAPTER 32
+## 2 CHRONICLES 32
 **1** After these things, and the establishment thereof, Sennacherib king of Assyria came, and entered into Judah, and encamped against the fenced cities, and thought to win them for himself.
 **2** And when Hezekiah saw that Sennacherib was come, and that he was purposed to fight against Jerusalem,
 **3** He took counsel with his princes and his mighty men to stop the waters of the fountains which were without the city: and they did help him.
@@ -785,7 +785,7 @@ weight: 14
 **32** Now the rest of the acts of Hezekiah, and his goodness, behold, they are written in the vision of Isaiah the prophet, the son of Amoz, and in the book of the kings of Judah and Israel.
 **33** And Hezekiah slept with his fathers, and they buried him in the chiefest of the sepulchres of the sons of David: and all Judah and the inhabitants of Jerusalem did him honour at his death. And Manasseh his son reigned in his stead.
 
-## CHAPTER 33
+## 2 CHRONICLES 33
 **1** Manasseh was twelve years old when he began to reign, and he reigned fifty and five years in Jerusalem:
 **2** But did that which was evil in the sight of the LORD, like unto the abominations of the heathen, whom the LORD had cast out before the children of Israel.
 **3** For he built again the high places which Hezekiah his father had broken down, and he reared up altars for Baalim, and made groves, and worshipped all the host of heaven, and served them.
@@ -812,7 +812,7 @@ weight: 14
 **24** And his servants conspired against him, and slew him in his own house.
 **25** But the people of the land slew all them that had conspired against king Amon; and the people of the land made Josiah his son king in his stead.
 
-## CHAPTER 34
+## 2 CHRONICLES 34
 **1** Josiah was eight years old when he began to reign, and he reigned in Jerusalem one and thirty years.
 **2** And he did that which was right in the sight of the LORD, and walked in the ways of David his father, and declined neither to the right hand, nor to the left.
 **3** For in the eighth year of his reign, while he was yet young, he began to seek after the God of David his father: and in the twelfth year he began to purge Judah and Jerusalem from the high places, and the groves, and the carved images, and the molten images.
@@ -847,7 +847,7 @@ weight: 14
 **32** And he caused all that were present in Jerusalem and Benjamin to stand to it. And the inhabitants of Jerusalem did according to the covenant of God, the God of their fathers.
 **33** And Josiah took away all the abominations out of all the countries that pertained to the children of Israel, and made all that were present in Israel to serve, even to serve the LORD their God. And all his days they departed not from following the LORD, the God of their fathers.
 
-## CHAPTER 35
+## 2 CHRONICLES 35
 **1** Moreover Josiah kept a passover unto the LORD in Jerusalem: and they killed the passover on the fourteenth day of the first month.
 **2** And he set the priests in their charges, and encouraged them to the service of the house of the LORD,
 **3** And said unto the Levites that taught all Israel, which were holy unto the LORD, Put the holy ark in the house which Solomon the son of David king of Israel did build; it shall not be a burden upon your shoulders: serve now the LORD your God, and his people Israel,
@@ -876,7 +876,7 @@ weight: 14
 **26** Now the rest of the acts of Josiah, and his goodness, according to that which was written in the law of the LORD,
 **27** And his deeds, first and last, behold, they are written in the book of the kings of Israel and Judah.
 
-## CHAPTER 36
+## 2 CHRONICLES 36
 **1** Then the people of the land took Jehoahaz the son of Josiah, and made him king in his father's stead in Jerusalem.
 **2** Jehoahaz was twenty and three years old when he began to reign, and he reigned three months in Jerusalem.
 **3** And the king of Egypt put him down at Jerusalem, and condemned the land in an hundred talents of silver and a talent of gold.
@@ -900,6 +900,6 @@ weight: 14
 **21** To fulfil the word of the LORD by the mouth of Jeremiah, until the land had enjoyed her sabbaths: for as long as she lay desolate she kept sabbath, to fulfil threescore and ten years.
 **22** Now in the first year of Cyrus king of Persia, that the word of the LORD spoken by the mouth of Jeremiah might be accomplished, the LORD stirred up the spirit of Cyrus king of Persia, that he made a proclamation throughout all his kingdom, and put it also in writing, saying,
 **23** Thus saith Cyrus king of Persia, All the kingdoms of the earth hath the LORD God of heaven given me; and he hath charged me to build him an house in Jerusalem, which is in Judah. Who is there among you of all his people? The LORD his God be with him, and let him go up.
-2 CHRONICLES
+**2** CHRONICLES
 
 

@@ -7,7 +7,7 @@ weight: 27
 ## DANIEL
 
 
-## CHAPTER 1
+## DANIEL 1
 **1** In the third year of the reign of Jehoiakim king of Judah came Nebuchadnezzar king of Babylon unto Jerusalem, and besieged it.
 **2** And the Lord gave Jehoiakim king of Judah into his hand, with part of the vessels of the house of God: which he carried into the land of Shinar to the house of his god; and he brought the vessels into the treasure house of his god.
 **3** And the king spake unto Ashpenaz the master of his eunuchs, that he should bring certain of the children of Israel, and of the king's seed, and of the princes;
@@ -30,7 +30,7 @@ weight: 27
 **20** And in all matters of wisdom and understanding, that the king enquired of them, he found them ten times better than all the magicians and astrologers that were in all his realm.
 **21** And Daniel continued even unto the first year of king Cyrus.
 
-## CHAPTER 2
+## DANIEL 2
 **1** And in the second year of the reign of Nebuchadnezzar Nebuchadnezzar dreamed dreams, wherewith his spirit was troubled, and his sleep brake from him.
 **2** Then the king commanded to call the magicians, and the astrologers, and the sorcerers, and the Chaldeans, for to shew the king his dreams. So they came and stood before the king.
 **3** And the king said unto them, I have dreamed a dream, and my spirit was troubled to know the dream.
@@ -81,7 +81,7 @@ weight: 27
 **48** Then the king made Daniel a great man, and gave him many great gifts, and made him ruler over the whole province of Babylon, and chief of the governors over all the wise men of Babylon.
 **49** Then Daniel requested of the king, and he set Shadrach, Meshach, and Abed-nego, over the affairs of the province of Babylon: but Daniel sat in the gate of the king.
 
-## CHAPTER 3
+## DANIEL 3
 **1** Nebuchadnezzar the king made an image of gold, whose height was threescore cubits, and the breadth thereof six cubits: he set it up in the plain of Dura, in the province of Babylon.
 **2** Then Nebuchadnezzar the king sent to gather together the princes, the governors, and the captains, the judges, the treasurers, the counsellors, the sheriffs, and all the rulers of the provinces, to come to the dedication of the image which Nebuchadnezzar the king had set up.
 **3** Then the princes, the governors, and captains, the judges, the treasurers, the counsellors, the sheriffs, and all the rulers of the provinces, were gathered together unto the dedication of the image that Nebuchadnezzar the king had set up; and they stood before the image that Nebuchadnezzar had set up.
@@ -113,7 +113,7 @@ weight: 27
 **29** Therefore I make a decree, That every people, nation, and language, which speak any thing amiss against the God of Shadrach, Meshach, and Abed-nego, shall be cut in pieces, and their houses shall be made a dunghill: because there is no other God that can deliver after this sort.
 **30** Then the king promoted Shadrach, Meshach, and Abed-nego, in the province of Babylon.
 
-## CHAPTER 4
+## DANIEL 4
 **1** Nebuchadnezzar the king, unto all people, nations, and languages, that dwell in all the earth; Peace be multiplied unto you.
 **2** I thought it good to shew the signs and wonders that the high God hath wrought toward me.
 **3** How great are his signs! and how mighty are his wonders! his kingdom is an everlasting kingdom, and his dominion is from generation to generation.
@@ -152,7 +152,7 @@ weight: 27
 **36** At the same time my reason returned unto me; and for the glory of my kingdom, mine honour and brightness returned unto me; and my counsellors and my lords sought unto me; and I was established in my kingdom, and excellent majesty was added unto me.
 **37** Now I Nebuchadnezzar praise and extol and honour the King of heaven, all whose works are truth, and his ways judgment: and those that walk in pride he is able to abase.
 
-## CHAPTER 5
+## DANIEL 5
 **1** Belshazzar the king made a great feast to a thousand of his lords, and drank wine before the thousand.
 **2** Belshazzar, whiles he tasted the wine, commanded to bring the golden and silver vessels which his father Nebuchadnezzar had taken out of the temple which was in Jerusalem; that the king, and his princes, his wives, and his concubines, might drink therein.
 **3** Then they brought the golden vessels that were taken out of the temple of the house of God which was at Jerusalem; and the king, and his princes, his wives, and his concubines, drank in them.
@@ -185,7 +185,7 @@ weight: 27
 **30** In that night was Belshazzar the king of the Chaldeans slain.
 **31** And Darius the Median took the kingdom, being about threescore and two years old.
 
-## CHAPTER 6
+## DANIEL 6
 **1** It pleased Darius to set over the kingdom an hundred and twenty princes, which should be over the whole kingdom;
 **2** And over these three presidents; of whom Daniel was first: that the princes might give accounts unto them, and the king should have no damage.
 **3** Then this Daniel was preferred above the presidents and princes, because an excellent spirit was in him; and the king thought to set him over the whole realm.
@@ -215,7 +215,7 @@ weight: 27
 **27** He delivereth and rescueth, and he worketh signs and wonders in heaven and in earth, who hath delivered Daniel from the power of the lions.
 **28** So this Daniel prospered in the reign of Darius, and in the reign of Cyrus the Persian.
 
-## CHAPTER 7
+## DANIEL 7
 **1** In the first year of Belshazzar king of Babylon Daniel had a dream and visions of his head upon his bed: then he wrote the dream, and told the sum of the matters.
 **2** Daniel spake and said, I saw in my vision by night, and, behold, the four winds of the heaven strove upon the great sea.
 **3** And four great beasts came up from the sea, diverse one from another.
@@ -245,7 +245,7 @@ weight: 27
 **27** And the kingdom and dominion, and the greatness of the kingdom under the whole heaven, shall be given to the people of the saints of the most High, whose kingdom is an everlasting kingdom, and all dominions shall serve and obey him.
 **28** Hitherto is the end of the matter. As for me Daniel, my cogitations much troubled me, and my countenance changed in me: but I kept the matter in my heart.
 
-## CHAPTER 8
+## DANIEL 8
 **1** In the third year of the reign of king Belshazzar a vision appeared unto me, even unto me Daniel, after that which appeared unto me at the first.
 **2** And I saw in a vision; and it came to pass, when I saw, that I was at Shushan in the palace, which is in the province of Elam; and I saw in a vision, and I was by the river of Ulai.
 **3** Then I lifted up mine eyes, and saw, and, behold, there stood before the river a ram which had two horns: and the two horns were high; but one was higher than the other, and the higher came up last.
@@ -274,7 +274,7 @@ weight: 27
 **26** And the vision of the evening and the morning which was told is true: wherefore shut thou up the vision; for it shall be for many days.
 **27** And I Daniel fainted, and was sick certain days; afterward I rose up, and did the king's business; and I was astonished at the vision, but none understood it.
 
-## CHAPTER 9
+## DANIEL 9
 **1** In the first year of Darius the son of Ahasuerus, of the seed of the Medes, which was made king over the realm of the Chaldeans;
 **2** In the first year of his reign I Daniel understood by books the number of the years, whereof the word of the LORD came to Jeremiah the prophet, that he would accomplish seventy years in the desolations of Jerusalem.
 **3** And I set my face unto the Lord God, to seek by prayer and supplications, with fasting, and sackcloth, and ashes:
@@ -303,7 +303,7 @@ weight: 27
 **26** And after threescore and two weeks shall Messiah be cut off, but not for himself: and the people of the prince that shall come shall destroy the city and the sanctuary; and the end thereof shall be with a flood, and unto the end of the war desolations are determined.
 **27** And he shall confirm the covenant with many for one week: and in the midst of the week he shall cause the sacrifice and the oblation to cease, and for the overspreading of abominations he shall make it desolate, even until the consummation, and that determined shall be poured upon the desolate.
 
-## CHAPTER 10
+## DANIEL 10
 **1** In the third year of Cyrus king of Persia a thing was revealed unto Daniel, whose name was called Belteshazzar; and the thing was true, but the time appointed was long: and he understood the thing, and had understanding of the vision.
 **2** In those days I Daniel was mourning three full weeks.
 **3** I ate no pleasant bread, neither came flesh nor wine in my mouth, neither did I anoint myself at all, till three whole weeks were fulfilled.
@@ -326,7 +326,7 @@ weight: 27
 **20** Then said he, Knowest thou wherefore I come unto thee? and now will I return to fight with the prince of Persia: and when I am gone forth, lo, the prince of Grecia shall come.
 **21** But I will shew thee that which is noted in the scripture of truth: and there is none that holdeth with me in these things, but Michael your prince.
 
-## CHAPTER 11
+## DANIEL 11
 **1** Also I in the first year of Darius the Mede, even I, stood to confirm and to strengthen him.
 **2** And now will I shew thee the truth. Behold, there shall stand up yet three kings in Persia; and the fourth shall be far richer than they all: and by his strength through his riches he shall stir up all against the realm of Grecia.
 **3** And a mighty king shall stand up, that shall rule with great dominion, and do according to his will.
@@ -373,7 +373,7 @@ weight: 27
 **44** But tidings out of the east and out of the north shall trouble him: therefore he shall go forth with great fury to destroy, and utterly to make away many.
 **45** And he shall plant the tabernacles of his palace between the seas in the glorious holy mountain; yet he shall come to his end, and none shall help him.
 
-## CHAPTER 12
+## DANIEL 12
 **1** And at that time shall Michael stand up, the great prince which standeth for the children of thy people: and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time thy people shall be delivered, every one that shall be found written in the book.
 **2** And many of them that sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.
 **3** And they that be wise shall shine as the brightness of the firmament; and they that turn many to righteousness as the stars for ever and ever.

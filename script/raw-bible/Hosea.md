@@ -6,7 +6,7 @@ weight: 28
 HOSEA
 
 
-## CHAPTER 1
+## HOSEA 1
 **1** The word of the LORD that came unto Hosea, the son of Beeri, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and in the days of Jeroboam the son of Joash, king of Israel.
 **2** The beginning of the word of the LORD by Hosea. And the LORD said to Hosea, Go, take unto thee a wife of whoredoms and children of whoredoms: for the land hath committed great whoredom, departing from the LORD.
 **3** So he went and took Gomer the daughter of Diblaim; which conceived, and bare him a son.
@@ -19,7 +19,7 @@ HOSEA
 **10** Yet the number of the children of Israel shall be as the sand of the sea, which cannot be measured nor numbered; and it shall come to pass, that in the place where it was said unto them, Ye are not my people, there it shall be said unto them, Ye are the sons of the living God.
 **11** Then shall the children of Judah and the children of Israel be gathered together, and appoint themselves one head, and they shall come up out of the land: for great shall be the day of Jezreel.
 
-## CHAPTER 2
+## HOSEA 2
 **1** Say ye unto your brethren, Ammi; and to your sisters, Ruhamah.
 **2** Plead with your mother, plead: for she is not my wife, neither am I her husband: let her therefore put away her whoredoms out of her sight, and her adulteries from between her breasts;
 **3** Lest I strip her naked, and set her as in the day that she was born, and make her as a wilderness, and set her like a dry land, and slay her with thirst.
@@ -44,14 +44,14 @@ HOSEA
 **22** And the earth shall hear the corn, and the wine, and the oil; and they shall hear Jezreel.
 **23** And I will sow her unto me in the earth; and I will have mercy upon her that had not obtained mercy; and I will say to them which were not my people, Thou art my people; and they shall say, Thou art my God.
 
-## CHAPTER 3
+## HOSEA 3
 **1** Then said the LORD unto me, Go yet, love a woman beloved of her friend, yet an adulteress, according to the love of the LORD toward the children of Israel, who look to other gods, and love flagons of wine.
 **2** So I bought her to me for fifteen pieces of silver, and for an homer of barley, and an half homer of barley:
 **3** And I said unto her, Thou shalt abide for me many days; thou shalt not play the harlot, and thou shalt not be for another man: so will I also be for thee.
 **4** For the children of Israel shall abide many days without a king, and without a prince, and without a sacrifice, and without an image, and without an ephod, and without teraphim:
 **5** Afterward shall the children of Israel return, and seek the LORD their God, and David their king; and shall fear the LORD and his goodness in the latter days.
 
-## CHAPTER 4
+## HOSEA 4
 **1** Hear the word of the LORD, ye children of Israel: for the LORD hath a controversy with the inhabitants of the land, because there is no truth, nor mercy, nor knowledge of God in the land.
 **2** By swearing, and lying, and killing, and stealing, and committing adultery, they break out, and blood toucheth blood.
 **3** Therefore shall the land mourn, and every one that dwelleth therein shall languish, with the beasts of the field, and with the fowls of heaven; yea, the fishes of the sea also shall be taken away.
@@ -72,7 +72,7 @@ HOSEA
 **18** Their drink is sour: they have committed whoredom continually: her rulers with shame do love, Give ye.
 **19** The wind hath bound her up in her wings, and they shall be ashamed because of their sacrifices.
 
-## CHAPTER 5
+## HOSEA 5
 **1** Hear ye this, O priests; and hearken, ye house of Israel; and give ye ear, O house of the king; for judgment is toward you, because ye have been a snare on Mizpah, and a net spread upon Tabor.
 **2** And the revolters are profound to make slaughter, though I have been a rebuker of them all.
 **3** I know Ephraim, and Israel is not hid from me: for now, O Ephraim, thou committest whoredom, and Israel is defiled.
@@ -89,7 +89,7 @@ HOSEA
 **14** For I will be unto Ephraim as a lion, and as a young lion to the house of Judah: I, even I, will tear and go away; I will take away, and none shall rescue him.
 **15** I will go and return to my place, till they acknowledge their offence, and seek my face: in their affliction they will seek me early.
 
-## CHAPTER 6
+## HOSEA 6
 **1** Come, and let us return unto the LORD: for he hath torn, and he will heal us; he hath smitten, and he will bind us up.
 **2** After two days will he revive us: in the third day he will raise us up, and we shall live in his sight.
 **3** Then shall we know, if we follow on to know the LORD: his going forth is prepared as the morning; and he shall come unto us as the rain, as the latter and former rain unto the earth.
@@ -102,7 +102,7 @@ HOSEA
 **10** I have seen an horrible thing in the house of Israel: there is the whoredom of Ephraim, Israel is defiled.
 **11** Also, O Judah, he hath set an harvest for thee, when I returned the captivity of my people.
 
-## CHAPTER 7
+## HOSEA 7
 **1** When I would have healed Israel, then the iniquity of Ephraim was discovered, and the wickedness of Samaria: for they commit falsehood; and the thief cometh in, and the troop of robbers spoileth without.
 **2** And they consider not in their hearts that I remember all their wickedness: now their own doings have beset them about; they are before my face.
 **3** They make the king glad with their wickedness, and the princes with their lies.
@@ -120,7 +120,7 @@ HOSEA
 **15** Though I have bound and strengthened their arms, yet do they imagine mischief against me.
 **16** They return, but not to the most High: they are like a deceitful bow: their princes shall fall by the sword for the rage of their tongue: this shall be their derision in the land of Egypt.
 
-## CHAPTER 8
+## HOSEA 8
 **1** Set the trumpet to thy mouth. He shall come as an eagle against the house of the LORD, because they have transgressed my covenant, and trespassed against my law.
 **2** Israel shall cry unto me, My God, we know thee.
 **3** Israel hath cast off the thing that is good: the enemy shall pursue him.
@@ -136,7 +136,7 @@ HOSEA
 **13** They sacrifice flesh for the sacrifices of mine offerings, and eat it; but the LORD accepteth them not; now will he remember their iniquity, and visit their sins: they shall return to Egypt.
 **14** For Israel hath forgotten his Maker, and buildeth temples; and Judah hath multiplied fenced cities: but I will send a fire upon his cities, and it shall devour the palaces thereof.
 
-## CHAPTER 9
+## HOSEA 9
 **1** Rejoice not, O Israel, for joy, as other people: for thou hast gone a whoring from thy God, thou hast loved a reward upon every cornfloor.
 **2** The floor and the winepress shall not feed them, and the new wine shall fail in her.
 **3** They shall not dwell in the LORD'S land; but Ephraim shall return to Egypt, and they shall eat unclean things in Assyria.
@@ -155,7 +155,7 @@ HOSEA
 **16** Ephraim is smitten, their root is dried up, they shall bear no fruit: yea, though they bring forth, yet will I slay even the beloved fruit of their womb.
 **17** My God will cast them away, because they did not hearken unto him: and they shall be wanderers among the nations.
 
-## CHAPTER 10
+## HOSEA 10
 **1** Israel is an empty vine, he bringeth forth fruit unto himself: according to the multitude of his fruit he hath increased the altars; according to the goodness of his land they have made goodly images.
 **2** Their heart is divided; now shall they be found faulty: he shall break down their altars, he shall spoil their images.
 **3** For now they shall say, We have no king, because we feared not the LORD; what then should a king do to us?
@@ -172,7 +172,7 @@ HOSEA
 **14** Therefore shall a tumult arise among thy people, and all thy fortresses shall be spoiled, as Shalman spoiled Beth-arbel in the day of battle: the mother was dashed in pieces upon her children.
 **15** So shall Beth-el do unto you because of your great wickedness: in a morning shall the king of Israel utterly be cut off.
 
-## CHAPTER 11
+## HOSEA 11
 **1** When Israel was a child, then I loved him, and called my son out of Egypt.
 **2** As they called them, so they went from them: they sacrificed unto Baalim, and burned incense to graven images.
 **3** I taught Ephraim also to go, taking them by their arms; but they knew not that I healed them.
@@ -186,7 +186,7 @@ HOSEA
 **11** They shall tremble as a bird out of Egypt, and as a dove out of the land of Assyria: and I will place them in their houses, saith the LORD.
 **12** Ephraim compasseth me about with lies, and the house of Israel with deceit: but Judah yet ruleth with God, and is faithful with the saints.
 
-## CHAPTER 12
+## HOSEA 12
 **1** Ephraim feedeth on wind, and followeth after the east wind: he daily increaseth lies and desolation; and they do make a covenant with the Assyrians, and oil is carried into Egypt.
 **2** The LORD hath also a controversy with Judah, and will punish Jacob according to his ways; according to his doings will he recompense him.
 **3** He took his brother by the heel in the womb, and by his strength he had power with God:
@@ -202,7 +202,7 @@ HOSEA
 **13** And by a prophet the LORD brought Israel out of Egypt, and by a prophet was he preserved.
 **14** Ephraim provoked him to anger most bitterly: therefore shall he leave his blood upon him, and his reproach shall his Lord return unto him.
 
-## CHAPTER 13
+## HOSEA 13
 **1** When Ephraim spake trembling, he exalted himself in Israel; but when he offended in Baal, he died.
 **2** And now they sin more and more, and have made them molten images of their silver, and idols according to their own understanding, all of it the work of the craftsmen: they say of them, Let the men that sacrifice kiss the calves.
 **3** Therefore they shall be as the morning cloud, and as the early dew that passeth away, as the chaff that is driven with the whirlwind out of the floor, and as the smoke out of the chimney.
@@ -220,7 +220,7 @@ HOSEA
 **15** Though he be fruitful among his brethren, an east wind shall come, the wind of the LORD shall come up from the wilderness, and his spring shall become dry, and his fountain shall be dried up: he shall spoil the treasure of all pleasant vessels.
 **16** Samaria shall become desolate; for she hath rebelled against her God: they shall fall by the sword: their infants shall be dashed in pieces, and their women with child shall be ripped up.
 
-## CHAPTER 14
+## HOSEA 14
 **1** O Israel, return unto the LORD thy God; for thou hast fallen by thine iniquity.
 **2** Take with you words, and turn to the LORD: say unto him, Take away all iniquity, and receive us graciously: so will we render the calves of our lips.
 **3** Asshur shall not save us; we will not ride upon horses: neither will we say any more to the work of our hands, Ye are our gods: for in thee the fatherless findeth mercy.

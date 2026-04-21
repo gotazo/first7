@@ -6,7 +6,7 @@ weight: 37
 ## HAGGAI
 
 
-## CHAPTER 1
+## HAGGAI 1
 **1** In the second year of Darius the king, in the sixth month, in the first day of the month, came the word of the LORD by Haggai the prophet unto Zerubbabel the son of Shealtiel, governor of Judah, and to Joshua the son of Josedech, the high priest, saying,
 **2** Thus speaketh the LORD of hosts, saying, This people say, The time is not come, the time that the LORD'S house should be built.
 **3** Then came the word of the LORD by Haggai the prophet, saying,
@@ -23,7 +23,7 @@ weight: 37
 **14** And the LORD stirred up the spirit of Zerubbabel the son of Shealtiel, governor of Judah, and the spirit of Joshua the son of Josedech, the high priest, and the spirit of all the remnant of the people; and they came and did work in the house of the LORD of hosts, their God,
 **15** In the four and twentieth day of the sixth month, in the second year of Darius the king.
 
-## CHAPTER 2
+## HAGGAI 2
 **1** In the seventh month, in the one and twentieth day of the month, came the word of the LORD by the prophet Haggai, saying,
 **2** Speak now to Zerubbabel the son of Shealtiel, governor of Judah, and to Joshua the son of Josedech, the high priest, and to the residue of the people, saying,
 **3** Who is left among you that saw this house in her first glory? and how do ye see it now? is it not in your eyes in comparison of it as nothing?

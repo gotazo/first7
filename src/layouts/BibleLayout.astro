@@ -41,7 +41,20 @@ const next = index < chapters.length - 1 ? chapters[index + 1] : null;
     <!-- 📚 SIDEBAR -->
     <aside
       id="sidebar"
-      class="fixed md:static top-0 left-0 z-50 h-full w-64 -translate-x-full md:translate-x-0 bg-[var(--color-bg)] border-r border-[var(--color-border)] p-4 overflow-y-auto transition-transform duration-300"
+      class="
+        fixed md:sticky
+        top-0 md:top-20
+        left-0
+        z-50 md:z-10
+        h-full md:h-[calc(100vh-80px)]
+        w-64
+        -translate-x-full md:translate-x-0
+        bg-[var(--color-bg)]
+        border-r border-[var(--color-border)]
+        p-4
+        overflow-y-auto
+        transition-transform duration-300
+      "
     >
       <p class="text-xs uppercase text-[var(--color-muted)] mb-4">Bible</p>
 
@@ -131,15 +144,11 @@ const next = index < chapters.length - 1 ? chapters[index + 1] : null;
       <!-- 🔁 NAV -->
       <div class="mt-12 flex justify-between text-sm">
         {prev ? (
-          <a href={`/bible/${currentBook}/${prev}`}>
-            ← Previous
-          </a>
+          <a href={`/bible/${currentBook}/${prev}`}>← Previous</a>
         ) : <span />}
 
         {next ? (
-          <a href={`/bible/${currentBook}/${next}`}>
-            Next →
-          </a>
+          <a href={`/bible/${currentBook}/${next}`}>Next →</a>
         ) : <span />}
       </div>
 
@@ -158,16 +167,10 @@ const next = index < chapters.length - 1 ? chapters[index + 1] : null;
   <!-- 🚀 SCRIPT -->
   <script is:inline>
     document.addEventListener("DOMContentLoaded", () => {
-
-      const input = document.getElementById("bible-search");
-      const button = document.getElementById("search-btn");
-      const results = document.getElementById("search-results");
-
       const sidebar = document.getElementById("sidebar");
       const menuBtn = document.getElementById("menu-btn");
       const overlay = document.getElementById("overlay");
 
-      // 📚 Sidebar
       menuBtn?.addEventListener("click", () => {
         sidebar?.classList.remove("-translate-x-full");
         overlay?.classList.remove("hidden");
@@ -177,101 +180,6 @@ const next = index < chapters.length - 1 ? chapters[index + 1] : null;
         sidebar?.classList.add("-translate-x-full");
         overlay?.classList.add("hidden");
       });
-
-      // 📖 Data
-      const dataEl = document.getElementById("bible-data");
-
-      let bookList = [];
-
-      try {
-        if (dataEl) {
-          bookList = JSON.parse(dataEl.dataset.books || "[]");
-        }
-      } catch {}
-
-      const normalize = (str) =>
-        String(str).toLowerCase().trim();
-
-      const slugify = (str) =>
-        normalize(str).replace(/\s+/g, "-");
-
-      const goTo = (value) => {
-        if (!value) return;
-
-        const parts = normalize(value).split(" ");
-        const last = parts[parts.length - 1];
-        const chapter = parseInt(last);
-
-        const book =
-          Number.isNaN(chapter)
-            ? value
-            : parts.slice(0, -1).join(" ");
-
-        if (!book) return;
-
-        const slug = slugify(book);
-        const finalChapter = Number.isNaN(chapter) ? 1 : chapter;
-
-        window.location.href = `/bible/${slug}/${finalChapter}`;
-      };
-
-      const renderResults = (matches) => {
-        if (!results) return;
-
-        results.innerHTML = "";
-
-        if (matches.length === 0) {
-          results.classList.add("hidden");
-          return;
-        }
-
-        matches.slice(0, 8).forEach((book) => {
-          const div = document.createElement("div");
-
-          div.className =
-            "px-3 py-2 cursor-pointer hover:bg-[var(--color-primary)]/10";
-
-          div.textContent = book;
-
-          div.onclick = () => goTo(book);
-
-          results.appendChild(div);
-        });
-
-        results.classList.remove("hidden");
-      };
-
-      // 🔍 INPUT
-      if (input instanceof HTMLInputElement) {
-        input.addEventListener("input", () => {
-          const value = normalize(input.value);
-
-          if (!value) {
-            results?.classList.add("hidden");
-            return;
-          }
-
-          const matches = bookList.filter((b) =>
-            normalize(b).includes(value)
-          );
-
-          renderResults(matches);
-        });
-
-        input.addEventListener("keydown", (e) => {
-          if (e.key === "Enter") {
-            goTo(input.value);
-          }
-        });
-      }
-
-      // 🔘 BUTTON
-      button?.addEventListener("click", () => {
-        if (input instanceof HTMLInputElement) {
-          goTo(input.value);
-        }
-      });
-
     });
   </script>
 

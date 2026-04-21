@@ -7,7 +7,7 @@ weight: 26
 ## EZEKIEL
 
 
-## CHAPTER 1
+## EZEKIEL 1
 **1** Now it came to pass in the thirtieth year, in the fourth month, in the fifth day of the month, as I was among the captives by the river of Chebar, that the heavens were opened, and I saw visions of God.
 **2** In the fifth day of the month, which was the fifth year of king Jehoiachin's captivity,
 **3** The word of the LORD came expressly unto Ezekiel the priest, the son of Buzi, in the land of the Chaldeans by the river Chebar; and the hand of the LORD was there upon him.
@@ -37,7 +37,7 @@ weight: 26
 **27** And I saw as the colour of amber, as the appearance of fire round about within it, from the appearance of his loins even upward, and from the appearance of his loins even downward, I saw as it were the appearance of fire, and it had brightness round about.
 **28** As the appearance of the bow that is in the cloud in the day of rain, so was the appearance of the brightness round about. This was the appearance of the likeness of the glory of the LORD. And when I saw it, I fell upon my face, and I heard a voice of one that spake.
 
-## CHAPTER 2
+## EZEKIEL 2
 **1** And he said unto me, Son of man, stand upon thy feet, and I will speak unto thee.
 **2** And the spirit entered into me when he spake unto me, and set me upon my feet, that I heard him that spake unto me.
 **3** And he said unto me, Son of man, I send thee to the children of Israel, to a rebellious nation that hath rebelled against me: they and their fathers have transgressed against me, even unto this very day.
@@ -49,7 +49,7 @@ weight: 26
 **9** And when I looked, behold, an hand was sent unto me; and, lo, a roll of a book was therein;
 **10** And he spread it before me; and it was written within and without: and there was written therein lamentations, and mourning, and woe.
 
-## CHAPTER 3
+## EZEKIEL 3
 **1** Moreover he said unto me, Son of man, eat that thou findest; eat this roll, and go speak unto the house of Israel.
 **2** So I opened my mouth, and he caused me to eat that roll.
 **3** And he said unto me, Son of man, cause thy belly to eat, and fill thy bowels with this roll that I give thee. Then did I eat it; and it was in my mouth as honey for sweetness.
@@ -78,7 +78,7 @@ weight: 26
 **26** And I will make thy tongue cleave to the roof of thy mouth, that thou shalt be dumb, and shalt not be to them a reprover: for they are a rebellious house.
 **27** But when I speak with thee, I will open thy mouth, and thou shalt say unto them, Thus saith the Lord GOD; He that heareth, let him hear; and he that forbeareth, let him forbear: for they are a rebellious house.
 
-## CHAPTER 4
+## EZEKIEL 4
 **1** Thou also, son of man, take thee a tile, and lay it before thee, and pourtray upon it the city, even Jerusalem:
 **2** And lay siege against it, and build a fort against it, and cast a mount against it; set the camp also against it, and set battering rams against it round about.
 **3** Moreover take thou unto thee an iron pan, and set it for a wall of iron between thee and the city: and set thy face against it, and it shall be besieged, and thou shalt lay siege against it. This shall be a sign to the house of Israel.
@@ -97,7 +97,7 @@ weight: 26
 **16** Moreover he said unto me, Son of man, behold, I will break the staff of bread in Jerusalem: and they shall eat bread by weight, and with care; and they shall drink water by measure, and with astonishment:
 **17** That they may want bread and water, and be astonied one with another, and consume away for their iniquity.
 
-## CHAPTER 5
+## EZEKIEL 5
 **1** And thou, son of man, take thee a sharp knife, take thee a barber's razor, and cause it to pass upon thine head and upon thy beard: then take thee balances to weigh, and divide the hair.
 **2** Thou shalt burn with fire a third part in the midst of the city, when the days of the siege are fulfilled: and thou shalt take a third part, and smite about it with a knife: and a third part thou shalt scatter in the wind; and I will draw out a sword after them.
 **3** Thou shalt also take thereof a few in number, and bind them in thy skirts.
@@ -116,7 +116,7 @@ weight: 26
 **16** When I shall send upon them the evil arrows of famine, which shall be for their destruction, and which I will send to destroy you: and I will increase the famine upon you, and will break your staff of bread:
 **17** So will I send upon you famine and evil beasts, and they shall bereave thee; and pestilence and blood shall pass through thee; and I will bring the sword upon thee. I the LORD have spoken it.
 
-## CHAPTER 6
+## EZEKIEL 6
 **1** And the word of the LORD came unto me, saying,
 **2** Son of man, set thy face toward the mountains of Israel, and prophesy against them,
 **3** And say, Ye mountains of Israel, hear the word of the Lord GOD; Thus saith the Lord GOD to the mountains, and to the hills, to the rivers, and to the valleys; Behold, I, even I, will bring a sword upon you, and I will destroy your high places.
@@ -132,7 +132,7 @@ weight: 26
 **13** Then shall ye know that I am the LORD, when their slain men shall be among their idols round about their altars, upon every high hill, in all the tops of the mountains, and under every green tree, and under every thick oak, the place where they did offer sweet savour to all their idols.
 **14** So will I stretch out my hand upon them, and make the land desolate, yea, more desolate than the wilderness toward Diblath, in all their habitations: and they shall know that I am the LORD.
 
-## CHAPTER 7
+## EZEKIEL 7
 **1** Moreover the word of the LORD came unto me, saying,
 **2** Also, thou son of man, thus saith the Lord GOD unto the land of Israel; An end, the end is come upon the four corners of the land.
 **3** Now is the end come upon thee, and I will send mine anger upon thee, and will judge thee according to thy ways, and will recompense upon thee all thine abominations.
@@ -161,7 +161,7 @@ weight: 26
 **26** Mischief shall come upon mischief, and rumour shall be upon rumour; then shall they seek a vision of the prophet; but the law shall perish from the priest, and counsel from the ancients.
 **27** The king shall mourn, and the prince shall be clothed with desolation, and the hands of the people of the land shall be troubled: I will do unto them after their way, and according to their deserts will I judge them; and they shall know that I am the LORD.
 
-## CHAPTER 8
+## EZEKIEL 8
 **1** And it came to pass in the sixth year, in the sixth month, in the fifth day of the month, as I sat in mine house, and the elders of Judah sat before me, that the hand of the Lord GOD fell there upon me.
 **2** Then I beheld, and lo a likeness as the appearance of fire: from the appearance of his loins even downward, fire; and from his loins even upward, as the appearance of brightness, as the colour of amber.
 **3** And he put forth the form of an hand, and took me by a lock of mine head; and the spirit lifted me up between the earth and the heaven, and brought me in the visions of God to Jerusalem, to the door of the inner gate that looketh toward the north; where was the seat of the image of jealousy, which provoketh to jealousy.
@@ -181,7 +181,7 @@ weight: 26
 **17** Then he said unto me, Hast thou seen this, O son of man? Is it a light thing to the house of Judah that they commit the abominations which they commit here? for they have filled the land with violence, and have returned to provoke me to anger: and, lo, they put the branch to their nose.
 **18** Therefore will I also deal in fury: mine eye shall not spare, neither will I have pity: and though they cry in mine ears with a loud voice, yet will I not hear them.
 
-## CHAPTER 9
+## EZEKIEL 9
 **1** He cried also in mine ears with a loud voice, saying, Cause them that have charge over the city to draw near, even every man with his destroying weapon in his hand.
 **2** And, behold, six men came from the way of the higher gate, which lieth toward the north, and every man a slaughter weapon in his hand; and one man among them was clothed with linen, with a writer's inkhorn by his side: and they went in, and stood beside the brasen altar.
 **3** And the glory of the God of Israel was gone up from the cherub, whereupon he was, to the threshold of the house. And he called to the man clothed with linen, which had the writer's inkhorn by his side;
@@ -194,7 +194,7 @@ weight: 26
 **10** And as for me also, mine eye shall not spare, neither will I have pity, but I will recompense their way upon their head.
 **11** And, behold, the man clothed with linen, which had the inkhorn by his side, reported the matter, saying, I have done as thou hast commanded me.
 
-## CHAPTER 10
+## EZEKIEL 10
 **1** Then I looked, and, behold, in the firmament that was above the head of the cherubims there appeared over them as it were a sapphire stone, as the appearance of the likeness of a throne.
 **2** And he spake unto the man clothed with linen, and said, Go in between the wheels, even under the cherub, and fill thine hand with coals of fire from between the cherubims, and scatter them over the city. And he went in in my sight.
 **3** Now the cherubims stood on the right side of the house, when the man went in; and the cloud filled the inner court.
@@ -218,7 +218,7 @@ weight: 26
 **21** Every one had four faces apiece, and every one four wings; and the likeness of the hands of a man was under their wings.
 **22** And the likeness of their faces was the same faces which I saw by the river of Chebar, their appearances and themselves: they went every one straight forward.
 
-## CHAPTER 11
+## EZEKIEL 11
 **1** Moreover the spirit lifted me up, and brought me unto the east gate of the LORD'S house, which looketh eastward: and behold at the door of the gate five and twenty men; among whom I saw Jaazaniah the son of Azur, and Pelatiah the son of Benaiah, princes of the people.
 **2** Then said he unto me, Son of man, these are the men that devise mischief, and give wicked counsel in this city:
 **3** Which say, It is not near; let us build houses: this city is the caldron, and we be the flesh.
@@ -245,7 +245,7 @@ weight: 26
 **24** Afterwards the spirit took me up, and brought me in a vision by the Spirit of God into Chaldea, to them of the captivity. So the vision that I had seen went up from me.
 **25** Then I spake unto them of the captivity all the things that the LORD had shewed me.
 
-## CHAPTER 12
+## EZEKIEL 12
 **1** The word of the LORD also came unto me, saying,
 **2** Son of man, thou dwellest in the midst of a rebellious house, which have eyes to see, and see not; they have ears to hear, and hear not: for they are a rebellious house.
 **3** Therefore, thou son of man, prepare thee stuff for removing, and remove by day in their sight; and thou shalt remove from thy place to another place in their sight: it may be they will consider, though they be a rebellious house.
@@ -275,7 +275,7 @@ weight: 26
 **27** Son of man, behold, they of the house of Israel say, The vision that he seeth is for many days to come, and he prophesieth of the times that are far off.
 **28** Therefore say unto them, Thus saith the Lord GOD; There shall none of my words be prolonged any more, but the word which I have spoken shall be done, saith the Lord GOD.
 
-## CHAPTER 13
+## EZEKIEL 13
 **1** And the word of the LORD came unto me, saying,
 **2** Son of man, prophesy against the prophets of Israel that prophesy, and say thou unto them that prophesy out of their own hearts, Hear ye the word of the LORD;
 **3** Thus saith the Lord GOD; Woe unto the foolish prophets, that follow their own spirit, and have seen nothing!
@@ -300,7 +300,7 @@ weight: 26
 **22** Because with lies ye have made the heart of the righteous sad, whom I have not made sad; and strengthened the hands of the wicked, that he should not return from his wicked way, by promising him life:
 **23** Therefore ye shall see no more vanity, nor divine divinations: for I will deliver my people out of your hand: and ye shall know that I am the LORD.
 
-## CHAPTER 14
+## EZEKIEL 14
 **1** Then came certain of the elders of Israel unto me, and sat before me.
 **2** And the word of the LORD came unto me, saying,
 **3** Son of man, these men have set up their idols in their heart, and put the stumblingblock of their iniquity before their face: should I be enquired of at all by them?
@@ -325,7 +325,7 @@ weight: 26
 **22** Yet, behold, therein shall be left a remnant that shall be brought forth, both sons and daughters: behold, they shall come forth unto you, and ye shall see their way and their doings: and ye shall be comforted concerning the evil that I have brought upon Jerusalem, even concerning all that I have brought upon it.
 **23** And they shall comfort you, when ye see their ways and their doings: and ye shall know that I have not done without cause all that I have done in it, saith the Lord GOD.
 
-## CHAPTER 15
+## EZEKIEL 15
 **1** And the word of the LORD came unto me, saying,
 **2** Son of man, What is the vine tree more than any tree, or than a branch which is among the trees of the forest?
 **3** Shall wood be taken thereof to do any work? or will men take a pin of it to hang any vessel thereon?
@@ -335,7 +335,7 @@ weight: 26
 **7** And I will set my face against them; they shall go out from one fire, and another fire shall devour them; and ye shall know that I am the LORD, when I set my face against them.
 **8** And I will make the land desolate, because they have committed a trespass, saith the Lord GOD.
 
-## CHAPTER 16
+## EZEKIEL 16
 **1** Again the word of the LORD came unto me, saying,
 **2** Son of man, cause Jerusalem to know her abominations,
 **3** And say, Thus saith the Lord GOD unto Jerusalem; Thy birth and thy nativity is of the land of Canaan; thy father was an Amorite, and thy mother an Hittite.
@@ -400,7 +400,7 @@ weight: 26
 **62** And I will establish my covenant with thee; and thou shalt know that I am the LORD:
 **63** That thou mayest remember, and be confounded, and never open thy mouth any more because of thy shame, when I am pacified toward thee for all that thou hast done, saith the Lord GOD.
 
-## CHAPTER 17
+## EZEKIEL 17
 **1** And the word of the LORD came unto me, saying,
 **2** Son of man, put forth a riddle, and speak a parable unto the house of Israel;
 **3** And say, Thus saith the Lord GOD; A great eagle with great wings, longwinged, full of feathers, which had divers colours, came unto Lebanon, and took the highest branch of the cedar:
@@ -426,7 +426,7 @@ weight: 26
 **23** In the mountain of the height of Israel will I plant it: and it shall bring forth boughs, and bear fruit, and be a goodly cedar: and under it shall dwell all fowl of every wing; in the shadow of the branches thereof shall they dwell.
 **24** And all the trees of the field shall know that I the LORD have brought down the high tree, have exalted the low tree, have dried up the green tree, and have made the dry tree to flourish: I the LORD have spoken and have done it.
 
-## CHAPTER 18
+## EZEKIEL 18
 **1** The word of the LORD came unto me again, saying,
 **2** What mean ye, that ye use this proverb concerning the land of Israel, saying, The fathers have eaten sour grapes, and the children's teeth are set on edge?
 **3** As I live, saith the Lord GOD, ye shall not have occasion any more to use this proverb in Israel.
@@ -460,7 +460,7 @@ weight: 26
 **31** Cast away from you all your transgressions, whereby ye have transgressed; and make you a new heart and a new spirit: for why will ye die, O house of Israel?
 **32** For I have no pleasure in the death of him that dieth, saith the Lord GOD: wherefore turn yourselves, and live ye.
 
-## CHAPTER 19
+## EZEKIEL 19
 **1** Moreover take thou up a lamentation for the princes of Israel,
 **2** And say, What is thy mother? A lioness: she lay down among lions, she nourished her whelps among young lions.
 **3** And she brought up one of her whelps: it became a young lion, and it learned to catch the prey; it devoured men.
@@ -476,7 +476,7 @@ weight: 26
 **13** And now she is planted in the wilderness, in a dry and thirsty ground.
 **14** And fire is gone out of a rod of her branches, which hath devoured her fruit, so that she hath no strong rod to be a sceptre to rule. This is a lamentation, and shall be for a lamentation.
 
-## CHAPTER 20
+## EZEKIEL 20
 **1** And it came to pass in the seventh year, in the fifth month, the tenth day of the month, that certain of the elders of Israel came to enquire of the LORD, and sat before me.
 **2** Then came the word of the LORD unto me, saying,
 **3** Son of man, speak unto the elders of Israel, and say unto them, Thus saith the Lord GOD; Are ye come to enquire of me? As I live, saith the Lord GOD, I will not be enquired of by you.
@@ -527,7 +527,7 @@ weight: 26
 **48** And all flesh shall see that I the LORD have kindled it: it shall not be quenched.
 **49** Then said I, Ah Lord GOD! they say of me, Doth he not speak parables?
 
-## CHAPTER 21
+## EZEKIEL 21
 **1** And the word of the LORD came unto me, saying,
 **2** Son of man, set thy face toward Jerusalem, and drop thy word toward the holy places, and prophesy against the land of Israel,
 **3** And say to the land of Israel, Thus saith the LORD; Behold, I am against thee, and will draw forth my sword out of his sheath, and will cut off from thee the righteous and the wicked.
@@ -561,7 +561,7 @@ weight: 26
 **31** And I will pour out mine indignation upon thee, I will blow against thee in the fire of my wrath, and deliver thee into the hand of brutish men, and skilful to destroy.
 **32** Thou shalt be for fuel to the fire; thy blood shall be in the midst of the land; thou shalt be no more remembered: for I the LORD have spoken it.
 
-## CHAPTER 22
+## EZEKIEL 22
 **1** Moreover the word of the LORD came unto me, saying,
 **2** Now, thou son of man, wilt thou judge, wilt thou judge the bloody city? yea, thou shalt shew her all her abominations.
 **3** Then say thou, Thus saith the Lord GOD, The city sheddeth blood in the midst of it, that her time may come, and maketh idols against herself to defile herself.
@@ -594,7 +594,7 @@ weight: 26
 **30** And I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none.
 **31** Therefore have I poured out mine indignation upon them; I have consumed them with the fire of my wrath: their own way have I recompensed upon their heads, saith the Lord GOD.
 
-## CHAPTER 23
+## EZEKIEL 23
 **1** The word of the LORD came again unto me, saying,
 **2** Son of man, there were two women, the daughters of one mother:
 **3** And they committed whoredoms in Egypt; they committed whoredoms in their youth: there were their breasts pressed, and there they bruised the teats of their virginity.
@@ -645,7 +645,7 @@ weight: 26
 **48** Thus will I cause lewdness to cease out of the land, that all women may be taught not to do after your lewdness.
 **49** And they shall recompense your lewdness upon you, and ye shall bear the sins of your idols: and ye shall know that I am the Lord GOD.
 
-## CHAPTER 24
+## EZEKIEL 24
 **1** Again in the ninth year, in the tenth month, in the tenth day of the month, the word of the LORD came unto me, saying,
 **2** Son of man, write thee the name of the day, even of this same day: the king of Babylon set himself against Jerusalem this same day.
 **3** And utter a parable unto the rebellious house, and say unto them, Thus saith the Lord GOD; Set on a pot, set it on, and also pour water into it:
@@ -674,7 +674,7 @@ weight: 26
 **26** That he that escapeth in that day shall come unto thee, to cause thee to hear it with thine ears?
 **27** In that day shall thy mouth be opened to him which is escaped, and thou shalt speak, and be no more dumb: and thou shalt be a sign unto them; and they shall know that I am the LORD.
 
-## CHAPTER 25
+## EZEKIEL 25
 **1** The word of the LORD came again unto me, saying,
 **2** Son of man, set thy face against the Ammonites, and prophesy against them;
 **3** And say unto the Ammonites, Hear the word of the Lord GOD; Thus saith the Lord GOD; Because thou saidst, Aha, against my sanctuary, when it was profaned; and against the land of Israel, when it was desolate; and against the house of Judah, when they went into captivity;
@@ -693,7 +693,7 @@ weight: 26
 **16** Therefore thus saith the Lord GOD; Behold, I will stretch out mine hand upon the Philistines, and I will cut off the Cherethims, and destroy the remnant of the sea coast.
 **17** And I will execute great vengeance upon them with furious rebukes; and they shall know that I am the LORD, when I shall lay my vengeance upon them.
 
-## CHAPTER 26
+## EZEKIEL 26
 **1** And it came to pass in the eleventh year, in the first day of the month, that the word of the LORD came unto me, saying,
 **2** Son of man, because that Tyrus hath said against Jerusalem, Aha, she is broken that was the gates of the people: she is turned unto me: I shall be replenished, now she is laid waste:
 **3** Therefore thus saith the Lord GOD; Behold, I am against thee, O Tyrus, and will cause many nations to come up against thee, as the sea causeth his waves to come up.
@@ -716,7 +716,7 @@ weight: 26
 **20** When I shall bring thee down with them that descend into the pit, with the people of old time, and shall set thee in the low parts of the earth, in places desolate of old, with them that go down to the pit, that thou be not inhabited; and I shall set glory in the land of the living;
 **21** I will make thee a terror, and thou shalt be no more: though thou be sought for, yet shalt thou never be found again, saith the Lord GOD.
 
-## CHAPTER 27
+## EZEKIEL 27
 **1** The word of the LORD came again unto me, saying,
 **2** Now, thou son of man, take up a lamentation for Tyrus;
 **3** And say unto Tyrus, O thou that art situate at the entry of the sea, which art a merchant of the people for many isles, Thus saith the Lord GOD; O Tyrus, thou hast said, I am of perfect beauty.
@@ -754,7 +754,7 @@ weight: 26
 **35** All the inhabitants of the isles shall be astonished at thee, and their kings shall be sore afraid, they shall be troubled in their countenance.
 **36** The merchants among the people shall hiss at thee; thou shalt be a terror, and never shalt be any more.
 
-## CHAPTER 28
+## EZEKIEL 28
 **1** The word of the LORD came again unto me, saying,
 **2** Son of man, say unto the prince of Tyrus, Thus saith the Lord GOD; Because thine heart is lifted up, and thou hast said, I am a God, I sit in the seat of God, in the midst of the seas; yet thou art a man, and not God, though thou set thine heart as the heart of God:
 **3** Behold, thou art wiser than Daniel; there is no secret that they can hide from thee:
@@ -782,7 +782,7 @@ weight: 26
 **25** Thus saith the Lord GOD; When I shall have gathered the house of Israel from the people among whom they are scattered, and shall be sanctified in them in the sight of the heathen, then shall they dwell in their land that I have given to my servant Jacob.
 **26** And they shall dwell safely therein, and shall build houses, and plant vineyards; yea, they shall dwell with confidence, when I have executed judgments upon all those that despise them round about them; and they shall know that I am the LORD their God.
 
-## CHAPTER 29
+## EZEKIEL 29
 **1** In the tenth year, in the tenth month, in the twelfth day of the month, the word of the LORD came unto me, saying,
 **2** Son of man, set thy face against Pharaoh king of Egypt, and prophesy against him, and against all Egypt:
 **3** Speak, and say, Thus saith the Lord GOD; Behold, I am against thee, Pharaoh king of Egypt, the great dragon that lieth in the midst of his rivers, which hath said, My river is mine own, and I have made it for myself.
@@ -805,7 +805,7 @@ weight: 26
 **20** I have given him the land of Egypt for his labour wherewith he served against it, because they wrought for me, saith the Lord GOD.
 **21** In that day will I cause the horn of the house of Israel to bud forth, and I will give thee the opening of the mouth in the midst of them; and they shall know that I am the LORD.
 
-## CHAPTER 30
+## EZEKIEL 30
 **1** The word of the LORD came again unto me, saying,
 **2** Son of man, prophesy and say, Thus saith the Lord GOD; Howl ye, Woe worth the day!
 **3** For the day is near, even the day of the LORD is near, a cloudy day; it shall be the time of the heathen.
@@ -833,7 +833,7 @@ weight: 26
 **25** But I will strengthen the arms of the king of Babylon, and the arms of Pharaoh shall fall down; and they shall know that I am the LORD, when I shall put my sword into the hand of the king of Babylon, and he shall stretch it out upon the land of Egypt.
 **26** And I will scatter the Egyptians among the nations, and disperse them among the countries; and they shall know that I am the LORD.
 
-## CHAPTER 31
+## EZEKIEL 31
 **1** And it came to pass in the eleventh year, in the third month, in the first day of the month, that the word of the LORD came unto me, saying,
 **2** Son of man, speak unto Pharaoh king of Egypt, and to his multitude; Whom art thou like in thy greatness?
 **3** Behold, the Assyrian was a cedar in Lebanon with fair branches, and with a shadowing shroud, and of an high stature; and his top was among the thick boughs.
@@ -853,7 +853,7 @@ weight: 26
 **17** They also went down into hell with him unto them that be slain with the sword; and they that were his arm, that dwelt under his shadow in the midst of the heathen.
 **18** To whom art thou thus like in glory and in greatness among the trees of Eden? yet shalt thou be brought down with the trees of Eden unto the nether parts of the earth: thou shalt lie in the midst of the uncircumcised with them that be slain by the sword. This is Pharaoh and all his multitude, saith the Lord GOD.
 
-## CHAPTER 32
+## EZEKIEL 32
 **1** And it came to pass in the twelfth year, in the twelfth month, in the first day of the month, that the word of the LORD came unto me, saying,
 **2** Son of man, take up a lamentation for Pharaoh king of Egypt, and say unto him, Thou art like a young lion of the nations, and thou art as a whale in the seas: and thou camest forth with thy rivers, and troubledst the waters with thy feet, and fouledst their rivers.
 **3** Thus saith the Lord GOD; I will therefore spread out my net over thee with a company of many people; and they shall bring thee up in my net.
@@ -887,7 +887,7 @@ weight: 26
 **31** Pharaoh shall see them, and shall be comforted over all his multitude, even Pharaoh and all his army slain by the sword, saith the Lord GOD.
 **32** For I have caused my terror in the land of the living: and he shall be laid in the midst of the uncircumcised with them that are slain with the sword, even Pharaoh and all his multitude, saith the Lord GOD.
 
-## CHAPTER 33
+## EZEKIEL 33
 **1** Again the word of the LORD came unto me, saying,
 **2** Son of man, speak to the children of thy people, and say unto them, When I bring the sword upon a land, if the people of the land take a man of their coasts, and set him for their watchman:
 **3** If when he seeth the sword come upon the land, he blow the trumpet, and warn the people;
@@ -922,7 +922,7 @@ weight: 26
 **32** And, lo, thou art unto them as a very lovely song of one that hath a pleasant voice, and can play well on an instrument: for they hear thy words, but they do them not.
 **33** And when this cometh to pass, (lo, it will come,) then shall they know that a prophet hath been among them.
 
-## CHAPTER 34
+## EZEKIEL 34
 **1** And the word of the LORD came unto me, saying,
 **2** Son of man, prophesy against the shepherds of Israel, prophesy, and say unto them, Thus saith the Lord GOD unto the shepherds; Woe be to the shepherds of Israel that do feed themselves! should not the shepherds feed the flocks?
 **3** Ye eat the fat, and ye clothe you with the wool, ye kill them that are fed: but ye feed not the flock.
@@ -955,7 +955,7 @@ weight: 26
 **30** Thus shall they know that I the LORD their God am with them, and that they, even the house of Israel, are my people, saith the Lord GOD.
 **31** And ye my flock, the flock of my pasture, are men, and I am your God, saith the Lord GOD.
 
-## CHAPTER 35
+## EZEKIEL 35
 **1** Moreover the word of the LORD came unto me, saying,
 **2** Son of man, set thy face against mount Seir, and prophesy against it,
 **3** And say unto it, Thus saith the Lord GOD; Behold, O mount Seir, I am against thee, and I will stretch out mine hand against thee, and I will make thee most desolate.
@@ -972,7 +972,7 @@ weight: 26
 **14** Thus saith the Lord GOD; When the whole earth rejoiceth, I will make thee desolate.
 **15** As thou didst rejoice at the inheritance of the house of Israel, because it was desolate, so will I do unto thee: thou shalt be desolate, O mount Seir, and all Idumea, even all of it: and they shall know that I am the LORD.
 
-## CHAPTER 36
+## EZEKIEL 36
 **1** Also, thou son of man, prophesy unto the mountains of Israel, and say, Ye mountains of Israel, hear the word of the LORD:
 **2** Thus saith the Lord GOD; Because the enemy hath said against you, Aha, even the ancient high places are our's in possession:
 **3** Therefore prophesy and say, Thus saith the Lord GOD; Because they have made you desolate, and swallowed you up on every side, that ye might be a possession unto the residue of the heathen, and ye are taken up in the lips of talkers, and are an infamy of the people:
@@ -1012,7 +1012,7 @@ weight: 26
 **37** Thus saith the Lord GOD; I will yet for this be enquired of by the house of Israel, to do it for them; I will increase them with men like a flock.
 **38** As the holy flock, as the flock of Jerusalem in her solemn feasts; so shall the waste cities be filled with flocks of men: and they shall know that I am the LORD.
 
-## CHAPTER 37
+## EZEKIEL 37
 **1** The hand of the LORD was upon me, and carried me out in the spirit of the LORD, and set me down in the midst of the valley which was full of bones,
 **2** And caused me to pass by them round about: and, behold, there were very many in the open valley; and, lo, they were very dry.
 **3** And he said unto me, Son of man, can these bones live? And I answered, O Lord GOD, thou knowest.
@@ -1042,7 +1042,7 @@ weight: 26
 **27** My tabernacle also shall be with them: yea, I will be their God, and they shall be my people.
 **28** And the heathen shall know that I the LORD do sanctify Israel, when my sanctuary shall be in the midst of them for evermore.
 
-## CHAPTER 38
+## EZEKIEL 38
 **1** And the word of the LORD came unto me, saying,
 **2** Son of man, set thy face against Gog, the land of Magog, the chief prince of Meshech and Tubal, and prophesy against him,
 **3** And say, Thus saith the Lord GOD; Behold, I am against thee, O Gog, the chief prince of Meshech and Tubal:
@@ -1067,7 +1067,7 @@ weight: 26
 **22** And I will plead against him with pestilence and with blood; and I will rain upon him, and upon his bands, and upon the many people that are with him, an overflowing rain, and great hailstones, fire, and brimstone.
 **23** Thus will I magnify myself, and sanctify myself; and I will be known in the eyes of many nations, and they shall know that I am the LORD.
 
-## CHAPTER 39
+## EZEKIEL 39
 **1** Therefore, thou son of man, prophesy against Gog, and say, Thus saith the Lord GOD; Behold, I am against thee, O Gog, the chief prince of Meshech and Tubal:
 **2** And I will turn thee back, and leave but the sixth part of thee, and will cause thee to come up from the north parts, and will bring thee upon the mountains of Israel:
 **3** And I will smite thy bow out of thy left hand, and will cause thine arrows to fall out of thy right hand.
@@ -1098,7 +1098,7 @@ weight: 26
 **28** Then shall they know that I am the LORD their God, which caused them to be led into captivity among the heathen: but I have gathered them unto their own land, and have left none of them any more there.
 **29** Neither will I hide my face any more from them: for I have poured out my spirit upon the house of Israel, saith the Lord GOD.
 
-## CHAPTER 40
+## EZEKIEL 40
 **1** In the five and twentieth year of our captivity, in the beginning of the year, in the tenth day of the month, in the fourteenth year after that the city was smitten, in the selfsame day the hand of the LORD was upon me, and brought me thither.
 **2** In the visions of God brought he me into the land of Israel, and set me upon a very high mountain, by which was as the frame of a city on the south.
 **3** And he brought me thither, and, behold, there was a man, whose appearance was like the appearance of brass, with a line of flax in his hand, and a measuring reed; and he stood in the gate.
@@ -1149,7 +1149,7 @@ weight: 26
 **48** And he brought me to the porch of the house, and measured each post of the porch, five cubits on this side, and five cubits on that side: and the breadth of the gate was three cubits on this side, and three cubits on that side.
 **49** The length of the porch was twenty cubits, and the breadth eleven cubits; and he brought me by the steps whereby they went up to it: and there were pillars by the posts, one on this side, and another on that side.
 
-## CHAPTER 41
+## EZEKIEL 41
 **1** Afterward he brought me to the temple, and measured the posts, six cubits broad on the one side, and six cubits broad on the other side, which was the breadth of the tabernacle.
 **2** And the breadth of the door was ten cubits; and the sides of the door were five cubits on the one side, and five cubits on the other side: and he measured the length thereof, forty cubits: and the breadth, twenty cubits.
 **3** Then went he inward, and measured the post of the door, two cubits; and the door, six cubits; and the breadth of the door, seven cubits.
@@ -1177,7 +1177,7 @@ weight: 26
 **25** And there were made on them, on the doors of the temple, cherubims and palm trees, like as were made upon the walls; and there were thick planks upon the face of the porch without.
 **26** And there were narrow windows and palm trees on the one side and on the other side, on the sides of the porch, and upon the side chambers of the house, and thick planks.
 
-## CHAPTER 42
+## EZEKIEL 42
 **1** Then he brought me forth into the utter court, the way toward the north: and he brought me into the chamber that was over against the separate place, and which was before the building toward the north.
 **2** Before the length of an hundred cubits was the north door, and the breadth was fifty cubits.
 **3** Over against the twenty cubits which were for the inner court, and over against the pavement which was for the utter court, was gallery against gallery in three stories.
@@ -1199,7 +1199,7 @@ weight: 26
 **19** He turned about to the west side, and measured five hundred reeds with the measuring reed.
 **20** He measured it by the four sides: it had a wall round about, five hundred reeds long, and five hundred broad, to make a separation between the sanctuary and the profane place.
 
-## CHAPTER 43
+## EZEKIEL 43
 **1** Afterward he brought me to the gate, even the gate that looketh toward the east:
 **2** And, behold, the glory of the God of Israel came from the way of the east: and his voice was like a noise of many waters: and the earth shined with his glory.
 **3** And it was according to the appearance of the vision which I saw, even according to the vision that I saw when I came to destroy the city: and the visions were like the vision that I saw by the river Chebar; and I fell upon my face.
@@ -1228,7 +1228,7 @@ weight: 26
 **26** Seven days shall they purge the altar and purify it; and they shall consecrate themselves.
 **27** And when these days are expired, it shall be, that upon the eighth day, and so forward, the priests shall make your burnt offerings upon the altar, and your peace offerings; and I will accept you, saith the Lord GOD.
 
-## CHAPTER 44
+## EZEKIEL 44
 **1** Then he brought me back the way of the gate of the outward sanctuary which looketh toward the east; and it was shut.
 **2** Then said the LORD unto me; This gate shall be shut, it shall not be opened, and no man shall enter in by it; because the LORD, the God of Israel, hath entered in by it, therefore it shall be shut.
 **3** It is for the prince; the prince, he shall sit in it to eat bread before the LORD; he shall enter by the way of the porch of that gate, and shall go out by the way of the same.
@@ -1261,7 +1261,7 @@ weight: 26
 **30** And the first of all the firstfruits of all things, and every oblation of all, of every sort of your oblations, shall be the priest's: ye shall also give unto the priest the first of your dough, that he may cause the blessing to rest in thine house.
 **31** The priests shall not eat of any thing that is dead of itself, or torn, whether it be fowl or beast.
 
-## CHAPTER 45
+## EZEKIEL 45
 **1** Moreover, when ye shall divide by lot the land for inheritance, ye shall offer an oblation unto the LORD, an holy portion of the land: the length shall be the length of five and twenty thousand reeds, and the breadth shall be ten thousand. This shall be holy in all the borders thereof round about.
 **2** Of this there shall be for the sanctuary five hundred in length, with five hundred in breadth, square round about; and fifty cubits round about for the suburbs thereof.
 **3** And of this measure shalt thou measure the length of five and twenty thousand, and the breadth of ten thousand: and in it shall be the sanctuary and the most holy place.
@@ -1288,7 +1288,7 @@ weight: 26
 **24** And he shall prepare a meat offering of an ephah for a bullock, and an ephah for a ram, and an hin of oil for an ephah.
 **25** In the seventh month, in the fifteenth day of the month, shall he do the like in the feast of the seven days, according to the sin offering, according to the burnt offering, and according to the meat offering, and according to the oil.
 
-## CHAPTER 46
+## EZEKIEL 46
 **1** Thus saith the Lord GOD; The gate of the inner court that looketh toward the east shall be shut the six working days; but on the sabbath it shall be opened, and in the day of the new moon it shall be opened.
 **2** And the prince shall enter by the way of the porch of that gate without, and shall stand by the post of the gate, and the priests shall prepare his burnt offering and his peace offerings, and he shall worship at the threshold of the gate: then he shall go forth; but the gate shall not be shut until the evening.
 **3** Likewise the people of the land shall worship at the door of this gate before the LORD in the sabbaths and in the new moons.
@@ -1314,7 +1314,7 @@ weight: 26
 **23** And there was a row of building round about in them, round about them four, and it was made with boiling places under the rows round about.
 **24** Then said he unto me, These are the places of them that boil, where the ministers of the house shall boil the sacrifice of the people.
 
-## CHAPTER 47
+## EZEKIEL 47
 **1** Afterward he brought me again unto the door of the house; and, behold, waters issued out from under the threshold of the house eastward: for the forefront of the house stood toward the east, and the waters came down from under from the right side of the house, at the south side of the altar.
 **2** Then brought he me out of the way of the gate northward, and led me about the way without unto the utter gate by the way that looketh eastward; and, behold, there ran out waters on the right side.
 **3** And when the man that had the line in his hand went forth eastward, he measured a thousand cubits, and he brought me through the waters; the waters were to the ancles.
@@ -1339,7 +1339,7 @@ weight: 26
 **22** And it shall come to pass, that ye shall divide it by lot for an inheritance unto you, and to the strangers that sojourn among you, which shall beget children among you: and they shall be unto you as born in the country among the children of Israel; they shall have inheritance with you among the tribes of Israel.
 **23** And it shall come to pass, that in what tribe the stranger sojourneth, there shall ye give him his inheritance, saith the Lord GOD.
 
-## CHAPTER 48
+## EZEKIEL 48
 **1** Now these are the names of the tribes. From the north end to the coast of the way of Hethlon, as one goeth to Hamath, Hazar-enan, the border of Damascus northward, to the coast of Hamath; for these are his sides east and west; a portion for Dan.
 **2** And by the border of Dan, from the east side unto the west side, a portion for Asher.
 **3** And by the border of Asher, from the east side even unto the west side, a portion for Naphtali.

@@ -7,7 +7,7 @@ weight: 22
 ## PETER
 
 
-## CHAPTER 1
+## 2 PETER 1
 **1** Simon Peter, a servant and an apostle of Jesus Christ, to them that have obtained like precious faith with us through the righteousness of God and our Saviour Jesus Christ:
 **2** Grace and peace be multiplied unto you through the knowledge of God, and of Jesus our Lord,
 **3** According as his divine power hath given unto us all things that pertain unto life and godliness, through the knowledge of him that hath called us to glory and virtue:
@@ -30,7 +30,7 @@ weight: 22
 **20** Knowing this first, that no prophecy of the scripture is of any private interpretation.
 **21** For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost.
 
-## CHAPTER 2
+## 2 PETER 2
 **1** But there were false prophets also among the people, even as there shall be false teachers among you, who privily shall bring in damnable heresies, even denying the Lord that bought them, and bring upon themselves swift destruction.
 **2** And many shall follow their pernicious ways; by reason of whom the way of truth shall be evil spoken of.
 **3** And through covetousness shall they with feigned words make merchandise of you: whose judgment now of a long time lingereth not, and their damnation slumbereth not.
@@ -54,7 +54,7 @@ weight: 22
 **21** For it had been better for them not to have known the way of righteousness, than, after they have known it, to turn from the holy commandment delivered unto them.
 **22** But it is happened unto them according to the true proverb, The dog is turned to his own vomit again; and the sow that was washed to her wallowing in the mire.
 
-## CHAPTER 3
+## 2 PETER 3
 **1** This second epistle, beloved, I now write unto you; in both which I stir up your pure minds by way of remembrance:
 **2** That ye may be mindful of the words which were spoken before by the holy prophets, and of the commandment of us the apostles of the Lord and Saviour:
 **3** Knowing this first, that there shall come in the last days scoffers, walking after their own lusts,
@@ -73,7 +73,7 @@ weight: 22
 **16** As also in all his epistles, speaking in them of these things; in which are some things hard to be understood, which they that are unlearned and unstable wrest, as they do also the other scriptures, unto their own destruction.
 **17** Ye therefore, beloved, seeing ye know these things before, beware lest ye also, being led away with the error of the wicked, fall from your own stedfastness.
 **18** But grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ. To him be glory both now and for ever. Amen.
-2 PETER
+**2** PETER
 
 
 

@@ -5,40 +5,110 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 type Resource = CollectionEntry<'resources'>;
 
 const resources: Resource[] = await getCollection('resources');
+
+const sorted = resources.sort((a, b) =>
+  a.data.title.localeCompare(b.data.title)
+);
 ---
 
 <BaseLayout title="Resources">
 
-  <section class="max-w-4xl mx-auto px-5 py-16 space-y-12">
+  <section class="max-w-5xl mx-auto py-16 px-4 space-y-16">
 
-    <!-- HEADER -->
-    <div class="text-center space-y-3">
-      <h1 class="text-4xl font-semibold">
+    <!-- HERO -->
+    <div class="max-w-2xl">
+      <h1 class="text-4xl md:text-5xl font-semibold leading-tight">
         Resources
       </h1>
 
-      <p class="text-[var(--color-muted)]">
-        Simple tools to help you slow down, reflect, and grow
+      <p class="mt-4 text-lg text-[var(--color-muted)]">
+        Simple tools to help you slow down, reflect, and grow daily.
       </p>
     </div>
 
-    <!-- LIST -->
+    <!-- FEATURED -->
+    {sorted.slice(0, 1).map((r) => (
+      <a
+        href={`/resources/${r.id}`}
+        class="block p-8 rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/10 hover:shadow-md transition"
+      >
+
+        {r.data.cover && (
+          <img
+            src={r.data.cover}
+            alt={r.data.title}
+            class="rounded-xl mb-5 w-full h-48 object-cover"
+          />
+        )}
+
+        <p class="text-sm text-[var(--color-muted)]">Featured</p>
+
+        <h2 class="mt-2 text-2xl font-semibold flex items-center gap-2">
+          {r.data.icon && <span>{r.data.icon}</span>}
+          {r.data.title}
+        </h2>
+
+        <p class="mt-3 text-sm text-[var(--color-muted)] max-w-md">
+          {r.data.description}
+        </p>
+
+        <div class="mt-5 text-[var(--color-primary)] font-medium text-sm">
+          Open resource →
+        </div>
+      </a>
+    ))}
+
+    <!-- ALL -->
     <div class="space-y-6">
 
-      {resources.map((r: Resource) => (
-        <a
-          href={`/resources/${r.id}`}
-          class="block rounded-2xl border border-[var(--color-border)] p-6 hover:bg-[var(--color-primary)]/5 transition"
-        >
-          <h2 class="text-lg font-medium">
-            {r.data.title}
-          </h2>
+      <h2 class="text-xl font-semibold">
+        All Resources
+      </h2>
 
-          <p class="mt-2 text-sm text-[var(--color-muted)]">
-            {r.data.description}
-          </p>
-        </a>
-      ))}
+      <div class="grid gap-4 md:grid-cols-2">
+
+        {sorted.slice(1).map((r) => (
+          <a
+            href={`/resources/${r.id}`}
+            class="p-5 rounded-xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 hover:bg-[var(--color-primary)]/10 hover:shadow-md transition"
+          >
+
+            {r.data.cover && (
+              <img
+                src={r.data.cover}
+                alt={r.data.title}
+                class="rounded-lg mb-3 w-full h-32 object-cover"
+              />
+            )}
+
+            <div class="flex items-center gap-2">
+
+              {r.data.icon && <span>{r.data.icon}</span>}
+
+              <h3 class="font-medium">
+                {r.data.title}
+              </h3>
+
+              {r.data.type && (
+                <span class="text-xs bg-[var(--color-primary)]/10 text-[var(--color-primary)] px-2 py-0.5 rounded">
+                  {r.data.type}
+                </span>
+              )}
+
+            </div>
+
+            <p class="mt-2 text-sm text-[var(--color-muted)]">
+              {r.data.description}
+            </p>
+
+            <p class="mt-2 text-sm text-[var(--color-muted)]">
+              Open →
+            </p>
+
+          </a>
+        ))}
+
+      </div>
 
     </div>
 

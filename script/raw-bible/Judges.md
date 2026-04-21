@@ -7,7 +7,7 @@ weight: 7
 ## JUDGES
 
 
-## CHAPTER 1
+## JUDGES 1
 **1** Now after the death of Joshua it came to pass, that the children of Israel asked the LORD, saying, Who shall go up for us against the Canaanites first, to fight against them?
 **2** And the LORD said, Judah shall go up: behold, I have delivered the land into his hand.
 **3** And Judah said unto Simeon his brother, Come up with me into my lot, that we may fight against the Canaanites; and I likewise will go with thee into thy lot. So Simeon went with him.
@@ -45,7 +45,7 @@ weight: 7
 **35** But the Amorites would dwell in mount Heres in Aijalon, and in Shaalbim: yet the hand of the house of Joseph prevailed, so that they became tributaries.
 **36** And the coast of the Amorites was from the going up to Akrabbim, from the rock, and upward.
 
-## CHAPTER 2
+## JUDGES 2
 **1** And an angel of the LORD came up from Gilgal to Bochim, and said, I made you to go up out of Egypt, and have brought you unto the land which I sware unto your fathers; and I said, I will never break my covenant with you.
 **2** And ye shall make no league with the inhabitants of this land; ye shall throw down their altars: but ye have not obeyed my voice: why have ye done this?
 **3** Wherefore I also said, I will not drive them out from before you; but they shall be as thorns in your sides, and their gods shall be a snare unto you.
@@ -70,7 +70,7 @@ weight: 7
 **22** That through them I may prove Israel, whether they will keep the way of the LORD to walk therein, as their fathers did keep it, or not.
 **23** Therefore the LORD left those nations, without driving them out hastily; neither delivered he them into the hand of Joshua.
 
-## CHAPTER 3
+## JUDGES 3
 **1** Now these are the nations which the LORD left, to prove Israel by them, even as many of Israel as had not known all the wars of Canaan;
 **2** Only that the generations of the children of Israel might know, to teach them war, at the least such as before knew nothing thereof;
 **3** Namely, five lords of the Philistines, and all the Canaanites, and the Sidonians, and the Hivites that dwelt in mount Lebanon, from mount Baal-hermon unto the entering in of Hamath.
@@ -103,7 +103,7 @@ weight: 7
 **30** So Moab was subdued that day under the hand of Israel. And the land had rest fourscore years.
 **31** And after him was Shamgar the son of Anath, which slew of the Philistines six hundred men with an ox goad: and he also delivered Israel.
 
-## CHAPTER 4
+## JUDGES 4
 **1** And the children of Israel again did evil in the sight of the LORD, when Ehud was dead.
 **2** And the LORD sold them into the hand of Jabin king of Canaan, that reigned in Hazor; the captain of whose host was Sisera, which dwelt in Harosheth of the Gentiles.
 **3** And the children of Israel cried unto the LORD: for he had nine hundred chariots of iron; and twenty years he mightily oppressed the children of Israel.
@@ -129,7 +129,7 @@ weight: 7
 **23** So God subdued on that day Jabin the king of Canaan before the children of Israel.
 **24** And the hand of the children of Israel prospered, and prevailed against Jabin the king of Canaan, until they had destroyed Jabin king of Canaan.
 
-## CHAPTER 5
+## JUDGES 5
 **1** Then sang Deborah and Barak the son of Abinoam on that day, saying,
 **2** Praise ye the LORD for the avenging of Israel, when the people willingly offered themselves.
 **3** Hear, O ye kings; give ear, O ye princes; I, even I, will sing unto the LORD; I will sing praise to the LORD God of Israel.
@@ -162,7 +162,7 @@ weight: 7
 **30** Have they not sped? have they not divided the prey; to every man a damsel or two; to Sisera a prey of divers colours, a prey of divers colours of needlework, of divers colours of needlework on both sides, meet for the necks of them that take the spoil?
 **31** So let all thine enemies perish, O LORD: but let them that love him be as the sun when he goeth forth in his might. And the land had rest forty years.
 
-## CHAPTER 6
+## JUDGES 6
 **1** And the children of Israel did evil in the sight of the LORD: and the LORD delivered them into the hand of Midian seven years.
 **2** And the hand of Midian prevailed against Israel: and because of the Midianites the children of Israel made them the dens which are in the mountains, and caves, and strong holds.
 **3** And so it was, when Israel had sown, that the Midianites came up, and the Amalekites, and the children of the east, even they came up against them;
@@ -204,7 +204,7 @@ weight: 7
 **39** And Gideon said unto God, Let not thine anger be hot against me, and I will speak but this once: let me prove, I pray thee, but this once with the fleece; let it now be dry only upon the fleece, and upon all the ground let there be dew.
 **40** And God did so that night: for it was dry upon the fleece only, and there was dew on all the ground.
 
-## CHAPTER 7
+## JUDGES 7
 **1** Then Jerubbaal, who is Gideon, and all the people that were with him, rose up early, and pitched beside the well of Harod: so that the host of the Midianites were on the north side of them, by the hill of Moreh, in the valley.
 **2** And the LORD said unto Gideon, The people that are with thee are too many for me to give the Midianites into their hands, lest Israel vaunt themselves against me, saying, Mine own hand hath saved me.
 **3** Now therefore go to, proclaim in the ears of the people, saying, Whosoever is fearful and afraid, let him return and depart early from mount Gilead. And there returned of the people twenty and two thousand; and there remained ten thousand.
@@ -231,7 +231,7 @@ weight: 7
 **24** And Gideon sent messengers throughout all mount Ephraim, saying, Come down against the Midianites, and take before them the waters unto Beth-barah and Jordan. Then all the men of Ephraim gathered themselves together, and took the waters unto Beth-barah and Jordan.
 **25** And they took two princes of the Midianites, Oreb and Zeeb; and they slew Oreb upon the rock Oreb, and Zeeb they slew at the winepress of Zeeb, and pursued Midian, and brought the heads of Oreb and Zeeb to Gideon on the other side Jordan.
 
-## CHAPTER 8
+## JUDGES 8
 **1** And the men of Ephraim said unto him, Why hast thou served us thus, that thou calledst us not, when thou wentest to fight with the Midianites? And they did chide with him sharply.
 **2** And he said unto them, What have I done now in comparison of you? Is not the gleaning of the grapes of Ephraim better than the vintage of Abiezer?
 **3** God hath delivered into your hands the princes of Midian, Oreb and Zeeb: and what was I able to do in comparison of you? Then their anger was abated toward him, when he had said that.
@@ -268,7 +268,7 @@ weight: 7
 **34** And the children of Israel remembered not the LORD their God, who had delivered them out of the hands of all their enemies on every side:
 **35** Neither shewed they kindness to the house of Jerubbaal, namely, Gideon, according to all the goodness which he had shewed unto Israel.
 
-## CHAPTER 9
+## JUDGES 9
 **1** And Abimelech the son of Jerubbaal went to Shechem unto his mother's brethren, and communed with them, and with all the family of the house of his mother's father, saying,
 **2** Speak, I pray you, in the ears of all the men of Shechem, Whether is better for you, either that all the sons of Jerubbaal, which are threescore and ten persons, reign over you, or that one reign over you? remember also that I am your bone and your flesh.
 **3** And his mother's brethren spake of him in the ears of all the men of Shechem all these words: and their hearts inclined to follow Abimelech; for they said, He is our brother.
@@ -327,7 +327,7 @@ weight: 7
 **56** Thus God rendered the wickedness of Abimelech, which he did unto his father, in slaying his seventy brethren:
 **57** And all the evil of the men of Shechem did God render upon their heads: and upon them came the curse of Jotham the son of Jerubbaal.
 
-## CHAPTER 10
+## JUDGES 10
 **1** And after Abimelech there arose to defend Israel Tola the son of Puah, the son of Dodo, a man of Issachar; and he dwelt in Shamir in mount Ephraim.
 **2** And he judged Israel twenty and three years, and died, and was buried in Shamir.
 **3** And after him arose Jair, a Gileadite, and judged Israel twenty and two years.
@@ -347,7 +347,7 @@ weight: 7
 **17** Then the children of Ammon were gathered together, and encamped in Gilead. And the children of Israel assembled themselves together, and encamped in Mizpeh.
 **18** And the people and princes of Gilead said one to another, What man is he that will begin to fight against the children of Ammon? he shall be head over all the inhabitants of Gilead.
 
-## CHAPTER 11
+## JUDGES 11
 **1** Now Jephthah the Gileadite was a mighty man of valour, and he was the son of an harlot: and Gilead begat Jephthah.
 **2** And Gilead's wife bare him sons; and his wife's sons grew up, and they thrust out Jephthah, and said unto him, Thou shalt not inherit in our father's house; for thou art the son of a strange woman.
 **3** Then Jephthah fled from his brethren, and dwelt in the land of Tob: and there were gathered vain men to Jephthah, and went out with him.
@@ -389,7 +389,7 @@ weight: 7
 **39** And it came to pass at the end of two months, that she returned unto her father, who did with her according to his vow which he had vowed: and she knew no man. And it was a custom in Israel,
 **40** That the daughters of Israel went yearly to lament the daughter of Jephthah the Gileadite four days in a year.
 
-## CHAPTER 12
+## JUDGES 12
 **1** And the men of Ephraim gathered themselves together, and went northward, and said unto Jephthah, Wherefore passedst thou over to fight against the children of Ammon, and didst not call us to go with thee? we will burn thine house upon thee with fire.
 **2** And Jephthah said unto them, I and my people were at great strife with the children of Ammon; and when I called you, ye delivered me not out of their hands.
 **3** And when I saw that ye delivered me not, I put my life in my hands, and passed over against the children of Ammon, and the LORD delivered them into my hand: wherefore then are ye come up unto me this day, to fight against me?
@@ -406,7 +406,7 @@ weight: 7
 **14** And he had forty sons and thirty nephews, that rode on threescore and ten ass colts: and he judged Israel eight years.
 **15** And Abdon the son of Hillel the Pirathonite died, and was buried in Pirathon in the land of Ephraim, in the mount of the Amalekites.
 
-## CHAPTER 13
+## JUDGES 13
 **1** And the children of Israel did evil again in the sight of the LORD; and the LORD delivered them into the hand of the Philistines forty years.
 **2** And there was a certain man of Zorah, of the family of the Danites, whose name was Manoah; and his wife was barren, and bare not.
 **3** And the angel of the LORD appeared unto the woman, and said unto her, Behold now, thou art barren, and bearest not: but thou shalt conceive, and bear a son.
@@ -433,7 +433,7 @@ weight: 7
 **24** And the woman bare a son, and called his name Samson: and the child grew, and the LORD blessed him.
 **25** And the Spirit of the LORD began to move him at times in the camp of Dan between Zorah and Eshtaol.
 
-## CHAPTER 14
+## JUDGES 14
 **1** And Samson went down to Timnath, and saw a woman in Timnath of the daughters of the Philistines.
 **2** And he came up, and told his father and his mother, and said, I have seen a woman in Timnath of the daughters of the Philistines: now therefore get her for me to wife.
 **3** Then his father and his mother said unto him, Is there never a woman among the daughters of thy brethren, or among all my people, that thou goest to take a wife of the uncircumcised Philistines? And Samson said unto his father, Get her for me; for she pleaseth me well.
@@ -455,7 +455,7 @@ weight: 7
 **19** And the Spirit of the LORD came upon him, and he went down to Ashkelon, and slew thirty men of them, and took their spoil, and gave change of garments unto them which expounded the riddle. And his anger was kindled, and he went up to his father's house.
 **20** But Samson's wife was given to his companion, whom he had used as his friend.
 
-## CHAPTER 15
+## JUDGES 15
 **1** But it came to pass within a while after, in the time of wheat harvest, that Samson visited his wife with a kid; and he said, I will go in to my wife into the chamber. But her father would not suffer him to go in.
 **2** And her father said, I verily thought that thou hadst utterly hated her; therefore I gave her to thy companion: is not her younger sister fairer than she? take her, I pray thee, instead of her.
 **3** And Samson said concerning them, Now shall I be more blameless than the Philistines, though I do them a displeasure.
@@ -477,7 +477,7 @@ weight: 7
 **19** But God clave an hollow place that was in the jaw, and there came water thereout; and when he had drunk, his spirit came again, and he revived: wherefore he called the name thereof En-hakkore, which is in Lehi unto this day.
 **20** And he judged Israel in the days of the Philistines twenty years.
 
-## CHAPTER 16
+## JUDGES 16
 **1** Then went Samson to Gaza, and saw there an harlot, and went in unto her.
 **2** And it was told the Gazites, saying, Samson is come hither. And they compassed him in, and laid wait for him all night in the gate of the city, and were quiet all the night, saying, In the morning, when it is day, we shall kill him.
 **3** And Samson lay till midnight, and arose at midnight, and took the doors of the gate of the city, and the two posts, and went away with them, bar and all, and put them upon his shoulders, and carried them up to the top of an hill that is before Hebron.
@@ -510,7 +510,7 @@ weight: 7
 **30** And Samson said, Let me die with the Philistines. And he bowed himself with all his might; and the house fell upon the lords, and upon all the people that were therein. So the dead which he slew at his death were more than they which he slew in his life.
 **31** Then his brethren and all the house of his father came down, and took him, and brought him up, and buried him between Zorah and Eshtaol in the buryingplace of Manoah his father. And he judged Israel twenty years.
 
-## CHAPTER 17
+## JUDGES 17
 **1** And there was a man of mount Ephraim, whose name was Micah.
 **2** And he said unto his mother, The eleven hundred shekels of silver that were taken from thee, about which thou cursedst, and spakest of also in mine ears, behold, the silver is with me; I took it. And his mother said, Blessed be thou of the LORD, my son.
 **3** And when he had restored the eleven hundred shekels of silver to his mother, his mother said, I had wholly dedicated the silver unto the LORD from my hand for my son, to make a graven image and a molten image: now therefore I will restore it unto thee.
@@ -525,7 +525,7 @@ weight: 7
 **12** And Micah consecrated the Levite; and the young man became his priest, and was in the house of Micah.
 **13** Then said Micah, Now know I that the LORD will do me good, seeing I have a Levite to my priest.
 
-## CHAPTER 18
+## JUDGES 18
 **1** In those days there was no king in Israel: and in those days the tribe of the Danites sought them an inheritance to dwell in; for unto that day all their inheritance had not fallen unto them among the tribes of Israel.
 **2** And the children of Dan sent of their family five men from their coasts, men of valour, from Zorah, and from Eshtaol, to spy out the land, and to search it; and they said unto them, Go, search the land: who when they came to mount Ephraim, to the house of Micah, they lodged there.
 **3** When they were by the house of Micah, they knew the voice of the young man the Levite: and they turned in thither, and said unto him, Who brought thee hither? and what makest thou in this place? and what hast thou here?
@@ -558,7 +558,7 @@ weight: 7
 **30** And the children of Dan set up the graven image: and Jonathan, the son of Gershom, the son of Manasseh, he and his sons were priests to the tribe of Dan until the day of the captivity of the land.
 **31** And they set them up Micah's graven image, which he made, all the time that the house of God was in Shiloh.
 
-## CHAPTER 19
+## JUDGES 19
 **1** And it came to pass in those days, when there was no king in Israel, that there was a certain Levite sojourning on the side of mount Ephraim, who took to him a concubine out of Beth-lehem-judah.
 **2** And his concubine played the whore against him, and went away from him unto her father's house to Beth-lehem-judah, and was there four whole months.
 **3** And her husband arose, and went after her, to speak friendly unto her, and to bring her again, having his servant with him, and a couple of asses: and she brought him into her father's house: and when the father of the damsel saw him, he rejoiced to meet him.
@@ -590,7 +590,7 @@ weight: 7
 **29** And when he was come into his house, he took a knife, and laid hold on his concubine, and divided her, together with her bones, into twelve pieces, and sent her into all the coasts of Israel.
 **30** And it was so, that all that saw it said, There was no such deed done nor seen from the day that the children of Israel came up out of the land of Egypt unto this day: consider of it, take advice, and speak your minds.
 
-## CHAPTER 20
+## JUDGES 20
 **1** Then all the children of Israel went out, and the congregation was gathered together as one man, from Dan even to Beer-sheba, with the land of Gilead, unto the LORD in Mizpeh.
 **2** And the chief of all the people, even of all the tribes of Israel, presented themselves in the assembly of the people of God, four hundred thousand footmen that drew sword.
 **3** (Now the children of Benjamin heard that the children of Israel were gone up to Mizpeh.) Then said the children of Israel, Tell us, how was this wickedness?
@@ -640,7 +640,7 @@ weight: 7
 **47** But six hundred men turned and fled to the wilderness unto the rock Rimmon, and abode in the rock Rimmon four months.
 **48** And the men of Israel turned again upon the children of Benjamin, and smote them with the edge of the sword, as well the men of every city, as the beast, and all that came to hand: also they set on fire all the cities that they came to.
 
-## CHAPTER 21
+## JUDGES 21
 **1** Now the men of Israel had sworn in Mizpeh, saying, There shall not any of us give his daughter unto Benjamin to wife.
 **2** And the people came to the house of God, and abode there till even before God, and lifted up their voices, and wept sore;
 **3** And said, O LORD God of Israel, why is this come to pass in Israel, that there should be to day one tribe lacking in Israel?

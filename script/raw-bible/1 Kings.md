@@ -8,7 +8,7 @@ weight: 11
 ## COMMONLY CALLED, THE THIRD BOOK OF THE KINGS
 
 
-## CHAPTER 1
+## 1 KINGS 1
 **1** Now king David was old and stricken in years; and they covered him with clothes, but he gat no heat.
 **2** Wherefore his servants said unto him, Let there be sought for my lord the king a young virgin: and let her stand before the king, and let her cherish him, and let her lie in thy bosom, that my lord the king may get heat.
 **3** So they sought for a fair damsel throughout all the coasts of Israel, and found Abishag a Shunammite, and brought her to the king.
@@ -63,7 +63,7 @@ weight: 11
 **52** And Solomon said, If he will shew himself a worthy man, there shall not an hair of him fall to the earth: but if wickedness shall be found in him, he shall die.
 **53** So king Solomon sent, and they brought him down from the altar. And he came and bowed himself to king Solomon: and Solomon said unto him, Go to thine house.
 
-## CHAPTER 2
+## 1 KINGS 2
 **1** Now the days of David drew nigh that he should die; and he charged Solomon his son, saying,
 **2** I go the way of all the earth: be thou strong therefore, and shew thyself a man;
 **3** And keep the charge of the LORD thy God, to walk in his ways, to keep his statutes, and his commandments, and his judgments, and his testimonies, as it is written in the law of Moses, that thou mayest prosper in all that thou doest, and whithersoever thou turnest thyself:
@@ -111,7 +111,7 @@ weight: 11
 **45** And king Solomon shall be blessed, and the throne of David shall be established before the LORD for ever.
 **46** So the king commanded Benaiah the son of Jehoiada; which went out, and fell upon him, that he died. And the kingdom was established in the hand of Solomon.
 
-## CHAPTER 3
+## 1 KINGS 3
 **1** And Solomon made affinity with Pharaoh king of Egypt, and took Pharaoh's daughter, and brought her into the city of David, until he had made an end of building his own house, and the house of the LORD, and the wall of Jerusalem round about.
 **2** Only the people sacrificed in high places, because there was no house built unto the name of the LORD, until those days.
 **3** And Solomon loved the LORD, walking in the statutes of David his father: only he sacrificed and burnt incense in high places.
@@ -141,7 +141,7 @@ weight: 11
 **27** Then the king answered and said, Give her the living child, and in no wise slay it: she is the mother thereof.
 **28** And all Israel heard of the judgment which the king had judged; and they feared the king: for they saw that the wisdom of God was in him, to do judgment.
 
-## CHAPTER 4
+## 1 KINGS 4
 **1** So king Solomon was king over all Israel.
 **2** And these were the princes which he had; Azariah the son of Zadok the priest,
 **3** Elihoreph and Ahiah, the sons of Shisha, scribes; Jehoshaphat the son of Ahilud, the recorder.
@@ -177,7 +177,7 @@ weight: 11
 **33** And he spake of trees, from the cedar tree that is in Lebanon even unto the hyssop that springeth out of the wall: he spake also of beasts, and of fowl, and of creeping things, and of fishes.
 **34** And there came of all people to hear the wisdom of Solomon, from all kings of the earth, which had heard of his wisdom.
 
-## CHAPTER 5
+## 1 KINGS 5
 **1** And Hiram king of Tyre sent his servants unto Solomon; for he had heard that they had anointed him king in the room of his father: for Hiram was ever a lover of David.
 **2** And Solomon sent to Hiram, saying,
 **3** Thou knowest how that David my father could not build an house unto the name of the LORD his God for the wars which were about him on every side, until the LORD put them under the soles of his feet.
@@ -197,7 +197,7 @@ weight: 11
 **17** And the king commanded, and they brought great stones, costly stones, and hewed stones, to lay the foundation of the house.
 **18** And Solomon's builders and Hiram's builders did hew them, and the stonesquarers: so they prepared timber and stones to build the house.
 
-## CHAPTER 6
+## 1 KINGS 6
 **1** And it came to pass in the four hundred and eightieth year after the children of Israel were come out of the land of Egypt, in the fourth year of Solomon's reign over Israel, in the month Zif, which is the second month, that he began to build the house of the LORD.
 **2** And the house which king Solomon built for the LORD, the length thereof was threescore cubits, and the breadth thereof twenty cubits, and the height thereof thirty cubits.
 **3** And the porch before the temple of the house, twenty cubits was the length thereof, according to the breadth of the house; and ten cubits was the breadth thereof before the house.
@@ -237,7 +237,7 @@ weight: 11
 **37** In the fourth year was the foundation of the house of the LORD laid, in the month Zif:
 **38** And in the eleventh year, in the month Bul, which is the eighth month, was the house finished throughout all the parts thereof, and according to all the fashion of it. So was he seven years in building it.
 
-## CHAPTER 7
+## 1 KINGS 7
 **1** But Solomon was building his own house thirteen years, and he finished all his house.
 **2** He built also the house of the forest of Lebanon; the length thereof was an hundred cubits, and the breadth thereof fifty cubits, and the height thereof thirty cubits, upon four rows of cedar pillars, with cedar beams upon the pillars.
 **3** And it was covered with cedar above upon the beams, that lay on forty five pillars, fifteen in a row.
@@ -290,7 +290,7 @@ weight: 11
 **50** And the bowls, and the snuffers, and the basons, and the spoons, and the censers of pure gold; and the hinges of gold, both for the doors of the inner house, the most holy place, and for the doors of the house, to wit, of the temple.
 **51** So was ended all the work that king Solomon made for the house of the LORD. And Solomon brought in the things which David his father had dedicated; even the silver, and the gold, and the vessels, did he put among the treasures of the house of the LORD.
 
-## CHAPTER 8
+## 1 KINGS 8
 **1** Then Solomon assembled the elders of Israel, and all the heads of the tribes, the chief of the fathers of the children of Israel, unto king Solomon in Jerusalem, that they might bring up the ark of the covenant of the LORD out of the city of David, which is Zion.
 **2** And all the men of Israel assembled themselves unto king Solomon at the feast in the month Ethanim, which is the seventh month.
 **3** And all the elders of Israel came, and the priests took up the ark.
@@ -358,7 +358,7 @@ weight: 11
 **65** And at that time Solomon held a feast, and all Israel with him, a great congregation, from the entering in of Hamath unto the river of Egypt, before the LORD our God, seven days and seven days, even fourteen days.
 **66** On the eighth day he sent the people away: and they blessed the king, and went unto their tents joyful and glad of heart for all the goodness that the LORD had done for David his servant, and for Israel his people.
 
-## CHAPTER 9
+## 1 KINGS 9
 **1** And it came to pass, when Solomon had finished the building of the house of the LORD, and the king's house, and all Solomon's desire which he was pleased to do,
 **2** That the LORD appeared to Solomon the second time, as he had appeared unto him at Gibeon.
 **3** And the LORD said unto him, I have heard thy prayer and thy supplication, that thou hast made before me: I have hallowed this house, which thou hast built, to put my name there for ever; and mine eyes and mine heart shall be there perpetually.
@@ -388,7 +388,7 @@ weight: 11
 **27** And Hiram sent in the navy his servants, shipmen that had knowledge of the sea, with the servants of Solomon.
 **28** And they came to Ophir, and fetched from thence gold, four hundred and twenty talents, and brought it to king Solomon.
 
-## CHAPTER 10
+## 1 KINGS 10
 **1** And when the queen of Sheba heard of the fame of Solomon concerning the name of the LORD, she came to prove him with hard questions.
 **2** And she came to Jerusalem with a very great train, with camels that bare spices, and very much gold, and precious stones: and when she was come to Solomon, she communed with him of all that was in her heart.
 **3** And Solomon told her all her questions: there was not any thing hid from the king, which he told her not.
@@ -419,7 +419,7 @@ weight: 11
 **28** And Solomon had horses brought out of Egypt, and linen yarn: the king's merchants received the linen yarn at a price.
 **29** And a chariot came up and went out of Egypt for six hundred shekels of silver, and an horse for an hundred and fifty: and so for all the kings of the Hittites, and for the kings of Syria, did they bring them out by their means.
 
-## CHAPTER 11
+## 1 KINGS 11
 **1** But king Solomon loved many strange women, together with the daughter of Pharaoh, women of the Moabites, Ammonites, Edomites, Zidonians, and Hittites;
 **2** Of the nations concerning which the LORD said unto the children of Israel, Ye shall not go in to them, neither shall they come in unto you: for surely they will turn away your heart after their gods: Solomon clave unto these in love.
 **3** And he had seven hundred wives, princesses, and three hundred concubines: and his wives turned away his heart.
@@ -464,7 +464,7 @@ weight: 11
 **42** And the time that Solomon reigned in Jerusalem over all Israel was forty years.
 **43** And Solomon slept with his fathers, and was buried in the city of David his father: and Rehoboam his son reigned in his stead.
 
-## CHAPTER 12
+## 1 KINGS 12
 **1** And Rehoboam went to Shechem: for all Israel were come to Shechem to make him king.
 **2** And it came to pass, when Jeroboam the son of Nebat, who was yet in Egypt, heard of it, (for he was fled from the presence of king Solomon, and Jeroboam dwelt in Egypt;)
 **3** That they sent and called him. And Jeroboam and all the congregation of Israel came, and spake unto Rehoboam, saying,
@@ -499,7 +499,7 @@ weight: 11
 **32** And Jeroboam ordained a feast in the eighth month, on the fifteenth day of the month, like unto the feast that is in Judah, and he offered upon the altar. So did he in Beth-el, sacrificing unto the calves that he had made: and he placed in Beth-el the priests of the high places which he had made.
 **33** So he offered upon the altar which he had made in Beth-el the fifteenth day of the eighth month, even in the month which he had devised of his own heart; and ordained a feast unto the children of Israel: and he offered upon the altar, and burnt incense.
 
-## CHAPTER 13
+## 1 KINGS 13
 **1** And, behold, there came a man of God out of Judah by the word of the LORD unto Beth-el: and Jeroboam stood by the altar to burn incense.
 **2** And he cried against the altar in the word of the LORD, and said, O altar, altar, thus saith the LORD; Behold, a child shall be born unto the house of David, Josiah by name; and upon thee shall he offer the priests of the high places that burn incense upon thee, and men's bones shall be burnt upon thee.
 **3** And he gave a sign the same day, saying, This is the sign which the LORD hath spoken; Behold, the altar shall be rent, and the ashes that are upon it shall be poured out.
@@ -535,7 +535,7 @@ weight: 11
 **33** After this thing Jeroboam returned not from his evil way, but made again of the lowest of the people priests of the high places: whosoever would, he consecrated him, and he became one of the priests of the high places.
 **34** And this thing became sin unto the house of Jeroboam, even to cut it off, and to destroy it from off the face of the earth.
 
-## CHAPTER 14
+## 1 KINGS 14
 **1** At that time Abijah the son of Jeroboam fell sick.
 **2** And Jeroboam said to his wife, Arise, I pray thee, and disguise thyself, that thou be not known to be the wife of Jeroboam; and get thee to Shiloh: behold, there is Ahijah the prophet, which told me that I should be king over this people.
 **3** And take with thee ten loaves, and cracknels, and a cruse of honey, and go to him: he shall tell thee what shall become of the child.
@@ -568,7 +568,7 @@ weight: 11
 **30** And there was war between Rehoboam and Jeroboam all their days.
 **31** And Rehoboam slept with his fathers, and was buried with his fathers in the city of David. And his mother's name was Naamah an Ammonitess. And Abijam his son reigned in his stead.
 
-## CHAPTER 15
+## 1 KINGS 15
 **1** Now in the eighteenth year of king Jeroboam the son of Nebat reigned Abijam over Judah.
 **2** Three years reigned he in Jerusalem. And his mother's name was Maachah, the daughter of Abishalom.
 **3** And he walked in all the sins of his father, which he had done before him: and his heart was not perfect with the LORD his God, as the heart of David his father.
@@ -604,7 +604,7 @@ weight: 11
 **33** In the third year of Asa king of Judah began Baasha the son of Ahijah to reign over all Israel in Tirzah, twenty and four years.
 **34** And he did evil in the sight of the LORD, and walked in the way of Jeroboam, and in his sin wherewith he made Israel to sin.
 
-## CHAPTER 16
+## 1 KINGS 16
 **1** Then the word of the LORD came to Jehu the son of Hanani against Baasha, saying,
 **2** Forasmuch as I exalted thee out of the dust, and made thee prince over my people Israel; and thou hast walked in the way of Jeroboam, and hast made my people Israel to sin, to provoke me to anger with their sins;
 **3** Behold, I will take away the posterity of Baasha, and the posterity of his house; and will make thy house like the house of Jeroboam the son of Nebat.
@@ -640,7 +640,7 @@ weight: 11
 **33** And Ahab made a grove; and Ahab did more to provoke the LORD God of Israel to anger than all the kings of Israel that were before him.
 **34** In his days did Hiel the Beth-elite build Jericho: he laid the foundation thereof in Abiram his firstborn, and set up the gates thereof in his youngest son Segub, according to the word of the LORD, which he spake by Joshua the son of Nun.
 
-## CHAPTER 17
+## 1 KINGS 17
 **1** And Elijah the Tishbite, who was of the inhabitants of Gilead, said unto Ahab, As the LORD God of Israel liveth, before whom I stand, there shall not be dew nor rain these years, but according to my word.
 **2** And the word of the LORD came unto him, saying,
 **3** Get thee hence, and turn thee eastward, and hide thyself by the brook Cherith, that is before Jordan.
@@ -666,7 +666,7 @@ weight: 11
 **23** And Elijah took the child, and brought him down out of the chamber into the house, and delivered him unto his mother: and Elijah said, See, thy son liveth.
 **24** And the woman said to Elijah, Now by this I know that thou art a man of God, and that the word of the LORD in thy mouth is truth.
 
-## CHAPTER 18
+## 1 KINGS 18
 **1** And it came to pass after many days, that the word of the LORD came to Elijah in the third year, saying, Go, shew thyself unto Ahab; and I will send rain upon the earth.
 **2** And Elijah went to shew himself unto Ahab. And there was a sore famine in Samaria.
 **3** And Ahab called Obadiah, which was the governor of his house. (Now Obadiah feared the LORD greatly:
@@ -714,7 +714,7 @@ weight: 11
 **45** And it came to pass in the mean while, that the heaven was black with clouds and wind, and there was a great rain. And Ahab rode, and went to Jezreel.
 **46** And the hand of the LORD was on Elijah; and he girded up his loins, and ran before Ahab to the entrance of Jezreel.
 
-## CHAPTER 19
+## 1 KINGS 19
 **1** And Ahab told Jezebel all that Elijah had done, and withal how he had slain all the prophets with the sword.
 **2** Then Jezebel sent a messenger unto Elijah, saying, So let the gods do to me, and more also, if I make not thy life as the life of one of them by to morrow about this time.
 **3** And when he saw that, he arose, and went for his life, and came to Beer-sheba, which belongeth to Judah, and left his servant there.
@@ -737,7 +737,7 @@ weight: 11
 **20** And he left the oxen, and ran after Elijah, and said, Let me, I pray thee, kiss my father and my mother, and then I will follow thee. And he said unto him, Go back again: for what have I done to thee?
 **21** And he returned back from him, and took a yoke of oxen, and slew them, and boiled their flesh with the instruments of the oxen, and gave unto the people, and they did eat. Then he arose, and went after Elijah, and ministered unto him.
 
-## CHAPTER 20
+## 1 KINGS 20
 **1** And Ben-hadad the king of Syria gathered all his host together: and there were thirty and two kings with him, and horses, and chariots: and he went up and besieged Samaria, and warred against it.
 **2** And he sent messengers to Ahab king of Israel into the city, and said unto him, Thus saith Ben-hadad,
 **3** Thy silver and thy gold is mine; thy wives also and thy children, even the goodliest, are mine.
@@ -782,7 +782,7 @@ weight: 11
 **42** And he said unto him, Thus saith the LORD, Because thou hast let go out of thy hand a man whom I appointed to utter destruction, therefore thy life shall go for his life, and thy people for his people.
 **43** And the king of Israel went to his house heavy and displeased, and came to Samaria.
 
-## CHAPTER 21
+## 1 KINGS 21
 **1** And it came to pass after these things, that Naboth the Jezreelite had a vineyard, which was in Jezreel, hard by the palace of Ahab king of Samaria.
 **2** And Ahab spake unto Naboth, saying, Give me thy vineyard, that I may have it for a garden of herbs, because it is near unto my house: and I will give thee for it a better vineyard than it; or, if it seem good to thee, I will give thee the worth of it in money.
 **3** And Naboth said to Ahab, The LORD forbid it me, that I should give the inheritance of my fathers unto thee.
@@ -813,7 +813,7 @@ weight: 11
 **28** And the word of the LORD came to Elijah the Tishbite, saying,
 **29** Seest thou how Ahab humbleth himself before me? because he humbleth himself before me, I will not bring the evil in his days: but in his son's days will I bring the evil upon his house.
 
-## CHAPTER 22
+## 1 KINGS 22
 **1** And they continued three years without war between Syria and Israel.
 **2** And it came to pass in the third year, that Jehoshaphat the king of Judah came down to the king of Israel.
 **3** And the king of Israel said unto his servants, Know ye that Ramoth in Gilead is our's, and we be still, and take it not out of the hand of the king of Syria?

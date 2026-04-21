@@ -7,7 +7,7 @@ weight: 2
 ## EXODUS
 
 
-## CHAPTER 1
+## EXODUS 1
 **1** Now these are the names of the children of Israel, which came into Egypt; every man and his household came with Jacob.
 **2** Reuben, Simeon, Levi, and Judah,
 **3** Issachar, Zebulun, and Benjamin,
@@ -31,7 +31,7 @@ weight: 2
 **21** And it came to pass, because the midwives feared God, that he made them houses.
 **22** And Pharaoh charged all his people, saying, Every son that is born ye shall cast into the river, and every daughter ye shall save alive.
 
-## CHAPTER 2
+## EXODUS 2
 
 **1** And there went a man of the house of Levi, and took to wife a daughter of Levi.
 **2** And the woman conceived, and bare a son: and when she saw him that he was a goodly child, she hid him three months.
@@ -59,7 +59,7 @@ weight: 2
 **24** And God heard their groaning, and God remembered his covenant with Abraham, with Isaac, and with Jacob.
 **25** And God looked upon the children of Israel, and God had respect unto them.
 
-## CHAPTER 3
+## EXODUS 3
 **1** Now Moses kept the flock of Jethro his father in law, the priest of Midian: and he led the flock to the backside of the desert, and came to the mountain of God, even to Horeb.
 **2** And the angel of the LORD appeared unto him in a flame of fire out of the midst of a bush: and he looked, and, behold, the bush burned with fire, and the bush was not consumed.
 **3** And Moses said, I will now turn aside, and see this great sight, why the bush is not burnt.
@@ -83,7 +83,7 @@ weight: 2
 **21** And I will give this people favour in the sight of the Egyptians: and it shall come to pass, that, when ye go, ye shall not go empty:
 **22** But every woman shall borrow of her neighbour, and of her that sojourneth in her house, jewels of silver, and jewels of gold, and raiment: and ye shall put them upon your sons, and upon your daughters; and ye shall spoil the Egyptians.
 
-## CHAPTER 4
+## EXODUS 4
 **1** And Moses answered and said, But, behold, they will not believe me, nor hearken unto my voice: for they will say, The LORD hath not appeared unto thee.
 **2** And the LORD said unto him, What is that in thine hand? And he said, A rod.
 **3** And he said, Cast it on the ground. And he cast it on the ground, and it became a serpent; and Moses fled from before it.
@@ -116,7 +116,7 @@ weight: 2
 **30** And Aaron spake all the words which the LORD had spoken unto Moses, and did the signs in the sight of the people.
 **31** And the people believed: and when they heard that the LORD had visited the children of Israel, and that he had looked upon their affliction, then they bowed their heads and worshipped.
 
-## CHAPTER 5
+## EXODUS 5
 **1** And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the LORD God of Israel, Let my people go, that they may hold a feast unto me in the wilderness.
 **2** And Pharaoh said, Who is the LORD, that I should obey his voice to let Israel go? I know not the LORD, neither will I let Israel go.
 **3** And they said, The God of the Hebrews hath met with us: let us go, we pray thee, three days' journey into the desert, and sacrifice unto the LORD our God; lest he fall upon us with pestilence, or with the sword.
@@ -141,7 +141,7 @@ weight: 2
 **22** And Moses returned unto the LORD, and said, Lord, wherefore hast thou so evil entreated this people? why is it that thou hast sent me?
 **23** For since I came to Pharaoh to speak in thy name, he hath done evil to this people; neither hast thou delivered thy people at all.
 
-## CHAPTER 6
+## EXODUS 6
 **1** Then the LORD said unto Moses, Now shalt thou see what I will do to Pharaoh: for with a strong hand shall he let them go, and with a strong hand shall he drive them out of his land.
 **2** And God spake unto Moses, and said unto him, I am the LORD:
 **3** And I appeared unto Abraham, unto Isaac, and unto Jacob, by the name of God Almighty, but by my name JEHOVAH was I not known to them.
@@ -173,7 +173,7 @@ weight: 2
 **29** That the LORD spake unto Moses, saying, I am the LORD: speak thou unto Pharaoh king of Egypt all that I say unto thee.
 **30** And Moses said before the LORD, Behold, I am of uncircumcised lips, and how shall Pharaoh hearken unto me?
 
-## CHAPTER 7
+## EXODUS 7
 **1** And the LORD said unto Moses, See, I have made thee a god to Pharaoh: and Aaron thy brother shall be thy prophet.
 **2** Thou shalt speak all that I command thee: and Aaron thy brother shall speak unto Pharaoh, that he send the children of Israel out of his land.
 **3** And I will harden Pharaoh's heart, and multiply my signs and my wonders in the land of Egypt.
@@ -200,7 +200,7 @@ weight: 2
 **24** And all the Egyptians digged round about the river for water to drink; for they could not drink of the water of the river.
 **25** And seven days were fulfilled, after that the LORD had smitten the river.
 
-## CHAPTER 8
+## EXODUS 8
 **1** And the LORD spake unto Moses, Go unto Pharaoh, and say unto him, Thus saith the LORD, Let my people go, that they may serve me.
 **2** And if thou refuse to let them go, behold, I will smite all thy borders with frogs:
 **3** And the river shall bring forth frogs abundantly, which shall go up and come into thine house, and into thy bedchamber, and upon thy bed, and into the house of thy servants, and upon thy people, and into thine ovens, and into thy kneadingtroughs:
@@ -234,7 +234,7 @@ weight: 2
 **31** And the LORD did according to the word of Moses; and he removed the swarms of flies from Pharaoh, from his servants, and from his people; there remained not one.
 **32** And Pharaoh hardened his heart at this time also, neither would he let the people go.
 
-## CHAPTER 9
+## EXODUS 9
 **1** Then the LORD said unto Moses, Go in unto Pharaoh, and tell him, Thus saith the LORD God of the Hebrews, Let my people go, that they may serve me.
 **2** For if thou refuse to let them go, and wilt hold them still,
 **3** Behold, the hand of the LORD is upon thy cattle which is in the field, upon the horses, upon the asses, upon the camels, upon the oxen, and upon the sheep: there shall be a very grievous murrain.
@@ -302,7 +302,7 @@ CHAPTER 10
 **28** And Pharaoh said unto him, Get thee from me, take heed to thyself, see my face no more; for in that day thou seest my face thou shalt die.
 **29** And Moses said, Thou hast spoken well, I will see thy face again no more.
 
-## CHAPTER 11
+## EXODUS 11
 **1** And the LORD said unto Moses, Yet will I bring one plague more upon Pharaoh, and upon Egypt; afterwards he will let you go hence: when he shall let you go, he shall surely thrust you out hence altogether.
 **2** Speak now in the ears of the people, and let every man borrow of his neighbour, and every woman of her neighbour, jewels of silver, and jewels of gold.
 **3** And the LORD gave the people favour in the sight of the Egyptians. Moreover the man Moses was very great in the land of Egypt, in the sight of Pharaoh's servants, and in the sight of the people.
@@ -314,7 +314,7 @@ CHAPTER 10
 **9** And the LORD said unto Moses, Pharaoh shall not hearken unto you; that my wonders may be multiplied in the land of Egypt.
 **10** And Moses and Aaron did all these wonders before Pharaoh: and the LORD hardened Pharaoh's heart, so that he would not let the children of Israel go out of his land.
 
-## CHAPTER 12
+## EXODUS 12
 **1** And the LORD spake unto Moses and Aaron in the land of Egypt, saying,
 **2** This month shall be unto you the beginning of months: it shall be the first month of the year to you.
 **3** Speak ye unto all the congregation of Israel, saying, In the tenth day of this month they shall take to them every man a lamb, according to the house of their fathers, a lamb for an house:
@@ -367,7 +367,7 @@ CHAPTER 10
 **50** Thus did all the children of Israel; as the LORD commanded Moses and Aaron, so did they.
 **51** And it came to pass the selfsame day, that the LORD did bring the children of Israel out of the land of Egypt by their armies.
 
-## CHAPTER 13
+## EXODUS 13
 **1** And the LORD spake unto Moses, saying,
 **2** Sanctify unto me all the firstborn, whatsoever openeth the womb among the children of Israel, both of man and of beast: it is mine.
 **3** And Moses said unto the people, Remember this day, in which ye came out from Egypt, out of the house of bondage; for by strength of hand the LORD brought you out from this place: there shall no leavened bread be eaten.
@@ -391,7 +391,7 @@ CHAPTER 10
 **21** And the LORD went before them by day in a pillar of a cloud, to lead them the way; and by night in a pillar of fire, to give them light; to go by day and night:
 **22** He took not away the pillar of the cloud by day, nor the pillar of fire by night, from before the people.
 
-## CHAPTER 14
+## EXODUS 14
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto the children of Israel, that they turn and encamp before Pi-hahiroth, between Migdol and the sea, over against Baal-zephon: before it shall ye encamp by the sea.
 **3** For Pharaoh will say of the children of Israel, They are entangled in the land, the wilderness hath shut them in.
@@ -424,7 +424,7 @@ CHAPTER 10
 **30** Thus the LORD saved Israel that day out of the hand of the Egyptians; and Israel saw the Egyptians dead upon the sea shore.
 **31** And Israel saw that great work which the LORD did upon the Egyptians: and the people feared the LORD, and believed the LORD, and his servant Moses.
 
-## CHAPTER 15
+## EXODUS 15
 **1** Then sang Moses and the children of Israel this song unto the LORD, and spake, saying, I will sing unto the LORD, for he hath triumphed gloriously: the horse and his rider hath he thrown into the sea.
 **2** The LORD is my strength and song, and he is become my salvation: he is my God, and I will prepare him an habitation; my father's God, and I will exalt him.
 **3** The LORD is a man of war: the LORD is his name.
@@ -453,7 +453,7 @@ CHAPTER 10
 **26** And said, If thou wilt diligently hearken to the voice of the LORD thy God, and wilt do that which is right in his sight, and wilt give ear to his commandments, and keep all his statutes, I will put none of these diseases upon thee, which I have brought upon the Egyptians: for I am the LORD that healeth thee.
 **27**  And they came to Elim, where were twelve wells of water, and threescore and ten palm trees: and they encamped there by the waters.
 
-## CHAPTER 16
+## EXODUS 16
 **1** And they took their journey from Elim, and all the congregation of the children of Israel came unto the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt.
 **2** And the whole congregation of the children of Israel murmured against Moses and Aaron in the wilderness:
 **3** And the children of Israel said unto them, Would to God we had died by the hand of the LORD in the land of Egypt, when we sat by the flesh pots, and when we did eat bread to the full; for ye have brought us forth into this wilderness, to kill this whole assembly with hunger.
@@ -491,7 +491,7 @@ CHAPTER 10
 **35** And the children of Israel did eat manna forty years, until they came to a land inhabited; they did eat manna, until they came unto the borders of the land of Canaan.
 **36** Now an omer is the tenth part of an ephah.
 
-## CHAPTER 17
+## EXODUS 17
 **1** And all the congregation of the children of Israel journeyed from the wilderness of Sin, after their journeys, according to the commandment of the LORD, and pitched in Rephidim: and there was no water for the people to drink.
 **2** Wherefore the people did chide with Moses, and said, Give us water that we may drink. And Moses said unto them, Why chide ye with me? wherefore do ye tempt the LORD?
 **3** And the people thirsted there for water; and the people murmured against Moses, and said, Wherefore is this that thou hast brought us up out of Egypt, to kill us and our children and our cattle with thirst?
@@ -509,7 +509,7 @@ CHAPTER 10
 **15** And Moses built an altar, and called the name of it Jehovah-nissi:
 **16** For he said, Because the LORD hath sworn that the LORD will have war with Amalek from generation to generation.
 
-## CHAPTER 18
+## EXODUS 18
 **1** When Jethro, the priest of Midian, Moses' father in law, heard of all that God had done for Moses, and for Israel his people, and that the LORD had brought Israel out of Egypt;
 **2** Then Jethro, Moses' father in law, took Zipporah, Moses' wife, after he had sent her back,
 **3** And her two sons; of which the name of the one was Gershom; for he said, I have been an alien in a strange land:
@@ -538,7 +538,7 @@ CHAPTER 10
 **26** And they judged the people at all seasons: the hard causes they brought unto Moses, but every small matter they judged themselves.
 **27**  And Moses let his father in law depart; and he went his way into his own land.
 
-## CHAPTER 19
+## EXODUS 19
 **1** In the third month, when the children of Israel were gone forth out of the land of Egypt, the same day came they into the wilderness of Sinai.
 **2** For they were departed from Rephidim, and were come to the desert of Sinai, and had pitched in the wilderness; and there Israel camped before the mount.
 **3** And Moses went up unto God, and the LORD called unto him out of the mountain, saying, Thus shalt thou say to the house of Jacob, and tell the children of Israel;
@@ -565,7 +565,7 @@ CHAPTER 10
 **24** And the LORD said unto him, Away, get thee down, and thou shalt come up, thou, and Aaron with thee: but let not the priests and the people break through to come up unto the LORD, lest he break forth upon them.
 **25** So Moses went down unto the people, and spake unto them.
 
-## CHAPTER 20
+## EXODUS 20
 **1** And God spake all these words, saying,
 **2** I am the LORD thy God, which have brought thee out of the land of Egypt, out of the house of bondage.
 **3** Thou shalt have no other gods before me.
@@ -593,7 +593,7 @@ CHAPTER 10
 **25** And if thou wilt make me an altar of stone, thou shalt not build it of hewn stone: for if thou lift up thy tool upon it, thou hast polluted it.
 **26** Neither shalt thou go up by steps unto mine altar, that thy nakedness be not discovered thereon.
 
-## CHAPTER 21
+## EXODUS 21
 **1** Now these are the judgments which thou shalt set before them.
 **2** If thou buy an Hebrew servant, six years he shall serve: and in the seventh he shall go out free for nothing.
 **3** If he came in by himself, he shall go out by himself: if he were married, then his wife shall go out with him.
@@ -631,7 +631,7 @@ CHAPTER 10
 **35**  And if one man's ox hurt another's, that he die; then they shall sell the live ox, and divide the money of it; and the dead ox also they shall divide.
 **36** Or if it be known that the ox hath used to push in time past, and his owner hath not kept him in; he shall surely pay ox for ox; and the dead shall be his own.
 
-## CHAPTER 22
+## EXODUS 22
 **1** If a man shall steal an ox, or a sheep, and kill it, or sell it; he shall restore five oxen for an ox, and four sheep for a sheep.
 **2**  If a thief be found breaking up, and be smitten that he die, there shall no blood be shed for him.
 **3** If the sun be risen upon him, there shall be blood shed for him; for he should make full restitution; if he have nothing, then he shall be sold for his theft.
@@ -664,7 +664,7 @@ CHAPTER 10
 **30** Likewise shalt thou do with thine oxen, and with thy sheep: seven days it shall be with his dam; on the eighth day thou shalt give it me.
 **31** And ye shall be holy men unto me: neither shall ye eat any flesh that is torn of beasts in the field; ye shall cast it to the dogs.
 
-## CHAPTER 23
+## EXODUS 23
 **1** Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness.
 **2** Thou shalt not follow a multitude to do evil; neither shalt thou speak in a cause to decline after many to wrest judgment:
 **3** Neither shalt thou countenance a poor man in his cause.
@@ -699,7 +699,7 @@ CHAPTER 10
 **32** Thou shalt make no covenant with them, nor with their gods.
 **33** They shall not dwell in thy land, lest they make thee sin against me: for if thou serve their gods, it will surely be a snare unto thee.
 
-## CHAPTER 24
+## EXODUS 24
 **1** And he said unto Moses, Come up unto the LORD, thou, and Aaron, Nadab, and Abihu, and seventy of the elders of Israel; and worship ye afar off.
 **2** And Moses alone shall come near the LORD: but they shall not come nigh; neither shall the people go up with him.
 **3** And Moses came and told the people all the words of the LORD, and all the judgments: and all the people answered with one voice, and said, All the words which the LORD hath said will we do.
@@ -719,7 +719,7 @@ CHAPTER 10
 **17** And the sight of the glory of the LORD was like devouring fire on the top of the mount in the eyes of the children of Israel.
 **18** And Moses went into the midst of the cloud, and gat him up into the mount: and Moses was in the mount forty days and forty nights.
 
-## CHAPTER 25
+## EXODUS 25
 **1** And the LORD spake unto Moses, saying,
 **2** Speak unto the children of Israel, that they bring me an offering: of every man that giveth it willingly with his heart ye shall take my offering.
 **3** And this is the offering which ye shall take of them; gold, and silver, and brass,
@@ -761,7 +761,7 @@ CHAPTER 10
 **39** Of a talent of pure gold shall he make it, with all these vessels.
 **40** And look that thou make them after their pattern, which was shewed thee in the mount.
 
-## CHAPTER 26
+## EXODUS 26
 **1** Moreover thou shalt make the tabernacle with ten curtains of fine twined linen, and blue, and purple, and scarlet: with cherubims of cunning work shalt thou make them.
 **2** The length of one curtain shall be eight and twenty cubits, and the breadth of one curtain four cubits: and every one of the curtains shall have one measure.
 **3** The five curtains shall be coupled together one to another; and other five curtains shall be coupled one to another.
@@ -800,7 +800,7 @@ CHAPTER 10
 **36** And thou shalt make an hanging for the door of the tent, of blue, and purple, and scarlet, and fine twined linen, wrought with needlework.
 **37** And thou shalt make for the hanging five pillars of shittim wood, and overlay them with gold, and their hooks shall be of gold: and thou shalt cast five sockets of brass for them.
 
-## CHAPTER 27
+## EXODUS 27
 **1** And thou shalt make an altar of shittim wood, five cubits long, and five cubits broad; the altar shall be foursquare: and the height thereof shall be three cubits.
 **2** And thou shalt make the horns of it upon the four corners thereof: his horns shall be of the same: and thou shalt overlay it with brass.
 **3** And thou shalt make his pans to receive his ashes, and his shovels, and his basons, and his fleshhooks, and his firepans: all the vessels thereof thou shalt make of brass.
@@ -823,7 +823,7 @@ CHAPTER 10
 **20** And thou shalt command the children of Israel, that they bring thee pure oil olive beaten for the light, to cause the lamp to burn always.
 **21** In the tabernacle of the congregation without the vail, which is before the testimony, Aaron and his sons shall order it from evening to morning before the LORD: it shall be a statute for ever unto their generations on the behalf of the children of Israel.
 
-## CHAPTER 28
+## EXODUS 28
 **1** And take thou unto thee Aaron thy brother, and his sons with him, from among the children of Israel, that he may minister unto me in the priest's office, even Aaron, Nadab and Abihu, Eleazar and Ithamar, Aaron's sons.
 **2** And thou shalt make holy garments for Aaron thy brother for glory and for beauty.
 **3** And thou shalt speak unto all that are wise hearted, whom I have filled with the spirit of wisdom, that they may make Aaron's garments to consecrate him, that he may minister unto me in the priest's office.
@@ -868,7 +868,7 @@ CHAPTER 10
 **42** And thou shalt make them linen breeches to cover their nakedness; from the loins even unto the thighs they shall reach:
 **43** And they shall be upon Aaron, and upon his sons, when they come in unto the tabernacle of the congregation, or when they come near unto the altar to minister in the holy place; that they bear not iniquity, and die: it shall be a statute for ever unto him and his seed after him.
 
-## CHAPTER 29
+## EXODUS 29
 **1** And this is the thing that thou shalt do unto them to hallow them, to minister unto me in the priest's office: Take one young bullock, and two rams without blemish,
 **2** And unleavened bread, and cakes unleavened tempered with oil, and wafers unleavened anointed with oil: of wheaten flour shalt thou make them.
 **3** And thou shalt put them into one basket, and bring them in the basket, with the bullock and the two rams.
@@ -916,7 +916,7 @@ CHAPTER 10
 **45**  And I will dwell among the children of Israel, and will be their God.
 **46** And they shall know that I am the LORD their God, that brought them forth out of the land of Egypt, that I may dwell among them: I am the LORD their God.
 
-## CHAPTER 30
+## EXODUS 30
 **1** And thou shalt make an altar to burn incense upon: of shittim wood shalt thou make it.
 **2** A cubit shall be the length thereof, and a cubit the breadth thereof; foursquare shall it be: and two cubits shall be the height thereof: the horns thereof shall be of the same.
 **3** And thou shalt overlay it with pure gold, the top thereof, and the sides thereof round about, and the horns thereof; and thou shalt make unto it a crown of gold round about.
@@ -956,7 +956,7 @@ CHAPTER 10
 **37** And as for the perfume which thou shalt make, ye shall not make to yourselves according to the composition thereof: it shall be unto thee holy for the LORD.
 **38** Whosoever shall make like unto that, to smell thereto, shall even be cut off from his people.
 
-## CHAPTER 31
+## EXODUS 31
 **1** And the LORD spake unto Moses, saying,
 **2** See, I have called by name Bezaleel the son of Uri, the son of Hur, of the tribe of Judah:
 **3** And I have filled him with the spirit of God, in wisdom, and in understanding, and in knowledge, and in all manner of workmanship,
@@ -976,7 +976,7 @@ CHAPTER 10
 **17** It is a sign between me and the children of Israel for ever: for in six days the LORD made heaven and earth, and on the seventh day he rested, and was refreshed.
 **18**  And he gave unto Moses, when he had made an end of communing with him upon mount Sinai, two tables of testimony, tables of stone, written with the finger of God.
 
-## CHAPTER 32
+## EXODUS 32
 **1** And when the people saw that Moses delayed to come down out of the mount, the people gathered themselves together unto Aaron, and said unto him, Up, make us gods, which shall go before us; for as for this Moses, the man that brought us up out of the land of Egypt, we wot not what is become of him.
 **2** And Aaron said unto them, Break off the golden earrings, which are in the ears of your wives, of your sons, and of your daughters, and bring them unto me.
 **3** And all the people brake off the golden earrings which were in their ears, and brought them unto Aaron.
@@ -1013,7 +1013,7 @@ CHAPTER 10
 **34** Therefore now go, lead the people unto the place of which I have spoken unto thee: behold, mine Angel shall go before thee: nevertheless in the day when I visit I will visit their sin upon them.
 **35** And the LORD plagued the people, because they made the calf, which Aaron made.
 
-## CHAPTER 33
+## EXODUS 33
 **1** And the LORD said unto Moses, Depart, and go up hence, thou and the people which thou hast brought up out of the land of Egypt, unto the land which I sware unto Abraham, to Isaac, and to Jacob, saying, Unto thy seed will I give it:
 **2** And I will send an angel before thee; and I will drive out the Canaanite, the Amorite, and the Hittite, and the Perizzite, the Hivite, and the Jebusite:
 **3** Unto a land flowing with milk and honey: for I will not go up in the midst of thee; for thou art a stiffnecked people: lest I consume thee in the way.
@@ -1038,7 +1038,7 @@ CHAPTER 10
 **22** And it shall come to pass, while my glory passeth by, that I will put thee in a clift of the rock, and will cover thee with my hand while I pass by:
 **23** And I will take away mine hand, and thou shalt see my back parts: but my face shall not be seen.
 
-## CHAPTER 34
+## EXODUS 34
 **1** And the LORD said unto Moses, Hew thee two tables of stone like unto the first: and I will write upon these tables the words that were in the first tables, which thou brakest.
 **2** And be ready in the morning, and come up in the morning unto mount Sinai, and present thyself there to me in the top of the mount.
 **3** And no man shall come up with thee, neither let any man be seen throughout all the mount; neither let the flocks nor herds feed before that mount.
@@ -1075,7 +1075,7 @@ CHAPTER 10
 **34** But when Moses went in before the LORD to speak with him, he took the vail off, until he came out. And he came out, and spake unto the children of Israel that which he was commanded.
 **35** And the children of Israel saw the face of Moses, that the skin of Moses' face shone: and Moses put the vail upon his face again, until he went in to speak with him.
 
-## CHAPTER 35
+## EXODUS 35
 **1** And Moses gathered all the congregation of the children of Israel together, and said unto them, These are the words which the LORD hath commanded, that ye should do them.
 **2** Six days shall work be done, but on the seventh day there shall be to you an holy day, a sabbath of rest to the LORD: whosoever doeth work therein shall be put to death.
 **3** Ye shall kindle no fire throughout your habitations upon the sabbath day.
@@ -1112,7 +1112,7 @@ CHAPTER 10
 **34** And he hath put in his heart that he may teach, both he, and Aholiab, the son of Ahisamach, of the tribe of Dan.
 **35** Them hath he filled with wisdom of heart, to work all manner of work, of the engraver, and of the cunning workman, and of the embroiderer, in blue, and in purple, in scarlet, and in fine linen, and of the weaver, even of them that do any work, and of those that devise cunning work.
 
-## CHAPTER 36
+## EXODUS 36
 **1** Then wrought Bezaleel and Aholiab, and every wise hearted man, in whom the LORD put wisdom and understanding to know how to work all manner of work for the service of the sanctuary, according to all that the LORD had commanded.
 **2** And Moses called Bezaleel and Aholiab, and every wise hearted man, in whose heart the LORD had put wisdom, even every one whose heart stirred him up to come unto the work to do it:
 **3** And they received of Moses all the offering, which the children of Israel had brought for the work of the service of the sanctuary, to make it withal. And they brought yet unto him free offerings every morning.
@@ -1152,7 +1152,7 @@ CHAPTER 10
 **37** And he made an hanging for the tabernacle door of blue, and purple, and scarlet, and fine twined linen, of needlework;
 **38** And the five pillars of it with their hooks: and he overlaid their chapiters and their fillets with gold: but their five sockets were of brass.
 
-## CHAPTER 37
+## EXODUS 37
 **1** And Bezaleel made the ark of shittim wood: two cubits and a half was the length of it, and a cubit and a half the breadth of it, and a cubit and a half the height of it:
 **2** And he overlaid it with pure gold within and without, and made a crown of gold to it round about.
 **3** And he cast for it four rings of gold, to be set by the four corners of it; even two rings upon the one side of it, and two rings upon the other side of it.
@@ -1183,7 +1183,7 @@ CHAPTER 10
 **28** And he made the staves of shittim wood, and overlaid them with gold.
 **29** And he made the holy anointing oil, and the pure incense of sweet spices, according to the work of the apothecary.
 
-## CHAPTER 38
+## EXODUS 38
 **1** And he made the altar of burnt offering of shittim wood: five cubits was the length thereof, and five cubits the breadth thereof; it was foursquare; and three cubits the height thereof.
 **2** And he made the horns thereof on the four corners of it; the horns thereof were of the same: and he overlaid it with brass.
 **3** And he made all the vessels of the altar, the pots, and the shovels, and the basons, and the fleshhooks, and the firepans: all the vessels thereof made he of brass.
@@ -1216,7 +1216,7 @@ CHAPTER 10
 **30** And therewith he made the sockets to the door of the tabernacle of the congregation, and the brasen altar, and the brasen grate for it, and all the vessels of the altar,
 **31** And the sockets of the court round about, and the sockets of the court gate, and all the pins of the tabernacle, and all the pins of the court round about.
 
-## CHAPTER 39
+## EXODUS 39
 **1** And of the blue, and purple, and scarlet, they made cloths of service, to do service in the holy place, and made the holy garments for Aaron; as the LORD commanded Moses.
 **2** And he made the ephod of gold, blue, and purple, and scarlet, and fine twined linen.
 **3** And they did beat the gold into thin plates, and cut it into wires, to work it in the blue, and in the purple, and in the scarlet, and in the fine linen, with cunning work.
@@ -1261,7 +1261,7 @@ CHAPTER 10
 **42** According to all that the LORD commanded Moses, so the children of Israel made all the work.
 **43** And Moses did look upon all the work, and, behold, they had done it as the LORD had commanded, even so had they done it: and Moses blessed them.
 
-## CHAPTER 40
+## EXODUS 40
 **1** And the LORD spake unto Moses, saying,
 **2** On the first day of the first month shalt thou set up the tabernacle of the tent of the congregation.
 **3** And thou shalt put therein the ark of the testimony, and cover the ark with the vail.

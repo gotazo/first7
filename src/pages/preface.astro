@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getEntry, render } from 'astro:content';
+
+const entry = await getEntry('pages', 'preface');
+
+if (!entry) {
+  throw new Error('Preface not found');
+}
+
+const { Content } = await render(entry);
+---
+
+<BaseLayout title="Preface">
+
+  <section class="max-w-3xl mx-auto px-5 py-16 space-y-16">
+
+    <!-- HERO -->
+    <div class="text-center space-y-4">
+      <h1 class="text-4xl md:text-5xl font-semibold leading-tight">
+        The <span class="text-[var(--color-primary)]">Preface</span>
+      </h1>
+
+      <p class="text-lg text-[var(--color-muted)]">
+        Understanding the heart behind this translation
+      </p>
+    </div>
+
+    <!-- CONTENT -->
+    <article class="prose prose-neutral dark:prose-invert max-w-none">
+      <Content />
+    </article>
+
+    <!-- NAV -->
+    <div class="flex justify-between text-sm pt-6 border-t border-[var(--color-border)]">
+      <a href="/bible" class="hover:underline">← Back to Bible</a>
+      <a href="/dedicatory" class="hover:underline">Dedicatory →</a>
+    </div>
+
+  </section>
+
+</BaseLayout>

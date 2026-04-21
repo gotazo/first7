@@ -7,7 +7,7 @@ weight: 2
 ## SAINT MARK
 
 
-## CHAPTER 1
+## MARK 1
 **1** The beginning of the gospel of Jesus Christ, the Son of God;
 **2** As it is written in the prophets, Behold, I send my messenger before thy face, which shall prepare thy way before thee.
 **3** The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.
@@ -54,7 +54,7 @@ weight: 2
 **44** And saith unto him, See thou say nothing to any man: but go thy way, shew thyself to the priest, and offer for thy cleansing those things which Moses commanded, for a testimony unto them.
 **45** But he went out, and began to publish it much, and to blaze abroad the matter, insomuch that Jesus could no more openly enter into the city, but was without in desert places: and they came to him from every quarter.
 
-## CHAPTER 2
+## MARK 2
 **1** And again he entered into Capernaum after some days; and it was noised that he was in the house.
 **2** And straightway many were gathered together, insomuch that there was no room to receive them, no, not so much as about the door: and he preached the word unto them.
 **3** And they come unto him, bringing one sick of the palsy, which was borne of four.
@@ -84,7 +84,7 @@ weight: 2
 **27** And he said unto them, The sabbath was made for man, and not man for the sabbath:
 **28** Therefore the Son of man is Lord also of the sabbath.
 
-## CHAPTER 3
+## MARK 3
 **1** And he entered again into the synagogue; and there was a man there which had a withered hand.
 **2** And they watched him, whether he would heal him on the sabbath day; that they might accuse him.
 **3** And he saith unto the man which had the withered hand, Stand forth.
@@ -121,7 +121,7 @@ weight: 2
 **34** And he looked round about on them which sat about him, and said, Behold my mother and my brethren!
 **35** For whosoever shall do the will of God, the same is my brother, and my sister, and mother.
 
-## CHAPTER 4
+## MARK 4
 **1** And he began again to teach by the sea side: and there was gathered unto him a great multitude, so that he entered into a ship, and sat in the sea; and the whole multitude was by the sea on the land.
 **2** And he taught them many things by parables, and said unto them in his doctrine,
 **3** Hearken; Behold, there went out a sower to sow:
@@ -164,7 +164,7 @@ weight: 2
 **40** And he said unto them, Why are ye so fearful? how is it that ye have no faith?
 **41** And they feared exceedingly, and said one to another, What manner of man is this, that even the wind and the sea obey him?
 
-## CHAPTER 5
+## MARK 5
 **1** And they came over unto the other side of the sea, into the country of the Gadarenes.
 **2** And when he was come out of the ship, immediately there met him out of the tombs a man with an unclean spirit,
 **3** Who had his dwelling among the tombs; and no man could bind him, no, not with chains:
@@ -209,7 +209,7 @@ weight: 2
 **42** And straightway the damsel arose, and walked; for she was of the age of twelve years. And they were astonished with a great astonishment.
 **43** And he charged them straitly that no man should know it; and commanded that something should be given her to eat.
 
-## CHAPTER 6
+## MARK 6
 **1** And he went out from thence, and came into his own country; and his disciples follow him.
 **2** And when the sabbath day was come, he began to teach in the synagogue: and many hearing him were astonished, saying, From whence hath this man these things? and what wisdom is this which is given unto him, that even such mighty works are wrought by his hands?
 **3** Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Juda, and Simon? and are not his sisters here with us? And they were offended at him.
@@ -267,7 +267,7 @@ weight: 2
 **55** And ran through that whole region round about, and began to carry about in beds those that were sick, where they heard he was.
 **56** And whithersoever he entered, into villages, or cities, or country, they laid the sick in the streets, and besought him that they might touch if it were but the border of his garment: and as many as touched him were made whole.
 
-## CHAPTER 7
+## MARK 7
 **1** Then came together unto him the Pharisees, and certain of the scribes, which came from Jerusalem.
 **2** And when they saw some of his disciples eat bread with defiled, that is to say, with unwashen, hands, they found fault.
 **3** For the Pharisees, and all the Jews, except they wash their hands oft, eat not, holding the tradition of the elders.
@@ -306,7 +306,7 @@ weight: 2
 **36** And he charged them that they should tell no man: but the more he charged them, so much the more a great deal they published it;
 **37** And were beyond measure astonished, saying, He hath done all things well: he maketh both the deaf to hear, and the dumb to speak.
 
-## CHAPTER 8
+## MARK 8
 **1** In those days the multitude being very great, and having nothing to eat, Jesus called his disciples unto him, and saith unto them,
 **2** I have compassion on the multitude, because they have now been with me three days, and have nothing to eat:
 **3** And if I send them away fasting to their own houses, they will faint by the way: for divers of them came from far.
@@ -346,7 +346,7 @@ weight: 2
 **37** Or what shall a man give in exchange for his soul?
 **38** Whosoever therefore shall be ashamed of me and of my words in this adulterous and sinful generation; of him also shall the Son of man be ashamed, when he cometh in the glory of his Father with the holy angels.
 
-## CHAPTER 9
+## MARK 9
 **1** And he said unto them, Verily I say unto you, That there be some of them that stand here, which shall not taste of death, till they have seen the kingdom of God come with power.
 **2** And after six days Jesus taketh with him Peter, and James, and John, and leadeth them up into an high mountain apart by themselves: and he was transfigured before them.
 **3** And his raiment became shining, exceeding white as snow; so as no fuller on earth can white them.
@@ -398,7 +398,7 @@ weight: 2
 **49** For every one shall be salted with fire, and every sacrifice shall be salted with salt.
 **50** Salt is good: but if the salt have lost his saltness, wherewith will ye season it? Have salt in yourselves, and have peace one with another.
 
-## CHAPTER 10
+## MARK 10
 **1** And he arose from thence, and cometh into the coasts of Judaea by the farther side of Jordan: and the people resort unto him again; and, as he was wont, he taught them again.
 **2** And the Pharisees came to him, and asked him, Is it lawful for a man to put away his wife? tempting him.
 **3** And he answered and said unto them, What did Moses command you?
@@ -452,7 +452,7 @@ weight: 2
 **51** And Jesus answered and said unto him, What wilt thou that I should do unto thee? The blind man said unto him, Lord, that I might receive my sight.
 **52** And Jesus said unto him, Go thy way; thy faith hath made thee whole. And immediately he received his sight, and followed Jesus in the way.
 
-## CHAPTER 11
+## MARK 11
 **1** And when they came nigh to Jerusalem, unto Bethphage and Bethany, at the mount of Olives, he sendeth forth two of his disciples,
 **2** And saith unto them, Go your way into the village over against you: and as soon as ye be entered into it, ye shall find a colt tied, whereon never man sat; loose him, and bring him.
 **3** And if any man say unto you, Why do ye this? say ye that the Lord hath need of him; and straightway he will send him hither.
@@ -487,7 +487,7 @@ weight: 2
 **32** But if we shall say, Of men; they feared the people: for all men counted John, that he was a prophet indeed.
 **33** And they answered and said unto Jesus, We cannot tell. And Jesus answering saith unto them, Neither do I tell you by what authority I do these things.
 
-## CHAPTER 12
+## MARK 12
 **1** And he began to speak unto them by parables. A certain man planted a vineyard, and set an hedge about it, and digged a place for the winefat, and built a tower, and let it out to husbandmen, and went into a far country.
 **2** And at the season he sent to the husbandmen a servant, that he might receive from the husbandmen of the fruit of the vineyard.
 **3** And they caught him, and beat him, and sent him away empty.
@@ -533,7 +533,7 @@ weight: 2
 **43** And he called unto him his disciples, and saith unto them, Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury:
 **44** For all they did cast in of their abundance; but she of her want did cast in all that she had, even all her living.
 
-## CHAPTER 13
+## MARK 13
 **1** And as he went out of the temple, one of his disciples saith unto him, Master, see what manner of stones and what buildings are here!
 **2** And Jesus answering said unto him, Seest thou these great buildings? there shall not be left one stone upon another, that shall not be thrown down.
 **3** And as he sat upon the mount of Olives over against the temple, Peter and James and John and Andrew asked him privately,
@@ -572,7 +572,7 @@ weight: 2
 **36** Lest coming suddenly he find you sleeping.
 **37** And what I say unto you I say unto all, Watch.
 
-## CHAPTER 14
+## MARK 14
 **1** After two days was the feast of the passover, and of unleavened bread: and the chief priests and the scribes sought how they might take him by craft, and put him to death.
 **2** But they said, Not on the feast day, lest there be an uproar of the people.
 **3** And being in Bethany in the house of Simon the leper, as he sat at meat, there came a woman having an alabaster box of ointment of spikenard very precious; and she brake the box, and poured it on his head.
@@ -646,7 +646,7 @@ weight: 2
 **71** But he began to curse and to swear, saying, I know not this man of whom ye speak.
 **72** And the second time the cock crew. And Peter called to mind the word that Jesus said unto him, Before the cock crow twice, thou shalt deny me thrice. And when he thought thereon, he wept.
 
-## CHAPTER 15
+## MARK 15
 **1** And straightway in the morning the chief priests held a consultation with the elders and scribes and the whole council, and bound Jesus, and carried him away, and delivered him to Pilate.
 **2** And Pilate asked him, Art thou the King of the Jews? And he answering said unto him, Thou sayest it.
 **3** And the chief priests accused him of many things: but he answered nothing.
@@ -695,7 +695,7 @@ weight: 2
 **46** And he bought fine linen, and took him down, and wrapped him in the linen, and laid him in a sepulchre which was hewn out of a rock, and rolled a stone unto the door of the sepulchre.
 **47** And Mary Magdalene and Mary the mother of Joses beheld where he was laid.
 
-## CHAPTER 16
+## MARK 16
 **1** And when the sabbath was past, Mary Magdalene, and Mary the mother of James, and Salome, had bought sweet spices, that they might come and anoint him.
 **2** And very early in the morning the first day of the week, they came unto the sepulchre at the rising of the sun.
 **3** And they said among themselves, Who shall roll us away the stone from the door of the sepulchre?
