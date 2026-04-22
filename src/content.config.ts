@@ -82,6 +82,18 @@ const guides = defineCollection({
 });
 
 /* =========================
+   📖 VERSES (SEO SYSTEM)
+========================= */
+const verses = defineCollection({
+  loader: glob({ pattern: "**/*.md", base: "./src/content/verses" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    slug: z.string(), // 🔥 IMPORTANT for SEO URLs
+  }),
+});
+
+/* =========================
    📦 EXPORT
 ========================= */
 export const collections = {
@@ -91,4 +103,5 @@ export const collections = {
   resources,
   start,
   guides,
+  verses, // ✅ ADD THIS
 };

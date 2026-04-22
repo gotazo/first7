@@ -18,7 +18,6 @@ const posts = (await getCollection('blog'))
     position: relative;
   }
 
-  /* ✨ soft glow */
   .hero::before {
     content: "";
     position: absolute;
@@ -31,7 +30,6 @@ const posts = (await getCollection('blog'))
     pointer-events: none;
   }
 
-  /* ✨ divider */
   .divider {
     height: 1px;
     width: 100%;
@@ -42,42 +40,80 @@ const posts = (await getCollection('blog'))
       transparent
     );
   }
+
+  .card {
+    display: block;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    border: 1px solid var(--color-border);
+    background: rgba(0, 255, 159, 0.05);
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-primary);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  }
 </style>
 
-<BaseLayout title="First7">
+<BaseLayout title="Bible Verses, Plans & Daily Faith | First7">
 
   <!-- HERO -->
   <section class="hero max-w-2xl mx-auto text-center py-28 px-5">
 
     <h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight tracking-tight">
-      Walk with God,<br />
-      <span class="text-[var(--color-primary)]">one day at a time</span>
+      Bible verses for anxiety, fear, and daily faith
     </h1>
 
     <p class="mt-6 text-base sm:text-lg text-[var(--color-muted)] max-w-xl mx-auto">
-      You don’t need to have everything figured out.
-      Just show up as you are.
+      Find comfort, strength, and guidance through Scripture. 
+      Explore Bible verses, 7-day plans, and reflections for real life.
     </p>
 
     <p class="mt-2 text-sm sm:text-base text-[var(--color-muted)]">
-      Read, reflect, and take one step forward — with God.
+      Start where you are — and grow one day at a time.
     </p>
 
     <div class="mt-10 flex justify-center gap-4 flex-wrap">
 
       <a
-        href="/start"
+        href="/verses/bible-verses-for-anxiety"
         class="px-6 py-3 rounded-xl bg-[var(--color-primary)] text-white font-medium shadow-sm hover:opacity-90 transition"
       >
-        Begin your journey →
+        Find verses for anxiety →
       </a>
 
       <a
-        href="/reflections"
+        href="/plans"
         class="px-6 py-3 rounded-xl border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition"
       >
-        Explore reflections
+        Start a 7-day plan →
       </a>
+
+    </div>
+
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider"></div>
+
+  <!-- SEO ENTRY POINTS -->
+  <section class="max-w-5xl mx-auto px-4 py-16">
+
+    <h2 class="text-2xl md:text-3xl font-semibold text-center">
+      Bible verses for every situation
+    </h2>
+
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10">
+
+      <a href="/verses/bible-verses-for-anxiety" class="card">Anxiety</a>
+<a href="/verses/bible-verses-for-fear" class="card">Fear</a>
+<a href="/verses/bible-verses-for-strength" class="card">Strength</a>
+<a href="/verses/bible-verses-for-depression" class="card">Depression</a>
+<a href="/verses/bible-verses-for-love" class="card">Love</a>
+<a href="/verses/bible-verses-for-healing" class="card">Healing</a>
 
     </div>
 
@@ -92,9 +128,9 @@ const posts = (await getCollection('blog'))
     <div class="grid md:grid-cols-3 gap-8">
 
       {[
-        { icon: "📖", title: "Read", text: "Spend a few quiet minutes in Scripture" },
-        { icon: "✍️", title: "Reflect", text: "Notice what stands out" },
-        { icon: "🔁", title: "Take a step", text: "Take one simple step forward" }
+        { icon: "📖", title: "Read", text: "Read Bible verses that speak to your situation" },
+        { icon: "✍️", title: "Reflect", text: "Pause and reflect on what God is saying" },
+        { icon: "🔁", title: "Apply", text: "Take one small step forward in faith" }
       ].map((item) => (
         <div class="group p-6 rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 transition hover:-translate-y-1 hover:shadow-lg hover:border-[var(--color-primary)]">
 
@@ -122,7 +158,7 @@ const posts = (await getCollection('blog'))
   <section class="max-w-5xl mx-auto px-4 py-24 space-y-10">
 
     <h2 class="text-2xl md:text-3xl font-semibold tracking-tight text-center">
-      Start where you need it
+      7-day Bible plans for real life
     </h2>
 
     <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -137,7 +173,7 @@ const posts = (await getCollection('blog'))
           </h3>
 
           <p class="mt-2 text-sm text-[var(--color-muted)]">
-            A quiet 7-day space
+            7-day Bible plan for {plan.replace(/-/g, " ")}
           </p>
         </a>
       ))}
@@ -154,7 +190,7 @@ const posts = (await getCollection('blog'))
 
     <div class="flex justify-between items-center">
       <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">
-        From the journey
+        Faith, testimonies, and reflections
       </h2>
 
       <a href="/blog" class="text-sm text-[var(--color-primary)] hover:underline">

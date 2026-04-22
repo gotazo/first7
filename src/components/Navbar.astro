@@ -9,43 +9,82 @@ const pathname = Astro.url.pathname;
   <div class="max-w-6xl mx-auto px-5 py-4 flex justify-between items-center">
 
     <!-- LOGO -->
-<a href="/" class="flex items-center gap-[4px] text-2xl md:text-3xl tracking-tight">
+    <a href="/" class="flex items-center gap-[4px] text-2xl md:text-3xl tracking-tight">
+      <span class="text-[var(--color-text)]" style="font-family: 'Playfair Display', serif;">
+        first
+      </span>
+      <span class="text-[var(--color-primary)]" style="font-family: 'Inter', sans-serif;">
+        7
+      </span>
+    </a>
 
-  <span
-    class="text-[var(--color-text)]"
-    style="
-      font-family: 'Playfair Display', serif;
-      font-weight: 400;
-      letter-spacing: 0.01em;
-      font-variant-ligatures: none;
-    "
-  >
-    first
-  </span>
-
-  <span
-    class="text-[var(--color-primary)]"
-    style="
-      font-family: 'Inter', sans-serif;
-      font-weight: 500;
-      font-size: 1.2em;
-    "
-  >
-  7
-  </span>
-
-</a>
-
-    <!-- NAV LINKS -->
+    <!-- DESKTOP NAV -->
     <div class="hidden md:flex items-center gap-6 text-sm">
 
+      <!-- 🔥 MEGA MENU -->
+      <div class="relative group">
+
+        <button class="flex items-center gap-1 px-2 py-1 text-[var(--color-muted)] hover:text-[var(--color-text)]">
+          Verses
+          <span class="text-xs">▼</span>
+        </button>
+
+        <!-- MEGA MENU PANEL -->
+        <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-150">
+
+          <div class="w-[500px] rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] shadow-xl p-6">
+
+            <div class="grid grid-cols-2 gap-4">
+
+              <!-- COLUMN 1 -->
+              <div>
+                <p class="text-xs uppercase text-[var(--color-muted)] mb-2">Emotions</p>
+
+                <a href="/verses/bible-verses-for-anxiety" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Anxiety
+                </a>
+
+                <a href="/verses/bible-verses-for-fear" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Fear
+                </a>
+
+                <a href="/verses/bible-verses-for-depression" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Depression
+                </a>
+              </div>
+
+              <!-- COLUMN 2 -->
+              <div>
+                <p class="text-xs uppercase text-[var(--color-muted)] mb-2">Growth</p>
+
+                <a href="/verses/bible-verses-for-strength" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Strength
+                </a>
+
+                <a href="/verses/bible-verses-about-love" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Love
+                </a>
+
+                <a href="/verses/bible-verses-about-healing" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Healing
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- OTHER LINKS -->
       {[
         { href: "/plans", label: "Plans" },
-        { href: "/reflections", label: "Reflections" },
         { href: "/bible", label: "Bible" },
+        { href: "/guides", label: "Guides" },
         { href: "/blog", label: "Blog" },
         { href: "/resources", label: "Resources" },
-        { href: "/guides", label: "Guides" },
         { href: "/about", label: "About" }
       ].map((link) => {
         const isActive = pathname.startsWith(link.href);
@@ -60,13 +99,6 @@ const pathname = Astro.url.pathname;
             }`}
           >
             {link.label}
-
-            {/* underline */}
-            <span
-              class={`absolute left-0 -bottom-1 h-[2px] w-full bg-[var(--color-primary)] transition-transform duration-300 origin-left ${
-                isActive ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
-              }`}
-            ></span>
           </a>
         );
       })}
@@ -78,15 +110,62 @@ const pathname = Astro.url.pathname;
 
       <DarkToggle />
 
-      <!-- MOBILE MENU BUTTON -->
-      <button class="md:hidden p-2 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] transition">
-        <span class="block w-5 h-[2px] bg-[var(--color-text)] mb-1"></span>
-        <span class="block w-5 h-[2px] bg-[var(--color-text)] mb-1"></span>
-        <span class="block w-5 h-[2px] bg-[var(--color-text)]"></span>
+      <!-- MOBILE BUTTON -->
+      <button id="menu-btn" class="md:hidden p-2 rounded-lg border border-[var(--color-border)]">
+        ☰
       </button>
 
     </div>
 
   </div>
 
+  <!-- 📱 MOBILE MENU -->
+  <div id="mobile-menu" class="hidden md:hidden border-t border-[var(--color-border)]">
+
+    <div class="px-5 py-4 space-y-4">
+
+      <!-- Verses Dropdown -->
+      <div>
+        <button onclick="toggleVerses()" class="w-full text-left font-medium">
+          Verses ▼
+        </button>
+
+        <div id="mobile-verses" class="hidden mt-2 space-y-2 pl-3 text-sm">
+
+          <a href="/verses/bible-verses-for-anxiety" class="block">Anxiety</a>
+          <a href="/verses/bible-verses-for-fear" class="block">Fear</a>
+          <a href="/verses/bible-verses-for-strength" class="block">Strength</a>
+          <a href="/verses/bible-verses-for-depression" class="block">Depression</a>
+          <a href="/verses/bible-verses-about-love" class="block">Love</a>
+          <a href="/verses/bible-verses-about-healing" class="block">Healing</a>
+
+        </div>
+      </div>
+
+      <!-- Other Links -->
+      <a href="/plans">Plans</a>
+      <a href="/bible">Bible</a>
+      <a href="/guides">Guides</a>
+      <a href="/blog">Blog</a>
+      <a href="/resources">Resources</a>
+      <a href="/about">About</a>
+
+    </div>
+
+  </div>
+
 </nav>
+
+<!-- MOBILE SCRIPT -->
+<script>
+  const btn = document.getElementById("menu-btn");
+  const menu = document.getElementById("mobile-menu");
+
+  btn?.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+  });
+
+  function toggleVerses() {
+    document.getElementById("mobile-verses").classList.toggle("hidden");
+  }
+</script>

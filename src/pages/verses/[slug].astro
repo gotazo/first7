@@ -1,0 +1,315 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+type VerseEntry = CollectionEntry<'verses'>;
+
+export async function getStaticPaths() {
+  const entries = await getCollection('verses');
+
+  return entries.map((entry: VerseEntry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry }
+  }));
+}
+
+const { entry } = Astro.props as { entry: VerseEntry };
+const { Content } = await render(entry);
+
+const allVerses = await getCollection('verses');
+
+// 🔍 Extract keywords
+function extractKeywords(slug: string) {
+  return slug
+    .replace("bible-verses-for-", "")
+    .replace("bible-verses-about-", "")
+    .split("-")
+    .filter(Boolean);
+}
+
+const currentKeywords = extractKeywords(entry.data.slug);
+
+// 🔗 Related (FIXED)
+const related = allVerses
+  .filter(v => v.id !== entry.id)
+  .map(v => {
+    const keywords = extractKeywords(v.data.slug);
+    const score = keywords.filter(k => currentKeywords.includes(k)).length;
+    return { ...v, score };
+  })
+  .filter(v => v.score > 0)
+  .sort((a, b) => b.score - a.score)
+  .slice(0, 4);
+---
+
+<BaseLayout title={entry.data.title} full={true}>
+
+  <div class="mx-auto w-[90%] max-w-[1400px] px-4">
+
+    <div class="grid lg:grid-cols-[minmax(0,1fr)_280px] gap-12">
+
+      <!-- MAIN -->
+      <article class="max-w-2xl mx-auto py-12">
+
+        <!-- HEADER -->
+        <header class="mb-10 space-y-4">
+
+          <p class="text-sm uppercase tracking-wide text-[var(--color-primary)]">
+            Bible Verses
+          </p>
+
+          <h1 class="text-3xl md:text-5xl font-semibold leading-tight">
+            {entry.data.title}
+          </h1>
+
+          <p class="text-[var(--color-muted)]">
+            {entry.data.description}
+          </p>
+
+        </header>
+
+        <!-- 🔥 INSTRUCTION -->
+        <div class="mb-8 p-6 rounded-2xl bg-[var(--color-primary)]/5 border border-[var(--color-border)] text-center">
+          <p class="text-sm text-[var(--color-muted)]">
+            ✨ Tap any verse below to create a shareable card
+          </p>
+        </div>
+
+        <!-- CONTENT -->
+        <div id="verse-content" class="prose prose-neutral dark:prose-invert">
+          <Content />
+        </div>
+
+        <!-- 🔗 RELATED -->
+        <div class="mt-12 space-y-4">
+
+          <h2 class="text-lg font-semibold">
+            Related verses
+          </h2>
+
+          <div class="grid sm:grid-cols-2 gap-4">
+
+            {related.map((v) => (
+              <a
+                href={`/verses/${v.data.slug}`}
+                class="p-4 rounded-xl border border-[var(--color-border)] hover:border-[var(--color-primary)] transition"
+              >
+                <p class="font-medium">{v.data.title}</p>
+                <p class="text-sm text-[var(--color-muted)] mt-1">
+                  {v.data.description}
+                </p>
+              </a>
+            ))}
+
+          </div>
+
+        </div>
+
+        <!-- 🔥 CARD GENERATOR -->
+        <div class="mt-16 max-w-lg mx-auto space-y-6">
+
+          <div class="text-center">
+            <p class="text-sm text-[var(--color-muted)]">Create a verse card</p>
+          </div>
+
+          <!-- SELECTS -->
+          <div class="flex gap-3 justify-center flex-wrap">
+
+            <select id="style-select" class="px-3 py-2 rounded-lg border border-[var(--color-border)] text-sm">
+              <option value="dark">Dark Minimal</option>
+              <option value="light">Light Clean</option>
+              <option value="gradient">Gradient Glow</option>
+            </select>
+
+            <select id="format-select" class="px-3 py-2 rounded-lg border border-[var(--color-border)] text-sm">
+              <option value="square">Instagram Post</option>
+              <option value="shorts">YouTube Shorts</option>
+            </select>
+
+          </div>
+
+          <!-- PREVIEW -->
+          <div id="verse-card" class="rounded-2xl p-8 text-center space-y-6 bg-[var(--color-primary)]/10 border border-[var(--color-border)]">
+
+            <p id="card-text" class="text-lg leading-relaxed font-medium">
+              Click a verse above to generate a card
+            </p>
+
+            <p id="card-ref" class="text-sm text-[var(--color-muted)]">—</p>
+
+            <p class="text-xs text-[var(--color-muted)]">first7.org</p>
+
+          </div>
+
+          <!-- ACTIONS -->
+          <div class="flex gap-3 justify-center">
+            <button id="copy-btn" class="px-4 py-2 rounded-lg bg-[var(--color-primary)] text-white">
+              Copy
+            </button>
+
+            <button id="download-btn" class="px-4 py-2 rounded-lg border border-[var(--color-border)]">
+              Download
+            </button>
+          </div>
+
+        </div>
+
+      </article>
+
+      <!-- SIDEBAR -->
+      <aside class="hidden lg:block py-12">
+
+        <div class="sticky top-24 space-y-6">
+
+          <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3">
+
+            <p class="font-medium">More topics</p>
+
+            <div class="space-y-2 text-sm">
+
+              {allVerses
+                .filter(v => v.id !== entry.id)
+                .slice(0, 5)
+                .map((v) => (
+                  <a href={`/verses/${v.data.slug}`} class="block hover:underline">
+                    {v.data.title}
+                  </a>
+                ))}
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</BaseLayout>
+
+<!-- 🔥 SCRIPT -->
+<script is:inline>
+  const container = document.getElementById("verse-content");
+  const textEl = document.getElementById("card-text");
+  const refEl = document.getElementById("card-ref");
+  const copyBtn = document.getElementById("copy-btn");
+  const downloadBtn = document.getElementById("download-btn");
+  const styleSelect = document.getElementById("style-select");
+  const formatSelect = document.getElementById("format-select");
+
+  let selectedText = "";
+  let selectedRef = "";
+
+  container?.addEventListener("click", (e) => {
+    const target = e.target;
+    if (!(target instanceof HTMLElement)) return;
+
+    const block = target.closest("blockquote");
+    if (!(block instanceof HTMLElement)) return;
+
+    selectedText = block.innerText.trim();
+
+    let prev = block.previousElementSibling;
+
+    while (prev && !(prev instanceof HTMLElement && prev.innerText.match(/^\d+\.\s/))) {
+      prev = prev.previousElementSibling;
+    }
+
+    selectedRef = prev instanceof HTMLElement
+      ? prev.innerText.replace(/^\d+\.\s/, "")
+      : "";
+
+    if (textEl) textEl.innerText = selectedText;
+    if (refEl) refEl.innerText = selectedRef || "";
+  });
+
+  copyBtn?.addEventListener("click", () => {
+    if (!selectedText) return;
+
+    const full = selectedRef
+      ? `${selectedText}\n— ${selectedRef}`
+      : selectedText;
+
+    navigator.clipboard.writeText(full);
+
+    if (copyBtn instanceof HTMLButtonElement) {
+      copyBtn.innerText = "Copied!";
+      setTimeout(() => (copyBtn.innerText = "Copy"), 1500);
+    }
+  });
+
+  downloadBtn?.addEventListener("click", () => {
+    if (!selectedText) return;
+
+    const style = styleSelect instanceof HTMLSelectElement ? styleSelect.value : "dark";
+    const format = formatSelect instanceof HTMLSelectElement ? formatSelect.value : "square";
+
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    canvas.width = 1080;
+    canvas.height = format === "shorts" ? 1920 : 1080;
+
+    if (style === "dark") ctx.fillStyle = "#0f172a";
+    if (style === "light") ctx.fillStyle = "#ffffff";
+    if (style === "gradient") {
+      const grad = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+      grad.addColorStop(0, "#0f172a");
+      grad.addColorStop(1, "#065f46");
+      ctx.fillStyle = grad;
+    }
+
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.fillStyle = style === "light" ? "#111" : "#ffffff";
+    ctx.textAlign = "center";
+    ctx.font = "bold 52px serif";
+
+    const maxWidth = 800;
+    const lineHeight = 70;
+    let y = canvas.height / 2 - 150;
+
+    function wrap(text) {
+      const words = text.trim().split(" ");
+      let lines = [];
+      let line = "";
+
+      for (let w of words) {
+        const test = line + w + " ";
+        if (ctx.measureText(test).width > maxWidth && line !== "") {
+          lines.push(line);
+          line = w + " ";
+        } else {
+          line = test;
+        }
+      }
+
+      lines.push(line);
+      return lines;
+    }
+
+    wrap(selectedText).forEach((l) => {
+      ctx.fillText(l.trim(), canvas.width / 2, y);
+      y += lineHeight;
+    });
+
+    if (selectedRef) {
+      ctx.font = "28px sans-serif";
+      ctx.fillStyle = style === "light" ? "#555" : "#cbd5f5";
+      ctx.fillText(`— ${selectedRef}`, canvas.width / 2, y + 40);
+    }
+
+    ctx.font = "24px sans-serif";
+    ctx.fillStyle = style === "light" ? "#888" : "#94a3b8";
+    ctx.fillText("first7.org", canvas.width / 2, canvas.height - 80);
+
+    const link = document.createElement("a");
+    link.download = "verse-card.png";
+    link.href = canvas.toDataURL();
+    link.click();
+  });
+</script>
