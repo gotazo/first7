@@ -12,11 +12,25 @@
 }
 
 .dark {
-  --color-bg: #0F172A;
+  --color-bg: #0b1220;       /* deeper, smoother dark */
   --color-text: #E5E7EB;
   --color-muted: #94A3B8;
-  --color-border: #1E293B;
+  --color-border: #1F2937;
   --color-primary: #8FAF97;
+}
+
+/* =========================
+   🌍 GLOBAL BASE (FIX)
+========================= */
+html, body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Prevent accidental white flashes */
+body {
+  margin: 0;
 }
 
 /* =========================
@@ -83,7 +97,7 @@ article a {
 }
 
 /* =========================
-   🔘 BUTTON FIX (IMPORTANT)
+   🔘 BUTTON FIX
 ========================= */
 
 /* Default links */

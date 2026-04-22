@@ -21,6 +21,7 @@ const {
 
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={`https://first7.org${Astro.url.pathname}`} />
     <meta name="theme-color" content="#0f172a" />
 
     <link rel="icon" href="/favicon.svg" />
@@ -35,12 +36,10 @@ const {
     </script>
 
     <!-- ✅ CRITICAL CSS -->
-    <style>
+  <style>
   body {
     margin: 0;
     font-family: system-ui, -apple-system, sans-serif;
-    background: #fafaf7;
-    color: #1c1c1c;
     font-size-adjust: 0.5;
   }
 </style>

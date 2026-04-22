@@ -63,9 +63,9 @@ const downloads = [
 
       <div class="grid md:grid-cols-2 gap-6">
         {downloads.slice(0,1).map((item) => (
-          <div class="p-6 rounded-2xl border shadow-sm">
+          <div class="p-6 rounded-2xl border border-gray-200 dark:border-white/10 bg-white dark:bg-white/5 shadow-sm">
 
-            <span class="text-xs px-2 py-1 rounded bg-green-100 text-green-700">
+            <span class="text-xs px-2 py-1 rounded bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-300">
               Free
             </span>
 
@@ -104,15 +104,15 @@ const downloads = [
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
         {downloads.slice(1).map((item) => (
-          <div class="p-6 rounded-2xl border shadow-sm relative">
+          <div class="p-6 rounded-2xl border border-gray-200 dark:border-white/10 bg-white dark:bg-white/5 shadow-sm relative">
 
             {item.tag && (
-              <span class="absolute top-4 right-4 text-xs px-2 py-1 rounded bg-gray-200">
+              <span class="absolute top-4 right-4 text-xs px-2 py-1 rounded bg-gray-200 dark:bg-white/10">
                 {item.tag}
               </span>
             )}
 
-            <span class="text-xs px-2 py-1 rounded bg-gray-100">
+            <span class="text-xs px-2 py-1 rounded bg-gray-100 dark:bg-white/5">
               Locked
             </span>
 
