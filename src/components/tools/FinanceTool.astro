@@ -17,9 +17,14 @@
     <!-- SWITCH -->
     <div class="flex justify-between items-center text-sm">
       <span class="text-[var(--color-muted)]">Future Savings (10%)</span>
-      <button id="futureToggle" class="w-12 h-6 bg-[var(--color-border)] rounded-full relative">
-        <span id="toggleDot" class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition"></span>
-      </button>
+      <button id="futureToggle"
+  class="w-12 h-6 bg-[var(--color-border)] rounded-full relative transition-colors duration-200">
+  
+  <span id="toggleDot"
+    class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform duration-200">
+  </span>
+
+</button>
     </div>
 
   </div>
@@ -139,116 +144,168 @@
 import { loadData, saveData, resetData } from "/src/components/tools/finance/storage.js";
 import { calculate } from "/src/components/tools/finance/logic.js";
 
-let data = loadData();
+document.addEventListener("DOMContentLoaded", () => {
 
-const incomeEl = document.getElementById("income");
-const toggleEl = document.getElementById("futureToggle");
-const dot = document.getElementById("toggleDot");
+  let data = loadData();
 
-let includeFuture = data.settings.includeFuture ?? false;
-incomeEl.value = data.settings.lastIncome || "";
+  // ELEMENTS
+  const incomeEl = document.getElementById("income");
+  const toggleEl = document.getElementById("futureToggle");
+  const dot = document.getElementById("toggleDot");
 
-function format(v){ return "₹"+Math.round(v||0); }
+  const churchEl = document.getElementById("church");
+  const helpEl = document.getElementById("help");
+  const emergencyEl = document.getElementById("emergency");
+  const futureEl = document.getElementById("future");
+  const livingEl = document.getElementById("living");
 
-function updateToggle(){
-  dot.style.transform = includeFuture ? "translateX(24px)" : "translateX(0)";
-}
-toggleEl.onclick = ()=>{
-  includeFuture = !includeFuture;
-  data.settings.includeFuture = includeFuture;
-  updateToggle();
-  runCalc();
-};
-updateToggle();
+  const helpPendingEl = document.getElementById("helpPending");
+  const emergencyPendingEl = document.getElementById("emergencyPending");
 
-function runCalc(){
-  const income = Number(incomeEl.value||0);
-  const r = calculate(income, includeFuture);
+  const helpFundEl = document.getElementById("helpFund");
+  const emergencyFundEl = document.getElementById("emergencyFund");
 
-  church.innerText=format(r.church);
-  help.innerText=format(r.help);
-  emergency.innerText=format(r.emergency);
-  future.innerText=format(r.future);
-  living.innerText=format(r.living);
+  const saveBtn = document.getElementById("saveBtn");
+  const resetBtn = document.getElementById("resetBtn");
 
-  helpPending.innerText=Math.round(r.help);
-  emergencyPending.innerText=Math.round(r.emergency);
+  const exportBtn = document.getElementById("exportBtn");
+  const importInput = document.getElementById("importInput");
 
-  return r;
-}
+  const historyList = document.getElementById("historyList");
 
-function updateFunds(){
-  helpFund.innerText=format(data.funds.help);
-  emergencyFund.innerText=format(data.funds.emergency);
-}
+  // STATE
+  let includeFuture = data.settings.includeFuture ?? false;
+  incomeEl.value = data.settings.lastIncome || "";
 
-function renderHistory(){
-  const container = document.getElementById("historyList");
-  container.innerHTML="";
+  function format(v) {
+    return "₹" + Math.round(v || 0);
+  }
 
-  Object.entries(data.history || {}).reverse().forEach(([month, val])=>{
-    const div=document.createElement("div");
-    div.className="flex justify-between border-b pb-1";
-    div.innerHTML=`<span>${month}</span><span>${format(val.income)}</span>`;
-    container.appendChild(div);
+  // 🔁 TOGGLE UI
+  function updateToggle() {
+    if (includeFuture) {
+      toggleEl.classList.remove("bg-[var(--color-border)]");
+      toggleEl.classList.add("bg-green-500");
+      dot.style.transform = "translateX(24px)";
+    } else {
+      toggleEl.classList.remove("bg-green-500");
+      toggleEl.classList.add("bg-[var(--color-border)]");
+      dot.style.transform = "translateX(0)";
+    }
+  }
+
+  // 🔥 TOGGLE CLICK (CRITICAL FIX)
+  toggleEl.addEventListener("click", () => {
+    includeFuture = !includeFuture;
+    data.settings.includeFuture = includeFuture;
+
+    updateToggle();
+    runCalc();
   });
-}
 
-incomeEl.addEventListener("input", runCalc);
+  // 📊 CALCULATION
+  function runCalc() {
+    const income = Number(incomeEl.value || 0);
+    const r = calculate(income, includeFuture);
 
-saveBtn.onclick=()=>{
-  const r=runCalc();
-  const m=new Date().toISOString().slice(0,7);
+    churchEl.innerText = format(r.church);
+    helpEl.innerText = format(r.help);
+    emergencyEl.innerText = format(r.emergency);
+    futureEl.innerText = format(r.future);
+    livingEl.innerText = format(r.living);
 
-  data.settings.lastIncome=r.income;
-  data.funds.help+=r.help;
-  data.funds.emergency+=r.emergency;
-  data.history[m]=r;
+    helpPendingEl.innerText = Math.round(r.help);
+    emergencyPendingEl.innerText = Math.round(r.emergency);
 
-  saveData(data);
+    return r;
+  }
+
+  // 💰 FUNDS UI
+  function updateFunds() {
+    helpFundEl.innerText = format(data.funds.help);
+    emergencyFundEl.innerText = format(data.funds.emergency);
+  }
+
+  // 📅 HISTORY
+  function renderHistory() {
+    historyList.innerHTML = "";
+
+    Object.entries(data.history || {}).reverse().forEach(([month, val]) => {
+      const div = document.createElement("div");
+      div.className = "flex justify-between border-b pb-1";
+      div.innerHTML = `<span>${month}</span><span>${format(val.income)}</span>`;
+      historyList.appendChild(div);
+    });
+  }
+
+  // INPUT
+  incomeEl.addEventListener("input", runCalc);
+
+  // SAVE
+  saveBtn.addEventListener("click", () => {
+    const r = runCalc();
+    const m = new Date().toISOString().slice(0, 7);
+
+    data.settings.lastIncome = r.income;
+    data.funds.help += r.help;
+    data.funds.emergency += r.emergency;
+    data.history[m] = r;
+
+    saveData(data);
+    updateFunds();
+    renderHistory();
+  });
+
+  // RESET
+  resetBtn.addEventListener("click", () => {
+    if (confirm("Reset all data?")) {
+      resetData();
+      location.reload();
+    }
+  });
+
+  // 📤 EXPORT (FIXED)
+  exportBtn.addEventListener("click", () => {
+    const blob = new Blob([JSON.stringify(data)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "finance-data.json";
+    a.click();
+
+    URL.revokeObjectURL(url);
+  });
+
+  // 📥 IMPORT
+  importInput.addEventListener("change", (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+
+    reader.onload = (ev) => {
+      data = JSON.parse(ev.target.result);
+      saveData(data);
+      location.reload();
+    };
+
+    reader.readAsText(file);
+  });
+
+  // FAQ
+  document.querySelectorAll(".faq-toggle").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const content = btn.nextElementSibling;
+      content.classList.toggle("hidden");
+    });
+  });
+
+  // 🚀 INIT (ORDER MATTERS)
+  updateToggle();   // must come first
   updateFunds();
   renderHistory();
-};
+  runCalc();
 
-resetBtn.onclick=()=>{
-  if(confirm("Reset all data?")){
-    resetData();
-    location.reload();
-  }
-};
-
-// EXPORT
-exportBtn.onclick=()=>{
-  const blob=new Blob([JSON.stringify(data)],{type:"application/json"});
-  const a=document.createElement("a");
-  a.href=URL.createObjectURL(blob);
-  a.download="finance-data.json";
-  a.click();
-};
-
-// IMPORT
-importInput.onchange=(e)=>{
-  const file=e.target.files[0];
-  const reader=new FileReader();
-
-  reader.onload=(ev)=>{
-    data=JSON.parse(ev.target.result);
-    saveData(data);
-    location.reload();
-  };
-
-  reader.readAsText(file);
-};
-
-// FAQ toggle
-document.querySelectorAll(".faq-toggle").forEach(btn=>{
-  btn.onclick=()=>{
-    const content=btn.nextElementSibling;
-    content.classList.toggle("hidden");
-  };
 });
-
-updateFunds();
-renderHistory();
-runCalc();
 </script>
