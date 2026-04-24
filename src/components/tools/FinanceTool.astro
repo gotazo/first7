@@ -1,0 +1,254 @@
+<div class="space-y-8">
+
+  <!-- ✅ QUICK GUIDE -->
+  <div class="p-5 rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 text-sm text-[var(--color-muted)]">
+    <strong>Quick guide:</strong><br />
+    Enter your income → review allocation → click “Save Month” to build your funds.
+  </div>
+
+  <!-- 💰 INPUT -->
+  <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-4">
+
+    <label class="block text-sm font-medium">Monthly Income</label>
+
+    <input id="income" type="number" placeholder="Enter your income"
+      class="w-full px-4 py-3 rounded-xl border border-[var(--color-border)] bg-transparent" />
+
+    <!-- SWITCH -->
+    <div class="flex justify-between items-center text-sm">
+      <span class="text-[var(--color-muted)]">Future Savings (10%)</span>
+      <button id="futureToggle" class="w-12 h-6 bg-[var(--color-border)] rounded-full relative">
+        <span id="toggleDot" class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition"></span>
+      </button>
+    </div>
+
+  </div>
+
+  <!-- 📊 BREAKDOWN -->
+  <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-2">
+    <div class="flex justify-between"><span>Church</span><span id="church">₹0</span></div>
+    <div class="flex justify-between"><span>Help</span><span id="help">₹0</span></div>
+    <div class="flex justify-between"><span>Emergency</span><span id="emergency">₹0</span></div>
+    <div class="flex justify-between"><span>Future</span><span id="future">₹0</span></div>
+    <div class="flex justify-between font-semibold border-t pt-2">
+      <span>Living</span><span id="living">₹0</span>
+    </div>
+  </div>
+
+  <!-- ⚙️ ACTIONS -->
+  <div class="flex gap-3">
+    <button id="saveBtn" class="flex-1 bg-[var(--color-primary)] text-white py-2 rounded-xl">
+      Save Month
+    </button>
+    <button id="resetBtn" class="border px-4 py-2 rounded-xl">
+      Reset
+    </button>
+  </div>
+
+  <!-- 💰 FUNDS -->
+  <div class="rounded-2xl border p-5 space-y-2">
+    <div class="flex justify-between">
+      <span>Help Fund</span><span id="helpFund">₹0</span>
+    </div>
+    <p class="text-xs text-[var(--color-muted)]">
+      +₹<span id="helpPending">0</span> pending
+    </p>
+  </div>
+
+  <div class="rounded-2xl border p-5 space-y-2">
+    <div class="flex justify-between">
+      <span>Emergency Fund</span><span id="emergencyFund">₹0</span>
+    </div>
+    <p class="text-xs text-[var(--color-muted)]">
+      +₹<span id="emergencyPending">0</span> pending
+    </p>
+  </div>
+
+  <!-- 📊 MONTHLY HISTORY -->
+  <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-4">
+    <h3 class="font-medium">Monthly History</h3>
+    <div id="historyList" class="space-y-2 text-sm"></div>
+  </div>
+
+  <!-- 📦 BACKUP (IMPROVED) -->
+  <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3">
+
+    <p class="text-sm font-medium">Backup</p>
+
+    <div class="flex gap-3 flex-wrap">
+
+      <button id="exportBtn"
+        class="px-4 py-2 rounded-lg bg-[var(--color-primary)] text-white text-sm">
+        Export Data
+      </button>
+
+      <label
+        class="px-4 py-2 rounded-lg border border-[var(--color-border)] text-sm cursor-pointer hover:bg-[var(--color-primary)]/5">
+        Import Data
+        <input type="file" id="importInput" class="hidden" />
+      </label>
+
+    </div>
+
+    <p class="text-xs text-[var(--color-muted)]">
+      Your data is stored locally. Export regularly to avoid loss.
+    </p>
+
+  </div>
+
+  <!-- ❓ FAQ (ACCORDION) -->
+  <div class="space-y-4 mt-16">
+
+    <h2 class="text-lg font-semibold">FAQ</h2>
+
+    <div class="faq-item border rounded-xl">
+      <button class="faq-toggle w-full flex justify-between px-4 py-3">
+        Why are my funds ₹0?
+        <span>+</span>
+      </button>
+      <div class="faq-content hidden px-4 pb-4 text-sm text-[var(--color-muted)]">
+        Funds increase only after clicking “Save Month”. The calculator shows planned allocation, not saved money.
+      </div>
+    </div>
+
+    <div class="faq-item border rounded-xl">
+      <button class="faq-toggle w-full flex justify-between px-4 py-3">
+        Is my data stored online?
+        <span>+</span>
+      </button>
+      <div class="faq-content hidden px-4 pb-4 text-sm text-[var(--color-muted)]">
+        No. All data is stored locally in your browser.
+      </div>
+    </div>
+
+    <div class="faq-item border rounded-xl">
+      <button class="faq-toggle w-full flex justify-between px-4 py-3">
+        Will I lose my data?
+        <span>+</span>
+      </button>
+      <div class="faq-content hidden px-4 pb-4 text-sm text-[var(--color-muted)]">
+        Yes, if you clear browser data. Use export to back it up.
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script type="module">
+import { loadData, saveData, resetData } from "/src/components/tools/finance/storage.js";
+import { calculate } from "/src/components/tools/finance/logic.js";
+
+let data = loadData();
+
+const incomeEl = document.getElementById("income");
+const toggleEl = document.getElementById("futureToggle");
+const dot = document.getElementById("toggleDot");
+
+let includeFuture = data.settings.includeFuture ?? false;
+incomeEl.value = data.settings.lastIncome || "";
+
+function format(v){ return "₹"+Math.round(v||0); }
+
+function updateToggle(){
+  dot.style.transform = includeFuture ? "translateX(24px)" : "translateX(0)";
+}
+toggleEl.onclick = ()=>{
+  includeFuture = !includeFuture;
+  data.settings.includeFuture = includeFuture;
+  updateToggle();
+  runCalc();
+};
+updateToggle();
+
+function runCalc(){
+  const income = Number(incomeEl.value||0);
+  const r = calculate(income, includeFuture);
+
+  church.innerText=format(r.church);
+  help.innerText=format(r.help);
+  emergency.innerText=format(r.emergency);
+  future.innerText=format(r.future);
+  living.innerText=format(r.living);
+
+  helpPending.innerText=Math.round(r.help);
+  emergencyPending.innerText=Math.round(r.emergency);
+
+  return r;
+}
+
+function updateFunds(){
+  helpFund.innerText=format(data.funds.help);
+  emergencyFund.innerText=format(data.funds.emergency);
+}
+
+function renderHistory(){
+  const container = document.getElementById("historyList");
+  container.innerHTML="";
+
+  Object.entries(data.history || {}).reverse().forEach(([month, val])=>{
+    const div=document.createElement("div");
+    div.className="flex justify-between border-b pb-1";
+    div.innerHTML=`<span>${month}</span><span>${format(val.income)}</span>`;
+    container.appendChild(div);
+  });
+}
+
+incomeEl.addEventListener("input", runCalc);
+
+saveBtn.onclick=()=>{
+  const r=runCalc();
+  const m=new Date().toISOString().slice(0,7);
+
+  data.settings.lastIncome=r.income;
+  data.funds.help+=r.help;
+  data.funds.emergency+=r.emergency;
+  data.history[m]=r;
+
+  saveData(data);
+  updateFunds();
+  renderHistory();
+};
+
+resetBtn.onclick=()=>{
+  if(confirm("Reset all data?")){
+    resetData();
+    location.reload();
+  }
+};
+
+// EXPORT
+exportBtn.onclick=()=>{
+  const blob=new Blob([JSON.stringify(data)],{type:"application/json"});
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);
+  a.download="finance-data.json";
+  a.click();
+};
+
+// IMPORT
+importInput.onchange=(e)=>{
+  const file=e.target.files[0];
+  const reader=new FileReader();
+
+  reader.onload=(ev)=>{
+    data=JSON.parse(ev.target.result);
+    saveData(data);
+    location.reload();
+  };
+
+  reader.readAsText(file);
+};
+
+// FAQ toggle
+document.querySelectorAll(".faq-toggle").forEach(btn=>{
+  btn.onclick=()=>{
+    const content=btn.nextElementSibling;
+    content.classList.toggle("hidden");
+  };
+});
+
+updateFunds();
+renderHistory();
+runCalc();
+</script>

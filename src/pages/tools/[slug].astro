@@ -1,0 +1,93 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+import FinanceTool from '../../components/tools/FinanceTool.astro';
+
+type ToolEntry = CollectionEntry<'tools'>;
+
+export async function getStaticPaths() {
+  const entries = await getCollection('tools');
+
+  return entries.map((entry: ToolEntry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry }
+  }));
+}
+
+const { entry } = Astro.props as { entry: ToolEntry };
+const { Content } = await render(entry);
+
+// ✅ FIXED COMPONENT MAPPING (type-safe)
+const components = {
+  FinanceTool,
+} as const;
+
+type ComponentKey = keyof typeof components;
+
+const ToolComponent =
+  components[entry.data.component as ComponentKey] || null;
+---
+
+<BaseLayout title={entry.data.title} description={entry.data.description} full={true}>
+
+  <div class="mx-auto w-[90%] max-w-[1400px] px-4">
+
+    <div class="grid lg:grid-cols-[minmax(0,1fr)_280px] gap-12">
+
+      <!-- MAIN -->
+      <article class="max-w-2xl mx-auto py-12">
+
+        <!-- HEADER -->
+        <header class="mb-10 space-y-4">
+
+          <p class="text-sm uppercase tracking-wide text-[var(--color-primary)]">
+            Tools
+          </p>
+
+          <h1 class="text-3xl md:text-5xl font-semibold leading-tight">
+            {entry.data.title}
+          </h1>
+
+          <p class="text-[var(--color-muted)]">
+            {entry.data.description}
+          </p>
+
+        </header>
+
+        <!-- TOOL -->
+        <div class="mb-12">
+          {ToolComponent ? <ToolComponent /> : <p>Tool not found.</p>}
+        </div>
+
+        <!-- CONTENT -->
+        <div class="prose prose-neutral dark:prose-invert">
+          <Content />
+        </div>
+
+      </article>
+
+      <!-- SIDEBAR -->
+      <aside class="hidden lg:block py-12">
+
+        <div class="sticky top-24 space-y-6">
+
+          <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3">
+
+            <p class="font-medium">More tools</p>
+
+            <div class="space-y-2 text-sm">
+              <a href="/tools" class="block hover:underline">All tools</a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</BaseLayout>

@@ -94,6 +94,24 @@ const verses = defineCollection({
 });
 
 /* =========================
+   🛠️ TOOLS
+========================= */
+const tools = defineCollection({
+  loader: glob({ pattern: "**/*.md", base: "./src/content/tools" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    slug: z.string(),
+    component: z.string(),
+
+    // optional (future-proofing)
+    featured: z.boolean().optional(),
+    order: z.number().optional(),
+    icon: z.string().optional(),
+  }),
+});
+
+/* =========================
    📦 EXPORT
 ========================= */
 export const collections = {
@@ -103,5 +121,6 @@ export const collections = {
   resources,
   start,
   guides,
-  verses, // ✅ ADD THIS
+  verses,
+  tools // ✅ ADD THIS
 };
