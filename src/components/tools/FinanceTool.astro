@@ -1,12 +1,10 @@
 <div class="mx-auto w-full max-w-[720px] px-4 sm:px-6 space-y-8">
 
-  <!-- QUICK GUIDE -->
   <div class="p-5 rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 text-sm text-[var(--color-muted)]">
     <strong>Quick guide:</strong><br />
     Enter your income. Review the amounts. Click “Save Month” to add to your funds.
   </div>
 
-  <!-- HOW TO USE -->
   <div class="rounded-2xl border border-[var(--color-border)] p-5 text-sm text-[var(--color-muted)] space-y-2">
     <p class="font-medium text-[var(--color-text)]">How to use</p>
     <p>1. Enter your monthly income.</p>
@@ -15,9 +13,7 @@
     <p class="pt-2">Future saving is optional. You can turn it on or off.</p>
   </div>
 
-  <!-- INPUT -->
   <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-4">
-
     <label class="block text-sm font-medium">Monthly Income</label>
 
     <input id="income" type="number" placeholder="Enter your income"
@@ -28,14 +24,11 @@
       <button id="futureToggle"
         class="w-14 h-7 bg-[var(--color-border)] rounded-full relative transition-colors duration-200">
         <span id="toggleDot"
-          class="absolute top-1 left-1 w-5 h-5 bg-white rounded-full transition-transform duration-200">
-        </span>
+          class="absolute top-1 left-1 w-5 h-5 bg-white rounded-full transition-transform duration-200"></span>
       </button>
     </div>
-
   </div>
 
-  <!-- BREAKDOWN -->
   <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-1">
     <div class="flex justify-between text-base py-1"><span>Tithe</span><span id="tithe">₹0</span></div>
     <div class="flex justify-between text-base py-1"><span>Help</span><span id="help">₹0</span></div>
@@ -46,40 +39,26 @@
     </div>
   </div>
 
-  <!-- ACTIONS -->
   <div class="flex flex-col sm:flex-row gap-3">
-    <button id="saveBtn"
-      class="flex-1 bg-[var(--color-primary)] text-white py-3 text-base rounded-xl">
+    <button id="saveBtn" class="flex-1 bg-[var(--color-primary)] text-white py-3 text-base rounded-xl">
       Save Month
     </button>
-    <button id="resetBtn"
-      class="border px-4 py-3 text-base rounded-xl">
+    <button id="resetBtn" class="border px-4 py-3 text-base rounded-xl">
       Reset
     </button>
   </div>
 
-  <!-- FUNDS -->
   <div class="rounded-2xl border p-5 space-y-2">
-    <div class="flex justify-between">
-      <span>Help Fund</span><span id="helpFund">₹0</span>
-    </div>
-    <p class="text-xs text-[var(--color-muted)]">
-      +₹<span id="helpPending">0</span> pending
-    </p>
+    <div class="flex justify-between"><span>Help Fund</span><span id="helpFund">₹0</span></div>
+    <p class="text-xs text-[var(--color-muted)]">+₹<span id="helpPending">0</span> pending</p>
   </div>
 
   <div class="rounded-2xl border p-5 space-y-2">
-    <div class="flex justify-between">
-      <span>Emergency Fund</span><span id="emergencyFund">₹0</span>
-    </div>
-    <p class="text-xs text-[var(--color-muted)]">
-      +₹<span id="emergencyPending">0</span> pending
-    </p>
+    <div class="flex justify-between"><span>Emergency Fund</span><span id="emergencyFund">₹0</span></div>
+    <p class="text-xs text-[var(--color-muted)]">+₹<span id="emergencyPending">0</span> pending</p>
   </div>
 
-  <!-- GOAL -->
   <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-4">
-
     <p class="font-medium text-base">Emergency Fund Goal</p>
 
     <input id="goalInput" type="number" placeholder="Enter your goal amount"
@@ -92,51 +71,62 @@
     <p class="text-sm text-[var(--color-muted)]">
       <span id="goalCurrent">₹0</span> of <span id="goalTarget">₹0</span>
     </p>
-
   </div>
 
-  <!-- HISTORY -->
   <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-4">
     <h3 class="font-medium">Monthly History</h3>
     <div id="historyList" class="space-y-2 text-sm"></div>
   </div>
 
-  <!-- BACKUP -->
   <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3">
-
     <p class="text-sm font-medium">Backup</p>
 
     <div class="flex gap-3 flex-wrap">
-
-      <button id="exportBtn"
-        class="px-4 py-2 rounded-lg bg-[var(--color-primary)] text-white text-sm">
+      <button id="exportBtn" class="px-4 py-2 rounded-lg bg-[var(--color-primary)] text-white text-sm">
         Export Data
       </button>
 
-      <label
-        class="px-4 py-2 rounded-lg border border-[var(--color-border)] text-sm cursor-pointer">
+      <label class="px-4 py-2 rounded-lg border border-[var(--color-border)] text-sm cursor-pointer">
         Import Data
         <input type="file" id="importInput" class="hidden" />
       </label>
-
     </div>
 
     <p class="text-xs text-[var(--color-muted)]">
       Your data is stored locally. Export regularly.
     </p>
-
   </div>
 
 </div>
 
-<script type="module">
-import { loadData, saveData, resetData } from "/src/components/tools/finance/storage.js";
-import { calculate } from "/src/components/tools/finance/logic.js";
-
+<script>
 document.addEventListener("DOMContentLoaded", () => {
+
+  function loadData() {
+    return JSON.parse(localStorage.getItem("finance-data") || '{"funds":{"help":0,"emergency":0},"history":{},"settings":{}}');
+  }
+
+  function saveData(data) {
+    localStorage.setItem("finance-data", JSON.stringify(data));
+  }
+
+  function resetData() {
+    localStorage.removeItem("finance-data");
+  }
+
+  function calculate(income, includeFuture) {
+    const tithe = income * 0.10;
+    const help = income * 0.05;
+    const emergency = income * 0.05;
+    const future = includeFuture ? income * 0.10 : 0;
+    const living = income - (tithe + help + emergency + future);
+
+    return { income, tithe, help, emergency, future, living };
+  }
 
   let data = loadData();
 
+  // ✅ Typed elements
   const incomeEl = document.getElementById("income");
   const toggleEl = document.getElementById("futureToggle");
   const dot = document.getElementById("toggleDot");
@@ -166,6 +156,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const goalCurrent = document.getElementById("goalCurrent");
   const goalTarget = document.getElementById("goalTarget");
 
+  // ✅ Null safety guard (important)
+  if (
+    !incomeEl || !toggleEl || !dot ||
+    !titheEl || !helpEl || !emergencyEl || !futureEl || !livingEl ||
+    !helpPendingEl || !emergencyPendingEl ||
+    !helpFundEl || !emergencyFundEl ||
+    !saveBtn || !resetBtn ||
+    !exportBtn || !importInput ||
+    !historyList ||
+    !goalInput || !goalBar || !goalCurrent || !goalTarget
+  ) return;
+
   let includeFuture = data.settings.includeFuture ?? false;
   let goal = data.settings.goal || 0;
 
@@ -178,12 +180,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function updateToggle() {
     if (includeFuture) {
-      toggleEl.classList.remove("bg-[var(--color-border)]");
       toggleEl.classList.add("bg-[var(--color-primary)]");
+      toggleEl.classList.remove("bg-[var(--color-border)]");
       dot.style.transform = "translateX(24px)";
     } else {
-      toggleEl.classList.remove("bg-[var(--color-primary)]");
       toggleEl.classList.add("bg-[var(--color-border)]");
+      toggleEl.classList.remove("bg-[var(--color-primary)]");
       dot.style.transform = "translateX(0)";
     }
   }
@@ -205,8 +207,8 @@ document.addEventListener("DOMContentLoaded", () => {
     futureEl.innerText = format(r.future);
     livingEl.innerText = format(r.living);
 
-    helpPendingEl.innerText = Math.round(r.help);
-    emergencyPendingEl.innerText = Math.round(r.emergency);
+    helpPendingEl.innerText = String(Math.round(r.help));
+    emergencyPendingEl.innerText = String(Math.round(r.emergency));
 
     return r;
   }
@@ -280,12 +282,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   importInput.addEventListener("change", (e) => {
-    const file = e.target.files[0];
+    const file = e.target.files?.[0];
     if (!file) return;
 
     const reader = new FileReader();
     reader.onload = (ev) => {
-      data = JSON.parse(ev.target.result);
+      data = JSON.parse(ev.target?.result);
       saveData(data);
       location.reload();
     };
