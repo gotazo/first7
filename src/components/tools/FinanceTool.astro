@@ -1,56 +1,64 @@
-<div class="space-y-8">
+<div class="mx-auto w-full max-w-[720px] px-4 sm:px-6 space-y-8">
 
-  <!-- ✅ QUICK GUIDE -->
+  <!-- QUICK GUIDE -->
   <div class="p-5 rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 text-sm text-[var(--color-muted)]">
     <strong>Quick guide:</strong><br />
-    Enter your income → review allocation → click “Save Month” to build your funds.
+    Enter your income. Review the amounts. Click “Save Month” to add to your funds.
   </div>
 
-  <!-- 💰 INPUT -->
+  <!-- HOW TO USE -->
+  <div class="rounded-2xl border border-[var(--color-border)] p-5 text-sm text-[var(--color-muted)] space-y-2">
+    <p class="font-medium text-[var(--color-text)]">How to use</p>
+    <p>1. Enter your monthly income.</p>
+    <p>2. Review how your money is divided.</p>
+    <p>3. Click “Save Month” to add to your funds.</p>
+    <p class="pt-2">Future saving is optional. You can turn it on or off.</p>
+  </div>
+
+  <!-- INPUT -->
   <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-4">
 
     <label class="block text-sm font-medium">Monthly Income</label>
 
     <input id="income" type="number" placeholder="Enter your income"
-      class="w-full px-4 py-3 rounded-xl border border-[var(--color-border)] bg-transparent" />
+      class="w-full px-4 py-4 text-base rounded-xl border border-[var(--color-border)] bg-transparent" />
 
-    <!-- SWITCH -->
     <div class="flex justify-between items-center text-sm">
-      <span class="text-[var(--color-muted)]">Future Savings (10%)</span>
+      <span class="text-[var(--color-muted)]">Future Saving (10%)</span>
       <button id="futureToggle"
-  class="w-12 h-6 bg-[var(--color-border)] rounded-full relative transition-colors duration-200">
-  
-  <span id="toggleDot"
-    class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform duration-200">
-  </span>
-
-</button>
+        class="w-14 h-7 bg-[var(--color-border)] rounded-full relative transition-colors duration-200">
+        <span id="toggleDot"
+          class="absolute top-1 left-1 w-5 h-5 bg-white rounded-full transition-transform duration-200">
+        </span>
+      </button>
     </div>
 
   </div>
 
-  <!-- 📊 BREAKDOWN -->
-  <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-2">
-    <div class="flex justify-between"><span>Church</span><span id="church">₹0</span></div>
-    <div class="flex justify-between"><span>Help</span><span id="help">₹0</span></div>
-    <div class="flex justify-between"><span>Emergency</span><span id="emergency">₹0</span></div>
-    <div class="flex justify-between"><span>Future</span><span id="future">₹0</span></div>
-    <div class="flex justify-between font-semibold border-t pt-2">
+  <!-- BREAKDOWN -->
+  <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-1">
+    <div class="flex justify-between text-base py-1"><span>Tithe</span><span id="tithe">₹0</span></div>
+    <div class="flex justify-between text-base py-1"><span>Help</span><span id="help">₹0</span></div>
+    <div class="flex justify-between text-base py-1"><span>Emergency</span><span id="emergency">₹0</span></div>
+    <div class="flex justify-between text-base py-1"><span>Future</span><span id="future">₹0</span></div>
+    <div class="flex justify-between font-semibold border-t pt-2 text-base">
       <span>Living</span><span id="living">₹0</span>
     </div>
   </div>
 
-  <!-- ⚙️ ACTIONS -->
-  <div class="flex gap-3">
-    <button id="saveBtn" class="flex-1 bg-[var(--color-primary)] text-white py-2 rounded-xl">
+  <!-- ACTIONS -->
+  <div class="flex flex-col sm:flex-row gap-3">
+    <button id="saveBtn"
+      class="flex-1 bg-[var(--color-primary)] text-white py-3 text-base rounded-xl">
       Save Month
     </button>
-    <button id="resetBtn" class="border px-4 py-2 rounded-xl">
+    <button id="resetBtn"
+      class="border px-4 py-3 text-base rounded-xl">
       Reset
     </button>
   </div>
 
-  <!-- 💰 FUNDS -->
+  <!-- FUNDS -->
   <div class="rounded-2xl border p-5 space-y-2">
     <div class="flex justify-between">
       <span>Help Fund</span><span id="helpFund">₹0</span>
@@ -69,13 +77,31 @@
     </p>
   </div>
 
-  <!-- 📊 MONTHLY HISTORY -->
+  <!-- GOAL -->
+  <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-4">
+
+    <p class="font-medium text-base">Emergency Fund Goal</p>
+
+    <input id="goalInput" type="number" placeholder="Enter your goal amount"
+      class="w-full px-4 py-3 text-base rounded-lg border border-[var(--color-border)] bg-transparent" />
+
+    <div class="w-full h-3 bg-[var(--color-border)] rounded-full overflow-hidden">
+      <div id="goalBar" class="h-full bg-[var(--color-primary)] w-0 transition-all duration-300"></div>
+    </div>
+
+    <p class="text-sm text-[var(--color-muted)]">
+      <span id="goalCurrent">₹0</span> of <span id="goalTarget">₹0</span>
+    </p>
+
+  </div>
+
+  <!-- HISTORY -->
   <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-4">
     <h3 class="font-medium">Monthly History</h3>
     <div id="historyList" class="space-y-2 text-sm"></div>
   </div>
 
-  <!-- 📦 BACKUP (IMPROVED) -->
+  <!-- BACKUP -->
   <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3">
 
     <p class="text-sm font-medium">Backup</p>
@@ -88,7 +114,7 @@
       </button>
 
       <label
-        class="px-4 py-2 rounded-lg border border-[var(--color-border)] text-sm cursor-pointer hover:bg-[var(--color-primary)]/5">
+        class="px-4 py-2 rounded-lg border border-[var(--color-border)] text-sm cursor-pointer">
         Import Data
         <input type="file" id="importInput" class="hidden" />
       </label>
@@ -96,45 +122,8 @@
     </div>
 
     <p class="text-xs text-[var(--color-muted)]">
-      Your data is stored locally. Export regularly to avoid loss.
+      Your data is stored locally. Export regularly.
     </p>
-
-  </div>
-
-  <!-- ❓ FAQ (ACCORDION) -->
-  <div class="space-y-4 mt-16">
-
-    <h2 class="text-lg font-semibold">FAQ</h2>
-
-    <div class="faq-item border rounded-xl">
-      <button class="faq-toggle w-full flex justify-between px-4 py-3">
-        Why are my funds ₹0?
-        <span>+</span>
-      </button>
-      <div class="faq-content hidden px-4 pb-4 text-sm text-[var(--color-muted)]">
-        Funds increase only after clicking “Save Month”. The calculator shows planned allocation, not saved money.
-      </div>
-    </div>
-
-    <div class="faq-item border rounded-xl">
-      <button class="faq-toggle w-full flex justify-between px-4 py-3">
-        Is my data stored online?
-        <span>+</span>
-      </button>
-      <div class="faq-content hidden px-4 pb-4 text-sm text-[var(--color-muted)]">
-        No. All data is stored locally in your browser.
-      </div>
-    </div>
-
-    <div class="faq-item border rounded-xl">
-      <button class="faq-toggle w-full flex justify-between px-4 py-3">
-        Will I lose my data?
-        <span>+</span>
-      </button>
-      <div class="faq-content hidden px-4 pb-4 text-sm text-[var(--color-muted)]">
-        Yes, if you clear browser data. Use export to back it up.
-      </div>
-    </div>
 
   </div>
 
@@ -148,12 +137,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let data = loadData();
 
-  // ELEMENTS
   const incomeEl = document.getElementById("income");
   const toggleEl = document.getElementById("futureToggle");
   const dot = document.getElementById("toggleDot");
 
-  const churchEl = document.getElementById("church");
+  const titheEl = document.getElementById("tithe");
   const helpEl = document.getElementById("help");
   const emergencyEl = document.getElementById("emergency");
   const futureEl = document.getElementById("future");
@@ -173,42 +161,45 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const historyList = document.getElementById("historyList");
 
-  // STATE
+  const goalInput = document.getElementById("goalInput");
+  const goalBar = document.getElementById("goalBar");
+  const goalCurrent = document.getElementById("goalCurrent");
+  const goalTarget = document.getElementById("goalTarget");
+
   let includeFuture = data.settings.includeFuture ?? false;
+  let goal = data.settings.goal || 0;
+
   incomeEl.value = data.settings.lastIncome || "";
+  goalInput.value = goal || "";
 
   function format(v) {
     return "₹" + Math.round(v || 0);
   }
 
-  // 🔁 TOGGLE UI
   function updateToggle() {
     if (includeFuture) {
       toggleEl.classList.remove("bg-[var(--color-border)]");
-      toggleEl.classList.add("bg-green-500");
+      toggleEl.classList.add("bg-[var(--color-primary)]");
       dot.style.transform = "translateX(24px)";
     } else {
-      toggleEl.classList.remove("bg-green-500");
+      toggleEl.classList.remove("bg-[var(--color-primary)]");
       toggleEl.classList.add("bg-[var(--color-border)]");
       dot.style.transform = "translateX(0)";
     }
   }
 
-  // 🔥 TOGGLE CLICK (CRITICAL FIX)
   toggleEl.addEventListener("click", () => {
     includeFuture = !includeFuture;
     data.settings.includeFuture = includeFuture;
-
     updateToggle();
     runCalc();
   });
 
-  // 📊 CALCULATION
   function runCalc() {
     const income = Number(incomeEl.value || 0);
     const r = calculate(income, includeFuture);
 
-    churchEl.innerText = format(r.church);
+    titheEl.innerText = format(r.tithe);
     helpEl.innerText = format(r.help);
     emergencyEl.innerText = format(r.emergency);
     futureEl.innerText = format(r.future);
@@ -220,13 +211,26 @@ document.addEventListener("DOMContentLoaded", () => {
     return r;
   }
 
-  // 💰 FUNDS UI
   function updateFunds() {
     helpFundEl.innerText = format(data.funds.help);
     emergencyFundEl.innerText = format(data.funds.emergency);
   }
 
-  // 📅 HISTORY
+  function updateGoal() {
+    goal = Number(goalInput.value || 0);
+    data.settings.goal = goal;
+
+    const current = data.funds.emergency;
+
+    goalCurrent.innerText = format(current);
+    goalTarget.innerText = format(goal);
+
+    const percent = goal ? Math.min((current / goal) * 100, 100) : 0;
+    goalBar.style.width = percent + "%";
+
+    saveData(data);
+  }
+
   function renderHistory() {
     historyList.innerHTML = "";
 
@@ -238,10 +242,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // INPUT
   incomeEl.addEventListener("input", runCalc);
+  goalInput.addEventListener("input", updateGoal);
 
-  // SAVE
   saveBtn.addEventListener("click", () => {
     const r = runCalc();
     const m = new Date().toISOString().slice(0, 7);
@@ -253,10 +256,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     saveData(data);
     updateFunds();
+    updateGoal();
     renderHistory();
   });
 
-  // RESET
   resetBtn.addEventListener("click", () => {
     if (confirm("Reset all data?")) {
       resetData();
@@ -264,7 +267,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // 📤 EXPORT (FIXED)
   exportBtn.addEventListener("click", () => {
     const blob = new Blob([JSON.stringify(data)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
@@ -277,33 +279,22 @@ document.addEventListener("DOMContentLoaded", () => {
     URL.revokeObjectURL(url);
   });
 
-  // 📥 IMPORT
   importInput.addEventListener("change", (e) => {
     const file = e.target.files[0];
     if (!file) return;
 
     const reader = new FileReader();
-
     reader.onload = (ev) => {
       data = JSON.parse(ev.target.result);
       saveData(data);
       location.reload();
     };
-
     reader.readAsText(file);
   });
 
-  // FAQ
-  document.querySelectorAll(".faq-toggle").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const content = btn.nextElementSibling;
-      content.classList.toggle("hidden");
-    });
-  });
-
-  // 🚀 INIT (ORDER MATTERS)
-  updateToggle();   // must come first
+  updateToggle();
   updateFunds();
+  updateGoal();
   renderHistory();
   runCalc();
 

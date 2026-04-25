@@ -144,17 +144,21 @@ const pathname = Astro.url.pathname;
 
 <!-- ✅ MODERN SCRIPT -->
 <script is:inline>
-  const btn = document.getElementById("menu-btn");
-  const menu = document.getElementById("mobile-menu");
+  document.addEventListener("DOMContentLoaded", () => {
 
-  const versesBtn = document.getElementById("verses-btn");
-  const versesMenu = document.getElementById("mobile-verses");
+    const btn = document.getElementById("menu-btn");
+    const menu = document.getElementById("mobile-menu");
 
-  btn?.addEventListener("click", () => {
-    menu?.classList.toggle("hidden");
-  });
+    const versesBtn = document.getElementById("verses-btn");
+    const versesMenu = document.getElementById("mobile-verses");
 
-  versesBtn?.addEventListener("click", () => {
-    versesMenu?.classList.toggle("hidden");
+    btn?.addEventListener("click", () => {
+      menu?.classList.toggle("hidden");
+    });
+
+    versesBtn?.addEventListener("click", () => {
+      versesMenu?.classList.toggle("hidden");
+    });
+
   });
 </script>
