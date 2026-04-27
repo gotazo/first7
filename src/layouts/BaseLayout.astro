@@ -8,25 +8,62 @@ const {
   description = "Build a daily habit of faith through Scripture, devotionals, and guided plans.",
   full = false
 } = Astro.props;
+
+const canonicalURL = `https://first7.org${Astro.url.pathname}`;
 ---
 
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
+
+    <!-- Google verification -->
     <meta name="google-site-verification" content="5sKP8ZQWF4Dux6O1ioj11Vd3OnUefESArxZ0eFq3lVE" />
-    
-    <!-- ✅ FIXED VIEWPORT -->
+
+    <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 
+    <!-- SEO -->
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={`https://first7.org${Astro.url.pathname}`} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://first7.org/og-image.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="https://first7.org/og-image.png" />
+
+    <!-- Theme -->
     <meta name="theme-color" content="#0f172a" />
 
+    <!-- Favicon -->
     <link rel="icon" href="/favicon.svg" />
 
-    <!-- ✅ SAFE THEME INIT (no crash) -->
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PFEQJT54SL"></script>
+<script>
+  // @ts-ignore
+  window.dataLayer = window.dataLayer || [];
+
+  // @ts-ignore
+  function gtag(){dataLayer.push(arguments);}
+
+  // @ts-ignore
+  gtag('js', new Date());
+
+  // @ts-ignore
+  gtag('config', 'G-PFEQJT54SL');
+</script>
+
+    <!-- Theme init -->
     <script>
       try {
         if (localStorage.getItem('theme') === 'dark') {
@@ -35,15 +72,14 @@ const {
       } catch {}
     </script>
 
-    <!-- ✅ CRITICAL CSS -->
-  <style>
-  body {
-    margin: 0;
-    font-family: system-ui, -apple-system, sans-serif;
-    font-size-adjust: 0.5;
-  }
-</style>
-
+    <!-- Minimal CSS -->
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, sans-serif;
+        font-size-adjust: 0.5;
+      }
+    </style>
   </head>
 
   <body class="bg-[var(--color-bg)] text-[var(--color-text)] min-h-screen flex flex-col">
@@ -63,6 +99,20 @@ const {
     </main>
 
     <Footer />
+
+    <!-- Web3 Click Tracking -->
+    <script>
+  function trackWeb3Click() {
+    if (typeof gtag === 'function') {
+      gtag('event', 'web3_click', {
+        event_category: 'engagement',
+        event_label: 'footer_first7_sol',
+        page_path: window.location.pathname,
+        page_title: document.title
+      });
+    }
+  }
+</script>
 
   </body>
 </html>
