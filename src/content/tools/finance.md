@@ -1,5 +1,5 @@
 ---
-title: Faith-Based Finance Tool
+title: Christian Budget Calculator (With Tithing + Giving)
 description: Allocate your income with purpose—giving, saving, and living wisely.
 slug: finance
 component: FinanceTool
