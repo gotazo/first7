@@ -1,16 +1,17 @@
 ---
+
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 type VerseEntry = CollectionEntry<'verses'>;
 
 export async function getStaticPaths() {
-  const entries = await getCollection('verses');
+const entries = await getCollection('verses');
 
-  return entries.map((entry: VerseEntry) => ({
-    params: { slug: entry.data.slug },
-    props: { entry }
-  }));
+return entries.map((entry: VerseEntry) => ({
+params: { slug: entry.data.slug },
+props: { entry }
+}));
 }
 
 const { entry } = Astro.props as { entry: VerseEntry };
@@ -18,234 +19,410 @@ const { Content } = await render(entry);
 
 const allVerses = await getCollection('verses');
 
-// 🔍 Extract keywords
 function extractKeywords(slug: string) {
-  return slug
-    .replace("bible-verses-for-", "")
-    .replace("bible-verses-about-", "")
-    .split("-")
-    .filter(Boolean);
+return slug
+.replace("bible-verses-for-", "")
+.replace("bible-verses-about-", "")
+.split("-")
+.filter(Boolean);
 }
 
 const currentKeywords = extractKeywords(entry.data.slug);
 
-// 🔗 Related (FIXED)
 const related = allVerses
-  .filter(v => v.id !== entry.id)
-  .map(v => {
-    const keywords = extractKeywords(v.data.slug);
-    const score = keywords.filter(k => currentKeywords.includes(k)).length;
-    return { ...v, score };
-  })
-  .filter(v => v.score > 0)
-  .sort((a, b) => b.score - a.score)
-  .slice(0, 4);
+.filter(v => v.id !== entry.id)
+.map(v => {
+const keywords = extractKeywords(v.data.slug);
+const score = keywords.filter(k => currentKeywords.includes(k)).length;
+return { ...v, score };
+})
+.filter(v => v.score > 0)
+.sort((a, b) => b.score - a.score)
+.slice(0, 4);
 ---
 
 <BaseLayout title={entry.data.title} full={true}>
 
-  <div class="mx-auto w-[90%] max-w-[1400px] px-4">
+<!-- Fonts -->
 
-    <div class="grid lg:grid-cols-[minmax(0,1fr)_280px] gap-12">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
-      <!-- MAIN -->
-      <article class="max-w-2xl mx-auto py-12">
+<div class="mx-auto w-[90%] max-w-[1400px] px-4">
+<div class="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-12">
 
-        <!-- HEADER -->
-        <header class="mb-10 space-y-4">
+<!-- MAIN -->
 
-          <p class="text-sm uppercase tracking-wide text-[var(--color-primary)]">
-            Bible Verses
-          </p>
+<article class="max-w-2xl mx-auto py-12">
 
-          <h1 class="text-3xl md:text-5xl font-semibold leading-tight">
-            {entry.data.title}
-          </h1>
+<header class="mb-10 space-y-4">
+<p class="text-sm uppercase tracking-wide text-[var(--color-primary)]">
+Bible Verses
+</p>
 
-          <p class="text-[var(--color-muted)]">
-            {entry.data.description}
-          </p>
+<h1 class="text-3xl md:text-5xl font-semibold leading-tight">
+{entry.data.title}
+</h1>
 
-        </header>
+<p class="text-[var(--color-muted)]">
+{entry.data.description}
+</p>
+</header>
 
-        <!-- 🔥 INSTRUCTION -->
-        <div class="mb-8 p-6 rounded-2xl bg-[var(--color-primary)]/5 border border-[var(--color-border)] text-center">
-          <p class="text-sm text-[var(--color-muted)]">
-            ✨ Tap any verse below to create a shareable card
-          </p>
-        </div>
-
-        <!-- CONTENT -->
-        <div id="verse-content" class="prose prose-neutral dark:prose-invert">
-          <Content />
-        </div>
-
-        <!-- 🔗 RELATED -->
-        <div class="mt-12 space-y-4">
-
-          <h2 class="text-lg font-semibold">
-            Related verses
-          </h2>
-
-          <div class="grid sm:grid-cols-2 gap-4">
-
-            {related.map((v) => (
-              <a
-                href={`/verses/${v.data.slug}`}
-                class="p-4 rounded-xl border border-[var(--color-border)] hover:border-[var(--color-primary)] transition"
-              >
-                <p class="font-medium">{v.data.title}</p>
-                <p class="text-sm text-[var(--color-muted)] mt-1">
-                  {v.data.description}
-                </p>
-              </a>
-            ))}
-
-          </div>
-
-        </div>
-
-        <!-- 🔥 CARD GENERATOR -->
-        <div class="mt-16 max-w-lg mx-auto space-y-6">
-
-          <div class="text-center">
-            <p class="text-sm text-[var(--color-muted)]">Create a verse card</p>
-          </div>
-
-          <!-- SELECTS -->
-          <div class="flex gap-3 justify-center flex-wrap">
-
-            <select id="style-select" class="px-3 py-2 rounded-lg border border-[var(--color-border)] text-sm">
-              <option value="dark">Dark Minimal</option>
-              <option value="light">Light Clean</option>
-              <option value="gradient">Gradient Glow</option>
-              <option value="auto">Auto Style</option>
-            </select>
-
-            <select id="format-select" class="px-3 py-2 rounded-lg border border-[var(--color-border)] text-sm">
-  <option value="square">Instagram Post</option>
-  <option value="shorts">YouTube Shorts</option>
-  <option value="pinterest">Pinterest</option>
-</select>
-<select id="layout-select" class="px-3 py-2 rounded-lg border border-[var(--color-border)] text-sm">
-  <option value="signature">First7 Signature</option>
-  <option value="hero">Hero Word</option>
-  <option value="minimal">Minimal Luxury</option>
-  <option value="top">Top Social</option>
-</select>
-
-          </div>
-
-          <!-- PREVIEW -->
-          <div id="verse-card"
-  class="rounded-2xl overflow-hidden border border-[var(--color-border)] 
-  mx-auto w-full max-w-[420px] bg-black [&>svg]:w-full [&>svg]:h-full"
-  style="aspect-ratio: 1 / 1;">
-
-
-            <p id="card-text" class="text-lg leading-relaxed font-medium">
-              Click a verse above to generate a card
-            </p>
-
-            <p id="card-ref" class="text-sm text-[var(--color-muted)]">—</p>
-
-            <p class="text-xs text-[var(--color-muted)]">first7.org</p>
-
-          </div>
-
-          <!-- ACTIONS -->
-          <div class="flex gap-3 justify-center">
-            <button id="copy-btn" class="px-4 py-2 rounded-lg bg-[var(--color-primary)] text-white">
-              Copy
-            </button>
-
-            <button id="download-btn" class="px-4 py-2 rounded-lg border border-[var(--color-border)]">
-              Download
-            </button>
-          </div>
-          <div class="flex gap-3 justify-center flex-wrap">
-  <button id="wa-btn" class="px-4 py-2 rounded-lg bg-green-500 text-white">
-    WhatsApp
-  </button>
-
-  <button id="pin-btn" class="px-4 py-2 rounded-lg bg-red-500 text-white">
-    Pinterest
-  </button>
-
-  <button id="ig-btn" class="px-4 py-2 rounded-lg border">
-    Instagram
-  </button>
+<div class="mb-8 p-6 rounded-2xl bg-[var(--color-primary)]/5 border text-center">
+<p class="text-sm text-[var(--color-muted)]">
+✨ Click any verse → instantly create a shareable image
+</p>
 </div>
 
-        </div>
+<div id="verse-content" class="prose prose-neutral dark:prose-invert">
+<Content />
+</div>
 
-      </article>
+<!-- MOBILE -->
 
-      <!-- SIDEBAR -->
-      <aside class="hidden lg:block py-12">
+<div class="lg:hidden mt-12 space-y-4">
 
-        <div class="sticky top-24 space-y-6">
+<div id="verse-card-mobile"
+class="rounded-2xl overflow-hidden border w-full bg-black"
+style="aspect-ratio:1/1;"></div>
 
-          <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3">
+<select id="style-select-mobile" class="w-full px-3 py-2 rounded-lg border text-sm">
+<option value="calm">Calm</option>
+<option value="modern">Modern</option>
+<option value="elegant">Elegant</option>
+</select>
 
-            <p class="font-medium">More topics</p>
+<button id="share-mobile"
+class="verse-action-button w-full px-4 py-3 rounded-xl bg-[var(--color-primary)] text-white">
+Share </button>
 
-            <div class="space-y-2 text-sm">
+<div class="verse-instruction text-xs text-center text-[var(--color-muted)] leading-relaxed space-y-1 mt-3">
+  <p>&#10024; Tap a verse to generate your card</p>
+  <p>&#9889; Share sends the verse instantly as text</p>
+  <p>&#128444;&#65039; Download saves the image for posting anywhere</p>
+</div>
 
-              {allVerses
-                .filter(v => v.id !== entry.id)
-                .slice(0, 5)
-                .map((v) => (
-                  <a href={`/verses/${v.data.slug}`} class="block hover:underline">
-                    {v.data.title}
-                  </a>
-                ))}
+</div>
 
-            </div>
+</article>
 
-          </div>
+<!-- SIDEBAR -->
 
-        </div>
+<aside class="hidden lg:block py-12">
+<div class="sticky top-24 space-y-6">
 
-      </aside>
+<div class="rounded-2xl border p-4 space-y-4">
 
-    </div>
+<p class="text-sm text-center text-[var(--color-muted)]">
+✨ Your verse card
+</p>
 
-  </div>
+<div id="verse-card"
+class="rounded-2xl overflow-hidden border w-full bg-black"
+style="aspect-ratio:1/1;"></div>
+
+<select id="style-select" class="w-full px-3 py-2 rounded-lg border text-sm">
+<option value="calm">Calm</option>
+<option value="modern">Modern</option>
+<option value="elegant">Elegant</option>
+</select>
+
+<div class="grid grid-cols-2 gap-2">
+<button id="download-btn" class="verse-action-button px-4 py-2 rounded-lg bg-[var(--color-primary)] text-white text-sm">
+Download PNG
+</button>
+
+<button id="share-btn" class="verse-action-button px-4 py-2 rounded-lg border text-sm">
+Share
+</button>
+
+<button id="wa-btn" class="verse-action-button px-4 py-2 rounded-lg bg-green-500 text-white text-sm">
+WhatsApp
+</button>
+
+<button id="copy-btn" class="verse-action-button px-4 py-2 rounded-lg border text-sm">
+Copy
+</button>
+</div>
+
+<div class="verse-instruction text-xs text-center text-[var(--color-muted)] leading-relaxed space-y-1 mt-3">
+  <p>&#10024; Tap a verse to generate your card</p>
+  <p>&#9889; Share sends the verse instantly as text</p>
+  <p>&#128444;&#65039; Download saves the image for posting anywhere</p>
+</div>
+
+</div>
+</div>
+</aside>
+
+</div>
+</div>
 
 </BaseLayout>
 
-<!-- 🔥 SCRIPT -->
-<script is:inline>
-function initVerseCard() {
-  const container = document.getElementById("verse-content");
-  const card = document.getElementById("verse-card");
-
-  const styleSelect = document.getElementById("style-select");
-  const formatSelect = document.getElementById("format-select");
-  const layoutSelect = document.getElementById("layout-select");
-
-  const downloadBtn = document.getElementById("download-btn");
-
-  if (!container || !card) return;
-
-  let selectedText = "";
-  let selectedRef = "";
-
-  function escapeXML(str = "") {
-    return str.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+<style>
+  .verse-action-button {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    cursor: pointer;
+    touch-action: manipulation;
+    transition:
+      transform 140ms ease,
+      box-shadow 140ms ease,
+      filter 140ms ease,
+      opacity 140ms ease;
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
   }
 
-  function wrapText(text, maxChars = 22) {
+  .verse-action-button:hover {
+    filter: brightness(1.04);
+  }
+
+  .verse-action-button:active,
+  .verse-action-button.is-pressed {
+    transform: scale(0.96);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    filter: brightness(0.94);
+  }
+
+  .verse-action-button:focus-visible {
+    outline: 3px solid color-mix(in srgb, var(--color-primary) 55%, white);
+    outline-offset: 3px;
+  }
+
+  .verse-action-button:disabled {
+    cursor: wait;
+    opacity: 0.7;
+  }
+
+  .verse-action-button .button-ripple {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 999px;
+    pointer-events: none;
+    background: rgba(255, 255, 255, 0.45);
+    transform: translate(-50%, -50%) scale(1);
+    animation: verse-button-ripple 450ms ease-out forwards;
+  }
+
+  @keyframes verse-button-ripple {
+    to {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(18);
+    }
+  }
+</style>
+
+<script is:inline>
+function initVerseCard(){
+
+if(window.__verseCardInitialized) return;
+window.__verseCardInitialized = true;
+
+const container = document.getElementById("verse-content");
+const cardDesktop = document.getElementById("verse-card");
+const cardMobile = document.getElementById("verse-card-mobile");
+
+const styleSelect = document.getElementById("style-select");
+const styleSelectMobile = document.getElementById("style-select-mobile");
+
+const downloadBtn = document.getElementById("download-btn");
+const shareBtn = document.getElementById("share-btn");
+const shareMobile = document.getElementById("share-mobile");
+const waBtn = document.getElementById("wa-btn");
+const copyBtn = document.getElementById("copy-btn");
+
+if(!container) return;
+
+let selectedText = "";
+let selectedRef = "";
+let cachedPngBlob = null;
+let pngRenderToken = 0;
+
+/* -------------------------
+   STYLE ROTATION
+------------------------- */
+const styles = ["calm","modern","elegant"];
+let styleIndex = 0;
+
+function rotateStyle(){
+  styleIndex = (styleIndex + 1) % styles.length;
+  const next = styles[styleIndex];
+  if(styleSelect) styleSelect.value = next;
+  if(styleSelectMobile) styleSelectMobile.value = next;
+}
+
+/* -------------------------
+   TEXT WRAP
+------------------------- */
+function wrapText(text, maxChars = 22){
+  const words = text.split(" ");
+  let lines = [];
+  let line = "";
+
+  words.forEach(w=>{
+    if((line + w).length > maxChars){
+      lines.push(line);
+      line = w + " ";
+    } else {
+      line += w + " ";
+    }
+  });
+
+  lines.push(line);
+  return lines;
+}
+
+/* -------------------------
+   SAFE TEXT
+------------------------- */
+function esc(str=""){
+  return str.replace(/&/g,"&amp;")
+            .replace(/</g,"&lt;")
+            .replace(/>/g,"&gt;");
+}
+
+/* -------------------------
+   TYPOGRAPHY
+------------------------- */
+function getTypography(){
+
+  const mode = styleSelect?.value || styleSelectMobile?.value || "calm";
+
+  if(mode === "modern"){
+    return {
+      fontFamily: "'Inter', sans-serif",
+      fontWeight: 700,
+      letterSpacing: "-0.4",
+      lineHeightRatio: 1.15,
+      wrapWidth: 24,
+      opacity: "1"
+    };
+  }
+
+  if(mode === "elegant"){
+    return {
+      fontFamily: "'Playfair Display', serif",
+      fontWeight: 500,
+      letterSpacing: "1.6",
+      lineHeightRatio: 1.5,
+      wrapWidth: 20,
+      opacity: "0.85"
+    };
+  }
+
+  return {
+    fontFamily: "'Playfair Display', serif",
+    fontWeight: 500,
+    letterSpacing: "0.4",
+    lineHeightRatio: 1.4,
+    wrapWidth: 22,
+    opacity: "0.9"
+  };
+}
+
+async function waitForFonts(){
+  if(!document.fonts) return;
+
+  await Promise.all([
+    document.fonts.load("700 48px Inter"),
+    document.fonts.load("600 48px Playfair Display"),
+    document.fonts.load("500 26px Playfair Display"),
+    document.fonts.load("500 26px Inter")
+  ]);
+
+  await document.fonts.ready;
+}
+
+/* -------------------------
+   SVG GENERATOR (VARIATIONS)
+------------------------- */
+function generateSVG(text, ref){
+
+  const width = 1080;
+  const height = 1080;
+  const t = getTypography();
+
+  // 🔥 UNIQUE ID (fixes gradient bug)
+  const gradientId = `bg-${Math.random().toString(36).slice(2,8)}`;
+  const noiseId = `noise-${Math.random().toString(36).slice(2,8)}`;
+
+  let verseColor = "#020617";
+  let refColor = "#020617";
+  let brandColor = "#64748b";
+  let dividerColor = "#f97316";
+
+  const mode = styleSelect?.value || styleSelectMobile?.value || "calm";
+  const isDark = mode === "modern";
+
+  // ✅ COLOR SYSTEM
+  if(isDark){
+    verseColor = "#f8fafc";
+    refColor = "#f8fafc";
+    brandColor = "#94a3b8";
+    dividerColor = "#22c55e";
+  }
+
+  // ✅ DEFINITIONS (ONLY ONCE)
+  const defs = `
+<defs>
+  <!-- gradient -->
+  <linearGradient id="${gradientId}" x1="0" y1="0" x2="0" y2="1">
+    ${
+      isDark
+        ? `
+    <stop offset="0%" stop-color="#020617"/>
+    <stop offset="100%" stop-color="#0f172a"/>
+    `
+        : `
+    <stop offset="0%" stop-color="#f8fafc"/>
+    <stop offset="100%" stop-color="#ecfdf5"/>
+    `
+    }
+  </linearGradient>
+
+  <!-- subtle grain -->
+  <filter id="${noiseId}">
+    <feTurbulence type="fractalNoise" baseFrequency="0.6" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.02"/>
+    </feComponentTransfer>
+  </filter>
+</defs>
+`;
+
+  // ✅ BACKGROUND
+  let bgRect = "";
+
+  if(mode === "modern"){
+  bgRect = `<rect width="100%" height="100%" fill="url(#${gradientId})"/>`;
+} else {
+  // calm + elegant → clean white
+  bgRect = `<rect width="100%" height="100%" fill="#f8fafc"/>`;
+}
+
+  // ✅ GRAIN (only elegant + modern)
+  const grain = mode !== "modern"
+    ? `<rect width="100%" height="100%" filter="url(#${noiseId})" opacity="0.06"/>`
+    : "";
+
+  // ---------------- TEXT LAYOUT ----------------
+
+  const maxTextHeight = height - 260;
+
+  function wrapText(text, maxChars = 22){
     const words = text.split(" ");
     let lines = [];
     let line = "";
 
-    words.forEach(w => {
-      if ((line + w).length > maxChars) {
+    words.forEach(w=>{
+      if((line + w).length > maxChars){
         lines.push(line);
         line = w + " ";
-      } else {
+      }else{
         line += w + " ";
       }
     });
@@ -254,276 +431,397 @@ function initVerseCard() {
     return lines;
   }
 
-  function getStyle(style) {
-    if (style === "light") {
-      return { bg:"#ffffff", text:"#0f172a", sub:"#64748b", accent:"#2563eb" };
-    }
-    if (style === "gradient") {
-      return { bg:"url(#grad)", text:"#ffffff", sub:"#cbd5f5", accent:"#22c55e" };
-    }
-    return { bg:"#020617", text:"#e2e8f0", sub:"#94a3b8", accent:"#38bdf8" };
+  let fontSize = 56;
+  let lines, lineHeight, totalHeight;
+
+  while(true){
+    lines = wrapText(text, t.wrapWidth);
+    lineHeight = fontSize * t.lineHeightRatio;
+    totalHeight = lines.length * lineHeight;
+
+    if(totalHeight <= maxTextHeight) break;
+
+    fontSize -= 1.2;
+    if(fontSize < 34) break;
   }
 
-  function generateSVG(text, ref, style, format, layout) {
-    const s = getStyle(style);
+  lineHeight = fontSize * t.lineHeightRatio;
+  totalHeight = lines.length * lineHeight;
 
-    const width = 1080;
-    const height =
-      format === "shorts" ? 1920 :
-      format === "pinterest" ? 1620 :
-      1080;
+  const topMargin = 120;
+  const usableHeight = maxTextHeight;
 
-    const maxChars =
-      format === "shorts" ? 18 :
-      format === "pinterest" ? 20 :
-      22;
+  let y = topMargin + (usableHeight - totalHeight) / 2;
 
-    const lines = wrapText(text, maxChars);
+  const textSVG = lines.map(line=>{
+    const el = `
+<text x="50%" y="${y}" text-anchor="middle"
+  font-size="${fontSize}"
+  letter-spacing="${t.letterSpacing}"
+  fill="${verseColor}"
+  font-family="${t.fontFamily}"
+  font-weight="${t.fontWeight}"
+  opacity="${t.opacity}">
+  ${line.trim()}
+</text>`;
+    y += lineHeight;
+    return el;
+  }).join("");
 
-    let fontSize = 44;
-    if (lines.length > 8) fontSize = 38;
-    if (lines.length > 12) fontSize = 32;
+  // ---------------- FINAL SVG ----------------
 
-    const lineHeight = fontSize + 18;
+  return `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}">
 
-    let textSVG = "";
+  ${defs}
 
-    // ✅ SIGNATURE (fixed)
-    if (layout === "signature") {
-      const centerX = 540;
+  ${bgRect}
+  ${grain}
 
-      let y = height / 2 - (lines.length * (lineHeight / 2));
+  ${textSVG}
 
-      textSVG = lines.map(line => {
-        const el = `
-          <text x="${centerX}" y="${y}" text-anchor="middle"
-            font-size="${fontSize}"
-            font-family="Georgia, serif"
-            letter-spacing="0.4"
-            fill="${s.text}">
-            ${escapeXML(line.trim())}
-          </text>
-        `;
-        y += lineHeight;
-        return el;
-      }).join("");
+  <!-- divider -->
+  <line x1="30%" x2="70%" y1="${height-180}" y2="${height-180}"
+    stroke="${dividerColor}" stroke-width="6"/>
 
-      const dividerY = y + 10;
+  <!-- reference -->
+  <text x="50%" y="${height-110}" text-anchor="middle"
+    font-size="48"
+    font-family="'Inter', sans-serif"
+    font-weight="600"
+    fill="${refColor}">
+    ${ref}
+  </text>
 
-      return `
-      <svg xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 ${width} ${height}"
-        style="width:100%;height:100%">
+  <!-- brand -->
+  <text x="50%" y="${height-60}" text-anchor="middle"
+    font-size="18"
+    font-family="'Inter', sans-serif"
+    fill="${brandColor}"
+    opacity="0.6">
+    first7.org
+  </text>
 
-        <rect width="100%" height="100%" fill="${s.bg}" />
+</svg>`;
+}
 
-        <circle cx="540" cy="${dividerY - 80}" r="3" fill="${s.accent}" opacity="0.6"/>
+/* -------------------------
+   UPDATE
+------------------------- */
+async function updatePreview(){
+  if(!selectedText) return;
 
-        ${textSVG}
+  await waitForFonts();
+  const svg = generateSVG(selectedText, selectedRef);
 
-        <line x1="420" x2="660" y1="${dividerY}" y2="${dividerY}"
-          stroke="${s.accent}" stroke-width="1.5" opacity="0.5"/>
+  if(cardDesktop) cardDesktop.innerHTML = svg;
+  if(cardMobile) cardMobile.innerHTML = svg;
+}
 
-        <text x="50%" y="${dividerY + 40}" text-anchor="middle"
-          font-size="20"
-          font-family="system-ui, Arial"
-          fill="${s.sub}"
-          letter-spacing="1">
-          — ${escapeXML(ref)}
-        </text>
+function invalidatePngCache(){
+  cachedPngBlob = null;
+  pngRenderToken += 1;
+}
 
-        <text x="50%" y="${height - 60}" text-anchor="middle"
-          font-size="18"
-          font-family="system-ui, Arial"
-          fill="${s.sub}"
-          opacity="0.7">
-          first7.org
-        </text>
+async function preRenderPNG(){
+  if(!hasSelection()) return;
 
-      </svg>`;
+  const renderToken = pngRenderToken;
+  const svg = generateSVG(selectedText, selectedRef);
+
+  try{
+    const blob = await svgToPng(svg);
+    if(renderToken === pngRenderToken){
+      cachedPngBlob = blob;
     }
+  }catch(error){
+    console.error("Verse card PNG pre-render failed:", error);
+  }
+}
 
-    // HERO
-    if (layout === "hero") {
-      let y = height / 2 - (lines.length * (lineHeight/2));
+function refreshPreviewAndPreRender(){
+  updatePreview()
+    .then(()=>preRenderPNG())
+    .catch(error=>{
+      console.error("Verse card preview failed:", error);
+    });
+}
 
-      textSVG = lines.map(line => {
-        const el = `
-          <text x="50%" y="${y}" text-anchor="middle"
-            font-size="${fontSize}"
-            font-family="Georgia, serif"
-            letter-spacing="0.6"
-            fill="${s.text}">
-            ${escapeXML(line.trim())}
-          </text>
-        `;
-        y += lineHeight;
-        return el;
-      }).join("");
+/* -------------------------
+   CLICK HANDLER
+------------------------- */
+container.addEventListener("click",(e)=>{
+  const block = e.target.closest("blockquote");
+  if(!block) return;
 
-      textSVG += `
-        <line x1="35%" x2="65%" y1="${y+10}" y2="${y+10}"
-          stroke="${s.accent}" stroke-width="2" opacity="0.6"/>
-      `;
+  const fullText = block.innerText.trim();
 
-      textSVG += `
-        <text x="50%" y="${y+50}" text-anchor="middle"
-          font-size="24"
-          fill="${s.sub}">
-          — ${escapeXML(ref)}
-        </text>
-      `;
-    }
+  let ref = block.getAttribute("data-ref");
 
-    // MINIMAL
-    else if (layout === "minimal") {
-      let y = height / 2 - (lines.length * (lineHeight/2));
-
-      textSVG = lines.map(line => {
-        const el = `
-          <text x="50%" y="${y}" text-anchor="middle"
-            font-size="${fontSize}"
-            font-family="Georgia, serif"
-            fill="${s.text}">
-            ${escapeXML(line.trim())}
-          </text>
-        `;
-        y += lineHeight;
-        return el;
-      }).join("");
-
-      textSVG += `
-        <text x="50%" y="${y+30}" text-anchor="middle"
-          font-size="22"
-          fill="${s.sub}">
-          — ${escapeXML(ref)}
-        </text>
-      `;
-    }
-
-    // TOP
-    else {
-      let y = 260;
-
-      textSVG = lines.map(line => {
-        const el = `
-          <text x="50%" y="${y}" text-anchor="middle"
-            font-size="${fontSize}"
-            font-family="Georgia, serif"
-            fill="${s.text}">
-            ${escapeXML(line.trim())}
-          </text>
-        `;
-        y += lineHeight;
-        return el;
-      }).join("");
-
-      textSVG += `
-        <text x="50%" y="${y+40}" text-anchor="middle"
-          font-size="24"
-          fill="${s.sub}">
-          — ${escapeXML(ref)}
-        </text>
-      `;
-    }
-
-    const gradient = style === "gradient" ? `
-      <defs>
-        <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stop-color="#0f172a"/>
-          <stop offset="100%" stop-color="#065f46"/>
-        </linearGradient>
-      </defs>` : "";
-
-    return `
-    <svg xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 ${width} ${height}"
-      style="width:100%;height:100%">
-      ${gradient}
-      <rect width="100%" height="100%" fill="${s.bg}" />
-      ${textSVG}
-      <text x="50%" y="${height-60}" text-anchor="middle"
-        font-size="20" fill="${s.sub}">
-        first7.org
-      </text>
-    </svg>`;
+  if(!ref){
+    const match = fullText.match(/([1-3]?\s?[A-Za-z]+\s\d+:\d+)/);
+    if(match) ref = match[0];
   }
 
-  function updatePreview() {
-    if (!selectedText) return;
+  let verseText = fullText;
+  if(ref) verseText = fullText.replace(ref,"").trim();
 
-    const svg = generateSVG(
-      selectedText,
-      selectedRef,
-      styleSelect?.value || "dark",
-      formatSelect?.value || "square",
-      layoutSelect?.value || "minimal"
-    );
+  selectedText = verseText;
+  selectedRef = ref || "";
+  invalidatePngCache();
 
-    card.innerHTML = svg;
+  rotateStyle();
+  refreshPreviewAndPreRender();
+});
 
-    if (formatSelect.value === "shorts") card.style.aspectRatio = "9 / 16";
-    else if (formatSelect.value === "pinterest") card.style.aspectRatio = "2 / 3";
-    else card.style.aspectRatio = "1 / 1";
-  }
+/* -------------------------
+   TAP TO REMIX SAME VERSE
+------------------------- */
+cardDesktop?.addEventListener("click", ()=>{
+  if(!selectedText) return;
+  invalidatePngCache();
+  refreshPreviewAndPreRender();
+});
 
-  // click verse
-  container.addEventListener("click", (e) => {
-    const block = e.target.closest("blockquote");
-    if (!block) return;
+cardMobile?.addEventListener("click", ()=>{
+  if(!selectedText) return;
+  invalidatePngCache();
+  refreshPreviewAndPreRender();
+});
 
-    selectedText = block.innerText.trim();
-    selectedRef = block.getAttribute("data-ref") || "";
+/* -------------------------
+   PNG EXPORT
+------------------------- */
+async function svgToPng(svg){
+  await waitForFonts();
 
-    updatePreview();
-  });
-
-  // auto load
-  let tries = 0;
-  const interval = setInterval(() => {
-    const first = container.querySelector("blockquote");
-
-    if (first) {
-      selectedText = first.innerText.trim();
-      selectedRef = first.getAttribute("data-ref") || "";
-      updatePreview();
-      clearInterval(interval);
-    }
-
-    tries++;
-    if (tries > 10) clearInterval(interval);
-  }, 200);
-
-  // listeners
-  styleSelect?.addEventListener("change", updatePreview);
-  formatSelect?.addEventListener("change", updatePreview);
-  layoutSelect?.addEventListener("change", updatePreview);
-
-  // download
-  downloadBtn?.addEventListener("click", () => {
-    if (!selectedText) return;
-
-    const svg = generateSVG(
-      selectedText,
-      selectedRef,
-      styleSelect.value,
-      formatSelect.value,
-      layoutSelect.value
-    );
-
-    const blob = new Blob([svg], { type: "image/svg+xml" });
+  return new Promise((resolve,reject)=>{
+    const img = new Image();
+    const blob = new Blob([svg], {type:"image/svg+xml;charset=utf-8"});
     const url = URL.createObjectURL(blob);
 
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "verse-card.svg";
-    a.click();
+    img.onload = ()=>{
+      const canvas = document.createElement("canvas");
+      canvas.width = 1080;
+      canvas.height = 1080;
+      const ctx = canvas.getContext("2d");
+
+      ctx.drawImage(img,0,0);
+      URL.revokeObjectURL(url);
+
+      canvas.toBlob(blob=>{
+        if(blob) resolve(blob);
+        else reject(new Error("Unable to create PNG blob."));
+      },"image/png");
+    };
+
+    img.onerror = ()=>{
+      URL.revokeObjectURL(url);
+      reject(new Error("Unable to render SVG image."));
+    };
+
+    img.src = url;
   });
 }
 
-if (document.readyState === "loading") {
+/* -------------------------
+   BUTTON ACTIONS
+------------------------- */
+function hasSelection(){
+  return Boolean(selectedText.trim());
+}
+
+function getShareText(){
+  return selectedRef ? `${selectedText} — ${selectedRef}` : selectedText;
+}
+
+async function createCardBlob(){
+  if(!hasSelection()) throw new Error("Select a verse first.");
+
+  const svg = generateSVG(selectedText, selectedRef);
+  return await svgToPng(svg);
+}
+
+function downloadBlob(blob, filename="verse.png"){
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url), 1000);
+}
+
+async function handleDownload(){
+  try{
+    let blob = cachedPngBlob;
+
+    if(!blob){
+      blob = await createCardBlob();
+      cachedPngBlob = blob;
+    }
+
+    downloadBlob(blob);
+  }catch(error){
+    console.error("Verse card download failed:", error);
+    throw error;
+  }
+}
+
+async function handleShare(){
+  try{
+    if(!hasSelection()) throw new Error("Select a verse first.");
+    const shareText = getShareText();
+
+    if(navigator.share){
+      await navigator.share({
+        title:"Verse",
+        text:shareText
+      });
+      return;
+    }
+
+    const url = `https://wa.me/?text=${encodeURIComponent(shareText)}`;
+    window.open(url, "_blank", "noopener,noreferrer");
+  }catch(error){
+    console.error("Verse card share failed:", error);
+    throw error;
+  }
+}
+
+function handleWhatsApp(){
+  if(!hasSelection()) throw new Error("Select a verse first.");
+
+  const url = `https://wa.me/?text=${encodeURIComponent(getShareText())}`;
+  window.open(url, "_blank", "noopener,noreferrer");
+}
+
+async function copyWithFallback(value){
+  if(navigator.clipboard && window.isSecureContext){
+    await navigator.clipboard.writeText(value);
+    return;
+  }
+
+  const textarea = document.createElement("textarea");
+  textarea.value = value;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.top = "-1000px";
+  textarea.style.opacity = "0";
+  document.body.appendChild(textarea);
+  textarea.select();
+
+  const copied = document.execCommand("copy");
+  textarea.remove();
+
+  if(!copied) throw new Error("Copy failed.");
+}
+
+async function handleCopy(){
+  if(!hasSelection()) throw new Error("Select a verse first.");
+  await copyWithFallback(getShareText());
+}
+
+function flashButton(button, text, duration=900){
+  if(!button) return;
+
+  const original = button.dataset.originalLabel || button.textContent;
+  button.dataset.originalLabel = original;
+  button.textContent = text;
+
+  window.setTimeout(()=>{
+    if(!button.disabled) button.textContent = button.dataset.originalLabel;
+  }, duration);
+}
+
+function addRipple(button, event){
+  const ripple = document.createElement("span");
+  const rect = button.getBoundingClientRect();
+  const size = Math.max(rect.width, rect.height);
+  const x = event.clientX ? event.clientX - rect.left : rect.width / 2;
+  const y = event.clientY ? event.clientY - rect.top : rect.height / 2;
+
+  ripple.className = "button-ripple";
+  ripple.style.width = `${size}px`;
+  ripple.style.height = `${size}px`;
+  ripple.style.left = `${x}px`;
+  ripple.style.top = `${y}px`;
+
+  button.appendChild(ripple);
+  ripple.addEventListener("animationend", ()=>ripple.remove(), {once:true});
+}
+
+async function runButtonAction(button, action, loadingText="Working..."){
+  if(!button || button.disabled) return;
+
+  const original = button.dataset.originalLabel || button.textContent;
+  const nextText = typeof loadingText === "function" ? loadingText() : loadingText;
+  button.dataset.originalLabel = original;
+  button.disabled = true;
+  if(nextText) button.textContent = nextText;
+
+  try{
+    await action();
+    flashButton(button, "Done");
+  }catch(error){
+    console.error("Verse card button failed:", error);
+    flashButton(button, error?.message || "Try again", 1400);
+  }finally{
+    window.setTimeout(()=>{
+      button.disabled = false;
+      button.textContent = button.dataset.originalLabel;
+    }, 700);
+  }
+}
+
+function bindAction(button, action, loadingText){
+  if(!button) return;
+
+  button.addEventListener("pointerdown", ()=>{
+    button.classList.add("is-pressed");
+  });
+
+  button.addEventListener("pointerup", ()=>{
+    button.classList.remove("is-pressed");
+  });
+
+  button.addEventListener("pointercancel", ()=>{
+    button.classList.remove("is-pressed");
+  });
+
+  button.addEventListener("pointerleave", ()=>{
+    button.classList.remove("is-pressed");
+  });
+
+  button.addEventListener("click", (event)=>{
+    event.preventDefault();
+    addRipple(button, event);
+    runButtonAction(button, action, loadingText);
+  });
+}
+
+bindAction(downloadBtn, handleDownload, ()=>cachedPngBlob ? "" : "Preparing...");
+bindAction(shareBtn, handleShare, "Sharing...");
+bindAction(shareMobile, handleShare, "Sharing...");
+bindAction(waBtn, handleWhatsApp, "Opening...");
+bindAction(copyBtn, handleCopy, "Copying...");
+
+styleSelect?.addEventListener("change", ()=>{
+  invalidatePngCache();
+  refreshPreviewAndPreRender();
+});
+
+styleSelectMobile?.addEventListener("change", ()=>{
+  invalidatePngCache();
+  refreshPreviewAndPreRender();
+});
+
+}
+
+if(document.readyState==="loading"){
   document.addEventListener("DOMContentLoaded", initVerseCard);
-} else {
+}else{
   initVerseCard();
 }
 </script>
