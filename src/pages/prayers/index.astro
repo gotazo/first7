@@ -1,0 +1,88 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+type Prayer = CollectionEntry<'prayers'>;
+
+const prayers: Prayer[] = await getCollection('prayers');
+
+const sorted = prayers.sort((a, b) =>
+  a.data.title.localeCompare(b.data.title)
+);
+---
+
+<BaseLayout title="Prayers by Topic | First7">
+
+  <section class="max-w-5xl mx-auto py-16 px-4 space-y-16">
+
+    <!-- HERO -->
+    <div class="max-w-2xl">
+      <h1 class="text-4xl md:text-5xl font-semibold leading-tight">
+        Prayers for Every Situation
+      </h1>
+
+      <p class="mt-4 text-lg text-[var(--color-muted)]">
+        Find prayers for anxiety, strength, healing, and more.
+      </p>
+    </div>
+
+    <!-- FEATURED -->
+    {sorted.slice(0, 1).map((p) => (
+      <a
+        href={`/prayers/${p.data.slug}`}
+        class="block p-8 rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/10 hover:shadow-md transition"
+      >
+
+        <p class="text-sm text-[var(--color-muted)]">Featured</p>
+
+        <h2 class="mt-2 text-2xl font-semibold">
+          {p.data.title}
+        </h2>
+
+        <p class="mt-3 text-sm text-[var(--color-muted)] max-w-md">
+          {p.data.description}
+        </p>
+
+        <div class="mt-5 text-[var(--color-primary)] font-medium text-sm">
+          Read prayers →
+        </div>
+      </a>
+    ))}
+
+    <!-- ALL -->
+    <div class="space-y-6">
+
+      <h2 class="text-xl font-semibold">
+        All Prayer Topics
+      </h2>
+
+      <div class="grid gap-4 md:grid-cols-2">
+
+        {sorted.slice(1).map((p) => (
+          <a
+            href={`/prayers/${p.data.slug}`}
+            class="p-5 rounded-xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 hover:bg-[var(--color-primary)]/10 hover:shadow-md transition"
+          >
+
+            <h3 class="font-medium">
+              {p.data.title}
+            </h3>
+
+            <p class="mt-2 text-sm text-[var(--color-muted)]">
+              {p.data.description}
+            </p>
+
+            <p class="mt-2 text-sm text-[var(--color-muted)]">
+              Read →
+            </p>
+
+          </a>
+        ))}
+
+      </div>
+
+    </div>
+
+  </section>
+
+</BaseLayout>

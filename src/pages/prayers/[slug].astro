@@ -1,0 +1,341 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+type PrayerEntry = CollectionEntry<'prayers'>;
+
+export async function getStaticPaths() {
+  const entries = await getCollection('prayers');
+
+  return entries.map((entry: PrayerEntry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry }
+  }));
+}
+
+const { entry } = Astro.props as { entry: PrayerEntry };
+const { Content } = await render(entry);
+
+const allPrayers = await getCollection('prayers');
+
+/* -------------------------
+   RELATED (SAFE VERSION)
+------------------------- */
+function extractKeywords(slug: string) {
+  return slug
+    .replace("prayers-for-", "")
+    .replace("prayers-about-", "")
+    .split("-")
+    .filter(Boolean);
+}
+
+const currentKeywords = extractKeywords(entry.data.slug);
+
+const scored = allPrayers
+  .filter(p => p.id !== entry.id)
+  .map(p => {
+    const keywords = extractKeywords(p.data.slug);
+    const score = keywords.filter(k => currentKeywords.includes(k)).length;
+    return { ...p, score };
+  })
+  .filter(p => p.score > 0)
+  .sort((a, b) => b.score - a.score);
+
+const related =
+  scored.length > 0
+    ? scored.slice(0, 3)
+    : allPrayers.filter(p => p.id !== entry.id).slice(0, 3);
+---
+
+<BaseLayout title={entry.data.title} full={true}>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<div class="mx-auto w-[92%] max-w-[1400px] px-4">
+
+  <div class="flex flex-col lg:grid lg:grid-cols-[minmax(0,1fr)_320px] gap-10">
+
+    <!-- 🟩 SIDEBAR -->
+    <aside class="order-1 lg:order-2">
+
+      <div class="lg:sticky lg:top-24 space-y-5">
+
+        <!-- CARD -->
+        <div id="prayer-card"
+          class="rounded-2xl overflow-hidden border w-full flex items-center justify-center bg-[var(--color-bg-soft)]"
+          style="aspect-ratio:1/1;">
+          <span class="text-xs text-[var(--color-muted)]">
+            Tap a prayer to generate your card
+          </span>
+        </div>
+
+        <!-- BUTTONS -->
+        <div class="grid grid-cols-2 gap-2">
+          <button id="download-btn" class="verse-action-button px-4 py-3 rounded-xl bg-[var(--color-primary)] text-white text-sm">
+            Download
+          </button>
+
+          <button id="share-btn" class="verse-action-button px-4 py-3 rounded-xl border text-sm">
+            Share
+          </button>
+
+          <button id="wa-btn" class="verse-action-button px-4 py-3 rounded-xl bg-green-500 text-white text-sm">
+            WhatsApp
+          </button>
+
+          <button id="copy-btn" class="verse-action-button px-4 py-3 rounded-xl border text-sm">
+            Copy
+          </button>
+        </div>
+
+        <!-- STYLE SELECT -->
+        <div class="flex gap-2">
+          <button data-style="calm" class="style-pill flex-1">Calm</button>
+          <button data-style="modern" class="style-pill flex-1">Modern</button>
+          <button data-style="elegant" class="style-pill flex-1">Elegant</button>
+        </div>
+
+        <!-- INSTRUCTION -->
+        <div class="text-xs text-center text-[var(--color-muted)] space-y-1">
+          <p>🙏 Tap a prayer to generate your card</p>
+          <p>⚡ Share instantly</p>
+        </div>
+
+        <!-- NEXT STEP -->
+        <div class="rounded-2xl border p-5 space-y-3">
+          <p class="font-medium">Take the next step</p>
+
+          <div class="space-y-2 text-sm">
+            {related.map(p => (
+              <a
+                href={`/prayers/${p.data.slug}`}
+                class="block hover:underline"
+              >
+                → {p.data.title}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <!-- EXPLORE -->
+        <div class="rounded-2xl border p-5 space-y-3">
+          <a href="/prayers" class="block text-sm hover:underline">
+            📚 View all prayers
+          </a>
+        </div>
+
+      </div>
+
+    </aside>
+
+    <!-- 🟦 CONTENT -->
+    <main class="order-2 lg:order-1">
+
+      <article class="max-w-2xl mx-auto py-10 space-y-8">
+
+        <header class="space-y-3">
+          <h1 class="text-3xl md:text-5xl font-semibold leading-tight">
+            {entry.data.title}
+          </h1>
+
+          <p class="text-[var(--color-muted)]">
+            {entry.data.description}
+          </p>
+        </header>
+
+        <div id="prayer-content" class="prose prose-neutral dark:prose-invert">
+          <Content />
+        </div>
+
+      </article>
+
+    </main>
+
+  </div>
+</div>
+
+</BaseLayout>
+
+<script is:inline>
+function initPrayerCard(){
+
+if(window.__prayerCardInitialized) return;
+window.__prayerCardInitialized = true;
+
+const container = document.getElementById("prayer-content");
+const card = document.getElementById("prayer-card");
+
+const styleButtons = document.querySelectorAll("[data-style]");
+
+let selectedText = "";
+let selectedRef = "";
+let currentStyle = "calm";
+
+/* THEMES */
+const themes = {
+  calm: {
+    bg: "#f4f8f2",      // soft warm green
+    text: "#1e293b",
+    accent: "#84a98c",
+    brand: "#64748b"
+  },
+
+  elegant: {
+    bg: "#f7f4fb",      // soft lavender (very light)
+    text: "#1e293b",
+    accent: "#9f7aea",
+    brand: "#64748b"
+  },
+
+  modern: {
+    bg: "#eef2f7",      // clean soft blue-gray
+    text: "#020617",
+    accent: "#3b82f6",
+    brand: "#94a3b8"
+  }
+};
+
+/* TYPOGRAPHY */
+function getTypography(){
+  return {
+    fontFamily: currentStyle === "modern" ? "'Inter', sans-serif" : "'Playfair Display', serif",
+    fontWeight: currentStyle === "modern" ? 700 : 500,
+    letterSpacing: currentStyle === "modern" ? "-0.2" : "0.3",
+    lineHeightRatio: currentStyle === "modern" ? 1.2 : 1.4,
+    wrapWidth: currentStyle === "modern" ? 24 : 22
+  };
+}
+
+/* SVG */
+function generateSVG(text, ref){
+  const width = 1080;
+  const height = 1080;
+  const t = getTypography();
+  const theme = themes[currentStyle];
+
+  function wrapText(text, maxChars){
+    const words = text.split(" ");
+    let lines = [], line = "";
+
+    words.forEach(w=>{
+      if((line + w).length > maxChars){
+        lines.push(line);
+        line = w + " ";
+      } else {
+        line += w + " ";
+      }
+    });
+
+    lines.push(line);
+    return lines;
+  }
+
+  let fontSize = 56;
+  let lines, lineHeight, totalHeight;
+  const maxHeight = height - 320;
+
+  while(true){
+    lines = wrapText(text, t.wrapWidth);
+    lineHeight = fontSize * t.lineHeightRatio;
+    totalHeight = lines.length * lineHeight;
+
+    if(totalHeight <= maxHeight) break;
+    fontSize -= 1.2;
+    if(fontSize < 34) break;
+  }
+
+  // ✅ center text vertically
+  let y = (height - totalHeight) / 2;
+
+  const textSVG = lines.map(line=>{
+    const el = `
+<text x="50%" y="${y}" text-anchor="middle"
+  font-size="${fontSize}"
+  letter-spacing="${t.letterSpacing}"
+  fill="${theme.text}"
+  font-family="${t.fontFamily}"
+  font-weight="${t.fontWeight}">
+  ${line.trim()}
+</text>`;
+    y += lineHeight;
+    return el;
+  }).join("");
+
+  return `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}">
+  <rect width="100%" height="100%" fill="${theme.bg}"/>
+
+  ${textSVG}
+
+  <!-- Divider -->
+  <line x1="30%" x2="70%" y1="${height-220}" y2="${height-220}"
+    stroke="${theme.accent}" stroke-width="4"/>
+
+  <!-- 📖 Bible reference -->
+  <text x="50%" y="${height-160}" text-anchor="middle"
+    font-size="32"
+    fill="${theme.text}"
+    font-family="'Inter', sans-serif">
+    Read Bible: ${ref || ""}
+  </text>
+
+  <!-- 🌐 Branding -->
+  <text x="50%" y="${height-90}" text-anchor="middle"
+    font-size="26"
+    fill="${theme.brand}"
+    font-family="'Inter', sans-serif">
+    first7.org
+  </text>
+
+</svg>`;
+}
+
+/* UPDATE */
+function updatePreview(){
+  if(!selectedText) return;
+  card.innerHTML = generateSVG(selectedText, selectedRef);
+}
+
+/* LOAD FIRST */
+function preloadFirst(){
+  const first = container.querySelector(".prayer");
+  if(!first) return;
+
+  const text = first.querySelector(".prayer-text")?.innerText || "";
+  const ref = first.getAttribute("data-ref") || "";
+
+  selectedText = text;
+  selectedRef = ref;
+
+  updatePreview();
+}
+
+/* CLICK */
+container.addEventListener("click",(e)=>{
+  const block = e.target.closest(".prayer");
+  if(!block) return;
+
+  const text = block.querySelector(".prayer-text")?.innerText || "";
+  const ref = block.getAttribute("data-ref") || "";
+
+  selectedText = text;
+  selectedRef = ref;
+
+  updatePreview();
+});
+
+/* STYLE */
+styleButtons.forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    currentStyle = btn.dataset.style;
+    updatePreview();
+  });
+});
+
+/* INIT */
+preloadFirst();
+
+}
+
+document.addEventListener("DOMContentLoaded", initPrayerCard);
+</script>

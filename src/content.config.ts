@@ -48,8 +48,8 @@ const resources = defineCollection({
     description: z.string(),
     file: z.string().optional(),
     type: z.string().optional(),
-    icon: z.string().optional(), // ✅ add this
-    cover: z.string().optional(), // ✅ add this
+    icon: z.string().optional(),
+    cover: z.string().optional(),
   }),
 });
 
@@ -89,7 +89,19 @@ const verses = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    slug: z.string(), // 🔥 IMPORTANT for SEO URLs
+    slug: z.string(),
+  }),
+});
+
+/* =========================
+   🙏 PRAYERS (NEW SYSTEM)
+========================= */
+const prayers = defineCollection({
+  loader: glob({ pattern: "**/*.md", base: "./src/content/prayers" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    slug: z.string(),
   }),
 });
 
@@ -104,7 +116,7 @@ const tools = defineCollection({
     slug: z.string(),
     component: z.string(),
 
-    // optional (future-proofing)
+    // optional
     featured: z.boolean().optional(),
     order: z.number().optional(),
     icon: z.string().optional(),
@@ -122,5 +134,6 @@ export const collections = {
   start,
   guides,
   verses,
-  tools // ✅ ADD THIS
+  prayers, // ✅ NEW
+  tools,
 };
