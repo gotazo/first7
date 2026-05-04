@@ -1,55 +1,111 @@
 <button
-  id="theme-toggle"
+  data-theme-toggle
   class="relative flex items-center justify-center w-9 h-9 rounded-xl border border-[var(--color-border)] 
   bg-[var(--color-bg)] hover:bg-[var(--color-primary)]/10 
-  transition duration-200 ease-out active:scale-95"
+  transition duration-200 ease-out active:scale-95 group"
   aria-label="Toggle theme"
   type="button"
 >
 
-  <!-- Moon -->
-  <svg id="icon-moon"
-    xmlns="http://www.w3.org/2000/svg"
+  <!-- ICONS -->
+  <svg data-icon="dark"
     class="absolute h-4 w-4 transition-all duration-300 ease-out"
-    fill="currentColor"
-    viewBox="0 0 24 24">
-    <path d="M21 12.79A9 9 0 0111.21 3c0 .34.02.67.05 1A7 7 0 1019 19.74a9 9 0 002-6.95z"></path>
+    fill="currentColor" viewBox="0 0 24 24">
+    <path d="M21 12.79A9 9 0 0111.21 3c0 .34.02.67.05 1A7 7 0 1019 19.74a9 9 0 002-6.95z"/>
   </svg>
 
-  <!-- Sun -->
-  <svg id="icon-sun"
-    xmlns="http://www.w3.org/2000/svg"
+  <svg data-icon="light"
     class="absolute h-4 w-4 transition-all duration-300 ease-out scale-0 opacity-0"
-    fill="currentColor"
-    viewBox="0 0 24 24">
-    <path d="M12 4.5a1 1 0 011 1V7a1 1 0 11-2 0V5.5a1 1 0 011-1zm0 11a1 1 0 011 1V18a1 1 0 11-2 0v-1.5a1 1 0 011-1zm7.5-5.5a1 1 0 010 2H18a1 1 0 110-2h1.5zM6 12a1 1 0 110 2H4.5a1 1 0 110-2H6zm9.19-5.69a1 1 0 011.42 0l1.06 1.06a1 1 0 01-1.42 1.42l-1.06-1.06a1 1 0 010-1.42zM6.75 15.94a1 1 0 011.42 0l1.06 1.06a1 1 0 11-1.42 1.42l-1.06-1.06a1 1 0 010-1.42zm9.19 2.48a1 1 0 010 1.42l-1.06 1.06a1 1 0 01-1.42-1.42l1.06-1.06a1 1 0 011.42 0zM6.75 6.06a1 1 0 010 1.42L5.69 8.54a1 1 0 11-1.42-1.42l1.06-1.06a1 1 0 011.42 0zM12 8a4 4 0 100 8 4 4 0 000-8z"></path>
+    fill="currentColor" viewBox="0 0 24 24">
+    <path d="M12 4.5a1 1 0 011 1V7a1 1 0 11-2 0V5.5a1 1 0 011-1zm0 11a1 1 0 011 1V18a1 1 0 11-2 0v-1.5a1 1 0 011-1zm7.5-5.5a1 1 0 010 2H18a1 1 0 110-2h1.5zM6 12a1 1 0 110 2H4.5a1 1 0 110-2H6zm9.19-5.69a1 1 0 011.42 0l1.06 1.06a1 1 0 01-1.42 1.42l-1.06-1.06a1 1 0 010-1.42zM6.75 15.94a1 1 0 011.42 0l1.06 1.06a1 1 0 11-1.42 1.42l-1.06-1.06a1 1 0 010-1.42zm9.19 2.48a1 1 0 010 1.42l-1.06 1.06a1 1 0 01-1.42-1.42l1.06-1.06a1 1 0 011.42 0zM6.75 6.06a1 1 0 010 1.42L5.69 8.54a1 1 0 11-1.42-1.42l1.06-1.06a1 1 0 011.42 0zM12 8a4 4 0 100 8 4 4 0 000-8z"/>
   </svg>
+
+  <svg data-icon="system"
+    class="absolute h-4 w-4 transition-all duration-300 ease-out scale-0 opacity-0"
+    fill="currentColor" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="5" />
+  </svg>
+
+  <!-- ✨ TOOLTIP -->
+  <span
+    data-tooltip
+    class="pointer-events-none absolute bottom-[-2.2rem] left-1/2 -translate-x-1/2 
+    whitespace-nowrap text-xs px-2 py-1 rounded-md 
+    bg-[var(--color-bg-soft)] border border-[var(--color-border)] 
+    text-[var(--color-muted)] opacity-0 scale-95 
+    transition-all duration-150 ease-out
+    group-hover:opacity-100 group-hover:scale-100
+    group-focus-visible:opacity-100 group-focus-visible:scale-100"
+  >
+    Theme
+  </span>
 
 </button>
 
 <script is:inline>
-  const btn = document.getElementById("theme-toggle");
-  const moon = document.getElementById("icon-moon");
-  const sun = document.getElementById("icon-sun");
+  const btn = document.querySelector('[data-theme-toggle]');
+  const tooltip = btn?.querySelector('[data-tooltip]');
 
-  const update = () => {
-    const dark = document.documentElement.classList.contains("dark");
-
-    moon?.classList.toggle("scale-0", dark);
-    moon?.classList.toggle("opacity-0", dark);
-
-    sun?.classList.toggle("scale-100", dark);
-    sun?.classList.toggle("opacity-100", dark);
+  const icons = {
+    dark: btn?.querySelector('[data-icon="dark"]'),
+    light: btn?.querySelector('[data-icon="light"]'),
+    system: btn?.querySelector('[data-icon="system"]')
   };
 
-  btn?.addEventListener("click", () => {
-    document.documentElement.classList.toggle("dark");
+  const labels = {
+    dark: "Dark",
+    light: "Light",
+    system: "System"
+  };
 
-    const dark = document.documentElement.classList.contains("dark");
-    localStorage.setItem("theme", dark ? "dark" : "light");
+  const getSystemPref = () =>
+    window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 
-    update();
+  const applyTheme = (mode) => {
+    const root = document.documentElement;
+
+    if (mode === 'dark') {
+      root.classList.add('dark');
+    } else if (mode === 'light') {
+      root.classList.remove('dark');
+    } else {
+      const system = getSystemPref();
+      root.classList.toggle('dark', system === 'dark');
+    }
+  };
+
+  const updateIcons = (mode) => {
+    Object.values(icons).forEach(icon => {
+      icon?.classList.add("scale-0", "opacity-0");
+    });
+
+    icons[mode]?.classList.remove("scale-0", "opacity-0");
+
+    if (tooltip) {
+      tooltip.textContent = labels[mode];
+    }
+  };
+
+  const getNext = (current) => {
+    if (current === 'system') return 'dark';
+    if (current === 'dark') return 'light';
+    return 'system';
+  };
+
+  let mode = localStorage.getItem('theme') || 'system';
+
+  applyTheme(mode);
+  updateIcons(mode);
+
+  btn?.addEventListener('click', () => {
+    mode = getNext(mode);
+    localStorage.setItem('theme', mode);
+
+    applyTheme(mode);
+    updateIcons(mode);
   });
 
-  update();
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    if (mode === 'system') applyTheme('system');
+  });
 </script>

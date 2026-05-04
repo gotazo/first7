@@ -65,12 +65,23 @@ const canonicalURL = `https://first7.org${Astro.url.pathname}`;
 
     <!-- Theme init -->
     <script>
-      try {
-        if (localStorage.getItem('theme') === 'dark') {
-          document.documentElement.classList.add('dark');
-        }
-      } catch {}
-    </script>
+  try {
+    const saved = localStorage.getItem('theme');
+
+    if (saved === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else if (saved === 'light') {
+      document.documentElement.classList.remove('dark');
+    } else {
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+      } else {
+        // fallback → default to dark
+        document.documentElement.classList.add('dark');
+      }
+    }
+  } catch {}
+</script>
 
     <!-- Minimal CSS -->
     <style>

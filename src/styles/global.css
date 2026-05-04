@@ -1,26 +1,38 @@
 @import "tailwindcss";
 
 /* =========================
-   🎨 THEME
+   🎨 THEME (Soft Sage + Warm Light)
 ========================= */
 :root {
-  --color-bg: #FAFAF7;
-  --color-text: #1C1C1C;
-  --color-muted: #4B5563;
-  --color-border: #E5E7EB;
-  --color-primary: #6F8F76;
+  --color-bg: #F7F8F6;          /* warm soft background */
+  --color-bg-soft: #EEF2ED;     /* cards / sections */
+  --color-bg-elevated: #E9EFE8; /* subtle lift */
+  --color-text: #1F2A24;        /* soft dark */
+  --color-muted: #6B7A72;       /* calm muted */
+  --color-border: #E3E8E2;      /* soft border */
+  --color-primary: #6F8F76;     /* sage */
+  --color-primary-hover: #5F7D66;
 }
 
+/* 🌙 Dark mode (calm, warm, low-glow) */
 .dark {
-  --color-bg: #0b1220;       /* deeper, smoother dark */
-  --color-text: #E5E7EB;
-  --color-muted: #94A3B8;
-  --color-border: #1F2937;
+  --color-bg: #0E1512;
+  --color-bg-soft: #16201B;
+  --color-bg-elevated: #1B2621;
+
+  --color-text: #E6F0EA;
+  --color-muted: #9FB3A8;
+
+  --color-border: #223029;
+
   --color-primary: #8FAF97;
+  --color-primary-hover: #A3C1AA;
+
+  --color-accent: #C8B38E;
 }
 
 /* =========================
-   🌍 GLOBAL BASE (FIX)
+   🌍 GLOBAL BASE
 ========================= */
 html, body {
   background-color: var(--color-bg);
@@ -28,9 +40,21 @@ html, body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Prevent accidental white flashes */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
+}
+
+/* 🌙 subtle depth glow */
+html.dark body {
+  background: radial-gradient(
+    circle at top,
+    #16201B 0%,
+    #0E1512 60%
+  );
 }
 
 /* =========================
@@ -68,6 +92,11 @@ article h3 {
 /* Paragraphs */
 article p {
   margin: 1.2em 0;
+  color: var(--color-text);
+}
+
+article p:not(:first-of-type) {
+  color: var(--color-muted);
 }
 
 /* Lists */
@@ -86,7 +115,8 @@ article blockquote {
   padding-left: 1rem;
   margin: 1.5em 0;
   font-style: italic;
-  opacity: 0.9;
+  background: var(--color-bg-soft);
+  border-radius: 8px;
 }
 
 /* Links inside content */
@@ -97,34 +127,162 @@ article a {
 }
 
 /* =========================
-   🔘 BUTTON FIX
+   🔘 LINKS + SELECTION
 ========================= */
 
-/* Default links */
 a:not(.btn) {
-  color: var(--color-text);
+  color: var(--color-muted);
+  text-decoration: none;
 }
 
-/* Button override */
-.btn {
-  color: white !important;
+a:not(.btn):hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-primary);
+  color: white;
+}
+
+/* Focus (accessibility) */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 
 /* =========================
-   ✨ SMOOTH SCROLL
+   🔘 BUTTONS
 ========================= */
-html {
-  scroll-behavior: smooth;
+@layer components {
+  .btn {
+    background-color: #7C9A92; /* cool grey-blue */
+    color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+
+    transition: 
+      transform 0.15s ease,
+      box-shadow 0.15s ease,
+      background-color 0.2s ease;
+
+    will-change: transform, box-shadow;
+
+    /* subtle base depth */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+
+  /* ✨ HOVER — gentle lift */
+  .btn:hover {
+    background-color: #6B8A83;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+  }
+
+  /* 👇 ACTIVE — tactile press */
+  .btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+
+  /* 🎯 FOCUS — clean ring */
+  .btn:focus-visible {
+    outline: none;
+    box-shadow:
+      0 0 0 2px var(--color-bg),
+      0 0 0 4px var(--color-primary);
+  }
+
+  /* 🌙 DARK MODE */
+  .dark .btn {
+    background-color: #8FAF97;
+    color: #0E1512;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+  }
+
+  .dark .btn:hover {
+    background-color: #A3C1AA;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  }
+
+  /* =========================
+     🔘 SECONDARY BUTTON
+  ========================= */
+
+  .btn-secondary {
+    background: transparent;
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+
+    transition: 
+      transform 0.15s ease,
+      border-color 0.2s ease,
+      color 0.2s ease,
+      background-color 0.2s ease;
+
+    will-change: transform;
+  }
+
+  .btn-secondary:hover {
+    transform: translateY(-1px);
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background-color: var(--color-bg-elevated);
+  }
+
+  .btn-secondary:active {
+    transform: translateY(0);
+  }
+
+  .btn-secondary:focus-visible {
+    outline: none;
+    box-shadow:
+      0 0 0 2px var(--color-bg),
+      0 0 0 4px var(--color-primary);
+  }
 }
+
+/* =========================
+   ✨ CARDS / COMPONENTS
+========================= */
+
+.card {
+  background: var(--color-bg-soft);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  border-radius: 16px;
+  transition: 0.2s ease;
+  will-change: transform;
+}
+
+.dark .card {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+
+.card:hover {
+  background: var(--color-bg-elevated);
+  transform: translateY(-2px);
+  border-color: var(--color-primary);
+}
+
+/* =========================
+   ✨ INTERACTIONS
+========================= */
 
 #verse-card.flash {
   transform: scale(1.02);
-  box-shadow: 0 0 0 2px rgba(56,189,248,0.4);
+  box-shadow: 0 0 0 2px rgba(111,143,118,0.25);
 }
 
 /* =========================
-   ✨ PRAYERS
+   🙏 PRAYERS
 ========================= */
+
 .prayer {
   border: 1px solid var(--color-border);
   border-radius: 16px;
@@ -133,9 +291,14 @@ html {
   background: var(--color-bg-soft);
   cursor: pointer;
   transition: 0.2s ease;
+  will-change: transform;
 }
 
 .prayer:hover {
   border-color: var(--color-primary);
   transform: translateY(-2px);
+}
+
+[data-theme-toggle]:hover svg {
+  transform: scale(1.1);
 }
