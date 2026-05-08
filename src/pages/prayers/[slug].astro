@@ -18,9 +18,6 @@ const { Content } = await render(entry);
 
 const allPrayers = await getCollection('prayers');
 
-/* -------------------------
-   RELATED (SAFE VERSION)
-------------------------- */
 function extractKeywords(slug: string) {
   return slug
     .replace("prayers-for-", "")
