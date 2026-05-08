@@ -1,9 +1,8 @@
-import { defineCollection } from "astro:content";
+import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
-import { z } from "zod";
 
 /* =========================
-   📄 STATIC PAGES (Preface, Dedicatory)
+   📄 STATIC PAGES
 ========================= */
 const pages = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/pages" }),
@@ -54,7 +53,7 @@ const resources = defineCollection({
 });
 
 /* =========================
-   🚀 PLANS (CORE SYSTEM)
+   🚀 PLANS
 ========================= */
 const start = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/plans" }),
@@ -82,7 +81,7 @@ const guides = defineCollection({
 });
 
 /* =========================
-   📖 VERSES (SEO SYSTEM)
+   📖 VERSES
 ========================= */
 const verses = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/verses" }),
@@ -94,7 +93,7 @@ const verses = defineCollection({
 });
 
 /* =========================
-   🙏 PRAYERS (NEW SYSTEM)
+   🙏 PRAYERS
 ========================= */
 const prayers = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/prayers" }),
@@ -115,8 +114,6 @@ const tools = defineCollection({
     description: z.string(),
     slug: z.string(),
     component: z.string(),
-
-    // optional
     featured: z.boolean().optional(),
     order: z.number().optional(),
     icon: z.string().optional(),
@@ -124,7 +121,37 @@ const tools = defineCollection({
 });
 
 /* =========================
-   📦 EXPORT
+   🧠 TEACHINGS (YOUR SYSTEM)
+========================= */
+const teachings = defineCollection({
+  loader: glob({
+    pattern: "**/*.md",
+    base: "./src/content/teachings",
+  }),
+  schema: z.object({
+    id: z.string(),
+    title: z.string(),
+    summary: z.string(),
+
+    topics: z.array(z.string()),
+    keywords: z.array(z.string()).optional(),
+
+    scripture: z.object({
+      ref: z.string(),
+      text: z.string(),
+    }),
+
+    truth: z.string(),
+
+    insight: z.array(z.string()),
+    application: z.array(z.string()),
+
+    prayer: z.string(),
+  }),
+});
+
+/* =========================
+   📦 EXPORT (ONLY ONCE)
 ========================= */
 export const collections = {
   pages,
@@ -134,6 +161,7 @@ export const collections = {
   start,
   guides,
   verses,
-  prayers, // ✅ NEW
+  prayers,
   tools,
+  teachings,
 };

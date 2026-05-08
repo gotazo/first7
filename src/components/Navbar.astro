@@ -10,10 +10,17 @@ const pathname = Astro.url.pathname;
 
     <!-- LOGO -->
     <a href="/" class="flex items-center gap-[4px] text-2xl md:text-3xl tracking-tight">
-      <span class="text-[var(--color-text)]" style="font-family: 'Playfair Display', serif;">
+      <span
+        class="text-[var(--color-text)]"
+        style="font-family: 'Playfair Display', serif;"
+      >
         first
       </span>
-      <span class="text-[var(--color-primary)]" style="font-family: 'Inter', sans-serif;">
+
+      <span
+        class="text-[var(--color-primary)]"
+        style="font-family: 'Inter', sans-serif;"
+      >
         7
       </span>
     </a>
@@ -23,87 +30,128 @@ const pathname = Astro.url.pathname;
 
       <!-- VERSES -->
       <div class="relative group">
-        <a href="/verses" class="flex items-center gap-1 px-2 py-1 text-[var(--color-muted)] hover:text-[var(--color-text)]">
+
+        <a
+          href="/verses"
+          class="flex items-center gap-1 px-2 py-1 text-[var(--color-muted)] hover:text-[var(--color-text)]"
+        >
           Verses
           <span class="text-xs">▼</span>
         </a>
 
         <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-150">
+
           <div class="w-[500px] rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] shadow-xl p-6">
 
             <div class="grid grid-cols-2 gap-4">
 
               <div>
-                <p class="text-xs uppercase text-[var(--color-muted)] mb-2">Emotions</p>
-                <a href="/verses/bible-verses-for-anxiety" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">Anxiety</a>
-                <a href="/verses/bible-verses-for-fear" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">Fear</a>
-                <a href="/verses/bible-verses-for-depression" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">Depression</a>
+                <p class="text-xs uppercase text-[var(--color-muted)] mb-2">
+                  Emotions
+                </p>
+
+                <a href="/verses/bible-verses-for-anxiety" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Anxiety
+                </a>
+
+                <a href="/verses/bible-verses-for-fear" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Fear
+                </a>
+
+                <a href="/verses/bible-verses-for-depression" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Depression
+                </a>
               </div>
 
               <div>
-                <p class="text-xs uppercase text-[var(--color-muted)] mb-2">Growth</p>
-                <a href="/verses/bible-verses-for-strength" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">Strength</a>
-                <a href="/verses/bible-verses-about-love" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">Love</a>
-                <a href="/verses/bible-verses-about-healing" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">Healing</a>
+                <p class="text-xs uppercase text-[var(--color-muted)] mb-2">
+                  Growth
+                </p>
+
+                <a href="/verses/bible-verses-for-strength" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Strength
+                </a>
+
+                <a href="/verses/bible-verses-about-love" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Love
+                </a>
+
+                <a href="/verses/bible-verses-about-healing" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Healing
+                </a>
               </div>
 
             </div>
 
           </div>
+
         </div>
+
       </div>
 
       <!-- PRAYERS -->
-<div class="relative group">
-  <a href="/prayers" class="flex items-center gap-1 px-2 py-1 text-[var(--color-muted)] hover:text-[var(--color-text)]">
-    Prayers
-    <span class="text-xs">▼</span>
-  </a>
+      <div class="relative group">
 
-  <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-150">
-    <div class="w-[500px] rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] shadow-xl p-6">
+        <a
+          href="/prayers"
+          class="flex items-center gap-1 px-2 py-1 text-[var(--color-muted)] hover:text-[var(--color-text)]"
+        >
+          Prayers
+          <span class="text-xs">▼</span>
+        </a>
 
-      <div class="grid grid-cols-2 gap-4">
+        <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-150">
 
-        <div>
-          <p class="text-xs uppercase text-[var(--color-muted)] mb-2">Needs</p>
-          <a href="/prayers/anxiety" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">Anxiety</a>
-          <a href="/prayers/peace" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">Peace</a>
-          <a href="/prayers/healing" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">Healing</a>
-        </div>
+          <div class="w-[500px] rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] shadow-xl p-6">
 
-        <div>
-          <p class="text-xs uppercase text-[var(--color-muted)] mb-2">Growth</p>
-          <a href="/prayers/strength" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">Strength</a>
-          <a href="/prayers/guidance" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">Guidance</a>
+            <div class="grid grid-cols-2 gap-4">
+
+              <div>
+                <p class="text-xs uppercase text-[var(--color-muted)] mb-2">
+                  Needs
+                </p>
+
+                <a href="/prayers/anxiety" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Anxiety
+                </a>
+
+                <a href="/prayers/peace" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Peace
+                </a>
+
+                <a href="/prayers/healing" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Healing
+                </a>
+              </div>
+
+              <div>
+                <p class="text-xs uppercase text-[var(--color-muted)] mb-2">
+                  Growth
+                </p>
+
+                <a href="/prayers/strength" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Strength
+                </a>
+
+                <a href="/prayers/guidance" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                  Guidance
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
 
       </div>
 
-    </div>
-  </div>
-</div>
-
-      <!-- TOOLS -->
-      <a
-        href="/tools"
-        class={`transition ${
-          pathname.startsWith("/tools")
-            ? "text-[var(--color-text)]"
-            : "text-[var(--color-muted)] hover:text-[var(--color-text)]"
-        }`}
-      >
-        Tools
-      </a>
-
-      <!-- OTHER LINKS -->
+      <!-- PRIMARY NAV -->
       {[
+        { href: "/ask", label: "Ask" },
+        { href: "/teachings", label: "Library" },
         { href: "/plans", label: "Plans" },
-        { href: "/bible", label: "Bible" },
-        { href: "/guides", label: "Guides" },
-        { href: "/blog", label: "Blog" },
-        { href: "/resources", label: "Resources" },
-        { href: "/about", label: "About" }
+        { href: "/bible", label: "Bible" }
       ].map((link) => {
         const isActive = pathname.startsWith(link.href);
 
@@ -125,28 +173,43 @@ const pathname = Astro.url.pathname;
 
     <!-- RIGHT -->
     <div class="flex items-center gap-4">
+
       <DarkToggle />
 
       <!-- MOBILE BUTTON -->
-      <button id="menu-btn" class="md:hidden p-2 rounded-lg border border-[var(--color-border)]">
+      <button
+        id="menu-btn"
+        class="md:hidden p-2 rounded-lg border border-[var(--color-border)]"
+      >
         ☰
       </button>
+
     </div>
 
   </div>
 
   <!-- MOBILE MENU -->
-  <div id="mobile-menu" class="hidden md:hidden border-t border-[var(--color-border)]">
+  <div
+    id="mobile-menu"
+    class="hidden md:hidden border-t border-[var(--color-border)]"
+  >
 
     <div class="px-5 py-4 space-y-4">
 
-      <!-- Verses Dropdown -->
+      <!-- VERSES -->
       <div>
-        <button id="verses-btn" class="w-full text-left font-medium">
+
+        <button
+          id="verses-btn"
+          class="w-full text-left font-medium"
+        >
           Verses ▼
         </button>
 
-        <div id="mobile-verses" class="hidden mt-2 space-y-2 pl-3 text-sm">
+        <div
+          id="mobile-verses"
+          class="hidden mt-2 space-y-2 pl-3 text-sm"
+        >
           <a href="/verses/bible-verses-for-anxiety">Anxiety</a>
           <a href="/verses/bible-verses-for-fear">Fear</a>
           <a href="/verses/bible-verses-for-strength">Strength</a>
@@ -154,32 +217,37 @@ const pathname = Astro.url.pathname;
           <a href="/verses/bible-verses-about-love">Love</a>
           <a href="/verses/bible-verses-about-healing">Healing</a>
         </div>
+
       </div>
-      <!-- Prayers Dropdown -->
-<div>
-  <button id="prayers-btn" class="w-full text-left font-medium">
-    Prayers ▼
-  </button>
 
-  <div id="mobile-prayers" class="hidden mt-2 space-y-2 pl-3 text-sm">
-    <a href="/prayers/anxiety">Anxiety</a>
-    <a href="/prayers/peace">Peace</a>
-    <a href="/prayers/healing">Healing</a>
-    <a href="/prayers/strength">Strength</a>
-    <a href="/prayers/guidance">Guidance</a>
-  </div>
-</div>
+      <!-- PRAYERS -->
+      <div>
 
-      <!-- TOOLS -->
-      <a href="/tools">Tools</a>
+        <button
+          id="prayers-btn"
+          class="w-full text-left font-medium"
+        >
+          Prayers ▼
+        </button>
 
-      <!-- OTHER LINKS -->
+        <div
+          id="mobile-prayers"
+          class="hidden mt-2 space-y-2 pl-3 text-sm"
+        >
+          <a href="/prayers/anxiety">Anxiety</a>
+          <a href="/prayers/peace">Peace</a>
+          <a href="/prayers/healing">Healing</a>
+          <a href="/prayers/strength">Strength</a>
+          <a href="/prayers/guidance">Guidance</a>
+        </div>
+
+      </div>
+
+      <!-- PRIMARY MOBILE LINKS -->
+      <a href="/ask">Ask</a>
+      <a href="/teachings">Library</a>
       <a href="/plans">Plans</a>
       <a href="/bible">Bible</a>
-      <a href="/guides">Guides</a>
-      <a href="/blog">Blog</a>
-      <a href="/resources">Resources</a>
-      <a href="/about">About</a>
 
     </div>
 
@@ -187,7 +255,7 @@ const pathname = Astro.url.pathname;
 
 </nav>
 
-<!-- ✅ MODERN SCRIPT -->
+<!-- MOBILE SCRIPT -->
 <script is:inline>
   document.addEventListener("DOMContentLoaded", () => {
 

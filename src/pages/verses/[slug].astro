@@ -74,28 +74,28 @@ const related =
 
         <!-- BUTTONS -->
         <div class="grid grid-cols-2 gap-2">
-          <button id="download-btn" class="verse-action-button px-4 py-3 rounded-xl bg-[var(--color-primary)] text-white text-sm">
+          <button id="download-btn" class="btn verse-action-button px-4 py-3 rounded-xl text-sm">
             Download
           </button>
 
-          <button id="share-btn" class="verse-action-button px-4 py-3 rounded-xl border text-sm">
+          <button id="share-btn" class="btn-secondary verse-action-button px-4 py-3 rounded-xl text-sm">
             Share
           </button>
 
-          <button id="wa-btn" class="verse-action-button px-4 py-3 rounded-xl bg-green-500 text-white text-sm">
+          <button id="wa-btn" class="btn verse-action-button px-4 py-3 rounded-xl text-sm">
             WhatsApp
           </button>
 
-          <button id="copy-btn" class="verse-action-button px-4 py-3 rounded-xl border text-sm">
+          <button id="copy-btn" class="btn-secondary verse-action-button px-4 py-3 rounded-xl text-sm">
             Copy
           </button>
         </div>
 
         <!-- STYLE SELECT -->
         <div class="flex gap-2">
-          <button data-style="calm" class="style-pill flex-1">Calm</button>
-          <button data-style="modern" class="style-pill flex-1">Modern</button>
-          <button data-style="elegant" class="style-pill flex-1">Elegant</button>
+          <button data-style="calm" class="btn-secondary style-pill flex-1 px-4 py-2 rounded-xl text-sm">Calm</button>
+          <button data-style="modern" class="btn-secondary style-pill flex-1 px-4 py-2 rounded-xl text-sm">Modern</button>
+          <button data-style="elegant" class="btn-secondary style-pill flex-1 px-4 py-2 rounded-xl text-sm">Elegant</button>
         </div>
 
         <!-- INSTRUCTION -->
@@ -176,7 +176,7 @@ const related =
     href={`/prayers/${entry.data.slug
       .replace("bible-verses-for-", "")
       .replace("bible-verses-about-", "")}`}
-    class="inline-block mt-4 px-5 py-2 rounded-lg bg-[var(--color-primary)] text-white text-sm"
+    class="btn inline-block mt-4 px-5 py-2 rounded-lg text-sm"
   >
     Pray this →
   </a>
@@ -199,28 +199,6 @@ const related =
     overflow: hidden;
     cursor: pointer;
     touch-action: manipulation;
-    transition:
-      transform 140ms ease,
-      box-shadow 140ms ease,
-      filter 140ms ease,
-      opacity 140ms ease;
-    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
-  }
-
-  .verse-action-button:hover {
-    filter: brightness(1.04);
-  }
-
-  .verse-action-button:active,
-  .verse-action-button.is-pressed {
-    transform: scale(0.96);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    filter: brightness(0.94);
-  }
-
-  .verse-action-button:focus-visible {
-    outline: 3px solid color-mix(in srgb, var(--color-primary) 55%, white);
-    outline-offset: 3px;
   }
 
   .verse-action-button:disabled {

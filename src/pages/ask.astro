@@ -1,0 +1,398 @@
+---
+export const prerender = false;
+
+import AskLayout from "../layouts/AskLayout.astro";
+import teachings from "../indexes/teachings-index.json";
+
+const query =
+  Astro.url.searchParams.get("q")?.trim() || "";
+
+/* ------------------ 🧠 SYNONYMS ------------------ */
+
+const synonyms: Record<string, string[]> = {
+
+  anxious: [
+    "worry",
+    "fear",
+    "stress",
+    "overthinking"
+  ],
+
+  worry: [
+    "anxious",
+    "fear"
+  ],
+
+  stuck: [
+    "delay",
+    "waiting",
+    "blocked"
+  ],
+
+  lost: [
+    "direction",
+    "confused",
+    "purpose"
+  ],
+
+  sad: [
+    "down",
+    "heavy",
+    "depressed"
+  ],
+
+  fear: [
+    "afraid",
+    "anxious"
+  ],
+
+  pray: [
+    "prayer",
+    "seek",
+    "worship",
+    "communion"
+  ],
+
+  prayer: [
+    "pray",
+    "seeking",
+    "worship"
+  ],
+
+  trust: [
+    "faith",
+    "belief",
+    "confidence"
+  ],
+
+  waiting: [
+    "delay",
+    "patience",
+    "process"
+  ],
+
+  direction: [
+    "guidance",
+    "purpose",
+    "calling"
+  ],
+
+  purpose: [
+    "calling",
+    "assignment",
+    "direction"
+  ]
+
+};
+
+/* ------------------ 🧠 SCORING ------------------ */
+
+function scoreTeaching(
+  teaching: any,
+  words: string[]
+) {
+
+  let score = 0;
+
+  const topics =
+    teaching.topics || [];
+
+  const keywords =
+    teaching.keywords || [];
+
+  words.forEach((word) => {
+
+    if (topics.includes(word)) {
+      score += 4;
+    }
+
+    if (keywords.includes(word)) {
+      score += 3;
+    }
+
+  });
+
+  return score;
+
+}
+
+/* ------------------ 🧠 SEARCH ------------------ */
+
+let results: any[] = [];
+
+if (query) {
+
+  /* CLEAN INPUT */
+
+const stopWords = [
+  "how",
+  "to",
+  "the",
+  "a",
+  "an",
+  "and",
+  "or",
+  "why",
+  "what",
+  "is",
+  "are",
+  "i",
+  "me",
+  "my",
+  "of",
+  "in",
+  "on",
+  "for"
+];
+
+const words = query
+  .toLowerCase()
+  .replace(/[^\w\s]/g, "")
+  .split(" ")
+  .filter(Boolean)
+  .filter((word) => !stopWords.includes(word));
+
+  /* EXPAND WORDS */
+
+  const expandedWords = new Set<string>();
+
+  words.forEach((word) => {
+
+    expandedWords.add(word);
+
+    Object.entries(synonyms).forEach(([key, values]) => {
+
+      if (
+        word === key ||
+        values.includes(word)
+      ) {
+
+        expandedWords.add(key);
+
+        values.forEach((v) => {
+          expandedWords.add(v);
+        });
+
+      }
+
+    });
+
+  });
+
+  /* SCORE */
+
+  const scored = teachings.map((t) => ({
+
+    teaching: t,
+
+    score: scoreTeaching(
+      t,
+      Array.from(expandedWords)
+    ),
+
+  }));
+
+  /* SORT */
+
+  results = scored
+    .filter((t) => t.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 8)
+    .map((t) => t.teaching);
+
+}
+---
+
+<AskLayout
+  title="Ask & Grow"
+  description="Search teachings by spiritual questions, emotions, and life situations."
+>
+
+  <div class="max-w-3xl mx-auto space-y-10">
+
+    <!-- HERO -->
+    <section class="space-y-4 text-center">
+
+      <h1 class="text-3xl md:text-5xl font-semibold tracking-tight">
+        Ask & Grow
+      </h1>
+
+      <p class="text-[var(--color-muted)] max-w-2xl mx-auto">
+        Search teachings by spiritual questions,
+        emotions, seasons, and life situations.
+      </p>
+
+    </section>
+
+    <!-- SEARCH -->
+    <section>
+
+      <form
+        method="GET"
+        action="/ask"
+        class="space-y-5"
+      >
+
+        <input
+          type="text"
+          name="q"
+          value={query}
+          placeholder="Ask anything..."
+          class="w-full rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] px-5 py-4 outline-none focus:border-[var(--color-primary)] transition"
+        />
+
+        <!-- QUICK PROMPTS -->
+        <div class="flex flex-wrap gap-2">
+
+          <a
+            href="/ask?q=anxious"
+            class="quick-btn"
+          >
+            I feel anxious
+          </a>
+
+          <a
+            href="/ask?q=direction"
+            class="quick-btn"
+          >
+            I need direction
+          </a>
+
+          <a
+            href="/ask?q=trust"
+            class="quick-btn"
+          >
+            Help me trust God
+          </a>
+
+          <a
+            href="/ask?q=waiting"
+            class="quick-btn"
+          >
+            Why am I waiting?
+          </a>
+
+        </div>
+
+        <button
+          type="submit"
+          class="btn px-5 py-3 rounded-xl font-medium"
+        >
+          Search
+        </button>
+
+      </form>
+
+    </section>
+
+    <!-- RESULTS -->
+
+    {
+      query && (
+
+        <section class="space-y-6">
+
+          <div class="flex items-center justify-between">
+
+            <h2 class="text-xl font-medium">
+              Results for "{query}"
+            </h2>
+
+            <p class="text-sm text-[var(--color-muted)]">
+              {results.length} found
+            </p>
+
+          </div>
+
+          {
+            results.length > 0 ? (
+
+              <div class="space-y-4">
+
+                {results.map((result) => (
+
+                  <a
+                    href={`/teachings/${result.id}`}
+                    class="block rounded-2xl border border-[var(--color-border)] p-5 transition hover:bg-[var(--color-primary)]/5 hover:-translate-y-[2px]"
+                  >
+
+                    <h3 class="text-lg font-medium">
+                      {result.title}
+                    </h3>
+
+                    <p class="mt-2 text-sm text-[var(--color-muted)]">
+                      {result.summary}
+                    </p>
+
+                    {
+                      result.topics?.length > 0 && (
+
+                        <div class="flex flex-wrap gap-2 mt-4">
+
+                          {result.topics.map((topic: string) => (
+
+                            <span class="text-xs rounded-full border px-2 py-1 text-[var(--color-muted)]">
+                              {topic}
+                            </span>
+
+                          ))}
+
+                        </div>
+
+                      )
+                    }
+
+                  </a>
+
+                ))}
+
+              </div>
+
+            ) : (
+
+              <div class="rounded-2xl border border-[var(--color-border)] p-6">
+
+                <h3 class="font-medium">
+                  No teachings found
+                </h3>
+
+                <p class="mt-2 text-sm text-[var(--color-muted)]">
+                  Try different keywords, emotions,
+                  or spiritual topics.
+                </p>
+
+              </div>
+
+            )
+          }
+
+        </section>
+
+      )
+    }
+
+  </div>
+
+  <style>
+
+    .quick-btn {
+      border: 1px solid var(--color-border);
+      padding: 0.45rem 0.9rem;
+      border-radius: 9999px;
+      font-size: 0.875rem;
+      transition: 160ms ease;
+    }
+
+    .quick-btn:hover {
+      background: color-mix(
+        in srgb,
+        var(--color-primary) 10%,
+        transparent
+      );
+
+      transform: translateY(-1px);
+    }
+
+  </style>
+
+</AskLayout>

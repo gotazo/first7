@@ -48,13 +48,22 @@ body {
   margin: 0;
 }
 
-/* 🌙 subtle depth glow */
+/* 🌙 GLOBAL ATMOSPHERIC GLOW */
 html.dark body {
-  background: radial-gradient(
-    circle at top,
-    #16201B 0%,
-    #0E1512 60%
-  );
+  background:
+    radial-gradient(
+      circle at top,
+      rgba(143, 175, 151, 0.10) 0%,
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at bottom,
+      rgba(124, 154, 146, 0.06) 0%,
+      transparent 40%
+    ),
+    var(--color-bg);
+
+  background-attachment: fixed;
 }
 
 /* =========================
@@ -130,12 +139,12 @@ article a {
    🔘 LINKS + SELECTION
 ========================= */
 
-a:not(.btn) {
+a:not(.btn):not(.btn-secondary) {
   color: var(--color-muted);
   text-decoration: none;
 }
 
-a:not(.btn):hover {
+a:not(.btn):not(.btn-secondary):hover {
   color: var(--color-primary);
   text-decoration: underline;
 }
@@ -301,4 +310,43 @@ button:focus-visible {
 
 [data-theme-toggle]:hover svg {
   transform: scale(1.1);
+}
+
+/* =========================
+   💬 ASK UI
+========================= */
+
+.input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-soft);
+  color: var(--color-text);
+  transition: 0.2s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  background: var(--color-bg-elevated);
+}
+
+/* Answer block */
+.answer {
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-soft);
+  border-radius: 16px;
+  padding: 20px;
+  margin-top: 16px;
+}
+
+/* Sections inside answer */
+.answer-section {
+  margin-bottom: 14px;
+}
+
+.answer-section strong {
+  display: block;
+  margin-bottom: 4px;
 }

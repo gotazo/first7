@@ -86,7 +86,7 @@ const downloads = [
             <a
               href={item.file}
               download
-              class="mt-6 inline-block px-5 py-3 rounded-xl bg-[var(--color-primary)] text-white"
+              class="btn mt-6 inline-block px-5 py-3 rounded-xl"
               onclick={`gtag('event','download_click',{file:'${item.file}',type:'free'})`}
             >
               Start Day 1 →
@@ -132,7 +132,7 @@ const downloads = [
 
             <a
               href={`/unlock?file=${encodeURIComponent(item.file)}`}
-              class="mt-6 inline-block px-5 py-3 rounded-xl bg-black text-white"
+              class="btn-secondary mt-6 inline-block px-5 py-3 rounded-xl"
               onclick={`gtag('event','unlock_click',{file:'${item.file}',type:'locked'})`}
             >
               🔒 Unlock →

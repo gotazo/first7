@@ -1,0 +1,117 @@
+---
+export const prerender = false;
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import TeachingSidebar from "../../components/TeachingSidebar.astro";
+import { getCollection } from "astro:content";
+
+const teachings = await getCollection("teachings");
+
+const topics = Array.from(
+  new Set(
+    teachings.flatMap((t) => t.data.topics)
+  )
+).sort();
+
+// 🧠 Get all topics
+
+// 🧠 Get query param
+const url = new URL(Astro.request.url);
+const currentTopic = url.searchParams.get("topic");
+
+// 🧠 Filter teachings
+const filtered = currentTopic
+  ? teachings.filter((t) =>
+      t.data.topics.includes(currentTopic)
+    )
+  : [];
+---
+
+<BaseLayout title="Library">
+
+  <div class="flex flex-col lg:flex-row gap-10">
+
+    <TeachingSidebar />
+
+    <main class="flex-1">
+
+      <section class="space-y-6">
+
+        <h1 class="text-2xl font-semibold">
+          {currentTopic
+  ? currentTopic.charAt(0).toUpperCase() + currentTopic.slice(1)
+  : "Library"}
+        </h1>
+
+        {
+  currentTopic ? (
+
+    <ul class="space-y-4">
+      {filtered.map((t) => (
+        <li>
+          <a
+            href={`/teachings/${t.id}`}
+            class="block border p-4 rounded-lg hover:bg-[var(--color-primary)]/5"
+          >
+            <h2 class="font-medium">
+              {t.data.title}
+            </h2>
+
+            <p class="text-sm text-[var(--color-muted)] mt-1">
+              {t.data.summary}
+            </p>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+  ) : (
+
+    <div class="space-y-10">
+
+      <!-- INTRO -->
+      <section class="space-y-3">
+        <h2 class="text-xl font-medium">
+          Browse Teachings by Topic
+        </h2>
+
+        <p class="text-[var(--color-muted)] max-w-2xl">
+          Explore structured teachings organized by spiritual themes,
+          growth areas, and life seasons.
+        </p>
+      </section>
+
+      <!-- TOPICS GRID -->
+      <section class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+
+        {topics.map((topic) => (
+
+          <a
+            href={`/teachings?topic=${encodeURIComponent(topic)}`}
+            class="rounded-xl border p-5 hover:bg-[var(--color-primary)]/5 transition"
+          >
+            <h3 class="font-medium capitalize">
+              {topic}
+            </h3>
+
+            <p class="text-sm text-[var(--color-muted)] mt-2">
+              Explore teachings related to {topic}.
+            </p>
+          </a>
+
+        ))}
+
+      </section>
+
+    </div>
+
+  )
+}
+
+      </section>
+
+    </main>
+
+  </div>
+
+</BaseLayout>

@@ -40,10 +40,10 @@
   </div>
 
   <div class="flex flex-col sm:flex-row gap-3">
-    <button id="saveBtn" class="flex-1 bg-[var(--color-primary)] text-white py-3 text-base rounded-xl">
+    <button id="saveBtn" class="btn flex-1 py-3 text-base rounded-xl">
       Save Month
     </button>
-    <button id="resetBtn" class="border px-4 py-3 text-base rounded-xl">
+    <button id="resetBtn" class="btn-secondary px-4 py-3 text-base rounded-xl">
       Reset
     </button>
   </div>
@@ -82,11 +82,11 @@
     <p class="text-sm font-medium">Backup</p>
 
     <div class="flex gap-3 flex-wrap">
-      <button id="exportBtn" class="px-4 py-2 rounded-lg bg-[var(--color-primary)] text-white text-sm">
+      <button id="exportBtn" class="btn px-4 py-2 rounded-lg text-sm">
         Export Data
       </button>
 
-      <label class="px-4 py-2 rounded-lg border border-[var(--color-border)] text-sm cursor-pointer">
+      <label class="btn-secondary px-4 py-2 rounded-lg text-sm cursor-pointer">
         Import Data
         <input type="file" id="importInput" class="hidden" />
       </label>
@@ -99,14 +99,32 @@
 
 </div>
 
+
 <script>
+
 document.addEventListener("DOMContentLoaded", () => {
 
-  function loadData() {
-    return JSON.parse(localStorage.getItem("finance-data") || '{"funds":{"help":0,"emergency":0},"history":{},"settings":{}}');
+  type FinanceData = {
+    funds: {
+      help: number;
+      emergency: number;
+    };
+    history: Record<string, any>;
+    settings: {
+      includeFuture?: boolean;
+      goal?: number;
+      lastIncome?: number;
+    };
+  };
+
+  function loadData(): FinanceData {
+    return JSON.parse(
+      localStorage.getItem("finance-data") ||
+      '{"funds":{"help":0,"emergency":0},"history":{},"settings":{}}'
+    );
   }
 
-  function saveData(data) {
+  function saveData(data: FinanceData) {
     localStorage.setItem("finance-data", JSON.stringify(data));
   }
 
@@ -114,185 +132,380 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.removeItem("finance-data");
   }
 
-  function calculate(income, includeFuture) {
+  function calculate(
+    income: number,
+    includeFuture: boolean
+  ) {
+
     const tithe = income * 0.10;
     const help = income * 0.05;
     const emergency = income * 0.05;
     const future = includeFuture ? income * 0.10 : 0;
-    const living = income - (tithe + help + emergency + future);
 
-    return { income, tithe, help, emergency, future, living };
+    const living =
+      income - (tithe + help + emergency + future);
+
+    return {
+      income,
+      tithe,
+      help,
+      emergency,
+      future,
+      living
+    };
+
   }
 
   let data = loadData();
 
-  // ✅ Typed elements
-  const incomeEl = document.getElementById("income");
-  const toggleEl = document.getElementById("futureToggle");
-  const dot = document.getElementById("toggleDot");
+  /* ELEMENTS */
 
-  const titheEl = document.getElementById("tithe");
-  const helpEl = document.getElementById("help");
-  const emergencyEl = document.getElementById("emergency");
-  const futureEl = document.getElementById("future");
-  const livingEl = document.getElementById("living");
+  const incomeEl =
+    document.getElementById("income") as HTMLInputElement;
 
-  const helpPendingEl = document.getElementById("helpPending");
-  const emergencyPendingEl = document.getElementById("emergencyPending");
+  const toggleEl =
+    document.getElementById("futureToggle") as HTMLButtonElement;
 
-  const helpFundEl = document.getElementById("helpFund");
-  const emergencyFundEl = document.getElementById("emergencyFund");
+  const dot =
+    document.getElementById("toggleDot") as HTMLElement;
 
-  const saveBtn = document.getElementById("saveBtn");
-  const resetBtn = document.getElementById("resetBtn");
+  const titheEl =
+    document.getElementById("tithe") as HTMLElement;
 
-  const exportBtn = document.getElementById("exportBtn");
-  const importInput = document.getElementById("importInput");
+  const helpEl =
+    document.getElementById("help") as HTMLElement;
 
-  const historyList = document.getElementById("historyList");
+  const emergencyEl =
+    document.getElementById("emergency") as HTMLElement;
 
-  const goalInput = document.getElementById("goalInput");
-  const goalBar = document.getElementById("goalBar");
-  const goalCurrent = document.getElementById("goalCurrent");
-  const goalTarget = document.getElementById("goalTarget");
+  const futureEl =
+    document.getElementById("future") as HTMLElement;
 
-  // ✅ Null safety guard (important)
+  const livingEl =
+    document.getElementById("living") as HTMLElement;
+
+  const helpPendingEl =
+    document.getElementById("helpPending") as HTMLElement;
+
+  const emergencyPendingEl =
+    document.getElementById("emergencyPending") as HTMLElement;
+
+  const helpFundEl =
+    document.getElementById("helpFund") as HTMLElement;
+
+  const emergencyFundEl =
+    document.getElementById("emergencyFund") as HTMLElement;
+
+  const saveBtn =
+    document.getElementById("saveBtn") as HTMLButtonElement;
+
+  const resetBtn =
+    document.getElementById("resetBtn") as HTMLButtonElement;
+
+  const exportBtn =
+    document.getElementById("exportBtn") as HTMLButtonElement;
+
+  const importInput =
+    document.getElementById("importInput") as HTMLInputElement;
+
+  const historyList =
+    document.getElementById("historyList") as HTMLElement;
+
+  const goalInput =
+    document.getElementById("goalInput") as HTMLInputElement;
+
+  const goalBar =
+    document.getElementById("goalBar") as HTMLElement;
+
+  const goalCurrent =
+    document.getElementById("goalCurrent") as HTMLElement;
+
+  const goalTarget =
+    document.getElementById("goalTarget") as HTMLElement;
+
+  /* SAFETY */
+
   if (
     !incomeEl || !toggleEl || !dot ||
-    !titheEl || !helpEl || !emergencyEl || !futureEl || !livingEl ||
+    !titheEl || !helpEl || !emergencyEl ||
+    !futureEl || !livingEl ||
     !helpPendingEl || !emergencyPendingEl ||
     !helpFundEl || !emergencyFundEl ||
     !saveBtn || !resetBtn ||
     !exportBtn || !importInput ||
     !historyList ||
-    !goalInput || !goalBar || !goalCurrent || !goalTarget
+    !goalInput || !goalBar ||
+    !goalCurrent || !goalTarget
   ) return;
 
-  let includeFuture = data.settings.includeFuture ?? false;
-  let goal = data.settings.goal || 0;
+  /* SETTINGS */
 
-  incomeEl.value = data.settings.lastIncome || "";
-  goalInput.value = goal || "";
+  let includeFuture =
+    data.settings.includeFuture ?? false;
 
-  function format(v) {
+  let goal =
+    data.settings.goal || 0;
+
+  incomeEl.value =
+    String(data.settings.lastIncome || "");
+
+  goalInput.value =
+    String(goal || "");
+
+  function format(v: number) {
     return "₹" + Math.round(v || 0);
   }
 
   function updateToggle() {
+
     if (includeFuture) {
-      toggleEl.classList.add("bg-[var(--color-primary)]");
-      toggleEl.classList.remove("bg-[var(--color-border)]");
-      dot.style.transform = "translateX(24px)";
+
+      toggleEl.classList.add(
+        "bg-[var(--color-primary)]"
+      );
+
+      toggleEl.classList.remove(
+        "bg-[var(--color-border)]"
+      );
+
+      dot.style.transform =
+        "translateX(24px)";
+
     } else {
-      toggleEl.classList.add("bg-[var(--color-border)]");
-      toggleEl.classList.remove("bg-[var(--color-primary)]");
-      dot.style.transform = "translateX(0)";
+
+      toggleEl.classList.add(
+        "bg-[var(--color-border)]"
+      );
+
+      toggleEl.classList.remove(
+        "bg-[var(--color-primary)]"
+      );
+
+      dot.style.transform =
+        "translateX(0)";
     }
+
   }
 
   toggleEl.addEventListener("click", () => {
+
     includeFuture = !includeFuture;
-    data.settings.includeFuture = includeFuture;
+
+    data.settings.includeFuture =
+      includeFuture;
+
     updateToggle();
+
     runCalc();
+
   });
 
   function runCalc() {
-    const income = Number(incomeEl.value || 0);
-    const r = calculate(income, includeFuture);
 
-    titheEl.innerText = format(r.tithe);
-    helpEl.innerText = format(r.help);
-    emergencyEl.innerText = format(r.emergency);
-    futureEl.innerText = format(r.future);
-    livingEl.innerText = format(r.living);
+    const income =
+      Number(incomeEl.value || 0);
 
-    helpPendingEl.innerText = String(Math.round(r.help));
-    emergencyPendingEl.innerText = String(Math.round(r.emergency));
+    const r = calculate(
+      income,
+      includeFuture
+    );
+
+    titheEl.innerText =
+      format(r.tithe);
+
+    helpEl.innerText =
+      format(r.help);
+
+    emergencyEl.innerText =
+      format(r.emergency);
+
+    futureEl.innerText =
+      format(r.future);
+
+    livingEl.innerText =
+      format(r.living);
+
+    helpPendingEl.innerText =
+      String(Math.round(r.help));
+
+    emergencyPendingEl.innerText =
+      String(Math.round(r.emergency));
 
     return r;
+
   }
 
   function updateFunds() {
-    helpFundEl.innerText = format(data.funds.help);
-    emergencyFundEl.innerText = format(data.funds.emergency);
+
+    helpFundEl.innerText =
+      format(data.funds.help);
+
+    emergencyFundEl.innerText =
+      format(data.funds.emergency);
+
   }
 
   function updateGoal() {
-    goal = Number(goalInput.value || 0);
+
+    goal =
+      Number(goalInput.value || 0);
+
     data.settings.goal = goal;
 
-    const current = data.funds.emergency;
+    const current =
+      data.funds.emergency;
 
-    goalCurrent.innerText = format(current);
-    goalTarget.innerText = format(goal);
+    goalCurrent.innerText =
+      format(current);
 
-    const percent = goal ? Math.min((current / goal) * 100, 100) : 0;
-    goalBar.style.width = percent + "%";
+    goalTarget.innerText =
+      format(goal);
+
+    const percent = goal
+      ? Math.min((current / goal) * 100, 100)
+      : 0;
+
+    goalBar.style.width =
+      percent + "%";
 
     saveData(data);
+
   }
 
   function renderHistory() {
+
     historyList.innerHTML = "";
 
-    Object.entries(data.history || {}).reverse().forEach(([month, val]) => {
-      const div = document.createElement("div");
-      div.className = "flex justify-between border-b pb-1";
-      div.innerHTML = `<span>${month}</span><span>${format(val.income)}</span>`;
-      historyList.appendChild(div);
-    });
+    Object.entries(data.history || {})
+      .reverse()
+      .forEach(([month, val]) => {
+
+        const entry = val as any;
+
+        const div =
+          document.createElement("div");
+
+        div.className =
+          "flex justify-between border-b pb-1";
+
+        div.innerHTML = `
+          <span>${month}</span>
+          <span>${format(entry.income)}</span>
+        `;
+
+        historyList.appendChild(div);
+
+      });
+
   }
 
-  incomeEl.addEventListener("input", runCalc);
-  goalInput.addEventListener("input", updateGoal);
+  incomeEl.addEventListener(
+    "input",
+    runCalc
+  );
+
+  goalInput.addEventListener(
+    "input",
+    updateGoal
+  );
 
   saveBtn.addEventListener("click", () => {
-    const r = runCalc();
-    const m = new Date().toISOString().slice(0, 7);
 
-    data.settings.lastIncome = r.income;
-    data.funds.help += r.help;
-    data.funds.emergency += r.emergency;
-    data.history[m] = r;
+    const r = runCalc();
+
+    const month =
+      new Date()
+        .toISOString()
+        .slice(0, 7);
+
+    data.settings.lastIncome =
+      r.income;
+
+    data.funds.help +=
+      r.help;
+
+    data.funds.emergency +=
+      r.emergency;
+
+    data.history[month] = r;
 
     saveData(data);
+
     updateFunds();
     updateGoal();
     renderHistory();
+
   });
 
   resetBtn.addEventListener("click", () => {
+
     if (confirm("Reset all data?")) {
+
       resetData();
+
       location.reload();
+
     }
+
   });
 
   exportBtn.addEventListener("click", () => {
-    const blob = new Blob([JSON.stringify(data)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
 
-    const a = document.createElement("a");
+    const blob = new Blob(
+      [JSON.stringify(data)],
+      { type: "application/json" }
+    );
+
+    const url =
+      URL.createObjectURL(blob);
+
+    const a =
+      document.createElement("a");
+
     a.href = url;
-    a.download = "finance-data.json";
+
+    a.download =
+      "finance-data.json";
+
     a.click();
 
     URL.revokeObjectURL(url);
+
   });
 
-  importInput.addEventListener("change", (e) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
+  importInput.addEventListener(
+    "change",
+    (e: Event) => {
 
-    const reader = new FileReader();
-    reader.onload = (ev) => {
-      data = JSON.parse(ev.target?.result);
-      saveData(data);
-      location.reload();
-    };
-    reader.readAsText(file);
-  });
+      const target =
+        e.target as HTMLInputElement;
+
+      const file =
+        target.files?.[0];
+
+      if (!file) return;
+
+      const reader =
+        new FileReader();
+
+      reader.onload = (ev) => {
+
+        const result =
+          ev.target?.result as string;
+
+        data =
+          JSON.parse(result);
+
+        saveData(data);
+
+        location.reload();
+
+      };
+
+      reader.readAsText(file);
+
+    }
+  );
 
   updateToggle();
   updateFunds();
@@ -301,4 +514,5 @@ document.addEventListener("DOMContentLoaded", () => {
   runCalc();
 
 });
+
 </script>

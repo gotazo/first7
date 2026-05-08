@@ -21,7 +21,7 @@ const file = Astro.url.searchParams.get("file");
       class="w-full px-4 py-3 border rounded-xl"
     />
 
-    <button class="w-full px-4 py-3 bg-black text-white rounded-xl">
+    <button class="btn w-full px-4 py-3 rounded-xl">
       Unlock →
     </button>
   </form>
@@ -31,7 +31,7 @@ const file = Astro.url.searchParams.get("file");
       <a
         href={file}
         download
-        class="inline-block px-5 py-3 rounded-xl bg-[var(--color-primary)] text-white"
+        class="btn inline-block px-5 py-3 rounded-xl"
       >
         Download Now →
       </a>

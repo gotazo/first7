@@ -1,0 +1,49 @@
+---
+import { getCollection } from "astro:content";
+
+const teachings = await getCollection("teachings");
+
+const topics = Array.from(
+  new Set(
+    teachings.flatMap((t) => t.data.topics)
+  )
+).sort();
+
+const currentTopic = Astro.url.searchParams.get("topic");
+---
+
+<aside class="w-56 shrink-0 sticky top-24 self-start">
+
+  <p class="text-sm font-medium mb-4">
+    Topics
+  </p>
+
+  <nav class="space-y-2">
+
+    <a
+      href="/teachings"
+      class={`block text-sm ${
+        !currentTopic
+          ? "text-white font-medium"
+          : "text-[var(--color-muted)]"
+      }`}
+    >
+      All Teachings
+    </a>
+
+    {topics.map((topic) => (
+      <a
+        href={`/teachings?topic=${encodeURIComponent(topic)}`}
+        class={`block text-sm ${
+          currentTopic === topic
+            ? "text-white font-medium"
+            : "text-[var(--color-muted)]"
+        }`}
+      >
+        {topic}
+      </a>
+    ))}
+
+  </nav>
+
+</aside>

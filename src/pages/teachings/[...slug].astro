@@ -1,0 +1,89 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import TeachingSidebar from "../../components/TeachingSidebar.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const teachings = await getCollection("teachings");
+
+  return teachings.map((t) => ({
+    params: {
+      slug: t.id,
+    },
+    props: {
+      teaching: t,
+    },
+  }));
+}
+
+const { teaching } = Astro.props;
+---
+
+<BaseLayout title={teaching.data.title}>
+
+  <div class="flex gap-10">
+
+    <TeachingSidebar />
+
+    <main class="flex-1">
+
+      <article class="max-w-3xl space-y-10">
+
+    <header class="space-y-4">
+      <h1 class="text-4xl font-semibold">
+        {teaching.data.title}
+      </h1>
+
+      <p class="text-lg text-[var(--color-muted)]">
+        {teaching.data.summary}
+      </p>
+    </header>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-medium">Scripture</h2>
+
+      <blockquote class="border-l-2 pl-4 italic">
+        <p>{teaching.data.scripture.text}</p>
+        <footer class="mt-2 text-sm text-[var(--color-muted)]">
+          {teaching.data.scripture.ref}
+        </footer>
+      </blockquote>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-medium">Truth</h2>
+      <p>{teaching.data.truth}</p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-medium">Insight</h2>
+
+      <ul class="list-disc pl-6 space-y-2">
+        {teaching.data.insight.map((i: string) => (
+          <li>{i}</li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-medium">Application</h2>
+
+      <ul class="list-disc pl-6 space-y-2">
+        {teaching.data.application.map((a: string) => (
+          <li>{a}</li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-medium">Prayer</h2>
+      <p>{teaching.data.prayer}</p>
+    </section>
+
+       </article>
+
+    </main>
+
+  </div>
+
+</BaseLayout>

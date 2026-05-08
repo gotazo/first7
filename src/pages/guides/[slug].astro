@@ -18,7 +18,8 @@ const { entry } = Astro.props as { entry: GuideEntry };
 const { Content } = await render(entry);
 
 // 📚 Get all guides sorted (optional — if you add date later)
-const allGuides: GuideEntry[] = await getCollection('guides');
+const allGuides = (await getCollection('guides'))
+  .sort((a, b) => a.id.localeCompare(b.id));
 
 // Find current index
 const currentIndex = allGuides.findIndex((g: GuideEntry) => g.id === entry.id);
@@ -35,7 +36,7 @@ const plan = "anxiety";
   <!-- 📊 PROGRESS BAR -->
   <div
     id="reading-progress"
-    class="fixed top-0 left-0 h-1 bg-[var(--color-primary)] w-0 z-50"
+    class="fixed top-0 left-0 h-1 bg-[var(--color-primary)] w-0 z-50 transition-[width] duration-150 ease-out"
   ></div>
 
   <!-- ✅ SAME SYSTEM AS BLOG -->
@@ -60,7 +61,7 @@ const plan = "anxiety";
         </header>
 
         <!-- CONTENT -->
-        <div class="prose prose-neutral dark:prose-invert max-w-none text-lg leading-relaxed">
+        <div class="max-w-none text-lg leading-relaxed">
           <Content />
         </div>
 
@@ -70,7 +71,7 @@ const plan = "anxiety";
           {prevGuide && (
             <a
               href={`/guides/${prevGuide.id}`}
-              class="block rounded-xl border border-[var(--color-border)] p-4 hover:bg-[var(--color-primary)]/5 transition"
+              class="block rounded-xl border border-[var(--color-border)] p-4 card p-4 text-right transition"
             >
               <p class="text-xs text-[var(--color-muted)]">← Previous</p>
               <p class="mt-1 font-medium">{prevGuide.data.title}</p>
@@ -80,7 +81,7 @@ const plan = "anxiety";
           {nextGuide && (
             <a
               href={`/guides/${nextGuide.id}`}
-              class="block rounded-xl border border-[var(--color-border)] p-4 text-right hover:bg-[var(--color-primary)]/5 transition"
+              class="block rounded-xl border border-[var(--color-border)] p-4 text-right card p-4 transition"
             >
               <p class="text-xs text-[var(--color-muted)]">Next →</p>
               <p class="mt-1 font-medium">{nextGuide.data.title}</p>
@@ -100,18 +101,18 @@ const plan = "anxiety";
 
           <div class="flex flex-wrap justify-center gap-4">
             <a
-              href={`/plans/${plan}/day-1`}
-              class="px-5 py-2.5 rounded-lg bg-[var(--color-primary)] text-white hover:opacity-90 transition"
-            >
-              Begin a journey →
-            </a>
+  href={`/plans/${plan}/day-1`}
+  class="btn px-5 py-2.5 rounded-lg"
+>
+  Begin a journey →
+</a>
 
             <a
-              href="/guides"
-              class="px-5 py-2.5 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] transition"
-            >
-              ← Back to guides
-            </a>
+  href="/guides"
+  class="btn-secondary px-5 py-2.5 rounded-lg"
+>
+  ← Back to guides
+</a>
           </div>
         </section>
 

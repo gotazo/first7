@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const {
+  title = "Ask & Grow",
+  description = "Ask questions and grow in faith."
+} = Astro.props;
+---
+
+<BaseLayout title={title} description={description} full>
+
+  <div class="min-h-[80vh] flex flex-col">
+
+    <!-- Main interactive area -->
+    <div class="flex-1 w-full">
+      <div class="max-w-3xl mx-auto px-4 pb-12">
+        <slot />
+      </div>
+    </div>
+
+  </div>
+
+</BaseLayout>
