@@ -1,6 +1,4 @@
 ---
-export const prerender = false;
-
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import TeachingSidebar from "../../components/TeachingSidebar.astro";
 import { getCollection } from "astro:content";
@@ -16,7 +14,7 @@ const topics = Array.from(
 // 🧠 Get all topics
 
 // 🧠 Get query param
-const url = new URL(Astro.request.url);
+const url = new URL(Astro.url);
 const currentTopic = url.searchParams.get("topic");
 
 // 🧠 Filter teachings
