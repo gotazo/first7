@@ -1,204 +1,16 @@
 ---
+import { getCollection } from "astro:content";
 import AskLayout from "../layouts/AskLayout.astro";
-import teachings from "../indexes/teachings-index.json";
 
-const query =
-  Astro.url.searchParams.get("q")?.trim() || "";
+const teachings = await getCollection("teachings");
 
-/* ------------------ 🧠 SYNONYMS ------------------ */
-
-const synonyms: Record<string, string[]> = {
-
-  anxious: [
-    "worry",
-    "fear",
-    "stress",
-    "overthinking"
-  ],
-
-  worry: [
-    "anxious",
-    "fear"
-  ],
-
-  stuck: [
-    "delay",
-    "waiting",
-    "blocked"
-  ],
-
-  lost: [
-    "direction",
-    "confused",
-    "purpose"
-  ],
-
-  sad: [
-    "down",
-    "heavy",
-    "depressed"
-  ],
-
-  fear: [
-    "afraid",
-    "anxious"
-  ],
-
-  pray: [
-    "prayer",
-    "seek",
-    "worship",
-    "communion"
-  ],
-
-  prayer: [
-    "pray",
-    "seeking",
-    "worship"
-  ],
-
-  trust: [
-    "faith",
-    "belief",
-    "confidence"
-  ],
-
-  waiting: [
-    "delay",
-    "patience",
-    "process"
-  ],
-
-  direction: [
-    "guidance",
-    "purpose",
-    "calling"
-  ],
-
-  purpose: [
-    "calling",
-    "assignment",
-    "direction"
-  ]
-
-};
-
-/* ------------------ 🧠 SCORING ------------------ */
-
-function scoreTeaching(
-  teaching: any,
-  words: string[]
-) {
-
-  let score = 0;
-
-  const topics =
-    teaching.topics || [];
-
-  const keywords =
-    teaching.keywords || [];
-
-  words.forEach((word) => {
-
-    if (topics.includes(word)) {
-      score += 4;
-    }
-
-    if (keywords.includes(word)) {
-      score += 3;
-    }
-
-  });
-
-  return score;
-
-}
-
-/* ------------------ 🧠 SEARCH ------------------ */
-
-let results: any[] = [];
-
-if (query) {
-
-  /* CLEAN INPUT */
-
-const stopWords = [
-  "how",
-  "to",
-  "the",
-  "a",
-  "an",
-  "and",
-  "or",
-  "why",
-  "what",
-  "is",
-  "are",
-  "i",
-  "me",
-  "my",
-  "of",
-  "in",
-  "on",
-  "for"
-];
-
-const words = query
-  .toLowerCase()
-  .replace(/[^\w\s]/g, "")
-  .split(" ")
-  .filter(Boolean)
-  .filter((word) => !stopWords.includes(word));
-
-  /* EXPAND WORDS */
-
-  const expandedWords = new Set<string>();
-
-  words.forEach((word) => {
-
-    expandedWords.add(word);
-
-    Object.entries(synonyms).forEach(([key, values]) => {
-
-      if (
-        word === key ||
-        values.includes(word)
-      ) {
-
-        expandedWords.add(key);
-
-        values.forEach((v) => {
-          expandedWords.add(v);
-        });
-
-      }
-
-    });
-
-  });
-
-  /* SCORE */
-
-  const scored = teachings.map((t) => ({
-
-    teaching: t,
-
-    score: scoreTeaching(
-      t,
-      Array.from(expandedWords)
-    ),
-
-  }));
-
-  /* SORT */
-
-  results = scored
-    .filter((t) => t.score > 0)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 8)
-    .map((t) => t.teaching);
-
-}
+const searchData = teachings.map((teaching) => ({
+  id: teaching.id,
+  title: teaching.data.title,
+  summary: teaching.data.summary,
+  topics: teaching.data.topics || [],
+  keywords: teaching.data.keywords || [],
+}));
 ---
 
 <AskLayout
@@ -226,15 +38,14 @@ const words = query
     <section>
 
       <form
-        method="GET"
-        action="/ask"
+        id="ask-search-form"
         class="space-y-5"
       >
 
         <input
+          id="ask-search-input"
           type="text"
           name="q"
-          value={query}
           placeholder="Ask anything..."
           class="w-full rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] px-5 py-4 outline-none focus:border-[var(--color-primary)] transition"
         />
@@ -242,33 +53,37 @@ const words = query
         <!-- QUICK PROMPTS -->
         <div class="flex flex-wrap gap-2">
 
-          <a
-            href="/ask?q=anxious"
+          <button
+            type="button"
             class="quick-btn"
+            data-query="anxious"
           >
             I feel anxious
-          </a>
+          </button>
 
-          <a
-            href="/ask?q=direction"
+          <button
+            type="button"
             class="quick-btn"
+            data-query="direction"
           >
             I need direction
-          </a>
+          </button>
 
-          <a
-            href="/ask?q=trust"
+          <button
+            type="button"
             class="quick-btn"
+            data-query="trust"
           >
             Help me trust God
-          </a>
+          </button>
 
-          <a
-            href="/ask?q=waiting"
+          <button
+            type="button"
             class="quick-btn"
+            data-query="waiting"
           >
             Why am I waiting?
-          </a>
+          </button>
 
         </div>
 
@@ -284,92 +99,244 @@ const words = query
     </section>
 
     <!-- RESULTS -->
+    <section
+      id="ask-results-section"
+      class="hidden space-y-6"
+    >
 
-    {
-      query && (
+      <div class="flex items-center justify-between gap-4">
 
-        <section class="space-y-6">
+        <h2
+          id="ask-results-title"
+          class="text-xl font-medium"
+        ></h2>
 
-          <div class="flex items-center justify-between">
+        <p
+          id="ask-results-count"
+          class="text-sm text-[var(--color-muted)]"
+        ></p>
 
-            <h2 class="text-xl font-medium">
-              Results for "{query}"
-            </h2>
+      </div>
 
-            <p class="text-sm text-[var(--color-muted)]">
-              {results.length} found
-            </p>
+      <div
+        id="ask-results"
+        class="space-y-4"
+      ></div>
 
-          </div>
-
-          {
-            results.length > 0 ? (
-
-              <div class="space-y-4">
-
-                {results.map((result) => (
-
-                  <a
-                    href={`/teachings/${result.id}`}
-                    class="block rounded-2xl border border-[var(--color-border)] p-5 transition hover:bg-[var(--color-primary)]/5 hover:-translate-y-[2px]"
-                  >
-
-                    <h3 class="text-lg font-medium">
-                      {result.title}
-                    </h3>
-
-                    <p class="mt-2 text-sm text-[var(--color-muted)]">
-                      {result.summary}
-                    </p>
-
-                    {
-                      result.topics?.length > 0 && (
-
-                        <div class="flex flex-wrap gap-2 mt-4">
-
-                          {result.topics.map((topic: string) => (
-
-                            <span class="text-xs rounded-full border px-2 py-1 text-[var(--color-muted)]">
-                              {topic}
-                            </span>
-
-                          ))}
-
-                        </div>
-
-                      )
-                    }
-
-                  </a>
-
-                ))}
-
-              </div>
-
-            ) : (
-
-              <div class="rounded-2xl border border-[var(--color-border)] p-6">
-
-                <h3 class="font-medium">
-                  No teachings found
-                </h3>
-
-                <p class="mt-2 text-sm text-[var(--color-muted)]">
-                  Try different keywords, emotions,
-                  or spiritual topics.
-                </p>
-
-              </div>
-
-            )
-          }
-
-        </section>
-
-      )
-    }
+    </section>
 
   </div>
+
+  <script type="application/json" id="teachings-search-data" set:html={JSON.stringify(searchData)} />
+
+  <script>
+    type TeachingSearchItem = {
+      id: string;
+      title: string;
+      summary: string;
+      topics: string[];
+      keywords: string[];
+    };
+
+    const dataEl = document.getElementById("teachings-search-data");
+    const teachings = JSON.parse(dataEl?.textContent || "[]") as TeachingSearchItem[];
+
+    const form = document.getElementById("ask-search-form") as HTMLFormElement | null;
+    const input = document.getElementById("ask-search-input") as HTMLInputElement | null;
+    const section = document.getElementById("ask-results-section");
+    const title = document.getElementById("ask-results-title");
+    const count = document.getElementById("ask-results-count");
+    const resultsEl = document.getElementById("ask-results");
+
+    const synonyms: Record<string, string[]> = {
+      anxious: ["worry", "fear", "stress", "overthinking"],
+      worry: ["anxious", "fear"],
+      stuck: ["delay", "waiting", "blocked"],
+      lost: ["direction", "confused", "purpose"],
+      sad: ["down", "heavy", "depressed"],
+      fear: ["afraid", "anxious"],
+      pray: ["prayer", "seek", "worship", "communion"],
+      prayer: ["pray", "seeking", "worship"],
+      trust: ["faith", "belief", "confidence"],
+      waiting: ["delay", "patience", "process"],
+      direction: ["guidance", "purpose", "calling"],
+      purpose: ["calling", "assignment", "direction"],
+    };
+
+    const stopWords = new Set([
+      "how",
+      "to",
+      "the",
+      "a",
+      "an",
+      "and",
+      "or",
+      "why",
+      "what",
+      "is",
+      "are",
+      "i",
+      "me",
+      "my",
+      "of",
+      "in",
+      "on",
+      "for",
+    ]);
+
+    function getWords(query: string) {
+      const words = query
+        .toLowerCase()
+        .replace(/[^\w\s]/g, "")
+        .split(" ")
+        .filter(Boolean)
+        .filter((word) => !stopWords.has(word));
+
+      const expandedWords = new Set<string>();
+
+      words.forEach((word) => {
+        expandedWords.add(word);
+
+        Object.entries(synonyms).forEach(([key, values]) => {
+          if (word === key || values.includes(word)) {
+            expandedWords.add(key);
+            values.forEach((value) => expandedWords.add(value));
+          }
+        });
+      });
+
+      return Array.from(expandedWords);
+    }
+
+    function scoreTeaching(teaching: TeachingSearchItem, words: string[]) {
+      let score = 0;
+      const title = teaching.title.toLowerCase();
+      const summary = teaching.summary.toLowerCase();
+      const topics = teaching.topics.map((topic) => topic.toLowerCase());
+      const keywords = teaching.keywords.map((keyword) => keyword.toLowerCase());
+
+      words.forEach((word) => {
+        if (topics.includes(word)) score += 4;
+        if (keywords.includes(word)) score += 3;
+        if (title.includes(word)) score += 2;
+        if (summary.includes(word)) score += 1;
+      });
+
+      return score;
+    }
+
+    function renderEmpty(query: string) {
+      if (!section || !title || !count || !resultsEl) return;
+
+      section.classList.remove("hidden");
+      title.textContent = `Results for "${query}"`;
+      count.textContent = "0 found";
+      resultsEl.innerHTML = `
+        <div class="rounded-2xl border border-[var(--color-border)] p-6">
+          <h3 class="font-medium">No teachings found</h3>
+          <p class="mt-2 text-sm text-[var(--color-muted)]">
+            Try different keywords, emotions, or spiritual topics.
+          </p>
+        </div>
+      `;
+    }
+
+    function renderResults(query: string) {
+      if (!section || !title || !count || !resultsEl) return;
+
+      const trimmedQuery = query.trim();
+
+      if (!trimmedQuery) {
+        section.classList.add("hidden");
+        resultsEl.replaceChildren();
+        return;
+      }
+
+      const words = getWords(trimmedQuery);
+      const results = teachings
+        .map((teaching) => ({
+          teaching,
+          score: scoreTeaching(teaching, words),
+        }))
+        .filter((result) => result.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 8)
+        .map((result) => result.teaching);
+
+      if (results.length === 0) {
+        renderEmpty(trimmedQuery);
+        return;
+      }
+
+      section.classList.remove("hidden");
+      title.textContent = `Results for "${trimmedQuery}"`;
+      count.textContent = `${results.length} found`;
+      resultsEl.replaceChildren();
+
+      results.forEach((result) => {
+        const link = document.createElement("a");
+        link.href = `/teachings/${result.id}`;
+        link.className =
+          "block rounded-2xl border border-[var(--color-border)] p-5 transition hover:bg-[var(--color-primary)]/5 hover:-translate-y-[2px]";
+
+        const heading = document.createElement("h3");
+        heading.className = "text-lg font-medium";
+        heading.textContent = result.title;
+
+        const summary = document.createElement("p");
+        summary.className = "mt-2 text-sm text-[var(--color-muted)]";
+        summary.textContent = result.summary;
+
+        link.append(heading, summary);
+
+        if (result.topics.length > 0) {
+          const topics = document.createElement("div");
+          topics.className = "flex flex-wrap gap-2 mt-4";
+
+          result.topics.forEach((topic) => {
+            const tag = document.createElement("span");
+            tag.className = "text-xs rounded-full border px-2 py-1 text-[var(--color-muted)]";
+            tag.textContent = topic;
+            topics.append(tag);
+          });
+
+          link.append(topics);
+        }
+
+        resultsEl.append(link);
+      });
+    }
+
+    function runSearch(query: string, updateUrl = true) {
+      if (input) input.value = query;
+      renderResults(query);
+
+      if (updateUrl) {
+        const url = new URL(window.location.href);
+
+        if (query.trim()) {
+          url.searchParams.set("q", query.trim());
+        } else {
+          url.searchParams.delete("q");
+        }
+
+        window.history.replaceState({}, "", url);
+      }
+    }
+
+    form?.addEventListener("submit", (event) => {
+      event.preventDefault();
+      runSearch(input?.value || "");
+    });
+
+    document.querySelectorAll<HTMLButtonElement>("[data-query]").forEach((button) => {
+      button.addEventListener("click", () => {
+        runSearch(button.dataset.query || "");
+      });
+    });
+
+    runSearch(new URLSearchParams(window.location.search).get("q") || "", false);
+  </script>
 
   <style>
 

@@ -1,5 +1,24 @@
 ---
+import { getCollection } from "astro:content";
+
 const year = new Date().getFullYear();
+
+const teachings = await getCollection("teachings");
+
+function getTopicHref(topic: string) {
+  return (
+    teachings
+      .filter((teaching) => teaching.data.topics.includes(topic))
+      .sort((a, b) => a.data.title.localeCompare(b.data.title))[0]?.id || ""
+  );
+}
+
+const topicLinks = [
+  { href: `/teachings/${getTopicHref("vision")}`, label: "Vision" },
+  { href: `/teachings/${getTopicHref("faith")}`, label: "Faith" },
+  { href: `/teachings/${getTopicHref("purpose")}`, label: "Purpose" },
+  { href: `/teachings/${getTopicHref("identity")}`, label: "Identity" }
+].filter((link) => link.href !== "/teachings/");
 ---
 
 <footer class="mt-20 border-t border-[var(--color-border)] bg-[var(--color-bg)] text-[var(--color-muted)]">
@@ -54,12 +73,7 @@ const year = new Date().getFullYear();
         },
         {
           title: "Topics",
-          links: [
-            { href: "/teachings?topic=vision", label: "Vision" },
-            { href: "/teachings?topic=faith", label: "Faith" },
-            { href: "/teachings?topic=purpose", label: "Purpose" },
-            { href: "/teachings?topic=identity", label: "Identity" }
-          ]
+          links: topicLinks
         },
         {
           title: "Company",
@@ -142,10 +156,13 @@ const year = new Date().getFullYear();
         </p>
 
         <ul class="mt-3 space-y-2 text-sm">
-          <li><a href="/teachings?topic=vision" class="hover:text-[var(--color-text)]">Vision</a></li>
-          <li><a href="/teachings?topic=faith" class="hover:text-[var(--color-text)]">Faith</a></li>
-          <li><a href="/teachings?topic=purpose" class="hover:text-[var(--color-text)]">Purpose</a></li>
-          <li><a href="/teachings?topic=identity" class="hover:text-[var(--color-text)]">Identity</a></li>
+          {topicLinks.map((link) => (
+            <li>
+              <a href={link.href} class="hover:text-[var(--color-text)]">
+                {link.label}
+              </a>
+            </li>
+          ))}
         </ul>
 
       </div>

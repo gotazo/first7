@@ -10,7 +10,7 @@ export async function getStaticPaths() {
 
   return teachings.map((t) => ({
     params: {
-      slug: t.id,
+      slug: String(t.id),
     },
     props: {
       teaching: t,

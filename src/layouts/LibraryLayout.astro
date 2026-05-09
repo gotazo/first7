@@ -1,5 +1,5 @@
 ---
-const { topics = [], currentTopic } = Astro.props;
+const { topics = [] } = Astro.props;
 ---
 
 <div class="flex gap-10">
@@ -12,12 +12,8 @@ const { topics = [], currentTopic } = Astro.props;
       {topics.map((topic: string) => (
 
         <a
-          href={`/teachings?topic=${encodeURIComponent(topic)}`}
-          class={`block text-sm ${
-            topic === currentTopic
-              ? "font-medium text-white"
-              : "text-[var(--color-muted)]"
-          }`}
+          href="/teachings"
+          class="block text-sm text-[var(--color-muted)]"
         >
           {topic}
         </a>

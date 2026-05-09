@@ -3,13 +3,21 @@ import { getCollection } from "astro:content";
 
 const teachings = await getCollection("teachings");
 
-const topics = Array.from(
-  new Set(
-    teachings.flatMap((t) => t.data.topics)
-  )
-).sort();
+const topics = Array.from(new Set(teachings.flatMap((t) => t.data.topics))).sort();
+const currentPath = Astro.url.pathname.replace(/\/$/, "");
 
-const currentTopic = Astro.url.searchParams.get("topic");
+const topicLinks = topics
+  .map((topic) => {
+    const firstTeaching = teachings
+      .filter((t) => t.data.topics.includes(topic))
+      .sort((a, b) => a.data.title.localeCompare(b.data.title))[0];
+
+    return {
+      topic,
+      href: firstTeaching ? `/teachings/${firstTeaching.id}` : "/teachings",
+    };
+  })
+  .filter((link) => link.href !== "/teachings");
 ---
 
 <aside class="w-56 shrink-0 sticky top-24 self-start">
@@ -23,7 +31,7 @@ const currentTopic = Astro.url.searchParams.get("topic");
     <a
       href="/teachings"
       class={`block text-sm ${
-        !currentTopic
+        currentPath === "/teachings"
           ? "text-white font-medium"
           : "text-[var(--color-muted)]"
       }`}
@@ -31,11 +39,11 @@ const currentTopic = Astro.url.searchParams.get("topic");
       All Teachings
     </a>
 
-    {topics.map((topic) => (
+    {topicLinks.map(({ topic, href }) => (
       <a
-        href={`/teachings?topic=${encodeURIComponent(topic)}`}
+        href={href}
         class={`block text-sm ${
-          currentTopic === topic
+          currentPath === href
             ? "text-white font-medium"
             : "text-[var(--color-muted)]"
         }`}
