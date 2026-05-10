@@ -3,22 +3,7 @@ import { getCollection } from "astro:content";
 
 const year = new Date().getFullYear();
 
-const teachings = await getCollection("teachings");
-
-function getTopicHref(topic: string) {
-  return (
-    teachings
-      .filter((teaching) => teaching.data.topics.includes(topic))
-      .sort((a, b) => a.data.title.localeCompare(b.data.title))[0]?.id || ""
-  );
-}
-
-const topicLinks = [
-  { href: `/teachings/${getTopicHref("vision")}`, label: "Vision" },
-  { href: `/teachings/${getTopicHref("faith")}`, label: "Faith" },
-  { href: `/teachings/${getTopicHref("purpose")}`, label: "Purpose" },
-  { href: `/teachings/${getTopicHref("identity")}`, label: "Identity" }
-].filter((link) => link.href !== "/teachings/");
+await getCollection("teachings");
 ---
 
 <footer class="mt-20 border-t border-[var(--color-border)] bg-[var(--color-bg)] text-[var(--color-muted)]">
@@ -26,7 +11,7 @@ const topicLinks = [
   <div class="max-w-6xl mx-auto px-4 py-12">
 
     <!-- BRAND -->
-    <div class="mb-10">
+    <div class="mb-12">
 
       <a
         href="/"
@@ -50,8 +35,9 @@ const topicLinks = [
       </a>
 
       <p class="mt-3 text-sm leading-relaxed max-w-xl">
-        Build a daily habit of faith through Scripture, guided plans,
-        structured teachings, and spiritual reflection.
+        Build a daily habit of faith through Scripture,
+        structured teachings, guided plans,
+        and spiritual reflection.
       </p>
 
     </div>
@@ -63,17 +49,20 @@ const topicLinks = [
         {
           title: "Explore",
           links: [
-            { href: "/ask", label: "Ask" },
-            { href: "/teachings", label: "Library" },
-            { href: "/plans", label: "Plans" },
-            { href: "/verses", label: "Verses" },
-            { href: "/prayers", label: "Prayers" },
+            { href: "/library", label: "Library" },
+            { href: "/ask", label: "Ask & Grow" },
+            { href: "/blog", label: "Blog" },
             { href: "/bible", label: "Bible" }
           ]
         },
         {
-          title: "Topics",
-          links: topicLinks
+          title: "Resources",
+          links: [
+            { href: "/plans", label: "Plans" },
+            { href: "/guides", label: "Guides" },
+            { href: "/tools", label: "Tools" },
+            { href: "/prayers", label: "Prayers" }
+          ]
         },
         {
           title: "Company",
@@ -85,36 +74,45 @@ const topicLinks = [
           ]
         }
       ].map((section, i) => (
+
         <div>
 
           <button
             class="w-full flex justify-between items-center text-sm font-medium text-[var(--color-text)]"
-            onclick={`document.getElementById('f${i}').classList.toggle('hidden')`}
+            onclick={`document.getElementById('f${i}')?.classList.toggle('hidden')`}
           >
             {section.title}
             <span>+</span>
           </button>
 
-          <ul id={`f${i}`} class="mt-3 space-y-2 text-sm hidden">
+          <ul
+            id={`f${i}`}
+            class="mt-3 space-y-2 text-sm hidden"
+          >
 
             {section.links.map((l) => (
+
               <li>
+
                 <a
                   href={l.href}
-                  class="hover:text-[var(--color-text)]"
+                  class="hover:text-[var(--color-text)] transition"
                 >
                   {l.label}
                 </a>
+
               </li>
+
             ))}
 
           </ul>
 
         </div>
+
       ))}
 
       <!-- SUPPORT -->
-      <div class="pt-4 border-t border-[var(--color-border)]">
+      <div class="pt-5 border-t border-[var(--color-border)]">
 
         <a
           href="/support"
@@ -138,31 +136,92 @@ const topicLinks = [
         </p>
 
         <ul class="mt-3 space-y-2 text-sm">
-          <li><a href="/ask" class="hover:text-[var(--color-text)]">Ask</a></li>
-          <li><a href="/teachings" class="hover:text-[var(--color-text)]">Library</a></li>
-          <li><a href="/plans" class="hover:text-[var(--color-text)]">Plans</a></li>
-          <li><a href="/verses" class="hover:text-[var(--color-text)]">Verses</a></li>
-          <li><a href="/prayers" class="hover:text-[var(--color-text)]">Prayers</a></li>
-          <li><a href="/bible" class="hover:text-[var(--color-text)]">Bible</a></li>
+
+          <li>
+            <a
+              href="/library"
+              class="hover:text-[var(--color-text)] transition"
+            >
+              Library
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="/ask"
+              class="hover:text-[var(--color-text)] transition"
+            >
+              Ask & Grow
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="/blog"
+              class="hover:text-[var(--color-text)] transition"
+            >
+              Blog
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="/bible"
+              class="hover:text-[var(--color-text)] transition"
+            >
+              Bible
+            </a>
+          </li>
+
         </ul>
 
       </div>
 
-      <!-- TOPICS -->
+      <!-- RESOURCES -->
       <div>
 
         <p class="text-sm font-medium text-[var(--color-text)]">
-          Topics
+          Resources
         </p>
 
         <ul class="mt-3 space-y-2 text-sm">
-          {topicLinks.map((link) => (
-            <li>
-              <a href={link.href} class="hover:text-[var(--color-text)]">
-                {link.label}
-              </a>
-            </li>
-          ))}
+
+          <li>
+            <a
+              href="/plans"
+              class="hover:text-[var(--color-text)] transition"
+            >
+              Plans
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="/guides"
+              class="hover:text-[var(--color-text)] transition"
+            >
+              Guides
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="/tools"
+              class="hover:text-[var(--color-text)] transition"
+            >
+              Tools
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="/prayers"
+              class="hover:text-[var(--color-text)] transition"
+            >
+              Prayers
+            </a>
+          </li>
+
         </ul>
 
       </div>
@@ -175,10 +234,43 @@ const topicLinks = [
         </p>
 
         <ul class="mt-3 space-y-2 text-sm">
-          <li><a href="/about" class="hover:text-[var(--color-text)]">About</a></li>
-          <li><a href="/contact" class="hover:text-[var(--color-text)]">Contact</a></li>
-          <li><a href="/privacy" class="hover:text-[var(--color-text)]">Privacy Policy</a></li>
-          <li><a href="/terms" class="hover:text-[var(--color-text)]">Terms</a></li>
+
+          <li>
+            <a
+              href="/about"
+              class="hover:text-[var(--color-text)] transition"
+            >
+              About
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="/contact"
+              class="hover:text-[var(--color-text)] transition"
+            >
+              Contact
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="/privacy"
+              class="hover:text-[var(--color-text)] transition"
+            >
+              Privacy Policy
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="/terms"
+              class="hover:text-[var(--color-text)] transition"
+            >
+              Terms
+            </a>
+          </li>
+
         </ul>
 
       </div>
@@ -191,7 +283,8 @@ const topicLinks = [
         </p>
 
         <p class="mt-3 text-sm leading-relaxed">
-          Help support the growth of this project and future teachings.
+          Help support the growth of this project
+          and future teachings.
         </p>
 
         <a
@@ -226,19 +319,23 @@ const topicLinks = [
 
   </div>
 
-    <!-- BOTTOM -->
+  <!-- COPYRIGHT -->
   <div class="border-t border-[var(--color-border)] text-center text-xs py-6">
+
     © {year} First7. All rights reserved.
+
   </div>
 
-  <!-- Site Tag -->
+  <!-- SITE TAG -->
   <ins
     class="CANBMDDisplayAD"
     data-bmd-ad-unit="1338239420260507T104425170F0EFAD0A84954BE8AE70F11135F81E41"
     style="display:block"
   ></ins>
 
-  <script src="https://secureaddisplay.com/au/bmd/" async></script>
-  <!-- /Site Tag -->
+  <script
+    src="https://secureaddisplay.com/au/bmd/"
+    async
+  ></script>
 
 </footer>

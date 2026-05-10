@@ -183,6 +183,21 @@ button:focus-visible {
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
   }
 
+  .btn,
+  .btn:visited,
+  .btn:hover,
+  .btn:active {
+    text-decoration: none;
+    color: #ffffff !important;
+  }
+
+  .dark .btn,
+  .dark .btn:visited,
+  .dark .btn:hover,
+  .dark .btn:active {
+    color: #0E1512 !important;
+  }
+
   /* ✨ HOVER — gentle lift */
   .btn:hover {
     background-color: #6B8A83;
