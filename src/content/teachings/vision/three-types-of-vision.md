@@ -1,15 +1,24 @@
 ---
 id: three-types-of-vision
+
 title: Three Types of Vision
 
 summary: There are natural, mental, and spiritual levels of vision.
 
-topics: ["vision", "discernment"]
-keywords: ["vision", "discernment", "faith", "sight", "spiritual vision"]
+topics:
+  - vision
+  - discernment
+
+keywords:
+  - vision
+  - discernment
+  - faith
+  - sight
+  - spiritual vision
 
 scripture:
   ref: "2 Corinthians 5:7"
-  text: "For we walk by faith, not by sight."
+  text: "For we walk by faith, not by sight:"
 
 truth: Not all vision comes from God.
 

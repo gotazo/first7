@@ -1,11 +1,19 @@
 ---
 id: barrenness-season
+
 title: Barrenness Is Not Permanent
 
 summary: Seasons of waiting and delay do not mean God has forgotten you.
 
-topics: ["waiting", "faith"]
-keywords: ["delay", "waiting", "patience", "trust"]
+topics:
+  - waiting
+  - faith
+
+keywords:
+  - delay
+  - waiting
+  - patience
+  - trust
 
 scripture:
   ref: "1 Samuel 1:27"

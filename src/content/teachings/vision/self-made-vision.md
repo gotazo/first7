@@ -1,11 +1,20 @@
 ---
 id: self-made-vision
+
 title: The Danger of Self-Made Vision
 
 summary: Many disappointments come from expectations God never gave.
 
-topics: ["expectations", "disappointment"]
-keywords: ["expectations", "disappointment", "frustration", "control", "trust"]
+topics:
+  - expectations
+  - disappointment
+
+keywords:
+  - expectations
+  - disappointment
+  - frustration
+  - control
+  - trust
 
 scripture:
   ref: "Proverbs 3:5"

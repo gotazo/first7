@@ -1,11 +1,20 @@
 ---
 id: disrupted-plans
+
 title: Why God Disrupts Your Plans
 
 summary: God disrupts your plans to align you with His purpose.
 
-topics: ["purpose", "growth"]
-keywords: ["disruption", "redirection", "plans", "change", "guidance"]
+topics:
+  - purpose
+  - growth
+
+keywords:
+  - disruption
+  - redirection
+  - plans
+  - change
+  - guidance
 
 scripture:
   ref: "Jeremiah 29:11"

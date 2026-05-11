@@ -20,7 +20,7 @@ keywords:
 
 scripture:
   ref: "Deuteronomy 34:4"
-  text: "I have caused thee to see it with thine eyes, but thou shalt not go over thither."
+  text: "And the LORD said unto him, This is the land which I sware unto Abraham, unto Isaac, unto Jacob, saying, I will give it unto thy seed: I have caused thee to see it with thine eyes, but thou shalt not go over thither."
 
 truth: It is possible to see a promise yet still miss full entry because of wrong posture.
 

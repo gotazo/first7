@@ -18,7 +18,7 @@ keywords:
 
 scripture:
   ref: "Psalm 139:23"
-  text: "Search me, O God, and know my heart: try me, and know my thoughts."
+  text: "Search me, O God, and know my heart: try me, and know my thoughts:"
 
 truth: Effective prayer begins with honest self-examination.
 

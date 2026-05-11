@@ -18,7 +18,7 @@ keywords:
 
 scripture:
   ref: "Galatians 6:4"
-  text: "But let every man prove his own work."
+  text: "But let every man prove his own work, and then shall he have rejoicing in himself alone, and not in another."
 
 truth: Comparison distracts people from their own assignment.
 

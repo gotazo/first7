@@ -18,7 +18,7 @@ keywords:
 
 scripture:
   ref: "Luke 16:10"
-  text: "He that is faithful in that which is least is faithful also in much."
+  text: "He that is faithful in that which is least is faithful also in much: and he that is unjust in the least is unjust also in much."
 
 truth: God prepares people internally before increasing them externally.
 

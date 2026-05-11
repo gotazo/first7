@@ -18,7 +18,7 @@ keywords:
 
 scripture:
   ref: "Nehemiah 8:10"
-  text: "The joy of the Lord is your strength."
+  text: "Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto them for whom nothing is prepared: for this day is holy unto our Lord: neither be ye sorry; for the joy of the LORD is your strength."
 
 truth: Joy is a spiritual strength that remains stable in every season.
 

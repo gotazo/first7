@@ -19,7 +19,7 @@ keywords:
 
 scripture:
   ref: "2 Samuel 24:24"
-  text: "Neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing."
+  text: "And the king said unto Araunah, Nay; but I will surely buy it of thee at a price: neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing. So David bought the threshingfloor and the oxen for fifty shekels of silver."
 
 truth: Genuine sacrifice involves surrender and personal cost before God.
 

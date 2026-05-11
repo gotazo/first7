@@ -18,7 +18,7 @@ keywords:
 
 scripture:
   ref: "Proverbs 3:5"
-  text: "Trust in the Lord with all thine heart; and lean not unto thine own understanding."
+  text: "Trust in the LORD with all thine heart; and lean not unto thine own understanding."
 
 truth: Flexibility allows God to redirect your life according to His wisdom.
 

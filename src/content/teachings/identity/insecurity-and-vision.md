@@ -1,11 +1,20 @@
 ---
 id: insecurity-and-vision
+
 title: Insecurity Comes from Lack of Vision
 
 summary: Insecurity often grows when you are unsure about your purpose and direction in life.
 
-topics: ["identity", "confidence"]
-keywords: ["insecurity", "comparison", "calling", "purpose", "confidence"]
+topics:
+  - identity
+  - confidence
+
+keywords:
+  - insecurity
+  - comparison
+  - calling
+  - purpose
+  - confidence
 
 scripture:
   ref: "Galatians 1:10"

@@ -1,11 +1,20 @@
 ---
 id: giving-and-vision
+
 title: Giving Reveals Your Vision
 
 summary: The way you give often reveals what matters most in your heart and life.
 
-topics: ["giving", "heart"]
-keywords: ["giving", "treasure", "value", "sacrifice", "vision"]
+topics:
+  - giving
+  - heart
+
+keywords:
+  - giving
+  - treasure
+  - value
+  - sacrifice
+  - vision
 
 scripture:
   ref: "Matthew 6:21"

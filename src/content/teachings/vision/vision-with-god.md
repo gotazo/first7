@@ -1,15 +1,24 @@
 ---
 id: vision-with-god
+
 title: Vision Must Include God
 
 summary: A vision without God at the center will not sustain you.
 
-topics: ["purpose", "calling"]
-keywords: ["vision", "purpose", "calling", "kingdom", "alignment"]
+topics:
+  - purpose
+  - calling
+
+keywords:
+  - vision
+  - purpose
+  - calling
+  - kingdom
+  - alignment
 
 scripture:
   ref: "Matthew 6:33"
-  text: "But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you"
+  text: "But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you."
 
 truth: True vision includes God's purpose, not only personal desire.
 

@@ -22,7 +22,7 @@ keywords:
 
 scripture:
   ref: "Job 33:15-16"
-  text: "In a dream, in a vision of the night, when deep sleep falleth upon men, in slumberings upon the bed; Then he openeth the ears of men, and sealeth their instruction."
+  text: "In a dream, in a vision of the night, when deep sleep falleth upon men, in slumberings upon the bed; Then he openeth the ears of men, and sealeth their instruction,"
 
 truth: God does not only show visions. He gives instruction through spiritual hearing.
 

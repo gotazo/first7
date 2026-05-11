@@ -21,7 +21,7 @@ keywords:
 
 scripture:
   ref: "Psalm 37:4"
-  text: "Delight thyself also in the Lord; and he shall give thee the desires of thine heart."
+  text: "Delight thyself also in the LORD; and he shall give thee the desires of thine heart."
 
 truth: God is willing to give desires, but desires require spiritual posture and capacity.
 

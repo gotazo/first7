@@ -1,11 +1,22 @@
 ---
 id: vision-through-pressure
+
 title: Vision Through Pressure
 
 summary: Difficult seasons can help you grow, change, and see life from a deeper perspective.
 
-topics: ["vision", "growth", "purpose"]
-keywords: ["pressure", "limitation", "growth", "change", "difficulty", "perspective"]
+topics:
+  - vision
+  - growth
+  - purpose
+
+keywords:
+  - pressure
+  - limitation
+  - growth
+  - change
+  - difficulty
+  - perspective
 
 scripture:
   ref: "Proverbs 29:18"

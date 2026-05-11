@@ -1,11 +1,20 @@
 ---
 id: unique-assignment
+
 title: You Are Made for a Specific Assignment
 
 summary: God created every person with a unique purpose and path to walk in.
 
-topics: ["purpose", "identity"]
-keywords: ["assignment", "calling", "purpose", "comparison", "uniqueness"]
+topics:
+  - purpose
+  - identity
+
+keywords:
+  - assignment
+  - calling
+  - purpose
+  - comparison
+  - uniqueness
 
 scripture:
   ref: "Ephesians 2:10"
