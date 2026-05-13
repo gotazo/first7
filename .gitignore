@@ -26,3 +26,6 @@ logs/
 
 # JetBrains
 .idea/
+
+.codex-guides-dev.err.log
+.codex-guides-dev.out.log

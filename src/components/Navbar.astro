@@ -146,28 +146,42 @@ const pathname = Astro.url.pathname;
 
       </div>
 
-      <!-- PRIMARY NAV -->
-      {[
-        { href: "/ask", label: "Ask" },
-        { href: "/teachings", label: "Library" },
-        { href: "/plans", label: "Plans" },
-        { href: "/bible", label: "Bible" }
-      ].map((link) => {
-        const isActive = pathname.startsWith(link.href);
+<!-- PRIMARY NAV -->
 
-        return (
-          <a
-            href={link.href}
-            class={`transition ${
-              isActive
-                ? "text-[var(--color-text)]"
-                : "text-[var(--color-muted)] hover:text-[var(--color-text)]"
-            }`}
-          >
-            {link.label}
-          </a>
-        );
-      })}
+{[
+  { href: "/ask", label: "Ask" },
+
+  { href: "/teachings", label: "Library" },
+
+  { href: "/plans", label: "Plans" },
+
+  { href: "/bible", label: "Bible" }
+
+].map((link) => (
+
+  <a
+    href={link.href}
+    class={`transition ${
+      pathname.startsWith(link.href)
+        ? "text-[var(--color-text)]"
+        : "text-[var(--color-muted)] hover:text-[var(--color-text)]"
+    }`}
+  >
+    {link.label}
+  </a>
+
+))}
+
+<!-- PLAY -->
+
+<a
+  href="https://play.first7.org"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="inline-flex items-center gap-2 rounded-full border border-[rgba(214,179,106,0.18)] bg-[rgba(214,179,106,0.08)] px-3 py-1.5 text-xs uppercase tracking-[0.16em] text-[var(--color-primary)] transition hover:border-[rgba(214,179,106,0.3)] hover:bg-[rgba(214,179,106,0.14)]"
+>
+  Play ↗
+</a>
 
     </div>
 
@@ -245,9 +259,19 @@ const pathname = Astro.url.pathname;
 
       <!-- PRIMARY MOBILE LINKS -->
       <a href="/ask">Ask</a>
-      <a href="/teachings">Library</a>
-      <a href="/plans">Plans</a>
-      <a href="/bible">Bible</a>
+
+<a href="/teachings">Library</a>
+
+<a href="/plans">Plans</a>
+
+<a href="/bible">Bible</a>
+
+<a
+  href="https://play.first7.org"
+  class="inline-flex w-fit rounded-full border border-[rgba(214,179,106,0.18)] bg-[rgba(214,179,106,0.08)] px-3 py-2 text-xs uppercase tracking-[0.16em] text-[var(--color-primary)]"
+>
+  Play ↗
+</a>
 
     </div>
 

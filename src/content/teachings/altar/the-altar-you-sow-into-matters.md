@@ -1,0 +1,39 @@
+---
+id: the-altar-you-sow-into-matters
+
+title: The Altar You Sow Into Matters
+
+summary: Scripture teaches the importance of discernment, wisdom, and spiritual understanding in giving.
+
+topics:
+  - altar
+  - discernment
+
+keywords:
+  - altar
+  - discernment
+  - giving
+  - stewardship
+  - wisdom
+  - spiritual understanding
+
+scripture:
+  ref: "Matthew 23:19"
+  text: "Ye fools and blind: for whether is greater, the gift, or the altar that sanctifieth the gift?"
+
+truth: Spiritual discernment matters in every act of stewardship and worship.
+
+insight:
+  - Jesus emphasized the spiritual significance of the altar.
+  - Discernment protects believers from spiritual confusion.
+  - Giving should be guided by wisdom and understanding.
+  - Spiritual environments influence growth and direction.
+
+application:
+  - Seek wisdom before major spiritual decisions
+  - Practice discernment in stewardship
+  - Remain grounded in Scripture
+  - Honor God with intentional worship
+
+prayer: Father, give me wisdom and discernment so I may walk carefully and honor You with every decision I make.
+---
