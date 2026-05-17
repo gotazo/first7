@@ -248,6 +248,8 @@ let selectedText = "";
 let selectedRef = "";
 let currentStyle = "calm";
 let cachedPngBlob = null;
+let cachedPngKey = "";
+let cachedPngPromise = null;
 
 /* -------------------------
    THEMES (ONE SOURCE)
@@ -417,8 +419,125 @@ function generateSVG(text, ref){
 ------------------------- */
 function updatePreview(){
   if(!selectedText) return;
+  cachedPngBlob = null;
+  cachedPngKey = "";
+  cachedPngPromise = null;
   const svg = generateSVG(selectedText, selectedRef);
   card.innerHTML = svg;
+  warmPngCache();
+}
+
+/* -------------------------
+   PNG EXPORT
+------------------------- */
+function setDownloadLoading(isLoading){
+  if(!downloadBtn) return;
+  downloadBtn.disabled = isLoading;
+  downloadBtn.textContent = isLoading ? "Generating..." : "Download";
+}
+
+function svgToPngBlob(svg){
+  return new Promise((resolve, reject)=>{
+    const canvas = document.createElement("canvas");
+    canvas.width = 1080;
+    canvas.height = 1080;
+
+    const ctx = canvas.getContext("2d", { alpha: false });
+    if(!ctx){
+      reject(new Error("Canvas is not supported."));
+      return;
+    }
+
+    const img = new Image();
+    const svgBlob = new Blob([svg], { type: "image/svg+xml;charset=utf-8" });
+    const svgUrl = URL.createObjectURL(svgBlob);
+
+    const cleanup = ()=>{
+      URL.revokeObjectURL(svgUrl);
+      img.onload = null;
+      img.onerror = null;
+    };
+
+    img.onload = ()=>{
+      try{
+        ctx.drawImage(img, 0, 0, 1080, 1080);
+        canvas.toBlob(blob=>{
+          cleanup();
+          blob ? resolve(blob) : reject(new Error("PNG generation failed."));
+        }, "image/png");
+      }catch(error){
+        cleanup();
+        reject(error);
+      }
+    };
+
+    img.onerror = ()=>{
+      cleanup();
+      reject(new Error("Image generation failed."));
+    };
+
+    img.src = svgUrl;
+  });
+}
+
+async function getPngBlob(){
+  const key = `${currentStyle}|${selectedRef}|${selectedText}`;
+  if(cachedPngBlob && cachedPngKey === key) return cachedPngBlob;
+  if(cachedPngPromise && cachedPngKey === key) return cachedPngPromise;
+
+  const svg = generateSVG(selectedText, selectedRef);
+  cachedPngKey = key;
+
+  cachedPngPromise = (async ()=>{
+    if(document.fonts?.ready){
+      await document.fonts.ready;
+    }
+
+    const blob = await svgToPngBlob(svg);
+
+    if(cachedPngKey === key){
+      cachedPngBlob = blob;
+    }
+
+    return blob;
+  })().catch(error=>{
+    if(cachedPngKey === key){
+      cachedPngBlob = null;
+      cachedPngKey = "";
+      cachedPngPromise = null;
+    }
+
+    throw error;
+  }).finally(()=>{
+    if(cachedPngKey === key){
+      cachedPngPromise = null;
+    }
+  });
+
+  return cachedPngPromise;
+}
+
+function warmPngCache(){
+  getPngBlob().catch(()=>{});
+}
+
+async function shareVerse(){
+  const text = `${selectedText} — ${selectedRef}`;
+  const caption = selectedRef ? `${selectedRef} • first7.org` : "first7.org";
+
+  try{
+    const blob = await getPngBlob();
+    const file = new File([blob], "verse.png", { type: "image/png" });
+
+    if(navigator.canShare?.({ files: [file] })){
+      await navigator.share({ files: [file], text: caption });
+      return;
+    }
+  }catch(error){
+    console.warn("Image sharing failed, falling back to text share.", error);
+  }
+
+  navigator.share?.({ text });
 }
 
 /* -------------------------
@@ -470,20 +589,26 @@ styleButtons.forEach(btn=>{
 /* -------------------------
    SIMPLE ACTIONS
 ------------------------- */
-downloadBtn?.addEventListener("click", ()=>{
+downloadBtn?.addEventListener("click", async ()=>{
   if(!selectedText) return;
-  const blob = new Blob([generateSVG(selectedText, selectedRef)], {type:"image/svg+xml"});
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "verse.svg";
-  a.click();
+  setDownloadLoading(true);
+
+  try{
+    const blob = await getPngBlob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "verse.png";
+    a.click();
+    setTimeout(()=>URL.revokeObjectURL(url), 1000);
+  }finally{
+    setDownloadLoading(false);
+  }
 });
 
 shareBtn?.addEventListener("click", ()=>{
   if(!selectedText) return;
-  const text = `${selectedText} — ${selectedRef}`;
-  navigator.share?.({ text });
+  shareVerse();
 });
 
 waBtn?.addEventListener("click", ()=>{
