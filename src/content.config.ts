@@ -45,10 +45,15 @@ const resources = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
+
     file: z.string().optional(),
     type: z.string().optional(),
     icon: z.string().optional(),
     cover: z.string().optional(),
+
+    print_label: z.string().optional(),
+    print_price: z.string().optional(),
+    print_url: z.string().url().optional(),
   }),
 });
 

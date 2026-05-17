@@ -60,28 +60,58 @@ const allResources = await getCollection('resources');
 
         <div class="sticky top-24 space-y-6">
 
-          <!-- DOWNLOAD -->
-          {entry.data.file && (
-            <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3">
+<!-- DOWNLOAD -->
+{entry.data.file && (
+  <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3">
 
-              <p class="font-medium">
-                Download
-              </p>
+    <p class="font-medium">
+      Download
+    </p>
 
-              <p class="text-sm text-[var(--color-muted)]">
-                Use this resource offline.
-              </p>
+    <p class="text-sm text-[var(--color-muted)]">
+      Use this resource offline.
+    </p>
 
-              <a
-                href={entry.data.file}
-                class="btn block text-center px-4 py-2 rounded-lg"
-                download
-              >
-                Download →
-              </a>
+    <a
+      href={entry.data.file}
+      class="btn block text-center px-4 py-2 rounded-lg"
+      download
+    >
+      Download →
+    </a>
 
-            </div>
-          )}
+  </div>
+)}
+
+<!-- PRINT EDITION -->
+{entry.data.print_url && (
+  <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3">
+
+    <p class="font-medium">
+      Print Edition
+    </p>
+
+    <p class="text-sm text-[var(--color-muted)]">
+      Prefer a physical journal? Get the printed version.
+    </p>
+
+    {entry.data.print_price && (
+      <p class="text-sm font-medium">
+        {entry.data.print_price}
+      </p>
+    )}
+
+    <a
+      href={entry.data.print_url}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="btn block text-center px-4 py-2 rounded-lg"
+    >
+      📖 {entry.data.print_label || "Buy Print Edition"}
+    </a>
+
+  </div>
+)}
 
           <!-- RELATED RESOURCES -->
           <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3">
