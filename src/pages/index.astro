@@ -56,6 +56,51 @@ const posts = (await getCollection('blog'))
     border-color: var(--color-primary);
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
   }
+
+  .library-card {
+    display: block;
+    height: 100%;
+    padding: 1.25rem;
+    border: 1px solid var(--color-border);
+    border-radius: 1rem;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent),
+      var(--color-bg-soft);
+    transition:
+      transform 0.18s ease,
+      border-color 0.18s ease,
+      background-color 0.18s ease,
+      box-shadow 0.18s ease;
+  }
+
+  .library-card,
+  .library-card:hover {
+    text-decoration: none;
+  }
+
+  .library-card:hover {
+    transform: translateY(-3px);
+    border-color: color-mix(in srgb, var(--color-primary) 62%, var(--color-border));
+    background: var(--color-bg-elevated);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+  }
+
+  .library-icon {
+    display: inline-flex;
+    width: 2.25rem;
+    height: 2.25rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid color-mix(in srgb, var(--color-primary) 34%, var(--color-border));
+    border-radius: 0.75rem;
+    color: var(--color-primary);
+    background: color-mix(in srgb, var(--color-primary) 9%, transparent);
+  }
+
+  .library-card svg {
+    width: 1.15rem;
+    height: 1.15rem;
+  }
 </style>
 
 <BaseLayout title="Bible Verses, Plans & Daily Faith | First7">
@@ -121,30 +166,79 @@ class="btn-secondary px-6 py-3 rounded-xl"      >
   <!-- DIVIDER -->
   <div class="divider"></div>
 
-  <!-- HOW IT WORKS -->
-  <section class="max-w-5xl mx-auto px-4 py-24">
+  <!-- SPIRITUAL GUIDANCE LIBRARY -->
+  <section class="max-w-5xl mx-auto px-4 py-20">
 
-    <div class="grid md:grid-cols-3 gap-8">
+    <div class="max-w-2xl">
+      <p class="text-xs uppercase tracking-[0.18em] text-[var(--color-primary)]">
+        Spiritual guidance library
+      </p>
 
-      {[
-        { icon: "📖", title: "Read", text: "Read Bible verses that speak to your situation" },
-        { icon: "✍️", title: "Reflect", text: "Pause and reflect on what God is saying" },
-        { icon: "🔁", title: "Apply", text: "Take one small step forward in faith" }
-      ].map((item) => (
-        <div class="group p-6 rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 transition hover:-translate-y-1 hover:shadow-lg hover:border-[var(--color-primary)]">
+      <h2 class="mt-3 text-2xl md:text-3xl font-semibold tracking-tight">
+        Search Scripture, teachings, and prayers by what you are facing
+      </h2>
 
-          <p class="text-2xl text-center">{item.icon}</p>
+      <p class="mt-3 text-sm md:text-base text-[var(--color-muted)]">
+        Find biblical guidance by question, topic, emotion, or season of life.
+      </p>
+    </div>
 
-          <p class="mt-3 font-medium text-center group-hover:text-[var(--color-primary)] transition">
-            {item.title}
-          </p>
+    <div class="grid gap-5 md:grid-cols-3 mt-8">
 
-          <p class="mt-2 text-sm text-[var(--color-muted)] text-center">
-            {item.text}
-          </p>
+      <a href="/ask" class="library-card group" aria-label="Ask and Grow">
+        <span class="library-icon">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="10" cy="10" r="4.25" stroke="currentColor" stroke-width="1.45" />
+            <path d="M13.2 13.2 18.25 18.25" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" />
+            <path d="m10 7.7 1.05 1.25 1.25 1.05-1.25 1.05L10 12.3l-1.05-1.25L7.7 10l1.25-1.05L10 7.7Z" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round" />
+            <path d="M17.75 5.25v2.4M17.75 12.35v1.4M5.25 17.75h2.4M12.35 17.75h1.4" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" />
+          </svg>
+        </span>
 
-        </div>
-      ))}
+        <h3 class="mt-5 text-lg font-semibold text-[var(--color-text)] group-hover:text-[var(--color-primary)] transition">
+          Ask &amp; Grow
+        </h3>
+
+        <p class="mt-2 text-sm leading-6 text-[var(--color-muted)]">
+          Search teachings by spiritual questions, emotions, struggles, and seasons of life.
+        </p>
+      </a>
+
+      <a href="/teachings" class="library-card group" aria-label="Learn Scripture">
+        <span class="library-icon">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4.75 6.2c2.75-.65 5.15-.25 7.25 1.2 2.1-1.45 4.5-1.85 7.25-1.2v11.15c-2.75-.65-5.15-.25-7.25 1.2-2.1-1.45-4.5-1.85-7.25-1.2V6.2Z" stroke="currentColor" stroke-width="1.45" stroke-linejoin="round" />
+            <path d="M12 7.4v11.15M7.2 9.4c1.12-.1 2.12.07 3 .5M7.2 12.05c1.12-.1 2.12.07 3 .5M16.8 9.4c-1.12-.1-2.12.07-3 .5M16.8 12.05c-1.12-.1-2.12.07-3 .5" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" />
+          </svg>
+        </span>
+
+        <h3 class="mt-5 text-lg font-semibold text-[var(--color-text)] group-hover:text-[var(--color-primary)] transition">
+          Learn Scripture
+        </h3>
+
+        <p class="mt-2 text-sm leading-6 text-[var(--color-muted)]">
+          Explore teachings on faith, discernment, wisdom, prayer, obedience, and spiritual growth.
+        </p>
+      </a>
+
+      <a href="/prayers" class="library-card group" aria-label="Pray and Reflect">
+        <span class="library-icon">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 5.2v2.15M12 16.65v2.15M5.2 12h2.15M16.65 12h2.15" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" />
+            <path d="m7.35 7.35 1.5 1.5M15.15 15.15l1.5 1.5M16.65 7.35l-1.5 1.5M8.85 15.15l-1.5 1.5" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" />
+            <circle cx="12" cy="12" r="3.55" stroke="currentColor" stroke-width="1.45" />
+            <path d="M10.2 12c.52-.62 1.08-.93 1.8-.93s1.28.31 1.8.93c-.52.62-1.08.93-1.8.93s-1.28-.31-1.8-.93Z" stroke="currentColor" stroke-width="1.15" stroke-linejoin="round" />
+          </svg>
+        </span>
+
+        <h3 class="mt-5 text-lg font-semibold text-[var(--color-text)] group-hover:text-[var(--color-primary)] transition">
+          Pray &amp; Reflect
+        </h3>
+
+        <p class="mt-2 text-sm leading-6 text-[var(--color-muted)]">
+          Read guided prayers, Bible verses, and reflections for daily life and difficult moments.
+        </p>
+      </a>
 
     </div>
 

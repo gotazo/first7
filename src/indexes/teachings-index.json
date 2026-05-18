@@ -1,5 +1,173 @@
 [
   {
+    "id": "ancient-foundations",
+    "title": "Ancient Foundations",
+    "summary": "Spiritual foundations shape direction, stability, and long-term growth.",
+    "topics": [
+      "altar",
+      "foundations"
+    ],
+    "keywords": [
+      "foundations",
+      "covenant",
+      "altar",
+      "stability",
+      "obedience",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Isaiah 58:12",
+      "text": "And they that shall be of thee shall build the old waste places: thou shalt raise up the foundations of many generations."
+    }
+  },
+  {
+    "id": "built-on-the-rock",
+    "title": "Built On The Rock",
+    "summary": "A life grounded in Christ remains stable through pressure, storms, and uncertainty.",
+    "topics": [
+      "altar",
+      "faith"
+    ],
+    "keywords": [
+      "foundation",
+      "Christ",
+      "obedience",
+      "stability",
+      "wisdom",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "Matthew 7:24",
+      "text": "Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock."
+    }
+  },
+  {
+    "id": "the-altar-you-sow-into-matters",
+    "title": "The Altar You Sow Into Matters",
+    "summary": "Scripture teaches the importance of discernment, wisdom, and spiritual understanding in giving.",
+    "topics": [
+      "altar",
+      "discernment"
+    ],
+    "keywords": [
+      "altar",
+      "discernment",
+      "giving",
+      "stewardship",
+      "wisdom",
+      "spiritual understanding"
+    ],
+    "scripture": {
+      "ref": "Matthew 23:19",
+      "text": "Ye fools and blind: for whether is greater, the gift, or the altar that sanctifieth the gift?"
+    }
+  },
+  {
+    "id": "the-power-of-altars",
+    "title": "The Power Of Altars",
+    "summary": "Altars in Scripture represented surrender, worship, covenant, and encounters with God.",
+    "topics": [
+      "altar",
+      "worship"
+    ],
+    "keywords": [
+      "altar",
+      "worship",
+      "covenant",
+      "sacrifice",
+      "surrender",
+      "spiritual foundations"
+    ],
+    "scripture": {
+      "ref": "Genesis 12:7",
+      "text": "And the LORD appeared unto Abram, and said, Unto thy seed will I give this land: and there builded he an altar unto the LORD, who appeared unto him."
+    }
+  },
+  {
+    "id": "discerning-spiritual-foundations",
+    "title": "Discerning Spiritual Foundations",
+    "summary": "Strong spiritual foundations are built through truth, obedience, wisdom, and faithfulness to God.",
+    "topics": [
+      "discernment",
+      "foundations"
+    ],
+    "keywords": [
+      "foundations",
+      "discernment",
+      "truth",
+      "wisdom",
+      "obedience",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "1 Corinthians 3:11",
+      "text": "For other foundation can no man lay than that is laid, which is Jesus Christ."
+    }
+  },
+  {
+    "id": "knowing-who-receives",
+    "title": "Knowing Who Receives",
+    "summary": "Spiritual discernment helps believers recognize wisdom, integrity, and truth in those they follow and support.",
+    "topics": [
+      "discernment",
+      "stewardship"
+    ],
+    "keywords": [
+      "discernment",
+      "wisdom",
+      "stewardship",
+      "leadership",
+      "truth",
+      "guidance"
+    ],
+    "scripture": {
+      "ref": "Matthew 10:41",
+      "text": "He that receiveth a prophet in the name of a prophet shall receive a prophet's reward."
+    }
+  },
+  {
+    "id": "spiritual-discernment-in-giving",
+    "title": "Spiritual Discernment In Giving",
+    "summary": "God calls believers to practice wisdom, discernment, and sincerity in stewardship and generosity.",
+    "topics": [
+      "discernment",
+      "giving"
+    ],
+    "keywords": [
+      "discernment",
+      "giving",
+      "stewardship",
+      "wisdom",
+      "generosity",
+      "obedience"
+    ],
+    "scripture": {
+      "ref": "Philippians 1:9",
+      "text": "And this I pray, that your love may abound yet more and more in knowledge and in all judgment."
+    }
+  },
+  {
+    "id": "testing-spiritual-influence",
+    "title": "Testing Spiritual Influence",
+    "summary": "Believers are called to test spiritual influences carefully through Scripture, wisdom, and discernment.",
+    "topics": [
+      "discernment",
+      "wisdom"
+    ],
+    "keywords": [
+      "discernment",
+      "influence",
+      "wisdom",
+      "truth",
+      "testing spirits",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "1 John 4:1",
+      "text": "Beloved, believe not every spirit, but try the spirits whether they are of God."
+    }
+  },
+  {
     "id": "testing-words-from-god",
     "title": "Testing Words That Claim to Be from God",
     "summary": "A genuine word from God carries power, conviction, and transformation.",
@@ -41,6 +209,69 @@
     }
   },
   {
+    "id": "faith-and-obedience",
+    "title": "Faith And Obedience",
+    "summary": "True faith is demonstrated through consistent obedience, trust, and surrender to God.",
+    "topics": [
+      "faith",
+      "obedience"
+    ],
+    "keywords": [
+      "faith",
+      "obedience",
+      "trust",
+      "surrender",
+      "discipleship",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "James 2:17",
+      "text": "Even so faith, if it hath not works, is dead, being alone."
+    }
+  },
+  {
+    "id": "faith-with-understanding",
+    "title": "Faith With Understanding",
+    "summary": "Biblical faith grows stronger when rooted in wisdom, truth, and spiritual understanding.",
+    "topics": [
+      "faith",
+      "understanding"
+    ],
+    "keywords": [
+      "faith",
+      "understanding",
+      "wisdom",
+      "discernment",
+      "trust",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Proverbs 3:5",
+      "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding."
+    }
+  },
+  {
+    "id": "giving-in-faith",
+    "title": "Giving In Faith",
+    "summary": "Faith-filled generosity reflects trust in God's provision, wisdom, and faithfulness.",
+    "topics": [
+      "faith",
+      "giving"
+    ],
+    "keywords": [
+      "faith",
+      "giving",
+      "generosity",
+      "trust",
+      "stewardship",
+      "provision"
+    ],
+    "scripture": {
+      "ref": "Luke 6:38",
+      "text": "Give, and it shall be given unto you; good measure, pressed down, and shaken together, and running over."
+    }
+  },
+  {
     "id": "gods-word-carries-power",
     "title": "God's Word Carries Power",
     "summary": "When God truly speaks, His word carries grace, authority, and transformation.",
@@ -78,6 +309,27 @@
     "scripture": {
       "ref": "Nehemiah 8:10",
       "text": "Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto them for whom nothing is prepared: for this day is holy unto our Lord: neither be ye sorry; for the joy of the LORD is your strength."
+    }
+  },
+  {
+    "id": "walking-by-faith",
+    "title": "Walking By Faith",
+    "summary": "Faith calls believers to trust God daily even when the path ahead is uncertain.",
+    "topics": [
+      "faith",
+      "trust"
+    ],
+    "keywords": [
+      "faith",
+      "trust",
+      "obedience",
+      "perseverance",
+      "guidance",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "2 Corinthians 5:7",
+      "text": "(For we walk by faith, not by sight:)."
     }
   },
   {
@@ -556,6 +808,111 @@
     }
   },
   {
+    "id": "jesus-the-perfect-sacrifice",
+    "title": "Jesus The Perfect Sacrifice",
+    "summary": "Jesus became the perfect sacrifice for sin through His obedience, love, and redemption.",
+    "topics": [
+      "sacrifice",
+      "salvation"
+    ],
+    "keywords": [
+      "Jesus",
+      "sacrifice",
+      "salvation",
+      "redemption",
+      "cross",
+      "grace"
+    ],
+    "scripture": {
+      "ref": "Hebrews 10:12",
+      "text": "But this man, after he had offered one sacrifice for sins for ever, sat down on the right hand of God."
+    }
+  },
+  {
+    "id": "sacrifice-and-obedience",
+    "title": "Sacrifice And Obedience",
+    "summary": "God values obedience and sincere devotion more than outward religious activity alone.",
+    "topics": [
+      "sacrifice",
+      "obedience"
+    ],
+    "keywords": [
+      "obedience",
+      "sacrifice",
+      "worship",
+      "surrender",
+      "humility",
+      "devotion"
+    ],
+    "scripture": {
+      "ref": "1 Samuel 15:22",
+      "text": "Behold, to obey is better than sacrifice, and to hearken than the fat of rams."
+    }
+  },
+  {
+    "id": "salvation-was-not-free",
+    "title": "Salvation Was Not Free",
+    "summary": "Salvation is freely offered to believers, but it came through the costly sacrifice of Christ.",
+    "topics": [
+      "sacrifice",
+      "salvation"
+    ],
+    "keywords": [
+      "salvation",
+      "grace",
+      "sacrifice",
+      "redemption",
+      "Jesus",
+      "cross"
+    ],
+    "scripture": {
+      "ref": "1 Peter 1:18-19",
+      "text": "Forasmuch as ye know that ye were not redeemed with corruptible things, as silver and gold... But with the precious blood of Christ."
+    }
+  },
+  {
+    "id": "the-spiritual-meaning-of-sacrifice",
+    "title": "The Spiritual Meaning Of Sacrifice",
+    "summary": "Sacrifice in Scripture reflected surrender, worship, obedience, and devotion toward God.",
+    "topics": [
+      "sacrifice",
+      "worship"
+    ],
+    "keywords": [
+      "sacrifice",
+      "worship",
+      "surrender",
+      "obedience",
+      "devotion",
+      "offering"
+    ],
+    "scripture": {
+      "ref": "Romans 12:1",
+      "text": "I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service."
+    }
+  },
+  {
+    "id": "what-costs-nothing-changes-nothing",
+    "title": "What Costs Nothing Changes Nothing",
+    "summary": "Spiritual growth often requires sacrifice, surrender, and willingness to obey God beyond comfort.",
+    "topics": [
+      "sacrifice",
+      "obedience"
+    ],
+    "keywords": [
+      "sacrifice",
+      "surrender",
+      "obedience",
+      "worship",
+      "trust",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "2 Samuel 24:24",
+      "text": "Neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing."
+    }
+  },
+  {
     "id": "giving-and-vision",
     "title": "Giving Reveals Your Vision",
     "summary": "The way you give often reveals what matters most in your heart and life.",
@@ -573,6 +930,111 @@
     "scripture": {
       "ref": "Matthew 6:21",
       "text": "For where your treasure is, there will your heart be also."
+    }
+  },
+  {
+    "id": "blind-guides",
+    "title": "Blind Guides",
+    "summary": "Jesus warned against following spiritual leadership that lacks wisdom, truth, and discernment.",
+    "topics": [
+      "understanding",
+      "leadership"
+    ],
+    "keywords": [
+      "leadership",
+      "discernment",
+      "wisdom",
+      "truth",
+      "guidance",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Matthew 15:14",
+      "text": "Let them alone: they be blind leaders of the blind. And if the blind lead the blind, both shall fall into the ditch."
+    }
+  },
+  {
+    "id": "spiritual-ignorance-causes-delay",
+    "title": "Spiritual Ignorance Causes Delay",
+    "summary": "A lack of spiritual understanding can create confusion, delay, and unnecessary struggle.",
+    "topics": [
+      "understanding",
+      "spiritual-growth"
+    ],
+    "keywords": [
+      "ignorance",
+      "understanding",
+      "wisdom",
+      "discernment",
+      "delay",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Hosea 4:6",
+      "text": "My people are destroyed for lack of knowledge."
+    }
+  },
+  {
+    "id": "understanding-before-action",
+    "title": "Understanding Before Action",
+    "summary": "Wisdom and understanding help believers act with clarity, discernment, and obedience.",
+    "topics": [
+      "understanding",
+      "wisdom"
+    ],
+    "keywords": [
+      "understanding",
+      "wisdom",
+      "discernment",
+      "obedience",
+      "guidance",
+      "patience"
+    ],
+    "scripture": {
+      "ref": "Proverbs 4:7",
+      "text": "Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding."
+    }
+  },
+  {
+    "id": "understanding-spiritual-principles",
+    "title": "Understanding Spiritual Principles",
+    "summary": "Spiritual principles in Scripture help believers walk with wisdom, stability, and discernment.",
+    "topics": [
+      "understanding",
+      "discernment"
+    ],
+    "keywords": [
+      "spiritual principles",
+      "wisdom",
+      "understanding",
+      "discernment",
+      "obedience",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "2 Timothy 2:15",
+      "text": "Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth."
+    }
+  },
+  {
+    "id": "wisdom-before-action",
+    "title": "Wisdom Before Action",
+    "summary": "Godly wisdom helps believers act with patience, discernment, and spiritual maturity.",
+    "topics": [
+      "wisdom",
+      "understanding"
+    ],
+    "keywords": [
+      "wisdom",
+      "patience",
+      "discernment",
+      "understanding",
+      "guidance",
+      "maturity"
+    ],
+    "scripture": {
+      "ref": "James 1:5",
+      "text": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him."
     }
   },
   {
