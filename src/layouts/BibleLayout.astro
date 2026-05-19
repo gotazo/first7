@@ -27,6 +27,12 @@ for (const bookData of allBooks) {
   books[slug].sort((a, b) => a - b);
 }
 
+if (import.meta.env.BUILD_TRACE === "true" && import.meta.env.PROD) {
+  console.log(
+    `[build:bible-layout] ${currentBook}/${currentChapter} books=${allBooks.length}`
+  );
+}
+
 const chapters = books[currentBook] ?? [];
 const index = chapters.indexOf(currentChapter);
 

@@ -29,3 +29,6 @@ logs/
 
 .codex-guides-dev.err.log
 .codex-guides-dev.out.log
+
+.codex-build-trace.err.log
+.codex-build-trace.out.log

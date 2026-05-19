@@ -17,7 +17,7 @@ export function getStaticPaths() {
     { eager: true }
   ) as Record<string, { default: BibleData }>;
 
-  return Object.entries(bibleModules).flatMap(([key, module]) => {
+  const paths = Object.entries(bibleModules).flatMap(([key, module]) => {
     const book = key.split("/").pop()?.replace(".json", "");
 
     if (!book) return [];
@@ -29,6 +29,14 @@ export function getStaticPaths() {
       },
     }));
   });
+
+  if (import.meta.env.BUILD_TRACE === "true") {
+    console.log(
+      `[build:paths] bible chapters books=${Object.keys(bibleModules).length} paths=${paths.length}`
+    );
+  }
+
+  return paths;
 }
 
 /**
@@ -66,6 +74,10 @@ if (fileKey) {
 
   const chapterKey = String(Number(chapter));
   verses = data.chapters[chapterKey] || [];
+
+  if (import.meta.env.BUILD_TRACE === "true" && import.meta.env.PROD) {
+    console.log(`[build:bible] render /bible/${book}/${chapter} verses=${verses.length}`);
+  }
 } else {
   console.error("Book not found:", book);
 }

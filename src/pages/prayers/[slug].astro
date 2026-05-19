@@ -9,10 +9,16 @@ type PrayerEntry = CollectionEntry<'prayers'>;
 export async function getStaticPaths() {
   const entries = await getCollection('prayers');
 
-  return entries.map((entry: PrayerEntry) => ({
+  const paths = entries.map((entry: PrayerEntry) => ({
     params: { slug: entry.data.slug },
     props: { entry }
   }));
+
+  if (import.meta.env.BUILD_TRACE === 'true') {
+    console.log(`[build:paths] prayers paths=${paths.length}`);
+  }
+
+  return paths;
 }
 
 const { entry } = Astro.props as { entry: PrayerEntry };

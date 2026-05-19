@@ -10,6 +10,10 @@ const {
 } = Astro.props;
 
 const canonicalURL = `https://first7.org${Astro.url.pathname}`;
+
+if (import.meta.env.BUILD_TRACE === "true" && import.meta.env.PROD) {
+  console.log(`[build:render] ${Astro.url.pathname}`);
+}
 ---
 
 <!DOCTYPE html>

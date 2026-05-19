@@ -43,17 +43,23 @@ const topicGroups = topics.map((topic) => ({
             </p>
           </section>
 
-          <!-- TOPICS GRID -->
-          <section class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <!-- TOPICS MASONRY -->
+          <section class="topics-masonry">
 
             {topicGroups.map(({ topic, teachings }) => (
 
               <section
-                class="rounded-xl border p-5 hover:bg-[var(--color-primary)]/5 transition"
+                class="topic-card rounded-xl border p-5 transition"
               >
-                <h3 class="font-medium capitalize">
-                  {topic}
-                </h3>
+                <div class="flex items-start justify-between gap-4">
+                  <h3 class="font-medium capitalize leading-snug">
+                    {topic}
+                  </h3>
+
+                  <span class="topic-count rounded-full border px-2.5 py-1 text-xs text-[var(--color-muted)]">
+                    {teachings.length}
+                  </span>
+                </div>
 
                 <ul class="mt-3 space-y-2">
                   {teachings.map((teaching) => (
@@ -83,3 +89,59 @@ const topicGroups = topics.map((topic) => ({
   </div>
 
 </BaseLayout>
+
+<style>
+  .topics-masonry {
+    column-count: 1;
+    column-gap: 1rem;
+  }
+
+  .topic-card {
+    break-inside: avoid;
+    display: inline-block;
+    margin: 0 0 1rem;
+    width: 100%;
+    background: color-mix(in srgb, var(--color-bg) 94%, var(--color-primary));
+    vertical-align: top;
+  }
+
+  .topic-card:hover {
+    background: color-mix(in srgb, var(--color-bg) 88%, var(--color-primary));
+    border-color: color-mix(in srgb, var(--color-primary) 45%, transparent);
+    box-shadow: 0 14px 36px color-mix(in srgb, var(--color-primary) 12%, transparent);
+    transform: translateY(-2px);
+  }
+
+  .topic-count {
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  @media (min-width: 640px) {
+    .topics-masonry {
+      column-count: 2;
+      column-gap: 1.125rem;
+    }
+
+    .topic-card {
+      margin-bottom: 1.125rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .topics-masonry {
+      column-count: 3;
+      column-gap: 1.25rem;
+    }
+
+    .topic-card {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .topics-masonry {
+      column-count: 4;
+    }
+  }
+</style>

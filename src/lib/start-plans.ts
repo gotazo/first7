@@ -105,17 +105,29 @@ export async function getStartPlanDaysStaticPaths() {
     }
   }
 
+  if (import.meta.env.BUILD_TRACE === 'true') {
+    console.log(
+      `[build:paths] plan days plans=${summaries.length} paths=${dayPaths.length}`
+    );
+  }
+
   return dayPaths;
 }
 
 export async function getStartPlanStaticPaths() {
   const summaries = await getStartPlanSummaries();
 
-  return summaries.map<PlanPath>((summary) => ({
+  const paths = summaries.map<PlanPath>((summary) => ({
     plan: summary.plan,
     days: summary.entries.map((entry) => ({
       day: entry.data.day,
       title: entry.data.title
     }))
   }));
+
+  if (import.meta.env.BUILD_TRACE === 'true') {
+    console.log(`[build:paths] plan indexes plans=${paths.length}`);
+  }
+
+  return paths;
 }

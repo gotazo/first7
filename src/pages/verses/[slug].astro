@@ -9,10 +9,16 @@ type VerseEntry = CollectionEntry<'verses'>;
 export async function getStaticPaths() {
 const entries = await getCollection('verses');
 
-return entries.map((entry: VerseEntry) => ({
+const paths = entries.map((entry: VerseEntry) => ({
 params: { slug: entry.data.slug },
 props: { entry }
 }));
+
+if (import.meta.env.BUILD_TRACE === 'true') {
+console.log(`[build:paths] verses paths=${paths.length}`);
+}
+
+return paths;
 }
 
 const { entry } = Astro.props as { entry: VerseEntry };

@@ -15,7 +15,7 @@ export async function getStaticPaths() {
     (a, b) => a.data.date.getTime() - b.data.date.getTime()
   );
 
-  return sorted.map((post, index) => ({
+  const paths = sorted.map((post, index) => ({
     params: { slug: post.id },
     props: {
       post,
@@ -23,6 +23,12 @@ export async function getStaticPaths() {
       nextPost: sorted[index + 1] || null
     }
   }));
+
+  if (import.meta.env.BUILD_TRACE === 'true') {
+    console.log(`[build:paths] blog paths=${paths.length}`);
+  }
+
+  return paths;
 }
 
 const { post, prevPost, nextPost } = Astro.props as {

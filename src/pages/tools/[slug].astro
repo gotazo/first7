@@ -11,10 +11,16 @@ type ToolEntry = CollectionEntry<'tools'>;
 export async function getStaticPaths() {
   const entries = await getCollection('tools');
 
-  return entries.map((entry: ToolEntry) => ({
+  const paths = entries.map((entry: ToolEntry) => ({
     params: { slug: entry.data.slug },
     props: { entry }
   }));
+
+  if (import.meta.env.BUILD_TRACE === 'true') {
+    console.log(`[build:paths] tools paths=${paths.length}`);
+  }
+
+  return paths;
 }
 
 const { entry } = Astro.props as { entry: ToolEntry };

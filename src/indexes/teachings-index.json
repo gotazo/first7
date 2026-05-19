@@ -666,6 +666,69 @@
     }
   },
   {
+    "id": "fruit-reveals-leadership",
+    "title": "Fruit Reveals Leadership",
+    "summary": "Spiritual leadership is ultimately revealed through character, integrity, and lasting fruit.",
+    "topics": [
+      "leadership",
+      "discernment"
+    ],
+    "keywords": [
+      "leadership",
+      "fruit",
+      "discernment",
+      "character",
+      "integrity",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Matthew 7:20",
+      "text": "Wherefore by their fruits ye shall know them."
+    }
+  },
+  {
+    "id": "leading-with-understanding",
+    "title": "Leading With Understanding",
+    "summary": "Wise leadership requires discernment, patience, understanding, and dependence on God's guidance.",
+    "topics": [
+      "leadership",
+      "understanding"
+    ],
+    "keywords": [
+      "leadership",
+      "understanding",
+      "wisdom",
+      "discernment",
+      "patience",
+      "guidance"
+    ],
+    "scripture": {
+      "ref": "Proverbs 16:23",
+      "text": "The heart of the wise teacheth his mouth, and addeth learning to his lips."
+    }
+  },
+  {
+    "id": "spiritual-responsibility",
+    "title": "Spiritual Responsibility",
+    "summary": "Spiritual leadership requires humility, wisdom, accountability, and faithful stewardship before God.",
+    "topics": [
+      "leadership",
+      "responsibility"
+    ],
+    "keywords": [
+      "leadership",
+      "responsibility",
+      "stewardship",
+      "humility",
+      "accountability",
+      "wisdom"
+    ],
+    "scripture": {
+      "ref": "Luke 12:48",
+      "text": "For unto whomsoever much is given, of him shall be much required."
+    }
+  },
+  {
     "id": "comparison-reveals-restlessness",
     "title": "Comparison Reveals Restlessness",
     "summary": "Constant comparison often reveals the absence of spiritual rest.",
