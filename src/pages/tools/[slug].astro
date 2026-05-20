@@ -4,7 +4,10 @@ export const prerender = true;
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
-import FinanceTool from '../../components/tools/FinanceTool.astro';
+import FinanceTool from '../../components/tools/finance/FinanceTool.astro';
+
+import BiblicalNameGenerator
+from '../../components/tools/biblical-name-generator/BiblicalNameGenerator.astro';
 
 type ToolEntry = CollectionEntry<'tools'>;
 
@@ -29,12 +32,14 @@ const { Content } = await render(entry);
 // ✅ FIXED COMPONENT MAPPING (type-safe)
 const components = {
   FinanceTool,
+  BiblicalNameGenerator,
 } as const;
 
 type ComponentKey = keyof typeof components;
 
 const ToolComponent =
   components[entry.data.component as ComponentKey] || null;
+
 ---
 
 <BaseLayout title={entry.data.title} description={entry.data.description} full={true}>

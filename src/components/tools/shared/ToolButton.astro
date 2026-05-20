@@ -1,0 +1,29 @@
+---
+interface Props {
+  label: string;
+  id?: string;
+}
+
+const { label, id } = Astro.props;
+---
+
+<button id={id} class="tool-button">
+  {label}
+</button>
+
+<style>
+  .tool-button {
+    border: none;
+    padding: 0.9rem 1.2rem;
+    border-radius: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    background: var(--accent);
+    color: white;
+    transition: 0.2s ease;
+  }
+
+  .tool-button:hover {
+    transform: translateY(-2px);
+  }
+</style>

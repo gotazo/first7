@@ -1,0 +1,45 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<button
+  id="shareTool"
+  class="btn-secondary px-4 py-3 rounded-xl text-sm"
+>
+  Share
+</button>
+
+<script define:vars={{ title }}>
+
+  const btn =
+    document.getElementById("shareTool");
+
+  btn?.addEventListener("click", async () => {
+
+    const shareData = {
+      title,
+      text: `Check out ${title}`,
+      url: window.location.href
+    };
+
+    if (navigator.share) {
+
+      await navigator.share(shareData);
+
+    } else {
+
+      await navigator.clipboard.writeText(
+        window.location.href
+      );
+
+      alert("Link copied!");
+
+    }
+
+  });
+
+</script>

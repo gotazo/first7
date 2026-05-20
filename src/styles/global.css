@@ -365,3 +365,10 @@ button:focus-visible {
   display: block;
   margin-bottom: 4px;
 }
+
+/* 🌙 Native select dropdown fix */
+select,
+option {
+  background-color: var(--color-bg-soft);
+  color: var(--color-text);
+}
