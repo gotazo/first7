@@ -1,72 +1,252 @@
 export const prefixes = [
 
-  // GOD / DIVINE
-  "El",
-  "Eli",
-  "Jo",
-  "Je",
-  "Ye",
-  "Yah",
-  "Adon",
+  // DIVINE
+  {
+    part: "El",
+    meaning: "God",
+    themes: ["divine", "faith"]
+  },
 
-  // FAMILY / RELATION
-  "Abi",
-  "Ben",
-  "Bath",
-  "Bar",
+  {
+    part: "Eli",
+    meaning: "My God",
+    themes: ["divine", "worship"]
+  },
 
-  // STRENGTH / WARRIOR
-  "Az",
-  "Aza",
-  "Gab",
-  "Zech",
-  "Uri",
-  "Abd",
+  {
+    part: "Jo",
+    meaning: "The Lord",
+    themes: ["faith", "grace"]
+  },
 
-  // ROYAL / NOBLE
-  "Mal",
-  "Sol",
-  "Jer",
-  "Sar",
+  {
+    part: "Je",
+    meaning: "The Lord",
+    themes: ["faith", "leadership"]
+  },
 
-  // PEACE / GRACE
-  "Shal",
-  "Han",
-  "Ana",
+  {
+    part: "Ye",
+    meaning: "Yahweh",
+    themes: ["divine", "holy"]
+  },
 
-  // LIGHT / FIRE
-  "Nur",
-  "Ori",
-  "Esh",
+  {
+    part: "Yah",
+    meaning: "Yahweh",
+    themes: ["divine", "holy"]
+  },
+
+  {
+    part: "Adon",
+    meaning: "Lord",
+    themes: ["royal", "leadership"]
+  },
+
+  // FAMILY
+  {
+    part: "Abi",
+    meaning: "Father",
+    themes: ["family", "heritage"]
+  },
+
+  {
+    part: "Ben",
+    meaning: "Son",
+    themes: ["family", "legacy"]
+  },
+
+  {
+    part: "Bath",
+    meaning: "Daughter",
+    themes: ["family", "grace"]
+  },
+
+  {
+    part: "Bar",
+    meaning: "Son of",
+    themes: ["family", "heritage"]
+  },
+
+  // STRENGTH
+  {
+    part: "Az",
+    meaning: "Strength",
+    themes: ["warrior", "strength"]
+  },
+
+  {
+    part: "Aza",
+    meaning: "Strong",
+    themes: ["strength", "warrior"]
+  },
+
+  {
+    part: "Gab",
+    meaning: "Mighty",
+    themes: ["strength", "warrior"]
+  },
+
+  {
+    part: "Zech",
+    meaning: "Remembered by God",
+    themes: ["faith", "wisdom"]
+  },
+
+  {
+    part: "Uri",
+    meaning: "Light of God",
+    themes: ["light", "faith"]
+  },
+
+  {
+    part: "Abd",
+    meaning: "Servant",
+    themes: ["service", "faith"]
+  },
+
+  // ROYAL
+  {
+    part: "Mal",
+    meaning: "King",
+    themes: ["royal", "leadership"]
+  },
+
+  {
+    part: "Sol",
+    meaning: "Peace",
+    themes: ["peace", "wisdom"]
+  },
+
+  {
+    part: "Jer",
+    meaning: "Foundation",
+    themes: ["leadership", "strength"]
+  },
+
+  {
+    part: "Sar",
+    meaning: "Prince",
+    themes: ["royal", "leadership"]
+  },
+
+  // PEACE
+  {
+    part: "Shal",
+    meaning: "Peace",
+    themes: ["peace", "grace"]
+  },
+
+  {
+    part: "Han",
+    meaning: "Grace",
+    themes: ["grace", "kindness"]
+  },
+
+  {
+    part: "Ana",
+    meaning: "Mercy",
+    themes: ["grace", "love"]
+  },
+
+  // LIGHT
+  {
+    part: "Nur",
+    meaning: "Light",
+    themes: ["light", "hope"]
+  },
+
+  {
+    part: "Ori",
+    meaning: "My light",
+    themes: ["light", "faith"]
+  },
+
+  {
+    part: "Esh",
+    meaning: "Fire",
+    themes: ["strength", "spirit"]
+  },
 
   // NATURE
-  "Tal",
-  "Carm",
-  "Gil",
+  {
+    part: "Tal",
+    meaning: "Dew",
+    themes: ["nature", "peace"]
+  },
 
-  // PROPHETIC / PRIESTLY
-  "Ezr",
-  "Lev",
-  "Sam",
-  "Nathan",
+  {
+    part: "Carm",
+    meaning: "Garden",
+    themes: ["nature", "beauty"]
+  },
 
-  // FEMALE STYLE
-  "Had",
-  "Mir",
-  "Est",
-  "Ruth",
-  "Deb",
-  "Mara",
+  {
+    part: "Gil",
+    meaning: "Joy",
+    themes: ["joy", "hope"]
+  },
 
-  // ADDITIONAL HEBREW-STYLE
-  "Asa",
-  "Hos",
-  "Jeda",
-  "Mat",
-  "Tob",
-  "Zad",
-  "Rap",
-  "Dan",
-  "Shaph",
-  "Hez"
+  // PROPHETIC
+  {
+    part: "Ezr",
+    meaning: "Help",
+    themes: ["wisdom", "faith"]
+  },
+
+  {
+    part: "Lev",
+    meaning: "Joined",
+    themes: ["priestly", "service"]
+  },
+
+  {
+    part: "Sam",
+    meaning: "Heard by God",
+    themes: ["prayer", "faith"]
+  },
+
+  {
+    part: "Nathan",
+    meaning: "Gift",
+    themes: ["grace", "faith"]
+  },
+
+  // FEMALE
+  {
+    part: "Had",
+    meaning: "Myrtle",
+    themes: ["beauty", "nature"]
+  },
+
+  {
+    part: "Mir",
+    meaning: "Beloved",
+    themes: ["love", "grace"]
+  },
+
+  {
+    part: "Est",
+    meaning: "Star",
+    themes: ["royal", "light"]
+  },
+
+  {
+    part: "Ruth",
+    meaning: "Friend",
+    themes: ["kindness", "faith"]
+  },
+
+  {
+    part: "Deb",
+    meaning: "Bee",
+    themes: ["wisdom", "strength"]
+  },
+
+  {
+    part: "Mara",
+    meaning: "Bitterness",
+    themes: ["strength", "endurance"]
+  }
+
 ];

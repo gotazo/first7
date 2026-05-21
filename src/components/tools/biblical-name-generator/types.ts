@@ -1,4 +1,5 @@
 export interface BiblicalName {
+
   name: string;
 
   meaning: string;
@@ -9,11 +10,12 @@ export interface BiblicalName {
 
   origin: string;
 
-  category: string;
-
   verse: string;
 
   testament?: "old" | "new";
 
+  categories?: string[];
+
   tags?: string[];
+
 }

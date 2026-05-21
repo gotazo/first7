@@ -62,9 +62,24 @@ const ToolComponent =
             {entry.data.title}
           </h1>
 
-          <p class="text-[var(--color-muted)]">
-            {entry.data.description}
-          </p>
+          <div class="space-y-3">
+
+  <p class="text-[var(--color-muted)]">
+    {entry.data.description}
+  </p>
+
+  {entry.data.slug === "biblical-name-generator" && (
+
+    <p class="text-sm md:text-base text-[var(--color-muted)] max-w-2xl leading-relaxed">
+
+      The ultimate scripture-inspired naming tool with real biblical names,
+      generated names, meanings, and themed inspiration.
+
+    </p>
+
+  )}
+
+</div>
 
         </header>
 

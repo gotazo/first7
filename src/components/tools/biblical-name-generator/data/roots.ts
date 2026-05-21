@@ -1,83 +1,147 @@
 export const roots = [
 
-  // DIVINE
-  "iah",
-  "yah",
-  "iel",
-  "el",
-  "uel",
+  {
+    part: "iah",
+    meaning: "Of Yahweh",
+    themes: ["divine", "holy"]
+  },
 
-  // SALVATION / HELP
-  "shua",
-  "azar",
-  "ezer",
-  "nath",
+  {
+    part: "yah",
+    meaning: "Yahweh",
+    themes: ["divine", "faith"]
+  },
 
-  // KINGDOM / RULE
-  "adon",
-  "melech",
-  "sar",
+  {
+    part: "iel",
+    meaning: "Belonging to God",
+    themes: ["divine", "faith"]
+  },
 
-  // WISDOM / KNOWLEDGE
-  "dan",
-  "riel",
-  "ziel",
+  {
+    part: "el",
+    meaning: "Of God",
+    themes: ["divine", "holy"]
+  },
 
-  // LIGHT / FIRE
-  "or",
-  "esh",
-  "nur",
+  {
+    part: "uel",
+    meaning: "Strength of God",
+    themes: ["strength", "faith"]
+  },
 
-  // PEACE / LOVE
-  "shal",
-  "ram",
-  "ahav",
+  {
+    part: "shua",
+    meaning: "Salvation",
+    themes: ["hope", "faith"]
+  },
 
-  // STRENGTH
-  "gib",
-  "oz",
-  "bar",
+  {
+    part: "azar",
+    meaning: "Help",
+    themes: ["strength", "grace"]
+  },
 
-  // BEAUTY / GRACE
-  "hadar",
-  "chen",
-  "tir",
+  {
+    part: "ezer",
+    meaning: "Helper",
+    themes: ["service", "faith"]
+  },
 
-  // LIFE / JOY
-  "chai",
-  "gil",
-  "ron",
+  {
+    part: "nath",
+    meaning: "Given",
+    themes: ["grace", "gift"]
+  },
 
-  // FEMALE STYLE
-  "ara",
-  "ella",
-  "ina",
-  "eth",
+  {
+    part: "adon",
+    meaning: "Lord",
+    themes: ["royal", "leadership"]
+  },
 
-  // PRIESTLY / HOLY
-  "kohen",
-  "lev",
-  "zadok",
+  {
+    part: "melech",
+    meaning: "Kingdom",
+    themes: ["royal", "leadership"]
+  },
 
-  // NATURE
-  "carm",
-  "tal",
-  "zion",
+  {
+    part: "sar",
+    meaning: "Prince",
+    themes: ["royal", "leadership"]
+  },
 
-  // HEAVENLY
-  "riel",
-  "zion",
-  "seraph",
+  {
+    part: "dan",
+    meaning: "Judge",
+    themes: ["wisdom", "justice"]
+  },
 
-  // ADDITIONAL COMBINATION ROOTS
-  "amar",
-  "tob",
-  "yed",
-  "miel",
-  "phar",
-  "zar",
-  "thiel",
-  "viah",
-  "lem",
-  "oth"
+  {
+    part: "riel",
+    meaning: "Vision of God",
+    themes: ["vision", "faith"]
+  },
+
+  {
+    part: "ziel",
+    meaning: "Shadow of God",
+    themes: ["protection", "faith"]
+  },
+
+  {
+    part: "or",
+    meaning: "Light",
+    themes: ["light", "hope"]
+  },
+
+  {
+    part: "esh",
+    meaning: "Fire",
+    themes: ["spirit", "strength"]
+  },
+
+  {
+    part: "nur",
+    meaning: "Light",
+    themes: ["light", "beauty"]
+  },
+
+  {
+    part: "shal",
+    meaning: "Peace",
+    themes: ["peace", "grace"]
+  },
+
+  {
+    part: "ram",
+    meaning: "Exalted",
+    themes: ["royal", "strength"]
+  },
+
+  {
+    part: "ahav",
+    meaning: "Love",
+    themes: ["love", "grace"]
+  },
+
+  {
+    part: "gib",
+    meaning: "Warrior",
+    themes: ["warrior", "strength"]
+  },
+
+  {
+    part: "oz",
+    meaning: "Power",
+    themes: ["strength", "warrior"]
+  },
+
+  {
+    part: "bar",
+    meaning: "Pure",
+    themes: ["holy", "faith"]
+  }
+
 ];

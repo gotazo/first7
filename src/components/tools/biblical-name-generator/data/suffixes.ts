@@ -1,61 +1,141 @@
 export const suffixes = [
 
-  // CLASSIC BIBLICAL
-  "ah",
-  "iah",
-  "el",
-  "iel",
-  "ael",
-  "uel",
+  {
+    part: "ah",
+    meaning: "Breath",
+    themes: ["life", "grace"]
+  },
 
-  // MALE STYLE
-  "on",
-  "an",
-  "am",
-  "im",
-  "or",
-  "ar",
-  "us",
+  {
+    part: "iah",
+    meaning: "Of Yahweh",
+    themes: ["divine", "holy"]
+  },
 
-  // FEMALE STYLE
-  "ah",
-  "a",
-  "eth",
-  "iah",
-  "elle",
-  "ina",
-  "ara",
-  "yah",
+  {
+    part: "el",
+    meaning: "Of God",
+    themes: ["divine", "faith"]
+  },
 
-  // ROYAL / PROPHETIC
-  "adon",
-  "ziel",
-  "riel",
-  "thiel",
+  {
+    part: "iel",
+    meaning: "Belonging to God",
+    themes: ["divine", "holy"]
+  },
 
-  // PEACEFUL / HOLY
-  "shalom",
-  "yah",
-  "ezer",
+  {
+    part: "ael",
+    meaning: "Power of God",
+    themes: ["strength", "faith"]
+  },
 
-  // STRONG ENDINGS
-  "zar",
-  "gib",
-  "ram",
+  {
+    part: "uel",
+    meaning: "Strength of God",
+    themes: ["strength", "warrior"]
+  },
 
-  // SOFT HEBREW STYLE
-  "iahu",
-  "iela",
-  "eon",
-  "aiah",
+  {
+    part: "on",
+    meaning: "Mighty one",
+    themes: ["strength", "royal"]
+  },
 
-  // UNIQUE COMBINATIONS
-  "oth",
-  "eph",
-  "ielon",
-  "azar",
-  "urion",
-  "ielah",
-  "etha",
-  "iona"
+  {
+    part: "an",
+    meaning: "Grace",
+    themes: ["grace", "peace"]
+  },
+
+  {
+    part: "am",
+    meaning: "People",
+    themes: ["community", "faith"]
+  },
+
+  {
+    part: "im",
+    meaning: "Nation",
+    themes: ["leadership", "royal"]
+  },
+
+  {
+    part: "or",
+    meaning: "Light",
+    themes: ["light", "hope"]
+  },
+
+  {
+    part: "ar",
+    meaning: "Mountain",
+    themes: ["strength", "steadfast"]
+  },
+
+  {
+    part: "us",
+    meaning: "Servant",
+    themes: ["service", "faith"]
+  },
+
+  {
+    part: "eth",
+    meaning: "Beauty",
+    themes: ["beauty", "grace"]
+  },
+
+  {
+    part: "yah",
+    meaning: "Yahweh",
+    themes: ["divine", "holy"]
+  },
+
+  {
+    part: "ziel",
+    meaning: "Protection of God",
+    themes: ["faith", "protection"]
+  },
+
+  {
+    part: "riel",
+    meaning: "Vision of God",
+    themes: ["vision", "faith"]
+  },
+
+  {
+    part: "thiel",
+    meaning: "Gift of God",
+    themes: ["gift", "grace"]
+  },
+
+  {
+    part: "shalom",
+    meaning: "Peace",
+    themes: ["peace", "grace"]
+  },
+
+  {
+    part: "ezer",
+    meaning: "Helper",
+    themes: ["service", "faith"]
+  },
+
+  {
+    part: "zar",
+    meaning: "Helper",
+    themes: ["strength", "service"]
+  },
+
+  {
+    part: "gib",
+    meaning: "Warrior",
+    themes: ["warrior", "strength"]
+  },
+
+  {
+    part: "ram",
+    meaning: "Exalted",
+    themes: ["royal", "leadership"]
+  }
+
 ];
