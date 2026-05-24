@@ -1,0 +1,48 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Share a Reflection or Testimony">
+
+  <main class="mx-auto w-full max-w-3xl px-4 py-16 space-y-8">
+
+    <header class="space-y-4 text-center">
+      <h1 class="text-4xl font-semibold">
+        Share a Reflection or Testimony
+      </h1>
+
+      <p class="text-[var(--color-muted)] leading-relaxed">
+        You are welcome to share a testimony, spiritual reflection,
+        answered prayer, lesson, encouragement, or personal experience.
+        Selected reflections may be prayerfully reviewed and featured
+        on First7.
+      </p>
+    </header>
+
+    <section class="rounded-2xl border border-[var(--color-border)] p-4 sm:p-6">
+
+      <iframe
+        data-tally-src="https://tally.so/embed/ZjZG2V?alignLeft=1&hideTitle=1&dynamicHeight=1"
+        loading="lazy"
+        width="100%"
+        height="1171"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        title="Share a Reflection or Testimony"
+        class="w-full"
+      ></iframe>
+
+    </section>
+
+  </main>
+
+</BaseLayout>
+
+<script is:inline src="https://tally.so/widgets/embed.js"></script>
+
+<script is:inline>
+  if (typeof Tally !== "undefined") {
+    Tally.loadEmbeds();
+  }
+</script>

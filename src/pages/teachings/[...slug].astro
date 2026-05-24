@@ -112,7 +112,8 @@ const { teaching } = Astro.props;
       <h2 class="text-xl font-medium">Prayer</h2>
       <p>{teaching.data.prayer}</p>
     </section>
-    <section class="pt-6 border-t border-[var(--color-border)]">
+<section class="space-y-4 pt-6 border-t border-[var(--color-border)]">
+
   <p class="text-sm leading-relaxed text-[var(--color-muted)]">
     These teachings are prayerfully developed through Scripture study,
     sermon preparation, biblical research, and insights learned from
@@ -120,7 +121,16 @@ const { teaching } = Astro.props;
     organized to encourage spiritual growth while remaining grounded
     in Scripture.
   </p>
+
+<a
+  href="/share"
+  class="btn inline-block px-5 py-2.5 rounded-lg text-sm font-medium"
+>
+  Share a reflection or testimony →
+</a>
+
 </section>
+
        </article>
 
     </main>
