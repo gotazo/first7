@@ -1,0 +1,1036 @@
+---
+import ToolShare from "../shared/ToolShare.astro";
+---
+
+<div class="mx-auto w-full max-w-[720px] px-4 sm:px-6 space-y-8">
+
+  <ToolShare />
+
+  <!-- Intro -->
+  <div class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 p-5">
+    <p class="text-sm text-[var(--color-muted)] leading-relaxed">
+      Create a personalized Bible reading plan based on your preferred
+      reading pace and focus. Track your progress, print your plan,
+      and stay consistent in Scripture.
+    </p>
+  </div>
+
+  <!-- Settings -->
+  <section class="rounded-2xl border border-[var(--color-border)] p-5 space-y-6">
+
+    <div class="space-y-2">
+      <h2 class="text-lg font-semibold">
+        Plan Settings
+      </h2>
+
+      <p class="text-sm text-[var(--color-muted)]">
+        Choose your reading scope and duration.
+      </p>
+    </div>
+
+    <!-- Scope -->
+    <div class="space-y-3">
+
+      <label class="block text-sm font-medium">
+        Reading Scope
+      </label>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+
+        <button
+          type="button"
+          data-scope="full"
+          aria-pressed="true"
+          class="scope-btn rounded-xl border border-[var(--color-border)] p-4 text-left transition hover:bg-[var(--color-primary)]/5"
+        >
+          <span class="block font-medium">
+            Full Bible
+          </span>
+
+          <span class="mt-1 block text-xs text-[var(--color-muted)]">
+            Old + New Testament
+          </span>
+        </button>
+
+        <button
+          type="button"
+          data-scope="ot"
+          aria-pressed="false"
+          class="scope-btn rounded-xl border border-[var(--color-border)] p-4 text-left transition hover:bg-[var(--color-primary)]/5"
+        >
+          <span class="block font-medium">
+            Old Testament
+          </span>
+
+          <span class="mt-1 block text-xs text-[var(--color-muted)]">
+            929 chapters
+          </span>
+        </button>
+
+        <button
+          type="button"
+          data-scope="nt"
+          aria-pressed="false"
+          class="scope-btn rounded-xl border border-[var(--color-border)] p-4 text-left transition hover:bg-[var(--color-primary)]/5"
+        >
+          <span class="block font-medium">
+            New Testament
+          </span>
+
+          <span class="mt-1 block text-xs text-[var(--color-muted)]">
+            260 chapters
+          </span>
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- Duration -->
+    <div class="space-y-3">
+
+      <label class="block text-sm font-medium">
+        Plan Duration
+      </label>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+
+        <button
+          type="button"
+          data-days="30"
+          aria-pressed="false"
+          class="dur-btn rounded-xl border border-[var(--color-border)] p-4 text-center transition hover:bg-[var(--color-primary)]/5"
+        >
+          <span class="block font-medium">
+            30 Days
+          </span>
+
+          <span class="mt-1 block text-xs text-[var(--color-muted)]">
+            1 month
+          </span>
+        </button>
+
+        <button
+          type="button"
+          data-days="90"
+          aria-pressed="false"
+          class="dur-btn rounded-xl border border-[var(--color-border)] p-4 text-center transition hover:bg-[var(--color-primary)]/5"
+        >
+          <span class="block font-medium">
+            90 Days
+          </span>
+
+          <span class="mt-1 block text-xs text-[var(--color-muted)]">
+            3 months
+          </span>
+        </button>
+
+        <button
+          type="button"
+          data-days="180"
+          aria-pressed="false"
+          class="dur-btn rounded-xl border border-[var(--color-border)] p-4 text-center transition hover:bg-[var(--color-primary)]/5"
+        >
+          <span class="block font-medium">
+            180 Days
+          </span>
+
+          <span class="mt-1 block text-xs text-[var(--color-muted)]">
+            6 months
+          </span>
+        </button>
+
+        <button
+          type="button"
+          data-days="365"
+          aria-pressed="true"
+          class="dur-btn rounded-xl border border-[var(--color-border)] p-4 text-center transition hover:bg-[var(--color-primary)]/5"
+        >
+          <span class="block font-medium">
+            365 Days
+          </span>
+
+          <span class="mt-1 block text-xs text-[var(--color-muted)]">
+            1 year
+          </span>
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- Custom -->
+    <div class="space-y-2">
+
+      <label
+        for="customDays"
+        class="block text-sm font-medium"
+      >
+        Custom Duration
+      </label>
+
+      <input
+        id="customDays"
+        type="number"
+        min="1"
+        max="3000"
+        placeholder="Enter custom days"
+        class="w-full rounded-xl border border-[var(--color-border)] bg-transparent px-4 py-3"
+      />
+
+    </div>
+
+    <!-- Start date -->
+    <div class="space-y-2">
+
+      <label
+        for="startDate"
+        class="block text-sm font-medium"
+      >
+        Start Date
+      </label>
+
+      <input
+        id="startDate"
+        type="date"
+        class="w-full rounded-xl border border-[var(--color-border)] bg-transparent px-4 py-3"
+      />
+
+    </div>
+
+    <!-- Buttons -->
+    <div class="flex flex-col sm:flex-row gap-3">
+
+      <button
+        id="generateBtn"
+        type="button"
+        class="btn flex-1 rounded-xl py-3"
+      >
+        Generate Plan
+      </button>
+
+      <button
+        id="resetBtn"
+        type="button"
+        class="btn-secondary rounded-xl px-5 py-3"
+      >
+        Reset
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- Error -->
+  <div
+    id="errorBox"
+    class="hidden rounded-2xl border border-red-300 bg-red-50 dark:bg-red-900/10 p-4 text-sm text-red-600 dark:text-red-400"
+  ></div>
+
+  <!-- Progress -->
+  <section
+    id="progressSection"
+    class="hidden rounded-2xl border border-[var(--color-border)] p-5 space-y-4"
+  >
+
+    <div class="flex items-center justify-between">
+
+      <h2 class="text-lg font-semibold">
+        Progress
+      </h2>
+
+      <span
+        id="progressPercent"
+        class="text-sm text-[var(--color-muted)]"
+      >
+        0%
+      </span>
+
+    </div>
+
+    <div class="h-3 overflow-hidden rounded-full bg-[var(--color-border)]">
+
+      <div
+        id="progressBar"
+        class="h-full rounded-full bg-[var(--color-primary)] transition-all duration-500"
+        style="width: 0%"
+      ></div>
+
+    </div>
+
+    <div class="flex items-center justify-between text-sm text-[var(--color-muted)]">
+
+      <span>
+        <span id="doneCount">0</span> completed
+      </span>
+
+      <span>
+        <span id="totalCount">0</span> total
+      </span>
+
+    </div>
+
+    <p
+      id="streakMessage"
+      class="text-xs text-[var(--color-muted)]"
+    ></p>
+
+  </section>
+
+  <!-- Plan -->
+  <section
+    id="planSection"
+    class="hidden rounded-2xl border border-[var(--color-border)] p-5 space-y-5"
+  >
+
+    <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+
+      <div>
+
+        <h2
+          id="planTitle"
+          class="text-lg font-semibold"
+        >
+          Reading Plan
+        </h2>
+
+      </div>
+
+      <div class="flex flex-wrap gap-2">
+
+        <button
+          id="copyBtn"
+          type="button"
+          class="btn-secondary rounded-lg px-3 py-2 text-xs"
+        >
+          Copy
+        </button>
+
+        <button
+          id="printBtn"
+          type="button"
+          class="btn-secondary rounded-lg px-3 py-2 text-xs"
+        >
+          Print
+        </button>
+
+      </div>
+
+    </div>
+
+    <div
+      id="planList"
+      class="space-y-2"
+    ></div>
+
+  </section>
+
+</div>
+
+<script>
+
+const STORAGE_KEY = "bible-reading-plan";
+
+const OT_BOOKS = [
+["Genesis", 50],
+["Exodus", 40],
+["Leviticus", 27],
+["Numbers", 36],
+["Deuteronomy", 34],
+["Joshua", 24],
+["Judges", 21],
+["Ruth", 4],
+["1 Samuel", 31],
+["2 Samuel", 24],
+["1 Kings", 22],
+["2 Kings", 25],
+["1 Chronicles", 29],
+["2 Chronicles", 36],
+["Ezra", 10],
+["Nehemiah", 13],
+["Esther", 10],
+["Job", 42],
+["Psalms", 150],
+["Proverbs", 31],
+["Ecclesiastes", 12],
+["Song of Solomon", 8],
+["Isaiah", 66],
+["Jeremiah", 52],
+["Lamentations", 5],
+["Ezekiel", 48],
+["Daniel", 12],
+["Hosea", 14],
+["Joel", 3],
+["Amos", 9],
+["Obadiah", 1],
+["Jonah", 4],
+["Micah", 7],
+["Nahum", 3],
+["Habakkuk", 3],
+["Zephaniah", 3],
+["Haggai", 2],
+["Zechariah", 14],
+["Malachi", 4],
+];
+
+const NT_BOOKS = [
+["Matthew", 28],
+["Mark", 16],
+["Luke", 24],
+["John", 21],
+["Acts", 28],
+["Romans", 16],
+["1 Corinthians", 16],
+["2 Corinthians", 13],
+["Galatians", 6],
+["Ephesians", 6],
+["Philippians", 4],
+["Colossians", 4],
+["1 Thessalonians", 5],
+["2 Thessalonians", 3],
+["1 Timothy", 6],
+["2 Timothy", 4],
+["Titus", 3],
+["Philemon", 1],
+["Hebrews", 13],
+["James", 5],
+["1 Peter", 5],
+["2 Peter", 3],
+["1 John", 5],
+["2 John", 1],
+["3 John", 1],
+["Jude", 1],
+["Revelation", 22],
+];
+
+function buildChapterList(scope) {
+
+const books =
+scope === "ot"
+? OT_BOOKS
+: scope === "nt"
+? NT_BOOKS
+: [...OT_BOOKS, ...NT_BOOKS];
+
+const chapters = [];
+
+books.forEach(([name, total]) => {
+
+for (let i = 1; i <= total; i++) {
+
+  chapters.push(`${name} ${i}`);
+
+}
+
+
+});
+
+return chapters;
+
+}
+
+function loadData() {
+
+  try {
+
+    return JSON.parse(
+      localStorage.getItem(STORAGE_KEY) ||
+      '{"planData":null}'
+    );
+
+  } catch {
+
+    return {
+      planData: null
+    };
+
+  }
+
+}
+
+function saveData(data) {
+
+  localStorage.setItem(
+    STORAGE_KEY,
+    JSON.stringify(data)
+  );
+
+}
+
+function addDays(dateStr, days) {
+
+  const date = new Date(dateStr);
+
+  date.setDate(date.getDate() + days);
+
+  return date.toISOString().slice(0, 10);
+
+}
+
+function formatDate(dateStr) {
+
+  return new Date(
+    dateStr + "T00:00:00"
+  ).toLocaleDateString(undefined, {
+    month: "short",
+    day: "numeric",
+    year: "numeric"
+  });
+
+}
+
+function generatePlan(scope, days, startDate) {
+
+const chapters =
+buildChapterList(scope);
+
+const totalChapters =
+chapters.length;
+
+const chaptersPerDay =
+Math.ceil(totalChapters / days);
+
+const plan = [];
+
+let currentIndex = 0;
+
+for (let i = 0; i < days; i++) {
+
+const readings = [];
+
+for (
+  let j = 0;
+  j < chaptersPerDay;
+  j++
+) {
+
+  if (currentIndex < totalChapters) {
+
+    readings.push(
+      chapters[currentIndex]
+    );
+
+    currentIndex++;
+
+  }
+
+}
+
+plan.push({
+  day: i + 1,
+  date: addDays(startDate, i),
+  readings,
+  done: false
+});
+
+}
+
+return plan;
+
+}
+
+function calculateStreak(plan) {
+
+  let streak = 0;
+
+  for (let i = plan.length - 1; i >= 0; i--) {
+
+    if (plan[i].done) {
+      streak++;
+    } else {
+      break;
+    }
+
+  }
+
+  return streak;
+
+}
+
+let selectedScope = "full";
+let selectedDays = 365;
+let appData = loadData();
+
+const startDateInput =
+  document.getElementById("startDate");
+
+const customDaysInput =
+  document.getElementById("customDays");
+
+const generateBtn =
+  document.getElementById("generateBtn");
+
+const resetBtn =
+  document.getElementById("resetBtn");
+
+const progressSection =
+  document.getElementById("progressSection");
+
+const planSection =
+  document.getElementById("planSection");
+
+const progressBar =
+  document.getElementById("progressBar");
+
+const progressPercent =
+  document.getElementById("progressPercent");
+
+const doneCount =
+  document.getElementById("doneCount");
+
+const totalCount =
+  document.getElementById("totalCount");
+
+const streakMessage =
+  document.getElementById("streakMessage");
+
+const planTitle =
+  document.getElementById("planTitle");
+
+const planList =
+  document.getElementById("planList");
+
+const errorBox =
+  document.getElementById("errorBox");
+
+const copyBtn =
+  document.getElementById("copyBtn");
+
+const printBtn =
+  document.getElementById("printBtn");
+
+startDateInput.value =
+  new Date().toISOString().slice(0, 10);
+
+function showError(message) {
+
+  errorBox.textContent = message;
+
+  errorBox.classList.remove("hidden");
+
+  setTimeout(() => {
+
+    errorBox.classList.add("hidden");
+
+  }, 4000);
+
+}
+
+function renderProgress(planData) {
+
+  const completed =
+    planData.plan.filter((d) => d.done).length;
+
+  const percent = Math.round(
+    (completed / planData.days) * 100
+  );
+
+  progressBar.style.width = `${percent}%`;
+
+  progressPercent.textContent =
+    `${percent}%`;
+
+  doneCount.textContent = completed;
+
+  totalCount.textContent =
+    planData.days;
+
+  const streak =
+    calculateStreak(planData.plan);
+
+  if (streak > 1) {
+
+    streakMessage.textContent =
+      `🔥 ${streak}-day streak`;
+
+  } else if (streak === 1) {
+
+    streakMessage.textContent =
+      "✅ Great start";
+
+  } else {
+
+    streakMessage.textContent = "";
+
+  }
+
+}
+
+function renderPlan(planData) {
+
+  progressSection.classList.remove("hidden");
+
+  planSection.classList.remove("hidden");
+
+  planTitle.textContent =
+    `${planData.days}-Day Reading Plan`;
+
+  renderProgress(planData);
+
+  planList.innerHTML = "";
+
+  planData.plan.forEach((entry) => {
+
+    const item =
+      document.createElement("div");
+
+    item.className =
+      "rounded-xl border border-[var(--color-border)] p-4";
+
+    const wrapper =
+      document.createElement("div");
+
+    wrapper.className =
+      "flex items-start gap-3";
+
+    const checkbox =
+      document.createElement("input");
+
+    checkbox.type = "checkbox";
+
+    checkbox.checked = entry.done;
+
+    checkbox.className =
+      "mt-1 h-4 w-4 accent-[var(--color-primary)]";
+
+    const content =
+      document.createElement("div");
+
+    content.className =
+      "flex-1 space-y-1";
+
+    const title =
+      document.createElement("div");
+
+    title.className =
+      "flex items-center justify-between gap-3";
+
+    title.innerHTML = `
+      <span class="font-medium">
+        Day ${entry.day}
+      </span>
+
+      <span class="text-xs text-[var(--color-muted)]">
+        ${formatDate(entry.date)}
+      </span>
+    `;
+
+    const reading =
+      document.createElement("p");
+
+    reading.className =
+      "text-sm text-[var(--color-muted)] leading-relaxed";
+
+    reading.textContent =
+      entry.readings.join(" · ");
+
+    if (entry.done) {
+
+      reading.style.textDecoration =
+        "line-through";
+
+      reading.style.opacity = "0.6";
+
+    }
+
+    checkbox.addEventListener("change", () => {
+
+      entry.done = checkbox.checked;
+
+      saveData(appData);
+
+      renderPlan(planData);
+
+    });
+
+    content.appendChild(title);
+    content.appendChild(reading);
+
+    wrapper.appendChild(checkbox);
+    wrapper.appendChild(content);
+
+    item.appendChild(wrapper);
+
+    planList.appendChild(item);
+
+  });
+
+}
+
+document
+  .querySelectorAll(".scope-btn")
+  .forEach((btn) => {
+
+    btn.addEventListener("click", () => {
+
+      document
+        .querySelectorAll(".scope-btn")
+        .forEach((b) => {
+
+          b.setAttribute(
+            "aria-pressed",
+            "false"
+          );
+
+        });
+
+      btn.setAttribute(
+        "aria-pressed",
+        "true"
+      );
+
+      selectedScope =
+        btn.dataset.scope;
+
+    });
+
+});
+
+document
+  .querySelectorAll(".dur-btn")
+  .forEach((btn) => {
+
+    btn.addEventListener("click", () => {
+
+      document
+        .querySelectorAll(".dur-btn")
+        .forEach((b) => {
+
+          b.setAttribute(
+            "aria-pressed",
+            "false"
+          );
+
+        });
+
+      btn.setAttribute(
+        "aria-pressed",
+        "true"
+      );
+
+      selectedDays =
+        Number(btn.dataset.days);
+
+      customDaysInput.value = "";
+
+    });
+
+});
+
+customDaysInput.addEventListener("input", () => {
+
+  document
+    .querySelectorAll(".dur-btn")
+    .forEach((b) => {
+
+      b.setAttribute(
+        "aria-pressed",
+        "false"
+      );
+
+    });
+
+  if (customDaysInput.value) {
+
+    selectedDays =
+      Number(customDaysInput.value);
+
+  }
+
+});
+
+generateBtn.addEventListener("click", () => {
+
+  const days =
+    Number(customDaysInput.value) ||
+    selectedDays;
+
+  const startDate =
+    startDateInput.value;
+
+  if (!startDate) {
+
+    showError(
+      "Please choose a start date."
+    );
+
+    return;
+
+  }
+
+  if (!days || days < 1) {
+
+    showError(
+      "Please enter a valid duration."
+    );
+
+    return;
+
+  }
+
+  const plan = generatePlan(
+    selectedScope,
+    days,
+    startDate
+  );
+
+  appData.planData = {
+    scope: selectedScope,
+    days,
+    startDate,
+    plan,
+    generatedAt:
+      new Date().toISOString(),
+  };
+
+  saveData(appData);
+
+  renderPlan(appData.planData);
+
+});
+
+resetBtn.addEventListener("click", () => {
+
+  if (
+    !confirm(
+      "Reset your reading plan?"
+    )
+  ) {
+    return;
+  }
+
+  appData.planData = null;
+
+  saveData(appData);
+
+  progressSection.classList.add("hidden");
+
+  planSection.classList.add("hidden");
+
+});
+
+copyBtn.addEventListener("click", async () => {
+
+  if (!appData.planData) return;
+
+  const text =
+    appData.planData.plan
+      .map((d) => {
+
+        return `Day ${d.day}: ${d.readings.join(", ")}`;
+
+      })
+      .join("\n");
+
+  try {
+
+    await navigator.clipboard.writeText(
+      text
+    );
+
+    copyBtn.textContent = "Copied!";
+
+    setTimeout(() => {
+
+      copyBtn.textContent = "Copy";
+
+    }, 2000);
+
+  } catch {
+
+    showError(
+      "Could not copy plan."
+    );
+
+  }
+
+});
+
+printBtn.addEventListener("click", () => {
+
+  window.print();
+
+});
+
+if (appData.planData) {
+
+  renderPlan(appData.planData);
+
+}
+
+</script>
+
+<style>
+
+.scope-btn,
+.dur-btn {
+
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.15s ease,
+    box-shadow 0.2s ease;
+
+}
+
+.scope-btn:hover,
+.dur-btn:hover {
+
+  transform: translateY(-1px);
+
+}
+
+.scope-btn[aria-pressed="true"],
+.dur-btn[aria-pressed="true"] {
+
+  border-color: var(--color-primary);
+
+  background:
+    color-mix(
+      in srgb,
+      var(--color-primary) 14%,
+      transparent
+    );
+
+  box-shadow:
+    0 0 0 1px
+    color-mix(
+      in srgb,
+      var(--color-primary) 40%,
+      transparent
+    );
+
+  transform: translateY(-1px);
+
+}
+
+.scope-btn[aria-pressed="true"] span:first-child,
+.dur-btn[aria-pressed="true"] span:first-child {
+
+  color: var(--color-primary);
+
+}
+
+.scope-btn:focus-visible,
+.dur-btn:focus-visible {
+
+  outline: 2px solid var(--color-primary);
+
+  outline-offset: 2px;
+
+}
+
+@media print {
+
+  button,
+  input {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+  }
+
+}
+
+</style>

@@ -9,6 +9,9 @@ import FinanceTool from '../../components/tools/finance/FinanceTool.astro';
 import BiblicalNameGenerator
 from '../../components/tools/biblical-name-generator/BiblicalNameGenerator.astro';
 
+import BibleReadingPlan
+from '../../components/tools/bible-reading-plan/BibleReadingPlan.astro';
+
 type ToolEntry = CollectionEntry<'tools'>;
 
 export async function getStaticPaths() {
@@ -28,11 +31,18 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props as { entry: ToolEntry };
 const { Content } = await render(entry);
+const allTools = await getCollection('tools');
+
+const relatedTools = allTools
+.filter((tool) => tool.data.slug !== entry.data.slug)
+.sort((a, b) => (a.data.order || 999) - (b.data.order || 999))
+.slice(0, 6);
 
 // ✅ FIXED COMPONENT MAPPING (type-safe)
 const components = {
   FinanceTool,
   BiblicalNameGenerator,
+  BibleReadingPlan,
 } as const;
 
 type ComponentKey = keyof typeof components;
@@ -105,7 +115,46 @@ const ToolComponent =
             <p class="font-medium">More tools</p>
 
             <div class="space-y-2 text-sm">
-              <a href="/tools" class="block hover:underline">All tools</a>
+                <div class="space-y-3">
+
+                <a
+                href="/tools"
+                class="block text-sm font-medium hover:text-[var(--color-primary)] transition"
+
+                >
+
+                ← All tools
+
+
+                  </a>
+
+                  <div class="pt-2 space-y-2">
+
+
+                {relatedTools.map((tool) => (
+
+                  <a
+                    href={`/tools/${tool.data.slug}`}
+                    class="block rounded-xl border border-[var(--color-border)] p-3 transition hover:border-[var(--color-primary)] hover:bg-[var(--color-primary)]/5"
+                  >
+
+                    <p class="text-sm font-medium">
+                      {tool.data.title}
+                    </p>
+
+                    <p class="mt-1 text-xs text-[var(--color-muted)] line-clamp-2">
+                      {tool.data.description}
+                    </p>
+
+                  </a>
+
+                ))}
+
+
+                  </div>
+
+                </div>
+
             </div>
 
           </div>
