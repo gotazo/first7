@@ -21,6 +21,11 @@ scripture:
   ref: "Matthew 7:24"
   text: "Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock."
 
+scriptures:
+  - Matthew 7
+  - Luke 6
+  - 1 Corinthians 3
+
 truth: Obedience to Christ creates strong spiritual foundations.
 
 insight:

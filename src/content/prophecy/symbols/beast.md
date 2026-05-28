@@ -39,11 +39,6 @@ notes:
 The beast is one of the most discussed symbols in Bible prophecy,
 especially in the books of Daniel and Revelation.
 
-## Main Passages
-
-- Revelation 13
-- Daniel 7
-- Revelation 17
 
 ## Study Focus
 

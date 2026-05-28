@@ -747,6 +747,119 @@ function formatBook(book: string) {
         "bible-search"
       );
 
+    /**
+     * 📖 Normalize Bible reference
+     */
+    function normalizeBibleReference(
+      input
+    ) {
+
+      const aliases = {
+
+        "gen": "genesis",
+        "exo": "exodus",
+        "lev": "leviticus",
+        "num": "numbers",
+        "deut": "deuteronomy",
+
+        "josh": "joshua",
+        "judg": "judges",
+
+        "1 sam": "1-samuel",
+        "2 sam": "2-samuel",
+
+        "1 kings": "1-kings",
+        "2 kings": "2-kings",
+
+        "1 chron": "1-chronicles",
+        "1 chr": "1-chronicles",
+
+        "2 chron": "2-chronicles",
+        "2 chr": "2-chronicles",
+
+        "psalm": "psalms",
+        "psa": "psalms",
+
+        "prov": "proverbs",
+
+        "song": "song-of-solomon",
+        "songs": "song-of-solomon",
+        "sos": "song-of-solomon",
+        "canticles": "song-of-solomon",
+
+        "isa": "isaiah",
+        "jer": "jeremiah",
+        "ezek": "ezekiel",
+        "dan": "daniel",
+
+        "matt": "matthew",
+        "rom": "romans",
+
+        "1 cor": "1-corinthians",
+        "2 cor": "2-corinthians",
+
+        "1 thess": "1-thessalonians",
+        "2 thess": "2-thessalonians",
+
+        "1 tim": "1-timothy",
+        "2 tim": "2-timothy",
+
+        "1 pet": "1-peter",
+        "2 pet": "2-peter",
+
+        "1 john": "1-john",
+        "2 john": "2-john",
+        "3 john": "3-john",
+
+        "rev": "revelation",
+
+      };
+
+      const normalized =
+        input
+          .trim()
+          .toLowerCase()
+          .replace(/\s+/g, " ");
+
+      const match =
+        normalized.match(
+          /^(.+?)\s+(\d+)$/
+        );
+
+      if (!match) {
+
+        return null;
+
+      }
+
+      let book =
+        match[1].trim();
+
+      const chapter =
+        Number(match[2]);
+
+      if (!chapter) {
+
+        return null;
+
+      }
+
+      book =
+        aliases[book] || book;
+
+      book =
+        book.replace(/\s+/g, "-");
+
+      return {
+        path:
+          `/bible/${book}/${chapter}`
+      };
+
+    }
+
+    /**
+     * 🚀 Search
+     */
     searchBtn?.addEventListener(
       "click",
       () => {
@@ -756,19 +869,37 @@ function formatBook(book: string) {
 
         if (!value) return;
 
-        const parts =
-          value.toLowerCase().split(" ");
+        const result =
+          normalizeBibleReference(
+            value
+          );
 
-        const chapter =
-          parts.pop();
+        if (!result) {
 
-        const book =
-          parts.join("-");
+          alert(
+            "Could not recognize Bible reference."
+          );
 
-        if (book && chapter) {
+          return;
 
-          window.location.href =
-            `/bible/${book}/${chapter}`;
+        }
+
+        window.location.href =
+          result.path;
+
+      }
+    );
+
+    /**
+     * ⌨️ Enter key
+     */
+    searchInput?.addEventListener(
+      "keydown",
+      (event) => {
+
+        if (event.key === "Enter") {
+
+          searchBtn?.click();
 
         }
 

@@ -3,7 +3,13 @@ export const prerender = true;
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
-import { getCollection, render } from "astro:content";
+import RelatedTopics from "../../components/prophecy/RelatedTopics.astro";
+import RelatedScriptures from "../../components/prophecy/RelatedScriptures.astro";
+
+import {
+  getCollection,
+  render,
+} from "astro:content";
 
 export async function getStaticPaths() {
 
@@ -26,15 +32,65 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 
+/**
+ * 📄 Render markdown
+ */
 const { Content } =
   await render(entry);
 
+/**
+ * 📚 Collections
+ */
 const allDictionary =
   await getCollection("dictionary");
 
+const allProphecy =
+  await getCollection("prophecy");
+
+const allTeachings =
+  await getCollection("teachings");
+
+/**
+ * 🔗 Related dictionary terms
+ */
 const relatedTerms =
   allDictionary.filter((item) =>
-    entry.data.related.includes(item.id)
+    entry.data.related.includes(
+      item.id
+    )
+  );
+
+/**
+ * 🔮 Related prophecy
+ */
+const relatedProphecy =
+  allProphecy.filter((item) =>
+
+    item.data.terms
+      ?.map((term: string) =>
+        term.toLowerCase()
+      )
+      .includes(
+        entry.data.term.toLowerCase()
+      )
+
+  );
+
+/**
+ * 📖 Related teachings
+ */
+const relatedTeachings =
+  allTeachings.filter((item) =>
+
+    item.data.scriptures?.some(
+      (scripture: string) =>
+
+        entry.data.scriptures.includes(
+          scripture
+        )
+
+    )
+
   );
 ---
 
@@ -43,28 +99,64 @@ const relatedTerms =
   description={entry.data.shortMeaning}
 >
 
-  <main class="mx-auto w-full max-w-4xl px-4 py-16 sm:px-6">
+  <main
+    class="
+      mx-auto
+      w-full
+      max-w-4xl
+      px-4
+      py-16
+      sm:px-6
+    "
+  >
 
     <article class="space-y-12">
 
       <!-- Header -->
-      <header class="space-y-6 border-b border-[var(--color-border)] pb-8">
+      <header
+        class="
+          space-y-6
+          border-b
+          border-[var(--color-border)]
+          pb-8
+        "
+      >
 
         <div class="space-y-3">
 
-          <p class="text-sm uppercase tracking-[0.25em] text-[var(--color-muted)]">
+          <p
+            class="
+              text-sm
+              uppercase
+              tracking-[0.25em]
+              text-[var(--color-muted)]
+            "
+          >
 
             Bible Dictionary
 
           </p>
 
-          <h1 class="text-5xl font-semibold tracking-tight">
+          <h1
+            class="
+              text-5xl
+              font-semibold
+              tracking-tight
+            "
+          >
 
             {entry.data.title}
 
           </h1>
 
-          <p class="max-w-2xl text-lg leading-relaxed text-[var(--color-muted)]">
+          <p
+            class="
+              max-w-2xl
+              text-lg
+              leading-relaxed
+              text-[var(--color-muted)]
+            "
+          >
 
             {entry.data.shortMeaning}
 
@@ -77,17 +169,26 @@ const relatedTerms =
 
           <div class="flex flex-wrap gap-2">
 
-            {entry.data.aliases.map((alias: string) => (
+            {entry.data.aliases.map(
+              (alias: string) => (
 
-              <span
-                class="rounded-full border border-[var(--color-border)] px-3 py-1 text-sm"
-              >
+                <span
+                  class="
+                    rounded-full
+                    border
+                    border-[var(--color-border)]
+                    px-3
+                    py-1
+                    text-sm
+                  "
+                >
 
-                {alias}
+                  {alias}
 
-              </span>
+                </span>
 
-            ))}
+              )
+            )}
 
           </div>
 
@@ -96,7 +197,13 @@ const relatedTerms =
       </header>
 
       <!-- Main Content -->
-      <section class="prose prose-invert max-w-none">
+      <section
+        class="
+          prose
+          prose-invert
+          max-w-none
+        "
+      >
 
         <Content />
 
@@ -105,27 +212,93 @@ const relatedTerms =
       <!-- Scriptures -->
       {entry.data.scriptures.length > 0 && (
 
+        <RelatedScriptures
+          scriptures={
+            entry.data.scriptures
+          }
+        />
+
+      )}
+
+      <!-- Related Prophecy -->
+      {relatedProphecy.length > 0 && (
+
+        <RelatedTopics
+          topics={relatedProphecy}
+        />
+
+      )}
+
+      <!-- Related Teachings -->
+      {relatedTeachings.length > 0 && (
+
         <section class="space-y-5">
 
-          <h2 class="text-2xl font-semibold">
+          <h2
+            class="
+              text-2xl
+              font-semibold
+            "
+          >
 
-            Related Scriptures
+            Related Teachings
 
           </h2>
 
-          <div class="flex flex-wrap gap-3">
+          <div
+            class="
+              grid
+              gap-4
+              md:grid-cols-2
+            "
+          >
 
-            {entry.data.scriptures.map((scripture: string) => (
+            {relatedTeachings.map(
+              (teaching) => (
 
-              <div
-                class="rounded-full border border-[var(--color-border)] px-4 py-2 text-sm"
-              >
+                <a
+                  href={`/teachings/${teaching.id}`}
+                  class="
+                    rounded-2xl
+                    border
+                    border-[var(--color-border)]
+                    p-5
+                    transition
+                    hover:border-[var(--color-primary)]
+                  "
+                >
 
-                {scripture}
+                  <div class="space-y-2">
 
-              </div>
+                    <h3
+                      class="
+                        text-lg
+                        font-medium
+                      "
+                    >
 
-            ))}
+                      {teaching.data.title}
+
+                    </h3>
+
+                    <p
+                      class="
+                        text-sm
+                        leading-relaxed
+                        text-[var(--color-muted)]
+                      "
+                    >
+
+                      {teaching.data.summary}
+
+                    </p>
+
+                  </div>
+
+                </a>
+
+              )
+            )}
 
           </div>
 
@@ -138,40 +311,71 @@ const relatedTerms =
 
         <section class="space-y-5">
 
-          <h2 class="text-2xl font-semibold">
+          <h2
+            class="
+              text-2xl
+              font-semibold
+            "
+          >
 
             Related Terms
 
           </h2>
 
-          <div class="grid gap-4 md:grid-cols-2">
+          <div
+            class="
+              grid
+              gap-4
+              md:grid-cols-2
+            "
+          >
 
-            {relatedTerms.map((term) => (
+            {relatedTerms.map(
+              (term) => (
 
-              <a
-                href={`/dictionary/${term.id}`}
-                class="rounded-2xl border border-[var(--color-border)] p-5 transition hover:border-[var(--color-primary)]"
-              >
+                <a
+                  href={`/dictionary/${term.id}`}
+                  class="
+                    rounded-2xl
+                    border
+                    border-[var(--color-border)]
+                    p-5
+                    transition
+                    hover:border-[var(--color-primary)]
+                  "
+                >
 
-                <div class="space-y-2">
+                  <div class="space-y-2">
 
-                  <h3 class="text-lg font-medium">
+                    <h3
+                      class="
+                        text-lg
+                        font-medium
+                      "
+                    >
 
-                    {term.data.title}
+                      {term.data.title}
 
-                  </h3>
+                    </h3>
 
-                  <p class="text-sm leading-relaxed text-[var(--color-muted)]">
+                    <p
+                      class="
+                        text-sm
+                        leading-relaxed
+                        text-[var(--color-muted)]
+                      "
+                    >
 
-                    {term.data.shortMeaning}
+                      {term.data.shortMeaning}
 
-                  </p>
+                    </p>
 
-                </div>
+                  </div>
 
-              </a>
+                </a>
 
-            ))}
+              )
+            )}
 
           </div>
 

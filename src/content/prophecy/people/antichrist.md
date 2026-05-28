@@ -39,9 +39,3 @@ notes:
 
 The antichrist is associated with deception, opposition to God,
 and end-times prophecy.
-
-## Main Passages
-
-- 1 John 2:18
-- 2 Thessalonians 2
-- Revelation 13

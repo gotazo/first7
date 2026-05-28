@@ -2,136 +2,445 @@
 export const prerender = true;
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
+
 import TeachingSidebar from "../../components/TeachingSidebar.astro";
-import { getCollection } from "astro:content";
+
+import RelatedScriptures from "../../components/prophecy/RelatedScriptures.astro";
+import StudyTerms from "../../components/prophecy/StudyTerms.astro";
+import RelatedTopics from "../../components/prophecy/RelatedTopics.astro";
+
+import {
+  getCollection,
+} from "astro:content";
 
 export async function getStaticPaths() {
-  const teachings = await getCollection("teachings");
 
-  const paths = teachings.map((t) => ({
-    params: {
-      slug: String(t.id),
-    },
-    props: {
-      teaching: t,
-    },
-  }));
+  const teachings =
+    await getCollection("teachings");
 
-  if (import.meta.env.BUILD_TRACE === "true") {
-    console.log(`[build:paths] teachings paths=${paths.length}`);
+  const paths =
+    teachings.map((t) => ({
+
+      params: {
+        slug: String(t.id),
+      },
+
+      props: {
+        teaching: t,
+      },
+
+    }));
+
+  if (
+    import.meta.env.BUILD_TRACE
+    === "true"
+  ) {
+
+    console.log(
+      `[build:paths] teachings paths=${paths.length}`
+    );
+
   }
 
   return paths;
+
 }
 
-const { teaching } = Astro.props;
+const { teaching } =
+  Astro.props;
+
+/**
+ * 📚 Collections
+ */
+const allProphecy =
+  await getCollection("prophecy");
+
+const allDictionary =
+  await getCollection("dictionary");
+
+/**
+ * 🔮 Related prophecy
+ */
+const relatedProphecy =
+  allProphecy.filter((entry) =>
+
+    entry.data.scriptures?.some(
+      (scripture: string) =>
+
+        teaching.data.scriptures?.includes(
+          scripture
+        )
+
+    )
+
+  );
+
+/**
+ * 📘 Related dictionary
+ */
+const teachingKeywords =
+  teaching.data.keywords.map(
+    (keyword: string) =>
+      keyword.toLowerCase()
+  );
+
+const dictionaryTerms =
+  allDictionary.filter((entry) =>
+
+    teachingKeywords.includes(
+      entry.data.term.toLowerCase()
+    )
+
+  );
 ---
 
-<BaseLayout title={teaching.data.title}>
+<BaseLayout
+  title={teaching.data.title}
+>
 
-  <div class="flex flex-col gap-10 lg:flex-row">
+  <div
+    class="
+      flex
+      flex-col
+      gap-10
+      lg:flex-row
+    "
+  >
 
+    <!-- Sidebar -->
     <TeachingSidebar />
 
+    <!-- Main -->
     <main class="flex-1">
 
-      <article class="w-full max-w-3xl mx-auto space-y-10">
-
-    <header class="space-y-5">
-      <h1 class="text-4xl font-semibold">
-        {teaching.data.title}
-      </h1>
-
-      <p class="text-lg text-[var(--color-muted)]">
-        {teaching.data.summary}
-      </p>
-
-      <button
-        type="button"
-        class="share-button inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm text-[var(--color-muted)] transition"
-        data-teaching-share
-        aria-label={`Share ${teaching.data.title}`}
+      <article
+        class="
+          mx-auto
+          w-full
+          max-w-3xl
+          space-y-10
+        "
       >
-        <svg
-          aria-hidden="true"
-          class="h-4 w-4"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+
+        <!-- Header -->
+        <header class="space-y-5">
+
+          <h1
+            class="
+              text-4xl
+              font-semibold
+            "
+          >
+
+            {teaching.data.title}
+
+          </h1>
+
+          <p
+            class="
+              text-lg
+              text-[var(--color-muted)]
+            "
+          >
+
+            {teaching.data.summary}
+
+          </p>
+
+          <!-- Share -->
+          <button
+            type="button"
+            class="
+              share-button
+              inline-flex
+              items-center
+              gap-2
+              rounded-full
+              border
+              px-3
+              py-1.5
+              text-sm
+              text-[var(--color-muted)]
+              transition
+            "
+            data-teaching-share
+            aria-label={`Share ${teaching.data.title}`}
+          >
+
+            <svg
+              aria-hidden="true"
+              class="h-4 w-4"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+
+              <circle cx="18" cy="5" r="3"></circle>
+              <circle cx="6" cy="12" r="3"></circle>
+              <circle cx="18" cy="19" r="3"></circle>
+
+              <path d="m8.6 13.5 6.8 4"></path>
+              <path d="m15.4 6.5-6.8 4"></path>
+
+            </svg>
+
+            <span data-share-label>
+
+              Share
+
+            </span>
+
+          </button>
+
+        </header>
+
+        <!-- Scripture -->
+        <section class="space-y-3">
+
+          <h2
+            class="
+              text-xl
+              font-medium
+            "
+          >
+
+            Scripture
+
+          </h2>
+
+          <blockquote
+            class="
+              border-l-2
+              pl-4
+              italic
+            "
+          >
+
+            <p>
+
+              {teaching.data.scripture.text}
+
+            </p>
+
+            <footer
+              class="
+                mt-2
+                text-sm
+                text-[var(--color-muted)]
+              "
+            >
+
+              {teaching.data.scripture.ref}
+
+            </footer>
+
+          </blockquote>
+
+        </section>
+
+        <!-- Truth -->
+        <section class="space-y-3">
+
+          <h2
+            class="
+              text-xl
+              font-medium
+            "
+          >
+
+            Truth
+
+          </h2>
+
+          <p>
+
+            {teaching.data.truth}
+
+          </p>
+
+        </section>
+
+        <!-- Insight -->
+        <section class="space-y-3">
+
+          <h2
+            class="
+              text-xl
+              font-medium
+            "
+          >
+
+            Insight
+
+          </h2>
+
+          <ul
+            class="
+              list-disc
+              space-y-2
+              pl-6
+            "
+          >
+
+            {teaching.data.insight.map(
+              (i: string) => (
+
+                <li>
+
+                  {i}
+
+                </li>
+
+              )
+            )}
+
+          </ul>
+
+        </section>
+
+        <!-- Application -->
+        <section class="space-y-3">
+
+          <h2
+            class="
+              text-xl
+              font-medium
+            "
+          >
+
+            Application
+
+          </h2>
+
+          <ul
+            class="
+              list-disc
+              space-y-2
+              pl-6
+            "
+          >
+
+            {teaching.data.application.map(
+              (a: string) => (
+
+                <li>
+
+                  {a}
+
+                </li>
+
+              )
+            )}
+
+          </ul>
+
+        </section>
+
+        <!-- Prayer -->
+        <section class="space-y-3">
+
+          <h2
+            class="
+              text-xl
+              font-medium
+            "
+          >
+
+            Prayer
+
+          </h2>
+
+          <p>
+
+            {teaching.data.prayer}
+
+          </p>
+
+        </section>
+
+        <!-- Related Scriptures -->
+        {teaching.data.scriptures?.length > 0 && (
+
+          <RelatedScriptures
+            scriptures={
+              teaching.data.scriptures
+            }
+          />
+
+        )}
+
+        <!-- Related Dictionary -->
+        {dictionaryTerms.length > 0 && (
+
+          <StudyTerms
+            terms={dictionaryTerms}
+          />
+
+        )}
+
+        <!-- Related Prophecy -->
+        {relatedProphecy.length > 0 && (
+
+          <RelatedTopics
+            topics={relatedProphecy}
+          />
+
+        )}
+
+        <!-- Footer -->
+        <section
+          class="
+            space-y-4
+            border-t
+            border-[var(--color-border)]
+            pt-6
+          "
         >
-          <circle cx="18" cy="5" r="3"></circle>
-          <circle cx="6" cy="12" r="3"></circle>
-          <circle cx="18" cy="19" r="3"></circle>
-          <path d="m8.6 13.5 6.8 4"></path>
-          <path d="m15.4 6.5-6.8 4"></path>
-        </svg>
-        <span data-share-label>Share</span>
-      </button>
-    </header>
 
-    <section class="space-y-3">
-      <h2 class="text-xl font-medium">Scripture</h2>
+          <p
+            class="
+              text-sm
+              leading-relaxed
+              text-[var(--color-muted)]
+            "
+          >
 
-      <blockquote class="border-l-2 pl-4 italic">
-        <p>{teaching.data.scripture.text}</p>
-        <footer class="mt-2 text-sm text-[var(--color-muted)]">
-          {teaching.data.scripture.ref}
-        </footer>
-      </blockquote>
-    </section>
+            These teachings are prayerfully
+            developed through Scripture study,
+            sermon preparation, biblical research,
+            and insights learned from various
+            pastors and teachers.
 
-    <section class="space-y-3">
-      <h2 class="text-xl font-medium">Truth</h2>
-      <p>{teaching.data.truth}</p>
-    </section>
+            Content is carefully rewritten and
+            organized to encourage spiritual
+            growth while remaining grounded
+            in Scripture.
 
-    <section class="space-y-3">
-      <h2 class="text-xl font-medium">Insight</h2>
+          </p>
 
-      <ul class="list-disc pl-6 space-y-2">
-        {teaching.data.insight.map((i: string) => (
-          <li>{i}</li>
-        ))}
-      </ul>
-    </section>
+          <a
+            href="/share"
+            class="
+              btn
+              inline-block
+              rounded-lg
+              px-5
+              py-2.5
+              text-sm
+              font-medium
+            "
+          >
 
-    <section class="space-y-3">
-      <h2 class="text-xl font-medium">Application</h2>
+            Share a reflection or testimony →
 
-      <ul class="list-disc pl-6 space-y-2">
-        {teaching.data.application.map((a: string) => (
-          <li>{a}</li>
-        ))}
-      </ul>
-    </section>
+          </a>
 
-    <section class="space-y-3">
-      <h2 class="text-xl font-medium">Prayer</h2>
-      <p>{teaching.data.prayer}</p>
-    </section>
-<section class="space-y-4 pt-6 border-t border-[var(--color-border)]">
+        </section>
 
-  <p class="text-sm leading-relaxed text-[var(--color-muted)]">
-    These teachings are prayerfully developed through Scripture study,
-    sermon preparation, biblical research, and insights learned from
-    various pastors and teachers. Content is carefully rewritten and
-    organized to encourage spiritual growth while remaining grounded
-    in Scripture.
-  </p>
-
-<a
-  href="/share"
-  class="btn inline-block px-5 py-2.5 rounded-lg text-sm font-medium"
->
-  Share a reflection or testimony →
-</a>
-
-</section>
-
-       </article>
+      </article>
 
     </main>
 
@@ -140,48 +449,133 @@ const { teaching } = Astro.props;
 </BaseLayout>
 
 <script>
-  const shareButton = document.querySelector("[data-teaching-share]");
 
-  if (shareButton instanceof HTMLButtonElement) {
-    const label = shareButton.querySelector("[data-share-label]");
-    const originalLabel = label?.textContent || "Share";
-    let resetTimer: number | undefined;
+  const shareButton =
+    document.querySelector(
+      "[data-teaching-share]"
+    );
 
-    const setLabel = (text: string) => {
-      if (label) label.textContent = text;
-      window.clearTimeout(resetTimer);
-      resetTimer = window.setTimeout(() => {
-        if (label) label.textContent = originalLabel;
-      }, 1800);
-    };
+  if (
+    shareButton
+    instanceof HTMLButtonElement
+  ) {
 
-    shareButton.addEventListener("click", async () => {
-      const shareData = {
-        title: document.title,
-        url: window.location.href,
+    const label =
+      shareButton.querySelector(
+        "[data-share-label]"
+      );
+
+    const originalLabel =
+      label?.textContent || "Share";
+
+    let resetTimer:
+      number | undefined;
+
+    const setLabel =
+      (text: string) => {
+
+        if (label)
+          label.textContent = text;
+
+        window.clearTimeout(
+          resetTimer
+        );
+
+        resetTimer =
+          window.setTimeout(() => {
+
+            if (label)
+              label.textContent =
+                originalLabel;
+
+          }, 1800);
+
       };
 
-      try {
-        if (navigator.share) {
-          await navigator.share(shareData);
-          return;
-        }
+    shareButton
+      .addEventListener(
+        "click",
+        async () => {
 
-        await navigator.clipboard.writeText(window.location.href);
-        setLabel("Copied");
-      } catch {
-        setLabel("Copy failed");
-      }
-    });
+          const shareData = {
+
+            title:
+              document.title,
+
+            url:
+              window.location.href,
+
+          };
+
+          try {
+
+            if (
+              navigator.share
+            ) {
+
+              await navigator.share(
+                shareData
+              );
+
+              return;
+
+            }
+
+            await navigator
+              .clipboard
+              .writeText(
+                window.location.href
+              );
+
+            setLabel("Copied");
+
+          } catch {
+
+            setLabel(
+              "Copy failed"
+            );
+
+          }
+
+        }
+      );
+
   }
+
 </script>
 
 <style>
+
   .share-button:hover {
-    border-color: color-mix(in srgb, var(--color-primary) 45%, transparent);
-    color: var(--color-text);
-    background: color-mix(in srgb, var(--color-bg) 88%, var(--color-primary));
-    box-shadow: 0 10px 28px color-mix(in srgb, var(--color-primary) 10%, transparent);
-    transform: translateY(-1px);
+
+    border-color:
+      color-mix(
+        in srgb,
+        var(--color-primary) 45%,
+        transparent
+      );
+
+    color:
+      var(--color-text);
+
+    background:
+      color-mix(
+        in srgb,
+        var(--color-bg) 88%,
+        var(--color-primary)
+      );
+
+    box-shadow:
+      0 10px 28px
+      color-mix(
+        in srgb,
+        var(--color-primary) 10%,
+        transparent
+      );
+
+    transform:
+      translateY(-1px);
+
   }
+
 </style>

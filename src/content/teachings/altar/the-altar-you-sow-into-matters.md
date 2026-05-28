@@ -21,6 +21,11 @@ scripture:
   ref: "Matthew 23:19"
   text: "Ye fools and blind: for whether is greater, the gift, or the altar that sanctifieth the gift?"
 
+scriptures:
+  - Matthew 23
+  - Hebrews 13
+  - Romans 12
+
 truth: Spiritual discernment matters in every act of stewardship and worship.
 
 insight:
