@@ -4,7 +4,7 @@ import ToolShare from "../shared/ToolShare.astro";
 
 <div class="mx-auto w-full max-w-[720px] px-4 sm:px-6 space-y-8">
 
-  <ToolShare />
+    <ToolShare title="Bible Reading Plan Generator" />
 
   <!-- Intro -->
   <div class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 p-5">
@@ -403,7 +403,9 @@ const NT_BOOKS = [
 ["Revelation", 22],
 ];
 
-function buildChapterList(scope) {
+function buildChapterList(
+  scope: string
+) {
 
 const books =
 scope === "ot"
@@ -448,7 +450,7 @@ function loadData() {
 
 }
 
-function saveData(data) {
+function saveData(data: any) {
 
   localStorage.setItem(
     STORAGE_KEY,
@@ -457,7 +459,10 @@ function saveData(data) {
 
 }
 
-function addDays(dateStr, days) {
+function addDays(
+  dateStr: string,
+  days: number
+) {
 
   const date = new Date(dateStr);
 
@@ -467,7 +472,9 @@ function addDays(dateStr, days) {
 
 }
 
-function formatDate(dateStr) {
+function formatDate(
+  dateStr: string
+) {
 
   return new Date(
     dateStr + "T00:00:00"
@@ -479,7 +486,11 @@ function formatDate(dateStr) {
 
 }
 
-function generatePlan(scope, days, startDate) {
+function generatePlan(
+  scope: string,
+  days: number,
+  startDate: string
+) {
 
 const chapters =
 buildChapterList(scope);
@@ -529,7 +540,9 @@ return plan;
 
 }
 
-function calculateStreak(plan) {
+function calculateStreak(
+  plan: any[]
+) {
 
   let streak = 0;
 
@@ -552,57 +565,91 @@ let selectedDays = 365;
 let appData = loadData();
 
 const startDateInput =
-  document.getElementById("startDate");
+  document.getElementById(
+    "startDate"
+  ) as HTMLInputElement | null;
 
 const customDaysInput =
-  document.getElementById("customDays");
+  document.getElementById(
+    "customDays"
+  ) as HTMLInputElement | null;
 
 const generateBtn =
-  document.getElementById("generateBtn");
+  document.getElementById(
+    "generateBtn"
+  ) as HTMLInputElement | null;
 
 const resetBtn =
-  document.getElementById("resetBtn");
+  document.getElementById(
+    "resetBtn"
+  ) as HTMLInputElement | null;
 
 const progressSection =
-  document.getElementById("progressSection");
+  document.getElementById(
+    "progressSection"
+  ) as HTMLInputElement | null;
 
 const planSection =
-  document.getElementById("planSection");
+  document.getElementById(
+    "planSection"
+  ) as HTMLInputElement | null;
 
 const progressBar =
-  document.getElementById("progressBar");
+  document.getElementById(
+    "progressBar"
+  ) as HTMLInputElement | null;
 
 const progressPercent =
-  document.getElementById("progressPercent");
+  document.getElementById(
+    "progressPercent"
+  ) as HTMLInputElement | null;
 
 const doneCount =
-  document.getElementById("doneCount");
+  document.getElementById(
+    "doneCount"
+  ) as HTMLInputElement | null;
 
 const totalCount =
-  document.getElementById("totalCount");
+  document.getElementById(
+    "totalCount"
+  ) as HTMLInputElement | null;
 
 const streakMessage =
-  document.getElementById("streakMessage");
+  document.getElementById(
+    "streakMessage"
+  ) as HTMLInputElement | null;
 
 const planTitle =
-  document.getElementById("planTitle");
+  document.getElementById(
+    "planTitle"
+  ) as HTMLInputElement | null;
 
 const planList =
-  document.getElementById("planList");
+  document.getElementById(
+    "planList"
+  ) as HTMLInputElement | null;
 
 const errorBox =
-  document.getElementById("errorBox");
+  document.getElementById(
+    "errorBox"
+  ) as HTMLInputElement | null;
 
 const copyBtn =
-  document.getElementById("copyBtn");
+  document.getElementById(
+    "copyBtn"
+  ) as HTMLInputElement | null;
 
 const printBtn =
-  document.getElementById("printBtn");
+  document.getElementById(
+    "printBtn"
+  ) as HTMLInputElement | null;
 
 startDateInput.value =
   new Date().toISOString().slice(0, 10);
 
-function showError(message) {
+function showError(
+  message: string
+) {
 
   errorBox.textContent = message;
 
@@ -616,7 +663,9 @@ function showError(message) {
 
 }
 
-function renderProgress(planData) {
+function renderProgress(
+  planData: any
+) {
 
   const completed =
     planData.plan.filter((d) => d.done).length;
@@ -656,7 +705,9 @@ function renderProgress(planData) {
 
 }
 
-function renderPlan(planData) {
+function renderPlan(
+  planData: any
+) {
 
   progressSection.classList.remove("hidden");
 
@@ -909,42 +960,46 @@ resetBtn.addEventListener("click", () => {
 
 });
 
-copyBtn.addEventListener("click", async () => {
+if (copyBtn) {
 
-  if (!appData.planData) return;
+  copyBtn.addEventListener("click", async () => {
 
-  const text =
-    appData.planData.plan
-      .map((d) => {
+    if (!appData.planData) return;
 
-        return `Day ${d.day}: ${d.readings.join(", ")}`;
+    const text =
+      appData.planData.plan
+        .map((d: any) => {
 
-      })
-      .join("\n");
+          return `Day ${d.day}: ${d.readings.join(", ")}`;
 
-  try {
+        })
+        .join("\n");
 
-    await navigator.clipboard.writeText(
-      text
-    );
+    try {
 
-    copyBtn.textContent = "Copied!";
+      await navigator.clipboard.writeText(
+        text
+      );
 
-    setTimeout(() => {
+      copyBtn.textContent = "Copied!";
 
-      copyBtn.textContent = "Copy";
+      setTimeout(() => {
 
-    }, 2000);
+        copyBtn.textContent = "Copy";
 
-  } catch {
+      }, 2000);
 
-    showError(
-      "Could not copy plan."
-    );
+    } catch {
 
-  }
+      showError(
+        "Could not copy plan."
+      );
 
-});
+    }
+
+  });
+
+}
 
 printBtn.addEventListener("click", () => {
 

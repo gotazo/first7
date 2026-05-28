@@ -1,0 +1,144 @@
+---
+export const prerender = true;
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+import ProphecySidebar from "../../components/prophecy/ProphecySidebar.astro";
+import ScriptureBlock from "../../components/prophecy/ScriptureBlock.astro";
+import StudyTerms from "../../components/prophecy/StudyTerms.astro";
+import RelatedScriptures from "../../components/prophecy/RelatedScriptures.astro";
+import RelatedTopics from "../../components/prophecy/RelatedTopics.astro";
+
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("prophecy");
+
+  return entries
+    .filter((entry) => !entry.data.draft)
+    .map((entry) => ({
+      params: {
+        slug: entry.id,
+      },
+      props: {
+        entry,
+      },
+    }));
+}
+
+const { entry } = Astro.props;
+
+const { Content } = await render(entry);
+
+const allProphecy = await getCollection("prophecy");
+const allDictionary = await getCollection("dictionary");
+
+const relatedTopics = allProphecy.filter((item) =>
+  entry.data.related.includes(item.id)
+);
+
+const dictionaryTerms = allDictionary.filter((term) =>
+  entry.data.terms.includes(term.data.term)
+);
+---
+
+<BaseLayout
+  title={entry.data.title}
+  description={entry.data.description}
+>
+
+  <div class="flex flex-col gap-10 lg:flex-row">
+
+    <ProphecySidebar currentSlug={entry.id} />
+
+    <main class="flex-1">
+
+      <article class="mx-auto w-full max-w-4xl space-y-12">
+
+        <!-- Hero -->
+        <header class="space-y-5 border-b border-[var(--color-border)] pb-8">
+
+          <div class="flex flex-wrap items-center gap-3 text-sm text-[var(--color-muted)]">
+
+            <span class="rounded-full border px-3 py-1 capitalize">
+              {entry.data.category}
+            </span>
+
+            {entry.data.tags.map((tag: string) => (
+              <span class="opacity-70">
+                #{tag}
+              </span>
+            ))}
+
+          </div>
+
+          <h1 class="text-4xl font-semibold tracking-tight">
+            {entry.data.title}
+          </h1>
+
+          <p class="max-w-3xl text-lg leading-relaxed text-[var(--color-muted)]">
+            {entry.data.description}
+          </p>
+
+        </header>
+
+        <!-- Featured Verse -->
+        {entry.data.featuredVerse && (
+          <ScriptureBlock
+            ref={entry.data.featuredVerse.ref}
+            text={entry.data.featuredVerse.text}
+          />
+        )}
+
+        <!-- Main Content -->
+        <section class="prose prose-invert max-w-none">
+
+          <Content />
+
+        </section>
+
+        <!-- Related Scriptures -->
+        {entry.data.scriptures.length > 0 && (
+          <RelatedScriptures
+            scriptures={entry.data.scriptures}
+          />
+        )}
+
+        <!-- Study Terms -->
+        {dictionaryTerms.length > 0 && (
+          <StudyTerms terms={dictionaryTerms} />
+        )}
+
+        <!-- Notes -->
+        {entry.data.notes.length > 0 && (
+          <section class="space-y-4">
+
+            <h2 class="text-2xl font-semibold">
+              Study Notes
+            </h2>
+
+            <ul class="space-y-3">
+
+              {entry.data.notes.map((note: string) => (
+                <li class="rounded-2xl border border-[var(--color-border)] p-4 text-[15px] leading-relaxed">
+                  {note}
+                </li>
+              ))}
+
+            </ul>
+
+          </section>
+        )}
+
+        <!-- Related Topics -->
+        {relatedTopics.length > 0 && (
+          <RelatedTopics topics={relatedTopics} />
+        )}
+
+      </article>
+
+    </main>
+
+  </div>
+
+</BaseLayout>

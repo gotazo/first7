@@ -333,6 +333,90 @@
     }
   },
   {
+    "id": "ancient-foundations",
+    "title": "Ancient Foundations",
+    "summary": "Godly foundations built through truth, obedience, and faithfulness create lasting spiritual stability.",
+    "topics": [
+      "foundations",
+      "obedience"
+    ],
+    "keywords": [
+      "foundations",
+      "stability",
+      "obedience",
+      "wisdom",
+      "truth",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Jeremiah 6:16",
+      "text": "Thus saith the LORD, Stand ye in the ways, and see, and ask for the old paths, where is the good way, and walk therein."
+    }
+  },
+  {
+    "id": "built-on-the-rock",
+    "title": "Built On The Rock",
+    "summary": "A life grounded in Christ remains steady through storms, pressure, and uncertainty.",
+    "topics": [
+      "foundations",
+      "faith"
+    ],
+    "keywords": [
+      "foundation",
+      "Christ",
+      "obedience",
+      "faith",
+      "stability",
+      "wisdom"
+    ],
+    "scripture": {
+      "ref": "Matthew 7:24",
+      "text": "Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock."
+    }
+  },
+  {
+    "id": "christ-the-foundation",
+    "title": "Christ The Foundation",
+    "summary": "Jesus Christ is the only true and lasting foundation for spiritual life, faith, and salvation.",
+    "topics": [
+      "foundations",
+      "salvation"
+    ],
+    "keywords": [
+      "Christ",
+      "foundation",
+      "salvation",
+      "faith",
+      "truth",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "1 Corinthians 3:11",
+      "text": "For other foundation can no man lay than that is laid, which is Jesus Christ."
+    }
+  },
+  {
+    "id": "strong-spiritual-foundations",
+    "title": "Strong Spiritual Foundations",
+    "summary": "Spiritual strength develops through obedience, wisdom, prayer, and consistent faithfulness to God.",
+    "topics": [
+      "foundations",
+      "spiritual-growth"
+    ],
+    "keywords": [
+      "foundations",
+      "spiritual growth",
+      "prayer",
+      "obedience",
+      "wisdom",
+      "faithfulness"
+    ],
+    "scripture": {
+      "ref": "Colossians 2:7",
+      "text": "Rooted and built up in him, and stablished in the faith."
+    }
+  },
+  {
     "id": "giving-that-costs-you",
     "title": "Giving That Costs You",
     "summary": "True sacrifice often requires surrender, trust, and personal cost.",
@@ -619,6 +703,90 @@
     "scripture": {
       "ref": "Psalm 37:4",
       "text": "Delight thyself also in the LORD; and he shall give thee the desires of thine heart."
+    }
+  },
+  {
+    "id": "hearing-before-seeing",
+    "title": "Hearing Before Seeing",
+    "summary": "Spiritual understanding often begins by hearing God's voice before fully seeing His direction.",
+    "topics": [
+      "hearing",
+      "guidance"
+    ],
+    "keywords": [
+      "hearing God",
+      "guidance",
+      "discernment",
+      "instruction",
+      "wisdom",
+      "obedience"
+    ],
+    "scripture": {
+      "ref": "Romans 10:17",
+      "text": "So then faith cometh by hearing, and hearing by the word of God."
+    }
+  },
+  {
+    "id": "instruction-before-action",
+    "title": "Instruction Before Action",
+    "summary": "Wisdom and discernment help believers seek God's direction before making important decisions.",
+    "topics": [
+      "hearing",
+      "wisdom"
+    ],
+    "keywords": [
+      "instruction",
+      "wisdom",
+      "discernment",
+      "guidance",
+      "obedience",
+      "patience"
+    ],
+    "scripture": {
+      "ref": "Proverbs 19:20",
+      "text": "Hear counsel, and receive instruction, that thou mayest be wise in thy latter end."
+    }
+  },
+  {
+    "id": "listening-for-guidance",
+    "title": "Listening For Guidance",
+    "summary": "God provides wisdom, direction, and peace to those who seek Him with humility and patience.",
+    "topics": [
+      "hearing",
+      "guidance"
+    ],
+    "keywords": [
+      "guidance",
+      "listening",
+      "wisdom",
+      "discernment",
+      "prayer",
+      "direction"
+    ],
+    "scripture": {
+      "ref": "Psalm 32:8",
+      "text": "I will instruct thee and teach thee in the way which thou shalt go: I will guide thee with mine eye."
+    }
+  },
+  {
+    "id": "spiritual-ears",
+    "title": "Spiritual Ears",
+    "summary": "God desires believers to develop spiritual sensitivity and attentiveness to His voice and truth.",
+    "topics": [
+      "hearing",
+      "discernment"
+    ],
+    "keywords": [
+      "spiritual ears",
+      "hearing God",
+      "discernment",
+      "wisdom",
+      "guidance",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Matthew 11:15",
+      "text": "He that hath ears to hear, let him hear."
     }
   },
   {
@@ -1222,6 +1390,90 @@
     "scripture": {
       "ref": "Deuteronomy 34:4",
       "text": "And the LORD said unto him, This is the land which I sware unto Abraham, unto Isaac, unto Jacob, saying, I will give it unto thy seed: I have caused thee to see it with thine eyes, but thou shalt not go over thither."
+    }
+  },
+  {
+    "id": "giving-as-worship",
+    "title": "Giving As Worship",
+    "summary": "Generosity becomes worship when it flows from gratitude, obedience, and love toward God.",
+    "topics": [
+      "worship",
+      "giving"
+    ],
+    "keywords": [
+      "giving",
+      "worship",
+      "generosity",
+      "stewardship",
+      "gratitude",
+      "obedience"
+    ],
+    "scripture": {
+      "ref": "2 Corinthians 9:7",
+      "text": "Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver."
+    }
+  },
+  {
+    "id": "honor-and-reverence",
+    "title": "Honor And Reverence",
+    "summary": "True worship flows from humility, reverence, and sincere honor toward God.",
+    "topics": [
+      "worship",
+      "humility"
+    ],
+    "keywords": [
+      "honor",
+      "reverence",
+      "worship",
+      "humility",
+      "holiness",
+      "devotion"
+    ],
+    "scripture": {
+      "ref": "Psalm 89:7",
+      "text": "God is greatly to be feared in the assembly of the saints, and to be had in reverence of all them that are about him."
+    }
+  },
+  {
+    "id": "the-heart-behind-the-offering",
+    "title": "The Heart Behind The Offering",
+    "summary": "God examines the motives, sincerity, and posture of the heart behind every offering.",
+    "topics": [
+      "worship",
+      "giving"
+    ],
+    "keywords": [
+      "offering",
+      "worship",
+      "heart",
+      "sincerity",
+      "generosity",
+      "obedience"
+    ],
+    "scripture": {
+      "ref": "1 Samuel 16:7",
+      "text": "For the LORD seeth not as man seeth; for man looketh on the outward appearance, but the LORD looketh on the heart."
+    }
+  },
+  {
+    "id": "worship-through-sacrifice",
+    "title": "Worship Through Sacrifice",
+    "summary": "Biblical worship often involves surrender, obedience, and sacrifice before God.",
+    "topics": [
+      "worship",
+      "sacrifice"
+    ],
+    "keywords": [
+      "worship",
+      "sacrifice",
+      "surrender",
+      "obedience",
+      "devotion",
+      "reverence"
+    ],
+    "scripture": {
+      "ref": "Hebrews 13:15",
+      "text": "By him therefore let us offer the sacrifice of praise to God continually."
     }
   }
 ]

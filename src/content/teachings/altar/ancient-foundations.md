@@ -21,6 +21,11 @@ scripture:
   ref: "Isaiah 58:12"
   text: "And they that shall be of thee shall build the old waste places: thou shalt raise up the foundations of many generations."
 
+scriptures:
+  - Isaiah 58
+  - Matthew 7
+  - 1 Corinthians 3
+
 truth: Strong spiritual foundations help sustain faith across generations.
 
 insight:

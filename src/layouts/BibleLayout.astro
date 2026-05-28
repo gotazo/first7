@@ -1,9 +1,19 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 
-const { currentBook, currentChapter } = Astro.props as {
+const {
+  currentBook,
+  currentChapter,
+  relatedProphecy = [],
+  relatedDictionary = [],
+  relatedTeachings = [],
+} = Astro.props as {
   currentBook: string;
   currentChapter: number;
+
+  relatedProphecy?: any[];
+  relatedDictionary?: any[];
+  relatedTeachings?: any[];
 };
 
 type BibleData = {
@@ -16,177 +26,755 @@ const bibleModules = import.meta.glob(
   { eager: true }
 ) as Record<string, { default: BibleData }>;
 
-const allBooks = Object.values(bibleModules).map((m) => m.default);
+const allBooks = Object.values(bibleModules).map(
+  (m) => m.default
+);
 
 const books: Record<string, number[]> = {};
 
 for (const bookData of allBooks) {
-  const slug = bookData.book.toLowerCase().replace(/\s+/g, "-");
 
-  books[slug] = Object.keys(bookData.chapters).map(Number);
-  books[slug].sort((a, b) => a - b);
+  const slug =
+    bookData.book
+      .toLowerCase()
+      .replace(/\s+/g, "-");
+
+  books[slug] =
+    Object.keys(bookData.chapters)
+      .map(Number)
+      .sort((a, b) => a - b);
+
 }
 
-if (import.meta.env.BUILD_TRACE === "true" && import.meta.env.PROD) {
-  console.log(
-    `[build:bible-layout] ${currentBook}/${currentChapter} books=${allBooks.length}`
-  );
+const chapters =
+  books[currentBook] ?? [];
+
+const currentIndex =
+  chapters.indexOf(currentChapter);
+
+const prevChapter =
+  currentIndex > 0
+    ? chapters[currentIndex - 1]
+    : null;
+
+const nextChapter =
+  currentIndex < chapters.length - 1
+    ? chapters[currentIndex + 1]
+    : null;
+
+function formatBook(book: string) {
+
+  return book
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (l) =>
+      l.toUpperCase()
+    );
+
 }
-
-const chapters = books[currentBook] ?? [];
-const index = chapters.indexOf(currentChapter);
-
-const prev = index > 0 ? chapters[index - 1] : null;
-const next = index < chapters.length - 1 ? chapters[index + 1] : null;
 ---
 
-<BaseLayout title={`${currentBook} ${currentChapter}`}>
+<BaseLayout
+  title={`${formatBook(currentBook)} ${currentChapter}`}
+>
 
-  <div class="flex gap-8">
+  <div class="min-h-screen">
 
-    <!-- 📚 SIDEBAR -->
-    <aside
-      id="sidebar"
+    <!-- 🔥 STICKY STUDY HEADER -->
+    <header
       class="
-        fixed md:sticky
-        top-0 md:top-20
-        left-0
-        z-50 md:z-10
-        h-full md:h-[calc(100vh-80px)]
-        w-64
-        -translate-x-full md:translate-x-0
-        bg-[var(--color-bg)]
-        border-r border-[var(--color-border)]
-        p-4
-        overflow-y-auto
-        transition-transform duration-300
+        sticky top-0 z-40
+        border-b border-[var(--color-border)]
+        bg-[var(--color-bg)]/95
+        backdrop-blur
       "
     >
-      <p class="text-xs uppercase text-[var(--color-muted)] mb-4">Bible</p>
 
-      <div class="space-y-6">
-        {Object.entries(books).map(([slug, chapters]) => (
+      <!-- TOP BAR -->
+      <div
+        class="
+          mx-auto flex max-w-7xl flex-col gap-4
+          px-4 py-4
+          lg:flex-row lg:items-center lg:justify-between
+        "
+      >
+
+        <!-- LEFT -->
+        <div
+          class="
+            flex flex-col gap-3
+            lg:flex-row lg:items-center
+          "
+        >
+
+          <!-- 📖 BOOK SELECT -->
           <div>
-            <a
-              href={`/bible/${slug}/1`}
-              class={`font-semibold block ${
-                slug === currentBook ? "text-[var(--color-primary)]" : ""
-              }`}
+
+            <label
+              class="
+                mb-1 block text-xs uppercase
+                tracking-[0.2em]
+                text-[var(--color-muted)]
+              "
             >
-              {slug.replace(/-/g, " ")}
-            </a>
+              Book
+            </label>
 
-            {slug === currentBook && (
-              <div class="flex flex-wrap gap-2 mt-2">
-                {chapters.map((c: number) => (
-                  <a
-                    href={`/bible/${slug}/${c}`}
-                    class={`px-2 py-1 text-sm rounded ${
-                      c === currentChapter
-                        ? "bg-[var(--color-primary)] text-white"
-                        : "border border-[var(--color-border)]"
-                    }`}
-                  >
-                    {c}
-                  </a>
-                ))}
-              </div>
-            )}
+            <select
+              id="book-select"
+              class="
+                rounded-xl
+                border border-[var(--color-border)]
+                bg-[var(--color-bg)]
+                px-4 py-3
+                text-sm
+                outline-none
+              "
+            >
+
+              {Object.keys(books).map((slug) => (
+
+                <option
+                  value={slug}
+                  selected={slug === currentBook}
+                >
+
+                  {formatBook(slug)}
+
+                </option>
+
+              ))}
+
+            </select>
+
           </div>
-        ))}
-      </div>
-    </aside>
 
-    <!-- 🌫️ OVERLAY -->
-    <div
-      id="overlay"
-      class="fixed inset-0 bg-black/40 hidden md:hidden z-40"
-    ></div>
+          <!-- 🔢 CHAPTER SELECT -->
+          <div>
 
-    <!-- 📖 CONTENT -->
-    <main class="flex-1 max-w-2xl mx-auto p-6">
+            <label
+              class="
+                mb-1 block text-xs uppercase
+                tracking-[0.2em]
+                text-[var(--color-muted)]
+              "
+            >
+              Chapter
+            </label>
 
-      <!-- 📱 MOBILE HEADER -->
-      <div class="mb-4 flex items-center gap-3 md:hidden">
-        <button id="menu-btn" class="btn-secondary px-3 py-2 rounded text-sm">
-          ☰ Bible
-        </button>
+            <select
+              id="chapter-select"
+              class="
+                rounded-xl
+                border border-[var(--color-border)]
+                bg-[var(--color-bg)]
+                px-4 py-3
+                text-sm
+                outline-none
+              "
+            >
 
-        <span class="text-sm text-[var(--color-muted)]">
-          {currentBook.replace(/-/g, " ")} {currentChapter}
-        </span>
-      </div>
+              {chapters.map((chapter) => (
 
-      <!-- 🔍 SEARCH -->
-      <div class="mb-6 relative">
-        <div class="flex gap-2">
-          <input
-            id="bible-search"
-            type="text"
-            placeholder="Search (e.g. John 3)"
-            class="flex-1 px-3 py-2 rounded border border-[var(--color-border)] text-sm"
-          />
+                <option
+                  value={chapter}
+                  selected={
+                    chapter === currentChapter
+                  }
+                >
 
-          <button
-            id="search-btn"
-            class="btn px-4 py-2 text-sm rounded"
+                  {chapter}
+
+                </option>
+
+              ))}
+
+            </select>
+
+          </div>
+
+          <!-- ⬅️➡️ NAV -->
+          <div
+            class="
+              flex items-end gap-2
+            "
           >
-            Go
-          </button>
+
+            {prevChapter ? (
+
+              <a
+                href={`/bible/${currentBook}/${prevChapter}`}
+                class="
+                  rounded-xl
+                  border border-[var(--color-border)]
+                  px-4 py-3
+                  text-sm
+                  transition
+                  hover:border-[var(--color-primary)]
+                "
+              >
+
+                ← Prev
+
+              </a>
+
+            ) : (
+
+              <span
+                class="
+                  rounded-xl
+                  border border-[var(--color-border)]
+                  px-4 py-3
+                  text-sm opacity-40
+                "
+              >
+
+                ← Prev
+
+              </span>
+
+            )}
+
+            {nextChapter ? (
+
+              <a
+                href={`/bible/${currentBook}/${nextChapter}`}
+                class="
+                  rounded-xl
+                  border border-[var(--color-border)]
+                  px-4 py-3
+                  text-sm
+                  transition
+                  hover:border-[var(--color-primary)]
+                "
+              >
+
+                Next →
+
+              </a>
+
+            ) : (
+
+              <span
+                class="
+                  rounded-xl
+                  border border-[var(--color-border)]
+                  px-4 py-3
+                  text-sm opacity-40
+                "
+              >
+
+                Next →
+
+              </span>
+
+            )}
+
+          </div>
+
         </div>
 
+        <!-- 🔍 SEARCH -->
+        <div class="w-full max-w-xl">
+
+          <label
+            class="
+              mb-1 block text-xs uppercase
+              tracking-[0.2em]
+              text-[var(--color-muted)]
+            "
+          >
+            Search
+          </label>
+
+          <div class="flex gap-2">
+
+            <input
+              id="bible-search"
+              type="text"
+              placeholder="Search (e.g. John 3)"
+              class="
+                w-full rounded-xl
+                border border-[var(--color-border)]
+                bg-transparent
+                px-4 py-3
+                text-sm
+                outline-none
+              "
+            />
+
+            <button
+              id="search-btn"
+              class="
+                rounded-xl
+                px-5 py-3
+                text-sm
+                btn
+              "
+            >
+              Go
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- 📚 SECOND ROW -->
+      <div
+        class="
+          border-t border-[var(--color-border)]
+        "
+      >
+
         <div
-          id="search-results"
-          class="absolute left-0 right-0 mt-2 bg-[var(--color-bg)] border border-[var(--color-border)] rounded shadow hidden z-50 max-h-60 overflow-y-auto"
-        ></div>
+          class="
+            mx-auto flex max-w-7xl
+            gap-3 overflow-x-auto
+            px-4 py-3
+          "
+        >
+
+          <a
+            href="#related-prophecy"
+            class="
+              whitespace-nowrap rounded-full
+              border border-[var(--color-border)]
+              px-4 py-2 text-sm
+              transition hover:border-[var(--color-primary)]
+            "
+          >
+            Related Prophecy
+          </a>
+
+          <a
+            href="#dictionary"
+            class="
+              whitespace-nowrap rounded-full
+              border border-[var(--color-border)]
+              px-4 py-2 text-sm
+              transition hover:border-[var(--color-primary)]
+            "
+          >
+            Dictionary
+          </a>
+
+          <a
+            href="#teachings"
+            class="
+              whitespace-nowrap rounded-full
+              border border-[var(--color-border)]
+              px-4 py-2 text-sm
+              transition hover:border-[var(--color-primary)]
+            "
+          >
+            Teachings
+          </a>
+
+          <a
+            href="#cross-references"
+            class="
+              whitespace-nowrap rounded-full
+              border border-[var(--color-border)]
+              px-4 py-2 text-sm
+              transition hover:border-[var(--color-primary)]
+            "
+          >
+            Cross References
+          </a>
+
+          <a
+            href="#notes"
+            class="
+              whitespace-nowrap rounded-full
+              border border-[var(--color-border)]
+              px-4 py-2 text-sm
+              transition hover:border-[var(--color-primary)]
+            "
+          >
+            Notes
+          </a>
+
+        </div>
+
       </div>
 
-      <div class="mb-6">
+    </header>
+
+    <!-- 📖 MAIN CONTENT -->
+    <main
+      class="
+        mx-auto max-w-4xl
+        px-4 py-10
+      "
+    >
+
+      <!-- 📜 CHAPTER HEADER -->
+      <header class="mb-12">
+
         <slot name="header" />
-      </div>
 
-      <slot />
+      </header>
 
-      <!-- 🔁 NAV -->
-      <div class="mt-12 flex justify-between text-sm">
-        {prev ? (
-          <a href={`/bible/${currentBook}/${prev}`}>← Previous</a>
-        ) : <span />}
+      <!-- ✨ SCRIPTURE -->
+      <article
+        class="
+          prose prose-invert
+          max-w-none
+        "
+      >
 
-        {next ? (
-          <a href={`/bible/${currentBook}/${next}`}>Next →</a>
-        ) : <span />}
-      </div>
+        <slot />
+
+      </article>
+
+      <!-- 🔮 RELATED PROPHECY -->
+      <section
+        id="related-prophecy"
+        class="
+          mt-24 scroll-mt-40
+          border-t border-[var(--color-border)]
+          pt-12
+        "
+      >
+
+        <div class="space-y-4">
+
+          <h2 class="text-2xl font-semibold">
+            Related Prophecy
+          </h2>
+
+          {
+            relatedProphecy.length > 0 ? (
+
+              <div class="grid gap-4 md:grid-cols-2">
+
+                {relatedProphecy.map((entry) => (
+
+                  <a
+                    href={`/prophecy/${entry.id}`}
+                    class="
+                      rounded-2xl
+                      border border-[var(--color-border)]
+                      p-5
+                      transition
+                      hover:border-[var(--color-primary)]
+                    "
+                  >
+
+                    <div class="space-y-2">
+
+                      <h3 class="font-semibold">
+
+                        {entry.data.title}
+
+                      </h3>
+
+                      <p
+                        class="
+                          text-sm
+                          text-[var(--color-muted)]
+                        "
+                      >
+
+                        {entry.data.description}
+
+                      </p>
+
+                    </div>
+
+                  </a>
+
+                ))}
+
+              </div>
+
+            ) : (
+
+              <p class="text-sm text-[var(--color-muted)]">
+
+                No related prophecy topics yet.
+
+              </p>
+
+            )
+          }
+
+        </div>
+
+      </section>
+
+      <!-- 📘 DICTIONARY -->
+      <section
+        id="dictionary"
+        class="
+          mt-20 scroll-mt-40
+          border-t border-[var(--color-border)]
+          pt-12
+        "
+      >
+
+        <div class="space-y-4">
+
+          <h2 class="text-2xl font-semibold">
+            Dictionary
+          </h2>
+
+          {
+            relatedDictionary.length > 0 ? (
+
+              <div class="flex flex-wrap gap-3">
+
+                {relatedDictionary.map((entry) => (
+
+                  <a
+                    href={`/dictionary/${entry.id}`}
+                    class="
+                      rounded-full
+                      border border-[var(--color-border)]
+                      px-4 py-2
+                      text-sm
+                      transition
+                      hover:border-[var(--color-primary)]
+                    "
+                  >
+
+                    {entry.data.title}
+
+                  </a>
+
+                ))}
+
+              </div>
+
+            ) : (
+
+              <p class="text-sm text-[var(--color-muted)]">
+
+                No related dictionary terms yet.
+
+              </p>
+
+            )
+          }
+
+        </div>
+
+      </section>
+
+      <!-- 📖 TEACHINGS -->
+      <section
+        id="teachings"
+        class="
+          mt-20 scroll-mt-40
+          border-t border-[var(--color-border)]
+          pt-12
+        "
+      >
+
+        <div class="space-y-4">
+
+          <h2 class="text-2xl font-semibold">
+            Teachings
+          </h2>
+
+          {
+            relatedTeachings.length > 0 ? (
+
+              <div class="grid gap-4">
+
+                {relatedTeachings.map((entry) => (
+
+                  <a
+                    href={`/teachings/${entry.id}`}
+                    class="
+                      rounded-2xl
+                      border border-[var(--color-border)]
+                      p-5
+                      transition
+                      hover:border-[var(--color-primary)]
+                    "
+                  >
+
+                    <div class="space-y-2">
+
+                      <h3 class="font-semibold">
+
+                        {entry.data.title}
+
+                      </h3>
+
+                      <p
+                        class="
+                          text-sm
+                          text-[var(--color-muted)]
+                        "
+                      >
+
+                        {entry.data.summary}
+
+                      </p>
+
+                    </div>
+
+                  </a>
+
+                ))}
+
+              </div>
+
+            ) : (
+
+              <p class="text-sm text-[var(--color-muted)]">
+
+                No related teachings yet.
+
+              </p>
+
+            )
+          }
+
+        </div>
+
+      </section>
+
+      <!-- 🔗 CROSS REFERENCES -->
+      <section
+        id="cross-references"
+        class="
+          mt-20 scroll-mt-40
+          border-t border-[var(--color-border)]
+          pt-12
+        "
+      >
+
+        <div class="space-y-4">
+
+          <h2 class="text-2xl font-semibold">
+            Cross References
+          </h2>
+
+          <p class="text-sm text-[var(--color-muted)]">
+            Connected Scripture references
+            will appear here.
+          </p>
+
+        </div>
+
+      </section>
+
+      <!-- 📝 NOTES -->
+      <section
+        id="notes"
+        class="
+          mt-20 scroll-mt-40
+          border-t border-[var(--color-border)]
+          pt-12
+        "
+      >
+
+        <div class="space-y-4">
+
+          <h2 class="text-2xl font-semibold">
+            Notes
+          </h2>
+
+          <p class="text-sm text-[var(--color-muted)]">
+            Personal notes and future study tools
+            will appear here.
+          </p>
+
+        </div>
+
+      </section>
 
     </main>
-  </div>
 
-  <!-- ✅ SAFE DATA -->
-  <div
-    id="bible-data"
-    data-books={JSON.stringify(
-      Object.keys(books).map((b) => b.replace(/-/g, " "))
-    )}
-    hidden
-  ></div>
+  </div>
 
   <!-- 🚀 SCRIPT -->
   <script is:inline>
-    document.addEventListener("DOMContentLoaded", () => {
-      const sidebar = document.getElementById("sidebar");
-      const menuBtn = document.getElementById("menu-btn");
-      const overlay = document.getElementById("overlay");
 
-      menuBtn?.addEventListener("click", () => {
-        sidebar?.classList.remove("-translate-x-full");
-        overlay?.classList.remove("hidden");
-      });
+    const bookSelect =
+      document.getElementById(
+        "book-select"
+      );
 
-      overlay?.addEventListener("click", () => {
-        sidebar?.classList.add("-translate-x-full");
-        overlay?.classList.add("hidden");
-      });
-    });
+    const chapterSelect =
+      document.getElementById(
+        "chapter-select"
+      );
+
+    function navigateBible() {
+
+      const book =
+        bookSelect?.value;
+
+      const chapter =
+        chapterSelect?.value;
+
+      if (book && chapter) {
+
+        window.location.href =
+          `/bible/${book}/${chapter}`;
+
+      }
+
+    }
+
+    bookSelect?.addEventListener(
+      "change",
+      () => {
+
+        window.location.href =
+          `/bible/${bookSelect.value}/1`;
+
+      }
+    );
+
+    chapterSelect?.addEventListener(
+      "change",
+      navigateBible
+    );
+
+    const searchBtn =
+      document.getElementById(
+        "search-btn"
+      );
+
+    const searchInput =
+      document.getElementById(
+        "bible-search"
+      );
+
+    searchBtn?.addEventListener(
+      "click",
+      () => {
+
+        const value =
+          searchInput?.value?.trim();
+
+        if (!value) return;
+
+        const parts =
+          value.toLowerCase().split(" ");
+
+        const chapter =
+          parts.pop();
+
+        const book =
+          parts.join("-");
+
+        if (book && chapter) {
+
+          window.location.href =
+            `/bible/${book}/${chapter}`;
+
+        }
+
+      }
+    );
+
   </script>
 
 </BaseLayout>

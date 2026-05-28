@@ -3,103 +3,235 @@ export const prerender = true;
 
 import BibleLayout from "../../../layouts/BibleLayout.astro";
 
+import {
+  getRelatedProphecy,
+} from "../../../lib/relationships/getRelatedProphecy";
+
+import {
+  getRelatedDictionary,
+} from "../../../lib/relationships/getRelatedDictionary";
+
+import {
+  getRelatedTeachings,
+} from "../../../lib/relationships/getRelatedTeachings";
+
 type BibleData = {
   book: string;
   chapters: Record<string, string[]>;
 };
 
 /**
- * ✅ STATIC PATHS (self-contained)
+ * ✅ STATIC PATHS
  */
 export function getStaticPaths() {
-  const bibleModules = import.meta.glob(
-    "../../../data/bible/*.json",
-    { eager: true }
-  ) as Record<string, { default: BibleData }>;
 
-  const paths = Object.entries(bibleModules).flatMap(([key, module]) => {
-    const book = key.split("/").pop()?.replace(".json", "");
+  const bibleModules =
+    import.meta.glob(
+      "../../../data/bible/*.json",
+      { eager: true }
+    ) as Record<
+      string,
+      { default: BibleData }
+    >;
 
-    if (!book) return [];
+  const paths =
+    Object.entries(bibleModules)
+      .flatMap(([key, module]) => {
 
-    return Object.keys(module.default.chapters).map((chapter) => ({
-      params: {
-        book,
-        chapter,
-      },
-    }));
-  });
+        const book =
+          key
+            .split("/")
+            .pop()
+            ?.replace(".json", "");
 
-  if (import.meta.env.BUILD_TRACE === "true") {
-    console.log(
-      `[build:paths] bible chapters books=${Object.keys(bibleModules).length} paths=${paths.length}`
-    );
-  }
+        if (!book) return [];
+
+        return Object.keys(
+          module.default.chapters
+        ).map((chapter) => ({
+
+          params: {
+            book,
+            chapter,
+          },
+
+        }));
+
+      });
 
   return paths;
+
 }
 
 /**
- * 🚀 Load again for page usage
+ * 📚 LOAD BIBLE MODULES
  */
-const bibleModules = import.meta.glob(
-  "../../../data/bible/*.json",
-  { eager: true }
-) as Record<string, { default: BibleData }>;
+const bibleModules =
+  import.meta.glob(
+    "../../../data/bible/*.json",
+    { eager: true }
+  ) as Record<
+    string,
+    { default: BibleData }
+  >;
 
 /**
- * 📍 Params
+ * 📍 ROUTE PARAMS
  */
-const { book, chapter } = Astro.params as {
-  book: string;
-  chapter: string;
-};
+const { book, chapter } =
+  Astro.params as {
+    book: string;
+    chapter: string;
+  };
 
 if (!book || !chapter) {
-  throw new Error("Missing route params");
+
+  throw new Error(
+    "Missing route params"
+  );
+
 }
 
 /**
- * 🔍 Safe match
+ * 🔍 FIND BOOK FILE
  */
-const fileKey = Object.keys(bibleModules).find((key) =>
-  key.endsWith(`${book.toLowerCase()}.json`)
-);
+const fileKey =
+  Object.keys(bibleModules)
+    .find((key) =>
+      key.endsWith(
+        `${book.toLowerCase()}.json`
+      )
+    );
 
-let data: BibleData | null = null;
+let data: BibleData | null =
+  null;
+
 let verses: string[] = [];
 
 if (fileKey) {
-  data = bibleModules[fileKey].default;
 
-  const chapterKey = String(Number(chapter));
-  verses = data.chapters[chapterKey] || [];
+  data =
+    bibleModules[fileKey].default;
 
-  if (import.meta.env.BUILD_TRACE === "true" && import.meta.env.PROD) {
-    console.log(`[build:bible] render /bible/${book}/${chapter} verses=${verses.length}`);
-  }
+  const chapterKey =
+    String(Number(chapter));
+
+  verses =
+    data.chapters[chapterKey] || [];
+
 } else {
-  console.error("Book not found:", book);
+
+  console.error(
+    "Book not found:",
+    book
+  );
+
 }
+
+/**
+ * 📖 SCRIPTURE KEY
+ */
+const scriptureKey =
+  data
+    ? `${data.book} ${chapter}`
+    : "";
+
+/**
+ * 🔮 RELATED CONTENT
+ */
+const prophecyEntries =
+  await getRelatedProphecy(
+    scriptureKey
+  );
+
+const dictionaryEntries =
+  await getRelatedDictionary(
+    scriptureKey
+  );
+
+const teachingEntries =
+  await getRelatedTeachings(
+    scriptureKey
+  );
 ---
 
 <BibleLayout
   currentBook={book}
   currentChapter={Number(chapter)}
+
+  relatedProphecy={
+    prophecyEntries
+  }
+
+  relatedDictionary={
+    dictionaryEntries
+  }
+
+  relatedTeachings={
+    teachingEntries
+  }
 >
 
+  <!-- 📖 HEADER -->
   <Fragment slot="header">
-    <h1 class="text-2xl font-semibold capitalize">
+
+    <h1
+      class="
+        text-4xl
+        font-semibold
+        tracking-tight
+      "
+    >
+
       {data?.book} {chapter}
+
     </h1>
+
   </Fragment>
 
-  <div class="space-y-4 text-lg leading-relaxed">
-    {verses.map((verse: string, i: number) => (
-      <p id={`v${i + 1}`} class="bible-verse">
-        <span class="verse-number">{i + 1}</span> {verse}
-      </p>
-    ))}
+  <!-- 📜 VERSES -->
+  <div
+    class="
+      space-y-6
+      text-lg
+      leading-relaxed
+    "
+  >
+
+    {verses.map(
+      (
+        verse: string,
+        i: number
+      ) => (
+
+        <p
+          id={`v${i + 1}`}
+          class="
+            bible-verse
+            scroll-mt-40
+          "
+        >
+
+          <span
+            class="
+              verse-number
+              mr-2
+              text-sm
+              text-[var(--color-muted)]
+            "
+          >
+
+            {i + 1}
+
+          </span>
+
+          {verse}
+
+        </p>
+
+      )
+    )}
+
   </div>
 
 </BibleLayout>

@@ -8,38 +8,77 @@ const { title } = Astro.props;
 
 <button
   id="shareTool"
-  class="btn-secondary px-4 py-3 rounded-xl text-sm"
+  type="button"
+  class="btn-secondary rounded-xl px-4 py-3 text-sm"
 >
   Share
 </button>
 
-<script define:vars={{ title }}>
+<script
+  is:inline
+  define:vars={{ title }}
+>
 
   const btn =
-    document.getElementById("shareTool");
+    document.getElementById(
+      "shareTool"
+    );
 
-  btn?.addEventListener("click", async () => {
+  if (btn) {
 
-    const shareData = {
-      title,
-      text: `Check out ${title}`,
-      url: window.location.href
-    };
+    btn.addEventListener(
+      "click",
+      async () => {
 
-    if (navigator.share) {
+        const shareData = {
+          title,
+          text: `Check out ${title}`,
+          url: window.location.href,
+        };
 
-      await navigator.share(shareData);
+        try {
 
-    } else {
+          if (navigator.share) {
 
-      await navigator.clipboard.writeText(
-        window.location.href
-      );
+            await navigator.share(
+              shareData
+            );
 
-      alert("Link copied!");
+          } else {
 
-    }
+            await navigator.clipboard.writeText(
+              window.location.href
+            );
 
-  });
+            btn.textContent =
+              "Copied!";
+
+            setTimeout(() => {
+
+              btn.textContent =
+                "Share";
+
+            }, 2000);
+
+          }
+
+        } catch {
+
+          btn.textContent =
+            "Failed";
+
+          setTimeout(() => {
+
+            btn.textContent =
+              "Share";
+
+            }, 2000);
+
+        }
+
+      }
+    );
+
+  }
 
 </script>

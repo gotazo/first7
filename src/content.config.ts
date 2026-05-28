@@ -139,12 +139,16 @@ const teachings = defineCollection({
     summary: z.string(),
 
     topics: z.array(z.string()),
-    keywords: z.array(z.string()).optional(),
+    keywords: z.array(z.string()).default([]),
 
     scripture: z.object({
       ref: z.string(),
       text: z.string(),
     }),
+
+    scriptures: z.array(
+      z.string()
+    ).default([]),
 
     truth: z.string(),
 
@@ -152,6 +156,67 @@ const teachings = defineCollection({
     application: z.array(z.string()),
 
     prayer: z.string(),
+  }),
+});
+
+/* =========================
+   PROPHECY (STUDY SYSTEM)
+========================= */
+const prophecy = defineCollection({
+  loader: glob({
+    pattern: "**/*.{md,mdx}",
+    base: "./src/content/prophecy",
+  }),
+
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+
+    category: z.enum(["symbols", "people", "nations", "timeline", "events"]),
+
+    tags: z.array(z.string()).default([]),
+
+    scriptures: z.array(z.string()).default([]),
+
+    related: z.array(z.string()).default([]),
+
+    terms: z.array(z.string()).default([]),
+
+    order: z.number().optional(),
+
+    notes: z.array(z.string()).default([]),
+
+    draft: z.boolean().default(false),
+
+    featuredVerse: z
+      .object({
+        ref: z.string(),
+        text: z.string(),
+      })
+      .optional(),
+  }),
+});
+
+const dictionary = defineCollection({
+  loader: glob({
+    pattern: "**/*.{md,mdx}",
+    base: "./src/content/dictionary",
+  }),
+
+  schema: z.object({
+    title: z.string(),
+
+    term: z.string(),
+
+    shortMeaning: z.string(),
+
+    related: z.array(z.string()).default([]),
+
+    scriptures: z.array(z.string()).default([]),
+
+    aliases: z.array(z.string()).default([]),
+
+    seeAlso: z.array(z.string()).default([]),
   }),
 });
 
@@ -169,4 +234,6 @@ export const collections = {
   prayers,
   tools,
   teachings,
+  prophecy,
+  dictionary,
 };

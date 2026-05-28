@@ -1,0 +1,28 @@
+---
+interface Props {
+  ref: string;
+  text: string;
+}
+
+const { ref, text } = Astro.props;
+---
+
+<section class="rounded-3xl border border-[var(--color-border)] bg-[var(--color-surface)] p-8">
+
+  <div class="space-y-4">
+
+    <h2 class="text-xl font-semibold">
+      Featured Scripture
+    </h2>
+
+    <blockquote class="border-l-2 pl-5 italic leading-relaxed text-lg">
+      <p>{text}</p>
+
+      <footer class="mt-4 text-sm text-[var(--color-muted)]">
+        {ref} (KJV)
+      </footer>
+    </blockquote>
+
+  </div>
+
+</section>

@@ -1,0 +1,186 @@
+---
+export const prerender = true;
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+
+  const entries =
+    await getCollection("dictionary");
+
+  return entries.map((entry) => ({
+
+    params: {
+      slug: entry.id,
+    },
+
+    props: {
+      entry,
+    },
+
+  }));
+
+}
+
+const { entry } = Astro.props;
+
+const { Content } =
+  await render(entry);
+
+const allDictionary =
+  await getCollection("dictionary");
+
+const relatedTerms =
+  allDictionary.filter((item) =>
+    entry.data.related.includes(item.id)
+  );
+---
+
+<BaseLayout
+  title={`${entry.data.title} Meaning`}
+  description={entry.data.shortMeaning}
+>
+
+  <main class="mx-auto w-full max-w-4xl px-4 py-16 sm:px-6">
+
+    <article class="space-y-12">
+
+      <!-- Header -->
+      <header class="space-y-6 border-b border-[var(--color-border)] pb-8">
+
+        <div class="space-y-3">
+
+          <p class="text-sm uppercase tracking-[0.25em] text-[var(--color-muted)]">
+
+            Bible Dictionary
+
+          </p>
+
+          <h1 class="text-5xl font-semibold tracking-tight">
+
+            {entry.data.title}
+
+          </h1>
+
+          <p class="max-w-2xl text-lg leading-relaxed text-[var(--color-muted)]">
+
+            {entry.data.shortMeaning}
+
+          </p>
+
+        </div>
+
+        <!-- Aliases -->
+        {entry.data.aliases?.length > 0 && (
+
+          <div class="flex flex-wrap gap-2">
+
+            {entry.data.aliases.map((alias: string) => (
+
+              <span
+                class="rounded-full border border-[var(--color-border)] px-3 py-1 text-sm"
+              >
+
+                {alias}
+
+              </span>
+
+            ))}
+
+          </div>
+
+        )}
+
+      </header>
+
+      <!-- Main Content -->
+      <section class="prose prose-invert max-w-none">
+
+        <Content />
+
+      </section>
+
+      <!-- Scriptures -->
+      {entry.data.scriptures.length > 0 && (
+
+        <section class="space-y-5">
+
+          <h2 class="text-2xl font-semibold">
+
+            Related Scriptures
+
+          </h2>
+
+          <div class="flex flex-wrap gap-3">
+
+            {entry.data.scriptures.map((scripture: string) => (
+
+              <div
+                class="rounded-full border border-[var(--color-border)] px-4 py-2 text-sm"
+              >
+
+                {scripture}
+
+              </div>
+
+            ))}
+
+          </div>
+
+        </section>
+
+      )}
+
+      <!-- Related Terms -->
+      {relatedTerms.length > 0 && (
+
+        <section class="space-y-5">
+
+          <h2 class="text-2xl font-semibold">
+
+            Related Terms
+
+          </h2>
+
+          <div class="grid gap-4 md:grid-cols-2">
+
+            {relatedTerms.map((term) => (
+
+              <a
+                href={`/dictionary/${term.id}`}
+                class="rounded-2xl border border-[var(--color-border)] p-5 transition hover:border-[var(--color-primary)]"
+              >
+
+                <div class="space-y-2">
+
+                  <h3 class="text-lg font-medium">
+
+                    {term.data.title}
+
+                  </h3>
+
+                  <p class="text-sm leading-relaxed text-[var(--color-muted)]">
+
+                    {term.data.shortMeaning}
+
+                  </p>
+
+                </div>
+
+              </a>
+
+            ))}
+
+          </div>
+
+        </section>
+
+      )}
+
+    </article>
+
+  </main>
+
+</BaseLayout>
