@@ -3,10 +3,10 @@ title: Perdition
 
 term: perdition
 
-shortMeaning: destruction, ruin, loss
+shortMeaning: destruction, ruin, loss, or waste
 
 related:
-  - people/antichrist
+  - people/man-of-sin
 
 scriptures:
   - John 17:12
@@ -22,41 +22,24 @@ aliases:
 ## Basic Meaning
 
 Perdition refers to destruction, ruin, loss,
-or complete waste.
+or waste.
 
-The word is often used to describe severe destruction
-or complete spiritual ruin.
+The word appears in several passages in the New Testament.
 
 ---
 
 ## Biblical Usage
 
-In Scripture, perdition is associated with:
-- destruction
-- judgment
-- spiritual ruin
-- loss
+The word perdition appears in several New Testament passages,
+including John 17:12, 2 Thessalonians 2:3,
+and Revelation 17:8.
 
-In some passages, the word is connected with eternal judgment
-or condemnation.
-
-### Example Passages
-
-- John 17:12
-- Philippians 1:28
-- Hebrews 10:39
+Its usage may be compared across these passages.
 
 ---
 
-## Prophetic Usage
+## Related Topics
 
-The phrase “son of perdition” appears in
-2 Thessalonians 2:3.
-
-Some readers connect this phrase with end-times prophecy,
-the man of sin, and opposition to God.
-
-### Main Prophetic References
-
-- 2 Thessalonians 2:3
-- Revelation 17:8
+- Man of Sin
+- Destruction
+- Judgment

@@ -1,6 +1,6 @@
 ---
 title: Mark
-description: Study the mark in Bible prophecy through connected KJV Scriptures and symbolic themes.
+description: Study the mark in Bible prophecy through connected KJV Scriptures and prophetic references.
 
 category: symbols
 
@@ -16,8 +16,8 @@ scriptures:
 
 related:
   - symbols/beast
-  - people/antichrist
-  - timeline/tribulation
+  - people/man-of-sin
+  - timeline/great-tribulation
 
 terms:
   - mark
@@ -34,17 +34,14 @@ featuredVerse:
     to receive a mark in their right hand, or in their foreheads:
 
 notes:
-  - The mark is closely associated with the beast in Revelation.
-  - Readers differ on whether the mark is symbolic, literal, or both.
+  - Revelation 13 contains references to a mark.
+  - Revelation 14 contains references to a mark.
+  - Revelation 16 contains references to a mark.
 ---
 
 ## Overview
 
-The mark is one of the central prophetic symbols in Revelation
-and is connected with worship, allegiance, and authority.
+The mark is a prophetic subject found in the book of Revelation.
 
-
-## Study Focus
-
-Readers often study the relationship between the mark,
-worship, economic control, and loyalty during prophetic events.
+Several passages contain references to a mark in connection with
+the beast and related prophetic events.

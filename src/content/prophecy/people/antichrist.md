@@ -1,41 +1,43 @@
 ---
 title: Antichrist
-description: Study passages related to the antichrist and connected prophetic themes.
+description: Study passages related to the antichrist and connected prophetic references.
 
 category: people
 
 tags:
   - antichrist
   - prophecy
-  - revelation
+  - john
 
 scriptures:
-  - 2 Thessalonians 2
   - 1 John 2:18
-  - Revelation 13
+  - 1 John 2:22
+  - 1 John 4:3
+  - 2 John 1:7
 
 related:
+  - people/man-of-sin
   - symbols/beast
-  - timeline/tribulation
 
 terms:
+  - antichrist
+  - deception
   - perdition
-  - beast
-  - wrath
 
 featuredVerse:
-  ref: 2 Thessalonians 2:3
+  ref: 1 John 2:18
   text: >
-    Let no man deceive you by any means: for that day shall not come,
-    except there come a falling away first, and that man of sin be revealed,
-    the son of perdition;
+    Little children, it is the last time: and as ye have heard that antichrist shall come, even now are there many antichrists; whereby we know that it is the last time..
 
 notes:
-  - The term “antichrist” appears directly in the epistles of John.
-  - Some readers associate the man of sin with the beast of Revelation.
+  - The word "antichrist" appears in the epistles of John.
+  - 1 John 2 contains references to antichrist.
+  - 1 John 4 contains a reference to antichrist.
+  - 2 John contains a reference to antichrist.
 ---
 
 ## Overview
 
-The antichrist is associated with deception, opposition to God,
-and end-times prophecy.
+The term antichrist appears in the epistles of John.
+
+Several passages contain references to antichrist and related subjects.

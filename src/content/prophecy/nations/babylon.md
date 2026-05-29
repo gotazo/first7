@@ -1,6 +1,6 @@
 ---
 title: Babylon
-description: Study Babylon in Bible prophecy through connected KJV Scriptures and symbolic imagery.
+description: Study Babylon in Bible prophecy through connected KJV Scriptures and prophetic references.
 
 category: nations
 
@@ -17,7 +17,7 @@ scriptures:
 related:
   - symbols/beast
   - nations/israel
-  - timeline/tribulation
+  - timeline/great-tribulation
 
 terms:
   - mystery
@@ -36,16 +36,16 @@ featuredVerse:
     THE MOTHER OF HARLOTS AND ABOMINATIONS OF THE EARTH.
 
 notes:
-  - Babylon appears both historically and symbolically in Scripture.
-  - Revelation presents Babylon with strong symbolic imagery.
+  - Revelation 17 contains references to Babylon.
+  - Revelation 18 contains references to Babylon.
+  - Daniel contains references to Babylon.
+  - The title "Babylon the Great" appears in Revelation 17:5.
 ---
 
 ## Overview
 
-Babylon is one of the most recognized prophetic names in Scripture,
-especially in Revelation and Daniel.
+Babylon appears in multiple books of Scripture,
+including Daniel and Revelation.
 
-## Study Focus
-
-Readers often explore Babylon in connection with kingdoms,
-world systems, influence, judgment, and prophetic symbolism.
+Several passages contain references to Babylon and related subjects
+throughout prophetic and historical narratives.

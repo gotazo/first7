@@ -3,74 +3,44 @@ title: Horn
 
 term: horn
 
-shortMeaning: a pointed projection found on animals, often symbolizing strength or power in Scripture
+shortMeaning: a hard pointed projection found on the heads of certain animals
 
 related:
   - symbols/beast
 
 scriptures:
-  - Daniel 7
-  - Revelation 17
   - Psalm 18:2
+  - Daniel 7
+  - Daniel 8
+  - Luke 1:69
+  - Revelation 17
 
 aliases:
-  - kingdom
-  - authority
-  - power
+  - horns
 ---
 
 ## Basic Meaning
 
-A horn is a hard pointed projection found on the heads of animals
-such as bulls, goats, rams, and oxen.
+A horn is a hard pointed projection found on the heads
+of certain animals such as rams, goats, oxen, and cattle.
 
-The word may also refer to:
-- a musical instrument
-- a container
-- a symbol of strength or authority
+The word may also refer to a musical instrument,
+a container, or other horn-shaped objects.
 
 ---
 
 ## Biblical Usage
 
-In Scripture, horns are often associated with:
-- strength
-- power
-- authority
-- victory
-- rulers
+The word horn appears throughout Scripture in historical,
+poetic, prophetic, and visionary contexts.
 
-The Bible sometimes uses the image of a horn to describe the strength
-or exaltation of a king, nation, or ruler.
-
-### Example Passages
-
-- Psalm 18:2
-- 1 Samuel 2:1
-- Luke 1:69
-
----
-
-## Prophetic Usage
-
-In prophetic books such as Daniel and Revelation,
-horns are commonly connected with kings, kingdoms,
-or ruling powers.
-
-Some readers interpret horns symbolically as political
-or governmental authority.
-
-### Main Prophetic References
-
-- Daniel 7
-- Daniel 8
-- Revelation 17
+References to horns can be found in the Psalms,
+the Prophets, the Gospels, and Revelation.
 
 ---
 
 ## Related Topics
 
 - Beast
-- Antichrist
-- Kingdoms
 - Babylon
+- Kingdom
