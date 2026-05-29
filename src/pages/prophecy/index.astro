@@ -2,7 +2,6 @@
 export const prerender = true;
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
-
 import { getCollection } from "astro:content";
 
 const entries = await getCollection("prophecy");
@@ -24,6 +23,41 @@ const timeline = entries.filter(
 );
 
 const dictionary = await getCollection("dictionary");
+
+const prophecyGroups = [
+  {
+    title: "Symbols",
+    description:
+      "Study symbolic imagery used throughout prophetic Scripture.",
+    items: symbols.sort((a, b) =>
+      a.data.title.localeCompare(b.data.title)
+    ),
+  },
+  {
+    title: "People",
+    description:
+      "Explore prophetic figures and individuals mentioned in Scripture.",
+    items: people.sort((a, b) =>
+      a.data.title.localeCompare(b.data.title)
+    ),
+  },
+  {
+    title: "Nations",
+    description:
+      "Study nations and kingdoms connected with Bible prophecy.",
+    items: nations.sort((a, b) =>
+      a.data.title.localeCompare(b.data.title)
+    ),
+  },
+  {
+    title: "Timeline",
+    description:
+      "Explore prophetic events and their Scriptural connections.",
+    items: timeline.sort((a, b) =>
+      a.data.title.localeCompare(b.data.title)
+    ),
+  },
+].filter((group) => group.items.length > 0);
 ---
 
 <BaseLayout
@@ -33,255 +67,218 @@ const dictionary = await getCollection("dictionary");
 
   <main class="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6">
 
-    <!-- Hero -->
-    <section class="mx-auto max-w-4xl space-y-8 text-center">
+    <section class="space-y-8">
 
       <div class="space-y-4">
 
-        <p class="text-sm uppercase tracking-[0.3em] text-[var(--color-muted)]">
-          Scripture First
-        </p>
-
-        <h1 class="text-5xl font-semibold tracking-tight sm:text-6xl">
-
+        <h1 class="text-4xl font-semibold tracking-tight">
           Bible Prophecy Study
-
         </h1>
 
-        <p class="mx-auto max-w-3xl text-lg leading-relaxed text-[var(--color-muted)]">
-
-          Explore Bible prophecy through carefully organized KJV Scriptures,
-          study terms, symbols, nations, people, and connected references.
-
+        <p class="max-w-3xl text-lg leading-relaxed text-[var(--color-muted)]">
+          Explore Bible prophecy through organized studies on symbols,
+          prophetic people, nations, timelines, and connected Scripture
+          references.
         </p>
 
       </div>
 
-    </section>
+      <section class="space-y-3">
 
-    <!-- Main Grid -->
-    <div class="mt-20 grid gap-10 lg:grid-cols-2">
-
-      <!-- Symbols -->
-      <section class="space-y-5 rounded-3xl border border-[var(--color-border)] p-8">
-
-        <div class="space-y-2">
-
-          <h2 class="text-3xl font-semibold">
-            Symbols
-          </h2>
-
-          <p class="text-[var(--color-muted)]">
-
-            Study symbolic imagery used throughout prophetic Scripture.
-
-          </p>
-
-        </div>
-
-        <div class="space-y-3">
-
-          {symbols.map((item) => (
-
-            <a
-              href={`/prophecy/${item.id}`}
-              class="block rounded-2xl border border-transparent px-4 py-3 transition hover:border-[var(--color-border)] hover:bg-[var(--color-surface)]"
-            >
-
-              <div class="space-y-1">
-
-                <h3 class="font-medium">
-                  {item.data.title}
-                </h3>
-
-                <p class="text-sm text-[var(--color-muted)]">
-                  {item.data.description}
-                </p>
-
-              </div>
-
-            </a>
-
-          ))}
-
-        </div>
-
-      </section>
-
-      <!-- People -->
-      <section class="space-y-5 rounded-3xl border border-[var(--color-border)] p-8">
-
-        <div class="space-y-2">
-
-          <h2 class="text-3xl font-semibold">
-            People
-          </h2>
-
-          <p class="text-[var(--color-muted)]">
-
-            Explore prophetic figures and individuals mentioned in Scripture.
-
-          </p>
-
-        </div>
-
-        <div class="space-y-3">
-
-          {people.map((item) => (
-
-            <a
-              href={`/prophecy/${item.id}`}
-              class="block rounded-2xl border border-transparent px-4 py-3 transition hover:border-[var(--color-border)] hover:bg-[var(--color-surface)]"
-            >
-
-              <div class="space-y-1">
-
-                <h3 class="font-medium">
-                  {item.data.title}
-                </h3>
-
-                <p class="text-sm text-[var(--color-muted)]">
-                  {item.data.description}
-                </p>
-
-              </div>
-
-            </a>
-
-          ))}
-
-        </div>
-
-      </section>
-
-      <!-- Nations -->
-      <section class="space-y-5 rounded-3xl border border-[var(--color-border)] p-8">
-
-        <div class="space-y-2">
-
-          <h2 class="text-3xl font-semibold">
-            Nations
-          </h2>
-
-          <p class="text-[var(--color-muted)]">
-
-            Study nations and kingdoms connected with Bible prophecy.
-
-          </p>
-
-        </div>
-
-        <div class="space-y-3">
-
-          {nations.map((item) => (
-
-            <a
-              href={`/prophecy/${item.id}`}
-              class="block rounded-2xl border border-transparent px-4 py-3 transition hover:border-[var(--color-border)] hover:bg-[var(--color-surface)]"
-            >
-
-              <div class="space-y-1">
-
-                <h3 class="font-medium">
-                  {item.data.title}
-                </h3>
-
-                <p class="text-sm text-[var(--color-muted)]">
-                  {item.data.description}
-                </p>
-
-              </div>
-
-            </a>
-
-          ))}
-
-        </div>
-
-      </section>
-
-      <!-- Timeline -->
-      <section class="space-y-5 rounded-3xl border border-[var(--color-border)] p-8">
-
-        <div class="space-y-2">
-
-          <h2 class="text-3xl font-semibold">
-            Timeline
-          </h2>
-
-          <p class="text-[var(--color-muted)]">
-
-            Explore prophetic events and their Scriptural connections.
-
-          </p>
-
-        </div>
-
-        <div class="space-y-3">
-
-          {timeline.map((item) => (
-
-            <a
-              href={`/prophecy/${item.id}`}
-              class="block rounded-2xl border border-transparent px-4 py-3 transition hover:border-[var(--color-border)] hover:bg-[var(--color-surface)]"
-            >
-
-              <div class="space-y-1">
-
-                <h3 class="font-medium">
-                  {item.data.title}
-                </h3>
-
-                <p class="text-sm text-[var(--color-muted)]">
-                  {item.data.description}
-                </p>
-
-              </div>
-
-            </a>
-
-          ))}
-
-        </div>
-
-      </section>
-
-    </div>
-
-    <!-- Dictionary -->
-    <section class="mt-20 space-y-8">
-
-      <div class="space-y-3">
-
-        <h2 class="text-4xl font-semibold">
-          Prophecy Dictionary
+        <h2 class="text-2xl font-semibold">
+          Browse Prophecy Topics
         </h2>
 
-        <p class="max-w-3xl text-[var(--color-muted)]">
-
-          Understand prophetic words, symbols, and KJV study terms through
-          connected Scripture references and simple explanations.
-
+        <p class="max-w-2xl text-[var(--color-muted)]">
+          Explore key areas of Bible prophecy and study connected
+          Scriptures through organized topics.
         </p>
 
-      </div>
+      </section>
 
-      <div class="flex flex-wrap gap-3">
+      <!-- Masonry -->
 
-        {dictionary.map((term) => (
+      <section class="library-masonry">
 
-          <a
-            href={`/prophecy/dictionary/${term.id}`}
-            class="rounded-full border border-[var(--color-border)] px-4 py-2 text-sm transition hover:border-[var(--color-primary)]"
+        {prophecyGroups.map((group) => (
+
+          <section
+          class="library-card rounded-xl border p-7"
           >
 
-            {term.data.title}
+            <div>
 
-          </a>
+              <div>
+
+                <h3 class="text-xl font-semibold leading-snug">
+                  {group.title}
+                </h3>
+
+                <p class="mt-2 text-base font-medium leading-relaxed">
+                  {group.description}
+                </p>
+
+              </div>
+
+            </div>
+
+            <ul class="mt-6 space-y-2">
+
+              {group.items.map((item) => (
+
+                <li>
+
+                  <a
+                    href={`/prophecy/${item.id}`}
+                    class="card group block rounded-xl p-5"
+                  >
+
+                    <span class="text-sm text-[var(--color-muted)] group-hover:text-[var(--color-text)]">
+                      {item.data.title}
+                    </span>
+
+                    <span class="text-[var(--color-muted)] opacity-0 transition group-hover:translate-x-1 group-hover:opacity-100">
+                      →
+                    </span>
+
+                  </a>
+
+                </li>
+
+              ))}
+
+            </ul>
+
+          </section>
 
         ))}
 
-      </div>
+        <!-- Dictionary -->
+
+        <section
+        class="library-card rounded-xl border p-7"
+        >
+
+          <div>
+
+            <div>
+
+              <h3 class="text-xl font-semibold leading-snug">
+                Prophecy Dictionary
+              </h3>
+
+              <p class="mt-2 text-base font-medium leading-relaxed">
+                Understand prophetic words, symbols, and study terms.
+              </p>
+
+            </div>
+
+
+          </div>
+
+          <ul class="mt-5 space-y-2">
+
+            {dictionary
+              .sort((a, b) =>
+                a.data.title.localeCompare(b.data.title)
+              )
+              .map((term) => (
+
+                <li>
+
+                  <a
+                    href={`/prophecy/dictionary/${term.id}`}
+                    class="card group block rounded-xl p-5"
+                  >
+
+                    <span class="text-sm text-[var(--color-muted)] group-hover:text-[var(--color-text)]">
+                      {term.data.title}
+                    </span>
+
+                    <span class="text-[var(--color-muted)] opacity-0 transition group-hover:translate-x-1 group-hover:opacity-100">
+                      →
+                    </span>
+
+                  </a>
+
+                </li>
+
+              ))}
+
+          </ul>
+
+        </section>
+
+      </section>
+
+      <!-- Continue Study -->
+
+      <section class="card rounded-2xl p-8">
+
+        <div class="space-y-3">
+
+            <h2 class="text-3xl font-semibold">
+              Continue Your Study
+            </h2>
+
+          <p class="max-w-2xl text-[var(--color-muted)]">
+            Bible prophecy is best understood alongside the broader
+            teaching of Scripture. Continue exploring related study
+            resources.
+          </p>
+
+        </div>
+
+        <div class="mt-6 grid gap-4 md:grid-cols-3">
+
+            <a
+              href="/dictionary"
+              class="card block rounded-xl p-5"
+            >
+
+            <h3 class="font-semibold">
+              Bible Dictionary
+            </h3>
+
+            <p class="mt-2 text-sm text-[var(--color-muted)]">
+              Study biblical words, themes, and meanings.
+            </p>
+
+          </a>
+
+          <a
+            href="/teachings"
+            class="card block rounded-xl p-5"
+          >
+
+              <h3 class="font-semibold">
+              Teachings Library
+            </h3>
+
+            <p class="mt-2 text-sm text-[var(--color-muted)]">
+              Explore structured Bible teachings by topic.
+            </p>
+
+          </a>
+
+          <a
+            href="/bible"
+            class="card block rounded-xl p-5"
+          >
+
+              <h3 class="font-semibold">
+              Read the Bible
+            </h3>
+
+            <p class="mt-2 text-sm text-[var(--color-muted)]">
+              Read and search Scripture alongside your studies.
+            </p>
+
+          </a>
+
+        </div>
+
+      </section>
 
     </section>
 

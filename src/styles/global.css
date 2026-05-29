@@ -4,40 +4,43 @@
    🎨 THEME (Soft Sage + Warm Light)
 ========================= */
 :root {
-  --color-bg: #F7F8F6;          /* warm soft background */
-  --color-bg-soft: #EEF2ED;     /* cards / sections */
-  --color-bg-elevated: #E9EFE8; /* subtle lift */
-  --color-text: #1F2A24;        /* soft dark */
-  --color-muted: #6B7A72;       /* calm muted */
-  --color-border: #E3E8E2;      /* soft border */
-  --color-primary: #6F8F76;     /* sage */
-  --color-primary-hover: #5F7D66;
+  --color-bg: #f7f8f6; /* warm soft background */
+  --color-bg-soft: #eef2ed; /* cards / sections */
+  --color-bg-elevated: #e9efe8; /* subtle lift */
+  --color-text: #1f2a24; /* soft dark */
+  --color-muted: #6b7a72; /* calm muted */
+  --color-border: #e3e8e2; /* soft border */
+  --color-primary: #6f8f76; /* sage */
+  --color-primary-hover: #5f7d66;
 }
 
 /* 🌙 Dark mode (calm, warm, low-glow) */
 .dark {
-  --color-bg: #0E1512;
-  --color-bg-soft: #16201B;
-  --color-bg-elevated: #1B2621;
+  --color-bg: #0e1512;
+  --color-bg-soft: #16201b;
+  --color-bg-elevated: #1b2621;
 
-  --color-text: #E6F0EA;
-  --color-muted: #9FB3A8;
+  --color-text: #e6f0ea;
+  --color-muted: #9fb3a8;
 
   --color-border: #223029;
 
-  --color-primary: #8FAF97;
-  --color-primary-hover: #A3C1AA;
+  --color-primary: #8faf97;
+  --color-primary-hover: #a3c1aa;
 
-  --color-accent: #C8B38E;
+  --color-accent: #c8b38e;
 }
 
 /* =========================
    🌍 GLOBAL BASE
 ========================= */
-html, body {
+html,
+body {
   background-color: var(--color-bg);
   color: var(--color-text);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 html {
@@ -55,7 +58,7 @@ html.dark body {
   background:
     radial-gradient(
       circle at top,
-      rgba(143, 175, 151, 0.10) 0%,
+      rgba(143, 175, 151, 0.1) 0%,
       transparent 35%
     ),
     radial-gradient(
@@ -169,7 +172,7 @@ button:focus-visible {
 ========================= */
 @layer components {
   .btn {
-    background-color: #7C9A92; /* cool grey-blue */
+    background-color: #7c9a92; /* cool grey-blue */
     color: #ffffff;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
@@ -182,7 +185,7 @@ button:focus-visible {
     will-change: transform, box-shadow;
 
     /* subtle base depth */
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   }
 
   .btn,
@@ -197,20 +200,20 @@ button:focus-visible {
   .dark .btn:visited,
   .dark .btn:hover,
   .dark .btn:active {
-    color: #0E1512 !important;
+    color: #0e1512 !important;
   }
 
   /* ✨ HOVER — gentle lift */
   .btn:hover {
-    background-color: #6B8A83;
+    background-color: #6b8a83;
     transform: translateY(-1px);
-    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
   }
 
   /* 👇 ACTIVE — tactile press */
   .btn:active {
     transform: translateY(0);
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   }
 
   /* 🎯 FOCUS — clean ring */
@@ -223,14 +226,14 @@ button:focus-visible {
 
   /* 🌙 DARK MODE */
   .dark .btn {
-    background-color: #8FAF97;
-    color: #0E1512;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+    background-color: #8faf97;
+    color: #0e1512;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
   }
 
   .dark .btn:hover {
-    background-color: #A3C1AA;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+    background-color: #a3c1aa;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
   }
 
   /* =========================
@@ -280,14 +283,14 @@ button:focus-visible {
 .card {
   background: var(--color-bg-soft);
   border: 1px solid var(--color-border);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   border-radius: 16px;
   transition: 0.2s ease;
   will-change: transform;
 }
 
 .dark .card {
-  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .card:hover {
@@ -297,12 +300,81 @@ button:focus-visible {
 }
 
 /* =========================
+   📚 LIBRARY MASONRY
+========================= */
+
+.library-masonry {
+  column-count: 1;
+  column-gap: 1rem;
+}
+
+.library-card {
+  break-inside: avoid;
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 1rem;
+  vertical-align: top;
+
+  background: color-mix(in srgb, var(--color-bg) 94%, var(--color-primary));
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.library-card:hover {
+  background: color-mix(in srgb, var(--color-bg) 88%, var(--color-primary));
+
+  border-color: color-mix(in srgb, var(--color-primary) 45%, transparent);
+
+  box-shadow: 0 14px 36px
+    color-mix(in srgb, var(--color-primary) 12%, transparent);
+
+  transform: translateY(-2px);
+}
+
+.library-count {
+  line-height: 1;
+  white-space: nowrap;
+}
+
+@media (min-width: 640px) {
+  .library-masonry {
+    column-count: 2;
+    column-gap: 1.125rem;
+  }
+
+  .library-card {
+    margin-bottom: 1.125rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .library-masonry {
+    column-count: 3;
+    column-gap: 1.25rem;
+  }
+
+  .library-card {
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .library-masonry {
+    column-count: 4;
+  }
+}
+
+/* =========================
    ✨ INTERACTIONS
 ========================= */
 
 #verse-card.flash {
   transform: scale(1.02);
-  box-shadow: 0 0 0 2px rgba(111,143,118,0.25);
+  box-shadow: 0 0 0 2px rgba(111, 143, 118, 0.25);
 }
 
 /* =========================

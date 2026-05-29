@@ -414,9 +414,10 @@ scope === "ot"
 ? NT_BOOKS
 : [...OT_BOOKS, ...NT_BOOKS];
 
-const chapters = [];
+const chapters: string[] = [];
 
-books.forEach(([name, total]) => {
+books.forEach(
+  ([name, total]: [string, number]) => {
 
 for (let i = 1; i <= total; i++) {
 
@@ -501,7 +502,7 @@ chapters.length;
 const chaptersPerDay =
 Math.ceil(totalChapters / days);
 
-const plan = [];
+const plan: any[] = [];
 
 let currentIndex = 0;
 
@@ -644,8 +645,14 @@ const printBtn =
     "printBtn"
   ) as HTMLInputElement | null;
 
-startDateInput.value =
-  new Date().toISOString().slice(0, 10);
+if (startDateInput) {
+
+  startDateInput.value =
+    new Date()
+      .toISOString()
+      .slice(0, 10);
+
+}
 
 function showError(
   message: string
@@ -668,7 +675,9 @@ function renderProgress(
 ) {
 
   const completed =
-    planData.plan.filter((d) => d.done).length;
+    planData.plan.filter(
+      (d: any) => d.done
+    ).length;
 
   const percent = Math.round(
     (completed / planData.days) * 100
@@ -720,7 +729,8 @@ function renderPlan(
 
   planList.innerHTML = "";
 
-  planData.plan.forEach((entry) => {
+  planData.plan.forEach(
+    (entry: any) => {
 
     const item =
       document.createElement("div");
@@ -809,7 +819,9 @@ function renderPlan(
 }
 
 document
-  .querySelectorAll(".scope-btn")
+  .querySelectorAll<HTMLElement>(
+    ".scope-btn"
+  )
   .forEach((btn) => {
 
     btn.addEventListener("click", () => {
@@ -831,14 +843,16 @@ document
       );
 
       selectedScope =
-        btn.dataset.scope;
+        btn.dataset.scope || "full";
 
     });
 
 });
 
 document
-  .querySelectorAll(".dur-btn")
+  .querySelectorAll<HTMLElement>(
+    ".dur-btn"
+  )
   .forEach((btn) => {
 
     btn.addEventListener("click", () => {
@@ -860,7 +874,9 @@ document
       );
 
       selectedDays =
-        Number(btn.dataset.days);
+        Number(
+          btn.dataset.days || "365"
+        );
 
       customDaysInput.value = "";
 
@@ -868,7 +884,7 @@ document
 
 });
 
-customDaysInput.addEventListener("input", () => {
+customDaysInput?.addEventListener("input", () => {
 
   document
     .querySelectorAll(".dur-btn")
@@ -890,7 +906,7 @@ customDaysInput.addEventListener("input", () => {
 
 });
 
-generateBtn.addEventListener("click", () => {
+generateBtn?.addEventListener("click", () => {
 
   const days =
     Number(customDaysInput.value) ||
@@ -940,7 +956,7 @@ generateBtn.addEventListener("click", () => {
 
 });
 
-resetBtn.addEventListener("click", () => {
+resetBtn?.addEventListener("click", () => {
 
   if (
     !confirm(
@@ -1001,7 +1017,7 @@ if (copyBtn) {
 
 }
 
-printBtn.addEventListener("click", () => {
+printBtn?.addEventListener("click", () => {
 
   window.print();
 
