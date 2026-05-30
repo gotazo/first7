@@ -26,7 +26,7 @@ scriptures:
   - Hebrews 13
   - Romans 12
 
-truth: Spiritual discernment matters in every act of stewardship and worship.
+truth: God calls believers to exercise discernment and wisdom in worship, stewardship, and spiritual service.
 
 insight:
   - Jesus emphasized the spiritual significance of the altar.

@@ -21,7 +21,13 @@ scripture:
   ref: "Genesis 12:7"
   text: "And the LORD appeared unto Abram, and said, Unto thy seed will I give this land: and there builded he an altar unto the LORD, who appeared unto him."
 
-truth: Altars in Scripture often marked places of surrender, worship, and covenant with God.
+scriptures:
+  - Genesis 12
+  - Genesis 22
+  - Exodus 20
+  - 1 Kings 18
+
+truth: Altars in Scripture often marked places of surrender, worship, and covenant with God
 
 insight:
   - Altars represented dedication and reverence before God.
