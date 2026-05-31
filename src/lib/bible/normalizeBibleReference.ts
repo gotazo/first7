@@ -1,6 +1,7 @@
 type NormalizedBibleReference = {
   book: string;
   chapter: number;
+  verse?: number;
   path: string;
 };
 
@@ -153,7 +154,7 @@ export function normalizeBibleReference(
 
   const normalized = input.trim().toLowerCase().replace(/\s+/g, " ");
 
-  const match = normalized.match(/^(.+?)\s+(\d+)$/);
+  const match = normalized.match(/^(.+?)\s+(\d+)(?::(\d+))?$/);
 
   if (!match) {
     return null;
@@ -167,6 +168,12 @@ export function normalizeBibleReference(
     return null;
   }
 
+  const verse = match[3] ? Number(match[3]) : undefined;
+
+  if (match[3] && !verse) {
+    return null;
+  }
+
   const book = BOOK_ALIASES[rawBook];
 
   if (!book) {
@@ -177,7 +184,8 @@ export function normalizeBibleReference(
     book,
 
     chapter,
+    ...(verse ? { verse } : {}),
 
-    path: `/bible/${book}/${chapter}`,
+    path: `/bible/${book}/${chapter}${verse ? `#v${verse}` : ""}`,
   };
 }

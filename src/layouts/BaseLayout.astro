@@ -6,10 +6,13 @@ import Footer from "../components/Footer.astro";
 const {
   title = "First7",
   description = "Build a daily habit of faith through Scripture, devotionals, and guided plans.",
-  full = false
+  full = false,
+  canonicalURL: canonicalURLProp
 } = Astro.props;
 
-const canonicalURL = `https://first7.org${Astro.url.pathname}`;
+const canonicalURL =
+  canonicalURLProp ??
+  `https://first7.org${Astro.url.pathname}`;
 
 if (import.meta.env.BUILD_TRACE === "true" && import.meta.env.PROD) {
   console.log(`[build:render] ${Astro.url.pathname}`);

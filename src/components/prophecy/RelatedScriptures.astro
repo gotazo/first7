@@ -7,25 +7,38 @@ const { scriptures } = Astro.props;
 
 /**
  * Converts:
- * "Revelation 13"
- * -> { book: "revelation", chapter: "13" }
+ * "Revelation 13:8"
+ * -> { book: "revelation", chapter: "13", verse: "8" }
  */
 function parseScripture(scripture: string) {
 
-  const parts =
-    scripture.trim().split(" ");
+  const match =
+    scripture
+      .trim()
+      .match(/^(.+?)\s+(\d+)(?::(\d+))?$/);
 
-  const chapter =
-    parts.pop();
+  if (!match) {
+
+    return null;
+
+  }
 
   const book =
-    parts.join(" ")
+    match[1]
+      .trim()
       .toLowerCase()
       .replace(/\s+/g, "-");
+
+  const chapter =
+    match[2];
+
+  const verse =
+    match[3];
 
   return {
     book,
     chapter,
+    verse,
   };
 
 }
@@ -44,10 +57,12 @@ function parseScripture(scripture: string) {
       const parsed =
         parseScripture(scripture);
 
+      if (!parsed) return null;
+
       return (
 
         <a
-          href={`/bible/${parsed.book}/${parsed.chapter}`}
+          href={`/bible/${parsed.book}/${parsed.chapter}${parsed.verse ? `#v${parsed.verse}` : ""}`}
           class="rounded-full border border-[var(--color-border)] px-4 py-2 text-sm transition hover:border-[var(--color-primary)] hover:bg-[var(--color-primary)]/5"
         >
 

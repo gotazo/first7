@@ -92,6 +92,9 @@ if (!book || !chapter) {
 
 }
 
+const chapterNumber =
+  Number(chapter);
+
 /**
  * 🔍 FIND BOOK FILE
  */
@@ -114,7 +117,7 @@ if (fileKey) {
     bibleModules[fileKey].default;
 
   const chapterKey =
-    String(Number(chapter));
+    String(chapterNumber);
 
   verses =
     data.chapters[chapterKey] || [];
@@ -133,7 +136,7 @@ if (fileKey) {
  */
 const scriptureKey =
   data
-    ? `${data.book} ${chapter}`
+    ? `${data.book} ${chapterNumber}`
     : "";
 
 /**
@@ -157,7 +160,7 @@ const teachingEntries =
 
 <BibleLayout
   currentBook={book}
-  currentChapter={Number(chapter)}
+  currentChapter={chapterNumber}
 
   relatedProphecy={
     prophecyEntries
@@ -183,7 +186,7 @@ const teachingEntries =
       "
     >
 
-      {data?.book} {chapter}
+      {data?.book} {chapterNumber}
 
     </h1>
 
@@ -235,3 +238,51 @@ const teachingEntries =
   </div>
 
 </BibleLayout>
+
+<script is:inline>
+  const match =
+    window.location.hash.match(
+      /^#v(\d+)$/
+    );
+
+  const verseNumber =
+    match?.[1];
+
+  if (verseNumber) {
+    const verse =
+      document.getElementById(
+        `v${verseNumber}`
+      );
+
+    if (verse) {
+      verse.classList.add(
+        "bible-verse-target"
+      );
+
+      requestAnimationFrame(() => {
+        verse.scrollIntoView({
+          block: "start",
+          behavior: "smooth"
+        });
+      });
+    }
+  }
+</script>
+
+<style>
+  .bible-verse-target {
+    border-left: 3px solid
+      var(--color-primary);
+    background:
+      color-mix(
+        in srgb,
+        var(--color-primary) 12%,
+        transparent
+      );
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease;
+  }
+</style>

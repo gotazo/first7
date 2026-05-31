@@ -5,16 +5,27 @@ interface Props {
 
 const { verse } = Astro.props;
 
-const [reference, verseNum] = verse.split(':');
+const match =
+  verse
+    .trim()
+    .match(/^(.+?)\s+(\d+)(?::(\d+))?$/);
 
-const parts = reference.trim().split(' ');
-const chapter = parts.pop();
-const book = parts
-  .join(' ')
-  .toLowerCase()
-  .replace(/\s+/g, '-');
+const book =
+  match?.[1]
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, "-");
 
-const url = `/bible/${book}/${chapter}${verseNum ? `#verse-${verseNum}` : ''}`;
+const chapter =
+  match?.[2];
+
+const verseNum =
+  match?.[3];
+
+const url =
+  book && chapter
+    ? `/bible/${book}/${chapter}${verseNum ? `#v${verseNum}` : ""}`
+    : "/bible";
 ---
 
 <a href={url} class="bible-link">
