@@ -9,6 +9,12 @@ topics:
   - altar
   - worship
 
+terms:
+  - altar
+  - worship
+  - covenant
+  - sacrifice
+
 keywords:
   - altar
   - worship
@@ -27,7 +33,12 @@ scriptures:
   - Exodus 20
   - 1 Kings 18
 
-truth: Altars in Scripture often marked places of surrender, worship, and covenant with God
+related:
+  - ancient-foundations
+  - built-on-the-rock
+  - the-altar-you-sow-into-matters
+
+truth: Altars in Scripture often marked places of surrender, worship, and covenant with God.
 
 insight:
   - Altars represented dedication and reverence before God.
@@ -40,6 +51,4 @@ application:
   - Remember God's faithfulness
   - Dedicate your life continually to God
   - Strengthen spiritual foundations through obedience
-
-prayer: Father, help me build a life of worship, surrender, and devotion that honors You completely.
 ---

@@ -9,6 +9,13 @@ topics:
   - foundations
   - obedience
 
+terms:
+  - foundation
+  - obedience
+  - wisdom
+  - truth
+  - faith
+
 keywords:
   - foundations
   - stability
@@ -20,6 +27,17 @@ keywords:
 scripture:
   ref: "Jeremiah 6:16"
   text: "Thus saith the LORD, Stand ye in the ways, and see, and ask for the old paths, where is the good way, and walk therein."
+
+scriptures:
+  - Jeremiah 6
+  - Matthew 7
+  - 1 Corinthians 3
+  - Ephesians 2
+
+related:
+  - built-on-the-rock
+  - discerning-spiritual-foundations
+  - faith-and-obedience
 
 truth: Strong spiritual foundations are built by walking in God's truth and wisdom faithfully.
 
@@ -34,6 +52,4 @@ application:
   - Practice faithful obedience daily
   - Learn from godly examples
   - Pursue spiritual maturity consistently
-
-prayer: Father, establish strong spiritual foundations in my life and help me walk faithfully in Your truth and wisdom.
 ---

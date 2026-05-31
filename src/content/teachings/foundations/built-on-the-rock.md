@@ -9,6 +9,13 @@ topics:
   - foundations
   - faith
 
+terms:
+  - foundation
+  - faith
+  - obedience
+  - wisdom
+  - rock
+
 keywords:
   - foundation
   - Christ
@@ -20,6 +27,17 @@ keywords:
 scripture:
   ref: "Matthew 7:24"
   text: "Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock."
+
+scriptures:
+  - Matthew 7
+  - Luke 6
+  - 1 Corinthians 3
+  - Ephesians 2
+
+related:
+  - ancient-foundations
+  - discerning-spiritual-foundations
+  - faith-and-obedience
 
 truth: Obedience to Christ creates strong and lasting spiritual foundations.
 
@@ -34,6 +52,4 @@ application:
   - Practice obedience consistently
   - Trust God during difficult seasons
   - Strengthen your spiritual foundation daily
-
-prayer: Father, help me build my life upon Christ so I may remain steady through every challenge and season.
 ---

@@ -9,6 +9,13 @@ topics:
   - foundations
   - salvation
 
+terms:
+  - foundation
+  - faith
+  - truth
+  - wisdom
+  - salvation
+
 keywords:
   - Christ
   - foundation
@@ -20,6 +27,17 @@ keywords:
 scripture:
   ref: "1 Corinthians 3:11"
   text: "For other foundation can no man lay than that is laid, which is Jesus Christ."
+
+scriptures:
+  - 1 Corinthians 3
+  - Matthew 7
+  - Ephesians 2
+  - Acts 4
+
+related:
+  - built-on-the-rock
+  - ancient-foundations
+  - faith-and-obedience
 
 truth: Lasting spiritual stability is found only through Jesus Christ.
 
@@ -34,6 +52,4 @@ application:
   - Build your life upon Scripture
   - Remain grounded in biblical truth
   - Strengthen your relationship with God daily
-
-prayer: Father, help me remain firmly rooted in Christ and build my life upon Your eternal truth.
 ---

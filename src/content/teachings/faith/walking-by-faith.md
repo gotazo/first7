@@ -9,6 +9,13 @@ topics:
   - faith
   - trust
 
+terms:
+  - faith
+  - trust
+  - obedience
+  - wisdom
+  - endurance
+
 keywords:
   - faith
   - trust
@@ -20,6 +27,17 @@ keywords:
 scripture:
   ref: "2 Corinthians 5:7"
   text: "(For we walk by faith, not by sight:)."
+
+scriptures:
+  - 2 Corinthians 5
+  - Hebrews 11
+  - Proverbs 3
+  - Romans 1
+
+related:
+  - faith-and-obedience
+  - faith-with-understanding
+  - eyes-on-jesus
 
 truth: Faith requires trusting God beyond visible circumstances and human certainty.
 
@@ -34,6 +52,4 @@ application:
   - Remain faithful during uncertainty
   - Practice daily obedience
   - Strengthen faith through prayer and Scripture
-
-prayer: Father, help me walk by faith with courage, patience, and confidence in Your guidance.
 ---

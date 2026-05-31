@@ -9,6 +9,13 @@ topics:
   - discernment
   - foundations
 
+terms:
+  - foundation
+  - discernment
+  - truth
+  - wisdom
+  - obedience
+
 keywords:
   - foundations
   - discernment
@@ -20,6 +27,16 @@ keywords:
 scripture:
   ref: "1 Corinthians 3:11"
   text: "For other foundation can no man lay than that is laid, which is Jesus Christ."
+
+scriptures:
+  - 1 Corinthians 3
+  - Matthew 7
+  - Luke 6
+  - Ephesians 2
+
+related:
+  - ancient-foundations
+  - built-on-the-rock
 
 truth: Jesus Christ is the only lasting and trustworthy spiritual foundation.
 
@@ -34,6 +51,4 @@ application:
   - Stay rooted in Christ
   - Practice obedience consistently
   - Grow in spiritual maturity and wisdom
-
-prayer: Father, establish my life firmly upon Christ and help me walk in truth, wisdom, and discernment.
 ---

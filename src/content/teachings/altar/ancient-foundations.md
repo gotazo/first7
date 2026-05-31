@@ -9,6 +9,11 @@ topics:
   - altar
   - foundations
 
+terms:
+  - altar
+  - covenant
+  - obedience
+
 keywords:
   - foundations
   - covenant
@@ -26,6 +31,10 @@ scriptures:
   - Matthew 7
   - 1 Corinthians 3
 
+related:
+  - prayer
+  - covenant
+
 truth: Strong spiritual foundations help sustain faith across generations.
 
 insight:
@@ -40,5 +49,4 @@ application:
   - Learn from godly examples
   - Strengthen future generations through faithful living
 
-prayer: Father, establish strong spiritual foundations in my life that will endure and bring honor to You.
 ---

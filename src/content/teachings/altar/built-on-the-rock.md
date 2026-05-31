@@ -9,6 +9,13 @@ topics:
   - altar
   - faith
 
+terms:
+  - foundation
+  - rock
+  - obedience
+  - wisdom
+  - faith
+
 keywords:
   - foundation
   - Christ
@@ -26,6 +33,9 @@ scriptures:
   - Luke 6
   - 1 Corinthians 3
 
+related:
+  - ancient-foundations
+
 truth: Obedience to Christ creates strong spiritual foundations.
 
 insight:
@@ -39,6 +49,4 @@ application:
   - Practice obedience daily
   - Remain faithful during pressure
   - Strengthen your spiritual foundation continually
-
-prayer: Father, help me build my life upon Christ so I may remain steady through every season and challenge.
 ---

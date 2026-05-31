@@ -9,6 +9,13 @@ topics:
   - faith
   - giving
 
+terms:
+  - faith
+  - giving
+  - stewardship
+  - trust
+  - wisdom
+
 keywords:
   - faith
   - giving
@@ -20,6 +27,17 @@ keywords:
 scripture:
   ref: "Luke 6:38"
   text: "Give, and it shall be given unto you; good measure, pressed down, and shaken together, and running over."
+
+scriptures:
+  - Luke 6
+  - 2 Corinthians 9
+  - Proverbs 3
+  - Philippians 4
+
+related:
+  - faith-and-obedience
+  - spiritual-discernment-in-giving
+  - faith-with-understanding
 
 truth: Biblical generosity flows from trust in God's faithfulness and provision.
 
@@ -34,6 +52,4 @@ application:
   - Practice generosity consistently
   - Trust God as your provider
   - Let faith guide your stewardship
-
-prayer: Father, teach me to give in faith with wisdom, trust, and joyful obedience toward You.
 ---

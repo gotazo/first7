@@ -9,6 +9,13 @@ topics:
   - discernment
   - stewardship
 
+terms:
+  - discernment
+  - stewardship
+  - wisdom
+  - truth
+  - prophet
+
 keywords:
   - discernment
   - wisdom
@@ -20,6 +27,16 @@ keywords:
 scripture:
   ref: "Matthew 10:41"
   text: "He that receiveth a prophet in the name of a prophet shall receive a prophet's reward."
+
+scriptures:
+  - Matthew 10
+  - Acts 17
+  - 1 Thessalonians 5
+  - 1 John 4
+
+related:
+  - discerning-spiritual-foundations
+  - the-altar-you-sow-into-matters
 
 truth: Spiritual discernment matters in every relationship, influence, and act of stewardship.
 
@@ -34,6 +51,4 @@ application:
   - Examine teaching through Scripture
   - Seek wise and trustworthy guidance
   - Remain grounded in biblical truth
-
-prayer: Father, give me discernment and wisdom so I may recognize truth, integrity, and godly influence.
 ---

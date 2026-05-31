@@ -9,6 +9,13 @@ topics:
   - discernment
   - wisdom
 
+terms:
+  - discernment
+  - wisdom
+  - truth
+  - prophet
+  - obedience
+
 keywords:
   - discernment
   - influence
@@ -20,6 +27,17 @@ keywords:
 scripture:
   ref: "1 John 4:1"
   text: "Beloved, believe not every spirit, but try the spirits whether they are of God."
+
+scriptures:
+  - 1 John 4
+  - Acts 17
+  - 1 Thessalonians 5
+  - Matthew 7
+
+related:
+  - knowing-who-receives
+  - discerning-spiritual-foundations
+  - spiritual-discernment-in-giving
 
 truth: Spiritual discernment is necessary for recognizing truth and avoiding deception.
 
@@ -34,6 +52,4 @@ application:
   - Pray for discernment daily
   - Avoid blindly following influence
   - Remain rooted in God's truth
-
-prayer: Father, give me wisdom and discernment so I may recognize truth and remain faithful to Your Word.
 ---

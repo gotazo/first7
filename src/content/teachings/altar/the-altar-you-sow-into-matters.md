@@ -9,6 +9,13 @@ topics:
   - altar
   - discernment
 
+terms:
+  - altar
+  - discernment
+  - giving
+  - stewardship
+  - wisdom
+
 keywords:
   - altar
   - discernment
@@ -26,6 +33,10 @@ scriptures:
   - Hebrews 13
   - Romans 12
 
+related:
+  - ancient-foundations
+  - built-on-the-rock
+
 truth: God calls believers to exercise discernment and wisdom in worship, stewardship, and spiritual service.
 
 insight:
@@ -39,6 +50,4 @@ application:
   - Practice discernment in stewardship
   - Remain grounded in Scripture
   - Honor God with intentional worship
-
-prayer: Father, give me wisdom and discernment so I may walk carefully and honor You with every decision I make.
 ---

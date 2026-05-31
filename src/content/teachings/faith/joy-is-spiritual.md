@@ -10,6 +10,13 @@ topics:
   - faith
   - mindset
 
+terms:
+  - joy
+  - faith
+  - peace
+  - trust
+  - endurance
+
 keywords:
   - peace
   - stability
@@ -19,6 +26,17 @@ keywords:
 scripture:
   ref: "Nehemiah 8:10"
   text: "Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto them for whom nothing is prepared: for this day is holy unto our Lord: neither be ye sorry; for the joy of the LORD is your strength."
+
+scriptures:
+  - Nehemiah 8
+  - John 15
+  - Philippians 4
+  - James 1
+
+related:
+  - eyes-on-jesus
+  - faith-with-understanding
+  - walking-by-faith
 
 truth: Joy is a spiritual strength that remains stable in every season.
 
@@ -31,6 +49,4 @@ application:
   - Keep your focus on God.
   - Refuse emotional instability.
   - Strengthen your inner life.
-
-prayer: Lord, establish lasting joy within me regardless of circumstances.
 ---

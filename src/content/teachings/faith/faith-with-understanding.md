@@ -9,6 +9,13 @@ topics:
   - faith
   - understanding
 
+terms:
+  - faith
+  - wisdom
+  - discernment
+  - truth
+  - trust
+
 keywords:
   - faith
   - understanding
@@ -20,6 +27,17 @@ keywords:
 scripture:
   ref: "Proverbs 3:5"
   text: "Trust in the LORD with all thine heart; and lean not unto thine own understanding."
+
+scriptures:
+  - Proverbs 3
+  - Isaiah 55
+  - Romans 11
+  - James 1
+
+related:
+  - faith-and-obedience
+  - eyes-on-jesus
+  - walking-by-faith
 
 truth: Genuine faith requires trust in God beyond human reasoning and limited understanding.
 
@@ -34,6 +52,4 @@ application:
   - Seek wisdom through Scripture and prayer
   - Remain patient during uncertain seasons
   - Grow in spiritual discernment daily
-
-prayer: Father, strengthen my faith and teach me to trust You completely even when I do not fully understand.
 ---

@@ -9,6 +9,13 @@ topics:
   - faith
   - obedience
 
+terms:
+  - faith
+  - obedience
+  - trust
+  - wisdom
+  - endurance
+
 keywords:
   - faith
   - obedience
@@ -20,6 +27,17 @@ keywords:
 scripture:
   ref: "James 2:17"
   text: "Even so faith, if it hath not works, is dead, being alone."
+
+scriptures:
+  - James 2
+  - Hebrews 11
+  - John 14
+  - Matthew 7
+
+related:
+  - walking-by-faith
+  - eyes-on-jesus
+  - faith-with-understanding
 
 truth: Genuine faith produces obedience, action, and faithful surrender to God.
 
@@ -34,6 +52,4 @@ application:
   - Let faith shape your actions
   - Trust God beyond comfort zones
   - Remain faithful during challenges
-
-prayer: Father, help my faith become active through obedience, surrender, and faithful trust in You.
 ---
