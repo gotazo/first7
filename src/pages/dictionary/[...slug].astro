@@ -53,12 +53,10 @@ const allTeachings =
 /**
  * 🔗 Related dictionary terms
  */
-const relatedTerms =
-  allDictionary.filter((item) =>
-    entry.data.related.includes(
-      item.id
-    )
-  );
+ const relatedTerms =
+   allDictionary.filter((item) =>
+     entry.data.related?.includes(item.id)
+   );
 
 /**
  * 🔮 Related prophecy

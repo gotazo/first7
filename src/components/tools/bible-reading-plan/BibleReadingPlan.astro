@@ -331,7 +331,7 @@ import ToolShare from "../shared/ToolShare.astro";
 
 const STORAGE_KEY = "bible-reading-plan";
 
-const OT_BOOKS = [
+const OT_BOOKS: [string, number][] = [
 ["Genesis", 50],
 ["Exodus", 40],
 ["Leviticus", 27],
@@ -373,7 +373,7 @@ const OT_BOOKS = [
 ["Malachi", 4],
 ];
 
-const NT_BOOKS = [
+const NT_BOOKS: [string, number][] = [
 ["Matthew", 28],
 ["Mark", 16],
 ["Luke", 24],
@@ -402,6 +402,25 @@ const NT_BOOKS = [
 ["Jude", 1],
 ["Revelation", 22],
 ];
+
+function getRequiredElement<T extends HTMLElement>(
+  id: string
+) {
+
+  const element =
+    document.getElementById(id);
+
+  if (!element) {
+
+    throw new Error(
+      `Missing required element: #${id}`
+    );
+
+  }
+
+  return element as T;
+
+}
 
 function buildChapterList(
   scope: string
@@ -566,93 +585,89 @@ let selectedDays = 365;
 let appData = loadData();
 
 const startDateInput =
-  document.getElementById(
+  getRequiredElement<HTMLInputElement>(
     "startDate"
-  ) as HTMLInputElement | null;
+  );
 
 const customDaysInput =
-  document.getElementById(
+  getRequiredElement<HTMLInputElement>(
     "customDays"
-  ) as HTMLInputElement | null;
+  );
 
 const generateBtn =
-  document.getElementById(
+  getRequiredElement<HTMLButtonElement>(
     "generateBtn"
-  ) as HTMLInputElement | null;
+  );
 
 const resetBtn =
-  document.getElementById(
+  getRequiredElement<HTMLButtonElement>(
     "resetBtn"
-  ) as HTMLInputElement | null;
+  );
 
 const progressSection =
-  document.getElementById(
+  getRequiredElement<HTMLElement>(
     "progressSection"
-  ) as HTMLInputElement | null;
+  );
 
 const planSection =
-  document.getElementById(
+  getRequiredElement<HTMLElement>(
     "planSection"
-  ) as HTMLInputElement | null;
+  );
 
 const progressBar =
-  document.getElementById(
+  getRequiredElement<HTMLElement>(
     "progressBar"
-  ) as HTMLInputElement | null;
+  );
 
 const progressPercent =
-  document.getElementById(
+  getRequiredElement<HTMLElement>(
     "progressPercent"
-  ) as HTMLInputElement | null;
+  );
 
 const doneCount =
-  document.getElementById(
+  getRequiredElement<HTMLElement>(
     "doneCount"
-  ) as HTMLInputElement | null;
+  );
 
 const totalCount =
-  document.getElementById(
+  getRequiredElement<HTMLElement>(
     "totalCount"
-  ) as HTMLInputElement | null;
+  );
 
 const streakMessage =
-  document.getElementById(
+  getRequiredElement<HTMLElement>(
     "streakMessage"
-  ) as HTMLInputElement | null;
+  );
 
 const planTitle =
-  document.getElementById(
+  getRequiredElement<HTMLElement>(
     "planTitle"
-  ) as HTMLInputElement | null;
+  );
 
 const planList =
-  document.getElementById(
+  getRequiredElement<HTMLElement>(
     "planList"
-  ) as HTMLInputElement | null;
+  );
 
 const errorBox =
-  document.getElementById(
+  getRequiredElement<HTMLElement>(
     "errorBox"
-  ) as HTMLInputElement | null;
+  );
 
 const copyBtn =
-  document.getElementById(
+  getRequiredElement<HTMLButtonElement>(
     "copyBtn"
-  ) as HTMLInputElement | null;
+  );
 
 const printBtn =
-  document.getElementById(
+  getRequiredElement<HTMLButtonElement>(
     "printBtn"
-  ) as HTMLInputElement | null;
+  );
 
-if (startDateInput) {
-
-  startDateInput.value =
-    new Date()
-      .toISOString()
-      .slice(0, 10);
-
-}
+startDateInput.value =
+  new Date()
+    .toISOString()
+    .slice(0, 10);
 
 function showError(
   message: string
@@ -906,7 +921,7 @@ customDaysInput?.addEventListener("input", () => {
 
 });
 
-generateBtn?.addEventListener("click", () => {
+generateBtn.addEventListener("click", () => {
 
   const days =
     Number(customDaysInput.value) ||
@@ -956,7 +971,7 @@ generateBtn?.addEventListener("click", () => {
 
 });
 
-resetBtn?.addEventListener("click", () => {
+resetBtn.addEventListener("click", () => {
 
   if (
     !confirm(
@@ -976,9 +991,7 @@ resetBtn?.addEventListener("click", () => {
 
 });
 
-if (copyBtn) {
-
-  copyBtn.addEventListener("click", async () => {
+copyBtn.addEventListener("click", async () => {
 
     if (!appData.planData) return;
 
@@ -1013,11 +1026,9 @@ if (copyBtn) {
 
     }
 
-  });
+});
 
-}
-
-printBtn?.addEventListener("click", () => {
+printBtn.addEventListener("click", () => {
 
   window.print();
 

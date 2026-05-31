@@ -17,7 +17,7 @@ const { topics } = Astro.props;
     {topics.map((topic) => (
 
       <a
-        href={`/prophecy/${topic.slug}`}
+        href={`/prophecy/${topic.id}`}
         class="rounded-2xl border border-[var(--color-border)] p-5 transition hover:border-[var(--color-primary)]"
       >
 

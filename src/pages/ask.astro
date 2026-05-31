@@ -127,7 +127,7 @@ const searchData = teachings.map((teaching) => ({
 
   </div>
 
-  <script type="application/json" id="teachings-search-data" set:html={JSON.stringify(searchData)} />
+  <script is:inline type="application/json" id="teachings-search-data" set:html={JSON.stringify(searchData)} />
 
   <script>
     type TeachingSearchItem = {

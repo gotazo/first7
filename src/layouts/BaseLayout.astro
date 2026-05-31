@@ -53,8 +53,8 @@ if (import.meta.env.BUILD_TRACE === "true" && import.meta.env.PROD) {
     <link rel="icon" href="/favicon.svg" />
 
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PFEQJT54SL"></script>
-<script>
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-PFEQJT54SL"></script>
+<script is:inline>
   // @ts-ignore
   window.dataLayer = window.dataLayer || [];
 
@@ -69,7 +69,7 @@ if (import.meta.env.BUILD_TRACE === "true" && import.meta.env.PROD) {
 </script>
 
     <!-- Theme init -->
-    <script>
+    <script is:inline>
   try {
     const saved = localStorage.getItem('theme');
 
@@ -118,16 +118,22 @@ if (import.meta.env.BUILD_TRACE === "true" && import.meta.env.PROD) {
 
     <!-- Web3 Click Tracking -->
     <script>
-  function trackWeb3Click() {
-    if (typeof gtag === 'function') {
-      gtag('event', 'web3_click', {
-        event_category: 'engagement',
-        event_label: 'footer_first7_sol',
-        page_path: window.location.pathname,
-        page_title: document.title
+  document
+    .querySelectorAll("[data-web3-click]")
+    .forEach((link) => {
+      link.addEventListener("click", () => {
+        const gtag = (window as any).gtag;
+
+        if (typeof gtag === "function") {
+          gtag("event", "web3_click", {
+            event_category: "engagement",
+            event_label: "footer_first7_sol",
+            page_path: window.location.pathname,
+            page_title: document.title
+          });
+        }
       });
-    }
-  }
+    });
 </script>
 
   </body>

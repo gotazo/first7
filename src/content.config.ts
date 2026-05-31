@@ -1,5 +1,6 @@
-import { defineCollection, z } from "astro:content";
+import { defineCollection } from "astro:content";
 import { glob } from "astro/loaders";
+import { z } from "astro/zod";
 
 /* =========================
    📄 STATIC PAGES
@@ -53,7 +54,7 @@ const resources = defineCollection({
 
     print_label: z.string().optional(),
     print_price: z.string().optional(),
-    print_url: z.string().url().optional(),
+    print_url: z.url().optional(),
   }),
 });
 
