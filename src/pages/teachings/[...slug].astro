@@ -340,26 +340,28 @@ const dictionaryTerms =
         </section>
 
         <!-- Prayer -->
-        <section class="space-y-3">
+{teaching.data.prayer && (
+  <section class="space-y-3">
 
-          <h2
-            class="
-              text-xl
-              font-medium
-            "
-          >
+    <h2
+      class="
+        text-xl
+        font-medium
+      "
+    >
 
-            Prayer
+      Prayer
 
-          </h2>
+    </h2>
 
-          <p>
+    <p>
 
-            {teaching.data.prayer}
+      {teaching.data.prayer}
 
-          </p>
+    </p>
 
-        </section>
+  </section>
+)}
 
         <!-- Related Scriptures -->
         {teaching.data.scriptures?.length > 0 && (

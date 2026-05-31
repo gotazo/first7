@@ -156,7 +156,7 @@ const teachings = defineCollection({
     insight: z.array(z.string()),
     application: z.array(z.string()),
 
-    prayer: z.string(),
+    prayer: z.string().optional(),
   }),
 });
 
