@@ -1,38 +1,52 @@
 ---
 title: Israel
-description: Study Israel’s role in Bible prophecy through connected KJV Scriptures.
+description: Study Israel in Bible prophecy through connected KJV Scriptures and prophetic references.
 
 category: nations
 
 tags:
   - israel
   - prophecy
-  - jerusalem
+  - revelation
 
 scriptures:
-  - Zechariah 12
+  - Genesis 12
+  - Isaiah 11
+  - Ezekiel 37
   - Romans 11
-  - Matthew 24
+  - Revelation 7
 
 related:
-  - timeline/second-coming
-  - nations/babylon
+  - nations/jerusalem
+  - people/"144,000"
+  - timeline/gathering-of-israel
 
 terms:
-  - abomination
-  - wrath
+  - israel
+  - tribes
+  - covenant
+
+aliases:
+  - house of israel
 
 featuredVerse:
   ref: Romans 11:26
   text: >
-    And so all Israel shall be saved: as it is written, There shall come out of Sion the Deliverer, and shall turn away ungodliness from Jacob:
+    And so all Israel shall be saved:
+    as it is written, There shall come out of Sion the Deliverer,
+    and shall turn away ungodliness from Jacob.
 
 notes:
-  - Israel appears throughout prophetic Scripture.
-  - Jerusalem is central in many prophetic passages.
+  - Israel appears throughout Scripture.
+  - Romans 11 contains references to Israel.
+  - Ezekiel 37 contains references to Israel.
+  - Revelation 7 contains references to the tribes of Israel.
 ---
 
 ## Overview
 
-Israel holds a major place in prophetic Scripture,
-especially in both Old and New Testament prophecy.
+Israel appears throughout Scripture
+in historical and prophetic passages.
+
+Several prophetic passages contain references to Israel,
+its tribes, and related subjects.
