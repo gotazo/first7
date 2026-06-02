@@ -3,47 +3,47 @@ title: Vision
 
 term: vision
 
-shortMeaning: something seen in a dream, revelation, or supernatural experience
+shortMeaning: the ability to see, or something seen in the mind, imagination, dream, or experience
 
 related:
-  - symbols/book
-  - symbols/scroll
+  - prophecy
+  - revelation
 
 scriptures:
-  - Daniel 7
-  - Daniel 8
-  - Acts 10
-  - Revelation 1
-  - Revelation 17
+  - Isaiah 1:1
+  - Daniel 7:1
+  - Acts 10:3
+  - Revelation 9:17
 
 aliases:
-  - revelation
-  - dream
+  - vision
+  - visions
 ---
 
 ## Basic Meaning
 
-A vision is something seen in a dream,
-revelation, or supernatural experience.
+A vision is the ability to see,
+or something seen in the mind,
+imagination, dream, or experience.
 
-The word may also refer to a mental image,
-scene, or appearance perceived by a person.
+The word may refer to a mental image,
+a future goal, or a scene perceived by a person.
 
 ---
 
 ## Biblical Usage
 
-Visions appear throughout Scripture
-in historical narratives,
-prophecy, and Revelation.
+The word vision appears throughout Scripture
+in connection with revelations, dreams,
+prophetic experiences, and things shown to individuals.
 
-References to visions occur in both
-the Old Testament and the New Testament.
+References to visions occur in historical,
+prophetic, and apocalyptic passages.
 
 ---
 
 ## Related Topics
 
-- Revelation
 - Prophecy
-- Scroll
+- Revelation
+- Dream
