@@ -292,7 +292,7 @@ function formatBook(book: string) {
             <input
               id="bible-search"
               type="text"
-              placeholder="Search (e.g. John 3)"
+              placeholder="Genesis 1:9, John 3:16, Psalm 23"
               class="
                 w-full rounded-xl
                 border border-[var(--color-border)]
@@ -863,8 +863,9 @@ function formatBook(book: string) {
         book.replace(/\s+/g, "-");
 
       return {
-        path:
-          `/bible/${book}/${chapter}${verse ? `:${verse}` : ""}`
+        path: verse
+          ? `/bible/${book}/${chapter}/#v${verse}`
+          : `/bible/${book}/${chapter}`
       };
 
     }

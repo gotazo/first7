@@ -3,6 +3,12 @@ export const prerender = true;
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
+import StudyHero
+  from "../../components/shared/StudyHero.astro";
+
+import TopicChips
+  from "../../components/shared/TopicChips.astro";
+
 import RelatedTopics from "../../components/prophecy/RelatedTopics.astro";
 import RelatedScriptures from "../../components/prophecy/RelatedScriptures.astro";
 
@@ -110,89 +116,33 @@ const relatedTeachings =
 
     <article class="space-y-12">
 
-      <!-- Header -->
-      <header
-        class="
-          space-y-6
-          border-b
-          border-[var(--color-border)]
-          pb-8
-        "
-      >
+        <StudyHero
+          section="Bible Dictionary"
+          title={entry.data.title}
+          description={entry.data.shortMeaning}
+          searchPlaceholder="Search dictionary..."
+        />
 
-        <div class="space-y-3">
-
-          <p
-            class="
-              text-sm
-              uppercase
-              tracking-[0.25em]
-              text-[var(--color-muted)]
-            "
-          >
-
-            Bible Dictionary
-
-          </p>
-
-          <h1
-            class="
-              text-5xl
-              font-semibold
-              tracking-tight
-            "
-          >
-
-            {entry.data.title}
-
-          </h1>
-
-          <p
-            class="
-              max-w-2xl
-              text-lg
-              leading-relaxed
-              text-[var(--color-muted)]
-            "
-          >
-
-            {entry.data.shortMeaning}
-
-          </p>
-
-        </div>
-
-        <!-- Aliases -->
-        {entry.data.aliases?.length > 0 && (
-
-          <div class="flex flex-wrap gap-2">
-
-            {entry.data.aliases.map(
-              (alias: string) => (
-
-                <span
-                  class="
-                    rounded-full
-                    border
-                    border-[var(--color-border)]
-                    px-3
-                    py-1
-                    text-sm
-                  "
-                >
-
-                  {alias}
-
-                </span>
-
-              )
-            )}
-
-          </div>
-
-        )}
-
-      </header>
+        <TopicChips
+          items={[
+            {
+              label: "Faith",
+              href: "/dictionary/faith"
+            },
+            {
+              label: "Grace",
+              href: "/dictionary/grace"
+            },
+            {
+              label: "Kingdom",
+              href: "/dictionary/kingdom"
+            },
+            {
+              label: "Covenant",
+              href: "/dictionary/covenant"
+            }
+          ]}
+        />
 
       <!-- Main Content -->
       <section

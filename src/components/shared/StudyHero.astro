@@ -1,0 +1,91 @@
+---
+const {
+  section,
+  title,
+  description,
+  searchPlaceholder,
+} = Astro.props;
+---
+
+<section
+  class="
+    mb-10
+    rounded-3xl
+    border
+    border-[var(--color-border)]
+    bg-[var(--color-surface)]
+    p-6
+    md:p-8
+  "
+>
+
+  <div class="space-y-5">
+
+    <div
+      class="
+        text-sm
+        uppercase
+        tracking-[0.2em]
+        text-[var(--color-muted)]
+      "
+    >
+
+      {section}
+
+    </div>
+
+    <h1
+      class="
+        text-3xl
+        font-semibold
+        tracking-tight
+        md:text-4xl
+      "
+    >
+
+      {title}
+
+    </h1>
+
+    {description && (
+
+      <p
+        class="
+          max-w-3xl
+          text-lg
+          leading-relaxed
+          text-[var(--color-muted)]
+        "
+      >
+
+        {description}
+
+      </p>
+
+    )}
+
+    {searchPlaceholder && (
+
+      <input
+        type="search"
+        placeholder={searchPlaceholder}
+        class="
+          w-full
+          rounded-xl
+          border
+          border-[var(--color-border)]
+          bg-transparent
+          px-4
+          py-3
+          text-base
+          outline-none
+          transition
+          focus:border-[var(--color-primary)]
+        "
+      />
+
+    )}
+
+  </div>
+
+</section>

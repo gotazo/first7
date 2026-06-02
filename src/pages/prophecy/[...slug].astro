@@ -3,11 +3,11 @@ export const prerender = true;
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
-import ProphecyHero
-  from "../../components/prophecy/ProphecyHero.astro";
+import StudyHero
+  from "../../components/shared/StudyHero.astro";
 
-import ProphecyTopicChips
-  from "../../components/prophecy/ProphecyTopicChips.astro";
+import TopicChips
+  from "../../components/shared/TopicChips.astro";
 
 import ScriptureBlock
   from "../../components/prophecy/ScriptureBlock.astro";
@@ -108,14 +108,33 @@ const dictionaryTerms =
   >
 
     <!-- Hero Search -->
-    <ProphecyHero
-      category={entry.data.category}
+    <StudyHero
+      section="Biblical Prophecy"
       title={entry.data.title}
       description={entry.data.description}
+      searchPlaceholder="Search prophecy..."
     />
 
-    <!-- Topic Chips -->
-    <ProphecyTopicChips />
+    <TopicChips
+      items={[
+        {
+          label: "Israel",
+          href: "/prophecy/nations/israel"
+        },
+        {
+          label: "Babylon",
+          href: "/prophecy/nations/babylon"
+        },
+        {
+          label: "Daniel",
+          href: "/prophecy/people/daniel"
+        },
+        {
+          label: "Beast",
+          href: "/prophecy/symbols/beast"
+        }
+      ]}
+    />
 
     <article class="space-y-12">
 

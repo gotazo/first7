@@ -1,0 +1,55 @@
+---
+type Chip = {
+  label: string;
+  href: string;
+};
+
+const {
+  items = [],
+} = Astro.props as {
+  items: Chip[];
+};
+---
+
+{
+  items.length > 0 && (
+
+    <section class="mb-10">
+
+      <div
+        class="
+          flex
+          flex-wrap
+          gap-3
+        "
+      >
+
+        {items.map((item) => (
+
+          <a
+            href={item.href}
+            class="
+              rounded-full
+              border
+              border-[var(--color-border)]
+              px-4
+              py-2
+              text-sm
+              transition
+              hover:border-[var(--color-primary)]
+              hover:text-[var(--color-primary)]
+            "
+          >
+
+            {item.label}
+
+          </a>
+
+        ))}
+
+      </div>
+
+    </section>
+
+  )
+}
