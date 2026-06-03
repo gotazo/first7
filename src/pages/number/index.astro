@@ -1,0 +1,346 @@
+---
+export const prerender = true;
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+import StudyHero
+  from "../../components/shared/StudyHero.astro";
+
+import TopicChips
+  from "../../components/shared/TopicChips.astro";
+
+import {
+  getCollection,
+} from "astro:content";
+
+const allNumbers =
+  await getCollection("numbers");
+
+const symbolicNumbers =
+  allNumbers
+    .filter(
+      (item) =>
+        item.data.category ===
+        "symbolic"
+    )
+    .sort(
+      (a, b) =>
+        a.data.number -
+        b.data.number
+    );
+
+const propheticNumbers =
+  allNumbers
+    .filter(
+      (item) =>
+        item.data.category ===
+        "prophetic"
+    )
+    .sort(
+      (a, b) =>
+        a.data.number -
+        b.data.number
+    );
+
+const historicalNumbers =
+  allNumbers
+    .filter(
+      (item) =>
+        item.data.category ===
+        "historical"
+    )
+    .sort(
+      (a, b) =>
+        a.data.number -
+        b.data.number
+    );
+
+const featuredNumbers = [
+  "7",
+  "12",
+  "40",
+  "70",
+  "666",
+  "144000",
+];
+---
+
+<BaseLayout
+  title="Biblical Numbers"
+  description="Explore significant numbers found throughout Scripture."
+>
+
+  <main
+    class="
+      mx-auto
+      max-w-6xl
+      px-4
+      py-16
+      sm:px-6
+    "
+  >
+
+    <StudyHero
+      section="Biblical Numbers"
+      title="Biblical Numbers"
+      description="Explore significant numbers found throughout Scripture and discover related passages, study terms, and prophecy topics."
+    />
+
+    <TopicChips
+      items={
+        featuredNumbers.map(
+          (number) => ({
+            label: number,
+            href: `/number/${number}`,
+          })
+        )
+      }
+    />
+
+    <div class="space-y-16">
+
+      {symbolicNumbers.length > 0 && (
+
+        <section class="space-y-6">
+
+          <h2
+            class="
+              text-2xl
+              font-semibold
+            "
+          >
+            Symbolic Numbers
+          </h2>
+
+          <div
+            class="
+              grid
+              gap-4
+              md:grid-cols-2
+              lg:grid-cols-3
+            "
+          >
+
+            {symbolicNumbers.map(
+              (item) => (
+
+                <a
+                  href={`/number/${item.id}`}
+                  class="
+                    rounded-2xl
+                    border
+                    border-[var(--color-border)]
+                    p-5
+                    transition
+                    hover:border-[var(--color-primary)]
+                  "
+                >
+
+                  <div class="space-y-2">
+
+                    <div
+                      class="
+                        text-3xl
+                        font-bold
+                      "
+                    >
+                      {item.data.number}
+                    </div>
+
+                    <h3
+                      class="
+                        text-lg
+                        font-medium
+                      "
+                    >
+                      {item.data.title}
+                    </h3>
+
+                    <p
+                      class="
+                        text-sm
+                        leading-relaxed
+                        text-[var(--color-muted)]
+                      "
+                    >
+                      {item.data.shortMeaning}
+                    </p>
+
+                  </div>
+
+                </a>
+
+              )
+            )}
+
+          </div>
+
+        </section>
+
+      )}
+
+      {propheticNumbers.length > 0 && (
+
+        <section class="space-y-6">
+
+          <h2
+            class="
+              text-2xl
+              font-semibold
+            "
+          >
+            Prophetic Numbers
+          </h2>
+
+          <div
+            class="
+              grid
+              gap-4
+              md:grid-cols-2
+              lg:grid-cols-3
+            "
+          >
+
+            {propheticNumbers.map(
+              (item) => (
+
+                <a
+                  href={`/number/${item.id}`}
+                  class="
+                    rounded-2xl
+                    border
+                    border-[var(--color-border)]
+                    p-5
+                    transition
+                    hover:border-[var(--color-primary)]
+                  "
+                >
+
+                  <div class="space-y-2">
+
+                    <div
+                      class="
+                        text-3xl
+                        font-bold
+                      "
+                    >
+                      {item.data.number}
+                    </div>
+
+                    <h3
+                      class="
+                        text-lg
+                        font-medium
+                      "
+                    >
+                      {item.data.title}
+                    </h3>
+
+                    <p
+                      class="
+                        text-sm
+                        leading-relaxed
+                        text-[var(--color-muted)]
+                      "
+                    >
+                      {item.data.shortMeaning}
+                    </p>
+
+                  </div>
+
+                </a>
+
+              )
+            )}
+
+          </div>
+
+        </section>
+
+      )}
+
+      {historicalNumbers.length > 0 && (
+
+        <section class="space-y-6">
+
+          <h2
+            class="
+              text-2xl
+              font-semibold
+            "
+          >
+            Historical Numbers
+          </h2>
+
+          <div
+            class="
+              grid
+              gap-4
+              md:grid-cols-2
+              lg:grid-cols-3
+            "
+          >
+
+            {historicalNumbers.map(
+              (item) => (
+
+                <a
+                  href={`/number/${item.id}`}
+                  class="
+                    rounded-2xl
+                    border
+                    border-[var(--color-border)]
+                    p-5
+                    transition
+                    hover:border-[var(--color-primary)]
+                  "
+                >
+
+                  <div class="space-y-2">
+
+                    <div
+                      class="
+                        text-3xl
+                        font-bold
+                      "
+                    >
+                      {item.data.number}
+                    </div>
+
+                    <h3
+                      class="
+                        text-lg
+                        font-medium
+                      "
+                    >
+                      {item.data.title}
+                    </h3>
+
+                    <p
+                      class="
+                        text-sm
+                        leading-relaxed
+                        text-[var(--color-muted)]
+                      "
+                    >
+                      {item.data.shortMeaning}
+                    </p>
+
+                  </div>
+
+                </a>
+
+              )
+            )}
+
+          </div>
+
+        </section>
+
+      )}
+
+    </div>
+
+  </main>
+
+</BaseLayout>
