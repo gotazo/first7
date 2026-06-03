@@ -1,0 +1,269 @@
+---
+export const prerender = true;
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+import StudyHero
+  from "../../components/shared/StudyHero.astro";
+
+import TopicChips
+  from "../../components/shared/TopicChips.astro";
+
+import RelatedTopics
+  from "../../components/prophecy/RelatedTopics.astro";
+
+import RelatedScriptures
+  from "../../components/prophecy/RelatedScriptures.astro";
+
+import StudyTerms
+  from "../../components/prophecy/StudyTerms.astro";
+
+import {
+  getCollection,
+  render,
+} from "astro:content";
+
+export async function getStaticPaths() {
+
+  const entries =
+    await getCollection("numbers");
+
+  return entries.map((entry) => ({
+
+    params: {
+      slug: entry.id,
+    },
+
+    props: {
+      entry,
+    },
+
+  }));
+
+}
+
+const { entry } = Astro.props;
+
+/**
+ * 📄 Render markdown
+ */
+const { Content } =
+  await render(entry);
+
+/**
+ * 📚 Collections
+ */
+const allNumbers =
+  await getCollection("numbers");
+
+const allDictionary =
+  await getCollection("dictionary");
+
+const allProphecy =
+  await getCollection("prophecy");
+
+/**
+ * 🔢 Related numbers
+ */
+const relatedNumbers =
+  allNumbers.filter(
+    (item) =>
+      entry.data.related?.includes(
+        item.id
+      )
+  );
+
+/**
+ * 📘 Dictionary term linking
+ */
+const numberTerms =
+  entry.data.terms?.map(
+    (term: string) =>
+      term.toLowerCase()
+  ) || [];
+
+const dictionaryTerms =
+  allDictionary.filter(
+    (term) =>
+      numberTerms.includes(
+        term.data.term.toLowerCase()
+      )
+  );
+
+/**
+ * 🔮 Related prophecy
+ */
+const relatedProphecy =
+  allProphecy.filter(
+    (item) =>
+      item.data.numbers?.includes(
+        entry.data.number
+      )
+  );
+
+---
+<BaseLayout
+  title={entry.data.title}
+  description={entry.data.shortMeaning}
+>
+
+  <main
+    class="
+      mx-auto
+      w-full
+      max-w-4xl
+      px-4
+      py-16
+      sm:px-6
+    "
+  >
+
+    <article class="space-y-12">
+
+      <StudyHero
+        section="Biblical Numbers"
+        title={entry.data.title}
+        description={entry.data.shortMeaning}
+        searchPlaceholder="Search numbers..."
+      />
+
+      <TopicChips
+        items={[
+          {
+            label: "7",
+            href: "/number/7"
+          },
+          {
+            label: "12",
+            href: "/number/12"
+          },
+          {
+            label: "40",
+            href: "/number/40"
+          },
+          {
+            label: "70",
+            href: "/number/70"
+          }
+        ]}
+      />
+
+      <section
+        class="
+          prose
+          prose-invert
+          max-w-none
+        "
+      >
+
+        <Content />
+
+      </section>
+
+      {entry.data.scriptures?.length > 0 && (
+
+        <RelatedScriptures
+          scriptures={
+            entry.data.scriptures
+          }
+        />
+
+      )}
+
+      {dictionaryTerms.length > 0 && (
+
+        <StudyTerms
+          terms={dictionaryTerms}
+        />
+
+      )}
+
+      {relatedProphecy.length > 0 && (
+
+        <RelatedTopics
+          topics={relatedProphecy}
+        />
+
+      )}
+
+      {relatedNumbers.length > 0 && (
+
+        <section class="space-y-5">
+
+          <h2
+            class="
+              text-2xl
+              font-semibold
+            "
+          >
+
+            Related Numbers
+
+          </h2>
+
+          <div
+            class="
+              grid
+              gap-4
+              md:grid-cols-2
+            "
+          >
+
+            {relatedNumbers.map(
+              (number) => (
+
+                <a
+                  href={`/number/${number.id}`}
+                  class="
+                    rounded-2xl
+                    border
+                    border-[var(--color-border)]
+                    p-5
+                    transition
+                    hover:border-[var(--color-primary)]
+                  "
+                >
+
+                  <div class="space-y-2">
+
+                    <h3
+                      class="
+                        text-lg
+                        font-medium
+                      "
+                    >
+
+                      {number.data.title}
+
+                    </h3>
+
+                    <p
+                      class="
+                        text-sm
+                        leading-relaxed
+                        text-[var(--color-muted)]
+                      "
+                    >
+
+                      {number.data.shortMeaning}
+
+                    </p>
+
+                  </div>
+
+                </a>
+
+              )
+            )}
+
+          </div>
+
+        </section>
+
+      )}
+
+    </article>
+
+  </main>
+
+</BaseLayout>

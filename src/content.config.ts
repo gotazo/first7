@@ -185,6 +185,8 @@ const prophecy = defineCollection({
 
     order: z.number().optional(),
 
+    numbers: z.array(z.number()).default([]),
+
     notes: z.array(z.string()).default([]),
 
     draft: z.boolean().default(false),
@@ -222,6 +224,38 @@ const dictionary = defineCollection({
 });
 
 /* =========================
+   NUMBER (STUDY SYSTEM)
+========================= */
+const numbers = defineCollection({
+  loader: glob({
+    pattern: "**/*.{md,mdx}",
+    base: "./src/content/numbers",
+  }),
+
+  schema: z.object({
+    title: z.string(),
+
+    number: z.number(),
+
+    shortMeaning: z.string(),
+
+    category: z.enum([
+      "symbolic",
+      "prophetic",
+      "historical"
+    ]).optional(),
+
+    scriptures: z.array(z.string()).default([]),
+
+    related: z.array(z.string()).default([]),
+
+    terms: z.array(z.string()).default([]),
+
+    aliases: z.array(z.string()).default([]),
+  }),
+});
+
+/* =========================
    📦 EXPORT (ONLY ONCE)
 ========================= */
 export const collections = {
@@ -237,4 +271,5 @@ export const collections = {
   teachings,
   prophecy,
   dictionary,
+  numbers,
 };
