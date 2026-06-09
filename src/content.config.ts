@@ -245,6 +245,13 @@ const numbers = defineCollection({
       "historical"
     ]).optional(),
 
+    featuredVerse: z
+      .object({
+        ref: z.string(),
+        text: z.string(),
+      })
+      .optional(),
+
     scriptures: z.array(z.string()).default([]),
 
     related: z.array(z.string()).default([]),
@@ -252,6 +259,8 @@ const numbers = defineCollection({
     terms: z.array(z.string()).default([]),
 
     aliases: z.array(z.string()).default([]),
+
+    notes: z.array(z.string()).default([]),
   }),
 });
 

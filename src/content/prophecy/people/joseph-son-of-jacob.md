@@ -1,5 +1,5 @@
 ---
-title: Joseph
+title: Joseph son of Jacob
 description: Study Joseph, the son of Jacob, through connected KJV Scriptures and related biblical references.
 
 category: people

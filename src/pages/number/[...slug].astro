@@ -147,6 +147,93 @@ const relatedProphecy =
         ]}
       />
 
+            {entry.data.featuredVerse && (
+
+        <section
+          class="
+            rounded-2xl
+            border
+            border-[var(--color-border)]
+            p-6
+            space-y-4
+          "
+        >
+
+          <h2
+            class="
+              text-xl
+              font-semibold
+            "
+          >
+
+            Featured Verse
+
+          </h2>
+
+          <blockquote
+            class="
+              border-l-4
+              pl-4
+              italic
+            "
+          >
+
+            {entry.data.featuredVerse.text}
+
+          </blockquote>
+
+          <p
+            class="
+              text-sm
+              text-[var(--color-muted)]
+            "
+          >
+
+            {entry.data.featuredVerse.ref}
+
+          </p>
+
+        </section>
+
+      )}
+
+            {entry.data.notes?.length > 0 && (
+
+        <section class="space-y-4">
+
+          <h2
+            class="
+              text-xl
+              font-semibold
+            "
+          >
+
+            Study Notes
+
+          </h2>
+
+          <ul
+            class="
+              list-disc
+              pl-6
+              space-y-2
+            "
+          >
+
+            {entry.data.notes.map(
+              (note, index) => (
+
+                <li key={index}>{note}</li>
+
+              )
+            )}
+
+          </ul>
+
+        </section>
+
+      )}
+
       <section
         class="
           prose

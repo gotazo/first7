@@ -1,5 +1,5 @@
 ---
-title: Joshua
+title: Joshua son of Nun
 description: Study Joshua through connected KJV Scriptures and related biblical references.
 
 category: people

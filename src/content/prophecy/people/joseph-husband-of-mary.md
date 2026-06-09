@@ -1,5 +1,5 @@
 ---
-title: Joseph
+title: Joseph Husband of Mary
 description: Study Joseph, the husband of Mary, through connected KJV Scriptures and related biblical references.
 
 category: people
