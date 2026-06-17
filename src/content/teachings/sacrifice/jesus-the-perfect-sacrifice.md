@@ -1,39 +1,52 @@
 ---
 id: jesus-the-perfect-sacrifice
 
-title: Jesus The Perfect Sacrifice
+title: Jesus the Perfect Sacrifice
 
-summary: Jesus became the perfect sacrifice for sin through His obedience, love, and redemption.
+summary: Through His death and resurrection, Jesus fulfilled what every Old Testament sacrifice pointed toward.
 
 topics:
   - sacrifice
   - salvation
 
-keywords:
+terms:
   - Jesus
   - sacrifice
   - salvation
-  - redemption
+
+keywords:
+  - Jesus
   - cross
-  - grace
+  - sacrifice
+  - salvation
+  - redemption
+  - resurrection
 
 scripture:
   ref: "Hebrews 10:12"
   text: "But this man, after he had offered one sacrifice for sins for ever, sat down on the right hand of God."
 
-truth: Jesus fulfilled the perfect sacrifice through His death and resurrection.
+scriptures:
+  - Hebrews 10:12
+  - Isaiah 53
+  - John 1
+
+related:
+  - salvation
+  - sacrifice
+
+truth: Jesus offered Himself once for all, accomplishing what animal sacrifices could never fully achieve.
 
 insight:
-  - Christ's sacrifice accomplished what temporary sacrifices could not.
-  - Salvation is rooted in God's grace and mercy.
-  - The cross reveals God's love and holiness.
-  - Redemption through Christ brings reconciliation with God.
+  - Jesus fulfilled the purpose of the sacrificial system.
+  - His sacrifice provides redemption and forgiveness.
+  - The cross reveals God's love and justice.
+  - Christ's resurrection confirms His victory over sin and death.
 
 application:
-  - Place your trust fully in Christ
+  - Place your faith in Christ
   - Remember the significance of the cross
-  - Walk in gratitude for God's grace
-  - Live in obedience to God's truth
+  - Live with gratitude for God's grace
+  - Follow Jesus in obedience and devotion
 
-prayer: Father, thank You for the perfect sacrifice of Jesus Christ and for the grace and redemption found through Him.
 ---

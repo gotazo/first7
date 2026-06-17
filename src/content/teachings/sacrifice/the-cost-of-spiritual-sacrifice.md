@@ -50,3 +50,4 @@ application:
   - Trust God with what is valuable to you
 
 ---
+
