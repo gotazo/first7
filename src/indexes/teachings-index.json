@@ -189,6 +189,48 @@
     }
   },
   {
+    "id": "last-day-army",
+    "title": "The Last-Day Army",
+    "summary": "The last-day army consists of believers who are led by the Holy Spirit, equipped through God's Word, and prepared to stand faithfully until the return of Jesus Christ.",
+    "topics": [
+      "end times",
+      "spiritual warfare"
+    ],
+    "keywords": [
+      "last day army",
+      "end times",
+      "spiritual warfare",
+      "holy spirit",
+      "watchfulness",
+      "discernment"
+    ],
+    "scripture": {
+      "ref": "Joel 2:11",
+      "text": "And the LORD shall utter his voice before his army: for his camp is very great."
+    }
+  },
+  {
+    "id": "david-encouraged-himself-in-the-lord",
+    "title": "David Encouraged Himself in the Lord",
+    "summary": "David found strength in God during a time of great distress, demonstrating how believers can renew their faith during difficult seasons.",
+    "topics": [
+      "faith",
+      "encouragement"
+    ],
+    "keywords": [
+      "david",
+      "ziklag",
+      "encouragement",
+      "faith",
+      "strength",
+      "perseverance"
+    ],
+    "scripture": {
+      "ref": "1 Samuel 30:6",
+      "text": "But David encouraged himself in the LORD his God."
+    }
+  },
+  {
     "id": "eyes-on-jesus",
     "title": "Keep Your Eyes On Jesus",
     "summary": "Spiritual stability comes from focusing on Christ above circumstances.",
@@ -227,6 +269,48 @@
     "scripture": {
       "ref": "James 2:17",
       "text": "Even so faith, if it hath not works, is dead, being alone."
+    }
+  },
+  {
+    "id": "faith-knows-it-does-not-guess",
+    "title": "Faith Knows, It Does Not Guess",
+    "summary": "Biblical faith is confidence in God's Word and character, not uncertainty, wishful thinking, or speculation.",
+    "topics": [
+      "faith",
+      "trust"
+    ],
+    "keywords": [
+      "faith",
+      "confidence",
+      "trust",
+      "belief",
+      "assurance",
+      "promises"
+    ],
+    "scripture": {
+      "ref": "Hebrews 11:1",
+      "text": "Now faith is the substance of things hoped for, the evidence of things not seen."
+    }
+  },
+  {
+    "id": "faith-knows",
+    "title": "Faith Knows",
+    "summary": "Biblical faith is not guesswork or wishful thinking but confidence rooted in God's truth and promises.",
+    "topics": [
+      "faith",
+      "understanding"
+    ],
+    "keywords": [
+      "faith",
+      "confidence",
+      "assurance",
+      "trust",
+      "belief",
+      "promises"
+    ],
+    "scripture": {
+      "ref": "Hebrews 11:1",
+      "text": "Now faith is the substance of things hoped for, the evidence of things not seen."
     }
   },
   {
@@ -272,6 +356,27 @@
     }
   },
   {
+    "id": "gods-storehouse-is-the-heart",
+    "title": "God's Storehouse Is the Heart",
+    "summary": "God places His Word, wisdom, and spiritual treasures within the heart, making it a source of life and influence.",
+    "topics": [
+      "faith",
+      "understanding"
+    ],
+    "keywords": [
+      "heart",
+      "treasure",
+      "wisdom",
+      "faith",
+      "spiritual growth",
+      "understanding"
+    ],
+    "scripture": {
+      "ref": "Proverbs 4:23",
+      "text": "Keep thy heart with all diligence; for out of it are the issues of life."
+    }
+  },
+  {
     "id": "gods-word-carries-power",
     "title": "God's Word Carries Power",
     "summary": "When God truly speaks, His word carries grace, authority, and transformation.",
@@ -309,6 +414,69 @@
     "scripture": {
       "ref": "Nehemiah 8:10",
       "text": "Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto them for whom nothing is prepared: for this day is holy unto our Lord: neither be ye sorry; for the joy of the LORD is your strength."
+    }
+  },
+  {
+    "id": "praying-from-victory-not-defeat",
+    "title": "Praying from Victory, Not Defeat",
+    "summary": "Biblical prayer begins with confidence in God's promises rather than fear, doubt, or hopelessness.",
+    "topics": [
+      "faith",
+      "prayer"
+    ],
+    "keywords": [
+      "victory",
+      "prayer",
+      "faith",
+      "confidence",
+      "trust",
+      "promises"
+    ],
+    "scripture": {
+      "ref": "Mark 11:24",
+      "text": "What things soever ye desire, when ye pray, believe that ye receive them, and ye shall have them."
+    }
+  },
+  {
+    "id": "recovering-all",
+    "title": "Recovering All",
+    "summary": "God is able to restore what has been lost and lead His people into recovery, healing, and renewed purpose.",
+    "topics": [
+      "faith",
+      "restoration"
+    ],
+    "keywords": [
+      "restoration",
+      "recovery",
+      "faith",
+      "victory",
+      "David",
+      "encouragement"
+    ],
+    "scripture": {
+      "ref": "1 Samuel 30:8",
+      "text": "Pursue: for thou shalt surely overtake them, and without fail recover all."
+    }
+  },
+  {
+    "id": "refusing-to-quit-after-loss",
+    "title": "Refusing to Quit After Loss",
+    "summary": "Believers are called to persevere through disappointment, trusting that God can restore, strengthen, and guide them forward.",
+    "topics": [
+      "faith",
+      "perseverance"
+    ],
+    "keywords": [
+      "perseverance",
+      "endurance",
+      "restoration",
+      "hope",
+      "faith",
+      "resilience"
+    ],
+    "scripture": {
+      "ref": "Galatians 6:9",
+      "text": "And let us not be weary in well doing: for in due season we shall reap, if we faint not."
     }
   },
   {
@@ -417,6 +585,48 @@
     }
   },
   {
+    "id": "giving-beyond-money",
+    "title": "Giving Beyond Money",
+    "summary": "Biblical giving includes time, service, encouragement, hospitality, and every resource entrusted to us by God.",
+    "topics": [
+      "giving",
+      "stewardship"
+    ],
+    "keywords": [
+      "giving",
+      "stewardship",
+      "service",
+      "generosity",
+      "time",
+      "resources"
+    ],
+    "scripture": {
+      "ref": "Romans 12:1",
+      "text": "I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service."
+    }
+  },
+  {
+    "id": "giving-is-spiritual",
+    "title": "Giving Is Spiritual",
+    "summary": "Biblical giving is more than a financial act; it is a spiritual expression of faith, worship, and obedience.",
+    "topics": [
+      "giving",
+      "faith"
+    ],
+    "keywords": [
+      "giving",
+      "faith",
+      "worship",
+      "stewardship",
+      "obedience",
+      "sacrifice"
+    ],
+    "scripture": {
+      "ref": "Acts 10:4",
+      "text": "Thy prayers and thine alms are come up for a memorial before God."
+    }
+  },
+  {
     "id": "giving-that-costs-you",
     "title": "Giving That Costs You",
     "summary": "True sacrifice often requires surrender, trust, and personal cost.",
@@ -438,6 +648,27 @@
     }
   },
   {
+    "id": "giving-that-god-receives",
+    "title": "Giving That God Receives",
+    "summary": "Scripture shows that God looks beyond the gift itself and examines the heart, faith, and obedience behind every offering.",
+    "topics": [
+      "giving",
+      "sacrifice"
+    ],
+    "keywords": [
+      "giving",
+      "offering",
+      "sacrifice",
+      "faith",
+      "obedience",
+      "worship"
+    ],
+    "scripture": {
+      "ref": "Genesis 4:4",
+      "text": "And the LORD had respect unto Abel and to his offering."
+    }
+  },
+  {
     "id": "giving-with-purpose",
     "title": "Giving With Purpose",
     "summary": "Biblical giving is not random. God honors intentional and meaningful sacrifice.",
@@ -452,6 +683,48 @@
       "offering",
       "intentional giving",
       "sacrifice"
+    ],
+    "scripture": {
+      "ref": "2 Corinthians 9:7",
+      "text": "Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver."
+    }
+  },
+  {
+    "id": "giving-with-revelation",
+    "title": "Giving With Revelation",
+    "summary": "Biblical giving is strengthened when it is guided by spiritual understanding rather than emotion, pressure, or routine.",
+    "topics": [
+      "giving",
+      "understanding"
+    ],
+    "keywords": [
+      "giving",
+      "revelation",
+      "stewardship",
+      "wisdom",
+      "obedience",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "Proverbs 4:7",
+      "text": "Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding."
+    }
+  },
+  {
+    "id": "giving-with-the-right-motive",
+    "title": "Giving With the Right Motive",
+    "summary": "God is concerned not only with what is given but also with the heart and intention behind the gift.",
+    "topics": [
+      "giving",
+      "discernment"
+    ],
+    "keywords": [
+      "giving",
+      "motive",
+      "obedience",
+      "worship",
+      "faith",
+      "sincerity"
     ],
     "scripture": {
       "ref": "2 Corinthians 9:7",
@@ -814,6 +1087,48 @@
     }
   },
   {
+    "id": "man-or-woman-of-the-spirit",
+    "title": "Man or Woman of the Spirit",
+    "summary": "A man or woman of the Spirit is a believer whose life, decisions, and desires are governed by the Holy Spirit rather than the flesh.",
+    "topics": [
+      "holy spirit",
+      "spiritual growth"
+    ],
+    "keywords": [
+      "holy spirit",
+      "spiritual maturity",
+      "walk in the spirit",
+      "fruit of the spirit",
+      "sanctification",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Romans 8:14",
+      "text": "For as many as are led by the Spirit of God, they are the sons of God."
+    }
+  },
+  {
+    "id": "the-spiritual-mind",
+    "title": "The Spiritual Mind",
+    "summary": "A spiritual mind is shaped by the Holy Spirit and focused on God's truth rather than the desires of the flesh.",
+    "topics": [
+      "holy spirit",
+      "spiritual growth"
+    ],
+    "keywords": [
+      "spiritual mind",
+      "holy spirit",
+      "renewal",
+      "transformation",
+      "faith",
+      "obedience"
+    ],
+    "scripture": {
+      "ref": "Romans 8:6",
+      "text": "For to be carnally minded is death; but to be spiritually minded is life and peace."
+    }
+  },
+  {
     "id": "insecurity-and-vision",
     "title": "Insecurity Comes from Lack of Vision",
     "summary": "Insecurity often grows when you are unsure about your purpose and direction in life.",
@@ -897,6 +1212,48 @@
     }
   },
   {
+    "id": "the-cost-of-leadership",
+    "title": "The Cost of Leadership",
+    "summary": "Leadership often involves criticism, responsibility, sacrifice, and perseverance through difficult circumstances.",
+    "topics": [
+      "leadership",
+      "faith"
+    ],
+    "keywords": [
+      "leadership",
+      "responsibility",
+      "sacrifice",
+      "perseverance",
+      "faithfulness",
+      "service"
+    ],
+    "scripture": {
+      "ref": "1 Samuel 30:6",
+      "text": "And David was greatly distressed; for the people spake of stoning him."
+    }
+  },
+  {
+    "id": "tough-skin-for-gods-purpose",
+    "title": "Tough Skin for God's Purpose",
+    "summary": "Believers called to lead must develop resilience and remain faithful despite criticism, misunderstanding, and opposition.",
+    "topics": [
+      "leadership",
+      "perseverance"
+    ],
+    "keywords": [
+      "leadership",
+      "resilience",
+      "endurance",
+      "criticism",
+      "perseverance",
+      "faithfulness"
+    ],
+    "scripture": {
+      "ref": "Galatians 1:10",
+      "text": "For if I yet pleased men, I should not be the servant of Christ."
+    }
+  },
+  {
     "id": "comparison-reveals-restlessness",
     "title": "Comparison Reveals Restlessness",
     "summary": "Constant comparison often reveals the absence of spiritual rest.",
@@ -914,6 +1271,27 @@
     "scripture": {
       "ref": "Galatians 6:4",
       "text": "But let every man prove his own work, and then shall he have rejoicing in himself alone, and not in another."
+    }
+  },
+  {
+    "id": "no-condition-is-forever",
+    "title": "No Condition Is Forever",
+    "summary": "Difficult seasons are temporary, and God's grace enables believers to endure and overcome every trial.",
+    "topics": [
+      "perseverance",
+      "faith"
+    ],
+    "keywords": [
+      "perseverance",
+      "endurance",
+      "hope",
+      "trials",
+      "faith",
+      "victory"
+    ],
+    "scripture": {
+      "ref": "2 Corinthians 4:17",
+      "text": "For our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory."
     }
   },
   {
@@ -958,6 +1336,48 @@
     }
   },
   {
+    "id": "personal-prophecy",
+    "title": "Personal Prophecy",
+    "summary": "Personal prophecy is the practice of speaking God's truth and promises over your life in agreement with Scripture.",
+    "topics": [
+      "prayer",
+      "faith"
+    ],
+    "keywords": [
+      "personal prophecy",
+      "confession",
+      "speaking scripture",
+      "faith",
+      "prayer",
+      "encouragement"
+    ],
+    "scripture": {
+      "ref": "Psalm 42:5",
+      "text": "Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God."
+    }
+  },
+  {
+    "id": "praying-from-victory-not-defeat",
+    "title": "Praying From Victory, Not Defeat",
+    "summary": "Biblical prayer flows from faith in God's promises rather than fear, hopelessness, or a sense of defeat.",
+    "topics": [
+      "prayer",
+      "faith"
+    ],
+    "keywords": [
+      "prayer",
+      "faith",
+      "victory",
+      "confidence",
+      "trust",
+      "believing prayer"
+    ],
+    "scripture": {
+      "ref": "Mark 11:24",
+      "text": "What things soever ye desire, when ye pray, believe that ye receive them, and ye shall have them."
+    }
+  },
+  {
     "id": "purity-of-heart-in-prayer",
     "title": "Purity of Heart in Prayer",
     "summary": "Pure intentions produce powerful and effective prayer.",
@@ -975,6 +1395,27 @@
     "scripture": {
       "ref": "Matthew 5:8",
       "text": "Blessed are the pure in heart: for they shall see God."
+    }
+  },
+  {
+    "id": "speaking-to-your-soul",
+    "title": "Speaking to Your Soul",
+    "summary": "Scripture teaches believers to encourage, instruct, and strengthen their souls by speaking God's truth rather than surrendering to discouragement.",
+    "topics": [
+      "prayer",
+      "encouragement"
+    ],
+    "keywords": [
+      "speaking to your soul",
+      "encouragement",
+      "hope",
+      "prayer",
+      "psalms",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "Psalm 42:5",
+      "text": "Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God."
     }
   },
   {
@@ -996,6 +1437,27 @@
     "scripture": {
       "ref": "Hebrews 4:12",
       "text": "For the word of God is quick, and powerful, and sharper than any twoedged sword, piercing even to the dividing asunder of soul and spirit, and of the joints and marrow, and is a discerner of the thoughts and intents of the heart."
+    }
+  },
+  {
+    "id": "why-complaining-is-not-prayer",
+    "title": "Why Complaining Is Not Prayer",
+    "summary": "Biblical prayer seeks God's help and direction, while complaining focuses on problems without faith or expectation.",
+    "topics": [
+      "prayer",
+      "faith"
+    ],
+    "keywords": [
+      "prayer",
+      "complaining",
+      "faith",
+      "trust",
+      "thanksgiving",
+      "petition"
+    ],
+    "scripture": {
+      "ref": "Philippians 4:6",
+      "text": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God."
     }
   },
   {
@@ -1040,23 +1502,65 @@
   },
   {
     "id": "jesus-the-perfect-sacrifice",
-    "title": "Jesus The Perfect Sacrifice",
-    "summary": "Jesus became the perfect sacrifice for sin through His obedience, love, and redemption.",
+    "title": "Jesus the Perfect Sacrifice",
+    "summary": "Through His death and resurrection, Jesus fulfilled what every Old Testament sacrifice pointed toward.",
     "topics": [
       "sacrifice",
       "salvation"
     ],
     "keywords": [
       "Jesus",
+      "cross",
       "sacrifice",
       "salvation",
       "redemption",
-      "cross",
-      "grace"
+      "resurrection"
     ],
     "scripture": {
       "ref": "Hebrews 10:12",
       "text": "But this man, after he had offered one sacrifice for sins for ever, sat down on the right hand of God."
+    }
+  },
+  {
+    "id": "not-all-sacrifices-are-equal",
+    "title": "Not All Sacrifices Are Equal",
+    "summary": "God looks beyond the gift itself and evaluates the heart, faith, and obedience behind every sacrifice.",
+    "topics": [
+      "sacrifice",
+      "discernment"
+    ],
+    "keywords": [
+      "sacrifice",
+      "offering",
+      "obedience",
+      "faith",
+      "worship",
+      "discernment"
+    ],
+    "scripture": {
+      "ref": "Genesis 4:4-5",
+      "text": "And the LORD had respect unto Abel and to his offering: But unto Cain and to his offering he had not respect."
+    }
+  },
+  {
+    "id": "prayer-versus-sacrifice",
+    "title": "Prayer Versus Sacrifice",
+    "summary": "Prayer and sacrifice serve different purposes, yet both can be important expressions of faith and devotion.",
+    "topics": [
+      "sacrifice",
+      "prayer"
+    ],
+    "keywords": [
+      "prayer",
+      "sacrifice",
+      "worship",
+      "faith",
+      "devotion",
+      "obedience"
+    ],
+    "scripture": {
+      "ref": "Acts 10:4",
+      "text": "Thy prayers and thine alms are come up for a memorial before God."
     }
   },
   {
@@ -1081,6 +1585,48 @@
     }
   },
   {
+    "id": "sacrifice-and-spiritual-elevation",
+    "title": "Sacrifice and Spiritual Elevation",
+    "summary": "Throughout Scripture, sacrifice is often associated with spiritual growth, greater responsibility, and deeper fellowship with God.",
+    "topics": [
+      "sacrifice",
+      "faith"
+    ],
+    "keywords": [
+      "sacrifice",
+      "elevation",
+      "spiritual growth",
+      "faith",
+      "obedience",
+      "maturity"
+    ],
+    "scripture": {
+      "ref": "Philippians 2:8-9",
+      "text": "And being found in fashion as a man, he humbled himself, and became obedient unto death, even the death of the cross. Wherefore God also hath highly exalted him."
+    }
+  },
+  {
+    "id": "sacrifice-changes-your-dimension",
+    "title": "Sacrifice Changes Your Dimension",
+    "summary": "Throughout Scripture, sacrifice is often connected to spiritual growth, elevation, and transformation.",
+    "topics": [
+      "sacrifice",
+      "faith"
+    ],
+    "keywords": [
+      "sacrifice",
+      "spiritual growth",
+      "elevation",
+      "faith",
+      "obedience",
+      "transformation"
+    ],
+    "scripture": {
+      "ref": "Ephesians 4:10",
+      "text": "He that descended is the same also that ascended up far above all heavens, that he might fill all things."
+    }
+  },
+  {
     "id": "salvation-was-not-free",
     "title": "Salvation Was Not Free",
     "summary": "Salvation is freely offered to believers, but it came through the costly sacrifice of Christ.",
@@ -1102,9 +1648,30 @@
     }
   },
   {
-    "id": "the-spiritual-meaning-of-sacrifice",
-    "title": "The Spiritual Meaning Of Sacrifice",
-    "summary": "Sacrifice in Scripture reflected surrender, worship, obedience, and devotion toward God.",
+    "id": "the-cost-of-spiritual-sacrifice",
+    "title": "The Cost of Spiritual Sacrifice",
+    "summary": "Genuine sacrifice involves surrendering something valuable in order to honor God and pursue spiritual growth.",
+    "topics": [
+      "sacrifice",
+      "worship"
+    ],
+    "keywords": [
+      "sacrifice",
+      "surrender",
+      "worship",
+      "obedience",
+      "cost",
+      "devotion"
+    ],
+    "scripture": {
+      "ref": "2 Samuel 24:24",
+      "text": "And the king said unto Araunah, Nay; but I will surely buy it of thee at a price: neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing."
+    }
+  },
+  {
+    "id": "the-purpose-of-sacrifice",
+    "title": "The Purpose of Sacrifice",
+    "summary": "Biblical sacrifice is not merely about giving something away but about drawing closer to God through faith, surrender, and obedience.",
     "topics": [
       "sacrifice",
       "worship"
@@ -1115,11 +1682,74 @@
       "surrender",
       "obedience",
       "devotion",
-      "offering"
+      "faith"
     ],
     "scripture": {
       "ref": "Romans 12:1",
       "text": "I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service."
+    }
+  },
+  {
+    "id": "the-sacrifice-that-costs-you",
+    "title": "The Sacrifice That Costs You",
+    "summary": "Sacrifice becomes meaningful when it requires surrender, trust, and personal cost.",
+    "topics": [
+      "sacrifice",
+      "worship"
+    ],
+    "keywords": [
+      "sacrifice",
+      "surrender",
+      "worship",
+      "obedience",
+      "trust",
+      "devotion"
+    ],
+    "scripture": {
+      "ref": "2 Samuel 24:24",
+      "text": "Neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing."
+    }
+  },
+  {
+    "id": "the-cost-of-spiritual-sacrifice",
+    "title": "The Cost of Spiritual Sacrifice",
+    "summary": "Genuine sacrifice involves surrendering something valuable in order to honor God and pursue spiritual growth.",
+    "topics": [
+      "sacrifice",
+      "worship"
+    ],
+    "keywords": [
+      "sacrifice",
+      "surrender",
+      "worship",
+      "obedience",
+      "cost",
+      "devotion"
+    ],
+    "scripture": {
+      "ref": "2 Samuel 24:24",
+      "text": "And the king said unto Araunah, Nay; but I will surely buy it of thee at a price: neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing."
+    }
+  },
+  {
+    "id": "understanding-spiritual-exchange",
+    "title": "Understanding Spiritual Exchange",
+    "summary": "Biblical sacrifice involves more than giving something away; it reflects trust, surrender, and a desire to honor God.",
+    "topics": [
+      "sacrifice",
+      "understanding"
+    ],
+    "keywords": [
+      "sacrifice",
+      "offering",
+      "worship",
+      "surrender",
+      "faith",
+      "obedience"
+    ],
+    "scripture": {
+      "ref": "Romans 12:1",
+      "text": "Present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service."
     }
   },
   {
@@ -1144,6 +1774,90 @@
     }
   },
   {
+    "id": "why-sacrifice-still-matters",
+    "title": "Why Sacrifice Still Matters",
+    "summary": "Although Christ fulfilled the sacrificial system, believers are still called to live lives marked by surrender, worship, and obedience.",
+    "topics": [
+      "sacrifice",
+      "discipleship"
+    ],
+    "keywords": [
+      "sacrifice",
+      "discipleship",
+      "obedience",
+      "worship",
+      "surrender",
+      "devotion"
+    ],
+    "scripture": {
+      "ref": "Hebrews 13:15-16",
+      "text": "By him therefore let us offer the sacrifice of praise to God continually, that is, the fruit of our lips giving thanks to his name. But to do good and to communicate forget not: for with such sacrifices God is well pleased."
+    }
+  },
+  {
+    "id": "breaking-generational-patterns",
+    "title": "Breaking Generational Patterns",
+    "summary": "Through spiritual renewal and obedience to God, believers can overcome destructive patterns that are repeated from one generation to another.",
+    "topics": [
+      "spiritual growth",
+      "transformation"
+    ],
+    "keywords": [
+      "generational patterns",
+      "spiritual growth",
+      "renewal",
+      "obedience",
+      "transformation",
+      "discipleship"
+    ],
+    "scripture": {
+      "ref": "Romans 12:2",
+      "text": "And be not conformed to this world: but be ye transformed by the renewing of your mind."
+    }
+  },
+  {
+    "id": "encounters-do-not-transform-you",
+    "title": "Encounters Do Not Transform You",
+    "summary": "Spiritual encounters can reveal God's reality, but lasting transformation comes through repentance, obedience, and the renewing of the mind.",
+    "topics": [
+      "spiritual growth",
+      "transformation"
+    ],
+    "keywords": [
+      "encounter with god",
+      "spiritual transformation",
+      "repentance",
+      "obedience",
+      "renewal",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "Romans 12:2",
+      "text": "And be not conformed to this world: but be ye transformed by the renewing of your mind."
+    }
+  },
+  {
+    "id": "strengthening-your-soul",
+    "title": "Strengthening Your Soul",
+    "summary": "A strengthened soul enables believers to endure trials, receive God's direction, and remain steadfast in faith.",
+    "topics": [
+      "spiritual growth",
+      "faith"
+    ],
+    "keywords": [
+      "strengthening your soul",
+      "spiritual strength",
+      "endurance",
+      "faith",
+      "encouragement",
+      "hope"
+    ],
+    "scripture": {
+      "ref": "Isaiah 40:31",
+      "text": "But they that wait upon the LORD shall renew their strength."
+    }
+  },
+  {
     "id": "giving-and-vision",
     "title": "Giving Reveals Your Vision",
     "summary": "The way you give often reveals what matters most in your heart and life.",
@@ -1161,6 +1875,48 @@
     "scripture": {
       "ref": "Matthew 6:21",
       "text": "For where your treasure is, there will your heart be also."
+    }
+  },
+  {
+    "id": "abels-sacrifice",
+    "title": "Abel's Sacrifice",
+    "summary": "Abel's offering demonstrates faith, devotion, and a desire to honor God with his best.",
+    "topics": [
+      "understanding",
+      "faith"
+    ],
+    "keywords": [
+      "Abel",
+      "sacrifice",
+      "faith",
+      "worship",
+      "offering",
+      "obedience"
+    ],
+    "scripture": {
+      "ref": "Hebrews 11:4",
+      "text": "By faith Abel offered unto God a more excellent sacrifice than Cain."
+    }
+  },
+  {
+    "id": "accepted-or-elevated",
+    "title": "Accepted or Elevated?",
+    "summary": "Scripture shows that believers can be accepted by God while still being called into deeper growth, maturity, and spiritual responsibility.",
+    "topics": [
+      "understanding",
+      "spiritual growth"
+    ],
+    "keywords": [
+      "acceptance",
+      "elevation",
+      "growth",
+      "maturity",
+      "obedience",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "Genesis 4:7",
+      "text": "If thou doest well, shalt thou not be accepted?"
     }
   },
   {
@@ -1245,6 +2001,27 @@
     "scripture": {
       "ref": "2 Timothy 2:15",
       "text": "Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth."
+    }
+  },
+  {
+    "id": "why-cain-was-rejected",
+    "title": "Why Cain Was Rejected",
+    "summary": "Cain's offering reveals that God examines the heart, faith, and obedience behind every act of worship.",
+    "topics": [
+      "understanding",
+      "sacrifice"
+    ],
+    "keywords": [
+      "Cain",
+      "sacrifice",
+      "offering",
+      "obedience",
+      "worship",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "Genesis 4:5",
+      "text": "But unto Cain and to his offering he had not respect."
     }
   },
   {
@@ -1432,6 +2209,27 @@
     "scripture": {
       "ref": "Psalm 89:7",
       "text": "God is greatly to be feared in the assembly of the saints, and to be had in reverence of all them that are about him."
+    }
+  },
+  {
+    "id": "mary-magdalenes-sacrifice",
+    "title": "Mary Magdalene's Sacrifice",
+    "summary": "Mary's costly act of devotion demonstrated love, honor, and wholehearted worship toward Jesus.",
+    "topics": [
+      "worship",
+      "sacrifice"
+    ],
+    "keywords": [
+      "Mary Magdalene",
+      "worship",
+      "sacrifice",
+      "devotion",
+      "honor",
+      "Jesus"
+    ],
+    "scripture": {
+      "ref": "Luke 7:47",
+      "text": "Wherefore I say unto thee, Her sins, which are many, are forgiven; for she loved much."
     }
   },
   {
