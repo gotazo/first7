@@ -1,147 +1,327 @@
 ---
+
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import TeachingSidebar from "../../components/TeachingSidebar.astro";
 import { getCollection } from "astro:content";
 
-const teachings = await getCollection("teachings");
+const teachings =
+await getCollection("teachings");
 
-const topics = Array.from(new Set(teachings.flatMap((t) => t.data.topics))).sort();
+/**
 
-const topicGroups = topics.map((topic) => ({
+* Get unique topics
+  */
+  const topics = Array.from(
+  new Set(
+  teachings.flatMap(
+  (t) => t.data.topics
+  )
+  )
+  ).sort();
+
+/**
+
+* Group topics by first letter
+  */
+  const groupedTopics = topics.reduce(
+  (groups, topic) => {
+
+  const letter =
+  topic.charAt(0).toUpperCase();
+
+  if (!groups[letter]) {
+  groups[letter] = [];
+  }
+
+  groups[letter].push({
   topic,
-  teachings: teachings
-    .filter((t) => t.data.topics.includes(topic))
-    .sort((a, b) => a.data.title.localeCompare(b.data.title)),
-}));
+
+  teachings:
+  teachings
+  .filter((t) =>
+  t.data.topics.includes(
+  topic
+  )
+  )
+  .sort((a, b) =>
+  a.data.title.localeCompare(
+  b.data.title
+  )
+  ),
+  });
+
+  return groups;
+
+},
+{} as Record<
+string,
+{
+topic: string;
+teachings: typeof teachings;
+}[]
+
+>
+
+);
+
+const letters =
+Object.keys(groupedTopics)
+.sort();
+
 ---
 
 <BaseLayout title="Library">
 
-  <div class="flex flex-col lg:flex-row gap-10">
+  <div
+    class="
+      flex
+      flex-col
+      lg:flex-row
+      gap-10
+    "
+  >
 
-    <TeachingSidebar />
+<TeachingSidebar />
 
-    <main class="flex-1">
+<main class="flex-1">
 
-      <section class="space-y-6">
+  <section class="space-y-8">
 
-        <h1 class="text-2xl font-semibold">
-          Library
-        </h1>
+    <header class="space-y-4">
 
-        <div class="space-y-10">
+      <h1
+        class="
+          text-3xl
+          font-semibold
+        "
+      >
+        Library
+      </h1>
 
-          <!-- INTRO -->
-          <section class="space-y-3">
-            <h2 class="text-xl font-medium">
-              Browse Teachings by Topic
-            </h2>
+      <p
+        class="
+          max-w-3xl
+          text-[var(--color-muted)]
+        "
+      >
+        Explore structured biblical
+        teachings organized by topic.
+        Study doctrine, Christian living,
+        prophecy, prayer, discipleship,
+        and spiritual growth through
+        Scripture.
+      </p>
 
-            <p class="text-[var(--color-muted)] max-w-2xl">
-              Explore structured teachings organized by spiritual themes,
-              growth areas, and life seasons.
-            </p>
-          </section>
+      <div
+        class="
+          flex
+          flex-wrap
+          gap-6
+          text-sm
+          text-[var(--color-muted)]
+        "
+      >
 
-          <!-- TOPICS MASONRY -->
-          <section class="topics-masonry">
+        <span>
+          {teachings.length}
+          Teachings
+        </span>
 
-            {topicGroups.map(({ topic, teachings }) => (
+        <span>
+          {topics.length}
+          Topics
+        </span>
 
-              <section
-                class="topic-card rounded-xl border p-5 transition"
+      </div>
+
+    </header>
+
+    <!-- A-Z Navigation -->
+
+    <section
+      class="
+        flex
+        flex-wrap
+        gap-2
+      "
+    >
+
+      {letters.map(
+        (letter) => (
+
+          <a
+            href={`#${letter}`}
+            class="
+              rounded-lg
+              border
+              border-[var(--color-border)]
+              px-3
+              py-2
+              text-sm
+              transition
+              hover:border-[var(--color-primary)]
+            "
+          >
+            {letter}
+          </a>
+
+        )
+      )}
+
+    </section>
+
+    <!-- Topic Groups -->
+
+    <section
+      class="
+        mt-8
+        space-y-16
+      "
+    >
+
+      {letters.map(
+        (letter) => (
+
+          <section
+            id={letter}
+            class="space-y-6"
+          >
+
+            <div
+              class="
+                flex
+                items-center
+                gap-4
+              "
+            >
+
+              <h2
+                class="
+                  text-4xl
+                  font-bold
+                "
               >
-                <div class="flex items-start justify-between gap-4">
-                  <h3 class="font-medium capitalize leading-snug">
-                    {topic}
-                  </h3>
+                {letter}
+              </h2>
 
-                  <span class="topic-count rounded-full border px-2.5 py-1 text-xs text-[var(--color-muted)]">
-                    {teachings.length}
-                  </span>
-                </div>
+              <div
+                class="
+                  h-px
+                  flex-1
+                  bg-[var(--color-border)]
+                "
+              />
 
-                <ul class="mt-3 space-y-2">
-                  {teachings.map((teaching) => (
-                    <li>
-                      <a
-                        href={`/teachings/${teaching.id}`}
-                        class="block text-sm text-[var(--color-muted)] hover:text-[var(--color-text)]"
+            </div>
+
+            <div
+              class="
+                grid
+                gap-4
+                md:grid-cols-2
+                xl:grid-cols-3
+              "
+            >
+
+              {groupedTopics[
+                letter
+              ].map(
+                ({
+                  topic,
+                  teachings,
+                }) => (
+
+                  <section
+                    class="
+                      rounded-2xl
+                      border
+                      border-[var(--color-border)]
+                      p-5
+                    "
+                  >
+
+                    <div
+                      class="
+                        flex
+                        items-center
+                        justify-between
+                        gap-4
+                      "
+                    >
+
+                      <h3
+                        class="
+                          text-lg
+                          font-semibold
+                          capitalize
+                        "
                       >
-                        {teaching.data.title}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+                        {topic}
+                      </h3>
 
-              </section>
+                      <span
+                        class="
+                          text-xs
+                          text-[var(--color-muted)]
+                        "
+                      >
+                        {
+                          teachings.length
+                        }
+                      </span>
 
-            ))}
+                    </div>
+
+                    <ul
+                      class="
+                        mt-4
+                        space-y-2
+                      "
+                    >
+
+                      {teachings.map(
+                        (
+                          teaching
+                        ) => (
+
+                          <li>
+
+                            <a
+                              href={`/teachings/${teaching.id}`}
+                              class="
+                                text-sm
+                                text-[var(--color-muted)]
+                                hover:text-[var(--color-text)]
+                              "
+                            >
+                              {teaching.data.title}
+                            </a>
+
+                          </li>
+
+                        )
+                      )}
+
+                    </ul>
+
+                  </section>
+
+                )
+              )}
+
+            </div>
 
           </section>
 
-        </div>
+        )
+      )}
 
-      </section>
+    </section>
 
-    </main>
+  </section>
+
+</main>
 
   </div>
 
 </BaseLayout>
-
-<style>
-  .topics-masonry {
-    column-count: 1;
-    column-gap: 1rem;
-  }
-
-  .topic-card {
-    break-inside: avoid;
-    display: inline-block;
-    margin: 0 0 1rem;
-    width: 100%;
-    background: color-mix(in srgb, var(--color-bg) 94%, var(--color-primary));
-    vertical-align: top;
-  }
-
-  .topic-card:hover {
-    background: color-mix(in srgb, var(--color-bg) 88%, var(--color-primary));
-    border-color: color-mix(in srgb, var(--color-primary) 45%, transparent);
-    box-shadow: 0 14px 36px color-mix(in srgb, var(--color-primary) 12%, transparent);
-    transform: translateY(-2px);
-  }
-
-  .topic-count {
-    line-height: 1;
-    white-space: nowrap;
-  }
-
-  @media (min-width: 640px) {
-    .topics-masonry {
-      column-count: 2;
-      column-gap: 1.125rem;
-    }
-
-    .topic-card {
-      margin-bottom: 1.125rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .topics-masonry {
-      column-count: 3;
-      column-gap: 1.25rem;
-    }
-
-    .topic-card {
-      margin-bottom: 1.25rem;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .topics-masonry {
-      column-count: 4;
-    }
-  }
-</style>

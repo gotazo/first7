@@ -148,29 +148,126 @@ const pathname = Astro.url.pathname;
 
 <!-- PRIMARY NAV -->
 
-{[
-  { href: "/ask", label: "Ask" },
+<!-- PRIMARY NAV -->
 
-  { href: "/teachings", label: "Library" },
+<!-- ASK -->
 
-  { href: "/plans", label: "Plans" },
+<a
+href="/ask"
+class={`transition ${
+    pathname.startsWith("/ask")
+      ? "text-[var(--color-text)]"
+      : "text-[var(--color-muted)] hover:text-[var(--color-text)]"
+  }`}
 
-  { href: "/bible", label: "Bible" }
+>
 
-].map((link) => (
+Ask </a>
 
-  <a
-    href={link.href}
-    class={`transition ${
-      pathname.startsWith(link.href)
+<!-- LIBRARY -->
+
+<div class="relative group">
+
+<a
+href="/teachings"
+class={`flex items-center gap-1 transition ${
+      pathname.startsWith("/teachings") ||
+      pathname.startsWith("/dictionary") ||
+      pathname.startsWith("/prophecy") ||
+      pathname.startsWith("/reflections") ||
+      pathname.startsWith("/resources")
         ? "text-[var(--color-text)]"
         : "text-[var(--color-muted)] hover:text-[var(--color-text)]"
     }`}
-  >
-    {link.label}
+
+>
+
+
+Library
+
+<span class="text-xs">▼</span>
+
+
   </a>
 
-))}
+  <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-150">
+
+
+<div class="w-[280px] rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] shadow-xl p-4">
+
+  <div class="space-y-1">
+
+    <a
+      href="/teachings"
+      class="block rounded-lg px-3 py-2 hover:bg-[var(--color-primary)]/10"
+    >
+      Teachings
+    </a>
+
+    <a
+      href="/dictionary"
+      class="block rounded-lg px-3 py-2 hover:bg-[var(--color-primary)]/10"
+    >
+      Dictionary
+    </a>
+
+    <a
+      href="/prophecy"
+      class="block rounded-lg px-3 py-2 hover:bg-[var(--color-primary)]/10"
+    >
+      Prophecy
+    </a>
+
+    <a
+      href="/reflections"
+      class="block rounded-lg px-3 py-2 hover:bg-[var(--color-primary)]/10"
+    >
+      Reflections
+    </a>
+
+    <a
+      href="/resources"
+      class="block rounded-lg px-3 py-2 hover:bg-[var(--color-primary)]/10"
+    >
+      Resources
+    </a>
+
+  </div>
+
+</div>
+
+  </div>
+
+</div>
+
+<!-- PLANS -->
+
+<a
+href="/plans"
+class={`transition ${
+    pathname.startsWith("/plans")
+      ? "text-[var(--color-text)]"
+      : "text-[var(--color-muted)] hover:text-[var(--color-text)]"
+  }`}
+
+>
+
+Plans </a>
+
+<!-- BIBLE -->
+
+<a
+href="/bible"
+class={`transition ${
+    pathname.startsWith("/bible")
+      ? "text-[var(--color-text)]"
+      : "text-[var(--color-muted)] hover:text-[var(--color-text)]"
+  }`}
+
+>
+
+Bible </a>
+
 
 <!-- PLAY -->
 
@@ -260,7 +357,40 @@ const pathname = Astro.url.pathname;
       <!-- PRIMARY MOBILE LINKS -->
       <a href="/ask">Ask</a>
 
-<a href="/teachings">Library</a>
+<div>
+
+<button
+id="library-btn"
+class="w-full text-left font-medium"
+
+>
+
+Library ▼
+
+
+  </button>
+
+  <div
+    id="mobile-library"
+    class="hidden mt-2 space-y-2 pl-3 text-sm"
+  >
+
+
+<a href="/teachings">Teachings</a>
+
+<a href="/dictionary">Dictionary</a>
+
+<a href="/prophecy">Prophecy</a>
+
+<a href="/reflections">Reflections</a>
+
+<a href="/resources">Resources</a>
+
+
+  </div>
+
+</div>
+
 
 <a href="/plans">Plans</a>
 
@@ -304,5 +434,14 @@ const pathname = Astro.url.pathname;
       prayersMenu?.classList.toggle("hidden");
     });
 
+    const libraryBtn =
+    document.getElementById("library-btn");
+
+    const libraryMenu =
+    document.getElementById("mobile-library");
+
+    libraryBtn?.addEventListener("click", () => {
+    libraryMenu?.classList.toggle("hidden");
+    });
   });
 </script>

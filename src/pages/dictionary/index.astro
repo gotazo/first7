@@ -3,7 +3,6 @@ export const prerender = true;
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import StudyHero from "../../components/shared/StudyHero.astro";
-import TopicChips from "../../components/shared/TopicChips.astro";
 
 import { getCollection } from "astro:content";
 
@@ -14,11 +13,37 @@ const terms = (
     b.data.term
   )
 );
+
+/**
+ * Group terms by first letter
+ */
+const groupedTerms = terms.reduce(
+  (groups, term) => {
+
+    const letter =
+      term.data.term
+        .charAt(0)
+        .toUpperCase();
+
+    if (!groups[letter]) {
+      groups[letter] = [];
+    }
+
+    groups[letter].push(term);
+
+    return groups;
+
+  },
+  {} as Record<string, typeof terms>
+);
+
+const letters =
+  Object.keys(groupedTerms).sort();
 ---
 
 <BaseLayout
   title="Bible Dictionary"
-  description="Explore biblical words, themes, and meanings through Scripture."
+  description="Explore biblical words, places, people, doctrines, and prophetic terms through Scripture."
 >
 
   <main
@@ -34,125 +59,189 @@ const terms = (
     <StudyHero
       section="Bible Dictionary"
       title="Bible Dictionary"
-      description="Explore biblical words, themes, and meanings through Scripture."
+      description="Explore biblical words, places, people, doctrines, and prophetic terms through Scripture."
     />
 
-    <TopicChips
-      items={[
-        {
-          label: "Faith",
-          href: "/dictionary/faith"
-        },
-        {
-          label: "Grace",
-          href: "/dictionary/grace"
-        },
-        {
-          label: "Kingdom",
-          href: "/dictionary/kingdom"
-        },
-        {
-          label: "Covenant",
-          href: "/dictionary/covenant"
-        }
-      ]}
-    />
+    <!-- Intro -->
+    <section
+      class="
+        mx-auto
+        mt-8
+        max-w-3xl
+        text-center
+      "
+    >
 
-    <section class="mt-12 space-y-6">
-
-      <div
+      <p
         class="
-          flex
-          items-center
-          justify-between
+          text-base
+          leading-relaxed
+          text-[var(--color-muted)]
         "
       >
-        <h2
-          class="
-            text-2xl
-            font-semibold
-          "
-        >
-          Dictionary Terms
-        </h2>
+        The First7 Bible Dictionary contains
+        biblical words, places, people,
+        doctrines, and prophetic terms
+        explained through Scripture.
+        Browse definitions alphabetically
+        from A to Z.
+      </p>
 
-        <span
+      <p
+        class="
+          mt-4
+          text-sm
+          text-[var(--color-muted)]
+        "
+      >
+        {terms.length} Terms
+      </p>
+
+    </section>
+
+    <!-- A-Z Navigation -->
+    <section
+      class="
+        mt-10
+        flex
+        flex-wrap
+        justify-center
+        gap-2
+      "
+    >
+
+      {letters.map((letter) => (
+
+        <a
+          href={`#${letter}`}
           class="
+            rounded-lg
+            border
+            border-[var(--color-border)]
+            px-3
+            py-2
             text-sm
-            text-[var(--color-muted)]
+            transition
+            hover:border-[var(--color-primary)]
           "
         >
-          {terms.length} Terms
-        </span>
+          {letter}
+        </a>
 
-      </div>
+      ))}
 
-      <div
-        class="
-          grid
-          gap-4
-          md:grid-cols-2
-          lg:grid-cols-3
-        "
-      >
+    </section>
 
-        {terms.map((term) => (
+    <!-- Dictionary Groups -->
+    <section class="mt-16 space-y-16">
 
-          <a
-            href={`/dictionary/${term.id}`}
+      {letters.map((letter) => (
+
+        <section
+          id={letter}
+          class="space-y-6"
+        >
+
+          <div
             class="
-              rounded-2xl
-              border
-              border-[var(--color-border)]
-              p-5
-              transition
-              hover:border-[var(--color-primary)]
+              flex
+              items-center
+              gap-4
             "
           >
 
-            <div class="space-y-3">
+            <h2
+              class="
+                text-4xl
+                font-bold
+              "
+            >
+              {letter}
+            </h2>
 
-              <h3
-                class="
-                  text-lg
-                  font-semibold
-                "
-              >
-                {term.data.title}
-              </h3>
+            <div
+              class="
+                h-px
+                flex-1
+                bg-[var(--color-border)]
+              "
+            />
 
-              <p
-                class="
-                  text-sm
-                  leading-relaxed
-                  text-[var(--color-muted)]
-                "
-              >
-                {term.data.shortMeaning}
-              </p>
+          </div>
 
-              {term.data.scriptures?.length > 0 && (
+          <div
+            class="
+              grid
+              gap-4
+              md:grid-cols-2
+              lg:grid-cols-3
+            "
+          >
 
-                <p
+            {groupedTerms[letter].map(
+              (term) => (
+
+                <a
+                  href={`/dictionary/${term.id}`}
                   class="
-                    text-xs
-                    text-[var(--color-muted)]
+                    rounded-2xl
+                    border
+                    border-[var(--color-border)]
+                    p-5
+                    transition
+                    hover:border-[var(--color-primary)]
+                    hover:-translate-y-0.5
                   "
                 >
-                  {term.data.scriptures
-                    .slice(0, 3)
-                    .join(" • ")}
-                </p>
 
-              )}
+                  <div class="space-y-3">
 
-            </div>
+                    <h3
+                      class="
+                        text-lg
+                        font-semibold
+                      "
+                    >
+                      {term.data.title}
+                    </h3>
 
-          </a>
+                    <p
+                      class="
+                        text-sm
+                        leading-relaxed
+                        text-[var(--color-muted)]
+                      "
+                    >
+                      {term.data.shortMeaning}
+                    </p>
 
-        ))}
+                    {term.data.scriptures?.length > 0 && (
 
-      </div>
+                      <p
+                        class="
+                          text-xs
+                          text-[var(--color-muted)]
+                        "
+                      >
+                        {term.data.scriptures
+                          .slice(0, 3)
+                          .join(" • ")}
+                      </p>
+
+                    )}
+
+                  </div>
+
+                </a>
+
+              )
+            )}
+
+          </div>
+
+        </section>
+
+      ))}
 
     </section>
 
