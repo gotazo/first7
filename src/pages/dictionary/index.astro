@@ -1,0 +1,161 @@
+---
+export const prerender = true;
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import StudyHero from "../../components/shared/StudyHero.astro";
+import TopicChips from "../../components/shared/TopicChips.astro";
+
+import { getCollection } from "astro:content";
+
+const terms = (
+  await getCollection("dictionary")
+).sort((a, b) =>
+  a.data.term.localeCompare(
+    b.data.term
+  )
+);
+---
+
+<BaseLayout
+  title="Bible Dictionary"
+  description="Explore biblical words, themes, and meanings through Scripture."
+>
+
+  <main
+    class="
+      mx-auto
+      max-w-6xl
+      px-4
+      py-16
+      sm:px-6
+    "
+  >
+
+    <StudyHero
+      section="Bible Dictionary"
+      title="Bible Dictionary"
+      description="Explore biblical words, themes, and meanings through Scripture."
+    />
+
+    <TopicChips
+      items={[
+        {
+          label: "Faith",
+          href: "/dictionary/faith"
+        },
+        {
+          label: "Grace",
+          href: "/dictionary/grace"
+        },
+        {
+          label: "Kingdom",
+          href: "/dictionary/kingdom"
+        },
+        {
+          label: "Covenant",
+          href: "/dictionary/covenant"
+        }
+      ]}
+    />
+
+    <section class="mt-12 space-y-6">
+
+      <div
+        class="
+          flex
+          items-center
+          justify-between
+        "
+      >
+        <h2
+          class="
+            text-2xl
+            font-semibold
+          "
+        >
+          Dictionary Terms
+        </h2>
+
+        <span
+          class="
+            text-sm
+            text-[var(--color-muted)]
+          "
+        >
+          {terms.length} Terms
+        </span>
+
+      </div>
+
+      <div
+        class="
+          grid
+          gap-4
+          md:grid-cols-2
+          lg:grid-cols-3
+        "
+      >
+
+        {terms.map((term) => (
+
+          <a
+            href={`/dictionary/${term.id}`}
+            class="
+              rounded-2xl
+              border
+              border-[var(--color-border)]
+              p-5
+              transition
+              hover:border-[var(--color-primary)]
+            "
+          >
+
+            <div class="space-y-3">
+
+              <h3
+                class="
+                  text-lg
+                  font-semibold
+                "
+              >
+                {term.data.title}
+              </h3>
+
+              <p
+                class="
+                  text-sm
+                  leading-relaxed
+                  text-[var(--color-muted)]
+                "
+              >
+                {term.data.shortMeaning}
+              </p>
+
+              {term.data.scriptures?.length > 0 && (
+
+                <p
+                  class="
+                    text-xs
+                    text-[var(--color-muted)]
+                  "
+                >
+                  {term.data.scriptures
+                    .slice(0, 3)
+                    .join(" • ")}
+                </p>
+
+              )}
+
+            </div>
+
+          </a>
+
+        ))}
+
+      </div>
+
+    </section>
+
+  </main>
+
+</BaseLayout>
