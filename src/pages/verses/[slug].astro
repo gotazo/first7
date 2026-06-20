@@ -24,180 +24,149 @@ return paths;
 const { entry } = Astro.props as { entry: VerseEntry };
 const { Content } = await render(entry);
 
-const allVerses = await getCollection('verses');
 
-function extractKeywords(slug: string) {
-return slug
-.replace("bible-verses-for-", "")
-.replace("bible-verses-about-", "")
-.split("-")
-.filter(Boolean);
-}
-
-const currentKeywords = extractKeywords(entry.data.slug);
-
-const scored = allVerses
-  .filter(v => v.id !== entry.id)
-  .map(v => {
-    const keywords = extractKeywords(v.data.slug);
-    const score = keywords.filter(k => currentKeywords.includes(k)).length;
-    return { ...v, score };
-  })
-  .filter(v => v.score > 0)
-  .sort((a, b) => b.score - a.score);
-
-const related =
-  scored.length > 0
-    ? scored.slice(0, 3)
-    : allVerses.filter(v => v.id !== entry.id).slice(0, 3);
 ---
 
 <BaseLayout title={entry.data.title} full={true}>
 
 <!-- Fonts -->
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link
+href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+rel="stylesheet"
+/>
 
 <div class="mx-auto w-[92%] max-w-[1400px] px-4">
 
   <!-- MOBILE FIRST STACK -->
-  <div class="flex flex-col lg:grid lg:grid-cols-[minmax(0,1fr)_320px] gap-10">
+  <div class="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-6">
 
     <!-- 🟩 CARD + CONTROLS (TOP ON MOBILE, SIDEBAR ON DESKTOP) -->
-    <aside class="order-1 lg:order-2">
+    
 
-      <div class="lg:sticky lg:top-24 space-y-5">
+    <!-- 🟦 CONTENT -->
+<!-- 🖼️ CANVAS AREA -->
+<main class="order-1">
 
-        <!-- CARD -->
-        <div id="verse-card"
-  class="rounded-2xl overflow-hidden border w-full flex items-center justify-center bg-[var(--color-bg-soft)]"
-  style="aspect-ratio:1/1;">
-  
-  <span class="text-xs text-[var(--color-muted)]">
-    Loading verse...
-  </span>
+  <div class="space-y-5 lg:sticky lg:top-24">
 
-</div>
+    <!-- CARD -->
+    <div
+      id="verse-card"
+      class="rounded-3xl overflow-hidden border bg-[var(--color-bg-soft)] flex items-center justify-center"
+      style="aspect-ratio:1/1;"
+    >
+      <span class="text-xs text-[var(--color-muted)]">
+        Loading verse...
+      </span>
+    </div>
 
-        <!-- BUTTONS -->
-        <div class="grid grid-cols-2 gap-2">
-          <button id="download-btn" class="btn verse-action-button px-4 py-3 rounded-xl text-sm">
-            Download
-          </button>
+    <!-- ACTIONS -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
 
-          <button id="share-btn" class="btn-secondary verse-action-button px-4 py-3 rounded-xl text-sm">
-            Share
-          </button>
+      <button id="download-btn"
+        class="btn verse-action-button px-4 py-3 rounded-xl text-sm">
+        Download
+      </button>
 
-          <button id="wa-btn" class="btn verse-action-button px-4 py-3 rounded-xl text-sm">
-            WhatsApp
-          </button>
+      <button id="share-btn"
+        class="btn-secondary verse-action-button px-4 py-3 rounded-xl text-sm">
+        Share
+      </button>
 
-          <button id="copy-btn" class="btn-secondary verse-action-button px-4 py-3 rounded-xl text-sm">
-            Copy
-          </button>
-        </div>
+      <button id="wa-btn"
+        class="btn verse-action-button px-4 py-3 rounded-xl text-sm">
+        WhatsApp
+      </button>
 
-        <!-- STYLE SELECT -->
-        <div class="flex gap-2">
-          <button data-style="calm" class="btn-secondary style-pill flex-1 px-4 py-2 rounded-xl text-sm">Calm</button>
-          <button data-style="modern" class="btn-secondary style-pill flex-1 px-4 py-2 rounded-xl text-sm">Modern</button>
-          <button data-style="elegant" class="btn-secondary style-pill flex-1 px-4 py-2 rounded-xl text-sm">Elegant</button>
-        </div>
+      <button id="copy-btn"
+        class="btn-secondary verse-action-button px-4 py-3 rounded-xl text-sm">
+        Copy
+      </button>
 
-        <!-- INSTRUCTION -->
-        <div class="text-xs text-center text-[var(--color-muted)] leading-relaxed space-y-1">
-          <p>✨ Tap a verse to generate your card</p>
-          <p>⚡ Share sends text instantly</p>
-          <p>🖼️ Download saves image</p>
-        </div>
-		
-		<!-- 🎯 NEXT STEP -->
-<div class="rounded-2xl border p-5 space-y-3">
+    </div>
 
-  <p class="font-medium">
-    Take the next step
-  </p>
+    <!-- STYLES -->
+    <div class="flex gap-2">
 
-  <div class="space-y-2 text-sm">
+      <button
+        data-style="calm"
+        class="btn-secondary style-pill flex-1 px-4 py-2 rounded-xl text-sm">
+        Calm
+      </button>
 
-    {related.map(v => (
-      <a
-        href={`/verses/${v.data.slug}`}
-        class="block hover:underline"
-      >
-        → {v.data.title}
-      </a>
-    ))}
+      <button
+        data-style="modern"
+        class="btn-secondary style-pill flex-1 px-4 py-2 rounded-xl text-sm">
+        Modern
+      </button>
+
+      <button
+        data-style="elegant"
+        class="btn-secondary style-pill flex-1 px-4 py-2 rounded-xl text-sm">
+        Elegant
+      </button>
+
+    </div>
 
   </div>
 
-</div>
+</main>
 
-<!-- 🌍 EXPLORE -->
-<div class="rounded-2xl border p-5 space-y-3">
+<!-- 📚 VERSE LIBRARY -->
+<aside class="order-2">
 
-  <p class="font-medium">
-    Explore more
-  </p>
+  <div class="lg:sticky lg:top-24">
 
-  <a href="/verses" class="block text-sm hover:underline">
-    📚 View all topics
-  </a>
+    <div class="rounded-2xl border overflow-hidden">
 
-</div>
+      <div class="p-4 border-b">
+
+        <h2 class="font-semibold">
+          Verse Library
+        </h2>
+
+        <p class="text-xs text-[var(--color-muted)] mt-1">
+          Select a verse to update the card
+        </p>
 
       </div>
-    </aside>
 
-    <!-- 🟦 CONTENT -->
-    <main class="order-2 lg:order-1">
+      <div
+        id="verse-picker"
+        class="max-h-[75vh] overflow-y-auto divide-y"
+      >
+      </div>
 
-      <article class="max-w-2xl mx-auto py-10 space-y-8">
+    </div>
 
-        <header class="space-y-3">
-          <h1 class="text-3xl md:text-5xl font-semibold leading-tight">
-            {entry.data.title}
-          </h1>
-          <p class="text-[var(--color-muted)]">
-            {entry.data.description}
-          </p>
-        </header>
+  </div>
 
-        <div id="verse-content" class="prose prose-neutral dark:prose-invert">
+</aside>
+
+</div>
+</div>
+
+<!-- Hidden source for JS -->
+<div
+  id="verse-content"
+  class="hidden"
+  aria-hidden="true"
+>
   <Content />
 </div>
 
-<!-- ✅ CTA OUTSIDE prose -->
-<div class="mt-10 rounded-2xl border p-6 bg-[var(--color-primary)]/5">
+<!-- SEO Content -->
+<section class="mx-auto max-w-4xl px-4 py-12">
 
-  <p class="font-medium">
-    Pray these verses
-  </p>
+  <article class="prose prose-neutral dark:prose-invert max-w-none">
+    <Content />
+  </article>
 
-  <p class="text-sm text-[var(--color-muted)] mt-1">
-    Use these verses as a guide to pray.
-  </p>
-
-  <a
-    href={`/prayers/${entry.data.slug
-      .replace("bible-verses-for-", "")
-      .replace("bible-verses-about-", "")}`}
-    class="btn inline-block mt-4 px-5 py-2 rounded-lg text-sm"
-  >
-    Pray this →
-  </a>
-
-</div>
-
-      </article>
-
-    </main>
-
-  </div>
-</div>
+</section>
 
 </BaseLayout>
+
 
 <style>
   .verse-action-button {
@@ -262,23 +231,23 @@ let cachedPngPromise = null;
 ------------------------- */
 const themes = {
   calm: {
-    bg: "#fff7ed",
-    text: "#020617",
-    accent: "#ea580c",
-    brand: "#64748b"
-  },
+  bg: "#fdf6ec",
+  text: "#2d3748",
+  accent: "#d97706",
+  brand: "#7c8aa0"
+},
 
   elegant: {
-    bg: "#f8fafc",
-    text: "#020617",
-    accent: "#16a34a",
-    brand: "#64748b"
-  },
+    bg: "#fffdf7",
+    text: "#4a3426",
+    accent: "#8b6f47",
+    brand: "#9b8b78"
+},
 
   modern: {
-    bg: "#261038",
-    text: "#f8fafc",
-    accent: "#22c55e",
+    bg: "#0f172a",
+    text: "#ffffff",
+    accent: "#38bdf8",
     brand: "#94a3b8"
   }
 };
@@ -300,8 +269,8 @@ function getTypography(){
 
   if(currentStyle === "elegant"){
     return {
-      fontFamily: "'Playfair Display', serif",
-      fontWeight: 500,
+      fontFamily: "'Cormorant Garamond', serif",
+      fontWeight: 700,
       letterSpacing: ".2",
       lineHeightRatio: 1.5,
       wrapWidth: 20,
@@ -332,8 +301,123 @@ function generateSVG(text, ref){
   /* -------------------------
      BACKGROUND (FLAT ONLY)
   ------------------------- */
-  const bg = `<rect width="100%" height="100%" fill="${theme.bg}"/>`;
+let bg = "";
 
+if(currentStyle === "calm"){
+
+bg = `
+<rect width="100%" height="100%" fill="${theme.bg}"/>
+
+<circle
+ cx="150"
+ cy="150"
+ r="250"
+ fill="${theme.accent}"
+ opacity="0.08"
+/>
+
+<circle
+ cx="950"
+ cy="900"
+ r="220"
+ fill="${theme.accent}"
+ opacity="0.06"
+/>
+`;
+
+}
+else if(currentStyle === "elegant"){
+
+bg = `
+<rect width="100%" height="100%" fill="${theme.bg}"/>
+
+<circle
+ cx="540"
+ cy="540"
+ r="420"
+ fill="${theme.accent}"
+ opacity="0.03"
+/>
+
+<rect
+ x="60"
+ y="60"
+ width="960"
+ height="960"
+ rx="40"
+ fill="none"
+ stroke="${theme.accent}"
+ stroke-width="2"
+ opacity="0.75"
+/>
+
+<rect
+ x="90"
+ y="90"
+ width="900"
+ height="900"
+ rx="24"
+ fill="none"
+ stroke="${theme.accent}"
+ stroke-width="1"
+ opacity="0.25"
+/>
+
+<line
+ x1="140"
+ y1="180"
+ x2="940"
+ y2="180"
+ stroke="${theme.accent}"
+ stroke-width="1"
+ opacity="0.2"
+/>
+
+<line
+ x1="140"
+ y1="900"
+ x2="940"
+ y2="900"
+ stroke="${theme.accent}"
+ stroke-width="1"
+ opacity="0.2"
+/>
+`;
+
+}
+else {
+
+bg = `
+<defs>
+
+<radialGradient id="glow">
+
+<stop offset="0%" stop-color="${theme.accent}" stop-opacity="0.45"/>
+
+<stop offset="100%" stop-color="${theme.accent}" stop-opacity="0"/>
+
+</radialGradient>
+
+</defs>
+
+<rect width="100%" height="100%" fill="${theme.bg}"/>
+
+<circle
+ cx="250"
+ cy="250"
+ r="350"
+ fill="url(#glow)"
+/>
+
+<circle
+ cx="850"
+ cy="850"
+ r="300"
+ fill="url(#glow)"
+/>
+`;
+
+}
   /* -------------------------
      TEXT WRAP
   ------------------------- */
@@ -376,7 +460,7 @@ function generateSVG(text, ref){
   font-size="${fontSize}"
   letter-spacing="${t.letterSpacing}"
   fill="${theme.text}"
-  font-family="${t.fontFamily}"
+  style="font-family:${t.fontFamily};"
   font-weight="${t.fontWeight}">
   ${line.trim()}
 </text>`;
@@ -561,14 +645,21 @@ function preloadFirstVerse(){
   selectedText = text;
   selectedRef = ref;
 
-  updatePreview();
+const firstButton =
+  document.querySelector("#verse-picker button");
+
+firstButton?.classList.add(
+  "bg-[var(--color-bg-soft)]"
+);
+
+updatePreview();
 }
 
 /* -------------------------
    CLICK HANDLER
 ------------------------- */
 container.addEventListener("click",(e)=>{
-  const block = e.target.closest("blockquote");
+  const block = e.target?.closest?.("blockquote");
   if(!block) return;
 
   const text = block.innerText.trim();
@@ -586,10 +677,15 @@ container.addEventListener("click",(e)=>{
    STYLE SWITCH
 ------------------------- */
 styleButtons.forEach(btn=>{
-  btn.addEventListener("click", ()=>{
+
+  btn.addEventListener("click",()=>{
+
     currentStyle = btn.dataset.style;
+
     updatePreview();
+
   });
+
 });
 
 /* -------------------------
@@ -628,9 +724,68 @@ copyBtn?.addEventListener("click", ()=>{
   navigator.clipboard.writeText(`${selectedText} — ${selectedRef}`);
 });
 
+function buildVerseLibrary(){
+
+  const picker =
+    document.getElementById("verse-picker");
+
+  if(!picker) return;
+
+  const verses =
+    container.querySelectorAll("blockquote");
+
+  picker.innerHTML = "";
+
+  verses.forEach((block)=>{
+
+    const text =
+      block.innerText.trim();
+
+    const ref =
+      block.getAttribute("data-ref") || "";
+
+    const btn =
+      document.createElement("button");
+
+    btn.className =
+      "w-full text-left p-4 hover:bg-[var(--color-bg-soft)] transition";
+
+    btn.innerHTML = `
+      <div class="font-semibold text-sm">
+       ${ref}
+     </div>
+
+    <div class="text-xs opacity-70 mt-2 line-clamp-3">
+      ${text}
+    </div>
+    `;
+
+    btn.addEventListener("click",()=>{
+
+  picker.querySelectorAll("button")
+    .forEach(el=>{
+      el.classList.remove("bg-[var(--color-bg-soft)]");
+    });
+
+  btn.classList.add("bg-[var(--color-bg-soft)]");
+
+  selectedText = text;
+  selectedRef = ref;
+
+  updatePreview();
+
+});
+
+    picker.appendChild(btn);
+
+  });
+
+}
+
 /* -------------------------
    INIT
 ------------------------- */
+buildVerseLibrary();
 preloadFirstVerse();
 
 }
