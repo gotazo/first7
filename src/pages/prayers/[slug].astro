@@ -24,135 +24,126 @@ export async function getStaticPaths() {
 const { entry } = Astro.props as { entry: PrayerEntry };
 const { Content } = await render(entry);
 
-const allPrayers = await getCollection('prayers');
 
-function extractKeywords(slug: string) {
-  return slug
-    .replace("prayers-for-", "")
-    .replace("prayers-about-", "")
-    .split("-")
-    .filter(Boolean);
-}
-
-const currentKeywords = extractKeywords(entry.data.slug);
-
-const scored = allPrayers
-  .filter(p => p.id !== entry.id)
-  .map(p => {
-    const keywords = extractKeywords(p.data.slug);
-    const score = keywords.filter(k => currentKeywords.includes(k)).length;
-    return { ...p, score };
-  })
-  .filter(p => p.score > 0)
-  .sort((a, b) => b.score - a.score);
-
-const related =
-  scored.length > 0
-    ? scored.slice(0, 3)
-    : allPrayers.filter(p => p.id !== entry.id).slice(0, 3);
 ---
 
 <BaseLayout title={entry.data.title} full={true}>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+  rel="stylesheet"
+/>
 
 <div class="mx-auto w-[92%] max-w-[1400px] px-4">
 
   <div class="flex flex-col lg:grid lg:grid-cols-[minmax(0,1fr)_320px] gap-10">
 
     <!-- 🟩 SIDEBAR -->
-    <aside class="order-1 lg:order-2">
+    <aside class="order-2">
 
-      <div class="lg:sticky lg:top-24 space-y-5">
+  <div class="lg:sticky lg:top-24">
 
-        <!-- CARD -->
-        <div id="prayer-card"
-          class="rounded-2xl overflow-hidden border w-full flex items-center justify-center bg-[var(--color-bg-soft)]"
-          style="aspect-ratio:1/1;">
-          <span class="text-xs text-[var(--color-muted)]">
-            Tap a prayer to generate your card
-          </span>
-        </div>
+    <div class="rounded-2xl border overflow-hidden">
 
-        <!-- BUTTONS -->
-        <div class="grid grid-cols-2 gap-2">
-          <button id="download-btn" class="btn verse-action-button px-4 py-3 rounded-xl text-sm">
-            Download
-          </button>
+      <div class="p-4 border-b">
 
-          <button id="share-btn" class="btn-secondary verse-action-button px-4 py-3 rounded-xl text-sm">
-            Share
-          </button>
+        <h2 class="font-semibold">
+          Prayer Library
+        </h2>
 
-          <button id="wa-btn" class="btn verse-action-button px-4 py-3 rounded-xl text-sm">
-            WhatsApp
-          </button>
-
-          <button id="copy-btn" class="btn-secondary verse-action-button px-4 py-3 rounded-xl text-sm">
-            Copy
-          </button>
-        </div>
-
-        <!-- STYLE SELECT -->
-        <div class="flex gap-2">
-          <button data-style="calm" class="btn-secondary style-pill flex-1 px-4 py-2 rounded-xl text-sm">Calm</button>
-          <button data-style="modern" class="btn-secondary style-pill flex-1 px-4 py-2 rounded-xl text-sm">Modern</button>
-          <button data-style="elegant" class="btn-secondary style-pill flex-1 px-4 py-2 rounded-xl text-sm">Elegant</button>
-        </div>
-
-        <!-- INSTRUCTION -->
-        <div class="text-xs text-center text-[var(--color-muted)] space-y-1">
-          <p>🙏 Tap a prayer to generate your card</p>
-          <p>⚡ Share instantly</p>
-        </div>
-
-        <!-- NEXT STEP -->
-        <div class="rounded-2xl border p-5 space-y-3">
-          <p class="font-medium">Take the next step</p>
-
-          <div class="space-y-2 text-sm">
-            {related.map(p => (
-              <a
-                href={`/prayers/${p.data.slug}`}
-                class="block hover:underline"
-              >
-                → {p.data.title}
-              </a>
-            ))}
-          </div>
-        </div>
-
-        <!-- EXPLORE -->
-        <div class="rounded-2xl border p-5 space-y-3">
-          <a href="/prayers" class="block text-sm hover:underline">
-            📚 View all prayers
-          </a>
-        </div>
+        <p class="text-xs text-[var(--color-muted)] mt-1">
+          Select a prayer to update the card
+        </p>
 
       </div>
 
-    </aside>
+      <div
+        id="prayer-picker"
+        class="max-h-[75vh] overflow-y-auto divide-y"
+      >
+      </div>
+
+    </div>
+
+  </div>
+
+</aside>
 
     <!-- 🟦 CONTENT -->
-    <main class="order-2 lg:order-1">
+    <main class="order-1 lg:order-1">
 
-      <article class="max-w-2xl mx-auto py-10 space-y-8">
+      <div class="space-y-5 lg:sticky lg:top-24">
 
-        <header class="space-y-3">
-          <h1 class="text-3xl md:text-5xl font-semibold leading-tight">
-            {entry.data.title}
-          </h1>
+  <div
+    id="prayer-card"
+    class="rounded-3xl overflow-hidden border bg-[var(--color-bg-soft)] flex items-center justify-center"
+    style="aspect-ratio:1/1;"
+  >
+    <span class="text-xs text-[var(--color-muted)]">
+      Loading prayer...
+    </span>
+  </div>
 
-          <p class="text-[var(--color-muted)]">
-            {entry.data.description}
-          </p>
-        </header>
+  <div class="grid grid-cols-2 gap-3">
 
-        <div id="prayer-content" class="prose prose-neutral dark:prose-invert">
-          <Content />
-        </div>
+    <button id="download-btn"
+      class="btn px-4 py-3 rounded-xl text-sm">
+      Download
+    </button>
 
-      </article>
+    <button id="share-btn"
+      class="btn-secondary px-4 py-3 rounded-xl text-sm">
+      Share
+    </button>
+
+  </div>
+
+  <div class="flex gap-2">
+
+    <button data-style="calm"
+      class="btn-secondary flex-1 px-4 py-2 rounded-xl text-sm">
+      Calm
+    </button>
+
+    <button data-style="modern"
+      class="btn-secondary flex-1 px-4 py-2 rounded-xl text-sm">
+      Modern
+    </button>
+
+    <button data-style="elegant"
+      class="btn-secondary flex-1 px-4 py-2 rounded-xl text-sm">
+      Elegant
+    </button>
+
+  </div>
+
+</div>
+
+      <!-- Hidden source for JS -->
+<div
+  id="prayer-content"
+  class="hidden"
+  aria-hidden="true"
+>
+  <Content />
+</div>
+
+<article class="max-w-4xl mx-auto py-10">
+
+  <header class="space-y-3 mb-8">
+
+    <h1 class="text-3xl md:text-5xl font-semibold leading-tight">
+      {entry.data.title}
+    </h1>
+
+    <p class="text-[var(--color-muted)]">
+      {entry.data.description}
+    </p>
+
+  </header>
+
+</article>
+
 
     </main>
 
@@ -170,48 +161,182 @@ window.__prayerCardInitialized = true;
 const container = document.getElementById("prayer-content");
 const card = document.getElementById("prayer-card");
 
+const downloadBtn =
+  document.getElementById("download-btn");
+
+const shareBtn =
+  document.getElementById("share-btn");
+
+if(!container || !card) return;
+
 const styleButtons = document.querySelectorAll("[data-style]");
 
 let selectedText = "";
 let selectedRef = "";
 let currentStyle = "calm";
-
+let cachedPngBlob = null;
+let cachedPngKey = "";
+let cachedPngPromise = null;
 /* THEMES */
 const themes = {
+
   calm: {
-    bg: "#f4f8f2",      // soft warm green
-    text: "#1e293b",
-    accent: "#84a98c",
+    bg: "#f6fbf6",
+    text: "#163020",
+    accent: "#6aa27a",
     brand: "#64748b"
   },
 
   elegant: {
-    bg: "#f7f4fb",      // soft lavender (very light)
-    text: "#1e293b",
-    accent: "#9f7aea",
-    brand: "#64748b"
+    bg: "#faf5ef",
+    text: "#2b2118",
+    accent: "#c7a86b",
+    brand: "#8f7a5b"
   },
 
   modern: {
-    bg: "#eef2f7",      // clean soft blue-gray
-    text: "#020617",
-    accent: "#3b82f6",
+    bg: "#0f172a",
+    text: "#f8fafc",
+    accent: "#38bdf8",
     brand: "#94a3b8"
   }
+
 };
 
 /* TYPOGRAPHY */
 function getTypography(){
+
+  if(currentStyle === "modern"){
+    return {
+      fontFamily: "'Inter', sans-serif",
+      fontWeight: 700,
+      letterSpacing: "-0.2",
+      lineHeightRatio: 1.2,
+      wrapWidth: 24
+    };
+  }
+
+  if(currentStyle === "elegant"){
+    return {
+      fontFamily: "'Cormorant Garamond', serif",
+      fontWeight: 600,
+      letterSpacing: ".4",
+      lineHeightRatio: 1.45,
+      wrapWidth: 20
+    };
+  }
+
   return {
-    fontFamily: currentStyle === "modern" ? "'Inter', sans-serif" : "'Playfair Display', serif",
-    fontWeight: currentStyle === "modern" ? 700 : 500,
-    letterSpacing: currentStyle === "modern" ? "-0.2" : "0.3",
-    lineHeightRatio: currentStyle === "modern" ? 1.2 : 1.4,
-    wrapWidth: currentStyle === "modern" ? 24 : 22
+    fontFamily: "'Playfair Display', serif",
+    fontWeight: 500,
+    letterSpacing: "0.3",
+    lineHeightRatio: 1.4,
+    wrapWidth: 22
   };
+
 }
 
 /* SVG */
+function getBackgroundSVG(theme){
+
+if(currentStyle === "calm"){
+
+return `
+<rect width="100%" height="100%" fill="${theme.bg}"/>
+
+<circle cx="150" cy="150" r="220"
+ fill="${theme.accent}" opacity="0.08"/>
+
+<circle cx="920" cy="920" r="260"
+ fill="${theme.accent}" opacity="0.06"/>
+
+<circle cx="540" cy="540" r="420"
+ fill="${theme.accent}" opacity="0.02"/>
+`;
+}
+
+if(currentStyle === "elegant"){
+
+return `
+<rect width="100%" height="100%" fill="${theme.bg}"/>
+
+<rect
+ x="60"
+ y="60"
+ width="960"
+ height="960"
+ rx="40"
+ fill="none"
+ stroke="${theme.accent}"
+ stroke-width="4"
+ opacity="0.8"
+/>
+
+<rect
+ x="90"
+ y="90"
+ width="900"
+ height="900"
+ rx="24"
+ fill="none"
+ stroke="${theme.accent}"
+ stroke-width="1"
+ opacity="0.3"
+/>
+
+<circle
+ cx="540"
+ cy="540"
+ r="420"
+ fill="${theme.accent}"
+ opacity="0.03"
+/>
+`;
+}
+
+return `
+<defs>
+
+<radialGradient id="glow">
+
+<stop offset="0%"
+ stop-color="${theme.accent}"
+ stop-opacity="0.35"/>
+
+<stop offset="100%"
+ stop-color="${theme.accent}"
+ stop-opacity="0"/>
+
+</radialGradient>
+
+</defs>
+
+<rect width="100%" height="100%" fill="${theme.bg}"/>
+
+<circle
+ cx="250"
+ cy="250"
+ r="350"
+ fill="url(#glow)"
+/>
+
+<circle
+ cx="850"
+ cy="850"
+ r="320"
+ fill="url(#glow)"
+/>
+
+<circle
+ cx="540"
+ cy="540"
+ r="500"
+ fill="${theme.accent}"
+ opacity="0.03"
+/>
+`;
+}
+
 function generateSVG(text, ref){
   const width = 1080;
   const height = 1080;
@@ -267,8 +392,9 @@ function generateSVG(text, ref){
   }).join("");
 
   return `
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}">
-  <rect width="100%" height="100%" fill="${theme.bg}"/>
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}">
+  ${getBackgroundSVG(theme)}
 
   ${textSVG}
 
@@ -297,8 +423,122 @@ function generateSVG(text, ref){
 
 /* UPDATE */
 function updatePreview(){
-  if(!selectedText) return;
-  card.innerHTML = generateSVG(selectedText, selectedRef);
+
+  if(!selectedText || !card) return;
+
+  cachedPngBlob = null;
+  cachedPngKey = "";
+  cachedPngPromise = null;
+
+  card.innerHTML =
+    generateSVG(selectedText, selectedRef);
+
+  warmPngCache();
+
+}
+
+function svgToPngBlob(svg){
+  return new Promise((resolve, reject)=>{
+    const canvas = document.createElement("canvas");
+    canvas.width = 1080;
+    canvas.height = 1080;
+
+    const ctx = canvas.getContext("2d", { alpha: false });
+    if(!ctx){
+      reject(new Error("Canvas is not supported."));
+      return;
+    }
+
+    const img = new Image();
+    const svgBlob = new Blob([svg], { type: "image/svg+xml;charset=utf-8" });
+    const svgUrl = URL.createObjectURL(svgBlob);
+
+    const cleanup = ()=>{
+      URL.revokeObjectURL(svgUrl);
+      img.onload = null;
+      img.onerror = null;
+    };
+
+    img.onload = ()=>{
+      try{
+        ctx.drawImage(img, 0, 0, 1080, 1080);
+        canvas.toBlob(blob=>{
+          cleanup();
+          blob ? resolve(blob) : reject(new Error("PNG generation failed."));
+        }, "image/png");
+      }catch(error){
+        cleanup();
+        reject(error);
+      }
+    };
+
+    img.onerror = ()=>{
+      cleanup();
+      reject(new Error("Image generation failed."));
+    };
+
+    img.src = svgUrl;
+  });
+}
+
+async function getPngBlob(){
+  const key = `${currentStyle}|${selectedRef}|${selectedText}`;
+  if(cachedPngBlob && cachedPngKey === key) return cachedPngBlob;
+  if(cachedPngPromise && cachedPngKey === key) return cachedPngPromise;
+
+  const svg = generateSVG(selectedText, selectedRef);
+  cachedPngKey = key;
+
+  cachedPngPromise = (async ()=>{
+    if(document.fonts?.ready){
+      await document.fonts.ready;
+    }
+
+    const blob = await svgToPngBlob(svg);
+
+    if(cachedPngKey === key){
+      cachedPngBlob = blob;
+    }
+
+    return blob;
+  })().catch(error=>{
+    if(cachedPngKey === key){
+      cachedPngBlob = null;
+      cachedPngKey = "";
+      cachedPngPromise = null;
+    }
+
+    throw error;
+  }).finally(()=>{
+    if(cachedPngKey === key){
+      cachedPngPromise = null;
+    }
+  });
+
+  return cachedPngPromise;
+}
+
+function warmPngCache(){
+  getPngBlob().catch(()=>{});
+}
+
+async function sharePrayer(){
+  const text = `${selectedText} — ${selectedRef}`;
+  const caption = selectedRef ? `${selectedRef} • first7.org` : "first7.org";
+
+  try{
+    const blob = await getPngBlob();
+    const file = new File([blob], "prayer-card.png", { type: "image/png" });
+
+    if(navigator.canShare?.({ files: [file] })){
+      await navigator.share({ files: [file], text: caption });
+      return;
+    }
+  }catch(error){
+    console.warn("Image sharing failed, falling back to text share.", error);
+  }
+
+  navigator.share?.({ text });
 }
 
 /* LOAD FIRST */
@@ -311,6 +551,13 @@ function preloadFirst(){
 
   selectedText = text;
   selectedRef = ref;
+
+  const firstButton =
+  document.querySelector("#prayer-picker button");
+
+firstButton?.classList.add(
+  "bg-[var(--color-bg-soft)]"
+);
 
   updatePreview();
 }
@@ -337,7 +584,104 @@ styleButtons.forEach(btn=>{
   });
 });
 
+function buildPrayerLibrary(){
+
+  const picker =
+    document.getElementById("prayer-picker");
+
+  if(!picker) return;
+
+  const prayers =
+    container.querySelectorAll(".prayer");
+
+  picker.innerHTML = "";
+
+  prayers.forEach((block)=>{
+
+    const text =
+      block.querySelector(".prayer-text")?.innerText || "";
+
+    const ref =
+      block.getAttribute("data-ref") || "";
+
+    const title =
+      block.getAttribute("data-title") || "";
+
+    const btn =
+      document.createElement("button");
+
+    btn.className =
+      "w-full text-left p-4 hover:bg-[var(--color-bg-soft)] transition";
+
+    btn.innerHTML = `
+      <div class="font-semibold text-sm">
+        ${title}
+      </div>
+
+      <div class="text-xs opacity-70 mt-1">
+        ${ref}
+      </div>
+
+      <div class="text-xs opacity-60 mt-2 line-clamp-3">
+        ${text}
+      </div>
+    `;
+
+    btn.addEventListener("click",()=>{
+
+      picker.querySelectorAll("button")
+        .forEach(el=>{
+          el.classList.remove("bg-[var(--color-bg-soft)]");
+        });
+
+      btn.classList.add(
+        "bg-[var(--color-bg-soft)]"
+      );
+
+      selectedText = text;
+      selectedRef = ref;
+
+      updatePreview();
+
+    });
+
+    picker.appendChild(btn);
+
+  });
+
+}
+
+downloadBtn?.addEventListener("click", async ()=>{
+
+  if(!selectedText) return;
+
+  const blob = await getPngBlob();
+
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+
+  a.href = url;
+  a.download = "prayer-card.png";
+
+  a.click();
+
+  setTimeout(()=>{
+    URL.revokeObjectURL(url);
+  },1000);
+
+});
+
+shareBtn?.addEventListener("click", ()=>{
+
+  if(!selectedText) return;
+
+  sharePrayer();
+
+});
+
 /* INIT */
+buildPrayerLibrary();
 preloadFirst();
 
 }

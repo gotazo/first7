@@ -16,13 +16,26 @@ b.data.title
 )
 );
 
+const categoryOrder = [
+  "symbols",
+  "people",
+  "nations",
+  "places",
+  "events",
+  "timelines",
+];
+
 const categories = Array.from(
-new Set(
-entries.map(
-(entry) => entry.data.category
-)
-)
-).sort();
+  new Set(
+    entries.map(
+      (entry) => entry.data.category
+    )
+  )
+).sort(
+  (a, b) =>
+    categoryOrder.indexOf(a) -
+    categoryOrder.indexOf(b)
+);
 
 const categoryGroups =
 categories.map((category) => ({

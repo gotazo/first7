@@ -15,12 +15,12 @@ scriptures:
   - Luke 23
 
 related:
-  - people/jesus
-  - people/alexander
+  - people/alexander-son-of-simon
+  - people/rufus-son-of-simon
+  - nations/cyrene
 
 terms:
   - cross
-  - disciple
   - witness
 
 aliases:

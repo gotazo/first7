@@ -62,7 +62,7 @@ rel="stylesheet"
     </div>
 
     <!-- ACTIONS -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
+    <div class="grid grid-cols-2 gap-3">
 
       <button id="download-btn"
         class="btn verse-action-button px-4 py-3 rounded-xl text-sm">
@@ -74,17 +74,7 @@ rel="stylesheet"
         Share
       </button>
 
-      <button id="wa-btn"
-        class="btn verse-action-button px-4 py-3 rounded-xl text-sm">
-        WhatsApp
-      </button>
-
-      <button id="copy-btn"
-        class="btn-secondary verse-action-button px-4 py-3 rounded-xl text-sm">
-        Copy
-      </button>
-
-    </div>
+       </div>
 
     <!-- STYLES -->
     <div class="flex gap-2">
@@ -157,14 +147,19 @@ rel="stylesheet"
 </div>
 
 <!-- SEO Content -->
-<section class="mx-auto max-w-4xl px-4 py-12">
+<section class="max-w-3xl mx-auto py-10 text-center">
 
-  <article class="prose prose-neutral dark:prose-invert max-w-none">
-    <Content />
-  </article>
+  <h1 class="text-4xl font-semibold">
+    {entry.data.title}
+  </h1>
+
+  <p class="mt-4 text-[var(--color-muted)]">
+    Browse verses, generate shareable Scripture cards,
+    and download images for social media, WhatsApp,
+    church groups, and personal encouragement.
+  </p>
 
 </section>
-
 </BaseLayout>
 
 
@@ -212,8 +207,6 @@ const card = document.getElementById("verse-card");
 
 const downloadBtn = document.getElementById("download-btn");
 const shareBtn = document.getElementById("share-btn");
-const waBtn = document.getElementById("wa-btn");
-const copyBtn = document.getElementById("copy-btn");
 
 const styleButtons = document.querySelectorAll("[data-style]");
 
@@ -713,16 +706,6 @@ shareBtn?.addEventListener("click", ()=>{
   shareVerse();
 });
 
-waBtn?.addEventListener("click", ()=>{
-  if(!selectedText) return;
-  const text = `${selectedText} — ${selectedRef}`;
-  window.open(`https://wa.me/?text=${encodeURIComponent(text)}`);
-});
-
-copyBtn?.addEventListener("click", ()=>{
-  if(!selectedText) return;
-  navigator.clipboard.writeText(`${selectedText} — ${selectedRef}`);
-});
 
 function buildVerseLibrary(){
 

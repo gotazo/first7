@@ -173,7 +173,14 @@ const prophecy = defineCollection({
     title: z.string(),
     description: z.string(),
 
-    category: z.enum(["symbols", "people", "nations", "timeline", "events"]),
+  category: z.enum([
+      "symbols",
+      "people",
+      "nations",
+      "places",
+      "events",
+      "timeline"
+  ]),
 
     tags: z.array(z.string()).default([]),
 
