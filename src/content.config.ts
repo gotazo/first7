@@ -272,6 +272,36 @@ const numbers = defineCollection({
 });
 
 /* =========================
+   VERSE JAR (STUDY SYSTEM)
+========================= */
+
+const verseJar = defineCollection({
+  loader: glob({
+    pattern: "**/*.md",
+    base: "./src/content/verse-jar",
+  }),
+
+  schema: z.object({
+    id: z.string(),
+    title: z.string(),
+
+    category: z.enum([
+      "faith",
+      "hope",
+      "prayer",
+      "encouragement",
+      "wisdom",
+    ]),
+
+    reference: z.string(),
+
+    verse: z.string(),
+
+    tags: z.array(z.string()).default([]),
+  }),
+});
+
+/* =========================
    📦 EXPORT (ONLY ONCE)
 ========================= */
 export const collections = {
@@ -288,4 +318,5 @@ export const collections = {
   prophecy,
   dictionary,
   numbers,
+  verseJar,
 };

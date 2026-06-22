@@ -1,0 +1,148 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+
+  const verses =
+    await getCollection("verseJar");
+
+  console.log(
+    verses.map((v) => ({
+      id: v.id,
+      dataId: v.data.id,
+    }))
+  );
+
+  return verses.map((entry) => ({
+    params: {
+      slug: entry.data.id,
+    },
+    props: {
+      entry,
+    },
+  }));
+}
+
+const { entry } = Astro.props;
+
+await render(entry);
+---
+
+<BaseLayout
+  title={`${entry.data.reference} | Bible Verse Jar`}
+  description={entry.data.verse}
+>
+
+<section class="mx-auto max-w-3xl">
+
+  <div class="mb-8">
+
+    <a
+      href="/verse-jar"
+      class="
+        text-sm
+        text-[var(--color-muted)]
+        hover:text-[var(--color-primary)]
+      "
+    >
+      ← Back to Verse Jar
+    </a>
+
+  </div>
+
+  <section class="verse-card">
+
+    <blockquote class="verse-text">
+      {entry.data.verse}
+    </blockquote>
+
+    <footer class="verse-reference">
+      {entry.data.reference}
+    </footer>
+
+  </section>
+
+</section>
+
+<style>
+
+.verse-card {
+
+  border:
+    1px solid
+    var(--color-border);
+
+  border-radius:
+    2rem;
+
+  background:
+    linear-gradient(
+      to bottom,
+      color-mix(
+        in srgb,
+        var(--color-primary) 6%,
+        transparent
+      ),
+      transparent
+    );
+
+  padding:
+    3rem;
+
+  box-shadow:
+    0 10px 40px
+    rgba(0,0,0,.08);
+
+}
+
+.verse-text {
+
+  margin: 0;
+
+  font-family:
+    "Playfair Display",
+    serif;
+
+  font-style:
+    italic;
+
+  font-weight:
+    500;
+
+  font-size:
+    clamp(
+      1.6rem,
+      2vw,
+      2.4rem
+    );
+
+  line-height:
+    1.9;
+
+}
+
+.verse-reference {
+
+  margin-top:
+    2rem;
+
+  padding-top:
+    1rem;
+
+  border-top:
+    1px solid
+    var(--color-border);
+
+  color:
+    var(--color-primary);
+
+  font-style:
+    italic;
+
+  font-weight:
+    600;
+
+}
+
+</style>

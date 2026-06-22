@@ -1,0 +1,128 @@
+---
+
+---
+
+<div
+  id="verseJar"
+  class="jar-wrapper"
+  aria-hidden="true"
+>
+  <svg
+    viewBox="0 0 220 280"
+    class="jar-svg"
+    role="img"
+  >
+
+    <!-- Lid -->
+    <rect
+      x="70"
+      y="20"
+      width="80"
+      height="18"
+      rx="4"
+      class="jar-lid"
+    />
+
+    <!-- Jar Body -->
+    <path
+      d="
+        M60 40
+        L60 210
+        Q60 250 110 250
+        Q160 250 160 210
+        L160 40
+        Z
+      "
+      class="jar-body"
+    />
+
+    <!-- Paper Slips -->
+    <rect
+      x="85"
+      y="85"
+      width="22"
+      height="10"
+      rx="2"
+      class="slip"
+    />
+
+    <rect
+      x="115"
+      y="95"
+      width="22"
+      height="10"
+      rx="2"
+      class="slip"
+    />
+
+    <rect
+      x="95"
+      y="120"
+      width="22"
+      height="10"
+      rx="2"
+      class="slip"
+    />
+
+    <rect
+      x="120"
+      y="140"
+      width="22"
+      height="10"
+      rx="2"
+      class="slip"
+    />
+
+    <rect
+      x="80"
+      y="155"
+      width="22"
+      height="10"
+      rx="2"
+      class="slip"
+    />
+
+  </svg>
+</div>
+
+<style>
+  .jar-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .jar-svg {
+    width: 180px;
+    height: auto;
+  }
+
+  .jar-body {
+    fill: var(--color-surface);
+    stroke: var(--color-border);
+    stroke-width: 3;
+  }
+
+  .jar-lid {
+    fill: var(--color-primary);
+    opacity: 0.9;
+  }
+
+  .slip {
+    fill: var(--color-primary);
+    opacity: 0.2;
+  }
+
+  .jar-shake {
+    animation: jarShake .5s ease;
+  }
+
+  @keyframes jarShake {
+    0% { transform: rotate(0deg); }
+    20% { transform: rotate(-3deg); }
+    40% { transform: rotate(3deg); }
+    60% { transform: rotate(-2deg); }
+    80% { transform: rotate(2deg); }
+    100% { transform: rotate(0deg); }
+  }
+</style>

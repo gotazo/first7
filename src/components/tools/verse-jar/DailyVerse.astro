@@ -1,0 +1,106 @@
+---
+const { verse } = Astro.props;
+---
+
+<section class="daily-verse">
+
+  <p class="daily-label">
+    Today's Verse
+  </p>
+
+  <blockquote class="daily-text">
+    {verse.verse}
+  </blockquote>
+
+  <footer class="daily-reference">
+    {verse.reference}
+  </footer>
+
+  <a
+    href={`/verse-jar/${verse.id}`}
+    class="daily-link"
+  >
+    View Verse →
+  </a>
+
+</section>
+
+<style>
+
+.daily-verse {
+
+  border:
+    1px solid
+    var(--color-border);
+
+  border-radius:
+    1.25rem;
+
+  padding:
+    1.25rem;
+
+  margin-bottom:
+    2rem;
+
+}
+
+.daily-label {
+
+  font-size:
+    .7rem;
+
+  letter-spacing:
+    .2em;
+
+  text-transform:
+    uppercase;
+
+  color:
+    var(--color-muted);
+
+}
+
+.daily-text {
+
+  margin:
+    .75rem 0;
+
+  font-family:
+    "Playfair Display",
+    serif;
+
+  font-style:
+    italic;
+
+  font-size:
+    1.1rem;
+
+  line-height:
+    1.7;
+
+}
+
+.daily-reference {
+
+  color:
+    var(--color-primary);
+
+  font-style:
+    italic;
+
+  font-size:
+    .9rem;
+
+}
+
+.daily-link {
+
+  display:
+    inline-block;
+
+  margin-top:
+    1rem;
+
+}
+
+</style>

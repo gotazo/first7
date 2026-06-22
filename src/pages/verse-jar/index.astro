@@ -1,0 +1,361 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ScriptureCard from "../../components/tools/verse-jar/ScriptureCard.astro";
+import DailyVerse from "../../components/tools/verse-jar/DailyVerse.astro";
+import { getCollection } from "astro:content";
+
+const verses = await getCollection("verseJar");
+
+const dayNumber =
+  Math.floor(
+    Date.now() / 86400000
+  );
+
+const dailyVerse =
+  verses[
+    dayNumber % verses.length
+  ];
+
+const verseData = verses.map((v) => ({
+  id: v.data.id,
+  title: v.data.title,
+  reference: v.data.reference,
+  verse: v.data.verse,
+  category: v.data.category,
+}));
+---
+
+<BaseLayout
+  title="Bible Verse Jar"
+  description="Draw a Bible verse from the jar."
+>
+
+<section class="mx-auto max-w-3xl">
+
+<DailyVerse
+  verse={{
+    id: dailyVerse.data.id,
+    verse: dailyVerse.data.verse,
+    reference: dailyVerse.data.reference,
+  }}
+/>
+  <h1 class="text-4xl font-bold mb-6">
+    Bible Verse Jar
+  </h1>
+
+  <div
+    id="categories"
+    class="flex flex-wrap gap-3 mb-8"
+  >
+
+    <button data-category="all" class="jar-chip active">
+      All
+    </button>
+
+    <button data-category="faith" class="jar-chip">
+      Faith
+    </button>
+
+    <button data-category="hope" class="jar-chip">
+      Hope
+    </button>
+
+    <button data-category="prayer" class="jar-chip">
+      Prayer
+    </button>
+
+    <button data-category="encouragement" class="jar-chip">
+      Encouragement
+    </button>
+
+    <button data-category="wisdom" class="jar-chip">
+      Wisdom
+    </button>
+
+  </div>
+
+<div
+  id="verseCard"
+  class="
+    rounded-3xl
+    border
+    border-[var(--color-border)]
+    bg-[var(--color-primary)]/5
+    p-8
+    mb-10
+    hidden
+  "
+>
+
+  <div class="space-y-6">
+
+    <div>
+      <span
+        id="verseCategory"
+        class="
+          inline-flex
+          rounded-full
+          border
+          border-[var(--color-border)]
+          px-3
+          py-1
+          text-xs
+          uppercase
+          tracking-[0.2em]
+          text-[var(--color-muted)]
+        "
+      >
+      </span>
+    </div>
+
+  <blockquote
+  id="verseText"
+  class="
+    text-2xl
+    leading-relaxed
+  "
+  >
+
+    </blockquote>
+
+    <footer
+  class="
+    border-t
+    border-[var(--color-border)]
+    pt-4
+    flex
+    justify-between
+    items-center
+  "
+>
+
+  <span
+    id="verseReference"
+    class="
+      font-semibold
+      text-[var(--color-primary)]
+    "
+  >
+  </span>
+
+  <a
+    id="viewVerseLink"
+    href="#"
+    class="
+      text-sm
+      text-[var(--color-muted)]
+      hover:text-[var(--color-primary)]
+      transition
+    "
+  >
+    View Full Card →
+  </a>
+
+</footer>
+
+  </div>
+
+</div>
+
+<div class="jar-wrapper">
+  <ScriptureCard />
+</div>
+
+<div class="flex justify-center mb-8">
+  <button
+    id="drawVerse"
+    class="
+      rounded-xl
+      px-5
+      py-3
+      bg-[var(--color-primary)]
+      text-white
+    "
+  >
+    Draw a Verse
+  </button>
+</div>
+
+</section>
+
+<style>
+  .jar-chip {
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    padding: .5rem 1rem;
+    transition: all .2s;
+  }
+
+  .jar-chip.active {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+
+  #verseCard {
+    transition:
+      opacity .25s ease,
+      transform .25s ease;
+  }
+
+#verseText {
+
+  font-family:
+    "Playfair Display",
+    serif;
+
+  font-style:
+    italic;
+
+  font-weight:
+    500;
+
+  font-size:
+    clamp(
+      1.4rem,
+      2vw,
+      2.2rem
+    );
+
+  line-height:
+    1.8;
+
+}
+
+#verseText::before {
+
+  content: "“";
+
+  color:
+    var(--color-primary);
+
+  opacity: .35;
+
+  font-size:
+    2rem;
+
+  margin-right:
+    .15rem;
+
+}
+
+  #verseReference {
+
+    font-size: 1.1rem;
+
+    font-style: italic;
+
+    opacity: .9;
+
+  }
+
+  #verseCategory {
+
+    letter-spacing: .25em;
+
+    font-size: .7rem;
+
+  }
+
+</style>
+
+<script define:vars={{ verseData }}>
+
+  let currentCategory = "all";
+
+  const chips =
+    document.querySelectorAll(".jar-chip");
+
+  const button =
+    document.getElementById("drawVerse");
+
+  const card =
+    document.getElementById("verseCard");
+
+  const scriptureCard =
+    document.getElementById("scriptureCard");
+
+  const categoryEl =
+    document.getElementById("verseCategory");
+
+  const textEl =
+    document.getElementById("verseText");
+
+  const referenceEl =
+    document.getElementById("verseReference");
+
+  const viewLink =
+  document.getElementById("viewVerseLink");
+
+  chips.forEach((chip) => {
+
+    chip.addEventListener("click", () => {
+
+      chips.forEach((c) =>
+        c.classList.remove("active")
+      );
+
+      chip.classList.add("active");
+
+      currentCategory =
+        chip.dataset.category || "all";
+    });
+
+  });
+
+  scriptureCard?.addEventListener(
+  "click",
+  () => {
+    button?.click();
+  }
+);
+
+button?.addEventListener("click", () => {
+
+  scriptureCard?.classList.add("card-draw");
+
+  setTimeout(() => {
+    scriptureCard?.classList.remove("card-draw");
+  }, 600);
+
+  card.classList.remove("hidden");
+  card.style.opacity = "0.4";
+
+  setTimeout(() => {
+
+    const pool =
+      currentCategory === "all"
+        ? verseData
+        : verseData.filter(
+            (v) =>
+              v.category === currentCategory
+          );
+
+    if (!pool.length) return;
+
+    const random =
+      pool[
+        Math.floor(
+          Math.random() * pool.length
+        )
+      ];
+
+    categoryEl.textContent =
+      random.category;
+
+    textEl.textContent =
+      random.verse;
+
+    referenceEl.textContent =
+      random.reference;
+
+    viewLink.href =
+      `/verse-jar/${random.id}`;
+
+    card.style.opacity = "1";
+
+  }, 150);
+
+});
+</script>
+
+</BaseLayout>
