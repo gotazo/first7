@@ -1,18 +1,14 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import ToolShare from "../../components/tools/shared/ToolShare.astro";
+import VerseCardFrame from
+  "../../components/tools/verse-jar/VerseCardFrame.astro";
 import { getCollection, render } from "astro:content";
 
 export async function getStaticPaths() {
 
   const verses =
     await getCollection("verseJar");
-
-  console.log(
-    verses.map((v) => ({
-      id: v.id,
-      dataId: v.data.id,
-    }))
-  );
 
   return verses.map((entry) => ({
     params: {
@@ -25,6 +21,20 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
+
+const allVerses =
+  await getCollection("verseJar");
+
+const relatedVerses =
+  allVerses
+    .filter(
+      (v) =>
+        v.data.category ===
+          entry.data.category &&
+        v.data.id !==
+          entry.data.id
+    )
+    .slice(0, 3);
 
 await render(entry);
 ---
@@ -49,19 +59,114 @@ await render(entry);
       ← Back to Verse Jar
     </a>
 
+
+
   </div>
 
-  <section class="verse-card">
+
+
+<section class="verse-card">
+
+  <VerseCardFrame />
+
+  <div class="card-content">
+
+    <div class="card-header">
+
+  <div class="card-brand">
+    FIRST7
+  </div>
+
+  <div class="verse-category">
+    {entry.data.category}
+  </div>
+
+</div>
+    <div class="verse-quote">
+      ❝
+    </div>
 
     <blockquote class="verse-text">
       {entry.data.verse}
     </blockquote>
 
-    <footer class="verse-reference">
-      {entry.data.reference}
-    </footer>
+<div class="verse-divider">
 
+  <span></span>
+
+</div>
+
+<div class="verse-divider-icon">
+  ✦
+</div>
+
+<footer class="verse-reference">
+
+  {entry.data.reference}
+
+  <div class="verse-version">
+
+    KJV
+
+  </div>
+
+</footer>
+
+
+<div class="mt-8 flex justify-center">
+  <ToolShare
+    title={`${entry.data.reference} (KJV)`}
+  />
+</div>
+
+
+
+<div class="verse-brand">
+
+  FIRST7
+
+  <span>
+    KJV Scripture Collection
+  </span>
+
+</div>
+
+</div> <!-- card-content -->
+ 
   </section>
+
+  {
+  relatedVerses.length > 0 && (
+
+    <section class="related-verses">
+
+      <h2>
+        Related Verses
+      </h2>
+
+      <div class="related-grid">
+
+        {relatedVerses.map((verse) => (
+
+          <a
+            href={`/verse-jar/${verse.data.id}`}
+            class="related-card"
+          >
+
+            <span>
+              {verse.data.reference}
+            </span>
+
+          </a>
+
+        ))}
+
+      </div>
+
+    </section>
+
+  )
+}
 
 </section>
 
@@ -69,79 +174,347 @@ await render(entry);
 
 .verse-card {
 
+  position: relative;
+  padding: 4rem;
+
+  overflow: hidden;
+
   border:
     1px solid
-    var(--color-border);
+    rgba(214,179,106,.18);
 
   border-radius:
     2rem;
 
   background:
     linear-gradient(
-      to bottom,
-      color-mix(
-        in srgb,
-        var(--color-primary) 6%,
-        transparent
-      ),
-      transparent
+      180deg,
+      rgba(214,179,106,.04),
+      rgba(214,179,106,.01)
     );
 
-  padding:
-    3rem;
+
+  outline:
+    1px solid
+    rgba(214,179,106,.15);
+
+  outline-offset:
+    8px;
 
   box-shadow:
+
+    0 0 0 1px
+    rgba(214,179,106,.06),
+
+    0 0 30px
+    rgba(214,179,106,.05),
+
     0 10px 40px
-    rgba(0,0,0,.08);
+    rgba(0,0,0,.25);
+
+}
+
+.verse-quote {
+
+  text-align: center;
+
+  color: #d6b36a;
+
+  font-size: 3.5rem;
+
+  line-height: 1;
+
+  margin-bottom: .75rem;
+
+  opacity: .85;
+
+  text-shadow:
+    0 0 20px rgba(214,179,106,.25);
 
 }
 
 .verse-text {
 
-  margin: 0;
+  margin: 0 auto;
+
+  max-width: 850px;
+
+  text-align: center;
 
   font-family:
     "Playfair Display",
     serif;
 
-  font-style:
-    italic;
+  font-style: italic;
 
-  font-weight:
-    500;
+  font-weight: 500;
 
   font-size:
     clamp(
-      1.6rem,
+      1.4rem,
       2vw,
-      2.4rem
+      2.1rem
     );
 
-  line-height:
-    1.9;
+  line-height: 1.9;
+
+  color: #f6ead0;
 
 }
 
 .verse-reference {
 
+  margin-top: 2rem;
+
+  text-align: center;
+
+  color:
+    #d6b36a;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  letter-spacing: .08em;
+
+  text-transform: uppercase;
+
+}
+
+.verse-version {
+
+  margin-top: .5rem;
+
+  font-size: .95rem;
+
+  letter-spacing: .3em;
+
+  opacity: .8;
+
+}
+
+.card-header {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 1rem;
+
+  margin-bottom: 3rem;
+
+}
+
+.card-brand {
+
+  color: #d6b36a;
+
+  letter-spacing: .35em;
+
+  font-size: .9rem;
+
+  font-weight: 600;
+
+}
+
+.verse-category {
+
+  text-transform: uppercase;
+
+  font-size: .8rem;
+
+  font-weight: 600;
+  
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  min-width: 140px;
+
+  padding: .65rem 1.25rem;
+
+  border-radius: 999px;
+
+  border:
+    1px solid
+    rgba(214,179,106,.35);
+
+  color:
+    #d6b36a;
+
+  letter-spacing: .15em;
+
+}
+
+.verse-divider {
+
+  display: flex;
+
+  justify-content: center;
+
+  margin-top: 2.5rem;
+
+}
+
+.verse-divider span {
+
+  width: 180px;
+
+  height: 1px;
+
+  background:
+    rgba(214,179,106,.25);
+
+}
+
+.verse-brand {
+
   margin-top:
     2rem;
 
-  padding-top:
-    1rem;
+  text-align:
+    center;
 
-  border-top:
+  display:
+    flex;
+
+  flex-direction:
+    column;
+
+  gap:
+    .25rem;
+
+  font-size:
+    .85rem;
+
+  color:
+    var(--color-muted);
+
+}
+
+.verse-brand span {
+
+  font-size:
+    .75rem;
+
+  opacity:
+    .75;
+
+}
+
+.card-content {
+
+  position: relative;
+
+  z-index: 2;
+
+}
+
+.related-verses {
+
+  margin-top: 3rem;
+
+}
+
+.related-verses h2 {
+
+  text-align: center;
+
+  margin-bottom: 1.5rem;
+
+  color: #d6b36a;
+
+  letter-spacing: .1em;
+
+  text-transform: uppercase;
+
+  font-size: .9rem;
+
+}
+
+.related-grid {
+
+  display: grid;
+
+  gap: 1rem;
+
+}
+
+.related-card {
+
+  display: block;
+
+  text-decoration: none;
+
+  color: inherit;
+
+  padding: 1rem;
+
+  border:
     1px solid
     var(--color-border);
 
-  color:
+  border-radius: 1rem;
+
+  transition: .2s;
+
+  background:
+    color-mix(
+      in srgb,
+      var(--color-primary) 4%,
+      transparent
+    );
+
+}
+
+.related-card:hover {
+
+  border-color:
     var(--color-primary);
 
-  font-style:
-    italic;
+  transform:
+    translateY(-2px);
 
-  font-weight:
-    600;
+}
+
+.related-card span {
+
+  color: #d6b36a;
+
+  font-weight: 600;
+
+}
+
+.verse-frame {
+
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  pointer-events: none;
+
+  z-index: 1;
+
+}
+
+.verse-divider-icon {
+
+  text-align: center;
+
+  color: #d6b36a;
+
+  margin-top: 1.5rem;
+
+  font-size: 1rem;
+
+  opacity: .8;
 
 }
 

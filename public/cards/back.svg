@@ -1,0 +1,141 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 1800"
+  fill="none"
+>
+
+  <rect
+    width="1200"
+    height="1800"
+    fill="#07110f"
+  />
+
+  <!-- Outer Border -->
+
+  <rect
+    x="25"
+    y="25"
+    width="1150"
+    height="1750"
+    rx="40"
+    stroke="#d6b36a"
+    stroke-width="4"
+  />
+
+  <!-- Inner Border -->
+
+  <rect
+    x="70"
+    y="70"
+    width="1060"
+    height="1660"
+    rx="24"
+    stroke="#d6b36a"
+    stroke-width="2"
+    opacity=".85"
+  />
+
+  <!-- Corner Arcs -->
+
+  <path
+    d="M70 130 A60 60 0 0 0 130 70"
+    stroke="#d6b36a"
+    stroke-width="4"
+  />
+
+  <path
+    d="M1070 70 A60 60 0 0 0 1130 130"
+    stroke="#d6b36a"
+    stroke-width="4"
+  />
+
+  <path
+    d="M70 1670 A60 60 0 0 1 130 1730"
+    stroke="#d6b36a"
+    stroke-width="4"
+  />
+
+  <path
+    d="M1070 1730 A60 60 0 0 1 1130 1670"
+    stroke="#d6b36a"
+    stroke-width="4"
+  />
+
+  <!-- Star -->
+
+  <text
+    x="600"
+    y="520"
+    text-anchor="middle"
+    font-size="90"
+    fill="#d6b36a"
+  >
+    ✦
+  </text>
+
+  <!-- FIRST7 -->
+
+  <text
+    x="600"
+    y="760"
+    text-anchor="middle"
+    font-family="Georgia, serif"
+    font-size="140"
+    fill="#d6b36a"
+    letter-spacing="6"
+  >
+    FIRST7
+  </text>
+
+  <!-- Divider -->
+
+  <line
+    x1="350"
+    y1="850"
+    x2="850"
+    y2="850"
+    stroke="#d6b36a"
+    opacity=".6"
+  />
+
+  <!-- Subtitle -->
+
+  <text
+    x="600"
+    y="930"
+    text-anchor="middle"
+    font-family="Georgia, serif"
+    font-size="42"
+    fill="#d6b36a"
+    letter-spacing="8"
+  >
+    KJV SCRIPTURE COLLECTION
+  </text>
+
+  <!-- Ornament -->
+
+  <text
+    x="600"
+    y="1080"
+    text-anchor="middle"
+    font-size="48"
+    fill="#d6b36a"
+  >
+    ❦
+  </text>
+
+  <!-- Website -->
+
+  <text
+    x="600"
+    y="1450"
+    text-anchor="middle"
+    font-family="Georgia, serif"
+    font-size="42"
+    fill="#d6b36a"
+    letter-spacing="8"
+  >
+    FIRST7.ORG
+  </text>
+
+</svg>
