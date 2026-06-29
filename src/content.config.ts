@@ -285,13 +285,25 @@ const verseJar = defineCollection({
     id: z.string(),
     title: z.string(),
 
-    category: z.enum([
-      "faith",
-      "hope",
-      "prayer",
-      "encouragement",
-      "wisdom",
-    ]),
+  category: z.enum([
+    "faith",
+    "hope",
+    "encouragement",
+    "prayer",
+    "peace",
+    "wisdom",
+    "strength",
+    "love",
+    "joy",
+    "grace",
+    "comfort",
+    "salvation",
+    "thanksgiving",
+    "praise",
+    "guidance",
+    "trust",
+    "fear-not",
+  ]),
 
     reference: z.string(),
 

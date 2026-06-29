@@ -23,6 +23,12 @@ const verseData = verses.map((v) => ({
   verse: v.data.verse,
   category: v.data.category,
 }));
+
+const categories = [
+  ...new Set(
+    verses.map((v) => v.data.category)
+  ),
+].sort() as string[];
 ---
 
 <BaseLayout
@@ -43,36 +49,39 @@ const verseData = verses.map((v) => ({
     Bible Verse Jar
   </h1>
 
-  <div
-    id="categories"
-    class="flex flex-wrap gap-3 mb-8"
+<div
+  id="categories"
+  class="flex flex-wrap gap-3 mb-8"
+>
+
+  <button
+    data-category="all"
+    class="jar-chip active"
   >
+    All
+  </button>
 
-    <button data-category="all" class="jar-chip active">
-      All
+  {categories.map((category) => (
+
+    <button
+      data-category={category}
+      class="jar-chip"
+    >
+
+      {category
+        .split("-")
+        .map(
+          word =>
+            word.charAt(0).toUpperCase() +
+            word.slice(1)
+        )
+        .join(" ")}
+
     </button>
 
-    <button data-category="faith" class="jar-chip">
-      Faith
-    </button>
+  ))}
 
-    <button data-category="hope" class="jar-chip">
-      Hope
-    </button>
-
-    <button data-category="prayer" class="jar-chip">
-      Prayer
-    </button>
-
-    <button data-category="encouragement" class="jar-chip">
-      Encouragement
-    </button>
-
-    <button data-category="wisdom" class="jar-chip">
-      Wisdom
-    </button>
-
-  </div>
+</div>
 
 <div
   id="verseCard"
@@ -322,7 +331,7 @@ button?.addEventListener("click", () => {
 
   setTimeout(() => {
 
-    const pool =
+  const pool =
       currentCategory === "all"
         ? verseData
         : verseData.filter(
@@ -340,7 +349,14 @@ button?.addEventListener("click", () => {
       ];
 
     categoryEl.textContent =
-      random.category;
+      random.category
+       .split("-")
+        .map(
+        word =>
+        word.charAt(0).toUpperCase() +
+        word.slice(1)
+    )
+    .join(" ");
 
     textEl.textContent =
       random.verse;

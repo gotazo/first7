@@ -45,9 +45,9 @@ Edition: First7 Scripture Collection — First Edition
 | ------------- | --------------- | ----: | -------------- |
 | Faith         | F7-001 → F7-030 |    30 | ✅ Complete     |
 | Hope          | F7-031 → F7-060 |    30 | ✅ Complete     |
-| Encouragement | F7-061 → F7-090 |    30 | 🟡 In Progress |
-| Prayer        | F7-091 → F7-115 |    25 | ⏳              |
-| Peace         | F7-116 → F7-140 |    25 | ⏳              |
+| Encouragement | F7-061 → F7-090 |    30 | ✅ Complete     |
+| Prayer        | F7-091 → F7-115 |    25 | ✅ Complete     |
+| Peace         | F7-116 → F7-140 |    25 | 🟡 In Progress  |
 | Wisdom        | F7-141 → F7-165 |    25 | ⏳              |
 | Strength      | F7-166 → F7-190 |    25 | ⏳              |
 | Love          | F7-191 → F7-215 |    25 | ⏳              |
