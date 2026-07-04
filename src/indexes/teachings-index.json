@@ -189,6 +189,46 @@
     }
   },
   {
+    "id": "following-jesus-daily",
+    "title": "Following Jesus Daily",
+    "summary": "Discipleship is a continual commitment to follow Christ faithfully each day.",
+    "topics": [
+      "discipleship",
+      "obedience"
+    ],
+    "keywords": [
+      "discipleship",
+      "obedience",
+      "following Jesus",
+      "commitment",
+      "faithfulness"
+    ],
+    "scripture": {
+      "ref": "Luke 9:23",
+      "text": "And he said to them all, If any man will come after me, let him deny himself, and take up his cross daily, and follow me."
+    }
+  },
+  {
+    "id": "discerning-the-times",
+    "title": "Discerning the Times",
+    "summary": "Scripture encourages believers to understand the spiritual significance of the times in which they live and to respond with wisdom.",
+    "topics": [
+      "end times",
+      "discernment"
+    ],
+    "keywords": [
+      "end times",
+      "discernment",
+      "watchfulness",
+      "wisdom",
+      "signs"
+    ],
+    "scripture": {
+      "ref": "Matthew 16:3",
+      "text": "Ye can discern the face of the sky; but can ye not discern the signs of the times?"
+    }
+  },
+  {
     "id": "last-day-army",
     "title": "The Last-Day Army",
     "summary": "The last-day army consists of believers who are led by the Holy Spirit, equipped through God's Word, and prepared to stand faithfully until the return of Jesus Christ.",
@@ -207,6 +247,46 @@
     "scripture": {
       "ref": "Joel 2:11",
       "text": "And the LORD shall utter his voice before his army: for his camp is very great."
+    }
+  },
+  {
+    "id": "prepared-for-the-lords-coming",
+    "title": "Prepared for the Lord's Coming",
+    "summary": "Scripture calls believers to live in readiness for the return of Jesus Christ.",
+    "topics": [
+      "end times",
+      "hope"
+    ],
+    "keywords": [
+      "return of Christ",
+      "readiness",
+      "watchfulness",
+      "hope",
+      "end times"
+    ],
+    "scripture": {
+      "ref": "Matthew 24:44",
+      "text": "Therefore be ye also ready: for in such an hour as ye think not the Son of man cometh."
+    }
+  },
+  {
+    "id": "confidence-in-gods-promises",
+    "title": "Confidence in God's Promises",
+    "summary": "Scripture encourages believers to trust the promises of God with confidence and perseverance.",
+    "topics": [
+      "faith",
+      "promises"
+    ],
+    "keywords": [
+      "promises",
+      "faith",
+      "confidence",
+      "hope",
+      "trust"
+    ],
+    "scripture": {
+      "ref": "2 Corinthians 1:20",
+      "text": "For all the promises of God in him are yea, and in him Amen, unto the glory of God by us."
     }
   },
   {
@@ -417,6 +497,26 @@
     }
   },
   {
+    "id": "living-by-faith",
+    "title": "Living by Faith",
+    "summary": "Biblical faith rests confidently in God's promises rather than uncertainty or speculation.",
+    "topics": [
+      "faith",
+      "trust"
+    ],
+    "keywords": [
+      "faith",
+      "confidence",
+      "trust",
+      "promises",
+      "assurance"
+    ],
+    "scripture": {
+      "ref": "Hebrews 11:1",
+      "text": "Now faith is the substance of things hoped for, the evidence of things not seen."
+    }
+  },
+  {
     "id": "praying-from-victory-not-defeat",
     "title": "Praying from Victory, Not Defeat",
     "summary": "Biblical prayer begins with confidence in God's promises rather than fear, doubt, or hopelessness.",
@@ -501,6 +601,87 @@
     }
   },
   {
+    "id": "train-up-a-child-in-financial-wisdom",
+    "title": "Train Up a Child in Financial Wisdom",
+    "summary": "Parents are called to teach wisdom that prepares future generations to live responsibly before God.",
+    "topics": [
+      "family",
+      "stewardship"
+    ],
+    "keywords": [
+      "children",
+      "family",
+      "wisdom",
+      "stewardship",
+      "training"
+    ],
+    "scripture": {
+      "ref": "Proverbs 22:6",
+      "text": "Train up a child in the way he should go: and when he is old, he will not depart from it."
+    }
+  },
+  {
+    "id": "debt-and-spiritual-bondage",
+    "title": "Debt and Spiritual Bondage",
+    "summary": "Scripture warns that debt can place a borrower under obligation and encourages wisdom, diligence, and freedom from unnecessary financial bondage.",
+    "topics": [
+      "finance",
+      "stewardship"
+    ],
+    "keywords": [
+      "debt",
+      "borrowing",
+      "lending",
+      "stewardship",
+      "finances",
+      "wisdom"
+    ],
+    "scripture": {
+      "ref": "Proverbs 22:7",
+      "text": "The rich ruleth over the poor, and the borrower is servant to the lender."
+    }
+  },
+  {
+    "id": "the-borrower-is-servant-to-the-lender",
+    "title": "The Borrower Is Servant to the Lender",
+    "summary": "Proverbs teaches that borrowing creates an obligation between borrower and lender.",
+    "topics": [
+      "finance",
+      "wisdom"
+    ],
+    "keywords": [
+      "borrower",
+      "lender",
+      "debt",
+      "wisdom",
+      "finances"
+    ],
+    "scripture": {
+      "ref": "Proverbs 22:7",
+      "text": "The rich ruleth over the poor, and the borrower is servant to the lender."
+    }
+  },
+  {
+    "id": "forgiveness-breaks-bondage",
+    "title": "Forgiveness Breaks Bondage",
+    "summary": "Scripture calls believers to forgive others as they have been forgiven by God.",
+    "topics": [
+      "forgiveness",
+      "christian living"
+    ],
+    "keywords": [
+      "forgiveness",
+      "mercy",
+      "grace",
+      "compassion",
+      "reconciliation"
+    ],
+    "scripture": {
+      "ref": "Ephesians 4:32",
+      "text": "And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you."
+    }
+  },
+  {
     "id": "ancient-foundations",
     "title": "Ancient Foundations",
     "summary": "Godly foundations built through truth, obedience, and faithfulness create lasting spiritual stability.",
@@ -582,6 +763,26 @@
     "scripture": {
       "ref": "Colossians 2:7",
       "text": "Rooted and built up in him, and stablished in the faith."
+    }
+  },
+  {
+    "id": "generosity-reflects-gods-heart",
+    "title": "Generosity Reflects God's Heart",
+    "summary": "Scripture repeatedly connects generosity with kindness, mercy, and faithful stewardship.",
+    "topics": [
+      "giving",
+      "stewardship"
+    ],
+    "keywords": [
+      "generosity",
+      "giving",
+      "mercy",
+      "kindness",
+      "stewardship"
+    ],
+    "scripture": {
+      "ref": "Proverbs 11:25",
+      "text": "The liberal soul shall be made fat: and he that watereth shall be watered also himself."
     }
   },
   {
@@ -1129,6 +1330,26 @@
     }
   },
   {
+    "id": "walking-in-the-spirit",
+    "title": "Walking in the Spirit",
+    "summary": "Believers are called to live under the guidance of the Holy Spirit rather than following the desires of the flesh.",
+    "topics": [
+      "holy spirit",
+      "spiritual growth"
+    ],
+    "keywords": [
+      "Holy Spirit",
+      "spirit",
+      "obedience",
+      "guidance",
+      "holiness"
+    ],
+    "scripture": {
+      "ref": "Galatians 5:16",
+      "text": "This I say then, Walk in the Spirit, and ye shall not fulfil the lust of the flesh."
+    }
+  },
+  {
     "id": "insecurity-and-vision",
     "title": "Insecurity Comes from Lack of Vision",
     "summary": "Insecurity often grows when you are unsure about your purpose and direction in life.",
@@ -1146,6 +1367,26 @@
     "scripture": {
       "ref": "Galatians 1:10",
       "text": "For do I now persuade men, or God? or do I seek to please men? for if I yet pleased men, I should not be the servant of Christ."
+    }
+  },
+  {
+    "id": "courage-under-pressure",
+    "title": "Courage Under Pressure",
+    "summary": "God strengthens His people to remain courageous when facing opposition, difficulty, and responsibility.",
+    "topics": [
+      "leadership",
+      "courage"
+    ],
+    "keywords": [
+      "courage",
+      "leadership",
+      "strength",
+      "perseverance",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "Joshua 1:9",
+      "text": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest."
     }
   },
   {
@@ -1167,6 +1408,26 @@
     "scripture": {
       "ref": "Matthew 7:20",
       "text": "Wherefore by their fruits ye shall know them."
+    }
+  },
+  {
+    "id": "leadership-requires-resilience",
+    "title": "Leadership Requires Resilience",
+    "summary": "Those who lead must be prepared to endure criticism, misunderstanding, and opposition without abandoning their calling.",
+    "topics": [
+      "leadership",
+      "perseverance"
+    ],
+    "keywords": [
+      "leadership",
+      "resilience",
+      "perseverance",
+      "endurance",
+      "calling"
+    ],
+    "scripture": {
+      "ref": "Joshua 1:9",
+      "text": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest."
     }
   },
   {
@@ -1205,6 +1466,26 @@
       "humility",
       "accountability",
       "wisdom"
+    ],
+    "scripture": {
+      "ref": "Luke 12:48",
+      "text": "For unto whomsoever much is given, of him shall be much required."
+    }
+  },
+  {
+    "id": "the-cost-of-greatness",
+    "title": "The Cost of Greatness",
+    "summary": "Greater responsibility often brings greater opposition, requiring humility, endurance, and faithfulness.",
+    "topics": [
+      "leadership",
+      "perseverance"
+    ],
+    "keywords": [
+      "greatness",
+      "leadership",
+      "opposition",
+      "perseverance",
+      "responsibility"
     ],
     "scripture": {
       "ref": "Luke 12:48",
@@ -1254,6 +1535,86 @@
     }
   },
   {
+    "id": "love-is-heavens-currency",
+    "title": "Love Is Heaven's Currency",
+    "summary": "Genuine love is demonstrated through generosity, service, and compassion toward others.",
+    "topics": [
+      "love",
+      "giving"
+    ],
+    "keywords": [
+      "love",
+      "generosity",
+      "giving",
+      "compassion",
+      "service"
+    ],
+    "scripture": {
+      "ref": "1 John 3:17",
+      "text": "But whoso hath this world's good, and seeth his brother have need, and shutteth up his bowels of compassion from him, how dwelleth the love of God in him?"
+    }
+  },
+  {
+    "id": "love-is-proven-by-action",
+    "title": "Love Is Proven by Action",
+    "summary": "Biblical love is demonstrated through actions, service, generosity, and compassion toward others.",
+    "topics": [
+      "love",
+      "service"
+    ],
+    "keywords": [
+      "love",
+      "compassion",
+      "generosity",
+      "service",
+      "kindness"
+    ],
+    "scripture": {
+      "ref": "1 John 3:18",
+      "text": "My little children, let us not love in word, neither in tongue; but in deed and in truth."
+    }
+  },
+  {
+    "id": "owe-no-man-anything-but-love",
+    "title": "Owe No Man Anything but Love",
+    "summary": "Scripture teaches believers to avoid remaining indebted while continually showing love toward others.",
+    "topics": [
+      "love",
+      "christian living"
+    ],
+    "keywords": [
+      "love",
+      "debt",
+      "neighbour",
+      "christian living",
+      "obedience"
+    ],
+    "scripture": {
+      "ref": "Romans 13:8",
+      "text": "Owe no man any thing, but to love one another: for he that loveth another hath fulfilled the law."
+    }
+  },
+  {
+    "id": "the-debt-of-love",
+    "title": "The Debt of Love",
+    "summary": "Unlike financial debts that are repaid, the obligation to love others continues throughout life.",
+    "topics": [
+      "love",
+      "relationships"
+    ],
+    "keywords": [
+      "love",
+      "neighbour",
+      "charity",
+      "kindness",
+      "compassion"
+    ],
+    "scripture": {
+      "ref": "Romans 13:8",
+      "text": "Owe no man any thing, but to love one another: for he that loveth another hath fulfilled the law."
+    }
+  },
+  {
     "id": "comparison-reveals-restlessness",
     "title": "Comparison Reveals Restlessness",
     "summary": "Constant comparison often reveals the absence of spiritual rest.",
@@ -1271,6 +1632,26 @@
     "scripture": {
       "ref": "Galatians 6:4",
       "text": "But let every man prove his own work, and then shall he have rejoicing in himself alone, and not in another."
+    }
+  },
+  {
+    "id": "never-quit",
+    "title": "Never Quit",
+    "summary": "Believers are encouraged to remain faithful and continue serving God through every difficulty.",
+    "topics": [
+      "perseverance",
+      "endurance"
+    ],
+    "keywords": [
+      "perseverance",
+      "endurance",
+      "courage",
+      "steadfastness",
+      "faithfulness"
+    ],
+    "scripture": {
+      "ref": "Galatians 6:9",
+      "text": "And let us not be weary in well doing: for in due season we shall reap, if we faint not."
     }
   },
   {
@@ -1357,6 +1738,26 @@
     }
   },
   {
+    "id": "pray-with-expectation",
+    "title": "Pray With Expectation",
+    "summary": "Biblical prayer is offered with confidence that God hears and answers according to His will.",
+    "topics": [
+      "prayer",
+      "faith"
+    ],
+    "keywords": [
+      "prayer",
+      "expectation",
+      "faith",
+      "confidence",
+      "answers"
+    ],
+    "scripture": {
+      "ref": "Mark 11:24",
+      "text": "Therefore I say unto you, What things soever ye desire, when ye pray, believe that ye receive them, and ye shall have them."
+    }
+  },
+  {
     "id": "praying-from-victory-not-defeat",
     "title": "Praying From Victory, Not Defeat",
     "summary": "Biblical prayer flows from faith in God's promises rather than fear, hopelessness, or a sense of defeat.",
@@ -1395,6 +1796,26 @@
     "scripture": {
       "ref": "Matthew 5:8",
       "text": "Blessed are the pure in heart: for they shall see God."
+    }
+  },
+  {
+    "id": "seek-gods-direction",
+    "title": "Seek God's Direction",
+    "summary": "Prayer includes seeking God's guidance before making decisions and taking action.",
+    "topics": [
+      "prayer",
+      "guidance"
+    ],
+    "keywords": [
+      "prayer",
+      "guidance",
+      "wisdom",
+      "direction",
+      "discernment"
+    ],
+    "scripture": {
+      "ref": "James 1:5",
+      "text": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him."
     }
   },
   {
@@ -1837,6 +2258,86 @@
     }
   },
   {
+    "id": "grow-in-grace",
+    "title": "Grow in Grace",
+    "summary": "Spiritual life is intended to continually mature as believers grow in the knowledge and grace of the Lord.",
+    "topics": [
+      "spiritual growth",
+      "maturity"
+    ],
+    "keywords": [
+      "growth",
+      "grace",
+      "maturity",
+      "discipleship",
+      "knowledge"
+    ],
+    "scripture": {
+      "ref": "2 Peter 3:18",
+      "text": "But grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ."
+    }
+  },
+  {
+    "id": "guard-your-heart",
+    "title": "Guard Your Heart",
+    "summary": "Scripture instructs believers to carefully guard the heart because it influences every area of life.",
+    "topics": [
+      "spiritual growth",
+      "wisdom"
+    ],
+    "keywords": [
+      "heart",
+      "wisdom",
+      "discernment",
+      "peace",
+      "vigilance"
+    ],
+    "scripture": {
+      "ref": "Proverbs 4:23",
+      "text": "Keep thy heart with all diligence; for out of it are the issues of life."
+    }
+  },
+  {
+    "id": "reject-mediocrity",
+    "title": "Reject Mediocrity",
+    "summary": "Believers are called to pursue spiritual maturity and faithfully develop the gifts and opportunities God has given them.",
+    "topics": [
+      "spiritual growth",
+      "excellence"
+    ],
+    "keywords": [
+      "excellence",
+      "diligence",
+      "growth",
+      "maturity",
+      "stewardship"
+    ],
+    "scripture": {
+      "ref": "Colossians 3:23",
+      "text": "And whatsoever ye do, do it heartily, as to the Lord, and not unto men;"
+    }
+  },
+  {
+    "id": "renew-your-strength",
+    "title": "Renew Your Strength",
+    "summary": "God strengthens those who patiently wait upon Him and continue trusting in His power.",
+    "topics": [
+      "spiritual growth",
+      "strength"
+    ],
+    "keywords": [
+      "strength",
+      "renewal",
+      "endurance",
+      "hope",
+      "waiting"
+    ],
+    "scripture": {
+      "ref": "Isaiah 40:31",
+      "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles..."
+    }
+  },
+  {
     "id": "strengthening-your-soul",
     "title": "Strengthening Your Soul",
     "summary": "A strengthened soul enables believers to endure trials, receive God's direction, and remain steadfast in faith.",
@@ -1858,6 +2359,127 @@
     }
   },
   {
+    "id": "biblical-stewardship",
+    "title": "Biblical Stewardship",
+    "summary": "Scripture teaches that believers are entrusted with responsibilities and are called to manage them faithfully.",
+    "topics": [
+      "stewardship",
+      "responsibility"
+    ],
+    "keywords": [
+      "stewardship",
+      "servant",
+      "responsibility",
+      "faithfulness",
+      "trust"
+    ],
+    "scripture": {
+      "ref": "1 Corinthians 4:2",
+      "text": "Moreover it is required in stewards, that a man be found faithful."
+    }
+  },
+  {
+    "id": "faithful-stewardship",
+    "title": "Faithful Stewardship",
+    "summary": "Scripture teaches that God entrusts people with responsibilities and expects faithfulness in managing what has been given to them.",
+    "topics": [
+      "stewardship",
+      "faithfulness"
+    ],
+    "keywords": [
+      "stewardship",
+      "faithful",
+      "responsibility",
+      "diligence",
+      "servant",
+      "trust"
+    ],
+    "scripture": {
+      "ref": "Luke 16:10",
+      "text": "He that is faithful in that which is least is faithful also in much: and he that is unjust in the least is unjust also in much."
+    }
+  },
+  {
+    "id": "god-gives-ability",
+    "title": "God Gives Ability",
+    "summary": "Scripture teaches that God gives people the ability and strength to accomplish what He has entrusted to them.",
+    "topics": [
+      "stewardship",
+      "provision"
+    ],
+    "keywords": [
+      "ability",
+      "strength",
+      "stewardship",
+      "provision",
+      "diligence"
+    ],
+    "scripture": {
+      "ref": "Deuteronomy 8:18",
+      "text": "But thou shalt remember the LORD thy God: for it is he that giveth thee power to get wealth..."
+    }
+  },
+  {
+    "id": "overflow-is-for-service",
+    "title": "Overflow Is for Service",
+    "summary": "Scripture teaches that God blesses His people so they may abound in every good work.",
+    "topics": [
+      "stewardship",
+      "service"
+    ],
+    "keywords": [
+      "service",
+      "generosity",
+      "abundance",
+      "stewardship",
+      "giving"
+    ],
+    "scripture": {
+      "ref": "2 Corinthians 9:8",
+      "text": "And God is able to make all grace abound toward you; that ye, always having all sufficiency in all things, may abound to every good work."
+    }
+  },
+  {
+    "id": "remember-the-lord-in-prosperity",
+    "title": "Remember the Lord in Prosperity",
+    "summary": "Scripture reminds God's people to remember Him in times of prosperity and recognize Him as the source of their strength.",
+    "topics": [
+      "stewardship",
+      "gratitude"
+    ],
+    "keywords": [
+      "prosperity",
+      "wealth",
+      "gratitude",
+      "covenant",
+      "stewardship"
+    ],
+    "scripture": {
+      "ref": "Deuteronomy 8:18",
+      "text": "But thou shalt remember the LORD thy God: for it is he that giveth thee power to get wealth, that he may establish his covenant..."
+    }
+  },
+  {
+    "id": "the-power-to-get-wealth",
+    "title": "The Power to Get Wealth",
+    "summary": "Scripture teaches that God gives ability and strength, and reminds His people to remember Him in times of prosperity.",
+    "topics": [
+      "stewardship",
+      "provision"
+    ],
+    "keywords": [
+      "wealth",
+      "provision",
+      "stewardship",
+      "covenant",
+      "diligence"
+    ],
+    "scripture": {
+      "ref": "Deuteronomy 8:18",
+      "text": "But thou shalt remember the LORD thy God: for it is he that giveth thee power to get wealth, that he may establish his covenant..."
+    }
+  },
+  {
     "id": "giving-and-vision",
     "title": "Giving Reveals Your Vision",
     "summary": "The way you give often reveals what matters most in your heart and life.",
@@ -1875,6 +2497,26 @@
     "scripture": {
       "ref": "Matthew 6:21",
       "text": "For where your treasure is, there will your heart be also."
+    }
+  },
+  {
+    "id": "trust-god-before-you-understand",
+    "title": "Trust God Before You Understand",
+    "summary": "Faith often requires trusting God's wisdom before every answer or outcome is fully understood.",
+    "topics": [
+      "trust",
+      "faith"
+    ],
+    "keywords": [
+      "trust",
+      "faith",
+      "confidence",
+      "wisdom",
+      "obedience"
+    ],
+    "scripture": {
+      "ref": "Proverbs 3:5",
+      "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding."
     }
   },
   {

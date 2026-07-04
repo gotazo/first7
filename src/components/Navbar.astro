@@ -148,7 +148,18 @@ const pathname = Astro.url.pathname;
 
 <!-- PRIMARY NAV -->
 
-<!-- PRIMARY NAV -->
+<!-- VERSE JAR -->
+
+<a
+  href="/verse-jar"
+  class={`transition ${
+    pathname.startsWith("/verse-jar")
+      ? "text-[var(--color-text)]"
+      : "text-[var(--color-muted)] hover:text-[var(--color-text)]"
+  }`}
+>
+  Verse Jar
+</a>
 
 <!-- ASK -->
 
@@ -355,6 +366,7 @@ Bible </a>
       </div>
 
       <!-- PRIMARY MOBILE LINKS -->
+      <a href="/verse-jar">Verse Jar</a>
       <a href="/ask">Ask</a>
 
 <div>
