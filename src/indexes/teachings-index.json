@@ -311,6 +311,26 @@
     }
   },
   {
+    "id": "encourage-yourself-in-the-lord",
+    "title": "Encourage Yourself in the Lord",
+    "summary": "Believers are called to strengthen themselves in the Lord during seasons of hardship, trusting God's presence and faithfulness.",
+    "topics": [
+      "faith",
+      "encouragement"
+    ],
+    "keywords": [
+      "encourage yourself",
+      "strengthen yourself",
+      "trust",
+      "hope",
+      "faithfulness"
+    ],
+    "scripture": {
+      "ref": "1 Samuel 30:6",
+      "text": "But David encouraged himself in the LORD his God."
+    }
+  },
+  {
     "id": "eyes-on-jesus",
     "title": "Keep Your Eyes On Jesus",
     "summary": "Spiritual stability comes from focusing on Christ above circumstances.",
@@ -387,6 +407,26 @@
       "trust",
       "belief",
       "promises"
+    ],
+    "scripture": {
+      "ref": "Hebrews 11:1",
+      "text": "Now faith is the substance of things hoped for, the evidence of things not seen."
+    }
+  },
+  {
+    "id": "faith-speaks-with-confidence",
+    "title": "Faith Speaks with Confidence",
+    "summary": "Biblical faith speaks with assurance because it trusts God's promises rather than uncertainty.",
+    "topics": [
+      "faith",
+      "confession"
+    ],
+    "keywords": [
+      "faith",
+      "confidence",
+      "trust",
+      "promises",
+      "confession"
     ],
     "scripture": {
       "ref": "Hebrews 11:1",
@@ -1288,6 +1328,26 @@
     }
   },
   {
+    "id": "deny-the-flesh",
+    "title": "Deny the Flesh",
+    "summary": "Believers are called to walk according to the Spirit rather than the desires of the flesh.",
+    "topics": [
+      "holy spirit",
+      "spiritual growth"
+    ],
+    "keywords": [
+      "flesh",
+      "spirit",
+      "holiness",
+      "obedience",
+      "discipleship"
+    ],
+    "scripture": {
+      "ref": "Galatians 5:16",
+      "text": "This I say then, Walk in the Spirit, and ye shall not fulfil the lust of the flesh."
+    }
+  },
+  {
     "id": "man-or-woman-of-the-spirit",
     "title": "Man or Woman of the Spirit",
     "summary": "A man or woman of the Spirit is a believer whose life, decisions, and desires are governed by the Holy Spirit rather than the flesh.",
@@ -1535,6 +1595,26 @@
     }
   },
   {
+    "id": "love-endures-hardship",
+    "title": "Love Endures Hardship",
+    "summary": "Biblical love remains steadfast through trials, difficulties, and seasons of suffering.",
+    "topics": [
+      "love",
+      "perseverance"
+    ],
+    "keywords": [
+      "love",
+      "endurance",
+      "perseverance",
+      "faithfulness",
+      "suffering"
+    ],
+    "scripture": {
+      "ref": "1 Corinthians 13:7",
+      "text": "Beareth all things, believeth all things, hopeth all things, endureth all things."
+    }
+  },
+  {
     "id": "love-is-heavens-currency",
     "title": "Love Is Heaven's Currency",
     "summary": "Genuine love is demonstrated through generosity, service, and compassion toward others.",
@@ -1572,6 +1652,26 @@
     "scripture": {
       "ref": "1 John 3:18",
       "text": "My little children, let us not love in word, neither in tongue; but in deed and in truth."
+    }
+  },
+  {
+    "id": "love-serves-others",
+    "title": "Love Serves Others",
+    "summary": "Biblical love is demonstrated by serving others with humility, compassion, and selflessness.",
+    "topics": [
+      "love",
+      "service"
+    ],
+    "keywords": [
+      "love",
+      "serving",
+      "humility",
+      "compassion",
+      "kindness"
+    ],
+    "scripture": {
+      "ref": "Galatians 5:13",
+      "text": "By love serve one another."
     }
   },
   {
@@ -1819,6 +1919,26 @@
     }
   },
   {
+    "id": "seek-gods-will-before-you-act",
+    "title": "Seek God's Will Before You Act",
+    "summary": "Scripture teaches believers to seek God's direction before making important decisions.",
+    "topics": [
+      "prayer",
+      "guidance"
+    ],
+    "keywords": [
+      "seek God",
+      "guidance",
+      "wisdom",
+      "direction",
+      "obedience"
+    ],
+    "scripture": {
+      "ref": "1 Samuel 30:8",
+      "text": "And David enquired at the LORD, saying, Shall I pursue after this troop? shall I overtake them?"
+    }
+  },
+  {
     "id": "speaking-to-your-soul",
     "title": "Speaking to Your Soul",
     "summary": "Scripture teaches believers to encourage, instruct, and strengthen their souls by speaking God's truth rather than surrendering to discouragement.",
@@ -1837,6 +1957,26 @@
     "scripture": {
       "ref": "Psalm 42:5",
       "text": "Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God."
+    }
+  },
+  {
+    "id": "strengthen-yourself-before-prayer",
+    "title": "Strengthen Yourself Before Prayer",
+    "summary": "Scripture shows the importance of approaching God with confidence, faith, and a heart established in Him.",
+    "topics": [
+      "prayer",
+      "faith"
+    ],
+    "keywords": [
+      "prayer",
+      "strength",
+      "encouragement",
+      "faith",
+      "confidence"
+    ],
+    "scripture": {
+      "ref": "1 Samuel 30:6",
+      "text": "But David encouraged himself in the LORD his God."
     }
   },
   {
@@ -2298,6 +2438,26 @@
     }
   },
   {
+    "id": "protect-your-peace",
+    "title": "Protect Your Peace",
+    "summary": "Scripture encourages believers to guard their hearts and minds as they trust in God.",
+    "topics": [
+      "spiritual growth",
+      "peace"
+    ],
+    "keywords": [
+      "peace",
+      "guard your heart",
+      "trust",
+      "faith",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Isaiah 26:3",
+      "text": "Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee."
+    }
+  },
+  {
     "id": "reject-mediocrity",
     "title": "Reject Mediocrity",
     "summary": "Believers are called to pursue spiritual maturity and faithfully develop the gifts and opportunities God has given them.",
@@ -2335,6 +2495,66 @@
     "scripture": {
       "ref": "Isaiah 40:31",
       "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles..."
+    }
+  },
+  {
+    "id": "spiritual-discipline-over-feelings",
+    "title": "Spiritual Discipline Over Feelings",
+    "summary": "Spiritual growth is developed through consistent obedience to God rather than being directed by changing emotions.",
+    "topics": [
+      "spiritual growth",
+      "discipline"
+    ],
+    "keywords": [
+      "spiritual discipline",
+      "feelings",
+      "obedience",
+      "consistency",
+      "maturity"
+    ],
+    "scripture": {
+      "ref": "1 Corinthians 9:27",
+      "text": "But I keep under my body, and bring it into subjection..."
+    }
+  },
+  {
+    "id": "stop-living-by-feelings",
+    "title": "Stop Living by Feelings",
+    "summary": "Spiritual maturity is developed by walking according to God's truth rather than changing emotions.",
+    "topics": [
+      "spiritual growth",
+      "maturity"
+    ],
+    "keywords": [
+      "feelings",
+      "faith",
+      "maturity",
+      "truth",
+      "obedience"
+    ],
+    "scripture": {
+      "ref": "2 Corinthians 5:7",
+      "text": "For we walk by faith, not by sight."
+    }
+  },
+  {
+    "id": "strengthen-your-inner-man",
+    "title": "Strengthen Your Inner Man",
+    "summary": "Spiritual strength comes from God's work within the believer and enables steadfast faith.",
+    "topics": [
+      "spiritual growth",
+      "strength"
+    ],
+    "keywords": [
+      "inner man",
+      "spiritual strength",
+      "faith",
+      "endurance",
+      "growth"
+    ],
+    "scripture": {
+      "ref": "Ephesians 3:16",
+      "text": "That he would grant you, according to the riches of his glory, to be strengthened with might by his Spirit in the inner man;"
     }
   },
   {
@@ -2497,6 +2717,46 @@
     "scripture": {
       "ref": "Matthew 6:21",
       "text": "For where your treasure is, there will your heart be also."
+    }
+  },
+  {
+    "id": "god-is-your-help",
+    "title": "God Is Your Help",
+    "summary": "Throughout Scripture, God is revealed as the helper and refuge of those who trust in Him.",
+    "topics": [
+      "trust",
+      "faith"
+    ],
+    "keywords": [
+      "help",
+      "refuge",
+      "trust",
+      "strength",
+      "hope"
+    ],
+    "scripture": {
+      "ref": "Psalm 121:2",
+      "text": "My help cometh from the LORD, which made heaven and earth."
+    }
+  },
+  {
+    "id": "god-is-your-refuge",
+    "title": "God Is Your Refuge",
+    "summary": "Scripture reveals God as a place of safety, strength, and help for those who trust in Him.",
+    "topics": [
+      "trust",
+      "protection"
+    ],
+    "keywords": [
+      "refuge",
+      "trust",
+      "protection",
+      "strength",
+      "hope"
+    ],
+    "scripture": {
+      "ref": "Psalm 46:1",
+      "text": "God is our refuge and strength, a very present help in trouble."
     }
   },
   {
