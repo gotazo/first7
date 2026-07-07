@@ -3,7 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import ToolShare from "../../components/tools/shared/ToolShare.astro";
 import VerseCardFrame from
   "../../components/tools/verse-jar/VerseCardFrame.astro";
-import { getCollection, render } from "astro:content";
+import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
 
@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 
   return verses.map((entry) => ({
     params: {
-      slug: entry.data.id,
+      slug: entry.id,
     },
     props: {
       entry,
@@ -31,17 +31,16 @@ const relatedVerses =
       (v) =>
         v.data.category ===
           entry.data.category &&
-        v.data.id !==
-          entry.data.id
+        v.id !==
+          entry.id
     )
     .slice(0, 3);
 
-await render(entry);
 ---
 
 <BaseLayout
-  title={`${entry.data.reference} | Bible Verse Jar`}
-  description={entry.data.verse}
+  title={`${entry.data.reference} (KJV) | Bible Verse Jar | First7`}
+  description={`${entry.data.reference} (KJV) — ${entry.data.verse}`}
 >
 
 <section class="mx-auto max-w-3xl">
@@ -78,7 +77,14 @@ await render(entry);
   </div>
 
   <div class="verse-category">
-    {entry.data.category}
+    {entry.data.category
+      .split("-")
+      .map(
+        word =>
+        word.charAt(0).toUpperCase() +
+        word.slice(1)
+        )
+      .join(" ")}
   </div>
 
 </div>
@@ -149,7 +155,7 @@ await render(entry);
         {relatedVerses.map((verse) => (
 
           <a
-            href={`/verse-jar/${verse.data.id}`}
+            href={`/verse-jar/${verse.id}`}
             class="related-card"
           >
 
