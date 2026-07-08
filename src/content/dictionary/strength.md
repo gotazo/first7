@@ -3,7 +3,7 @@ title: Strength
 
 term: strength
 
-shortMeaning: the quality of having power, force, endurance, or ability
+shortMeaning: the quality of having power, force, endurance, or the ability to perform or withstand
 
 related:
   - courage
@@ -23,11 +23,9 @@ aliases:
 
 ## Basic Meaning
 
-Strength is the quality of having power,
-force, endurance, ability, or capacity.
-
-The term may refer to physical,
-mental, emotional, or moral power.
+Strength is the quality of possessing
+power, force, endurance, or the ability
+to perform work or withstand pressure.
 
 ---
 
