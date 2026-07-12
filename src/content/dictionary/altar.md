@@ -3,46 +3,88 @@ title: Altar
 
 term: altar
 
-shortMeaning: a raised structure used for offerings, sacrifice, or religious ceremonies
+shortMeaning: A place of sacrifice, worship, or offering dedicated to God.
 
-related:
-  - symbols/altar
+biblicalUsage: >
+  Throughout Scripture, altars are associated with worship, sacrifice,
+  covenant, remembrance, thanksgiving, and dedication to God.
+
+reference:
+  ref: Genesis 8:20
+  text: "And Noah builded an altar unto the LORD..."
+
+featuredVerse:
+  ref: Genesis 12:7
+  text: "And the LORD appeared unto Abram, and said, Unto thy seed will I give this land: and there builded he an altar unto the LORD, who appeared unto him."
 
 scriptures:
   - Genesis 8:20
-  - Exodus 27
-  - 1 Kings 18
-  - Revelation 6:9
-  - Revelation 8:3
+  - Genesis 12:7
+  - Exodus 20:24
+  - Leviticus 17:11
+  - 1 Kings 18:30
+  - Hebrews 13:10
+
+related:
+  - sacrifice
+  - offering
+  - covenant
+  - worship
 
 aliases:
-  - altar of incense
-  - brazen altar
+  - altar of the Lord
+
+seeAlso:
+  - tabernacle
+  - temple
+
+tags:
+  - worship
+  - sacrifice
+  - covenant
+  - offering
+
+hebrew:
+  word: מִזְבֵּחַ
+  transliteration: mizbeach
+  meaning: altar; place of sacrifice
+
 ---
 
-## Basic Meaning
+## Meaning
 
-An altar is a raised structure used for offerings,
-sacrifice, worship, or ceremonial activities.
+An altar is a place set apart for sacrifice, worship, offerings, prayer, thanksgiving, or dedication to God.
 
-Altars have been used throughout history in a variety
-of religious and cultural settings.
+Throughout the Bible, altars mark occasions where people respond to God through worship, covenant, remembrance, or sacrifice.
 
 ---
 
 ## Biblical Usage
 
-The word altar appears throughout Scripture in connection
-with offerings, sacrifice, worship, prayer, the tabernacle,
-and the temple.
+Altars appear throughout both the Old and New Testaments.
 
-References to altars occur in historical narratives,
-the Law, prophetic passages, and Revelation.
+In the Old Testament, they are frequently connected with sacrifices, burnt offerings, peace offerings, covenant ceremonies, worship, and thanksgiving.
+
+The New Testament also refers to the altar in connection with worship and the imagery surrounding Christ's sacrifice.
 
 ---
 
-## Related Topics
+## Key References
+
+- Genesis 8:20
+- Genesis 12:7
+- Exodus 20:24
+- Leviticus 17:11
+- 1 Kings 18:30
+- Hebrews 13:10
+
+---
+
+## Related Terms
 
 - Sacrifice
-- Incense
+- Offering
+- Covenant
+- Worship
+- Tabernacle
 - Temple

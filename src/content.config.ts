@@ -207,6 +207,10 @@ const prophecy = defineCollection({
   }),
 });
 
+/* =========================
+   DICTIONARY (STUDY SYSTEM)
+========================= */
+
 const dictionary = defineCollection({
   loader: glob({
     pattern: "**/*.{md,mdx}",
@@ -214,19 +218,53 @@ const dictionary = defineCollection({
   }),
 
   schema: z.object({
+    // Required
     title: z.string(),
-
     term: z.string(),
-
     shortMeaning: z.string(),
 
-    related: z.array(z.string()).default([]),
+    // Optional
+    biblicalUsage: z.string().optional(),
+
+    reference: z
+      .object({
+        ref: z.string(),
+        text: z.string(),
+      })
+      .optional(),
+
+    featuredVerse: z
+      .object({
+        ref: z.string(),
+        text: z.string(),
+      })
+      .optional(),
 
     scriptures: z.array(z.string()).default([]),
+
+    related: z.array(z.string()).default([]),
 
     aliases: z.array(z.string()).default([]),
 
     seeAlso: z.array(z.string()).default([]),
+
+    tags: z.array(z.string()).default([]),
+
+	hebrew: z
+		.object({
+		word: z.string(),
+		transliteration: z.string(),
+		meaning: z.string().optional(),
+	})
+	.optional(),
+
+	greek: z
+		.object({
+		word: z.string(),
+		transliteration: z.string(),
+		meaning: z.string().optional(),
+	})
+	.optional(),
   }),
 });
 
