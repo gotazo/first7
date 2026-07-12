@@ -17,7 +17,7 @@ const dailyVerse =
   ];
 
 const verseData = verses.map((v) => ({
-  id: v.data.id,
+  id: v.id,
   title: v.data.title,
   reference: v.data.reference,
   verse: v.data.verse,
@@ -40,7 +40,7 @@ const categories = [
 
 <DailyVerse
   verse={{
-    id: dailyVerse.data.id,
+    id: dailyVerse.id,
     verse: dailyVerse.data.verse,
     reference: dailyVerse.data.reference,
   }}
@@ -259,9 +259,6 @@ const categories = [
   const chips =
     document.querySelectorAll(".jar-chip");
 
-  const button =
-    document.getElementById("drawVerse");
-
   const card =
     document.getElementById("verseCard");
 
@@ -296,14 +293,12 @@ const categories = [
 
   });
 
-  scriptureCard?.addEventListener(
+scriptureCard?.addEventListener(
   "click",
-  () => {
-    button?.click();
-  }
+  drawVerse
 );
 
-button?.addEventListener("click", () => {
+function drawVerse() {
 
   scriptureCard?.classList.add("card-draw");
 
@@ -356,7 +351,8 @@ button?.addEventListener("click", () => {
 
   }, 150);
 
-});
+}
+
 </script>
 
 </BaseLayout>
