@@ -1,0 +1,75 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<nav
+  aria-label="Breadcrumb"
+  class="mb-8"
+>
+
+  <ol
+    class="
+      flex
+      flex-wrap
+      items-center
+      gap-2
+      text-sm
+      text-[var(--color-muted)]
+    "
+  >
+
+    <li>
+      <a
+        href="/"
+        class="
+          transition-colors
+          hover:text-[var(--color-primary)]
+        "
+      >
+        Home
+      </a>
+    </li>
+
+    <li
+      aria-hidden="true"
+      class="text-[var(--color-border)]"
+    >
+      /
+    </li>
+
+    <li>
+      <a
+        href="/dictionary"
+        class="
+          transition-colors
+          hover:text-[var(--color-primary)]
+        "
+      >
+        Dictionary
+      </a>
+    </li>
+
+    <li
+      aria-hidden="true"
+      class="text-[var(--color-border)]"
+    >
+      /
+    </li>
+
+    <li
+      class="
+        font-medium
+        text-[var(--color-text)]
+      "
+      aria-current="page"
+    >
+      {title}
+    </li>
+
+  </ol>
+
+</nav>

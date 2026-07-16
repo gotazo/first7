@@ -1,0 +1,352 @@
+---
+import type { CollectionEntry } from "astro:content";
+import DictionaryBreadcrumb from "./DictionaryBreadcrumb.astro";
+
+interface Props {
+  entry: CollectionEntry<"dictionary">;
+
+  collections: {
+    dictionary: CollectionEntry<"dictionary">[];
+    teachings: CollectionEntry<"teachings">[];
+    prophecy: CollectionEntry<"prophecy">[];
+    numbers: CollectionEntry<"numbers">[];
+  };
+}
+
+const {
+  entry,
+  collections,
+} = Astro.props;
+
+const sortedDictionary = [...collections.dictionary].sort((a, b) =>
+  a.data.term.localeCompare(b.data.term)
+);
+
+const currentIndex = sortedDictionary.findIndex(
+  (item) => item.id === entry.id
+);
+
+const totalTerms = sortedDictionary.length;
+
+const currentLetter =
+  entry.data.term.charAt(0).toUpperCase();
+---
+
+<section
+  class="
+    mt-8
+    rounded-2xl
+    border
+    border-[var(--color-border)]
+    bg-[var(--color-surface)]
+    p-6
+  "
+>
+
+  <h2
+    class="
+      text-xl
+      font-semibold
+    "
+  >
+    Quick Reference
+  </h2>
+
+  <DictionaryBreadcrumb
+    title={entry.data.title}
+  />
+
+  <div
+    class="
+      my-6
+      h-px
+      bg-[var(--color-border)]
+    "
+  />
+
+  <!-- Statistics -->
+
+  <div
+    class="
+      grid
+      gap-4
+      md:grid-cols-3
+    "
+  >
+
+    <div
+      class="
+        rounded-xl
+        border
+        border-[var(--color-border)]
+        p-4
+        text-center
+      "
+    >
+
+      <p
+        class="
+          text-xs
+          uppercase
+          tracking-wide
+          text-[var(--color-muted)]
+        "
+      >
+        Total Entries
+      </p>
+
+      <p
+        class="
+          mt-2
+          text-2xl
+          font-bold
+        "
+      >
+        {totalTerms}
+      </p>
+
+    </div>
+
+<div
+  class="
+    rounded-xl
+    border
+    border-[var(--color-border)]
+    p-4
+    text-center
+  "
+>
+
+  <p
+    class="
+      text-xs
+      font-semibold
+      uppercase
+      tracking-wide
+      text-[var(--color-muted)]
+    "
+  >
+    Entry Position
+  </p>
+
+  <p
+    class="
+      mt-2
+      text-2xl
+      font-bold
+    "
+  >
+    {currentIndex + 1} of {totalTerms}
+  </p>
+
+</div>
+
+    <div
+      class="
+        rounded-xl
+        border
+        border-[var(--color-border)]
+        p-4
+        text-center
+      "
+    >
+
+      <p
+        class="
+          text-xs
+          uppercase
+          tracking-wide
+          text-[var(--color-muted)]
+        "
+      >
+        Letter
+      </p>
+
+      <p
+        class="
+          mt-2
+          text-2xl
+          font-bold
+        "
+      >
+        {currentLetter}
+      </p>
+
+    </div>
+
+  </div>
+
+  <div
+    class="
+      mt-8
+      grid
+      gap-8
+      lg:grid-cols-2
+    "
+  >
+
+    <!-- Meaning -->
+
+    <div>
+
+      <h3
+        class="
+          text-sm
+          font-semibold
+          uppercase
+          tracking-wide
+          text-[var(--color-muted)]
+        "
+      >
+        Meaning
+      </h3>
+
+      <p class="mt-2 leading-relaxed">
+        {entry.data.shortMeaning}
+      </p>
+
+    </div>
+
+    <!-- Scriptures -->
+
+    {entry.data.scriptures?.length > 0 && (
+
+      <div>
+
+        <h3
+          class="
+            text-sm
+            font-semibold
+            uppercase
+            tracking-wide
+            text-[var(--color-muted)]
+          "
+        >
+          Key Scriptures
+        </h3>
+
+        <ul
+          class="
+            mt-2
+            space-y-1
+          "
+        >
+
+          {entry.data.scriptures.map((scripture) => (
+
+            <li>{scripture}</li>
+
+          ))}
+
+        </ul>
+
+      </div>
+
+    )}
+
+    <!-- Aliases -->
+
+    {entry.data.aliases?.length > 0 && (
+
+      <div>
+
+        <h3
+          class="
+            text-sm
+            font-semibold
+            uppercase
+            tracking-wide
+            text-[var(--color-muted)]
+          "
+        >
+          Also Called
+        </h3>
+
+        <div
+          class="
+            mt-2
+            flex
+            flex-wrap
+            gap-2
+          "
+        >
+
+          {entry.data.aliases.map((alias) => (
+
+            <span
+              class="
+                rounded-full
+                border
+                border-[var(--color-border)]
+                px-3
+                py-1
+                text-sm
+              "
+            >
+              {alias}
+            </span>
+
+          ))}
+
+        </div>
+
+      </div>
+
+    )}
+
+    <!-- Related -->
+
+    {entry.data.related?.length > 0 && (
+
+      <div>
+
+        <h3
+          class="
+            text-sm
+            font-semibold
+            uppercase
+            tracking-wide
+            text-[var(--color-muted)]
+          "
+        >
+          Related Terms
+        </h3>
+
+        <div
+          class="
+            mt-2
+            flex
+            flex-wrap
+            gap-2
+          "
+        >
+
+          {entry.data.related.map((item) => (
+
+            <a
+              href={`/dictionary/${item}`}
+              class="
+                rounded-full
+                border
+                border-[var(--color-border)]
+                px-3
+                py-1
+                text-sm
+                transition
+                hover:border-[var(--color-primary)]
+              "
+            >
+              {item}
+            </a>
+
+          ))}
+
+        </div>
+
+      </div>
+
+    )}
+
+  </div>
+
+</section>

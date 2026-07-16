@@ -1,0 +1,83 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+import DictionaryLetters from "./DictionaryLetters.astro";
+import DictionaryTerms from "./DictionaryTerms.astro";
+
+interface Props {
+  entries: CollectionEntry<"dictionary">[];
+  currentEntry: string;
+}
+
+const {
+  entries,
+  currentEntry,
+} = Astro.props;
+
+// Sort alphabetically
+const sortedEntries = [...entries].sort((a, b) =>
+  a.data.term.localeCompare(b.data.term)
+);
+
+// Get unique letters
+const letters = [
+  ...new Set(
+    sortedEntries.map((entry) =>
+      entry.data.term.charAt(0).toUpperCase()
+    )
+  ),
+];
+
+// Determine the current letter
+const current = sortedEntries.find(
+  (entry) => entry.id === currentEntry
+);
+
+const currentLetter =
+  current?.data.term.charAt(0).toUpperCase() ?? "A";
+---
+
+<nav
+  aria-label="Dictionary Navigation"
+  class="
+    sticky
+    top-16
+    z-40
+    mt-8
+    rounded-2xl
+    border
+    border-[var(--color-border)]
+    bg-[var(--color-background)]/90
+    backdrop-blur-md
+    shadow-sm
+  "
+>
+
+  <!-- Alphabet -->
+  <div
+    class="
+      border-b
+      border-[var(--color-border)]
+      p-4
+    "
+  >
+
+    <DictionaryLetters
+      letters={letters}
+      currentLetter={currentLetter}
+    />
+
+  </div>
+
+  <!-- Current Letter Terms -->
+  <div class="p-4">
+
+    <DictionaryTerms
+      entries={sortedEntries}
+      currentEntry={currentEntry}
+      currentLetter={currentLetter}
+    />
+
+  </div>
+
+</nav>

@@ -25,8 +25,8 @@
 
   --color-border: #223029;
 
-  --color-primary: #8faf97;
-  --color-primary-hover: #a3c1aa;
+  --color-primary: #9FBEA6;
+  --color-primary-hover: #8FAF97;
 
   --color-accent: #c8b38e;
 }
@@ -133,25 +133,21 @@ article blockquote {
   border-radius: 8px;
 }
 
-/* Links inside content */
-article a {
+
+/* =========================
+   🔗 CONTENT LINKS ONLY
+========================= */
+
+article a:not(.btn):not(.btn-secondary),
+.prose a:not(.btn):not(.btn-secondary) {
   color: var(--color-primary);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-/* =========================
-   🔘 LINKS + SELECTION
-========================= */
-
-a:not(.btn):not(.btn-secondary) {
-  color: var(--color-muted);
-  text-decoration: none;
-}
-
-a:not(.btn):not(.btn-secondary):hover {
-  color: var(--color-primary);
-  text-decoration: underline;
+article a:not(.btn):not(.btn-secondary):hover,
+.prose a:not(.btn):not(.btn-secondary):hover {
+  color: var(--color-primary-hover);
 }
 
 /* Selection */
@@ -172,7 +168,7 @@ button:focus-visible {
 ========================= */
 @layer components {
   .btn {
-    background-color: #7c9a92; /* cool grey-blue */
+    background-color: var(--color-primary); /* cool grey-blue */
     color: #ffffff;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
@@ -205,7 +201,7 @@ button:focus-visible {
 
   /* ✨ HOVER — gentle lift */
   .btn:hover {
-    background-color: #6b8a83;
+    background-color: var(--color-primary-hover);
     transform: translateY(-1px);
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
   }

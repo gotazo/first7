@@ -1,0 +1,185 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  entries: CollectionEntry<"dictionary">[];
+  currentEntry: string;
+}
+
+const {
+  entries,
+  currentEntry,
+} = Astro.props;
+
+// Sort alphabetically
+const sortedEntries = [...entries].sort((a, b) =>
+  a.data.term.localeCompare(b.data.term)
+);
+
+const currentIndex = sortedEntries.findIndex(
+  (entry) => entry.id === currentEntry
+);
+
+const previous =
+  currentIndex > 0
+    ? sortedEntries[currentIndex - 1]
+    : null;
+
+const next =
+  currentIndex < sortedEntries.length - 1
+    ? sortedEntries[currentIndex + 1]
+    : null;
+---
+
+<nav
+  aria-label="Previous and Next Dictionary Terms"
+  class="
+    mt-16
+    border-t
+    border-[var(--color-border)]
+    pt-8
+  "
+>
+
+  <div
+    class="
+      grid
+      gap-6
+      md:grid-cols-3
+      items-center
+    "
+  >
+
+    <!-- Previous -->
+
+    <div>
+
+      {previous && (
+
+        <a
+          href={`/dictionary/${previous.id}`}
+          class="
+            group
+            block
+            rounded-xl
+            border
+            border-[var(--color-border)]
+            p-4
+            transition
+            hover:border-[var(--color-primary)]
+            hover:-translate-y-0.5
+          "
+        >
+
+          <p
+            class="
+              text-xs
+              uppercase
+              tracking-wide
+              text-[var(--color-muted)]
+            "
+          >
+            ← Previous
+          </p>
+
+          <h3
+            class="
+              mt-1
+              font-semibold
+              group-hover:text-[var(--color-primary)]
+            "
+          >
+            {previous.data.title}
+          </h3>
+
+        </a>
+
+      )}
+
+    </div>
+
+    <!-- Position -->
+
+    <div
+      class="
+        text-center
+      "
+    >
+
+      <p
+        class="
+          text-xs
+          uppercase
+          tracking-wide
+          text-[var(--color-muted)]
+        "
+      >
+        Dictionary
+      </p>
+
+      <p
+        class="
+          mt-2
+          text-lg
+          font-semibold
+        "
+      >
+        {currentIndex + 1}
+        of
+        {sortedEntries.length}
+      </p>
+
+    </div>
+
+    <!-- Next -->
+
+    <div>
+
+      {next && (
+
+        <a
+          href={`/dictionary/${next.id}`}
+          class="
+            group
+            block
+            rounded-xl
+            border
+            border-[var(--color-border)]
+            p-4
+            text-right
+            transition
+            hover:border-[var(--color-primary)]
+            hover:-translate-y-0.5
+          "
+        >
+
+          <p
+            class="
+              text-xs
+              uppercase
+              tracking-wide
+              text-[var(--color-muted)]
+            "
+          >
+            Next →
+          </p>
+
+          <h3
+            class="
+              mt-1
+              font-semibold
+              group-hover:text-[var(--color-primary)]
+            "
+          >
+            {next.data.title}
+          </h3>
+
+        </a>
+
+      )}
+
+    </div>
+
+  </div>
+
+</nav>

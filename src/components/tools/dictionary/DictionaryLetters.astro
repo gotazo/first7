@@ -1,0 +1,59 @@
+---
+interface Props {
+  letters: string[];
+  currentLetter: string;
+}
+
+const {
+  letters,
+  currentLetter,
+} = Astro.props;
+---
+
+<nav
+  aria-label="Dictionary Alphabet Navigation"
+  class="flex flex-wrap justify-center gap-2"
+>
+
+  {letters.map((letter) => {
+
+    const active =
+      letter === currentLetter;
+
+    return (
+
+      <a
+        href={`/dictionary/#${letter}`}
+        class:list={[
+          "rounded-lg border px-3 py-2 text-sm font-medium transition-all duration-200",
+
+          active
+            ? [
+                "border-[var(--color-primary)]",
+                "bg-[var(--color-primary-hover)]",
+                "text-[#0E1512]",
+                "shadow-sm",
+              ]
+            : [
+                "border-[var(--color-border)]",
+                "bg-transparent",
+                "text-[var(--color-text)]",
+                "hover:bg-[var(--color-bg-soft)]",
+                "hover:border-[var(--color-primary)]",
+                "hover:text-[var(--color-primary)]",
+              ],
+        ]}
+        aria-current={
+          active
+            ? "true"
+            : undefined
+        }
+      >
+        {letter}
+      </a>
+
+    );
+
+  })}
+
+</nav>

@@ -1,0 +1,255 @@
+---
+import type { CollectionEntry }
+from "astro:content";
+
+interface Props {
+
+  entry: CollectionEntry<"dictionary">;
+
+  collections: {
+
+    dictionary:
+      CollectionEntry<"dictionary">[];
+
+    teachings:
+      CollectionEntry<"teachings">[];
+
+    prophecy:
+      CollectionEntry<"prophecy">[];
+
+    numbers:
+      CollectionEntry<"numbers">[];
+
+  };
+
+}
+
+const {
+
+  entry,
+
+  collections,
+
+} = Astro.props;
+
+// TODO:
+// Use these for automatic Study More links.
+
+const relatedDictionary =
+  collections.dictionary.filter((item) =>
+    entry.data.related?.includes(item.id)
+  );
+
+const relatedTeachings =
+  collections.teachings.filter((item) =>
+
+    item.data.terms
+      ?.map((term: string) =>
+        term.toLowerCase()
+      )
+      .includes(
+        entry.data.term.toLowerCase()
+      )
+
+  );
+
+const relatedProphecy =
+  collections.prophecy.filter((item) =>
+
+    item.data.terms
+      ?.map((term: string) =>
+        term.toLowerCase()
+      )
+      .includes(
+        entry.data.term.toLowerCase()
+      )
+
+  );
+
+const relatedNumbers =
+  collections.numbers.filter((item) =>
+
+    item.data.terms
+      ?.map((term: string) =>
+        term.toLowerCase()
+      )
+      .includes(
+        entry.data.term.toLowerCase()
+      )
+
+  );
+
+const scriptures =
+  entry.data.scriptures ?? [];
+
+const related =
+  entry.data.related ?? [];
+
+const terms =
+  entry.data.terms ?? [];
+---
+
+<section
+  class="
+    mt-16
+    rounded-2xl
+    border
+    border-[var(--color-border)]
+    bg-[var(--color-surface)]
+    p-6
+  "
+>
+
+  <h2
+    class="
+      text-2xl
+      font-bold
+    "
+  >
+    Study More
+  </h2>
+
+  <p
+    class="
+      mt-2
+      text-[var(--color-muted)]
+    "
+  >
+    Continue your Bible study by exploring
+    related Scriptures, dictionary terms,
+    and connected topics.
+  </p>
+
+  <div
+    class="
+      mt-8
+      grid
+      gap-8
+      md:grid-cols-3
+    "
+  >
+
+    <!-- Scriptures -->
+
+    <section>
+
+      <h3
+        class="
+          mb-3
+          text-lg
+          font-semibold
+        "
+      >
+        Scriptures
+      </h3>
+
+      <ul class="space-y-2">
+
+        {scriptures.map((scripture) => (
+
+          <li>
+
+            {scripture}
+
+          </li>
+
+        ))}
+
+      </ul>
+
+    </section>
+
+    <!-- Related Terms -->
+
+    <section>
+
+      <h3
+        class="
+          mb-3
+          text-lg
+          font-semibold
+        "
+      >
+        Related Terms
+      </h3>
+
+      <div
+        class="
+          flex
+          flex-wrap
+          gap-2
+        "
+      >
+
+{related.map((item) => (
+
+  <a
+    key={item}
+    href={`/dictionary/${item}`}
+    class="
+      rounded-full
+      border
+      border-[var(--color-border)]
+      px-3
+      py-1
+      text-sm
+      transition
+      hover:border-[var(--color-primary)]
+    "
+  >
+    {item}
+  </a>
+
+))}
+
+      </div>
+
+    </section>
+
+    <!-- Study Topics -->
+
+    <section>
+
+      <h3
+        class="
+          mb-3
+          text-lg
+          font-semibold
+        "
+      >
+        Study Topics
+      </h3>
+
+      <div
+        class="
+          flex
+          flex-wrap
+          gap-2
+        "
+      >
+
+    {terms.map((term) => (
+
+    <span
+        key={term}
+        class="
+        rounded-full
+        border
+        border-[var(--color-border)]
+        px-3
+        py-1
+        text-sm
+        "
+    >
+        {term}
+    </span>
+
+))}
+
+      </div>
+
+    </section>
+
+  </div>
+
+</section>

@@ -3,14 +3,8 @@ export const prerender = true;
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
-import StudyHero
-  from "../../components/shared/StudyHero.astro";
-
-import TopicChips
-  from "../../components/shared/TopicChips.astro";
-
-import RelatedTopics from "../../components/prophecy/RelatedTopics.astro";
-import RelatedScriptures from "../../components/prophecy/RelatedScriptures.astro";
+import DictionaryLayout
+  from "../../components/tools/dictionary/DictionaryLayout.astro";
 
 import {
   getCollection,
@@ -39,63 +33,25 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 
 /**
- * 📄 Render markdown
+ * Render Markdown
  */
 const { Content } =
   await render(entry);
 
 /**
- * 📚 Collections
+ * Collections
  */
 const allDictionary =
   await getCollection("dictionary");
 
-const allProphecy =
-  await getCollection("prophecy");
-
 const allTeachings =
   await getCollection("teachings");
 
-/**
- * 🔗 Related dictionary terms
- */
- const relatedTerms =
-   allDictionary.filter((item) =>
-     entry.data.related?.includes(item.id)
-   );
+const allProphecy =
+  await getCollection("prophecy");
 
-/**
- * 🔮 Related prophecy
- */
-const relatedProphecy =
-  allProphecy.filter((item) =>
-
-    item.data.terms
-      ?.map((term: string) =>
-        term.toLowerCase()
-      )
-      .includes(
-        entry.data.term.toLowerCase()
-      )
-
-  );
-
-/**
- * 📖 Related teachings
- */
-const relatedTeachings =
-  allTeachings.filter((item) =>
-
-    item.data.scriptures?.some(
-      (scripture: string) =>
-
-        entry.data.scriptures.includes(
-          scripture
-        )
-
-    )
-
-  );
+const allNumbers =
+  await getCollection("numbers");
 ---
 
 <BaseLayout
@@ -103,235 +59,18 @@ const relatedTeachings =
   description={entry.data.shortMeaning}
 >
 
-  <main
-    class="
-      mx-auto
-      w-full
-      max-w-4xl
-      px-4
-      py-16
-      sm:px-6
-    "
-  >
+<DictionaryLayout
+  entry={entry}
+  collections={{
+    dictionary: allDictionary,
+    teachings: allTeachings,
+    prophecy: allProphecy,
+    numbers: allNumbers,
+  }}
+>
 
-    <article class="space-y-12">
+    <Content />
 
-        <StudyHero
-          section="Bible Dictionary"
-          title={entry.data.title}
-          description={entry.data.shortMeaning}
-        />
-
-        <TopicChips
-          items={[
-            {
-              label: "Faith",
-              href: "/dictionary/faith"
-            },
-            {
-              label: "Grace",
-              href: "/dictionary/grace"
-            },
-            {
-              label: "Kingdom",
-              href: "/dictionary/kingdom"
-            },
-            {
-              label: "Covenant",
-              href: "/dictionary/covenant"
-            }
-          ]}
-        />
-
-      <!-- Main Content -->
-      <section
-        class="
-          prose
-          prose-invert
-          max-w-none
-        "
-      >
-
-        <Content />
-
-      </section>
-
-      <!-- Scriptures -->
-      {entry.data.scriptures.length > 0 && (
-
-        <RelatedScriptures
-          scriptures={
-            entry.data.scriptures
-          }
-        />
-
-      )}
-
-      <!-- Related Prophecy -->
-      {relatedProphecy.length > 0 && (
-
-        <RelatedTopics
-          topics={relatedProphecy}
-        />
-
-      )}
-
-      <!-- Related Teachings -->
-      {relatedTeachings.length > 0 && (
-
-        <section class="space-y-5">
-
-          <h2
-            class="
-              text-2xl
-              font-semibold
-            "
-          >
-
-            Related Teachings
-
-          </h2>
-
-          <div
-            class="
-              grid
-              gap-4
-              md:grid-cols-2
-            "
-          >
-
-            {relatedTeachings.map(
-              (teaching) => (
-
-                <a
-                  href={`/teachings/${teaching.id}`}
-                  class="
-                    rounded-2xl
-                    border
-                    border-[var(--color-border)]
-                    p-5
-                    transition
-                    hover:border-[var(--color-primary)]
-                  "
-                >
-
-                  <div class="space-y-2">
-
-                    <h3
-                      class="
-                        text-lg
-                        font-medium
-                      "
-                    >
-
-                      {teaching.data.title}
-
-                    </h3>
-
-                    <p
-                      class="
-                        text-sm
-                        leading-relaxed
-                        text-[var(--color-muted)]
-                      "
-                    >
-
-                      {teaching.data.summary}
-
-                    </p>
-
-                  </div>
-
-                </a>
-
-              )
-            )}
-
-          </div>
-
-        </section>
-
-      )}
-
-      <!-- Related Terms -->
-      {relatedTerms.length > 0 && (
-
-        <section class="space-y-5">
-
-          <h2
-            class="
-              text-2xl
-              font-semibold
-            "
-          >
-
-            Related Terms
-
-          </h2>
-
-          <div
-            class="
-              grid
-              gap-4
-              md:grid-cols-2
-            "
-          >
-
-            {relatedTerms.map(
-              (term) => (
-
-                <a
-                  href={`/dictionary/${term.id}`}
-                  class="
-                    rounded-2xl
-                    border
-                    border-[var(--color-border)]
-                    p-5
-                    transition
-                    hover:border-[var(--color-primary)]
-                  "
-                >
-
-                  <div class="space-y-2">
-
-                    <h3
-                      class="
-                        text-lg
-                        font-medium
-                      "
-                    >
-
-                      {term.data.title}
-
-                    </h3>
-
-                    <p
-                      class="
-                        text-sm
-                        leading-relaxed
-                        text-[var(--color-muted)]
-                      "
-                    >
-
-                      {term.data.shortMeaning}
-
-                    </p>
-
-                  </div>
-
-                </a>
-
-              )
-            )}
-
-          </div>
-
-        </section>
-
-      )}
-
-    </article>
-
-  </main>
+  </DictionaryLayout>
 
 </BaseLayout>

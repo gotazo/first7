@@ -1,0 +1,80 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  entries: CollectionEntry<"dictionary">[];
+  currentEntry: string;
+  currentLetter: string;
+}
+
+const {
+  entries,
+  currentEntry,
+  currentLetter,
+} = Astro.props;
+
+const filteredTerms = entries
+  .filter(
+    (entry) =>
+      entry.data.term
+        .charAt(0)
+        .toUpperCase() === currentLetter
+  )
+  .sort((a, b) =>
+    a.data.term.localeCompare(b.data.term)
+  );
+---
+
+<nav
+  aria-label={`Dictionary terms beginning with ${currentLetter}`}
+>
+  <ul class="flex flex-wrap justify-center gap-2">
+
+    {filteredTerms.map((entry) => {
+
+      const active =
+        entry.id === currentEntry;
+
+      return (
+
+        <li>
+
+          <a
+            href={`/dictionary/${entry.id}`}
+            class:list={[
+              "block rounded-lg border px-3 py-2 text-sm transition-all duration-200",
+
+              active
+                ? [
+                    "border-[var(--color-primary)]",
+                    "bg-[var(--color-primary-hover)]",
+                    "text-[#0E1512]",
+                    "font-semibold",
+                    "shadow-sm",
+                  ]
+                : [
+                    "border-[var(--color-border)]",
+                    "bg-transparent",
+                    "text-[var(--color-text)]",
+                    "hover:bg-[var(--color-bg-soft)]",
+                    "hover:border-[var(--color-primary)]",
+                    "hover:text-[var(--color-primary)]",
+                  ],
+            ]}
+            aria-current={
+              active
+                ? "page"
+                : undefined
+            }
+          >
+            {entry.data.title}
+          </a>
+
+        </li>
+
+      );
+
+    })}
+
+  </ul>
+</nav>

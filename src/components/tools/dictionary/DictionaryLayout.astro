@@ -1,0 +1,96 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+import StudyHero from "../../shared/StudyHero.astro";
+
+import DictionaryNavigation from "./DictionaryNavigation.astro";
+import DictionaryPreviousNext from "./DictionaryPreviousNext.astro";
+import DictionaryQuickReference from "./DictionaryQuickReference.astro";
+import DictionaryStudyMore from "./DictionaryStudyMore.astro";
+
+interface Props {
+  entry: CollectionEntry<"dictionary">;
+
+  collections: {
+    dictionary: CollectionEntry<"dictionary">[];
+    teachings: CollectionEntry<"teachings">[];
+    prophecy: CollectionEntry<"prophecy">[];
+    numbers: CollectionEntry<"numbers">[];
+  };
+}
+
+const {
+  entry,
+  collections,
+} = Astro.props;
+---
+
+<div
+  class="
+    mx-auto
+    max-w-6xl
+    px-4
+    py-16
+    sm:px-6
+  "
+>
+
+  <!-- Hero -->
+
+  <StudyHero
+    section="Bible Dictionary"
+    title={entry.data.title}
+    description={entry.data.shortMeaning}
+  />
+
+  <!-- Sticky Navigation -->
+
+<DictionaryNavigation
+  entries={collections.dictionary}
+  currentEntry={entry.id}
+/>
+
+
+
+  <!-- Quick Reference -->
+
+  <div class="mt-8">
+
+    <DictionaryQuickReference
+     entry={entry}
+     collections={collections}
+    />
+
+  </div>
+
+  <!-- Main Content -->
+
+  <article
+    class="
+      prose
+      prose-invert
+      mx-auto
+      mt-10
+      max-w-4xl
+    "
+  >
+
+    <slot />
+
+  </article>
+
+  <!-- Study More -->
+
+    <DictionaryStudyMore
+        entry={entry}
+        collections={collections}
+/>
+
+  <!-- Previous / Next -->
+
+<DictionaryPreviousNext
+  entries={collections.dictionary}
+  currentEntry={entry.id}
+/>
+
+</div>
