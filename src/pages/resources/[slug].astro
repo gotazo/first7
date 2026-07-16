@@ -1,203 +1,37 @@
 ---
 export const prerender = true;
 
-import { getCollection, render, type CollectionEntry } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ResourceLayout from "../../components/resources/ResourceLayout.astro";
 
-type ResourceEntry = CollectionEntry<'resources'>;
+import { getCollection, render } from "astro:content";
 
 export async function getStaticPaths() {
-  const entries = await getCollection('resources');
+  const entries = await getCollection("resources");
 
-  const paths = entries.map((entry: ResourceEntry) => ({
+  return entries.map((entry) => ({
     params: { slug: entry.id },
-    props: { entry }
+    props: { entry },
   }));
-
-  if (import.meta.env.BUILD_TRACE === 'true') {
-    console.log(`[build:paths] resources paths=${paths.length}`);
-  }
-
-  return paths;
 }
 
-const { entry } = Astro.props as { entry: ResourceEntry };
+const { entry } = Astro.props;
+
 const { Content } = await render(entry);
 
-// 👇 Load all resources for sidebar
-const allResources = await getCollection('resources');
+const resources = await getCollection("resources");
 ---
 
-<BaseLayout title={entry.data.title} full={true}>
+<BaseLayout
+  title={entry.data.title}
+  description={entry.data.description}
+>
 
-  <div class="mx-auto w-[90%] max-w-[1400px] px-4">
-
-    <div class="grid lg:grid-cols-[minmax(0,1fr)_280px] gap-12">
-
-      <!-- MAIN CONTENT -->
-      <article class="max-w-2xl mx-auto py-12">
-
-        <!-- HERO -->
-        <header class="mb-10 space-y-4">
-
-          <p class="text-sm uppercase tracking-wide text-[var(--color-primary)]">
-            Resource
-          </p>
-
-          <h1 class="text-3xl md:text-5xl font-semibold leading-tight">
-            {entry.data.title}
-          </h1>
-
-          <p class="text-[var(--color-muted)]">
-            {entry.data.description}
-          </p>
-
-        </header>
-
-        <!-- CONTENT -->
-        <div class="prose prose-neutral dark:prose-invert">
-          <Content />
-        </div>
-
-      </article>
-
-      <!-- SIDEBAR -->
-      <aside class="hidden lg:block py-12">
-
-        <div class="sticky top-24 space-y-6">
-
-<!-- DOWNLOAD -->
-{entry.data.file && (
-  <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3">
-
-    <p class="font-medium">
-      Download
-    </p>
-
-    <p class="text-sm text-[var(--color-muted)]">
-      Use this resource offline.
-    </p>
-
-    <a
-      href={entry.data.file}
-      class="btn block text-center px-4 py-2 rounded-lg"
-      download
-    >
-      Download →
-    </a>
-
-  </div>
-)}
-
-<!-- PRINT EDITION -->
-{entry.data.print_url && (
-  <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3">
-
-    <p class="font-medium">
-      Print Edition
-    </p>
-
-    <p class="text-sm text-[var(--color-muted)]">
-      Prefer a physical journal? Get the printed version.
-    </p>
-
-    {entry.data.print_price && (
-      <p class="text-sm font-medium">
-        {entry.data.print_price}
-      </p>
-    )}
-
-    <a
-      href={entry.data.print_url}
-      target="_blank"
-      rel="noopener noreferrer"
-      class="btn block text-center px-4 py-2 rounded-lg"
-    >
-      📖 {entry.data.print_label || "Buy Print Edition"}
-    </a>
-
-  </div>
-)}
-
-          <!-- RELATED RESOURCES -->
-          <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3">
-
-            <p class="font-medium">
-              More resources
-            </p>
-
-            <div class="space-y-2 text-sm">
-
-              {allResources
-                .filter(r => r.id !== entry.id)
-                .slice(0, 5)
-                .map((r) => (
-                  <a
-                    href={`/resources/${r.id}`}
-                    class="block hover:underline"
-                  >
-                    {r.data.title}
-                  </a>
-                ))}
-
-            </div>
-
-          </div>
-
-          <!-- CTA -->
-          <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-3 bg-[var(--color-primary)]/5">
-
-            <p class="font-medium">
-              Use this daily
-            </p>
-
-            <p class="text-sm text-[var(--color-muted)]">
-              Pair this with a plan to stay consistent.
-            </p>
-
-            <a
-              href="/plans"
-              class="btn block text-center px-4 py-2 rounded-lg"
-            >
-              Start a Plan →
-            </a>
-
-          </div>
-
-        </div>
-
-      </aside>
-
-    </div>
-
-    <!-- MOBILE DOWNLOAD -->
-    {entry.data.file && (
-      <div class="lg:hidden mt-10 text-center">
-
-        <a
-          href={entry.data.file}
-          class="btn inline-block px-6 py-3 rounded-xl"
-          download
-        >
-          Download →
-        </a>
-
-      </div>
-    )}
-
-    <!-- NAV -->
-    <div class="mt-16 flex justify-between text-sm border-t border-[var(--color-border)] pt-6">
-
-      <a href="/resources" class="hover:underline">
-        ← Back to Resources
-      </a>
-
-      <a href="/plans" class="hover:underline">
-        Use with a Plan →
-      </a>
-
-    </div>
-
-  </div>
+  <ResourceLayout
+    entry={entry}
+    resources={resources}
+  >
+    <Content />
+  </ResourceLayout>
 
 </BaseLayout>

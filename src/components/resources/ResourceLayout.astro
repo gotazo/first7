@@ -1,0 +1,244 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+type Resource = CollectionEntry<"resources">;
+
+interface Props {
+  entry: Resource;
+  resources: Resource[];
+}
+
+const { entry, resources } = Astro.props as Props;
+
+const related = resources
+  .filter((r) => r.id !== entry.id)
+  .filter((r) => {
+    if (!entry.data.category || !r.data.category) return true;
+    return r.data.category === entry.data.category;
+  })
+  .slice(0, 4);
+
+const pdfLink = entry.data.pdf_url ?? entry.data.file;
+---
+
+<div class="mx-auto max-w-5xl px-4 py-12">
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <header class="space-y-8">
+
+    {entry.data.cover && (
+      <img
+        src={entry.data.cover}
+        alt={entry.data.title}
+        class="w-full rounded-2xl border border-[var(--color-border)] object-cover"
+      />
+    )}
+
+    <div class="max-w-3xl">
+
+      {entry.data.category && (
+        <p class="text-sm uppercase tracking-wide text-[var(--color-primary)]">
+          {entry.data.category}
+        </p>
+      )}
+
+      <h1 class="mt-2 text-4xl md:text-5xl font-semibold leading-tight">
+        {entry.data.title}
+      </h1>
+
+      <p class="mt-5 text-lg text-[var(--color-muted)]">
+        {entry.data.description}
+      </p>
+
+    </div>
+
+  </header>
+
+  <!-- =========================
+       ACTIONS
+  ========================== -->
+
+  <section class="mt-10 grid gap-6 md:grid-cols-2">
+
+    {(entry.data.pdf_url || entry.data.file) && (
+
+      <div class="rounded-2xl border border-[var(--color-border)] p-6">
+
+        <h2 class="text-xl font-semibold">
+          Get the Printable Edition
+        </h2>
+
+        <p class="mt-3 text-sm text-[var(--color-muted)]">
+          Download a beautifully formatted printable PDF.
+        </p>
+
+        <ul class="mt-5 space-y-2 text-sm">
+
+          <li>✓ Pay What You Want</li>
+          <li>✓ Instant download</li>
+          <li>✓ Print at home</li>
+          <li>✓ Supports future free Bible resources</li>
+
+        </ul>
+
+        <a
+          href={pdfLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn mt-6 inline-flex px-5 py-3 rounded-xl"
+        >
+          {entry.data.pdf_label || "Get PDF"} →
+        </a>
+
+      </div>
+
+    )}
+
+    {entry.data.paperback_url && (
+
+      <div class="rounded-2xl border border-[var(--color-border)] p-6">
+
+        <h2 class="text-xl font-semibold">
+          Printed Book
+        </h2>
+
+        <p class="mt-3 text-sm text-[var(--color-muted)]">
+          Prefer a professionally printed copy? Order the paperback edition.
+        </p>
+
+        {entry.data.paperback_price && (
+          <p class="mt-4 text-lg font-semibold">
+            {entry.data.paperback_price}
+          </p>
+        )}
+
+        <a
+          href={entry.data.paperback_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn mt-6 inline-flex px-5 py-3 rounded-xl"
+        >
+          {entry.data.paperback_label || "Buy Printed Book"} →
+        </a>
+
+      </div>
+
+    )}
+
+  </section>
+
+  <!-- =========================
+       READ ONLINE
+  ========================== -->
+
+  <section class="mt-16">
+
+    <h2 class="text-2xl font-semibold">
+      Read Online
+    </h2>
+
+    <div class="prose prose-neutral dark:prose-invert max-w-none mt-8">
+
+      <slot />
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+       RELATED
+  ========================== -->
+
+  {related.length > 0 && (
+
+    <section class="mt-20">
+
+      <h2 class="text-2xl font-semibold">
+        More Resources
+      </h2>
+
+      <div class="mt-8 grid gap-5 md:grid-cols-2">
+
+        {related.map((resource) => (
+
+          <a
+            href={`/resources/${resource.id}`}
+            class="rounded-xl border border-[var(--color-border)] p-5 hover:bg-[var(--color-primary)]/5 transition"
+          >
+
+            {resource.data.category && (
+              <p class="text-xs uppercase tracking-wide text-[var(--color-primary)]">
+                {resource.data.category}
+              </p>
+            )}
+
+            <h3 class="mt-2 font-semibold">
+              {resource.data.title}
+            </h3>
+
+            <p class="mt-3 text-sm text-[var(--color-muted)]">
+              {resource.data.description}
+            </p>
+
+            <div class="mt-4 text-sm font-medium text-[var(--color-primary)]">
+              Read & Download →
+            </div>
+
+          </a>
+
+        ))}
+
+      </div>
+
+    </section>
+
+  )}
+
+  <!-- =========================
+       SUPPORT
+  ========================== -->
+
+  <section class="mt-20 rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 p-8 text-center">
+
+    <h2 class="text-2xl font-semibold">
+      Help Keep First7 Free
+    </h2>
+
+    <p class="mx-auto mt-4 max-w-2xl text-[var(--color-muted)]">
+      Every printable resource is offered as
+      <strong>Pay What You Want</strong>.
+      Your support helps us continue creating journals, Bible studies,
+      verse cards, prayer resources, and other biblical tools that remain
+      freely available for everyone.
+    </p>
+
+  </section>
+
+  <!-- =========================
+       FOOTER NAV
+  ========================== -->
+
+  <nav class="mt-16 flex flex-col gap-4 border-t border-[var(--color-border)] pt-8 text-sm md:flex-row md:justify-between">
+
+    <a href="/resources" class="hover:text-[var(--color-primary)]">
+      ← Back to Resources
+    </a>
+
+    <div class="flex gap-6">
+
+      <a href="/plans" class="hover:text-[var(--color-primary)]">
+        7-Day Plans →
+      </a>
+
+      <a href="/teachings" class="hover:text-[var(--color-primary)]">
+        Teachings →
+      </a>
+
+    </div>
+
+  </nav>
+
+</div>

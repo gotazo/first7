@@ -47,14 +47,25 @@ const resources = defineCollection({
     title: z.string(),
     description: z.string(),
 
-    file: z.string().optional(),
     type: z.string().optional(),
-    icon: z.string().optional(),
+    category: z.string().optional(),
+
     cover: z.string().optional(),
 
-    print_label: z.string().optional(),
-    print_price: z.string().optional(),
-    print_url: z.url().optional(),
+    // Optional local PDF
+    file: z.string().optional(),
+
+    // Printable edition (Ko-fi)
+    pdf_url: z.url().optional(),
+    pdf_label: z.string().optional(),
+
+    // Professionally printed edition (Pothi)
+    paperback_url: z.url().optional(),
+    paperback_label: z.string().optional(),
+    paperback_price: z.string().optional(),
+
+    // Highlight on the Resources page
+    featured: z.boolean().optional(),
   }),
 });
 

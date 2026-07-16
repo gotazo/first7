@@ -1,116 +1,187 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, type CollectionEntry } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 
-type Resource = CollectionEntry<'resources'>;
+type Resource = CollectionEntry<"resources">;
 
-const resources: Resource[] = await getCollection('resources');
+const resources = await getCollection("resources");
 
-const sorted = resources.sort((a, b) =>
+// Sort alphabetically
+const sorted = [...resources].sort((a, b) =>
   a.data.title.localeCompare(b.data.title)
 );
+
+// Featured resource (fallback to first)
+const featured =
+  sorted.find((r) => r.data.featured) || sorted[0];
+
+// Remaining resources
+const others = featured
+  ? sorted.filter((r) => r.id !== featured.id)
+  : [];
 ---
 
 <BaseLayout title="Resources">
 
-  <section class="max-w-5xl mx-auto py-16 px-4 space-y-16">
+  <section class="max-w-5xl mx-auto px-4 py-16 space-y-16">
 
     <!-- HERO -->
-    <div class="max-w-2xl">
+    <header class="max-w-3xl">
+
       <h1 class="text-4xl md:text-5xl font-semibold leading-tight">
         Resources
       </h1>
 
-      <p class="mt-4 text-lg text-[var(--color-muted)]">
-        Simple tools to help you slow down, reflect, and grow daily.
+      <p class="mt-5 text-lg text-[var(--color-muted)]">
+        Explore Bible study guides, journals, verse cards, and practical
+        resources to help you grow in God's Word.
+        Every printable resource is available as
+        <strong>Pay What You Want</strong>,
+        helping us create more free Bible resources for everyone.
       </p>
-    </div>
+
+    </header>
 
     <!-- FEATURED -->
-    {sorted.slice(0, 1).map((r) => (
+    {featured && (
+
       <a
-        href={`/resources/${r.id}`}
-        class="block p-8 rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/10 hover:shadow-md transition"
+        href={`/resources/${featured.id}`}
+        class="block overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/10 hover:shadow-lg transition"
       >
 
-        {r.data.cover && (
+        {featured.data.cover && (
           <img
-            src={r.data.cover}
-            alt={r.data.title}
-            class="rounded-xl mb-5 w-full h-48 object-cover"
+            src={featured.data.cover}
+            alt={featured.data.title}
+            class="w-full h-72 object-cover"
+            loading="lazy"
           />
         )}
 
-        <p class="text-sm text-[var(--color-muted)]">Featured</p>
+        <div class="p-8">
 
-        <h2 class="mt-2 text-2xl font-semibold flex items-center gap-2">
-          {r.data.icon && <span>{r.data.icon}</span>}
-          {r.data.title}
-        </h2>
+          <p class="text-sm uppercase tracking-wide text-[var(--color-primary)]">
+            Featured Resource
+          </p>
 
-        <p class="mt-3 text-sm text-[var(--color-muted)] max-w-md">
-          {r.data.description}
-        </p>
+          <h2 class="mt-2 text-3xl font-semibold">
+            {featured.data.title}
+          </h2>
 
-        <div class="mt-5 text-[var(--color-primary)] font-medium text-sm">
-          Open resource →
+          {featured.data.category && (
+            <p class="mt-2 text-sm text-[var(--color-primary)]">
+              {featured.data.category}
+            </p>
+          )}
+
+          <p class="mt-4 text-[var(--color-muted)] max-w-2xl">
+            {featured.data.description}
+          </p>
+
+          <div class="mt-6 font-medium text-[var(--color-primary)]">
+            Read &amp; Download →
+          </div>
+
         </div>
+
       </a>
-    ))}
 
-    <!-- ALL -->
-    <div class="space-y-6">
+    )}
 
-      <h2 class="text-xl font-semibold">
-        All Resources
+    <!-- PRINTABLE -->
+    <section class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 p-8">
+
+      <p class="text-sm uppercase tracking-wide text-[var(--color-primary)]">
+        Printable Resources
+      </p>
+
+      <h2 class="mt-2 text-2xl font-semibold">
+        Get the Printable Edition
       </h2>
 
-      <div class="grid gap-4 md:grid-cols-2">
+      <p class="mt-4 max-w-3xl text-[var(--color-muted)]">
+        Every printable journal, Bible study, and resource is available as
+        <strong>Pay What You Want</strong>.
+        Your support helps us continue creating Bible studies,
+        journals, verse cards, devotionals, and teaching resources that
+        remain freely available to everyone.
+      </p>
 
-        {sorted.slice(1).map((r) => (
+    </section>
+
+    <!-- RESOURCE LIST -->
+    <section>
+
+      <h2 class="text-2xl font-semibold mb-6">
+        Browse Resources
+      </h2>
+
+      <div class="grid gap-6 md:grid-cols-2">
+
+        {others.map((resource) => (
+
           <a
-            href={`/resources/${r.id}`}
-            class="p-5 rounded-xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 hover:bg-[var(--color-primary)]/10 hover:shadow-md transition"
+            href={`/resources/${resource.id}`}
+            class="overflow-hidden rounded-xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 hover:bg-[var(--color-primary)]/10 hover:shadow-md transition"
           >
 
-            {r.data.cover && (
+            {resource.data.cover && (
               <img
-                src={r.data.cover}
-                alt={r.data.title}
-                class="rounded-lg mb-3 w-full h-32 object-cover"
+                src={resource.data.cover}
+                alt={resource.data.title}
+                class="w-full h-44 object-cover"
+                loading="lazy"
               />
             )}
 
-            <div class="flex items-center gap-2">
+            <div class="p-5">
 
-              {r.data.icon && <span>{r.data.icon}</span>}
+              {resource.data.category && (
+                <p class="text-xs uppercase tracking-wide text-[var(--color-primary)]">
+                  {resource.data.category}
+                </p>
+              )}
 
-              <h3 class="font-medium">
-                {r.data.title}
+              <h3 class="mt-2 text-lg font-semibold">
+                {resource.data.title}
               </h3>
 
-              {r.data.type && (
-                <span class="text-xs bg-[var(--color-primary)]/10 text-[var(--color-primary)] px-2 py-0.5 rounded">
-                  {r.data.type}
-                </span>
-              )}
+              <p class="mt-3 text-sm text-[var(--color-muted)]">
+                {resource.data.description}
+              </p>
+
+              <div class="mt-5 text-sm font-medium text-[var(--color-primary)]">
+                Read &amp; Download →
+              </div>
 
             </div>
 
-            <p class="mt-2 text-sm text-[var(--color-muted)]">
-              {r.data.description}
-            </p>
-
-            <p class="mt-2 text-sm text-[var(--color-muted)]">
-              Open →
-            </p>
-
           </a>
+
         ))}
 
       </div>
 
-    </div>
+    </section>
+
+    <!-- SUPPORT -->
+    <section class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 p-10 text-center">
+
+      <h2 class="text-2xl font-semibold">
+        Help Keep First7 Free
+      </h2>
+
+      <p class="mt-4 max-w-2xl mx-auto text-[var(--color-muted)]">
+        First7 exists to make biblical teaching freely accessible.
+        Every printable resource is offered as
+        <strong>Pay What You Want</strong>.
+        Your support helps us continue creating Bible studies,
+        journals, verse cards, prayer resources, and other tools that
+        remain free for everyone.
+      </p>
+
+    </section>
 
   </section>
 
