@@ -168,9 +168,12 @@ const teachings = defineCollection({
     application: z.array(z.string()),
 
     prayer: z.string().optional(),
+
+    // Homepage curation
+    featured: z.boolean().default(false),
+    order: z.number().optional(),
   }),
 });
-
 /* =========================
    PROPHECY (STUDY SYSTEM)
 ========================= */

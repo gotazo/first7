@@ -1,0 +1,27 @@
+<form
+  id="search-form"
+  class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-soft)] p-3 shadow-sm"
+  role="search"
+>
+  <div class="flex items-center gap-2">
+    <input
+      id="search-input"
+      type="search"
+      name="q"
+      autocomplete="off"
+      spellcheck="false"
+      placeholder="Search Scripture, topics, teachings..."
+      class="w-full border-0 bg-transparent px-3 py-3 text-lg outline-none"
+      aria-label="Search First7"
+    />
+
+    <button
+      id="search-clear"
+      type="button"
+      aria-label="Clear search"
+      class="hidden rounded-lg px-3 py-2 text-sm transition hover:bg-[var(--color-bg)]"
+    >
+      Clear
+    </button>
+  </div>
+</form>

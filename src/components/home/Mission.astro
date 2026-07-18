@@ -1,0 +1,111 @@
+---
+import Section from "../ui/Section.astro";
+import Button from "../ui/Button.astro";
+---
+
+<Section
+  eyebrow="Our Mission"
+  title="Helping People Grow in God's Word"
+  description="First7 exists to make Scripture simple to explore, enjoyable to study, and available to everyone."
+>
+
+  <div
+    class="
+      mx-auto
+      max-w-4xl
+      rounded-3xl
+      border
+      border-[var(--color-border)]
+      bg-[var(--color-bg-soft)]
+      px-8
+      py-12
+      text-center
+    "
+  >
+
+    <blockquote
+      class="
+        mx-auto
+        max-w-3xl
+        font-serif
+        text-2xl
+        leading-relaxed
+        md:text-3xl
+      "
+    >
+      Helping people read Scripture,
+      grow in faith,
+      and walk with Christ—
+      one step at a time.
+    </blockquote>
+
+    <div
+      class="
+        mt-12
+        grid
+        gap-6
+        sm:grid-cols-2
+        lg:grid-cols-4
+      "
+    >
+
+      <div>
+        <h3 class="text-lg font-semibold">
+          King James Bible
+        </h3>
+
+        <p class="mt-2 text-sm text-[var(--color-muted)]">
+          Scripture is the foundation of everything on First7.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-semibold">
+          Always Free
+        </h3>
+
+        <p class="mt-2 text-sm text-[var(--color-muted)]">
+          Every study, guide, and tool is available without cost.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-semibold">
+          Built to Last
+        </h3>
+
+        <p class="mt-2 text-sm text-[var(--color-muted)]">
+          A fast, lightweight, static website designed for long-term access.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-semibold">
+          Start Anywhere
+        </h3>
+
+        <p class="mt-2 text-sm text-[var(--color-muted)]">
+          Whether you're new to the Bible or have studied for years, there's always a next step.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="mt-12 flex flex-wrap justify-center gap-4">
+
+      <Button href="/start">
+        Begin Your Journey →
+      </Button>
+
+      <Button
+        href="/teachings"
+        variant="ghost"
+      >
+        Explore the Library
+      </Button>
+
+    </div>
+
+  </div>
+
+</Section>

@@ -1,0 +1,74 @@
+---
+import Card from "../ui/Card.astro";
+import Button from "../ui/Button.astro";
+
+import type { PlanSummary } from "../../lib/start-plans";
+import { titleCase } from "../../lib/format";
+
+interface Props {
+  plan: PlanSummary;
+}
+
+const { plan } = Astro.props;
+
+const firstDay = plan.entries[0];
+
+const totalDays = plan.entries.length;
+
+const title = titleCase(plan.plan);
+
+const description =
+  firstDay?.data.description ??
+  "Start your journey.";
+
+const href = `/plans/${plan.plan}`;
+---
+
+<Card>
+
+  <div class="space-y-6">
+
+    <div class="space-y-3">
+
+      <span class="plan-days">
+        {totalDays} Days
+      </span>
+
+      <h3 class="text-2xl font-semibold">
+        {title}
+      </h3>
+
+      <p class="text-[var(--color-muted)]">
+        {description}
+      </p>
+
+    </div>
+
+    <Button
+      href={href}
+      variant="ghost"
+    >
+      Start Plan →
+    </Button>
+
+  </div>
+
+</Card>
+
+<style>
+
+.plan-days {
+  display: inline-flex;
+  align-items: center;
+  padding: .35rem .75rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-soft);
+  color: var(--color-primary);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+</style>

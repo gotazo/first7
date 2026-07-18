@@ -1,0 +1,52 @@
+---
+import Section from "../ui/Section.astro";
+import Button from "../ui/Button.astro";
+import PlanCard from "./PlanCard.astro";
+
+import {
+  getStartPlanSummaries,
+} from "../../lib/start-plans";
+
+const plans =
+  await getStartPlanSummaries();
+---
+
+<Section
+  eyebrow="Start Growing"
+  title="7-Day Plans"
+  description="Build lasting habits through short, practical Bible reading plans rooted in Scripture."
+>
+
+  <div
+    class="
+      grid
+      gap-6
+      md:grid-cols-2
+      lg:grid-cols-3
+    "
+  >
+
+    {
+      plans.map((plan) => (
+
+        <PlanCard
+          plan={plan}
+        />
+
+      ))
+    }
+
+  </div>
+
+  <div class="mt-10 flex justify-center">
+
+    <Button
+      href="/plans"
+      variant="ghost"
+    >
+      View All Plans →
+    </Button>
+
+  </div>
+
+</Section>

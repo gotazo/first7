@@ -1,0 +1,208 @@
+---
+import { getCollection } from "astro:content";
+
+import Section from "../ui/Section.astro";
+import Button from "../ui/Button.astro";
+
+const resources = await getCollection("resources");
+
+const featuredResources = resources.filter(
+  (resource) => resource.data.featured
+);
+
+if (!featuredResources.length) {
+  return null;
+}
+
+const dayNumber = Math.floor(
+  Date.now() / 86400000
+);
+
+const featured =
+  featuredResources[
+    dayNumber % featuredResources.length
+  ];
+---
+
+<Section
+  eyebrow="Start Here"
+  title={featured.data.title}
+  description={featured.data.description}
+>
+
+  <div class="featured-grid">
+
+    {
+      featured.data.cover && (
+        <img
+          src={featured.data.cover}
+          alt={featured.data.title}
+          class="featured-cover"
+          loading="lazy"
+        />
+      )
+    }
+
+    <div class="featured-content">
+
+      <div class="featured-type">
+
+        {featured.data.type}
+
+        {
+          featured.data.category &&
+          featured.data.category !== featured.data.type && (
+            <>
+              &nbsp;•&nbsp;
+              {featured.data.category}
+            </>
+          )
+        }
+
+      </div>
+
+      <div class="button-group">
+
+        <Button href={`/resources/${featured.id}`}>
+          Read Online
+        </Button>
+
+        {
+          featured.data.file && (
+            <Button
+              href={featured.data.file}
+              variant="secondary"
+            >
+              Download PDF
+            </Button>
+          )
+        }
+
+        {
+          featured.data.pdf_url && (
+            <Button
+              href={featured.data.pdf_url}
+              variant="secondary"
+            >
+              {featured.data.pdf_label ??
+                "Get Printable Edition"}
+            </Button>
+          )
+        }
+
+        {
+          featured.data.paperback_url && (
+            <Button
+              href={featured.data.paperback_url}
+              variant="ghost"
+            >
+              {featured.data.paperback_label ??
+                "Buy Printed Book"}
+            </Button>
+          )
+        }
+
+      </div>
+
+    </div>
+
+  </div>
+
+</Section>
+
+<style>
+
+.featured-grid {
+
+  display: grid;
+
+  gap: 3rem;
+
+  align-items: center;
+
+}
+
+@media (min-width: 768px) {
+
+  .featured-grid {
+
+    grid-template-columns:
+      minmax(240px, 320px)
+      1fr;
+
+  }
+
+}
+
+.featured-cover {
+
+  width: 100%;
+
+  display: block;
+
+  border-radius: 1.5rem;
+
+  border:
+    1px solid
+    var(--color-border);
+
+  background:
+    var(--color-bg-soft);
+
+  box-shadow:
+    0 20px 40px
+    rgba(0,0,0,.15);
+
+}
+
+.featured-content {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 1.75rem;
+
+}
+
+.featured-type {
+
+  display: inline-flex;
+
+  align-self: flex-start;
+
+  padding: .5rem 1rem;
+
+  border-radius: 999px;
+
+  border:
+    1px solid
+    var(--color-border);
+
+  background:
+    var(--color-bg-soft);
+
+  color:
+    var(--color-primary);
+
+  font-size: .75rem;
+
+  font-weight: 600;
+
+  letter-spacing: .15em;
+
+  text-transform: uppercase;
+
+}
+
+.button-group {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 1rem;
+
+}
+
+</style>

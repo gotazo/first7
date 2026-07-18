@@ -1,0 +1,53 @@
+---
+import { getCollection } from "astro:content";
+
+import Section from "../ui/Section.astro";
+import Button from "../ui/Button.astro";
+import ContinueLearningCard from "./ContinueLearningCard.astro";
+
+const teachings = await getCollection("teachings");
+
+const featuredTeachings = teachings
+  .filter((teaching) => teaching.data.featured)
+  .sort(
+    (a, b) =>
+      (a.data.order ?? Number.MAX_SAFE_INTEGER) -
+      (b.data.order ?? Number.MAX_SAFE_INTEGER)
+  );
+
+const displayTeachings =
+  featuredTeachings.length > 0
+    ? featuredTeachings.slice(0, 3)
+    : teachings.slice(0, 3);
+---
+
+<Section
+  eyebrow="Bible Study"
+  title="Continue Learning"
+  description="Continue growing through practical, Scripture-centered Bible teaching."
+>
+
+  <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+    {
+      displayTeachings.map((teaching) => (
+        <ContinueLearningCard
+          teaching={teaching}
+        />
+      ))
+    }
+
+  </div>
+
+  <div class="mt-10 flex justify-center">
+
+    <Button
+      href="/teachings"
+      variant="ghost"
+    >
+      Browse Teaching Library →
+    </Button>
+
+  </div>
+
+</Section>

@@ -1,0 +1,86 @@
+---
+import Section from "../ui/Section.astro";
+import LibraryCard from "./LibraryCard.astro";
+
+import {
+  BookOpen,
+  Library,
+  BookOpenText,
+  ScrollText,
+  FolderOpen,
+  CalendarDays,
+} from "../../lib/icons";
+
+const collections = [
+  {
+    title: "Verse Jar",
+    description:
+      "Draw a random Bible verse for encouragement, meditation, and daily reflection.",
+    href: "/verse-jar",
+    icon: BookOpen,
+  },
+
+  {
+    title: "Teachings",
+    description:
+      "Explore in-depth biblical teachings rooted in the King James Bible.",
+    href: "/teachings",
+    icon: Library,
+  },
+
+  {
+    title: "Dictionary",
+    description:
+      "Discover the meaning of biblical words, people, places, and important terms.",
+    href: "/dictionary",
+    icon: BookOpenText,
+  },
+
+  {
+    title: "Prophecy",
+    description:
+      "Study biblical prophecy through timelines, symbols, nations, and key events.",
+    href: "/prophecy",
+    icon: ScrollText,
+  },
+
+  {
+    title: "Resources",
+    description:
+      "Find downloadable guides, printable studies, and helpful learning materials.",
+    href: "/resources",
+    icon: FolderOpen,
+  },
+
+  {
+    title: "7-Day Plans",
+    description:
+      "Build a daily habit of reading Scripture with guided seven-day journeys.",
+    href: "/start",
+    icon: CalendarDays,
+  },
+];
+---
+
+<Section
+  eyebrow="Explore"
+  title="Explore the Library"
+  description="Discover Scripture, biblical teaching, study tools, and practical resources to help you grow in God's Word."
+>
+
+  <div
+    class="
+      grid
+      gap-6
+      sm:grid-cols-2
+      lg:grid-cols-3
+    "
+  >
+    {
+      collections.map((collection) => (
+        <LibraryCard {...collection} />
+      ))
+    }
+  </div>
+
+</Section>

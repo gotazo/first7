@@ -1,0 +1,64 @@
+---
+import Section from "../ui/Section.astro";
+import Button from "../ui/Button.astro";
+import TopicChip from "./TopicChip.astro";
+
+const topics = [
+  "Faith",
+  "Hope",
+  "Encouragement",
+  "Prayer",
+  "Peace",
+  "Wisdom",
+  "Strength",
+  "Love",
+  "Joy",
+  "Grace",
+  "Comfort",
+  "Salvation",
+  "Thanksgiving",
+  "Praise",
+  "Guidance",
+  "Trust",
+  "Fear Not",
+];
+---
+
+<Section
+  eyebrow="Verse Jar"
+  title="Browse by Topic"
+  description="Find Bible verses for every season of life and explore Scripture by topic."
+>
+
+  <div
+    class="
+      flex
+      flex-wrap
+      justify-center
+      gap-3
+    "
+  >
+    {
+      topics.map((topic) => (
+        <TopicChip
+          label={topic}
+          href={`/verse-jar#${topic
+            .toLowerCase()
+            .replace(/\s+/g, "-")}`}
+        />
+      ))
+    }
+  </div>
+
+  <div class="mt-10 flex justify-center">
+
+    <Button
+      href="/verse-jar"
+      variant="ghost"
+    >
+      View All Topics →
+    </Button>
+
+  </div>
+
+</Section>

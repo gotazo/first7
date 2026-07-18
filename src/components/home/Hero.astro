@@ -1,0 +1,46 @@
+---
+import { getCollection } from "astro:content";
+
+import Container from "../ui/Container.astro";
+import HeroContent from "./HeroContent.astro";
+import HeroVerseCard from "./HeroVerseCard.astro";
+
+// Load all Verse Jar entries
+const verses = await getCollection("verseJar");
+
+// Random verse
+const verse = verses[Math.floor(Math.random() * verses.length)];
+---
+
+<section class="relative overflow-hidden py-20 md:py-28">
+
+  <!-- Background Glow -->
+  <div
+    aria-hidden="true"
+    class="pointer-events-none absolute inset-0"
+  >
+    <div
+      class="absolute left-1/2 top-20 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-[var(--color-primary)] opacity-10 blur-[140px]"
+    />
+  </div>
+
+  <Container>
+
+    <div
+      class="
+        grid
+        items-center
+        gap-16
+        lg:grid-cols-2
+      "
+    >
+
+      <HeroContent />
+
+      <HeroVerseCard verse={verse} />
+
+    </div>
+
+  </Container>
+
+</section>

@@ -1,0 +1,148 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Card from "../ui/Card.astro";
+
+interface Props {
+  verse: CollectionEntry<"verseJar">;
+}
+
+const { verse } = Astro.props;
+---
+
+<Card
+  href={`/verse-jar/${verse.id}`}
+  padding="lg"
+  class="
+    relative
+    overflow-hidden
+    h-full
+    border-[rgba(214,179,106,.25)]
+  "
+>
+
+  <!-- Decorative Glow -->
+
+  <div
+    class="
+      absolute
+      inset-0
+      bg-gradient-to-br
+      from-[rgba(214,179,106,.08)]
+      via-transparent
+      to-transparent
+      pointer-events-none
+    "
+  />
+
+  <div class="relative z-10">
+
+    <div class="flex items-center justify-between">
+
+      <div>
+
+        <p
+          class="
+            text-xs
+            uppercase
+            tracking-[0.25em]
+            text-[var(--color-primary)]
+          "
+        >
+          Today's Scripture
+        </p>
+
+        <p
+          class="
+            mt-2
+            text-sm
+            text-[var(--color-text-muted)]
+          "
+        >
+          Drawn from the Verse Jar
+        </p>
+
+      </div>
+
+      <span
+        class="
+          text-5xl
+          leading-none
+          text-[var(--color-primary)]
+          opacity-60
+        "
+      >
+        ❝
+      </span>
+
+    </div>
+
+    <blockquote
+      class="
+        mt-8
+        font-serif
+        text-2xl
+        italic
+        leading-relaxed
+        text-[var(--color-text)]
+      "
+    >
+      {verse.data.verse}
+    </blockquote>
+
+    <div
+      class="
+        my-8
+        h-px
+        bg-[var(--color-border)]
+      "
+    />
+
+    <footer
+      class="
+        flex
+        items-center
+        justify-between
+      "
+    >
+
+      <div>
+
+        <p
+          class="
+            font-semibold
+            text-[var(--color-primary)]
+          "
+        >
+          {verse.data.reference}
+        </p>
+
+        <p
+          class="
+            mt-1
+            text-sm
+            capitalize
+            text-[var(--color-text-muted)]
+          "
+        >
+          {verse.data.category.replaceAll("-", " ")}
+        </p>
+
+      </div>
+
+      <span
+        class="
+          text-sm
+          font-medium
+          text-[var(--color-primary)]
+          group-hover:translate-x-1
+          transition-transform
+        "
+      >
+        Read →
+      </span>
+
+    </footer>
+
+  </div>
+
+</Card>

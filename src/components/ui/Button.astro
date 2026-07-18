@@ -1,0 +1,70 @@
+---
+interface Props {
+  href?: string;
+  variant?: "primary" | "secondary" | "ghost";
+  size?: "sm" | "md" | "lg";
+  class?: string;
+  target?: string;
+  rel?: string;
+}
+
+const {
+  href,
+  variant = "primary",
+  size = "md",
+  class: className = "",
+  target,
+  rel,
+} = Astro.props;
+
+const Component = href ? "a" : "button";
+
+const variants = {
+  primary: [
+    "bg-[var(--color-primary)]",
+    "text-white",
+    "hover:brightness-110",
+    "shadow-sm",
+  ],
+  secondary: [
+    "border",
+    "border-[var(--color-border)]",
+    "bg-[var(--color-bg-soft)]",
+    "text-[var(--color-text)]",
+    "hover:border-[var(--color-primary)]",
+    "hover:bg-[var(--color-bg-elevated)]",
+  ],
+  ghost: [
+    "text-[var(--color-primary)]",
+    "hover:bg-[var(--color-bg-soft)]",
+  ],
+};
+
+const sizes = {
+  sm: "px-3 py-2 text-sm",
+  md: "px-5 py-3 text-sm",
+  lg: "px-6 py-4 text-base",
+};
+---
+
+<Component
+  href={href}
+  target={target}
+  rel={rel}
+  class:list={[
+    "inline-flex items-center justify-center",
+    "gap-2",
+    "rounded-xl",
+    "font-medium",
+    "transition-all duration-200",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-[var(--color-primary)]",
+    "focus:ring-offset-2",
+    variants[variant],
+    sizes[size],
+    className,
+  ]}
+>
+  <slot />
+</Component>

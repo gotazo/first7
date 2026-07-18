@@ -1,0 +1,33 @@
+---
+interface Props {
+  as?: keyof HTMLElementTagNameMap;
+  size?: "sm" | "md" | "lg" | "xl" | "full";
+  class?: string;
+}
+
+const {
+  as = "div",
+  size = "lg",
+  class: className = "",
+} = Astro.props;
+
+const maxWidth: Record<NonNullable<Props["size"]>, string> = {
+  sm: "max-w-3xl",
+  md: "max-w-5xl",
+  lg: "max-w-6xl",
+  xl: "max-w-7xl",
+  full: "max-w-none",
+};
+
+const Component = as;
+---
+
+<Component
+  class:list={[
+    "mx-auto w-full px-4 sm:px-6 lg:px-8",
+    maxWidth,
+    className,
+  ]}
+>
+  <slot />
+</Component>
