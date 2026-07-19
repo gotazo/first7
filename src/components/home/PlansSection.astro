@@ -9,6 +9,8 @@ import {
 
 const plans =
   await getStartPlanSummaries();
+
+const featuredPlans = plans.slice(0, 3);
 ---
 
 <Section
@@ -27,7 +29,7 @@ const plans =
   >
 
     {
-      plans.map((plan) => (
+      featuredPlans.map((plan) => (
 
         <PlanCard
           plan={plan}
@@ -44,7 +46,7 @@ const plans =
       href="/plans"
       variant="ghost"
     >
-      View All Plans →
+      Browse All 7-Day Plans →
     </Button>
 
   </div>

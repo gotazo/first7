@@ -1,8 +1,12 @@
 export {
   BookOpen,
-  Library,
   BookOpenText,
-  ScrollText,
-  FolderOpen,
   CalendarDays,
-} from "@lucide/astro";
+  Compass,
+  FolderOpen,
+  Heart,
+  Library,
+  Lightbulb,
+  ScrollText,
+  Shield,
+ } from "@lucide/astro";

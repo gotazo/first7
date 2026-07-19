@@ -1,27 +1,87 @@
+---
+import { initSearchPlaceholder } from "./SearchPlaceholder";
+
+interface Props {
+  /** Form action */
+  action?: string;
+
+  /** Input placeholder */
+  placeholder?: string;
+
+  /** Input id */
+  inputId?: string;
+
+  /** Input name */
+  name?: string;
+
+  /** Show Clear button */
+  showClear?: boolean;
+
+  /** Enable rotating placeholder (future use) */
+  rotatePlaceholder?: boolean;
+
+  /** Auto focus input */
+  autofocus?: boolean;
+}
+
+const {
+  action = "/search",
+  placeholder = "Search teachings, dictionary terms, resources...",
+  inputId = "search-input",
+  name = "q",
+  showClear = true,
+  rotatePlaceholder = false,
+  autofocus = false,
+} = Astro.props;
+---
+
 <form
   id="search-form"
+  action={action}
+  method="GET"
   class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-soft)] p-3 shadow-sm"
   role="search"
 >
+
   <div class="flex items-center gap-2">
+
     <input
-      id="search-input"
+      id={inputId}
       type="search"
-      name="q"
+      name={name}
       autocomplete="off"
       spellcheck="false"
-      placeholder="Search Scripture, topics, teachings..."
+      placeholder={placeholder}
       class="w-full border-0 bg-transparent px-3 py-3 text-lg outline-none"
       aria-label="Search First7"
-    />
+      autofocus={autofocus}
+       />
 
-    <button
-      id="search-clear"
-      type="button"
-      aria-label="Clear search"
-      class="hidden rounded-lg px-3 py-2 text-sm transition hover:bg-[var(--color-bg)]"
-    >
-      Clear
-    </button>
+    {
+      showClear && (
+        <button
+          id="search-clear"
+          type="button"
+          aria-label="Clear search"
+          class="hidden rounded-lg px-3 py-2 text-sm transition hover:bg-[var(--color-bg)]"
+        >
+          Clear
+        </button>
+      )
+    }
+
   </div>
+
 </form>
+
+<script define:vars={{ inputId, rotatePlaceholder }}>
+  import { initSearchPlaceholder } from "./SearchPlaceholder";
+
+  if (rotatePlaceholder) {
+    const input = document.getElementById(inputId);
+
+    if (input instanceof HTMLInputElement) {
+      initSearchPlaceholder(input);
+    }
+  }
+</script>

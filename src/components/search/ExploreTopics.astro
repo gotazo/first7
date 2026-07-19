@@ -1,0 +1,48 @@
+---
+import {
+  BookOpen,
+  Heart,
+  Lightbulb,
+  Shield,
+} from "../../lib/icons";
+
+import { EXPLORE_TOPICS } from "./exploreTopics";
+
+const icons = {
+  "book-open": BookOpen,
+  heart: Heart,
+  lightbulb: Lightbulb,
+  shield: Shield,
+} as const;
+---
+
+<section
+  aria-labelledby="explore-topics-heading"
+  class="space-y-4"
+>
+  <h2
+    id="explore-topics-heading"
+    class="text-lg font-semibold"
+  >
+    Explore Topics
+  </h2>
+
+  <div class="flex flex-wrap gap-3">
+    {
+      EXPLORE_TOPICS.map((topic) => {
+        const Icon = icons[topic.icon as keyof typeof icons];
+
+        return (
+          <a
+            href={`/search?q=${encodeURIComponent(topic.query)}`}
+            class="flex items-center gap-2 rounded-full border border-[var(--color-border)] bg-[var(--color-bg-soft)] px-4 py-2 text-sm font-medium transition hover:border-[var(--color-primary)] hover:text-[var(--color-primary)]"
+          >
+            <Icon class="h-4 w-4" />
+
+            <span>{topic.title}</span>
+          </a>
+        );
+      })
+    }
+  </div>
+</section>

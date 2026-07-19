@@ -1,0 +1,105 @@
+---
+import SearchBox from "../search/SearchBox.astro";
+import SearchCollections from "../search/SearchCollections.astro";
+import ExploreTopics from "../search/ExploreTopics.astro";
+---
+
+<section class="py-12 md:py-16">
+
+  <div class="mx-auto max-w-5xl space-y-14">
+
+    <header class="mx-auto max-w-3xl space-y-5 text-center">
+
+      <p
+        class="
+          text-sm
+          font-semibold
+          uppercase
+          tracking-[0.2em]
+          text-[var(--color-primary)]
+        "
+      >
+        Discover
+      </p>
+
+      <h2
+        class="
+          text-3xl
+          font-bold
+          tracking-tight
+          md:text-5xl
+        "
+      >
+        Find Biblical Truth
+      </h2>
+
+      <p
+        class="
+          text-lg
+          text-[var(--color-muted)]
+        "
+      >
+        Search teachings, Bible dictionary terms,
+        verse collections, reading plans,
+        reflections, guides, and biblical resources.
+      </p>
+
+    </header>
+
+    <SearchBox
+      rotatePlaceholder={true}
+      showClear={false}
+      placeholder="Search First7..."
+    />
+
+    <div class="space-y-6">
+
+      <div class="text-center">
+
+        <h3 class="text-xl font-semibold">
+          Browse Collections
+        </h3>
+
+        <p
+          class="
+            mt-2
+            text-sm
+            text-[var(--color-muted)]
+          "
+        >
+          Quickly explore every library in First7.
+        </p>
+
+      </div>
+
+      <SearchCollections />
+
+    </div>
+
+    <div class="space-y-6">
+
+      <div class="text-center">
+
+        <h3 class="text-xl font-semibold">
+          Explore Topics
+        </h3>
+
+        <p
+          class="
+            mt-2
+            text-sm
+            text-[var(--color-muted)]
+          "
+        >
+          Discover biblical truth by subject.
+        </p>
+
+      </div>
+
+      <ExploreTopics />
+
+    </div>
+
+  </div>
+
+</section>

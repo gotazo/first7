@@ -1,0 +1,25 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  verse: CollectionEntry<"verseJar">;
+}
+
+const { verse } = Astro.props;
+---
+
+<div class="rounded-3xl border border-[var(--color-border)] p-8">
+
+  <p class="text-xs uppercase tracking-[0.25em] text-[var(--color-primary)]">
+    Verse of the Day
+  </p>
+
+  <blockquote class="mt-6 text-2xl font-serif italic leading-relaxed">
+    {verse.data.verse}
+  </blockquote>
+
+  <p class="mt-8 font-semibold text-[var(--color-primary)]">
+    {verse.data.reference}
+  </p>
+
+</div>
