@@ -25,9 +25,17 @@ const displayTeachings =
   eyebrow="Bible Study"
   title="Continue Learning"
   description="Continue growing through practical, Scripture-centered Bible teaching."
+  centered
 >
 
-  <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+  <div
+    class="
+      grid
+      gap-6
+      md:grid-cols-2
+      lg:grid-cols-3
+    "
+  >
 
     {
       displayTeachings.map((teaching) => (
@@ -43,9 +51,10 @@ const displayTeachings =
 
     <Button
       href="/teachings"
-      variant="ghost"
+      variant="secondary"
+      size="lg"
     >
-      Browse Teaching Library →
+      Browse Teaching Library
     </Button>
 
   </div>

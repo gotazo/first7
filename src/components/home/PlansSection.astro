@@ -7,16 +7,16 @@ import {
   getStartPlanSummaries,
 } from "../../lib/start-plans";
 
-const plans =
-  await getStartPlanSummaries();
+const plans = await getStartPlanSummaries();
 
 const featuredPlans = plans.slice(0, 3);
 ---
 
 <Section
   eyebrow="Start Growing"
-  title="7-Day Plans"
+  title="7-Day Bible Plans"
   description="Build lasting habits through short, practical Bible reading plans rooted in Scripture."
+  centered
 >
 
   <div
@@ -27,28 +27,21 @@ const featuredPlans = plans.slice(0, 3);
       lg:grid-cols-3
     "
   >
-
     {
       featuredPlans.map((plan) => (
-
-        <PlanCard
-          plan={plan}
-        />
-
+        <PlanCard plan={plan} />
       ))
     }
-
   </div>
 
   <div class="mt-10 flex justify-center">
-
     <Button
       href="/plans"
-      variant="ghost"
+      variant="secondary"
+      size="lg"
     >
-      Browse All 7-Day Plans →
+      Explore All Bible Plans
     </Button>
-
   </div>
 
 </Section>

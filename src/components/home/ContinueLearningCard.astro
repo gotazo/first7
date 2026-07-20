@@ -3,6 +3,8 @@ import Card from "../ui/Card.astro";
 import Button from "../ui/Button.astro";
 import Badge from "../ui/Badge.astro";
 
+import { BookOpen } from "../../lib/icons";
+
 import type { CollectionEntry } from "astro:content";
 
 interface Props {
@@ -14,28 +16,36 @@ const { teaching } = Astro.props;
 const href = `/teachings/${teaching.id}`;
 ---
 
-<Card class="h-full">
+<Card
+  class="
+    group
+    h-full
+    transition-all
+    duration-300
+    hover:-translate-y-1
+    hover:shadow-xl
+  "
+>
 
   <div class="flex h-full flex-col">
 
-    <!-- Scripture -->
+    <div class="flex">
 
-    <p
-      class="
-        text-xs
-        uppercase
-        tracking-[0.18em]
-        text-[var(--color-primary)]
-      "
-    >
-      {teaching.data.scripture.ref}
-    </p>
+      <span class="scripture-badge">
 
-    <!-- Title -->
+        <BookOpen class="h-4 w-4 shrink-0" />
+
+        <span>
+          {teaching.data.scripture.ref}
+        </span>
+
+      </span>
+
+    </div>
 
     <h3
       class="
-        mt-3
+        mt-5
         text-2xl
         font-semibold
       "
@@ -43,19 +53,16 @@ const href = `/teachings/${teaching.id}`;
       {teaching.data.title}
     </h3>
 
-    <!-- Summary -->
-
     <p
       class="
-        mt-3
+        mt-4
         flex-1
+        leading-7
         text-[var(--color-muted)]
       "
     >
       {teaching.data.summary}
     </p>
-
-    <!-- Topics -->
 
     <div
       class="
@@ -80,9 +87,7 @@ const href = `/teachings/${teaching.id}`;
 
     </div>
 
-    <!-- CTA -->
-
-    <div class="mt-8">
+    <div class="mt-auto pt-8">
 
       <Button
         href={href}
@@ -96,3 +101,27 @@ const href = `/teachings/${teaching.id}`;
   </div>
 
 </Card>
+
+<style>
+.scripture-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+
+  padding: .5rem 1rem;
+
+  border-radius: 999px;
+
+  border: 1px solid var(--color-border);
+
+  background: var(--color-bg-soft);
+
+  color: var(--color-primary);
+
+  font-size: .875rem;
+
+  font-weight: 600;
+
+  line-height: 1;
+}
+</style>

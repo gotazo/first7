@@ -1,45 +1,94 @@
 ---
 import {
   BookOpen,
+  Gift,
+  HandHelping,
   Heart,
+  HeartHandshake,
+  Leaf,
   Lightbulb,
-  Shield,
+  ShieldCheck,
+  ShieldPlus,
+  Sunrise,
 } from "../../lib/icons";
 
 import { EXPLORE_TOPICS } from "./exploreTopics";
 
 const icons = {
   "book-open": BookOpen,
+  "shield-check": ShieldCheck,
+  "hand-helping": HandHelping,
+  sunrise: Sunrise,
   heart: Heart,
+  gift: Gift,
+  leaf: Leaf,
+  "heart-handshake": HeartHandshake,
   lightbulb: Lightbulb,
-  shield: Shield,
+  "shield-plus": ShieldPlus,
 } as const;
 ---
 
 <section
   aria-labelledby="explore-topics-heading"
-  class="space-y-4"
+  class="space-y-6"
 >
-  <h2
-    id="explore-topics-heading"
-    class="text-lg font-semibold"
+  <div
+    class="
+      grid
+      gap-6
+      sm:grid-cols-2
+      lg:grid-cols-5
+    "
   >
-    Explore Topics
-  </h2>
-
-  <div class="flex flex-wrap gap-3">
     {
       EXPLORE_TOPICS.map((topic) => {
-        const Icon = icons[topic.icon as keyof typeof icons];
+        const Icon =
+          icons[topic.icon as keyof typeof icons];
 
         return (
           <a
             href={`/search?q=${encodeURIComponent(topic.query)}`}
-            class="flex items-center gap-2 rounded-full border border-[var(--color-border)] bg-[var(--color-bg-soft)] px-4 py-2 text-sm font-medium transition hover:border-[var(--color-primary)] hover:text-[var(--color-primary)]"
+            class="
+              group
+              flex
+              flex-col
+              items-center
+              rounded-3xl
+              border
+              border-[var(--color-border)]
+              bg-[var(--color-bg-soft)]
+              p-6
+              text-center
+              transition-all
+              duration-300
+              hover:-translate-y-1
+              hover:border-[var(--color-primary)]
+              hover:bg-[var(--color-bg-elevated)]
+              hover:shadow-xl
+            "
           >
-            <Icon class="h-4 w-4" />
+            <div
+  class:list={[
+    "mb-5 flex h-16 w-16 items-center justify-center rounded-2xl border border-[var(--color-border)] transition-all duration-300 group-hover:border-[var(--color-primary)]",
+    topic.bgColor,
+  ]}
+>
+              <Icon
+                class:list={[
+                  "h-8 w-8 transition-transform duration-300 group-hover:scale-110",
+                  topic.color,
+                ]}
+              />
+            </div>
 
-            <span>{topic.title}</span>
+            <span
+              class="
+                text-base
+                font-semibold
+              "
+            >
+              {topic.title}
+            </span>
           </a>
         );
       })

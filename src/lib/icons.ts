@@ -4,9 +4,17 @@ export {
   CalendarDays,
   Compass,
   FolderOpen,
+  Gift,
+  HandHelping,
+  Hash,
   Heart,
+  HeartHandshake,
+  Leaf,
   Library,
   Lightbulb,
   ScrollText,
   Shield,
- } from "@lucide/astro";
+  ShieldCheck,
+  ShieldPlus,
+  Sunrise,
+} from "@lucide/astro";
