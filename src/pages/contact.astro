@@ -2,23 +2,100 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<BaseLayout title="Contact">
+<BaseLayout title="Write to Us">
 
-  <div class="max-w-3xl mx-auto space-y-6">
+  <div class="max-w-3xl mx-auto space-y-8">
 
-    <h1 class="text-3xl font-semibold">Contact</h1>
+    <header class="space-y-4">
+      <h1 class="text-3xl font-semibold">Write to Us</h1>
 
-    <p class="text-[var(--color-muted)]">
-      Have a question, suggestion, or feedback? I’d love to hear from you.
-    </p>
+      <p class="text-[var(--color-muted)]">
+        Thank you for visiting First7. Whether you have a question about
+        Scripture, found an error, have a suggestion for a Bible study,
+        or simply want to share how God has encouraged you through First7,
+        you're welcome to write.
+      </p>
+    </header>
 
-    <p>
-      Email: <a href="mailto:hello@first7.com" class="underline">Contact</a>
-    </p>
+    <section class="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-6">
+      <h2 class="text-xl font-semibold mb-4">
+        What can you write to us about?
+      </h2>
 
-    <p class="text-sm text-[var(--color-muted)]">
-      I may not be able to respond to every message, but I do read all feedback.
-    </p>
+      <ul class="list-disc pl-6 space-y-2 text-[var(--color-muted)]">
+        <li>Ask a question about the Bible or Scripture.</li>
+        <li>Report an error, typo, broken link, or technical issue.</li>
+        <li>Suggest a Bible study, devotional, or dictionary term.</li>
+        <li>Share a testimony or how First7 has encouraged or helped you.</li>
+        <li>Request permission to use First7 content.</li>
+        <li>Discuss a partnership or ministry opportunity.</li>
+        <li>Share your feedback, ideas, or suggestions./li>
+        
+      </ul>
+    </section>
+
+    <section class="space-y-4">
+      <h2 class="text-xl font-semibold">
+        Send us a Message
+      </h2>
+
+      <p class="text-sm text-[var(--color-muted)]">
+        Every message is read, although we may not be able to respond to
+        each one. If you'd like a reply, please include your email address
+        in the form.
+      </p>
+
+      <iframe
+        data-tally-src="https://tally.so/embed/5Bg27Q?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+        loading="lazy"
+        width="100%"
+        height="1200"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        title="Write to Us">
+      </iframe>
+
+      <script is:inline>
+        var d = document,
+          w = "https://tally.so/widgets/embed.js",
+          v = function () {
+            if (typeof Tally !== "undefined") {
+              Tally.loadEmbeds();
+            } else {
+              d.querySelectorAll('iframe[data-tally-src]:not([src])').forEach(function (e) {
+                e.src = e.dataset.tallySrc;
+              });
+            }
+          };
+
+        if (typeof Tally !== "undefined") {
+          v();
+        } else if (d.querySelector('script[src="' + w + '"]') == null) {
+          var s = d.createElement("script");
+          s.src = w;
+          s.onload = v;
+          s.onerror = v;
+          d.body.appendChild(s);
+        }
+      </script>
+    </section>
+
+    <section class="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-6">
+      <h2 class="text-xl font-semibold mb-2">
+        Prefer email?
+      </h2>
+
+      <p class="text-[var(--color-muted)]">
+        You can also contact us directly at
+        <a
+          href="mailto:hello@first7.org"
+          class="underline underline-offset-4 hover:no-underline"
+        >
+          hello@first7.org
+        </a>.
+      </p>
+    </section>
 
   </div>
 

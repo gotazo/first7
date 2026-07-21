@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { BookOpen } from "../../lib/icons";
 
 interface Props {
   verse: CollectionEntry<"verseJar">;
@@ -8,18 +9,85 @@ interface Props {
 const { verse } = Astro.props;
 ---
 
-<div class="rounded-3xl border border-[var(--color-border)] p-8">
+<div
+  class="
+    relative
+    overflow-hidden
+    rounded-3xl
+    border
+    border-[color-mix(in_srgb,var(--color-border)_85%,white_10%)]
+    bg-[linear-gradient(180deg,rgba(255,255,255,0.02),transparent)]
+    p-10
+    transition-all
+    duration-300
+  "
+>
 
-  <p class="text-xs uppercase tracking-[0.25em] text-[var(--color-primary)]">
-    Verse of the Day
-  </p>
+  <!-- Soft Background Glow -->
+  <div
+    aria-hidden="true"
+    class="
+      pointer-events-none
+      absolute
+      inset-0
+      bg-gradient-to-br
+      from-[color-mix(in_srgb,var(--color-primary)_8%,transparent)]
+      via-transparent
+      to-transparent
+    "
+  />
 
-  <blockquote class="mt-6 text-2xl font-serif italic leading-relaxed">
-    {verse.data.verse}
-  </blockquote>
+  <div class="relative">
 
-  <p class="mt-8 font-semibold text-[var(--color-primary)]">
-    {verse.data.reference}
-  </p>
+    <!-- Header -->
+    <div class="flex items-center gap-2">
+
+      <BookOpen
+        class="h-4 w-4 text-[var(--color-primary)] opacity-90"
+        aria-hidden="true"
+      />
+
+      <p
+        class="
+          text-xs
+          font-semibold
+          uppercase
+          tracking-[0.25em]
+          text-[var(--color-primary)]
+        "
+      >
+        Verse of the Day
+      </p>
+
+    </div>
+
+    <!-- Verse -->
+    <blockquote
+      class="
+        mt-8
+        text-2xl
+        font-serif
+        italic
+        leading-relaxed
+        text-[var(--color-text)]
+      "
+    >
+      {verse.data.verse}
+    </blockquote>
+
+    <!-- Reference -->
+    <p
+      class="
+        mt-10
+        text-lg
+        font-semibold
+        tracking-wide
+        text-[var(--color-primary)]
+      "
+    >
+      {verse.data.reference}
+    </p>
+
+  </div>
 
 </div>

@@ -2,6 +2,7 @@ export {
   BookOpen,
   BookOpenText,
   CalendarDays,
+  ChevronDown,
   Compass,
   FolderOpen,
   Gift,

@@ -1,65 +1,42 @@
 ---
-interface TrustItem {
-  label: string;
-}
-
-const items: TrustItem[] = [
-  {
-    label: "Free to Read",
-  },
-  {
-    label: "King James Bible",
-  },
-  {
-    label: "No Sign-up Required",
-  },
-];
 ---
 
-<div
-  class="
-    mt-10
-    flex
-    flex-wrap
-    items-center
-    gap-x-6
-    gap-y-3
-    text-sm
-    text-[var(--color-text-muted)]
-  "
->
+<div class="mt-8">
 
-  {
-    items.map((item) => (
+  <div
+    class="
+      inline-flex
+      items-center
+      gap-2
+      rounded-full
+      border
+      border-[var(--color-border)]
+      bg-[color-mix(in_srgb,var(--color-primary)_10%,transparent)]
+      px-4
+      py-2
+    "
+  >
 
-      <div
-        class="flex items-center gap-2"
-      >
+    <span
+      class="
+        h-2
+        w-2
+        rounded-full
+        bg-[var(--color-primary)]
+      "
+      aria-hidden="true"
+    />
 
-        <span
-          class="
-            flex
-            h-5
-            w-5
-            items-center
-            justify-center
-            rounded-full
-            bg-[color-mix(in_srgb,var(--color-primary)_12%,transparent)]
-            text-[var(--color-primary)]
-            text-xs
-            font-bold
-          "
-        >
-          ✓
-        </span>
+    <span
+      class="
+        text-sm
+        font-medium
+        text-[var(--color-primary)]
+      "
+    >
+      King James Version (KJV)
+    </span>
 
-        <span>
-          {item.label}
-        </span>
-
-      </div>
-
-    ))
-  }
+  </div>
 
 </div>

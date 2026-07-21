@@ -3,44 +3,96 @@ title: Armor
 
 term: armor
 
-shortMeaning: protective equipment worn to guard the body in battle
+shortMeaning: Protective clothing or equipment worn in battle.
 
-related:
-  - strength
+biblicalUsage: >
+  Throughout Scripture, armor refers to protective equipment worn by
+  soldiers in warfare. It is also used figuratively to describe
+  spiritual protection and readiness.
+
+reference:
+  ref: 1 Samuel 17:38
+  text: "And Saul armed David with his armour, and he put an helmet of brass upon his head; also he armed him with a coat of mail."
+
+featuredVerse:
+  ref: Ephesians 6:11
+  text: "Put on the whole armour of God, that ye may be able to stand against the wiles of the devil."
 
 scriptures:
-  - 1 Samuel 17
+  - 1 Samuel 17:38-39
+  - 2 Samuel 20:8
+  - 2 Chronicles 26:14
   - Isaiah 59:17
-  - Ephesians 6
+  - Romans 13:12
+  - Ephesians 6:11-17
+  - 1 Thessalonians 5:8
+
+related:
+  - shield
+  - helmet
+  - breastplate
+  - sword
 
 aliases:
   - armour
-  - protective equipment
+
+seeAlso:
+  - warfare
+  - soldier
+  - battle
+
+tags:
+  - warfare
+  - protection
+  - battle
+  - soldier
+
+hebrew:
+  word: שִׁרְיוֹן
+  transliteration: shiryon
+  meaning: coat of mail; armor
+
+greek:
+  word: πανοπλία
+  transliteration: panoplia
+  meaning: full armor; complete armor
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Armor is protective equipment worn
-to defend the body from injury,
-especially during warfare or combat.
+Armor is protective clothing or equipment worn in battle.
 
-It may include helmets, shields,
-breastplates, and other forms
-of protection.
+Throughout the Bible, armor is associated with warfare, defense, and readiness for conflict.
 
 ---
 
 ## Biblical Usage
 
-The word armor appears in historical
-accounts, poetry, prophecy,
-and teachings concerning warfare
-and protection.
+Armor appears throughout both the Old and New Testaments.
+
+In the Old Testament, it refers to the equipment worn by soldiers in battle. The New Testament also uses armor figuratively in describing spiritual protection and preparedness.
 
 ---
 
-## Related Topics
+## Key References
 
-- Strength
-- Sword
+- 1 Samuel 17:38-39
+- 2 Samuel 20:8
+- 2 Chronicles 26:14
+- Isaiah 59:17
+- Romans 13:12
+- Ephesians 6:11-17
+- 1 Thessalonians 5:8
+
+---
+
+## Related Terms
+
 - Shield
+- Helmet
+- Breastplate
+- Sword
+- Warfare
+- Soldier
+- Battle

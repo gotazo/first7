@@ -1,84 +1,184 @@
 ---
 import DarkToggle from "./DarkToggle.astro";
 
+import {
+  ChevronDown,
+} from "../lib/icons";
+
 const pathname = Astro.url.pathname;
 ---
 
-<nav class="sticky top-0 z-50 bg-[var(--color-bg)]/80 backdrop-blur border-b border-[var(--color-border)]">
+<nav
+  class="
+    sticky
+    top-0
+    z-50
+    border-b
+    border-[var(--color-border)]
+    bg-[var(--color-bg)]/80
+    backdrop-blur-xl
+  "
+>
 
-  <div class="max-w-6xl mx-auto px-5 py-4 flex justify-between items-center">
+  <div
+    class="
+      mx-auto
+      flex
+      max-w-7xl
+      items-center
+      justify-between
+      px-6
+      py-4
+    "
+  >
 
     <!-- LOGO -->
-    <a href="/" class="flex items-center gap-[4px] text-2xl md:text-3xl tracking-tight">
+
+    <a
+      href="/"
+      aria-label="First7 Home"
+      class="
+        group
+        flex
+        items-center
+        gap-1
+        text-3xl
+        tracking-tight
+      "
+    >
+
       <span
-        class="text-[var(--color-text)]"
-        style="font-family: 'Playfair Display', serif;"
+        class="
+          text-[var(--color-text)]
+          transition-colors
+          duration-200
+          group-hover:text-[var(--color-primary)]
+        "
+        style="font-family:'Playfair Display', serif;"
       >
         first
       </span>
 
       <span
-        class="text-[var(--color-primary)]"
-        style="font-family: 'Inter', sans-serif;"
+        class="
+          font-semibold
+          text-[var(--color-primary)]
+        "
       >
         7
       </span>
+
     </a>
 
     <!-- DESKTOP NAV -->
-    <div class="hidden md:flex items-center gap-6 text-sm">
+
+    <div
+      class="
+        hidden
+        items-center
+        gap-2
+        text-sm
+        md:flex
+      "
+    >
 
       <!-- VERSES -->
-      <div class="relative group">
+
+      <div class="group relative">
 
         <a
           href="/verses"
-          class="flex items-center gap-1 px-2 py-1 text-[var(--color-muted)] hover:text-[var(--color-text)]"
+          class:list={[
+            "inline-flex items-center gap-1.5 rounded-xl px-3 py-2 transition-all duration-200 hover:bg-[var(--color-bg-soft)]",
+            pathname.startsWith("/verses")
+              ? "font-medium text-[var(--color-text)]"
+              : "text-[var(--color-muted)] hover:text-[var(--color-text)]",
+          ]}
         >
-          Verses
-          <span class="text-xs">▼</span>
+
+          <span>Verses</span>
+
+          <ChevronDown
+            class="
+              h-4
+              w-4
+              transition-transform
+              duration-200
+              group-hover:rotate-180
+            "
+          />
+
         </a>
 
-        <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-150">
+          <div
+          class="
+            invisible
+            absolute
+            left-1/2
+            top-full
+            z-50
+            w-[500px]
+            -translate-x-1/2
+            pt-4
+            opacity-0
+            transition-all
+            duration-200
+            group-hover:visible
+            group-hover:opacity-100
+          "
+        >
 
-          <div class="w-[500px] rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] shadow-xl p-6">
+          <div
+            class="
+              rounded-3xl
+              border
+              border-[var(--color-border)]
+              bg-[var(--color-bg)]
+              p-6
+              shadow-xl
+            "
+          >
 
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-2 gap-6">
 
               <div>
-                <p class="text-xs uppercase text-[var(--color-muted)] mb-2">
+
+                <p class="mb-3 text-xs font-semibold uppercase tracking-[0.15em] text-[var(--color-primary)]">
                   Emotions
                 </p>
 
-                <a href="/verses/bible-verses-for-anxiety" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                <a href="/verses/bible-verses-for-anxiety" class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]">
                   Anxiety
                 </a>
 
-                <a href="/verses/bible-verses-for-fear" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                <a href="/verses/bible-verses-for-fear" class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]">
                   Fear
                 </a>
 
-                <a href="/verses/bible-verses-for-depression" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                <a href="/verses/bible-verses-for-depression" class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]">
                   Depression
                 </a>
+
               </div>
 
               <div>
-                <p class="text-xs uppercase text-[var(--color-muted)] mb-2">
+
+                <p class="mb-3 text-xs font-semibold uppercase tracking-[0.15em] text-[var(--color-primary)]">
                   Growth
                 </p>
 
-                <a href="/verses/bible-verses-for-strength" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                <a href="/verses/bible-verses-for-strength" class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]">
                   Strength
                 </a>
 
-                <a href="/verses/bible-verses-for-love" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                <a href="/verses/bible-verses-for-love" class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]">
                   Love
                 </a>
 
-                <a href="/verses/bible-verses-for-healing" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
+                <a href="/verses/bible-verses-for-healing" class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]">
                   Healing
                 </a>
+
               </div>
 
             </div>
@@ -90,52 +190,82 @@ const pathname = Astro.url.pathname;
       </div>
 
       <!-- PRAYERS -->
-      <div class="relative group">
+
+      <div class="group relative">
 
         <a
           href="/prayers"
-          class="flex items-center gap-1 px-2 py-1 text-[var(--color-muted)] hover:text-[var(--color-text)]"
+          class:list={[
+            "inline-flex items-center gap-1.5 rounded-xl px-3 py-2 transition-all duration-200 hover:bg-[var(--color-bg-soft)]",
+            pathname.startsWith("/prayers")
+              ? "font-medium text-[var(--color-text)]"
+              : "text-[var(--color-muted)] hover:text-[var(--color-text)]",
+          ]}
         >
-          Prayers
-          <span class="text-xs">▼</span>
+
+          <span>Prayers</span>
+
+          <ChevronDown
+            class="h-4 w-4 transition-transform duration-200 group-hover:rotate-180"
+          />
+
         </a>
 
-        <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-150">
+        <div
+          class="
+            invisible
+            absolute
+            left-1/2
+            top-full
+            z-50
+            w-[500px]
+            -translate-x-1/2
+            pt-4
+            opacity-0
+            transition-all
+            duration-200
+            group-hover:visible
+            group-hover:opacity-100
+          "
+        >
 
-          <div class="w-[500px] rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] shadow-xl p-6">
+          <div
+            class="
+              rounded-3xl
+              border
+              border-[var(--color-border)]
+              bg-[var(--color-bg)]
+              p-6
+              shadow-xl
+            "
+          >
 
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-2 gap-6">
 
               <div>
-                <p class="text-xs uppercase text-[var(--color-muted)] mb-2">
+
+                <p class="mb-3 text-xs font-semibold uppercase tracking-[0.15em] text-[var(--color-primary)]">
                   Needs
                 </p>
 
-                <a href="/prayers/anxiety" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
-                  Anxiety
-                </a>
+                <a href="/prayers/anxiety" class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]">Anxiety</a>
 
-                <a href="/prayers/peace" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
-                  Peace
-                </a>
+                <a href="/prayers/peace" class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]">Peace</a>
 
-                <a href="/prayers/healing" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
-                  Healing
-                </a>
+                <a href="/prayers/healing" class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]">Healing</a>
+
               </div>
 
               <div>
-                <p class="text-xs uppercase text-[var(--color-muted)] mb-2">
+
+                <p class="mb-3 text-xs font-semibold uppercase tracking-[0.15em] text-[var(--color-primary)]">
                   Growth
                 </p>
 
-                <a href="/prayers/strength" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
-                  Strength
-                </a>
+                <a href="/prayers/strength" class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]">Strength</a>
 
-                <a href="/prayers/guidance" class="block px-3 py-2 rounded-lg hover:bg-[var(--color-primary)]/10">
-                  Guidance
-                </a>
+                <a href="/prayers/guidance" class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]">Guidance</a>
+
               </div>
 
             </div>
@@ -146,162 +276,228 @@ const pathname = Astro.url.pathname;
 
       </div>
 
-<!-- PRIMARY NAV -->
+      <!-- VERSE JAR -->
 
-<!-- VERSE JAR -->
+      <a
+        href="/verse-jar"
+        class:list={[
+          "rounded-xl px-3 py-2 transition-all duration-200 hover:bg-[var(--color-bg-soft)]",
+          pathname.startsWith("/verse-jar")
+            ? "font-medium text-[var(--color-text)]"
+            : "text-[var(--color-muted)] hover:text-[var(--color-text)]",
+        ]}
+      >
+        Verse Jar
+      </a>
 
-<a
-  href="/verse-jar"
-  class={`transition ${
-    pathname.startsWith("/verse-jar")
-      ? "text-[var(--color-text)]"
-      : "text-[var(--color-muted)] hover:text-[var(--color-text)]"
-  }`}
->
-  Verse Jar
-</a>
+      <!-- ASK -->
 
-<!-- ASK -->
+      <a
+        href="/ask"
+        class:list={[
+          "rounded-xl px-3 py-2 transition-all duration-200 hover:bg-[var(--color-bg-soft)]",
+          pathname.startsWith("/ask")
+            ? "font-medium text-[var(--color-text)]"
+            : "text-[var(--color-muted)] hover:text-[var(--color-text)]",
+        ]}
+      >
+        Ask
+      </a>
 
-<a
-href="/ask"
-class={`transition ${
-    pathname.startsWith("/ask")
-      ? "text-[var(--color-text)]"
-      : "text-[var(--color-muted)] hover:text-[var(--color-text)]"
-  }`}
+        <!-- LIBRARY -->
 
->
+      <div class="group relative">
 
-Ask </a>
+        <a
+          href="/teachings"
+          class:list={[
+            "inline-flex items-center gap-1.5 rounded-xl px-3 py-2 transition-all duration-200 hover:bg-[var(--color-bg-soft)]",
+            pathname.startsWith("/teachings") ||
+            pathname.startsWith("/dictionary") ||
+            pathname.startsWith("/number") ||
+            pathname.startsWith("/prophecy") ||
+            pathname.startsWith("/reflections") ||
+            pathname.startsWith("/resources")
+              ? "font-medium text-[var(--color-text)]"
+              : "text-[var(--color-muted)] hover:text-[var(--color-text)]",
+          ]}
+        >
 
-<!-- LIBRARY -->
+          <span>Library</span>
 
-<div class="relative group">
+          <ChevronDown
+            class="
+              h-4
+              w-4
+              transition-transform
+              duration-200
+              group-hover:rotate-180
+            "
+          />
 
-<a
-href="/teachings"
-class={`flex items-center gap-1 transition ${
-      pathname.startsWith("/teachings") ||
-      pathname.startsWith("/dictionary") ||
-      pathname.startsWith("/prophecy") ||
-      pathname.startsWith("/reflections") ||
-      pathname.startsWith("/resources")
-        ? "text-[var(--color-text)]"
-        : "text-[var(--color-muted)] hover:text-[var(--color-text)]"
-    }`}
+        </a>
 
->
+        <div
+          class="
+            invisible
+            absolute
+            left-1/2
+            top-full
+            z-50
+            w-[300px]
+            -translate-x-1/2
+            pt-4
+            opacity-0
+            transition-all
+            duration-200
+            group-hover:visible
+            group-hover:opacity-100
+          "
+        >
 
+          <div
+            class="
+              rounded-3xl
+              border
+              border-[var(--color-border)]
+              bg-[var(--color-bg)]
+              p-4
+              shadow-xl
+            "
+          >
 
-Library
+            <div class="space-y-1">
 
-<span class="text-xs">▼</span>
+              <a
+                href="/teachings"
+                class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]"
+              >
+                Teachings
+              </a>
 
+              <a
+                href="/dictionary"
+                class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]"
+              >
+                Dictionary
+              </a>
 
-  </a>
+              <a
+                href="/number"
+                class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]"
+              >
+                Numbers
+              </a>
 
-  <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-150">
+              <a
+                href="/prophecy"
+                class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]"
+              >
+                Prophecy
+              </a>
 
+              <a
+                href="/reflections"
+                class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]"
+              >
+                Reflections
+              </a>
 
-<div class="w-[280px] rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] shadow-xl p-4">
+              <a
+                href="/resources"
+                class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]"
+              >
+                Resources
+              </a>
 
-  <div class="space-y-1">
+            </div>
 
-    <a
-      href="/teachings"
-      class="block rounded-lg px-3 py-2 hover:bg-[var(--color-primary)]/10"
-    >
-      Teachings
-    </a>
+          </div>
 
-    <a
-      href="/dictionary"
-      class="block rounded-lg px-3 py-2 hover:bg-[var(--color-primary)]/10"
-    >
-      Dictionary
-    </a>
+        </div>
 
-    <a
-      href="/prophecy"
-      class="block rounded-lg px-3 py-2 hover:bg-[var(--color-primary)]/10"
-    >
-      Prophecy
-    </a>
+      </div>
 
-    <a
-      href="/reflections"
-      class="block rounded-lg px-3 py-2 hover:bg-[var(--color-primary)]/10"
-    >
-      Reflections
-    </a>
+      <!-- PLANS -->
 
-    <a
-      href="/resources"
-      class="block rounded-lg px-3 py-2 hover:bg-[var(--color-primary)]/10"
-    >
-      Resources
-    </a>
+      <a
+        href="/plans"
+        class:list={[
+          "rounded-xl px-3 py-2 transition-all duration-200 hover:bg-[var(--color-bg-soft)]",
+          pathname.startsWith("/plans")
+            ? "font-medium text-[var(--color-text)]"
+            : "text-[var(--color-muted)] hover:text-[var(--color-text)]",
+        ]}
+      >
+        Plans
+      </a>
 
-  </div>
+      <!-- BIBLE -->
 
-</div>
+      <a
+        href="/bible"
+        class:list={[
+          "rounded-xl px-3 py-2 transition-all duration-200 hover:bg-[var(--color-bg-soft)]",
+          pathname.startsWith("/bible")
+            ? "font-medium text-[var(--color-text)]"
+            : "text-[var(--color-muted)] hover:text-[var(--color-text)]",
+        ]}
+      >
+        Bible
+      </a>
 
-  </div>
+      <!-- PLAY -->
 
-</div>
-
-<!-- PLANS -->
-
-<a
-href="/plans"
-class={`transition ${
-    pathname.startsWith("/plans")
-      ? "text-[var(--color-text)]"
-      : "text-[var(--color-muted)] hover:text-[var(--color-text)]"
-  }`}
-
->
-
-Plans </a>
-
-<!-- BIBLE -->
-
-<a
-href="/bible"
-class={`transition ${
-    pathname.startsWith("/bible")
-      ? "text-[var(--color-text)]"
-      : "text-[var(--color-muted)] hover:text-[var(--color-text)]"
-  }`}
-
->
-
-Bible </a>
-
-
-<!-- PLAY -->
-
-<a
-  href="https://play.first7.org"
-  target="_blank"
-  rel="noopener noreferrer"
-  class="inline-flex items-center gap-2 rounded-full border border-[rgba(214,179,106,0.18)] bg-[rgba(214,179,106,0.08)] px-3 py-1.5 text-xs uppercase tracking-[0.16em] text-[var(--color-primary)] transition hover:border-[rgba(214,179,106,0.3)] hover:bg-[rgba(214,179,106,0.14)]"
->
-  Play ↗
-</a>
+      <a
+        href="https://play.first7.org"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="
+          ml-2
+          inline-flex
+          items-center
+          gap-2
+          rounded-xl
+          border
+          border-[rgba(214,179,106,0.18)]
+          bg-[rgba(214,179,106,0.08)]
+          px-4
+          py-2
+          text-xs
+          font-semibold
+          uppercase
+          tracking-[0.15em]
+          text-[var(--color-primary)]
+          transition-all
+          duration-200
+          hover:-translate-y-0.5
+          hover:border-[rgba(214,179,106,0.3)]
+          hover:bg-[rgba(214,179,106,0.14)]
+        "
+      >
+        Play ↗
+      </a>
 
     </div>
 
     <!-- RIGHT -->
+
     <div class="flex items-center gap-4">
 
       <DarkToggle />
 
-      <!-- MOBILE BUTTON -->
       <button
         id="menu-btn"
-        class="md:hidden p-2 rounded-lg border border-[var(--color-border)]"
+        class="
+          rounded-xl
+          border
+          border-[var(--color-border)]
+          p-2
+          transition
+          hover:bg-[var(--color-bg-soft)]
+          md:hidden
+        "
+        aria-label="Open Menu"
       >
         ☰
       </button>
@@ -310,110 +506,168 @@ Bible </a>
 
   </div>
 
-  <!-- MOBILE MENU -->
+    <!-- MOBILE MENU -->
+
   <div
     id="mobile-menu"
-    class="hidden md:hidden border-t border-[var(--color-border)]"
+    class="
+      hidden
+      border-t
+      border-[var(--color-border)]
+      bg-[var(--color-bg)]
+      md:hidden
+    "
   >
 
-    <div class="px-5 py-4 space-y-4">
+    <div class="space-y-5 px-6 py-6">
 
       <!-- VERSES -->
+
       <div>
 
         <button
           id="verses-btn"
-          class="w-full text-left font-medium"
+          class="
+            flex
+            w-full
+            items-center
+            justify-between
+            rounded-xl
+            px-3
+            py-3
+            font-medium
+            transition
+            hover:bg-[var(--color-bg-soft)]
+          "
         >
-          Verses ▼
+          <span>Verses</span>
+          <ChevronDown
+            id="verses-icon"
+            class="h-4 w-4 transition-transform duration-200"
+          />
         </button>
 
         <div
           id="mobile-verses"
-          class="hidden mt-2 space-y-2 pl-3 text-sm"
+          class="hidden mt-2 space-y-1 pl-4"
         >
-          <a href="/verses/bible-verses-for-anxiety">Anxiety</a>
-          <a href="/verses/bible-verses-for-fear">Fear</a>
-          <a href="/verses/bible-verses-for-strength">Strength</a>
-          <a href="/verses/bible-verses-for-depression">Depression</a>
-          <a href="/verses/bible-verses-for-love">Love</a>
-          <a href="/verses/bible-verses-for-healing">Healing</a>
+
+          <a href="/verses/bible-verses-for-anxiety" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Anxiety</a>
+
+          <a href="/verses/bible-verses-for-fear" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Fear</a>
+
+          <a href="/verses/bible-verses-for-strength" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Strength</a>
+
+          <a href="/verses/bible-verses-for-depression" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Depression</a>
+
+          <a href="/verses/bible-verses-for-love" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Love</a>
+
+          <a href="/verses/bible-verses-for-healing" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Healing</a>
+
         </div>
 
       </div>
 
       <!-- PRAYERS -->
+
       <div>
 
         <button
           id="prayers-btn"
-          class="w-full text-left font-medium"
+          class="flex w-full items-center justify-between rounded-xl px-3 py-3 font-medium transition hover:bg-[var(--color-bg-soft)]"
         >
-          Prayers ▼
+          <span>Prayers</span>
+          <ChevronDown
+            id="prayers-icon"
+            class="h-4 w-4 transition-transform duration-200"
+          />
         </button>
 
         <div
           id="mobile-prayers"
-          class="hidden mt-2 space-y-2 pl-3 text-sm"
+          class="hidden mt-2 space-y-1 pl-4"
         >
-          <a href="/prayers/anxiety">Anxiety</a>
-          <a href="/prayers/peace">Peace</a>
-          <a href="/prayers/healing">Healing</a>
-          <a href="/prayers/strength">Strength</a>
-          <a href="/prayers/guidance">Guidance</a>
+
+          <a href="/prayers/anxiety" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Anxiety</a>
+
+          <a href="/prayers/peace" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Peace</a>
+
+          <a href="/prayers/healing" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Healing</a>
+
+          <a href="/prayers/strength" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Strength</a>
+
+          <a href="/prayers/guidance" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Guidance</a>
+
         </div>
 
       </div>
 
-      <!-- PRIMARY MOBILE LINKS -->
-      <a href="/verse-jar">Verse Jar</a>
-      <a href="/ask">Ask</a>
+      <a href="/verse-jar" class="block rounded-xl px-3 py-3 hover:bg-[var(--color-bg-soft)]">Verse Jar</a>
 
-<div>
+      <a href="/ask" class="block rounded-xl px-3 py-3 hover:bg-[var(--color-bg-soft)]">Ask</a>
 
-<button
-id="library-btn"
-class="w-full text-left font-medium"
+      <!-- LIBRARY -->
 
->
+      <div>
 
-Library ▼
+        <button
+          id="library-btn"
+          class="flex w-full items-center justify-between rounded-xl px-3 py-3 font-medium transition hover:bg-[var(--color-bg-soft)]"
+        >
+          <span>Library</span>
+          <ChevronDown
+            id="library-icon"
+            class="h-4 w-4 transition-transform duration-200"
+          />
+        </button>
 
+        <div
+          id="mobile-library"
+          class="hidden mt-2 space-y-1 pl-4"
+        >
 
-  </button>
+          <a href="/teachings" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Teachings</a>
 
-  <div
-    id="mobile-library"
-    class="hidden mt-2 space-y-2 pl-3 text-sm"
-  >
+          <a href="/dictionary" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Dictionary</a>
 
+          <a href="/number" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Numbers</a>
 
-<a href="/teachings">Teachings</a>
+          <a href="/prophecy" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Prophecy</a>
 
-<a href="/dictionary">Dictionary</a>
+          <a href="/reflections" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Reflections</a>
 
-<a href="/prophecy">Prophecy</a>
+          <a href="/resources" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Resources</a>
 
-<a href="/reflections">Reflections</a>
+        </div>
 
-<a href="/resources">Resources</a>
+      </div>
 
+      <a href="/plans" class="block rounded-xl px-3 py-3 hover:bg-[var(--color-bg-soft)]">Plans</a>
 
-  </div>
+      <a href="/bible" class="block rounded-xl px-3 py-3 hover:bg-[var(--color-bg-soft)]">Bible</a>
 
-</div>
-
-
-<a href="/plans">Plans</a>
-
-<a href="/bible">Bible</a>
-
-<a
-  href="https://play.first7.org"
-  class="inline-flex w-fit rounded-full border border-[rgba(214,179,106,0.18)] bg-[rgba(214,179,106,0.08)] px-3 py-2 text-xs uppercase tracking-[0.16em] text-[var(--color-primary)]"
->
-  Play ↗
-</a>
+      <a
+        href="https://play.first7.org"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="
+          inline-flex
+          w-fit
+          items-center
+          gap-2
+          rounded-xl
+          border
+          border-[rgba(214,179,106,0.18)]
+          bg-[rgba(214,179,106,0.08)]
+          px-4
+          py-3
+          text-sm
+          font-semibold
+          text-[var(--color-primary)]
+        "
+      >
+        Play ↗
+      </a>
 
     </div>
 
@@ -421,39 +675,36 @@ Library ▼
 
 </nav>
 
-<!-- MOBILE SCRIPT -->
 <script is:inline>
-  document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
 
-    const btn = document.getElementById("menu-btn");
-    const menu = document.getElementById("mobile-menu");
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
 
-    const versesBtn = document.getElementById("verses-btn");
-    const versesMenu = document.getElementById("mobile-verses");
-
-    const prayersBtn = document.getElementById("prayers-btn");
-    const prayersMenu = document.getElementById("mobile-prayers");
-
-    btn?.addEventListener("click", () => {
-      menu?.classList.toggle("hidden");
-    });
-
-    versesBtn?.addEventListener("click", () => {
-      versesMenu?.classList.toggle("hidden");
-    });
-
-    prayersBtn?.addEventListener("click", () => {
-      prayersMenu?.classList.toggle("hidden");
-    });
-
-    const libraryBtn =
-    document.getElementById("library-btn");
-
-    const libraryMenu =
-    document.getElementById("mobile-library");
-
-    libraryBtn?.addEventListener("click", () => {
-    libraryMenu?.classList.toggle("hidden");
-    });
+  menuBtn?.addEventListener("click", () => {
+    mobileMenu?.classList.toggle("hidden");
   });
+
+  const accordions = [
+    ["verses-btn", "mobile-verses", "verses-icon"],
+    ["prayers-btn", "mobile-prayers", "prayers-icon"],
+    ["library-btn", "mobile-library", "library-icon"],
+  ];
+
+  accordions.forEach(([buttonId, panelId, iconId]) => {
+
+    const button = document.getElementById(buttonId);
+    const panel = document.getElementById(panelId);
+    const icon = document.getElementById(iconId);
+
+    button?.addEventListener("click", () => {
+
+      panel?.classList.toggle("hidden");
+      icon?.classList.toggle("rotate-180");
+
+    });
+
+  });
+
+});
 </script>
