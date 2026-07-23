@@ -1,0 +1,137 @@
+---
+interface Props {
+  section: string;
+  title: string;
+  description?: string;
+  searchPlaceholder?: string;
+}
+
+const {
+  section,
+  title,
+  description,
+  searchPlaceholder,
+} = Astro.props;
+---
+
+<section
+  class="
+    rounded-3xl
+    border
+    border-[var(--color-border)]
+    bg-[var(--color-surface)]
+    p-6
+    md:p-8
+  "
+>
+
+  <div class="space-y-6">
+
+    <!-- Section Label -->
+
+    <div
+      class="
+        flex
+        flex-wrap
+        items-center
+        justify-between
+        gap-4
+      "
+    >
+
+      <p
+        class="
+          text-sm
+          font-medium
+          uppercase
+          tracking-[0.2em]
+          text-[var(--color-muted)]
+        "
+      >
+        {section}
+      </p>
+
+      <!-- Optional Badge -->
+
+      <slot name="badge" />
+
+    </div>
+
+    <!-- Heading -->
+
+    <div class="space-y-4">
+
+      <h1
+        class="
+          text-3xl
+          font-semibold
+          tracking-tight
+          md:text-5xl
+        "
+      >
+        {title}
+      </h1>
+
+      {description && (
+
+        <p
+          class="
+            max-w-3xl
+            text-lg
+            leading-relaxed
+            text-[var(--color-muted)]
+          "
+        >
+          {description}
+        </p>
+
+      )}
+
+    </div>
+
+    <!-- Search -->
+
+    {searchPlaceholder && (
+
+      <div>
+
+        <input
+          type="search"
+          placeholder={searchPlaceholder}
+          class="
+            w-full
+            rounded-xl
+            border
+            border-[var(--color-border)]
+            bg-transparent
+            px-4
+            py-3
+            text-base
+            outline-none
+            transition-colors
+            focus:border-[var(--color-primary)]
+          "
+        />
+
+      </div>
+
+    )}
+
+    <!-- Actions -->
+
+    <div
+      class="
+        flex
+        flex-wrap
+        items-center
+        gap-3
+      "
+    >
+
+      <slot />
+
+    </div>
+
+  </div>
+
+</section>
