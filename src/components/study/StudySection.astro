@@ -1,0 +1,88 @@
+---
+import type { ComponentType } from "astro";
+
+interface Props {
+  title: string;
+  description?: string;
+  icon?: ComponentType;
+  id?: string;
+}
+
+const {
+  title,
+  description,
+  icon: Icon,
+  id,
+} = Astro.props;
+---
+
+<section
+  id={id}
+  class="
+    rounded-2xl
+    border
+    border-[var(--color-border)]
+    bg-[var(--color-surface)]
+    p-6
+    md:p-8
+  "
+>
+
+  <div class="space-y-6">
+
+    <!-- Header -->
+    <header class="space-y-3">
+
+      <div class="flex items-center gap-3">
+
+        {Icon && (
+          <Icon
+            class="
+              h-5
+              w-5
+              shrink-0
+              text-[var(--color-primary)]
+            "
+            aria-hidden="true"
+          />
+        )}
+
+        <h2
+          class="
+            text-2xl
+            font-semibold
+            tracking-tight
+          "
+        >
+          {title}
+        </h2>
+
+      </div>
+
+      {description && (
+
+        <p
+          class="
+            max-w-3xl
+            text-sm
+            leading-relaxed
+            text-[var(--color-muted)]
+          "
+        >
+          {description}
+        </p>
+
+      )}
+
+    </header>
+
+    <!-- Content -->
+    <div class="space-y-4">
+
+      <slot />
+
+    </div>
+
+  </div>
+
+</section>
