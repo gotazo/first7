@@ -806,6 +806,26 @@
     }
   },
   {
+    "id": "the-transforming-word",
+    "title": "The Transforming Word",
+    "summary": "Scripture transforms those who receive and obey it.",
+    "topics": [
+      "foundations",
+      "growth"
+    ],
+    "keywords": [
+      "scripture",
+      "transformation",
+      "truth",
+      "wisdom",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Hebrews 4:12",
+      "text": "For the word of God is quick, and powerful, and sharper than any twoedged sword, piercing even to the dividing asunder of soul and spirit, and of the joints and marrow, and is a discerner of the thoughts and intents of the heart."
+    }
+  },
+  {
     "id": "generosity-reflects-gods-heart",
     "title": "Generosity Reflects God's Heart",
     "summary": "Scripture repeatedly connects generosity with kindness, mercy, and faithful stewardship.",
@@ -1217,6 +1237,47 @@
     "scripture": {
       "ref": "Psalm 37:4",
       "text": "Delight thyself also in the LORD; and he shall give thee the desires of thine heart."
+    }
+  },
+  {
+    "id": "relationship-over-religion",
+    "title": "Relationship Over Religion",
+    "summary": "Knowing God personally is more than practicing religious routines.",
+    "topics": [
+      "growth",
+      "relationship"
+    ],
+    "keywords": [
+      "relationship with God",
+      "religion",
+      "fellowship",
+      "obedience",
+      "spiritual growth",
+      "knowing God"
+    ],
+    "scripture": {
+      "ref": "John 15:14",
+      "text": "Ye are my friends, if ye do whatsoever I command you."
+    }
+  },
+  {
+    "id": "discerning-gods-voice",
+    "title": "Discerning God's Voice",
+    "summary": "Believers are called to recognize God's leading.",
+    "topics": [
+      "hearing",
+      "trust"
+    ],
+    "keywords": [
+      "hearing God",
+      "discernment",
+      "guidance",
+      "trust",
+      "wisdom"
+    ],
+    "scripture": {
+      "ref": "John 10:27",
+      "text": "My sheep hear my voice, and I know them, and they follow me:"
     }
   },
   {
@@ -1735,6 +1796,26 @@
     }
   },
   {
+    "id": "obedience-demonstrates-love",
+    "title": "Obedience Demonstrates Love",
+    "summary": "Love for Christ is revealed through obedience to His Word.",
+    "topics": [
+      "obedience",
+      "faith"
+    ],
+    "keywords": [
+      "obedience",
+      "love",
+      "discipleship",
+      "commandments",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "John 14:15",
+      "text": "If ye love me, keep my commandments."
+    }
+  },
+  {
     "id": "never-quit",
     "title": "Never Quit",
     "summary": "Believers are encouraged to remain faithful and continue serving God through every difficulty.",
@@ -1773,6 +1854,46 @@
     "scripture": {
       "ref": "2 Corinthians 4:17",
       "text": "For our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory."
+    }
+  },
+  {
+    "id": "prepared-before-promotion",
+    "title": "Prepared Before Promotion",
+    "summary": "God develops character before entrusting greater responsibility.",
+    "topics": [
+      "perseverance",
+      "growth"
+    ],
+    "keywords": [
+      "preparation",
+      "endurance",
+      "perseverance",
+      "growth",
+      "promotion"
+    ],
+    "scripture": {
+      "ref": "James 1:3",
+      "text": "Knowing this, that the trying of your faith worketh patience."
+    }
+  },
+  {
+    "id": "trials-as-preparation",
+    "title": "Trials As Preparation",
+    "summary": "God can use difficulties to prepare His people for future service.",
+    "topics": [
+      "perseverance",
+      "growth"
+    ],
+    "keywords": [
+      "trials",
+      "endurance",
+      "faith",
+      "preparation",
+      "perseverance"
+    ],
+    "scripture": {
+      "ref": "James 1:2-3",
+      "text": "2 My brethren, count it all joy when ye fall into divers temptations; 3 Knowing this, that the trying of your faith worketh patience."
     }
   },
   {
@@ -2039,6 +2160,26 @@
     "scripture": {
       "ref": "Jeremiah 29:11",
       "text": "For I know the thoughts that I think toward you, saith the LORD, thoughts of peace, and not of evil, to give you an expected end."
+    }
+  },
+  {
+    "id": "gods-sovereign-grace",
+    "title": "God's Sovereign Grace",
+    "summary": "God's favor is displayed according to His purpose and grace.",
+    "topics": [
+      "purpose",
+      "identity"
+    ],
+    "keywords": [
+      "favor",
+      "grace",
+      "mercy",
+      "purpose",
+      "calling"
+    ],
+    "scripture": {
+      "ref": "Romans 9:15",
+      "text": "For he saith to Moses, I will have mercy on whom I will have mercy, and I will have compassion on whom I will have compassion."
     }
   },
   {
@@ -2843,6 +2984,46 @@
     }
   },
   {
+    "id": "information-and-revelation",
+    "title": "Information And Revelation",
+    "summary": "Spiritual understanding comes through God's revelation, not knowledge alone.",
+    "topics": [
+      "understanding",
+      "wisdom"
+    ],
+    "keywords": [
+      "revelation",
+      "wisdom",
+      "knowledge",
+      "understanding",
+      "scripture"
+    ],
+    "scripture": {
+      "ref": "Ephesians 1:17",
+      "text": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him:"
+    }
+  },
+  {
+    "id": "revealing-gods-purpose",
+    "title": "Revealing God's Purpose",
+    "summary": "God reveals His purpose as He prepares His people.",
+    "topics": [
+      "purpose",
+      "vision"
+    ],
+    "keywords": [
+      "destiny",
+      "purpose",
+      "calling",
+      "vision",
+      "dreams"
+    ],
+    "scripture": {
+      "ref": "Genesis 37:5",
+      "text": "And Joseph dreamed a dream, and he told it his brethren: and they hated him yet the more."
+    }
+  },
+  {
     "id": "spiritual-ignorance-causes-delay",
     "title": "Spiritual Ignorance Causes Delay",
     "summary": "A lack of spiritual understanding can create confusion, delay, and unnecessary struggle.",
@@ -2945,6 +3126,26 @@
     "scripture": {
       "ref": "James 1:5",
       "text": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him."
+    }
+  },
+  {
+    "id": "dreams-and-destiny",
+    "title": "Dreams And Destiny",
+    "summary": "God may reveal His purposes through visions and dreams.",
+    "topics": [
+      "vision",
+      "purpose"
+    ],
+    "keywords": [
+      "dreams",
+      "vision",
+      "revelation",
+      "destiny",
+      "purpose"
+    ],
+    "scripture": {
+      "ref": "Genesis 37:5",
+      "text": "And Joseph dreamed a dream, and he told it his brethren: and they hated him yet the more."
     }
   },
   {
