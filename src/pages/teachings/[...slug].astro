@@ -3,7 +3,14 @@ export const prerender = true;
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
-import TeachingSidebar from "../../components/TeachingSidebar.astro";
+import StudyHero from "../../components/study/common/StudyHero.astro";
+
+import StudyHeroMeta from "../../components/study/common/StudyHeroMeta.astro";
+import StudyShare from "../../components/study/common/StudyShare.astro";
+import StudyBreadcrumb from "../../components/study/common/StudyBreadcrumb.astro";
+
+import StudySection from "../../components/study/common/StudySection.astro";
+import StudyScripture from "../../components/study/teachings/StudyScripture.astro";
 
 import RelatedScriptures from "../../components/prophecy/RelatedScriptures.astro";
 import StudyTerms from "../../components/prophecy/StudyTerms.astro";
@@ -98,246 +105,121 @@ const dictionaryTerms =
   title={teaching.data.title}
 >
 
-  <div
-    class="
-      flex
-      flex-col
-      gap-10
-      lg:flex-row
-    "
-  >
 
-    <!-- Sidebar -->
-    <TeachingSidebar />
 
     <!-- Main -->
-    <main class="flex-1">
+    <main>
 
       <article
         class="
           mx-auto
           w-full
-          max-w-3xl
+          max-w-4xl
           space-y-10
         "
       >
 
         <!-- Header -->
-        <header class="space-y-5">
+        <StudyBreadcrumb
+  items={[
+    { label: "Home", href: "/" },
+    { label: "Teachings", href: "/teachings" },
+    { label: teaching.data.title },
+  ]}
+/>
 
-          <h1
-            class="
-              text-4xl
-              font-semibold
-            "
-          >
+<StudyHero
+  section="Teaching"
+  title={teaching.data.title}
+  description={teaching.data.summary}
+>
 
-            {teaching.data.title}
+  <StudyHeroMeta
+    slot="meta"
+    label="Topics"
+    items={teaching.data.topics}
+    href="/teachings"
+    linkLabel="View all topics"
+  />
 
-          </h1>
+  <StudyShare
+    slot="actions"
+    title={teaching.data.title}
+  />
 
-          <p
-            class="
-              text-lg
-              text-[var(--color-muted)]
-            "
-          >
-
-            {teaching.data.summary}
-
-          </p>
-
-          <!-- Share -->
-          <button
-            type="button"
-            class="
-              share-button
-              inline-flex
-              items-center
-              gap-2
-              rounded-full
-              border
-              px-3
-              py-1.5
-              text-sm
-              text-[var(--color-muted)]
-              transition
-            "
-            data-teaching-share
-            aria-label={`Share ${teaching.data.title}`}
-          >
-
-            <svg
-              aria-hidden="true"
-              class="h-4 w-4"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-
-              <circle cx="18" cy="5" r="3"></circle>
-              <circle cx="6" cy="12" r="3"></circle>
-              <circle cx="18" cy="19" r="3"></circle>
-
-              <path d="m8.6 13.5 6.8 4"></path>
-              <path d="m15.4 6.5-6.8 4"></path>
-
-            </svg>
-
-            <span data-share-label>
-
-              Share
-
-            </span>
-
-          </button>
-
-        </header>
+</StudyHero>
 
         <!-- Scripture -->
-        <section class="space-y-3">
-
-          <h2
-            class="
-              text-xl
-              font-medium
-            "
-          >
-
-            Scripture
-
-          </h2>
-
-          <blockquote
-            class="
-              border-l-2
-              pl-4
-              italic
-            "
-          >
-
-            <p>
-
-              {teaching.data.scripture.text}
-
-            </p>
-
-            <footer
-              class="
-                mt-2
-                text-sm
-                text-[var(--color-muted)]
-              "
-            >
-
-              {teaching.data.scripture.ref}
-
-            </footer>
-
-          </blockquote>
-
-        </section>
+        
+        <StudyScripture
+          reference={teaching.data.scripture.ref}
+          text={teaching.data.scripture.text}
+        />
 
         <!-- Truth -->
-        <section class="space-y-3">
+        <StudySection title="Truth">
 
-          <h2
-            class="
-              text-xl
-              font-medium
-            "
-          >
+  <p>
 
-            Truth
+    {teaching.data.truth}
 
-          </h2>
+  </p>
 
-          <p>
-
-            {teaching.data.truth}
-
-          </p>
-
-        </section>
+</StudySection>
 
         <!-- Insight -->
-        <section class="space-y-3">
+        <StudySection title="Insight">
 
-          <h2
-            class="
-              text-xl
-              font-medium
-            "
-          >
+  <ul
+    class="
+      list-disc
+      space-y-2
+      pl-6
+    "
+  >
 
-            Insight
+    {teaching.data.insight.map(
+      (i: string) => (
 
-          </h2>
+        <li>
 
-          <ul
-            class="
-              list-disc
-              space-y-2
-              pl-6
-            "
-          >
+          {i}
 
-            {teaching.data.insight.map(
-              (i: string) => (
+        </li>
 
-                <li>
+      )
+    )}
 
-                  {i}
+  </ul>
 
-                </li>
-
-              )
-            )}
-
-          </ul>
-
-        </section>
+</StudySection>
 
         <!-- Application -->
-        <section class="space-y-3">
+        <StudySection title="Application">
 
-          <h2
-            class="
-              text-xl
-              font-medium
-            "
-          >
+  <ul
+    class="
+      list-disc
+      space-y-2
+      pl-6
+    "
+  >
 
-            Application
+    {teaching.data.application.map(
+      (a: string) => (
 
-          </h2>
+        <li>
 
-          <ul
-            class="
-              list-disc
-              space-y-2
-              pl-6
-            "
-          >
+          {a}
 
-            {teaching.data.application.map(
-              (a: string) => (
+        </li>
 
-                <li>
+      )
+    )}
 
-                  {a}
+  </ul>
 
-                </li>
-
-              )
-            )}
-
-          </ul>
-
-        </section>
+</StudySection>
 
         <!-- Prayer -->
 {teaching.data.prayer && (
@@ -446,8 +328,7 @@ const dictionaryTerms =
 
     </main>
 
-  </div>
-
+ 
 </BaseLayout>
 
 <script>

@@ -138,38 +138,44 @@ const tools = defineCollection({
 });
 
 /* =========================
-   🧠 TEACHINGS (YOUR SYSTEM)
+   🧠 TEACHINGS
 ========================= */
 const teachings = defineCollection({
   loader: glob({
     pattern: "**/*.md",
     base: "./src/content/teachings",
   }),
+
   schema: z.object({
+    // Identity
     id: z.string(),
     title: z.string(),
     summary: z.string(),
 
+    // Organization
     topics: z.array(z.string()),
+
+    // Cross References (optional)
+    terms: z.array(z.string()).default([]),
+    related: z.array(z.string()).default([]),
     keywords: z.array(z.string()).default([]),
 
+    // Primary Scripture
     scripture: z.object({
       ref: z.string(),
       text: z.string(),
     }),
 
-    scriptures: z.array(
-      z.string()
-    ).default([]),
+    // Additional Scriptures (optional)
+    scriptures: z.array(z.string()).default([]),
 
+    // Teaching Content
     truth: z.string(),
-
     insight: z.array(z.string()),
     application: z.array(z.string()),
-
     prayer: z.string().optional(),
 
-    // Homepage curation
+    // Homepage / Featured
     featured: z.boolean().default(false),
     order: z.number().optional(),
   }),

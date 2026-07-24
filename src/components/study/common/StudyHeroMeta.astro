@@ -1,0 +1,85 @@
+---
+interface Props {
+  label: string;
+  items: string[];
+  href?: string;
+  linkLabel?: string;
+}
+
+const {
+  label,
+  items,
+  href,
+  linkLabel,
+} = Astro.props;
+---
+
+{
+  items.length > 0 && (
+
+    <div class="space-y-3">
+
+      <p
+        class="
+          text-xs
+          font-semibold
+          uppercase
+          tracking-[0.2em]
+          text-[var(--color-muted)]
+        "
+      >
+        {label}
+      </p>
+
+      <div
+        class="
+          flex
+          flex-wrap
+          gap-2
+        "
+      >
+
+        {items.map((item) => (
+
+          <span
+            class="
+              rounded-full
+              border
+              border-[var(--color-border)]
+              bg-[var(--color-bg-soft)]
+              px-3
+              py-1
+              text-sm
+            "
+          >
+            {item}
+          </span>
+
+        ))}
+
+      </div>
+
+      {
+        href &&
+        linkLabel && (
+
+          <a
+            href={href}
+            class="
+              inline-flex
+              text-sm
+              font-medium
+              text-[var(--color-primary)]
+              hover:underline
+            "
+          >
+            {linkLabel} →
+          </a>
+
+        )
+      }
+
+    </div>
+
+  )
+}

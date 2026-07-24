@@ -1,0 +1,59 @@
+---
+interface Props {
+  reference: string;
+  text: string;
+  title?: string;
+}
+
+const {
+  reference,
+  text,
+  title = "Scripture",
+} = Astro.props;
+---
+
+<section class="space-y-4">
+
+  <h2
+    class="
+      text-xl
+      font-medium
+    "
+  >
+    {title}
+  </h2>
+
+  <blockquote
+    class="
+      rounded-xl
+      border-l-4
+      border-[var(--color-primary)]
+      bg-[var(--color-bg-soft)]
+      p-6
+    "
+  >
+
+    <p
+      class="
+        text-lg
+        italic
+        leading-relaxed
+      "
+    >
+      {text}
+    </p>
+
+    <footer
+      class="
+        mt-4
+        text-sm
+        font-medium
+        text-[var(--color-muted)]
+      "
+    >
+      {reference}
+    </footer>
+
+  </blockquote>
+
+</section>

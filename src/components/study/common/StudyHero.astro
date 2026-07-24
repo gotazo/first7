@@ -27,7 +27,7 @@ const {
 
   <div class="space-y-6">
 
-    <!-- Section Label -->
+    <!-- Header -->
 
     <div
       class="
@@ -51,9 +51,7 @@ const {
         {section}
       </p>
 
-      <!-- Optional Badge -->
-
-      <slot name="badge" />
+      <slot name="header" />
 
     </div>
 
@@ -117,6 +115,10 @@ const {
 
     )}
 
+    <!-- Meta -->
+
+    <slot name="meta" />
+
     <!-- Actions -->
 
     <div
@@ -128,7 +130,7 @@ const {
       "
     >
 
-      <slot />
+      <slot name="actions" />
 
     </div>
 
