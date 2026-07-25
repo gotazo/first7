@@ -56,6 +56,41 @@ self.addEventListener("activate", (event) => {
 });
 
 // ======================================================
+// Request Type Helpers
+// ======================================================
+
+function isHTML(request) {
+  return (
+    request.destination === "" ||
+    request.destination === "document"
+  );
+}
+
+function isImage(request) {
+  return request.destination === "image";
+}
+
+function isStyle(request) {
+  return request.destination === "style";
+}
+
+function isScript(request) {
+  return request.destination === "script";
+}
+
+function isFont(request) {
+  return request.destination === "font";
+}
+
+function isAsset(request) {
+  return (
+    isStyle(request) ||
+    isScript(request) ||
+    isFont(request)
+  );
+}
+
+// ======================================================
 // Fetch
 // ======================================================
 
@@ -79,20 +114,11 @@ self.addEventListener("fetch", (event) => {
 
           let cacheName = CACHE.pages;
 
-          switch (event.request.destination) {
-            case "style":
-            case "script":
-            case "font":
-              cacheName = CACHE.assets;
-              break;
-
-            case "image":
-              cacheName = CACHE.images;
-              break;
-
-            default:
-              cacheName = CACHE.pages;
-          }
+            if (isAsset(event.request)) {
+            cacheName = CACHE.assets;
+            } else if (isImage(event.request)) {
+            cacheName = CACHE.images;
+            }
 
           caches.open(cacheName).then((cache) => {
             cache.put(event.request, copy);
