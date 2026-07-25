@@ -91,6 +91,45 @@ function isAsset(request) {
 }
 
 // ======================================================
+// Caching Strategies
+// ======================================================
+
+async function networkFirst(request) {
+  try {
+    const response = await fetch(request);
+
+    if (response.status === 200) {
+      const copy = response.clone();
+
+      let cacheName = CACHE.pages;
+
+      if (isAsset(request)) {
+        cacheName = CACHE.assets;
+      } else if (isImage(request)) {
+        cacheName = CACHE.images;
+      }
+
+      const cache = await caches.open(cacheName);
+      await cache.put(request, copy);
+    }
+
+    return response;
+  } catch {
+    const cached = await caches.match(request);
+
+    if (cached) {
+      return cached;
+    }
+
+    if (request.mode === "navigate") {
+      return caches.match(OFFLINE_URL);
+    }
+
+    return Response.error();
+  }
+}
+
+// ======================================================
 // Fetch
 // ======================================================
 
@@ -105,42 +144,4 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  event.respondWith(
-    fetch(event.request)
-      .then((response) => {
-        // Only cache successful responses
-        if (response.status === 200) {
-          const copy = response.clone();
-
-          let cacheName = CACHE.pages;
-
-            if (isAsset(event.request)) {
-            cacheName = CACHE.assets;
-            } else if (isImage(event.request)) {
-            cacheName = CACHE.images;
-            }
-
-          caches.open(cacheName).then((cache) => {
-            cache.put(event.request, copy);
-          });
-        }
-
-        return response;
-      })
-      .catch(async () => {
-        // Return cached resource if available
-        const cached = await caches.match(event.request);
-
-        if (cached) {
-          return cached;
-        }
-
-        // Show offline page only for navigation requests
-        if (event.request.mode === "navigate") {
-          return caches.match(OFFLINE_URL);
-        }
-
-        return Response.error();
-      })
-  );
-});
+  event.respondWith(networkFirst(event.request));
