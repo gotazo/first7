@@ -151,6 +151,34 @@ async function cacheFirst(request) {
   }
 }
 
+async function staleWhileRevalidate(request) {
+  const cache = await caches.open(CACHE.assets);
+
+  // Return cached version immediately if available
+  const cached = await cache.match(request);
+
+  // Fetch a fresh copy in the background
+  const networkFetch = fetch(request)
+    .then(async (response) => {
+      if (response.status === 200) {
+        await cache.put(request, response.clone());
+      }
+
+      return response;
+    })
+    .catch(() => null);
+
+  // If we have a cached version, use it immediately
+  if (cached) {
+    return cached;
+  }
+
+  // Otherwise wait for the network
+  const response = await networkFetch;
+
+  return response || Response.error();
+}
+
 // ======================================================
 // Fetch
 // ======================================================
@@ -166,8 +194,13 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (isImage(event.request)) {
+if (isImage(event.request)) {
   event.respondWith(cacheFirst(event.request));
+  return;
+}
+
+if (isAsset(event.request)) {
+  event.respondWith(staleWhileRevalidate(event.request));
   return;
 }
 
