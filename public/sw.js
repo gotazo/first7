@@ -129,6 +129,28 @@ async function networkFirst(request) {
   }
 }
 
+async function cacheFirst(request) {
+  const cache = await caches.open(CACHE.images);
+
+  const cached = await cache.match(request);
+
+  if (cached) {
+    return cached;
+  }
+
+  try {
+    const response = await fetch(request);
+
+    if (response.status === 200) {
+      await cache.put(request, response.clone());
+    }
+
+    return response;
+  } catch {
+    return Response.error();
+  }
+}
+
 // ======================================================
 // Fetch
 // ======================================================
@@ -144,4 +166,10 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  event.respondWith(networkFirst(event.request));
+  if (isImage(event.request)) {
+  event.respondWith(cacheFirst(event.request));
+  return;
+}
+
+event.respondWith(networkFirst(event.request));
+});
