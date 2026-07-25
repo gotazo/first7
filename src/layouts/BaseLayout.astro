@@ -50,10 +50,22 @@ if (import.meta.env.BUILD_TRACE === "true" && import.meta.env.PROD) {
     <meta name="twitter:image" content="https://first7.org/og-image.png" />
 
     <!-- Theme -->
-    <meta name="theme-color" content="#0f172a" />
-
+    
     <!-- Favicon -->
-    <link rel="icon" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <meta name="theme-color" content="#0E1512" />
+
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="First7" />
 
     <!-- Google Analytics -->
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-PFEQJT54SL"></script>
@@ -137,6 +149,20 @@ if (import.meta.env.BUILD_TRACE === "true" && import.meta.env.PROD) {
         }
       });
     });
+</script>
+
+<!-- Register First7 Service Worker -->
+<script is:inline>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker
+        .register("/sw.js")
+        .then((registration) => {
+          console.log("✅ First7 PWA ready", registration.scope);
+        })
+        .catch(console.error);
+    });
+  }
 </script>
 
   </body>
