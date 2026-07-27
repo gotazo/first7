@@ -108,7 +108,11 @@ const dictionaryTerms =
 
 
     <!-- Main -->
-    <main>
+    <main
+  data-reading-title={teaching.data.title}
+  data-reading-description={teaching.data.summary}
+  data-reading-category={teaching.data.topics?.[0]}
+>
 
       <article
         class="
@@ -333,6 +337,43 @@ const dictionaryTerms =
 
 <script>
 
+  /**
+   * 📖 Continue Reading
+   */
+  const main =
+    document.querySelector("main");
+
+  if (main instanceof HTMLElement) {
+
+    const reading = {
+
+      title:
+        main.dataset.readingTitle ?? "",
+
+      description:
+        main.dataset.readingDescription ?? "",
+
+      category:
+        main.dataset.readingCategory,
+
+      url:
+        window.location.pathname,
+
+      lastRead:
+        new Date().toISOString(),
+
+    };
+
+    localStorage.setItem(
+      "continue-reading",
+      JSON.stringify(reading)
+    );
+
+  }
+
+  /**
+   * 🔗 Share Button
+   */
   const shareButton =
     document.querySelector(
       "[data-teaching-share]"
@@ -410,7 +451,9 @@ const dictionaryTerms =
                 window.location.href
               );
 
-            setLabel("Copied");
+            setLabel(
+              "Copied"
+            );
 
           } catch {
 
@@ -426,39 +469,3 @@ const dictionaryTerms =
   }
 
 </script>
-
-<style>
-
-  .share-button:hover {
-
-    border-color:
-      color-mix(
-        in srgb,
-        var(--color-primary) 45%,
-        transparent
-      );
-
-    color:
-      var(--color-text);
-
-    background:
-      color-mix(
-        in srgb,
-        var(--color-bg) 88%,
-        var(--color-primary)
-      );
-
-    box-shadow:
-      0 10px 28px
-      color-mix(
-        in srgb,
-        var(--color-primary) 10%,
-        transparent
-      );
-
-    transform:
-      translateY(-1px);
-
-  }
-
-</style>

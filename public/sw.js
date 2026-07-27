@@ -1,6 +1,6 @@
 // ======================================================
 // First7 Service Worker
-// Phase 2.1 - Refactored Architecture
+// Phase 2.4 - Caching Strategies
 // ======================================================
 
 const CACHE_VERSION = "v2";
@@ -29,9 +29,7 @@ const PRECACHE = [
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE.assets).then((cache) => {
-      return cache.addAll(PRECACHE);
-    })
+    caches.open(CACHE.assets).then((cache) => cache.addAll(PRECACHE))
   );
 
   self.skipWaiting();
@@ -43,13 +41,13 @@ self.addEventListener("install", (event) => {
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(
-    caches.keys().then((keys) => {
-      return Promise.all(
+    caches.keys().then((keys) =>
+      Promise.all(
         keys
           .filter((key) => !VALID_CACHES.includes(key))
           .map((key) => caches.delete(key))
-      );
-    })
+      )
+    )
   );
 
   self.clients.claim();
@@ -94,23 +92,20 @@ function isAsset(request) {
 // Caching Strategies
 // ======================================================
 
+// HTML - Network First
 async function networkFirst(request) {
   try {
     const response = await fetch(request);
 
-    if (response.status === 200) {
-      const copy = response.clone();
-
-      let cacheName = CACHE.pages;
-
-      if (isAsset(request)) {
-        cacheName = CACHE.assets;
-      } else if (isImage(request)) {
-        cacheName = CACHE.images;
-      }
+    if (response.ok) {
+      const cacheName = isImage(request)
+        ? CACHE.images
+        : isAsset(request)
+          ? CACHE.assets
+          : CACHE.pages;
 
       const cache = await caches.open(cacheName);
-      await cache.put(request, copy);
+      await cache.put(request, response.clone());
     }
 
     return response;
@@ -129,6 +124,7 @@ async function networkFirst(request) {
   }
 }
 
+// Images - Cache First
 async function cacheFirst(request) {
   const cache = await caches.open(CACHE.images);
 
@@ -141,7 +137,7 @@ async function cacheFirst(request) {
   try {
     const response = await fetch(request);
 
-    if (response.status === 200) {
+    if (response.ok) {
       await cache.put(request, response.clone());
     }
 
@@ -151,16 +147,17 @@ async function cacheFirst(request) {
   }
 }
 
+// CSS / JS / Fonts - Stale While Revalidate
 async function staleWhileRevalidate(request) {
   const cache = await caches.open(CACHE.assets);
 
-  // Return cached version immediately if available
+  // Return cached response immediately if available
   const cached = await cache.match(request);
 
   // Fetch a fresh copy in the background
   const networkFetch = fetch(request)
     .then(async (response) => {
-      if (response.status === 200) {
+      if (response.ok) {
         await cache.put(request, response.clone());
       }
 
@@ -168,15 +165,13 @@ async function staleWhileRevalidate(request) {
     })
     .catch(() => null);
 
-  // If we have a cached version, use it immediately
   if (cached) {
     return cached;
   }
 
-  // Otherwise wait for the network
   const response = await networkFetch;
 
-  return response || Response.error();
+  return response ?? Response.error();
 }
 
 // ======================================================
@@ -194,15 +189,15 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-if (isImage(event.request)) {
-  event.respondWith(cacheFirst(event.request));
-  return;
-}
+  if (isImage(event.request)) {
+    event.respondWith(cacheFirst(event.request));
+    return;
+  }
 
-if (isAsset(event.request)) {
-  event.respondWith(staleWhileRevalidate(event.request));
-  return;
-}
+  if (isAsset(event.request)) {
+    event.respondWith(staleWhileRevalidate(event.request));
+    return;
+  }
 
-event.respondWith(networkFirst(event.request));
+  event.respondWith(networkFirst(event.request));
 });

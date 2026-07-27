@@ -1,0 +1,164 @@
+---
+import { BookOpen } from "@lucide/astro";
+---
+
+<section
+  id="continue-reading-card"
+  class="
+    hidden
+    opacity-0
+    translate-y-2
+    transition-all
+    duration-300
+    rounded-2xl
+    border
+    border-[var(--color-border)]
+    bg-[var(--color-surface)]
+    p-6
+  "
+>
+  <div class="space-y-4">
+
+    <div class="flex items-center gap-2">
+      <BookOpen
+        class="h-5 w-5 text-[var(--color-primary)]"
+      />
+
+      <p
+        class="
+          text-sm
+          font-medium
+          text-[var(--color-primary)]
+        "
+      >
+        Continue Reading
+      </p>
+    </div>
+
+    <h2
+      id="continue-reading-title"
+      class="
+        text-xl
+        font-semibold
+      "
+    ></h2>
+
+    <p
+      id="continue-reading-description"
+      class="
+        text-sm
+        leading-relaxed
+        text-[var(--color-muted)]
+      "
+    ></p>
+
+    <p
+      id="continue-reading-date"
+      class="
+        text-xs
+        text-[var(--color-muted)]
+      "
+    ></p>
+
+    <a
+      id="continue-reading-link"
+      href="#"
+      class="
+        btn
+        inline-flex
+        w-full
+        items-center
+        justify-center
+      "
+    >
+      Continue →
+    </a>
+
+  </div>
+</section>
+
+<script>
+  const stored = localStorage.getItem("continue-reading");
+
+  if (stored) {
+    try {
+      const reading = JSON.parse(stored);
+
+      const card = document.getElementById("continue-reading-card");
+      const title = document.getElementById("continue-reading-title");
+      const description = document.getElementById("continue-reading-description");
+      const date = document.getElementById("continue-reading-date");
+      const link = document.getElementById("continue-reading-link");
+
+      if (
+        card &&
+        title &&
+        description &&
+        date &&
+        link
+      ) {
+        title.textContent = reading.title;
+
+        const summary = reading.description?.trim() ?? "";
+
+        if (summary) {
+          description.textContent =
+            summary.length > 140
+              ? summary.slice(0, 140) + "..."
+              : summary;
+        } else {
+          description.remove();
+        }
+
+        link.setAttribute("href", reading.url);
+
+        const lastRead = new Date(reading.lastRead);
+        const now = new Date();
+
+        const today = new Date(
+          now.getFullYear(),
+          now.getMonth(),
+          now.getDate()
+        );
+
+        const readingDay = new Date(
+          lastRead.getFullYear(),
+          lastRead.getMonth(),
+          lastRead.getDate()
+        );
+
+        const diffDays = Math.floor(
+          (today.getTime() - readingDay.getTime()) /
+            (1000 * 60 * 60 * 24)
+        );
+
+        if (diffDays === 0) {
+          date.textContent = "Last read Today";
+        } else if (diffDays === 1) {
+          date.textContent = "Last read Yesterday";
+        } else if (diffDays < 7) {
+          date.textContent = `Last read ${diffDays} days ago`;
+        } else {
+          date.textContent =
+            "Last read " + lastRead.toLocaleDateString();
+        }
+
+        card.classList.remove("hidden");
+
+        requestAnimationFrame(() => {
+          card.classList.remove(
+            "opacity-0",
+            "translate-y-2"
+          );
+        });
+      }
+    } catch (error) {
+      console.error(
+        "Failed to load Continue Reading:",
+        error
+      );
+
+      localStorage.removeItem("continue-reading");
+    }
+  }
+</script>

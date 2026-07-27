@@ -84,6 +84,48 @@
     }
   },
   {
+    "id": "secure-in-the-shepherd",
+    "title": "Secure In The Shepherd",
+    "summary": "Believers are secure because the Good Shepherd faithfully protects, keeps, and cares for His sheep.",
+    "topics": [
+      "Assurance",
+      "Security",
+      "Shepherd"
+    ],
+    "keywords": [
+      "security in Christ",
+      "Good Shepherd",
+      "eternal life",
+      "assurance",
+      "protection"
+    ],
+    "scripture": {
+      "ref": "John 10:28-29",
+      "text": "And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand. My Father, which gave them me, is greater than all; and no man is able to pluck them out of my Father's hand."
+    }
+  },
+  {
+    "id": "fulfilled-in-christ",
+    "title": "Fulfilled In Christ",
+    "summary": "True satisfaction is found in Jesus Christ, who completely fulfills His people as their Good Shepherd.",
+    "topics": [
+      "Christ",
+      "Contentment",
+      "Satisfaction"
+    ],
+    "keywords": [
+      "fulfilled in Christ",
+      "satisfied in Christ",
+      "Psalm 23",
+      "Good Shepherd",
+      "contentment"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:1",
+      "text": "The LORD is my shepherd; I shall not want."
+    }
+  },
+  {
     "id": "discerning-spiritual-foundations",
     "title": "Discerning Spiritual Foundations",
     "summary": "Strong spiritual foundations are built through truth, obedience, wisdom, and faithfulness to God.",
@@ -1281,6 +1323,27 @@
     }
   },
   {
+    "id": "gods-guidance",
+    "title": "God's Guidance",
+    "summary": "The Good Shepherd faithfully leads His people according to His wisdom, purpose, and righteousness.",
+    "topics": [
+      "Guidance",
+      "Trust",
+      "Obedience"
+    ],
+    "keywords": [
+      "God's guidance",
+      "Psalm 23",
+      "Good Shepherd",
+      "God's leading",
+      "paths of righteousness"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:3",
+      "text": "He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake."
+    }
+  },
+  {
     "id": "hearing-before-seeing",
     "title": "Hearing Before Seeing",
     "summary": "Spiritual understanding often begins by hearing God's voice before fully seeing His direction.",
@@ -1488,6 +1551,27 @@
     "scripture": {
       "ref": "Galatians 1:10",
       "text": "For do I now persuade men, or God? or do I seek to please men? for if I yet pleased men, I should not be the servant of Christ."
+    }
+  },
+  {
+    "id": "security-in-christ",
+    "title": "Security In Christ",
+    "summary": "Believers can live with confidence because their security rests in the faithful power and promises of Jesus Christ.",
+    "topics": [
+      "Identity",
+      "Assurance",
+      "Faith"
+    ],
+    "keywords": [
+      "security in Christ",
+      "assurance",
+      "eternal life",
+      "John 10",
+      "Good Shepherd"
+    ],
+    "scripture": {
+      "ref": "John 10:28",
+      "text": "And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand."
     }
   },
   {
@@ -1816,6 +1900,48 @@
     }
   },
   {
+    "id": "obedience-trains-discernment",
+    "title": "Obedience Trains Discernment",
+    "summary": "Spiritual discernment grows as believers faithfully obey God's Word and learn to recognize His leading.",
+    "topics": [
+      "Obedience",
+      "Discernment",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "obedience",
+      "discernment",
+      "Hebrews 5",
+      "hearing God's voice",
+      "spiritual maturity"
+    ],
+    "scripture": {
+      "ref": "Hebrews 5:14",
+      "text": "But strong meat belongeth to them that are of full age, even those who by reason of use have their senses exercised to discern both good and evil."
+    }
+  },
+  {
+    "id": "delay-is-preparation",
+    "title": "Delay Is Preparation",
+    "summary": "God's delays are often seasons of preparation, shaping His people for the work He has planned for them.",
+    "topics": [
+      "Perseverance",
+      "Waiting",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "delay is preparation",
+      "waiting on God",
+      "spiritual preparation",
+      "perseverance",
+      "God's timing"
+    ],
+    "scripture": {
+      "ref": "James 1:3-4",
+      "text": "Knowing this, that the trying of your faith worketh patience. But let patience have her perfect work, that ye may be perfect and entire, wanting nothing."
+    }
+  },
+  {
     "id": "never-quit",
     "title": "Never Quit",
     "summary": "Believers are encouraged to remain faithful and continue serving God through every difficulty.",
@@ -1854,6 +1980,27 @@
     "scripture": {
       "ref": "2 Corinthians 4:17",
       "text": "For our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory."
+    }
+  },
+  {
+    "id": "peace-in-trials",
+    "title": "Peace In Trials",
+    "summary": "Christ gives His people peace that remains steady even in the midst of suffering and uncertainty.",
+    "topics": [
+      "Peace",
+      "Perseverance",
+      "Trust"
+    ],
+    "keywords": [
+      "peace in trials",
+      "peace of God",
+      "suffering",
+      "trust",
+      "perseverance"
+    ],
+    "scripture": {
+      "ref": "John 16:33",
+      "text": "These things I have spoken unto you, that in me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world."
     }
   },
   {
@@ -2160,6 +2307,27 @@
     "scripture": {
       "ref": "Jeremiah 29:11",
       "text": "For I know the thoughts that I think toward you, saith the LORD, thoughts of peace, and not of evil, to give you an expected end."
+    }
+  },
+  {
+    "id": "following-gods-leading",
+    "title": "Following God's Leading",
+    "summary": "God faithfully leads His people in the right path as they trust Him, follow His Word, and walk in obedience to His will.",
+    "topics": [
+      "Purpose",
+      "Guidance",
+      "Obedience"
+    ],
+    "keywords": [
+      "following God's leading",
+      "guidance",
+      "Psalm 23",
+      "paths of righteousness",
+      "God's will"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:3",
+      "text": "He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake."
     }
   },
   {
@@ -2497,6 +2665,90 @@
     }
   },
   {
+    "id": "hearing-the-shepherd",
+    "title": "Hearing The Shepherd",
+    "summary": "Jesus calls His people to recognize His voice through His Word, trust His guidance, and faithfully follow Him.",
+    "topics": [
+      "Hearing",
+      "Guidance",
+      "Discipleship"
+    ],
+    "keywords": [
+      "hearing God's voice",
+      "hearing the Shepherd",
+      "John 10",
+      "Good Shepherd",
+      "following Jesus"
+    ],
+    "scripture": {
+      "ref": "John 10:27",
+      "text": "My sheep hear my voice, and I know them, and they follow me."
+    }
+  },
+  {
+    "id": "jesus-our-shepherd",
+    "title": "Jesus Our Shepherd",
+    "summary": "Jesus is the Good Shepherd who lovingly knows, leads, protects, and gives His life for His people.",
+    "topics": [
+      "Identity",
+      "Jesus Christ",
+      "Guidance"
+    ],
+    "keywords": [
+      "Jesus our Shepherd",
+      "Good Shepherd",
+      "John 10",
+      "Psalm 23",
+      "shepherd"
+    ],
+    "scripture": {
+      "ref": "John 10:11",
+      "text": "I am the good shepherd: the good shepherd giveth his life for the sheep."
+    }
+  },
+  {
+    "id": "the-shepherds-care",
+    "title": "The Shepherd's Care",
+    "summary": "The Good Shepherd lovingly cares for His people, providing everything they truly need according to His wisdom and faithfulness.",
+    "topics": [
+      "Shepherd",
+      "Trust",
+      "Provision"
+    ],
+    "keywords": [
+      "Shepherd's care",
+      "Good Shepherd",
+      "Psalm 23",
+      "God's provision",
+      "God's care"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:1",
+      "text": "The LORD is my shepherd; I shall not want."
+    }
+  },
+  {
+    "id": "the-shepherds-presence",
+    "title": "The Shepherd's Presence",
+    "summary": "The Good Shepherd's presence gives His people confidence to rest, even when they face danger and uncertainty.",
+    "topics": [
+      "Shepherd",
+      "Presence of God",
+      "Trust"
+    ],
+    "keywords": [
+      "Psalm 23",
+      "Shepherd's presence",
+      "God is with us",
+      "trust in God",
+      "peace"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:4",
+      "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."
+    }
+  },
+  {
     "id": "breaking-generational-patterns",
     "title": "Breaking Generational Patterns",
     "summary": "Through spiritual renewal and obedience to God, believers can overcome destructive patterns that are repeated from one generation to another.",
@@ -2536,6 +2788,27 @@
     "scripture": {
       "ref": "Romans 12:2",
       "text": "And be not conformed to this world: but be ye transformed by the renewing of your mind."
+    }
+  },
+  {
+    "id": "god-restores-the-soul",
+    "title": "God Restores The Soul",
+    "summary": "God graciously restores His people by renewing their strength, forgiving their sins, and leading them back into faithful fellowship with Him.",
+    "topics": [
+      "Spiritual Growth",
+      "Restoration",
+      "Renewal"
+    ],
+    "keywords": [
+      "God restores the soul",
+      "restoration",
+      "Psalm 23",
+      "renewal",
+      "Shepherd"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:3",
+      "text": "He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake."
     }
   },
   {
@@ -2656,6 +2929,27 @@
     "scripture": {
       "ref": "1 Corinthians 9:27",
       "text": "But I keep under my body, and bring it into subjection..."
+    }
+  },
+  {
+    "id": "spiritual-rest",
+    "title": "Spiritual Rest",
+    "summary": "Jesus invites those who are weary to find lasting rest in Him by trusting His grace, learning from Him, and walking in faithful obedience.",
+    "topics": [
+      "Spiritual Growth",
+      "Rest",
+      "Faith"
+    ],
+    "keywords": [
+      "spiritual rest",
+      "Matthew 11",
+      "rest in Christ",
+      "weary",
+      "burden"
+    ],
+    "scripture": {
+      "ref": "Matthew 11:28",
+      "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest."
     }
   },
   {
@@ -2861,6 +3155,27 @@
     }
   },
   {
+    "id": "god-is-our-provider",
+    "title": "God Is Our Provider",
+    "summary": "The Good Shepherd faithfully provides everything His people truly need according to His wisdom and care.",
+    "topics": [
+      "Trust",
+      "Provision",
+      "Contentment"
+    ],
+    "keywords": [
+      "God provides",
+      "Psalm 23",
+      "Jehovah Jireh",
+      "Good Shepherd",
+      "God's provision"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:1",
+      "text": "The LORD is my shepherd; I shall not want."
+    }
+  },
+  {
     "id": "god-is-your-help",
     "title": "God Is Your Help",
     "summary": "Throughout Scripture, God is revealed as the helper and refuge of those who trust in Him.",
@@ -2898,6 +3213,69 @@
     "scripture": {
       "ref": "Psalm 46:1",
       "text": "God is our refuge and strength, a very present help in trouble."
+    }
+  },
+  {
+    "id": "god-works-all-things-for-good",
+    "title": "God Works All Things For Good",
+    "summary": "God faithfully works every circumstance, including delays, disappointments, and closed doors, according to His good purpose for His people.",
+    "topics": [
+      "Trust",
+      "Providence",
+      "God's Will"
+    ],
+    "keywords": [
+      "Romans 8:28",
+      "God's purpose",
+      "God's plan",
+      "trust God",
+      "God's providence"
+    ],
+    "scripture": {
+      "ref": "Romans 8:28",
+      "text": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose."
+    }
+  },
+  {
+    "id": "resting-in-god",
+    "title": "Resting In God",
+    "summary": "God invites His people to find true rest by trusting His faithful care, following His leading, and depending on His presence.",
+    "topics": [
+      "Trust",
+      "Peace",
+      "Rest"
+    ],
+    "keywords": [
+      "resting in God",
+      "trust in God",
+      "Psalm 23",
+      "peace",
+      "Good Shepherd"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:2",
+      "text": "He maketh me to lie down in green pastures: he leadeth me beside the still waters."
+    }
+  },
+  {
+    "id": "surrender-to-god",
+    "title": "Surrender To God",
+    "summary": "God calls His people to surrender their lives to Him by trusting His wisdom, following His will, and depending on His unfailing guidance.",
+    "topics": [
+      "Trust",
+      "Obedience",
+      "Faith"
+    ],
+    "keywords": [
+      "surrender to God",
+      "trust God",
+      "God's will",
+      "dependence on God",
+      "Proverbs 3"
+    ],
+    "scripture": {
+      "ref": "Proverbs 3:5-6",
+      "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths."
     }
   },
   {
@@ -3270,6 +3648,27 @@
     "scripture": {
       "ref": "Deuteronomy 34:4",
       "text": "And the LORD said unto him, This is the land which I sware unto Abraham, unto Isaac, unto Jacob, saying, I will give it unto thy seed: I have caused thee to see it with thine eyes, but thou shalt not go over thither."
+    }
+  },
+  {
+    "id": "trusting-gods-timing",
+    "title": "Trusting God's Timing",
+    "summary": "God faithfully accomplishes His purposes according to His perfect timing, calling His people to wait with confidence and hope.",
+    "topics": [
+      "Waiting",
+      "Trust",
+      "God's Timing"
+    ],
+    "keywords": [
+      "trusting God's timing",
+      "waiting on God",
+      "God's timing",
+      "patience",
+      "hope"
+    ],
+    "scripture": {
+      "ref": "Ecclesiastes 3:11",
+      "text": "He hath made every thing beautiful in his time: also he hath set the world in their heart, so that no man can find out the work that God maketh from the beginning to the end."
     }
   },
   {
