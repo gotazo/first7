@@ -3,46 +3,96 @@ title: Beast
 
 term: beast
 
-shortMeaning: an animal, especially a large or wild animal
+shortMeaning: An animal, especially a wild or powerful one.
 
-related:
-  - symbols/beast
+biblicalUsage: >
+  In Scripture, beast commonly refers to animals of the earth. The term is
+  also used in symbolic and prophetic passages to describe kingdoms, rulers,
+  or other figures represented by beasts.
+
+reference:
+  ref: Genesis 1:25
+  text: "And God made the beast of the earth after his kind, and cattle after their kind, and every thing that creepeth upon the earth after his kind: and God saw that it was good."
+
+featuredVerse:
+  ref: Daniel 7:3
+  text: "And four great beasts came up from the sea, diverse one from another."
 
 scriptures:
-  - Genesis 1:24
-  - Psalm 50:10
-  - Daniel 7
-  - Revelation 13
-  - Revelation 17
+  - Genesis 1:24-25
+  - Leviticus 11:2-8
+  - Psalm 50:10-11
+  - Daniel 7:3-7
+  - Mark 1:13
+  - Acts 10:12-15
+  - Revelation 13:1-8
+  - Revelation 17:3
+
+related:
+  - animal
+  - cattle
+  - creature
+  - dragon
 
 aliases:
-  - beast of the field
-  - living creature
+  - beasts
+
+seeAlso:
+  - lion
+  - lamb
+  - serpent
+
+tags:
+  - animals
+  - creation
+  - prophecy
+  - symbolism
+
+hebrew:
+  word: בְּהֵמָה
+  transliteration: behemah
+  meaning: beast; animal
+
+greek:
+  word: θηρίον
+  transliteration: thērion
+  meaning: wild beast
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A beast is an animal, especially a large,
-wild, or powerful animal.
+A beast is an animal, especially a wild or powerful one.
 
-The word has been used throughout history
-to describe various kinds of animals and creatures.
+The word may refer to domestic or wild animals depending on the context.
 
 ---
 
 ## Biblical Usage
 
-The word beast appears throughout Scripture
-in historical narratives, poetry, prophecy,
-and visions.
+In Scripture, beast commonly refers to animals of the earth.
 
-References to beasts occur in both ordinary descriptions
-of animals and prophetic passages.
+The term is also used in symbolic and prophetic passages to describe kingdoms, rulers, or other figures represented by beasts.
 
 ---
 
-## Related Topics
+## Key References
 
-- Horn
+- Genesis 1:24-25
+- Leviticus 11:2-8
+- Psalm 50:10-11
+- Daniel 7:3-7
+- Mark 1:13
+- Acts 10:12-15
+- Revelation 13:1-8
+- Revelation 17:3
+
+---
+
+## Related Terms
+
+- Animal
+- Cattle
+- Creature
 - Dragon
-- Revelation
+- Lion

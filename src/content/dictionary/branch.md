@@ -3,44 +3,91 @@ title: Branch
 
 term: branch
 
-shortMeaning: a part of a tree or plant that grows from the trunk or stem
+shortMeaning: A shoot or limb growing from the trunk or stem of a plant or tree.
 
-related:
-  - symbols/branch
+biblicalUsage: >
+  In Scripture, a branch refers to part of a tree or vine. The word is
+  also used figuratively in passages describing descendants, growth,
+  and the promised Branch.
+
+reference:
+  ref: Isaiah 11:1
+  text: "And there shall come forth a rod out of the stem of Jesse, and a Branch shall grow out of his roots:"
+
+featuredVerse:
+  ref: John 15:5
+  text: "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing."
 
 scriptures:
   - Isaiah 4:2
+  - Isaiah 11:1
   - Jeremiah 23:5
+  - Jeremiah 33:15
   - Zechariah 3:8
   - Zechariah 6:12
+  - John 15:1-8
+  - Romans 11:16-24
+
+related:
+  - vine
+  - tree
+  - root
+  - fruit
 
 aliases:
-  - shoot
-  - bough
+  - branches
+
+seeAlso:
+  - rod
+  - vineyard
+  - olive tree
+
+tags:
+  - tree
+  - vine
+  - growth
+  - prophecy
+
+hebrew:
+  word: צֶמַח
+  transliteration: tsemach
+  meaning: branch; sprout; shoot
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A branch is a part of a tree or plant that grows
-from the trunk, stem, or another branch.
+A branch is a shoot or limb growing from the trunk or stem of a plant or tree.
 
-Branches support leaves, flowers, and fruit
-as part of a plant's growth.
+It is part of a tree, vine, or shrub.
 
 ---
 
 ## Biblical Usage
 
-The word branch appears in historical passages,
-poetry, and prophecy throughout Scripture.
+In Scripture, a branch refers to part of a tree or vine.
 
-References to branches occur in both literal
-and figurative contexts.
+The word is also used figuratively in passages describing descendants, growth, and the promised Branch.
 
 ---
 
-## Related Topics
+## Key References
 
+- Isaiah 4:2
+- Isaiah 11:1
+- Jeremiah 23:5
+- Jeremiah 33:15
+- Zechariah 3:8
+- Zechariah 6:12
+- John 15:1-8
+- Romans 11:16-24
+
+---
+
+## Related Terms
+
+- Vine
 - Tree
 - Root
-- Jerusalem
+- Fruit
+- Vineyard

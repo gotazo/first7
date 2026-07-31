@@ -3,44 +3,91 @@ title: Book
 
 term: book
 
-shortMeaning: a collection of written pages containing information, records, or writings
+shortMeaning: A written work consisting of pages or a scroll containing recorded words.
 
-related:
-  - symbols/book
+biblicalUsage: >
+  In Scripture, a book refers to a written record, scroll, or document.
+  Books are used to preserve God's words, laws, history, prophecy,
+  genealogy, and other written records.
+
+reference:
+  ref: Jeremiah 30:2
+  text: "Thus speaketh the LORD God of Israel, saying, Write thee all the words that I have spoken unto thee in a book."
+
+featuredVerse:
+  ref: Revelation 20:12
+  text: "And I saw the dead, small and great, stand before God; and the books were opened: and another book was opened, which is the book of life..."
 
 scriptures:
-  - Daniel 7:10
+  - Exodus 24:7
+  - Deuteronomy 31:24-26
+  - Jeremiah 30:2
   - Daniel 12:1
-  - Revelation 5
+  - Luke 4:17
+  - John 20:30-31
+  - Philippians 4:3
   - Revelation 20:12
 
-aliases:
+related:
   - scroll
+  - scripture
+  - law
   - record
+
+aliases:
+  - books
+
+seeAlso:
+  - book of life
+  - covenant
+  - writing
+
+tags:
+  - writing
+  - scripture
+  - record
+  - law
+
+greek:
+  word: βιβλίον
+  transliteration: biblion
+  meaning: book; scroll
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A book is a collection of written pages containing
-information, records, stories, or other writings.
+A book is a written work consisting of pages or a scroll containing recorded words.
 
-Books have been used throughout history to preserve
-knowledge, laws, records, and literature.
+It is used to preserve information, laws, history, or other writings.
 
 ---
 
 ## Biblical Usage
 
-The word book appears throughout Scripture in connection
-with records, writings, genealogies, and visions.
+In Scripture, a book refers to a written record, scroll, or document.
 
-References to books occur in both the Old Testament
-and the New Testament.
+Books are used to preserve God's words, laws, history, prophecy, genealogy, and other written records.
 
 ---
 
-## Related Topics
+## Key References
 
-- Seal
+- Exodus 24:7
+- Deuteronomy 31:24-26
+- Jeremiah 30:2
+- Daniel 12:1
+- Luke 4:17
+- John 20:30-31
+- Philippians 4:3
+- Revelation 20:12
+
+---
+
+## Related Terms
+
 - Scroll
-- Revelation
+- Scripture
+- Law
+- Record
+- Book of Life
