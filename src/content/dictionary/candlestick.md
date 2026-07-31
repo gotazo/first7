@@ -3,46 +3,96 @@ title: Candlestick
 
 term: candlestick
 
-shortMeaning: a stand or holder designed to support a lamp or candle
+shortMeaning: A stand or lampstand designed to hold one or more lamps.
 
-related:
-  - people/two-witnesses
+biblicalUsage: >
+  In Scripture, a candlestick refers to the lampstand used in the
+  tabernacle and temple. The term also appears in symbolic visions and
+  teachings throughout the Bible.
+
+reference:
+  ref: Exodus 25:31
+  text: "And thou shalt make a candlestick of pure gold..."
+
+featuredVerse:
+  ref: Revelation 1:20
+  text: "The seven candlesticks which thou sawest are the seven churches."
 
 scriptures:
-  - Exodus 25
-  - Zechariah 4
-  - Revelation 1
-  - Revelation 2
-  - Revelation 11:4
+  - Exodus 25:31-40
+  - Exodus 37:17-24
+  - Zechariah 4:2-6
+  - Matthew 5:15
+  - Mark 4:21
+  - Luke 8:16
+  - Hebrews 9:2
+  - Revelation 1:12-20
+
+related:
+  - lamp
+  - light
+  - tabernacle
+  - temple
 
 aliases:
   - lampstand
-  - golden candlestick
+
+seeAlso:
+  - olive tree
+  - church
+  - holy place
+
+tags:
+  - worship
+  - tabernacle
+  - temple
+  - light
+
+hebrew:
+  word: מְנוֹרָה
+  transliteration: menorah
+  meaning: lampstand
+
+greek:
+  word: λυχνία
+  transliteration: lychnia
+  meaning: lampstand
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A candlestick is a stand or holder designed
-to support a lamp or candle.
+A candlestick is a stand or lampstand designed to hold one or more lamps.
 
-Candlesticks have been used throughout history
-for lighting and decorative purposes.
+It provides support for lamps used to give light.
 
 ---
 
 ## Biblical Usage
 
-The word candlestick appears in Scripture
-in connection with the tabernacle,
-prophetic visions, and Revelation.
+In Scripture, a candlestick refers to the lampstand used in the tabernacle and temple.
 
-References to candlesticks occur in Exodus,
-Zechariah, and Revelation.
+The term also appears in symbolic visions and teachings throughout the Bible.
 
 ---
 
-## Related Topics
+## Key References
 
-- Lampstand
-- Olive Tree
-- Two Witnesses
+- Exodus 25:31-40
+- Exodus 37:17-24
+- Zechariah 4:2-6
+- Matthew 5:15
+- Mark 4:21
+- Luke 8:16
+- Hebrews 9:2
+- Revelation 1:12-20
+
+---
+
+## Related Terms
+
+- Lamp
+- Light
+- Tabernacle
+- Temple
+- Holy Place

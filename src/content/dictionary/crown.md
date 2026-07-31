@@ -3,45 +3,105 @@ title: Crown
 
 term: crown
 
-shortMeaning: a decorative headpiece worn as a symbol of rank, achievement, or honor
+shortMeaning: A decorative headpiece worn as a sign of royalty, authority, honor, or victory.
 
-related:
-  - symbols/crown
+biblicalUsage: >
+  In Scripture, a crown refers to a royal or ceremonial headpiece worn by
+  kings and rulers. The term is also used for priestly adornment, rewards,
+  honor, victory, and symbolic crowns described in prophetic passages.
+
+reference:
+  ref: 2 Timothy 4:8
+  text: "Henceforth there is laid up for me a crown of righteousness, which the Lord, the righteous judge, shall give me at that day..."
+
+featuredVerse:
+  ref: Revelation 19:12
+  text: "His eyes were as a flame of fire, and on his head were many crowns; and he had a name written, that no man knew, but he himself."
 
 scriptures:
+  - Exodus 29:6
+  - 2 Samuel 12:30
+  - Esther 8:15
+  - Proverbs 4:9
+  - Matthew 27:29
+  - 1 Corinthians 9:25
+  - 2 Timothy 4:8
+  - James 1:12
+  - 1 Peter 5:4
+  - Revelation 2:10
   - Revelation 4:4
-  - Revelation 6:2
-  - Revelation 12:1
-  - Revelation 13:1
+  - Revelation 19:12
+
+related:
+  - king
+  - priest
+  - throne
+  - kingdom
 
 aliases:
+  - crowns
   - diadem
-  - coronet
+
+seeAlso:
+  - authority
+  - glory
+  - honour
+
+tags:
+  - royalty
+  - authority
+  - victory
+  - prophecy
+
+hebrew:
+  word: עֲטָרָה
+  transliteration: atarah
+  meaning: crown
+
+greek:
+  word: στέφανος
+  transliteration: stephanos
+  meaning: crown; wreath
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A crown is a decorative headpiece worn as a symbol
-of rank, achievement, authority, or honor.
+A crown is a decorative headpiece worn as a sign of royalty, authority, honor, or victory.
 
-Crowns have been used throughout history by rulers,
-leaders, and participants in ceremonies.
+It is commonly worn by kings, rulers, or others as a mark of distinction.
 
 ---
 
 ## Biblical Usage
 
-The word crown appears throughout Scripture
-in historical accounts, poetry, teachings,
-and prophetic visions.
+In Scripture, a crown refers to a royal or ceremonial headpiece worn by kings and rulers.
 
-References to crowns occur in both the Old
-and New Testaments.
+The term is also used for priestly adornment, rewards, honor, victory, and symbolic crowns described in prophetic passages.
 
 ---
 
-## Related Topics
+## Key References
 
+- Exodus 29:6
+- 2 Samuel 12:30
+- Esther 8:15
+- Proverbs 4:9
+- Matthew 27:29
+- 1 Corinthians 9:25
+- 2 Timothy 4:8
+- James 1:12
+- 1 Peter 5:4
+- Revelation 2:10
+- Revelation 4:4
+- Revelation 19:12
+
+---
+
+## Related Terms
+
+- King
+- Priest
 - Throne
 - Kingdom
-- Beast
+- Glory

@@ -3,49 +3,96 @@ title: Deliverance
 
 term: deliverance
 
-shortMeaning: the act of being rescued, freed, or released from danger, difficulty, or captivity
+shortMeaning: The act of rescuing or setting someone free from danger, trouble, or captivity.
+
+biblicalUsage: >
+  In Scripture, deliverance refers to rescue, release, or preservation
+  from enemies, oppression, danger, or other forms of distress. God is
+  frequently described as the one who delivers His people.
+
+reference:
+  ref: Psalm 34:17
+  text: "The righteous cry, and the LORD heareth, and delivereth them out of all their troubles."
+
+featuredVerse:
+  ref: Colossians 1:13
+  text: "Who hath delivered us from the power of darkness, and hath translated us into the kingdom of his dear Son:"
+
+scriptures:
+  - Exodus 14:13-14
+  - 2 Samuel 22:2
+  - Psalm 34:17-19
+  - Psalm 107:6
+  - Daniel 3:28
+  - Matthew 6:13
+  - Colossians 1:13
+  - 2 Timothy 4:18
 
 related:
   - salvation
-
-scriptures:
-  - Exodus 14
-  - Psalm 34:17
-  - Psalm 107
-  - Colossians 1:13
-  - 2 Corinthians 1:10
+  - redemption
+  - rescue
+  - freedom
 
 aliases:
+  - deliver
+
+seeAlso:
+  - bondage
+  - captivity
+  - redemption
+
+tags:
+  - deliverance
+  - salvation
+  - freedom
   - rescue
-  - liberation
-  - release
+
+hebrew:
+  word: נָצַל
+  transliteration: natsal
+  meaning: to deliver; rescue
+
+greek:
+  word: ῥύομαι
+  transliteration: rhyomai
+  meaning: to rescue; deliver
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Deliverance is the act of rescuing,
-freeing, or releasing someone from danger,
-captivity, hardship, or oppression.
+Deliverance is the act of rescuing or setting someone free from danger, trouble, or captivity.
 
-The term may refer to physical,
-legal, social, or spiritual release.
+It refers to being brought safely out of difficulty or oppression.
 
 ---
 
 ## Biblical Usage
 
-Deliverance appears throughout Scripture in
-connection with rescue, protection,
-freedom, and preservation.
+In Scripture, deliverance refers to rescue, release, or preservation from enemies, oppression, danger, or other forms of distress.
 
-References occur in historical accounts,
-the Psalms, prophetic writings,
-and the New Testament.
+God is frequently described as the one who delivers His people.
 
 ---
 
-## Related Topics
+## Key References
+
+- Exodus 14:13-14
+- 2 Samuel 22:2
+- Psalm 34:17-19
+- Psalm 107:6
+- Daniel 3:28
+- Matthew 6:13
+- Colossians 1:13
+- 2 Timothy 4:18
+
+---
+
+## Related Terms
 
 - Salvation
 - Redemption
-- Mercy
+- Rescue
+- Freedom
+- Bondage

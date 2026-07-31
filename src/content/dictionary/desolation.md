@@ -3,46 +3,96 @@ title: Desolation
 
 term: desolation
 
-shortMeaning: a state of emptiness, devastation, ruin, or abandonment
+shortMeaning: A state of ruin, emptiness, destruction, or abandonment.
 
-related:
-  - symbols/abomination
+biblicalUsage: >
+  In Scripture, desolation refers to places, cities, or lands that have
+  become ruined, deserted, or laid waste. The term also appears in
+  prophetic passages describing future events.
+
+reference:
+  ref: Daniel 9:27
+  text: "And for the overspreading of abominations he shall make it desolate..."
+
+featuredVerse:
+  ref: Matthew 24:15
+  text: "When ye therefore shall see the abomination of desolation, spoken of by Daniel the prophet, stand in the holy place..."
 
 scriptures:
+  - Leviticus 26:31-35
+  - Isaiah 64:10
+  - Jeremiah 25:11
   - Daniel 9:27
   - Daniel 11:31
-  - Daniel 12:11
   - Matthew 24:15
   - Mark 13:14
+  - Luke 21:20
+
+related:
+  - destruction
+  - wilderness
+  - judgment
+  - abomination
 
 aliases:
-  - ruin
-  - devastation
+  - desolate
+
+seeAlso:
+  - captivity
+  - tribulation
+  - prophecy
+
+tags:
+  - desolation
+  - prophecy
+  - judgment
+  - land
+
+hebrew:
+  word: שְׁמָמָה
+  transliteration: shemamah
+  meaning: desolation; waste
+
+greek:
+  word: ἐρήμωσις
+  transliteration: erēmōsis
+  meaning: desolation
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Desolation refers to a state of emptiness,
-devastation, ruin, or abandonment.
+Desolation is a state of ruin, emptiness, destruction, or abandonment.
 
-The word is commonly used to describe
-places that have become deserted or destroyed.
+It describes a place that has been laid waste or left deserted.
 
 ---
 
 ## Biblical Usage
 
-The word desolation appears throughout Scripture
-in historical passages, prophecy,
-and the teachings of Jesus.
+In Scripture, desolation refers to places, cities, or lands that have become ruined, deserted, or laid waste.
 
-References to desolation occur in both
-the Old Testament and the New Testament.
+The term also appears in prophetic passages describing future events.
 
 ---
 
-## Related Topics
+## Key References
 
-- Abomination
-- Sanctuary
+- Leviticus 26:31-35
+- Isaiah 64:10
+- Jeremiah 25:11
+- Daniel 9:27
+- Daniel 11:31
+- Matthew 24:15
+- Mark 13:14
+- Luke 21:20
+
+---
+
+## Related Terms
+
+- Destruction
+- Wilderness
 - Judgment
+- Abomination
+- Prophecy

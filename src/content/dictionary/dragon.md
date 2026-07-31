@@ -3,43 +3,96 @@ title: Dragon
 
 term: dragon
 
-shortMeaning: a large reptilian or serpent-like creature found in legends, literature, and symbolic imagery
+shortMeaning: A large serpent-like creature; a dragon.
 
-related:
-  - symbols/dragon
+biblicalUsage: >
+  In Scripture, dragon is used for a great serpent or sea creature and
+  appears in poetic and prophetic passages. In Revelation, the dragon is
+  explicitly identified as the Devil and Satan.
+
+reference:
+  ref: Revelation 12:9
+  text: "And the great dragon was cast out, that old serpent, called the Devil, and Satan, which deceiveth the whole world..."
+
+featuredVerse:
+  ref: Revelation 20:2
+  text: "And he laid hold on the dragon, that old serpent, which is the Devil, and Satan, and bound him a thousand years,"
 
 scriptures:
+  - Deuteronomy 32:33
+  - Job 30:29
   - Psalm 74:13
   - Isaiah 27:1
-  - Revelation 12
-  - Revelation 20
+  - Isaiah 51:9
+  - Ezekiel 29:3
+  - Revelation 12:3-9
+  - Revelation 20:2
+
+related:
+  - serpent
+  - devil
+  - satan
+  - beast
 
 aliases:
-  - serpent
+  - dragons
+
+seeAlso:
+  - leviathan
+  - sea
+  - prophecy
+
+tags:
+  - dragon
+  - prophecy
+  - satan
+  - symbolism
+
+hebrew:
+  word: תַּנִּין
+  transliteration: tannin
+  meaning: dragon; serpent; sea creature
+
+greek:
+  word: δράκων
+  transliteration: drakōn
+  meaning: dragon
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A dragon is a large reptilian or serpent-like creature
-found in legends, literature, art, and symbolic imagery.
+A dragon is a large serpent-like creature.
 
-Descriptions of dragons vary across different cultures
-and traditions.
+The word may refer to a great reptile or a dragon-like creature.
 
 ---
 
 ## Biblical Usage
 
-The word dragon appears in several books of Scripture,
-including poetry, prophecy, and Revelation.
+In Scripture, dragon is used for a great serpent or sea creature and appears in poetic and prophetic passages.
 
-References to dragons occur in both the Old Testament
-and the New Testament.
+In Revelation, the dragon is explicitly identified as the Devil and Satan.
 
 ---
 
-## Related Topics
+## Key References
+
+- Deuteronomy 32:33
+- Job 30:29
+- Psalm 74:13
+- Isaiah 27:1
+- Isaiah 51:9
+- Ezekiel 29:3
+- Revelation 12:3-9
+- Revelation 20:2
+
+---
+
+## Related Terms
 
 - Serpent
+- Devil
+- Satan
 - Beast
-- Revelation
+- Leviathan

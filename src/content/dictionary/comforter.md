@@ -3,48 +3,85 @@ title: Comforter
 
 term: comforter
 
-shortMeaning: one who gives comfort, encouragement, support, or consolation
+shortMeaning: One who gives comfort, encouragement, help, or consolation.
 
-related:
-  - spirit
+biblicalUsage: >
+  In Scripture, Comforter is a title used by Jesus for the Holy Ghost.
+  The term describes one who comforts, teaches, helps, and reminds
+  believers according to the words of Christ.
+
+reference:
+  ref: John 14:26
+  text: "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you."
+
+featuredVerse:
+  ref: John 15:26
+  text: "But when the Comforter is come, whom I will send unto you from the Father, even the Spirit of truth, which proceedeth from the Father, he shall testify of me:"
 
 scriptures:
   - John 14:16
   - John 14:26
   - John 15:26
-  - John 16:7
-  - 2 Corinthians 1:3-4
+  - John 16:7-15
+  - Acts 9:31
+
+related:
+  - holy ghost
+  - spirit
+  - helper
+  - truth
 
 aliases:
-  - helper
-  - counselor
+  - counsellor
+
+seeAlso:
   - advocate
+  - spirit of truth
+  - holy spirit
+
+tags:
+  - holy ghost
+  - comfort
+  - teaching
+  - helper
+
+greek:
+  word: παράκλητος
+  transliteration: paraklētos
+  meaning: comforter; advocate; helper
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A comforter is a person who provides comfort,
-encouragement, support, consolation,
-or assistance to another.
+A comforter is one who gives comfort, encouragement, help, or consolation.
 
-The term is associated with help,
-guidance, reassurance, and care.
+The word refers to someone who comes alongside to support or assist another.
 
 ---
 
 ## Biblical Usage
 
-The word Comforter appears in the Gospel of John
-in connection with the Holy Spirit.
+In Scripture, Comforter is a title used by Jesus for the Holy Ghost.
 
-References to comfort and consolation
-appear throughout Scripture in both
-the Old and New Testaments.
+The term describes one who comforts, teaches, helps, and reminds believers according to the words of Christ.
 
 ---
 
-## Related Topics
+## Key References
 
+- John 14:16
+- John 14:26
+- John 15:26
+- John 16:7-15
+- Acts 9:31
+
+---
+
+## Related Terms
+
+- Holy Ghost
 - Spirit
-- Hope
-- Peace
+- Helper
+- Truth
+- Advocate

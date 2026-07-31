@@ -3,44 +3,86 @@ title: Canaan
 
 term: canaan
 
-shortMeaning: an ancient land located in the region later inhabited by the Israelites
+shortMeaning: A land in the eastern Mediterranean promised by God to Abraham and his descendants.
 
-related:
-  - nations/israel
-  - nations/jerusalem
+biblicalUsage: >
+  In Scripture, Canaan is the land promised by God to Abraham, Isaac, and
+  Jacob. It became the inheritance of the children of Israel after their
+  entrance into the land under Joshua.
+
+reference:
+  ref: Genesis 12:5
+  text: "And Abram took Sarai his wife, and Lot his brother's son... and into the land of Canaan they came."
+
+featuredVerse:
+  ref: Genesis 17:8
+  text: "And I will give unto thee, and to thy seed after thee, the land wherein thou art a stranger, all the land of Canaan, for an everlasting possession..."
 
 scriptures:
-  - Genesis 12
-  - Genesis 15
-  - Numbers 13
-  - Joshua 1
+  - Genesis 12:5-7
+  - Genesis 17:8
+  - Exodus 3:8
+  - Numbers 13:2
+  - Joshua 1:2-4
+  - Joshua 21:43-45
+  - Nehemiah 9:7-8
+  - Acts 13:19
+
+related:
+  - promised land
+  - Israel
+  - Abraham
+  - Joshua
 
 aliases:
-  - land of canaan
+  - land of Canaan
+
+seeAlso:
+  - Egypt
+  - Jordan
+  - Jerusalem
+
+tags:
+  - land
+  - Israel
+  - promise
+  - geography
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Canaan was an ancient region in the Near East.
+Canaan is a land in the eastern Mediterranean promised by God to Abraham and his descendants.
 
-The name is used to describe both a land
-and the people who lived there.
+It was inhabited by various nations before Israel entered the land.
 
 ---
 
 ## Biblical Usage
 
-Canaan appears throughout the Old Testament,
-particularly in passages concerning Abraham,
-Israel, and the conquest of the land.
+In Scripture, Canaan is the land promised by God to Abraham, Isaac, and Jacob.
 
-Many historical and prophetic passages
-contain references to Canaan.
+It became the inheritance of the children of Israel after their entrance into the land under Joshua.
 
 ---
 
-## Related Topics
+## Key References
 
-- Israel
-- Anakim
+- Genesis 12:5-7
+- Genesis 17:8
+- Exodus 3:8
+- Numbers 13:2
+- Joshua 1:2-4
+- Joshua 21:43-45
+- Nehemiah 9:7-8
+- Acts 13:19
+
+---
+
+## Related Terms
+
 - Promised Land
+- Israel
+- Abraham
+- Joshua
+- Jerusalem

@@ -3,43 +3,96 @@ title: Creation
 
 term: creation
 
-shortMeaning: the act of bringing something into existence or the thing that has been made
+shortMeaning: The act of bringing something into existence; all that has been created.
 
-related:
-  - heaven
+biblicalUsage: >
+  In Scripture, creation refers to God's work of bringing the heavens,
+  the earth, and all living things into existence. The term is also used
+  to describe the created order.
+
+reference:
+  ref: Genesis 1:1
+  text: "In the beginning God created the heaven and the earth."
+
+featuredVerse:
+  ref: Colossians 1:16
+  text: "For by him were all things created, that are in heaven, and that are in earth..."
 
 scriptures:
-  - Genesis 1
+  - Genesis 1:1-31
+  - Genesis 2:1-3
   - Psalm 19:1
-  - Romans 1:20
+  - Psalm 33:6-9
+  - Isaiah 45:18
+  - John 1:1-3
+  - Colossians 1:16-17
+  - Revelation 4:11
+
+related:
+  - creator
+  - heaven
+  - earth
+  - life
 
 aliases:
-  - created thing
-  - workmanship
+  - created order
+
+seeAlso:
+  - beginning
+  - Adam
+  - image of God
+
+tags:
+  - creation
+  - creator
+  - heaven
+  - earth
+
+hebrew:
+  word: בָּרָא
+  transliteration: bara
+  meaning: to create
+
+greek:
+  word: κτίσις
+  transliteration: ktisis
+  meaning: creation
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Creation is the act of bringing
-something into existence.
+Creation is the act of bringing something into existence; all that has been created.
 
-The term may refer to the process
-of making something or to the
-thing that has been made.
+The word may refer to the act of creating or to everything that has been made.
 
 ---
 
 ## Biblical Usage
 
-The word creation appears throughout
-Scripture in connection with the
-origin of the world, living creatures,
-the heavens, and the earth.
+In Scripture, creation refers to God's work of bringing the heavens, the earth, and all living things into existence.
+
+The term is also used to describe the created order.
 
 ---
 
-## Related Topics
+## Key References
 
+- Genesis 1:1-31
+- Genesis 2:1-3
+- Psalm 19:1
+- Psalm 33:6-9
+- Isaiah 45:18
+- John 1:1-3
+- Colossians 1:16-17
+- Revelation 4:11
+
+---
+
+## Related Terms
+
+- Creator
 - Heaven
 - Earth
 - Life
+- Beginning
