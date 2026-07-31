@@ -1452,6 +1452,26 @@
     }
   },
   {
+    "id": "a-sound-mind",
+    "title": "A Sound Mind",
+    "summary": "God gives His people a spirit of power, love, and a sound mind so they can faithfully live and serve without being ruled by fear.",
+    "topics": [
+      "Holy Spirit",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "sound mind",
+      "fear",
+      "2 Timothy 1:7",
+      "power",
+      "love"
+    ],
+    "scripture": {
+      "ref": "2 Timothy 1:7",
+      "text": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind."
+    }
+  },
+  {
     "id": "deny-the-flesh",
     "title": "Deny the Flesh",
     "summary": "Believers are called to walk according to the Spirit rather than the desires of the flesh.",
@@ -1469,6 +1489,90 @@
     "scripture": {
       "ref": "Galatians 5:16",
       "text": "This I say then, Walk in the Spirit, and ye shall not fulfil the lust of the flesh."
+    }
+  },
+  {
+    "id": "depending-on-the-holy-spirit",
+    "title": "Depending On The Holy Spirit",
+    "summary": "God calls believers to depend upon the Holy Spirit for strength, wisdom, and faithful service.",
+    "topics": [
+      "Holy Spirit",
+      "Christian Living",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "depending on the Holy Spirit",
+      "dependence on God",
+      "Holy Spirit",
+      "spiritual strength",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "Zechariah 4:6",
+      "text": "Then he answered and spake unto me, saying, This is the word of the LORD unto Zerubbabel, saying, Not by might, nor by power, but by my spirit, saith the LORD of hosts."
+    }
+  },
+  {
+    "id": "faithful-in-gods-calling",
+    "title": "Faithful In God's Calling",
+    "summary": "God equips His people with the strength and grace needed to faithfully fulfill the work He has entrusted to them.",
+    "topics": [
+      "Holy Spirit",
+      "Service",
+      "Christian Living"
+    ],
+    "keywords": [
+      "God's calling",
+      "faithful service",
+      "ministry",
+      "obedience",
+      "Holy Spirit"
+    ],
+    "scripture": {
+      "ref": "1 Thessalonians 5:24",
+      "text": "Faithful is he that calleth you, who also will do it."
+    }
+  },
+  {
+    "id": "led-by-the-holy-spirit",
+    "title": "Led By The Holy Spirit",
+    "summary": "The Holy Spirit faithfully leads God's people as they trust Him and walk in obedience to His will.",
+    "topics": [
+      "Holy Spirit",
+      "Christian Living",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "led by the Holy Spirit",
+      "guidance",
+      "Holy Spirit",
+      "obedience",
+      "Christian living"
+    ],
+    "scripture": {
+      "ref": "Romans 8:14",
+      "text": "For as many as are led by the Spirit of God, they are the sons of God."
+    }
+  },
+  {
+    "id": "living-by-the-spirit",
+    "title": "Living By The Spirit",
+    "summary": "God calls believers to live in dependence upon the Holy Spirit, who empowers them to grow in obedience and faithfully follow Christ.",
+    "topics": [
+      "Holy Spirit",
+      "Christian Living",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "living by the Spirit",
+      "Holy Spirit",
+      "spiritual growth",
+      "obedience",
+      "Christian life"
+    ],
+    "scripture": {
+      "ref": "Galatians 5:25",
+      "text": "If we live in the Spirit, let us also walk in the Spirit."
     }
   },
   {
@@ -1493,6 +1597,129 @@
     }
   },
   {
+    "id": "power-from-god",
+    "title": "Power From God",
+    "summary": "God gives power through the Holy Ghost so believers can faithfully bear witness to Jesus Christ.",
+    "topics": [
+      "Holy Spirit",
+      "Service",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "power from God",
+      "Holy Spirit",
+      "spiritual power",
+      "witness",
+      "Acts 1:8"
+    ],
+    "scripture": {
+      "ref": "Acts 1:8",
+      "text": "But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth."
+    }
+  },
+  {
+    "id": "remaining-in-gods-presence",
+    "title": "Remaining In God's Presence",
+    "summary": "God's presence strengthens, guides, and encourages His people as they faithfully walk with Him.",
+    "topics": [
+      "Holy Spirit",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "presence of God",
+      "abiding with God",
+      "fellowship with God",
+      "God's presence",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Psalm 16:11",
+      "text": "Thou wilt shew me the path of life: in thy presence is fulness of joy; at thy right hand there are pleasures for evermore."
+    }
+  },
+  {
+    "id": "renewing-spiritual-strength",
+    "title": "Renewing Spiritual Strength",
+    "summary": "God strengthens His servants so they can continue faithfully fulfilling the work He has called them to do.",
+    "topics": [
+      "Holy Spirit",
+      "Spiritual Growth",
+      "Strength"
+    ],
+    "keywords": [
+      "renewing spiritual strength",
+      "God's strength",
+      "Daniel 10",
+      "spiritual renewal",
+      "dependence on God"
+    ],
+    "scripture": {
+      "ref": "Daniel 10:18",
+      "text": "Then there came again and touched me one like the appearance of a man, and he strengthened me."
+    }
+  },
+  {
+    "id": "serving-through-gods-strength",
+    "title": "Serving Through God's Strength",
+    "summary": "God enables His people to faithfully serve Him through the strength He provides.",
+    "topics": [
+      "Holy Spirit",
+      "Service",
+      "Christian Living"
+    ],
+    "keywords": [
+      "serving God",
+      "God's strength",
+      "ministry",
+      "Holy Spirit",
+      "faithful service"
+    ],
+    "scripture": {
+      "ref": "Colossians 1:29",
+      "text": "Whereunto I also labour, striving according to his working, which worketh in me mightily."
+    }
+  },
+  {
+    "id": "spiritual-encounters",
+    "title": "Spiritual Encounters",
+    "summary": "God sometimes reveals Himself to His servants in extraordinary ways, strengthening them to accomplish His purposes.",
+    "topics": [
+      "Holy Spirit",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "spiritual encounters",
+      "Daniel 10",
+      "vision",
+      "God's presence",
+      "spiritual strength"
+    ],
+    "scripture": {
+      "ref": "Daniel 10:7-9",
+      "text": "And I Daniel alone saw the vision: for the men that were with me saw not the vision; but a great quaking fell upon them, so that they fled to hide themselves. Therefore I was left alone, and saw this great vision, and there remained no strength in me: for my comeliness was turned in me into corruption, and I retained no strength. Yet heard I the voice of his words: and when I heard the voice of his words, then was I in a deep sleep on my face, and my face toward the ground."
+    }
+  },
+  {
+    "id": "strength-in-weakness",
+    "title": "Strength In Weakness",
+    "summary": "God demonstrates His strength through those who humbly depend upon Him in their weakness.",
+    "topics": [
+      "Holy Spirit",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "strength in weakness",
+      "God's strength",
+      "dependence",
+      "humility",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "2 Corinthians 12:9",
+      "text": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me."
+    }
+  },
+  {
     "id": "the-spiritual-mind",
     "title": "The Spiritual Mind",
     "summary": "A spiritual mind is shaped by the Holy Spirit and focused on God's truth rather than the desires of the flesh.",
@@ -1511,6 +1738,26 @@
     "scripture": {
       "ref": "Romans 8:6",
       "text": "For to be carnally minded is death; but to be spiritually minded is life and peace."
+    }
+  },
+  {
+    "id": "walking-in-love",
+    "title": "Walking In Love",
+    "summary": "God calls His people to walk in love, reflecting His character in their relationship with Him and with others.",
+    "topics": [
+      "Holy Spirit",
+      "Christian Living"
+    ],
+    "keywords": [
+      "walking in love",
+      "love of God",
+      "Christian love",
+      "spiritual maturity",
+      "obedience"
+    ],
+    "scripture": {
+      "ref": "Ephesians 5:2",
+      "text": "And walk in love, as Christ also hath loved us, and hath given himself for us an offering and a sacrifice to God for a sweetsmelling savour."
     }
   },
   {
@@ -2707,6 +2954,26 @@
     }
   },
   {
+    "id": "learning-to-hear-the-shepherd",
+    "title": "Learning To Hear The Shepherd",
+    "summary": "God trains His people to recognize and respond to the Shepherd's voice through faithful obedience.",
+    "topics": [
+      "Shepherd",
+      "Guidance",
+      "Obedience"
+    ],
+    "keywords": [
+      "hearing",
+      "obedience",
+      "shepherd",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "John 10:27",
+      "text": "My sheep hear my voice, and I know them, and they follow me."
+    }
+  },
+  {
     "id": "the-shepherds-care",
     "title": "The Shepherd's Care",
     "summary": "The Good Shepherd lovingly cares for His people, providing everything they truly need according to His wisdom and faithfulness.",
@@ -2728,6 +2995,26 @@
     }
   },
   {
+    "id": "the-shepherds-comfort",
+    "title": "The Shepherd's Comfort",
+    "summary": "The Good Shepherd comforts His people by giving them confidence in His constant care.",
+    "topics": [
+      "Shepherd",
+      "Comfort"
+    ],
+    "keywords": [
+      "comfort",
+      "shepherd",
+      "confidence",
+      "rod",
+      "staff"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:4",
+      "text": "Thy rod and thy staff they comfort me."
+    }
+  },
+  {
     "id": "the-shepherds-presence",
     "title": "The Shepherd's Presence",
     "summary": "The Good Shepherd's presence gives His people confidence to rest, even when they face danger and uncertainty.",
@@ -2746,6 +3033,26 @@
     "scripture": {
       "ref": "Psalm 23:4",
       "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."
+    }
+  },
+  {
+    "id": "the-shepherds-protection",
+    "title": "The Shepherd's Protection",
+    "summary": "The Good Shepherd faithfully watches over His people, giving them security in every season.",
+    "topics": [
+      "Shepherd",
+      "Protection"
+    ],
+    "keywords": [
+      "protection",
+      "shepherd",
+      "security",
+      "rod",
+      "staff"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:4",
+      "text": "Thy rod and thy staff they comfort me."
     }
   },
   {
@@ -3234,6 +3541,25 @@
     "scripture": {
       "ref": "Romans 8:28",
       "text": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose."
+    }
+  },
+  {
+    "id": "living-without-fear",
+    "title": "Living Without Fear",
+    "summary": "Believers can rest without fear because the Good Shepherd remains with them even in life's darkest valleys.",
+    "topics": [
+      "Trust",
+      "Shepherd"
+    ],
+    "keywords": [
+      "fear",
+      "valley",
+      "shepherd",
+      "trust"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:4",
+      "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me."
     }
   },
   {
