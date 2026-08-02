@@ -3,49 +3,89 @@ title: Humility
 
 term: humility
 
-shortMeaning: the quality of being modest, lowly, or free from pride
+shortMeaning: The quality of being humble; freedom from pride or arrogance.
 
-related:
-  - wisdom
+biblicalUsage: >
+  In Scripture, humility refers to lowliness of mind, meekness, and a
+  humble attitude before God and others. The term is associated with
+  wisdom, service, and obedience.
+
+reference:
+  ref: Micah 6:8
+  text: "He hath shewed thee, O man, what is good; and what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?"
+
+featuredVerse:
+  ref: Philippians 2:3
+  text: "Let nothing be done through strife or vainglory; but in lowliness of mind let each esteem other better than themselves."
 
 scriptures:
-  - Proverbs 11:2
+  - 2 Chronicles 7:14
   - Micah 6:8
+  - Matthew 18:4
   - Matthew 23:12
-  - Philippians 2:3
-  - James 4:10
+  - Philippians 2:3-8
+  - Colossians 3:12
+  - James 4:6
+  - 1 Peter 5:5-6
+
+related:
+  - meekness
+  - pride
+  - obedience
+  - wisdom
 
 aliases:
-  - modesty
+  - humble
+
+seeAlso:
+  - servant
+  - grace
+  - repentance
+
+tags:
+  - humility
   - meekness
-  - lowliness
+  - wisdom
+  - character
+
+greek:
+  word: ταπεινοφροσύνη
+  transliteration: tapeinophrosynē
+  meaning: humility; lowliness of mind
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Humility is the quality of being modest,
-lowly, teachable, or free from pride
-and self-exaltation.
-
-The term is often associated with
-meekness and a realistic view of oneself.
+Humility is the quality of being humble; freedom from pride or arrogance.
 
 ---
 
 ## Biblical Usage
 
-Humility appears throughout Scripture
-in connection with wisdom, leadership,
-service, learning, and relationships.
+In Scripture, humility refers to lowliness of mind, meekness, and a humble attitude before God and others.
 
-References occur in wisdom literature,
-the teachings of Jesus,
-and the epistles.
+The term is associated with wisdom, service, and obedience.
 
 ---
 
-## Related Topics
+## Key References
 
+- 2 Chronicles 7:14
+- Micah 6:8
+- Matthew 18:4
+- Matthew 23:12
+- Philippians 2:3-8
+- Colossians 3:12
+- James 4:6
+- 1 Peter 5:5-6
+
+---
+
+## Related Terms
+
+- Meekness
+- Pride
+- Obedience
 - Wisdom
 - Grace
-- Discernment

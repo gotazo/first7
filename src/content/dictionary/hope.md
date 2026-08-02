@@ -3,45 +3,93 @@ title: Hope
 
 term: hope
 
-shortMeaning: a feeling of expectation and confidence regarding the future
+shortMeaning: A feeling of expectation or confident anticipation of something desired.
 
-related:
-  - faith
+biblicalUsage: >
+  In Scripture, hope refers to expectation, confidence, or anticipation
+  based on God's promises. The term is used throughout both the Old and
+  New Testaments in connection with God, salvation, and future promises.
+
+reference:
+  ref: Romans 15:13
+  text: "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost."
+
+featuredVerse:
+  ref: Hebrews 6:19
+  text: "Which hope we have as an anchor of the soul, both sure and stedfast..."
 
 scriptures:
   - Psalm 39:7
-  - Romans 5:5
+  - Psalm 71:5
+  - Proverbs 23:18
+  - Romans 5:1-5
   - Romans 15:13
-  - Hebrews 6:19
+  - Colossians 1:27
+  - 1 Thessalonians 5:8
+  - Hebrews 6:18-19
 
-aliases:
-  - expectation
+related:
+  - faith
+  - trust
+  - salvation
+  - promise
+
+aliases: []
+
+seeAlso:
+  - patience
+  - joy
+  - peace
+
+tags:
+  - hope
+  - faith
+  - promise
+  - salvation
+
+hebrew:
+  word: תִּקְוָה
+  transliteration: tiqvah
+  meaning: hope
+
+greek:
+  word: ἐλπίς
+  transliteration: elpis
+  meaning: hope
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Hope refers to expectation,
-confidence, or anticipation
-regarding something desired.
-
-The word is associated with
-looking forward to the future.
+Hope is a feeling of expectation or confident anticipation of something desired.
 
 ---
 
 ## Biblical Usage
 
-Hope appears throughout Scripture
-in connection with God's promises,
-deliverance, and future expectation.
+In Scripture, hope refers to expectation, confidence, or anticipation based on God's promises.
 
-References to hope occur in poetic,
-prophetic, and teaching passages.
+The term is used throughout both the Old and New Testaments in connection with God, salvation, and future promises.
 
 ---
 
-## Related Topics
+## Key References
+
+- Psalm 39:7
+- Psalm 71:5
+- Proverbs 23:18
+- Romans 5:1-5
+- Romans 15:13
+- Colossians 1:27
+- 1 Thessalonians 5:8
+- Hebrews 6:18-19
+
+---
+
+## Related Terms
 
 - Faith
-- Peace
+- Trust
 - Salvation
+- Promise
+- Patience

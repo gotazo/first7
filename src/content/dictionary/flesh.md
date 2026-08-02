@@ -3,40 +3,93 @@ title: Flesh
 
 term: flesh
 
-shortMeaning: the soft substance covering the bones of a living body; the physical body or bodily nature
+shortMeaning: The soft substance of the body covering the bones; the physical body.
 
-related:
-  - terms/body
+biblicalUsage: >
+  In Scripture, flesh refers to the physical body of people or animals.
+  The term is also used in various contexts to describe human nature,
+  mankind, or bodily life.
+
+reference:
+  ref: John 1:14
+  text: "And the Word was made flesh, and dwelt among us..."
+
+featuredVerse:
+  ref: Genesis 2:24
+  text: "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh."
 
 scriptures:
+  - Genesis 2:24
   - Genesis 6:12
-  - Isaiah 40:5
+  - Psalm 78:39
+  - Isaiah 40:5-8
   - John 1:14
-  - Romans 8
+  - Romans 8:1-9
+  - Galatians 5:16-17
+  - 1 Peter 1:24
 
-aliases:
+related:
   - body
-  - human flesh
+  - spirit
+  - man
+  - life
+
+aliases: []
+
+seeAlso:
+  - carnal
+  - body
+  - spirit
+
+tags:
+  - flesh
+  - body
+  - humanity
+  - life
+
+hebrew:
+  word: בָּשָׂר
+  transliteration: basar
+  meaning: flesh
+
+greek:
+  word: σάρξ
+  transliteration: sarx
+  meaning: flesh
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Flesh is the soft tissue of the body
-covering the bones and organs of humans
-and animals.
+Flesh is the soft substance of the body covering the bones; the physical body.
 
 ---
 
 ## Biblical Usage
 
-The word flesh appears throughout Scripture
-in reference to the human body, living beings,
-human nature, and physical life.
+In Scripture, flesh refers to the physical body of people or animals.
+
+The term is also used in various contexts to describe human nature, mankind, or bodily life.
 
 ---
 
-## Related Topics
+## Key References
+
+- Genesis 2:24
+- Genesis 6:12
+- Psalm 78:39
+- Isaiah 40:5-8
+- John 1:14
+- Romans 8:1-9
+- Galatians 5:16-17
+- 1 Peter 1:24
+
+---
+
+## Related Terms
 
 - Body
-- Carnal
 - Spirit
+- Man
+- Life
+- Carnal

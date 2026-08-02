@@ -3,45 +3,88 @@ title: Fornication
 
 term: fornication
 
-shortMeaning: sexual relations between people who are not married to each other
+shortMeaning: Sexual relations outside of marriage.
 
-related:
-  - nations/babylon
+biblicalUsage: >
+  In Scripture, fornication refers to unlawful sexual immorality. The
+  term appears throughout both the Old and New Testaments in lists of
+  sinful practices and moral instruction.
+
+reference:
+  ref: 1 Corinthians 6:18
+  text: "Flee fornication. Every sin that a man doeth is without the body; but he that committeth fornication sinneth against his own body."
+
+featuredVerse:
+  ref: Acts 15:20
+  text: "But that we write unto them, that they abstain from pollutions of idols, and from fornication, and from things strangled, and from blood."
 
 scriptures:
   - Matthew 15:19
   - Acts 15:20
+  - Acts 15:29
+  - 1 Corinthians 5:1
   - 1 Corinthians 6:18
+  - Galatians 5:19
   - Ephesians 5:3
-  - Revelation 17
+  - Revelation 21:8
 
-aliases:
-  - sexual immorality
+related:
+  - adultery
+  - uncleanness
+  - lust
+  - holiness
+
+aliases: []
+
+seeAlso:
+  - marriage
+  - purity
+  - adultery
+
+tags:
+  - fornication
+  - morality
+  - holiness
+  - sin
+
+greek:
+  word: πορνεία
+  transliteration: porneia
+  meaning: fornication; sexual immorality
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Fornication refers to sexual relations between people
-who are not married to each other.
-
-The word has been used throughout history
-in legal, moral, and religious contexts.
+Fornication is sexual relations outside of marriage.
 
 ---
 
 ## Biblical Usage
 
-The word fornication appears throughout Scripture
-in historical passages, teachings,
-letters, and prophecy.
+In Scripture, fornication refers to unlawful sexual immorality.
 
-References to fornication occur in both
-the Old Testament and the New Testament.
+The term appears throughout both the Old and New Testaments in lists of sinful practices and moral instruction.
 
 ---
 
-## Related Topics
+## Key References
 
-- Babylon
+- Matthew 15:19
+- Acts 15:20
+- Acts 15:29
+- 1 Corinthians 5:1
+- 1 Corinthians 6:18
+- Galatians 5:19
+- Ephesians 5:3
+- Revelation 21:8
+
+---
+
+## Related Terms
+
+- Adultery
+- Uncleanness
+- Lust
+- Holiness
 - Marriage
-- Revelation

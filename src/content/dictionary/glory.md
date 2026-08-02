@@ -3,48 +3,93 @@ title: Glory
 
 term: glory
 
-shortMeaning: great honor, splendor, magnificence, or distinction
+shortMeaning: Great honor, praise, splendor, or magnificence.
 
-related:
-  - kingdom
+biblicalUsage: >
+  In Scripture, glory refers to honor, majesty, splendor, or excellence.
+  The term is used of God's glory, the honor given to people, and other
+  expressions of greatness or praise.
+
+reference:
+  ref: Psalm 19:1
+  text: "The heavens declare the glory of God; and the firmament sheweth his handywork."
+
+featuredVerse:
+  ref: John 1:14
+  text: "And the Word was made flesh, and dwelt among us, (and we beheld his glory...)"
 
 scriptures:
-  - Exodus 33
-  - Psalm 19
-  - Isaiah 6
-  - John 17
-  - Revelation 21
+  - Exodus 24:16-17
+  - Psalm 19:1
+  - Isaiah 6:3
+  - John 1:14
+  - Romans 3:23
+  - 2 Corinthians 4:6
+  - Hebrews 1:3
+  - Revelation 21:23
 
-aliases:
-  - honor
-  - splendor
+related:
+  - honour
   - majesty
+  - praise
+  - worship
+
+aliases: []
+
+seeAlso:
+  - holiness
+  - kingdom
+  - throne
+
+tags:
+  - glory
+  - worship
+  - majesty
+  - praise
+
+hebrew:
+  word: כָּבוֹד
+  transliteration: kavod
+  meaning: glory; honor
+
+greek:
+  word: δόξα
+  transliteration: doxa
+  meaning: glory; honor
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Glory refers to honor, splendor,
-magnificence, greatness, or distinction.
-
-The term may describe reputation,
-beauty, excellence, or visible grandeur.
+Glory is great honor, praise, splendor, or magnificence.
 
 ---
 
 ## Biblical Usage
 
-The word glory appears throughout Scripture in
-connection with God, kings, nations,
-heavenly visions, and acts of power.
+In Scripture, glory refers to honor, majesty, splendor, or excellence.
 
-References occur in historical books,
-poetry, prophecy, the Gospels,
-and Revelation.
+The term is used of God's glory, the honor given to people, and other expressions of greatness or praise.
 
 ---
 
-## Related Topics
+## Key References
 
-- Kingdom
-- Throne
-- Crown
+- Exodus 24:16-17
+- Psalm 19:1
+- Isaiah 6:3
+- John 1:14
+- Romans 3:23
+- 2 Corinthians 4:6
+- Hebrews 1:3
+- Revelation 21:23
+
+---
+
+## Related Terms
+
+- Honour
+- Majesty
+- Praise
+- Worship
+- Holiness

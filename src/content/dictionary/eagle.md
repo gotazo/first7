@@ -3,44 +3,91 @@ title: Eagle
 
 term: eagle
 
-shortMeaning: a large bird of prey known for its strength, vision, and flight
+shortMeaning: A large bird of prey known for its strength, keen eyesight, and powerful flight.
 
-related:
-  - symbols/eagle
+biblicalUsage: >
+  In Scripture, the eagle is used both literally as a bird and figuratively
+  to describe strength, swiftness, protection, and renewal.
+
+reference:
+  ref: Isaiah 40:31
+  text: "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles..."
+
+featuredVerse:
+  ref: Exodus 19:4
+  text: "Ye have seen what I did unto the Egyptians, and how I bare you on eagles' wings, and brought you unto myself."
 
 scriptures:
   - Exodus 19:4
+  - Deuteronomy 32:11
+  - Job 39:27-30
+  - Psalm 103:5
+  - Proverbs 30:19
   - Isaiah 40:31
-  - Ezekiel 17
-  - Revelation 12:14
+  - Ezekiel 1:10
+  - Revelation 4:7
+
+related:
+  - bird
+  - wings
+  - heaven
+  - flight
 
 aliases:
   - eagles
+
+seeAlso:
+  - dove
+  - raven
+  - lion
+
+tags:
+  - birds
+  - creation
+  - strength
+  - symbolism
+
+hebrew:
+  word: נֶשֶׁר
+  transliteration: nesher
+  meaning: eagle
+
+greek:
+  word: ἀετός
+  transliteration: aetos
+  meaning: eagle
+
 ---
 
-## Basic Meaning
+## Meaning
 
-An eagle is a large bird of prey known for its strength,
-keen vision, and ability to soar at great heights.
-
-Eagles are found in many parts of the world
-and have long been recognized for their powerful flight.
+An eagle is a large bird of prey known for its strength, keen eyesight, and powerful flight.
 
 ---
 
 ## Biblical Usage
 
-The word eagle appears throughout Scripture
-in historical passages, poetry, prophecy,
-and visions.
-
-References to eagles occur in both the Old Testament
-and the New Testament.
+In Scripture, the eagle is used both literally as a bird and figuratively to describe strength, swiftness, protection, and renewal.
 
 ---
 
-## Related Topics
+## Key References
 
+- Exodus 19:4
+- Deuteronomy 32:11
+- Job 39:27-30
+- Psalm 103:5
+- Proverbs 30:19
+- Isaiah 40:31
+- Ezekiel 1:10
+- Revelation 4:7
+
+---
+
+## Related Terms
+
+- Bird
 - Wings
-- Revelation
-- Jerusalem
+- Heaven
+- Flight
+- Dove

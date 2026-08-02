@@ -3,50 +3,88 @@ title: Gospel
 
 term: gospel
 
-shortMeaning: good news, glad tidings, or a message of joyful announcement
+shortMeaning: Good news; especially the good news concerning Jesus Christ.
+
+biblicalUsage: >
+  In Scripture, gospel means "good news." The term is used for the message
+  concerning Jesus Christ, the kingdom of God, and the proclamation of
+  salvation recorded in the New Testament.
+
+reference:
+  ref: Mark 1:15
+  text: "And saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel."
+
+featuredVerse:
+  ref: Romans 1:16
+  text: "For I am not ashamed of the gospel of Christ: for it is the power of God unto salvation to every one that believeth..."
+
+scriptures:
+  - Matthew 4:23
+  - Mark 1:14-15
+  - Luke 4:18
+  - Romans 1:16
+  - 1 Corinthians 15:1-4
+  - Galatians 1:6-9
+  - Ephesians 6:15
+  - Colossians 1:5-6
 
 related:
   - salvation
+  - kingdom
+  - faith
+  - grace
 
-scriptures:
-  - Isaiah 52:7
-  - Mark 1:1
-  - Mark 16:15
-  - Romans 1:16
-  - 1 Corinthians 15:1
+aliases: []
 
-aliases:
-  - good news
-  - glad tidings
-  - message
+seeAlso:
+  - christ
+  - apostle
+  - evangelist
+
+tags:
+  - gospel
+  - salvation
+  - christ
+  - preaching
+
+greek:
+  word: εὐαγγέλιον
+  transliteration: euangelion
+  meaning: good news; gospel
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Gospel is a word meaning
-good news, glad tidings,
-or a joyful announcement.
-
-The term refers to a message
-that brings important and
-positive news.
+The gospel is good news, especially the good news concerning Jesus Christ.
 
 ---
 
 ## Biblical Usage
 
-The word gospel appears primarily
-in the New Testament and is used
-in preaching, teaching, letters,
-and historical accounts.
+In Scripture, gospel means "good news."
 
-References also connect with
-earlier announcements of good news.
+The term is used for the message concerning Jesus Christ, the kingdom of God, and the proclamation of salvation recorded in the New Testament.
 
 ---
 
-## Related Topics
+## Key References
+
+- Matthew 4:23
+- Mark 1:14-15
+- Luke 4:18
+- Romans 1:16
+- 1 Corinthians 15:1-4
+- Galatians 1:6-9
+- Ephesians 6:15
+- Colossians 1:5-6
+
+---
+
+## Related Terms
 
 - Salvation
-- Truth
-- Witness
+- Kingdom
+- Faith
+- Grace
+- Christ

@@ -3,43 +3,93 @@ title: Grace
 
 term: grace
 
-shortMeaning: kindness, favor, or goodwill freely given to another
+shortMeaning: Favor, kindness, or goodwill freely given.
 
-related:
-  - people/paul
+biblicalUsage: >
+  In Scripture, grace refers to favor, kindness, or goodwill bestowed by
+  God or shown by one person to another. The term appears throughout the
+  Bible in connection with God's dealings with people.
+
+reference:
+  ref: Ephesians 2:8
+  text: "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God:"
+
+featuredVerse:
+  ref: John 1:17
+  text: "For the law was given by Moses, but grace and truth came by Jesus Christ."
 
 scriptures:
-  - John 1:17
-  - Romans 5
-  - Ephesians 2
-  - Titus 2
+  - Genesis 6:8
+  - Psalm 84:11
+  - John 1:14-17
+  - Acts 20:32
+  - Romans 3:24
+  - Ephesians 2:8-9
+  - Titus 2:11
+  - Hebrews 4:16
 
-aliases:
-  - favor
+related:
+  - mercy
+  - faith
+  - salvation
+  - kindness
+
+aliases: []
+
+seeAlso:
+  - forgiveness
+  - truth
+  - peace
+
+tags:
+  - grace
+  - salvation
+  - mercy
+  - kindness
+
+hebrew:
+  word: חֵן
+  transliteration: chen
+  meaning: favor; grace
+
+greek:
+  word: χάρις
+  transliteration: charis
+  meaning: grace; favor
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Grace refers to kindness, favor,
-or goodwill shown toward another.
-
-The word is commonly used to describe
-undeserved favor or generosity.
+Grace is favor, kindness, or goodwill freely given.
 
 ---
 
 ## Biblical Usage
 
-Grace appears throughout the New Testament
-in connection with God's favor and salvation.
+In Scripture, grace refers to favor, kindness, or goodwill bestowed by God or shown by one person to another.
 
-References to grace occur in teachings,
-letters, and doctrinal passages.
+The term appears throughout the Bible in connection with God's dealings with people.
 
 ---
 
-## Related Topics
+## Key References
+
+- Genesis 6:8
+- Psalm 84:11
+- John 1:14-17
+- Acts 20:32
+- Romans 3:24
+- Ephesians 2:8-9
+- Titus 2:11
+- Hebrews 4:16
+
+---
+
+## Related Terms
 
 - Mercy
-- Salvation
 - Faith
+- Salvation
+- Kindness
+- Forgiveness

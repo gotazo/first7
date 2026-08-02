@@ -3,43 +3,77 @@ title: Goliath
 
 term: goliath
 
-shortMeaning: a Philistine warrior described in Scripture as being of extraordinary size and strength
+shortMeaning: A Philistine warrior defeated by David.
 
-related:
-  - people/giants
-  - nations/philistia
+biblicalUsage: >
+  In Scripture, Goliath was a champion of the Philistines from Gath who
+  challenged the army of Israel. He was defeated by David in the Valley
+  of Elah.
+
+reference:
+  ref: 1 Samuel 17:4
+  text: "And there went out a champion out of the camp of the Philistines, named Goliath, of Gath..."
+
+featuredVerse:
+  ref: 1 Samuel 17:50
+  text: "So David prevailed over the Philistine with a sling and with a stone..."
 
 scriptures:
-  - 1 Samuel 17
+  - 1 Samuel 17:4-11
+  - 1 Samuel 17:32-51
   - 2 Samuel 21:19
   - 1 Chronicles 20:5
 
-aliases:
-  - goliath of gath
+related:
+  - david
+  - philistines
+  - giant
+  - gath
+
+aliases: []
+
+seeAlso:
+  - saul
+  - sling
+  - battle
+
+tags:
+  - goliath
+  - philistines
+  - giant
+  - people
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Goliath is the name of a warrior
-mentioned in the Old Testament.
+Goliath was a Philistine warrior defeated by David.
 
-He is described as a Philistine champion
-and a man of exceptional size.
+He is described as a champion from Gath.
 
 ---
 
 ## Biblical Usage
 
-Goliath appears most prominently
-in 1 Samuel 17 in the account of David and Goliath.
+In Scripture, Goliath challenged the army of Israel before being defeated by David with a sling and a stone.
 
-Additional references to Goliath appear
-in Samuel and Chronicles.
+The Bible also mentions another Goliath in later historical accounts.
 
 ---
 
-## Related Topics
+## Key References
 
-- Giants
-- Philistia
+- 1 Samuel 17:4-11
+- 1 Samuel 17:32-51
+- 2 Samuel 21:19
+- 1 Chronicles 20:5
+
+---
+
+## Related Terms
+
 - David
+- Philistines
+- Giant
+- Gath
+- Battle

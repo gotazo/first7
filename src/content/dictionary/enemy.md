@@ -3,42 +3,94 @@ title: Enemy
 
 term: enemy
 
-shortMeaning: a person, group, or force that opposes, harms, or acts against another
+shortMeaning: A person or group that opposes or seeks to harm another.
 
-related:
-  - warfare
+biblicalUsage: >
+  In Scripture, an enemy is one who opposes, hates, or acts against
+  another person, nation, or God. The term is used for both human
+  adversaries and spiritual opposition.
+
+reference:
+  ref: Matthew 5:44
+  text: "But I say unto you, Love your enemies, bless them that curse you..."
+
+featuredVerse:
+  ref: Psalm 23:5
+  text: "Thou preparest a table before me in the presence of mine enemies..."
 
 scriptures:
-  - Exodus 23:22
+  - Exodus 23:4-5
   - Psalm 23:5
-  - Matthew 5:44
+  - Proverbs 25:21-22
+  - Matthew 5:43-44
+  - Luke 6:27-28
+  - Romans 12:20
+  - 1 Corinthians 15:26
+  - Ephesians 6:12
+
+related:
+  - adversary
+  - war
+  - peace
+  - persecution
 
 aliases:
-  - adversary
-  - opponent
+  - enemies
+
+seeAlso:
+  - devil
+  - satan
+  - battle
+
+tags:
+  - enemy
+  - opposition
+  - conflict
+  - warfare
+
+hebrew:
+  word: אֹיֵב
+  transliteration: oyev
+  meaning: enemy
+
+greek:
+  word: ἐχθρός
+  transliteration: echthros
+  meaning: enemy
+
 ---
 
-## Basic Meaning
+## Meaning
 
-An enemy is a person, group,
-or force that opposes, harms,
-or acts against another.
-
-The term may describe personal,
-military, political, or social opposition.
+An enemy is a person or group that opposes or seeks to harm another.
 
 ---
 
 ## Biblical Usage
 
-The word enemy appears throughout
-Scripture in historical accounts,
-poetry, prophecy, and teachings.
+In Scripture, an enemy is one who opposes, hates, or acts against another person, nation, or God.
+
+The term is used for both human adversaries and spiritual opposition.
 
 ---
 
-## Related Topics
+## Key References
 
-- Battle
-- Conflict
-- Opposition
+- Exodus 23:4-5
+- Psalm 23:5
+- Proverbs 25:21-22
+- Matthew 5:43-44
+- Luke 6:27-28
+- Romans 12:20
+- 1 Corinthians 15:26
+- Ephesians 6:12
+
+---
+
+## Related Terms
+
+- Adversary
+- War
+- Peace
+- Persecution
+- Devil

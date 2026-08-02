@@ -3,46 +3,87 @@ title: Giants
 
 term: giants
 
-shortMeaning: people described as being of unusually great size or stature
+shortMeaning: People of unusually great size or stature.
 
-related:
-  - people/giants
-  - people/nephilim
+biblicalUsage: >
+  In Scripture, giants refers to people of great size or strength. Various
+  groups, including the Anakims, Rephaim, and others, are described as
+  giants in different parts of the Old Testament.
+
+reference:
+  ref: Numbers 13:33
+  text: "And there we saw the giants, the sons of Anak, which come of the giants..."
+
+featuredVerse:
+  ref: Deuteronomy 2:11
+  text: "Which also were accounted giants, as the Anakims..."
 
 scriptures:
   - Genesis 6:4
-  - Numbers 13:33
-  - Deuteronomy 3:11
-  - 1 Samuel 17
+  - Numbers 13:32-33
+  - Deuteronomy 2:10-11
+  - Deuteronomy 2:20-21
+  - Joshua 11:21-22
+  - 1 Samuel 17:4
+  - 2 Samuel 21:15-22
+
+related:
+  - anakim
+  - rephaim
+  - goliath
+  - philistines
 
 aliases:
   - giant
+
+seeAlso:
+  - nephilim
+  - anak
+  - og
+
+tags:
+  - giants
+  - people
+  - warfare
+  - old testament
+
+hebrew:
+  word: רְפָאִים
+  transliteration: rephaim
+  meaning: giants; Rephaim
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A giant is a person described as being
-unusually large in size or stature.
-
-The word may also be used more generally
-to describe someone exceptionally great in size,
-strength, or influence.
+Giants are people of unusually great size or stature.
 
 ---
 
 ## Biblical Usage
 
-References to giants appear in several passages
-of the Old Testament.
+In Scripture, giants refers to people of great size or strength.
 
-The Bible contains references to giants
-in Genesis, Numbers, Deuteronomy,
-and the account of Goliath in 1 Samuel.
+Various groups, including the Anakims, Rephaim, and others, are described as giants in different parts of the Old Testament.
 
 ---
 
-## Related Topics
+## Key References
 
-- Nephilim
-- Goliath
+- Genesis 6:4
+- Numbers 13:32-33
+- Deuteronomy 2:10-11
+- Deuteronomy 2:20-21
+- Joshua 11:21-22
+- 1 Samuel 17:4
+- 2 Samuel 21:15-22
+
+---
+
+## Related Terms
+
 - Anakim
+- Rephaim
+- Goliath
+- Philistines
+- Nephilim

@@ -3,50 +3,91 @@ title: Forgiveness
 
 term: forgiveness
 
-shortMeaning: the act of pardoning, releasing, or no longer holding an offense against someone
+shortMeaning: The act of pardoning or releasing someone from an offense or debt.
 
-related:
-  - mercy
+biblicalUsage: >
+  In Scripture, forgiveness refers to the pardon or remission of sins,
+  offenses, or debts. The Bible speaks of God's forgiveness and of people
+  forgiving one another.
+
+reference:
+  ref: Ephesians 4:32
+  text: "And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you."
+
+featuredVerse:
+  ref: Colossians 3:13
+  text: "Forbearing one another, and forgiving one another, if any man have a quarrel against any: even as Christ forgave you, so also do ye."
 
 scriptures:
-  - Psalm 103:12
-  - Isaiah 43:25
+  - Psalm 103:10-12
+  - Isaiah 55:7
   - Matthew 6:14-15
+  - Matthew 18:21-22
+  - Luke 23:34
+  - Acts 13:38
   - Ephesians 4:32
   - Colossians 3:13
 
+related:
+  - mercy
+  - grace
+  - reconciliation
+  - repentance
+
 aliases:
-  - pardon
-  - remission
-  - release
+  - forgive
+
+seeAlso:
+  - redemption
+  - salvation
+  - compassion
+
+tags:
+  - forgiveness
+  - mercy
+  - grace
+  - reconciliation
+
+greek:
+  word: ἄφεσις
+  transliteration: aphesis
+  meaning: forgiveness; remission
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Forgiveness is the act of pardoning,
-releasing, or no longer holding
-an offense, debt, or wrongdoing
-against another person.
+Forgiveness is the act of pardoning or releasing someone from an offense or debt.
 
-The term is associated with reconciliation,
-mercy, and the removal of blame.
+It involves cancelling or removing guilt, offense, or obligation.
 
 ---
 
 ## Biblical Usage
 
-Forgiveness appears throughout Scripture
-in connection with sins, debts,
-offenses, mercy, and reconciliation.
+In Scripture, forgiveness refers to the pardon or remission of sins, offenses, or debts.
 
-References occur in historical books,
-the Psalms, prophetic writings,
-the Gospels, and the epistles.
+The Bible speaks of God's forgiveness and of people forgiving one another.
 
 ---
 
-## Related Topics
+## Key References
+
+- Psalm 103:10-12
+- Isaiah 55:7
+- Matthew 6:14-15
+- Matthew 18:21-22
+- Luke 23:34
+- Acts 13:38
+- Ephesians 4:32
+- Colossians 3:13
+
+---
+
+## Related Terms
 
 - Mercy
-- Redemption
+- Grace
 - Reconciliation
+- Repentance
+- Redemption

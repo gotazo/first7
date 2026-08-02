@@ -3,44 +3,93 @@ title: Gold
 
 term: gold
 
-shortMeaning: a precious yellow metal valued for beauty, durability, and rarity
+shortMeaning: A precious yellow metal valued for its beauty and durability.
 
-related:
-  - symbols/altar
+biblicalUsage: >
+  In Scripture, gold is used for money, jewelry, furnishings, the
+  tabernacle, the temple, and various articles. It is also mentioned in
+  figurative and prophetic passages.
+
+reference:
+  ref: Exodus 25:11
+  text: "And thou shalt overlay it with pure gold, within and without shalt thou overlay it..."
+
+featuredVerse:
+  ref: Revelation 21:18
+  text: "And the building of the wall of it was of jasper: and the city was pure gold, like unto clear glass."
 
 scriptures:
-  - Genesis 2:11
-  - Exodus 25
-  - 1 Kings 6
-  - Zechariah 4
-  - Revelation 21
+  - Genesis 2:11-12
+  - Exodus 25:10-11
+  - 1 Kings 6:20-22
+  - Job 23:10
+  - Proverbs 3:14
+  - Matthew 2:11
+  - 1 Peter 1:7
+  - Revelation 21:18-21
 
-aliases:
-  - golden
+related:
+  - silver
+  - treasure
+  - temple
+  - riches
+
+aliases: []
+
+seeAlso:
+  - frankincense
+  - myrrh
+  - precious stones
+
+tags:
+  - gold
+  - temple
+  - worship
+  - riches
+
+hebrew:
+  word: זָהָב
+  transliteration: zahab
+  meaning: gold
+
+greek:
+  word: χρυσός
+  transliteration: chrysos
+  meaning: gold
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Gold is a precious yellow metal valued for its beauty,
-durability, and rarity.
-
-It has been used throughout history for jewelry,
-currency, decoration, and craftsmanship.
+Gold is a precious yellow metal valued for its beauty and durability.
 
 ---
 
 ## Biblical Usage
 
-Gold appears throughout Scripture in historical accounts,
-the tabernacle, the temple, prophetic visions,
-and Revelation.
+In Scripture, gold is used for money, jewelry, furnishings, the tabernacle, the temple, and various articles.
 
-References to gold occur in both the Old and New Testaments.
+It is also mentioned in figurative and prophetic passages.
 
 ---
 
-## Related Topics
+## Key References
 
+- Genesis 2:11-12
+- Exodus 25:10-11
+- 1 Kings 6:20-22
+- Job 23:10
+- Proverbs 3:14
+- Matthew 2:11
+- 1 Peter 1:7
+- Revelation 21:18-21
+
+---
+
+## Related Terms
+
+- Silver
+- Treasure
 - Temple
-- Candlestick
-- Altar
+- Riches
+- Frankincense

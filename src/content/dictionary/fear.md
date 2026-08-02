@@ -3,48 +3,93 @@ title: Fear
 
 term: fear
 
-shortMeaning: an emotional response to danger, threat, uncertainty, or risk
+shortMeaning: A feeling of alarm, dread, reverence, or deep respect.
+
+biblicalUsage: >
+  In Scripture, fear refers to terror, anxiety, or reverence depending on
+  the context. The term is used of fear toward people, circumstances,
+  and the fear of the LORD.
+
+reference:
+  ref: Proverbs 9:10
+  text: "The fear of the LORD is the beginning of wisdom: and the knowledge of the holy is understanding."
+
+featuredVerse:
+  ref: Psalm 111:10
+  text: "The fear of the LORD is the beginning of wisdom: a good understanding have all they that do his commandments..."
+
+scriptures:
+  - Genesis 22:12
+  - Exodus 20:20
+  - Deuteronomy 10:12
+  - Psalm 111:10
+  - Proverbs 9:10
+  - Isaiah 41:10
+  - Matthew 10:28
+  - Luke 12:4-5
 
 related:
   - wisdom
+  - reverence
+  - obedience
+  - courage
 
-scriptures:
-  - Genesis 32:7
-  - Psalm 27:1
-  - Proverbs 1:7
-  - Isaiah 41:10
-  - Luke 12:4
+aliases: []
 
-aliases:
-  - dread
-  - anxiety
-  - terror
+seeAlso:
+  - fear of the lord
+  - wisdom
+  - trust
+
+tags:
+  - fear
+  - wisdom
+  - reverence
+  - obedience
+
+hebrew:
+  word: יִרְאָה
+  transliteration: yirah
+  meaning: fear; reverence
+
+greek:
+  word: φόβος
+  transliteration: phobos
+  meaning: fear
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Fear is an emotional response
-to danger, threat, uncertainty,
-risk, or perceived harm.
-
-The term can describe concern,
-apprehension, alarm, or terror.
+Fear is a feeling of alarm, dread, reverence, or deep respect.
 
 ---
 
 ## Biblical Usage
 
-Fear appears throughout Scripture
-in narratives, poetry, prophecy,
-wisdom literature, and teachings.
+In Scripture, fear refers to terror, anxiety, or reverence depending on the context.
 
-References include both human fears
-and references to reverence or awe.
+The term is used of fear toward people, circumstances, and the fear of the LORD.
 
 ---
 
-## Related Topics
+## Key References
+
+- Genesis 22:12
+- Exodus 20:20
+- Deuteronomy 10:12
+- Psalm 111:10
+- Proverbs 9:10
+- Isaiah 41:10
+- Matthew 10:28
+- Luke 12:4-5
+
+---
+
+## Related Terms
 
 - Wisdom
-- Judgment
-- Faith
+- Reverence
+- Obedience
+- Courage
+- Trust

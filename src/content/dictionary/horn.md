@@ -3,44 +3,95 @@ title: Horn
 
 term: horn
 
-shortMeaning: a hard pointed projection found on the heads of certain animals
+shortMeaning: The hard, pointed growth on the head of certain animals.
 
-related:
-  - symbols/beast
+biblicalUsage: >
+  In Scripture, horn refers to the horn of an animal, the horns of the
+  altar, musical instruments made from horns, and is frequently used as
+  a symbol of strength, power, authority, or kingdoms, depending on the
+  context.
+
+reference:
+  ref: Psalm 18:2
+  text: "The LORD is my rock, and my fortress, and my deliverer... my buckler, and the horn of my salvation..."
+
+featuredVerse:
+  ref: Daniel 7:24
+  text: "And the ten horns out of this kingdom are ten kings that shall arise..."
 
 scriptures:
+  - Exodus 27:2
+  - Joshua 6:4-5
+  - 1 Samuel 2:1
   - Psalm 18:2
-  - Daniel 7
-  - Daniel 8
-  - Luke 1:69
-  - Revelation 17
+  - Psalm 75:10
+  - Daniel 7:7-8
+  - Daniel 8:3-9
+  - Revelation 17:12
+
+related:
+  - altar
+  - trumpet
+  - king
+  - kingdom
 
 aliases:
   - horns
+
+seeAlso:
+  - power
+  - authority
+  - beast
+
+tags:
+  - horn
+  - symbolism
+  - prophecy
+  - worship
+
+hebrew:
+  word: קֶרֶן
+  transliteration: qeren
+  meaning: horn
+
+greek:
+  word: κέρας
+  transliteration: keras
+  meaning: horn
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A horn is a hard pointed projection found on the heads
-of certain animals such as rams, goats, oxen, and cattle.
+A horn is the hard, pointed growth on the head of certain animals.
 
-The word may also refer to a musical instrument,
-a container, or other horn-shaped objects.
+It may also refer to an object made from an animal's horn.
 
 ---
 
 ## Biblical Usage
 
-The word horn appears throughout Scripture in historical,
-poetic, prophetic, and visionary contexts.
-
-References to horns can be found in the Psalms,
-the Prophets, the Gospels, and Revelation.
+In Scripture, horn refers to the horn of an animal, the horns of the altar, musical instruments made from horns, and is frequently used as a symbol of strength, power, authority, or kingdoms, depending on the context.
 
 ---
 
-## Related Topics
+## Key References
 
-- Beast
-- Babylon
+- Exodus 27:2
+- Joshua 6:4-5
+- 1 Samuel 2:1
+- Psalm 18:2
+- Psalm 75:10
+- Daniel 7:7-8
+- Daniel 8:3-9
+- Revelation 17:12
+
+---
+
+## Related Terms
+
+- Altar
+- Trumpet
+- King
 - Kingdom
+- Beast
