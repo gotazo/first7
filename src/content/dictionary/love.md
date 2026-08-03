@@ -3,44 +3,93 @@ title: Love
 
 term: love
 
-shortMeaning: deep affection, care, or concern for another person
+shortMeaning: A deep feeling of affection, care, or devotion toward someone or something.
 
-related:
-  - faith
+biblicalUsage: >
+  In Scripture, love describes affection, devotion, goodwill, and care
+  shown between God and people, among individuals, and toward others. The
+  meaning is determined by the context of each passage.
+
+reference:
+  ref: Matthew 22:37
+  text: "Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind."
+
+featuredVerse:
+  ref: 1 Corinthians 13:13
+  text: "And now abideth faith, hope, charity, these three; but the greatest of these is charity."
 
 scriptures:
+  - Deuteronomy 6:5
   - Matthew 22:37-39
-  - John 13:34
-  - 1 Corinthians 13
-  - 1 John 4:8
+  - John 3:16
+  - John 13:34-35
+  - Romans 5:8
+  - 1 Corinthians 13:1-13
+  - Galatians 5:22
+  - 1 John 4:7-11
 
-aliases:
+related:
   - charity
+  - faith
+  - hope
+  - mercy
+
+aliases: []
+
+seeAlso:
+  - compassion
+  - kindness
+  - peace
+
+tags:
+  - love
+  - charity
+  - faith
+  - hope
+
+hebrew:
+  word: אָהַב
+  transliteration: ahav
+  meaning: to love
+
+greek:
+  word: ἀγάπη
+  transliteration: agapē
+  meaning: love
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Love refers to deep affection,
-care, devotion, or concern.
-
-The word is commonly associated
-with relationships and commitment.
+Love is a deep feeling of affection, care, or devotion toward someone or something.
 
 ---
 
 ## Biblical Usage
 
-Love appears throughout Scripture
-in connection with God,
-people, and relationships.
+In Scripture, love describes affection, devotion, goodwill, and care shown between God and people, among individuals, and toward others.
 
-References to love occur in historical,
-poetic, and teaching passages.
+The meaning is determined by the context of each passage.
 
 ---
 
-## Related Topics
+## Key References
 
+- Deuteronomy 6:5
+- Matthew 22:37-39
+- John 3:16
+- John 13:34-35
+- Romans 5:8
+- 1 Corinthians 13:1-13
+- Galatians 5:22
+- 1 John 4:7-11
+
+---
+
+## Related Terms
+
+- Charity
 - Faith
 - Hope
-- Peace
+- Mercy
+- Compassion

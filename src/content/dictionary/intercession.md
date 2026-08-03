@@ -3,49 +3,89 @@ title: Intercession
 
 term: intercession
 
-shortMeaning: the act of intervening, pleading, or making requests on behalf of another
+shortMeaning: The act of pleading or praying on behalf of another person.
 
-related:
-  - prayer
+biblicalUsage: >
+  In Scripture, intercession refers to praying, pleading, or making
+  requests to God on behalf of others. Both the Old and New Testaments
+  record individuals who interceded for people and nations.
+
+reference:
+  ref: 1 Timothy 2:1
+  text: "I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men;"
+
+featuredVerse:
+  ref: Hebrews 7:25
+  text: "Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them."
 
 scriptures:
-  - Genesis 18
-  - Exodus 32
-  - Romans 8:26
+  - Genesis 18:22-33
+  - Exodus 32:11-14
+  - 1 Samuel 7:5
+  - Romans 8:26-27
+  - Romans 8:34
+  - Ephesians 6:18
   - 1 Timothy 2:1
   - Hebrews 7:25
 
+related:
+  - prayer
+  - mediator
+  - supplication
+  - advocate
+
 aliases:
-  - mediation
-  - petition
-  - advocacy
+  - intercede
+
+seeAlso:
+  - priest
+  - mercy
+  - grace
+
+tags:
+  - intercession
+  - prayer
+  - mediator
+  - worship
+
+greek:
+  word: ἔντευξις
+  transliteration: enteuxis
+  meaning: intercession; petition
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Intercession is the act of intervening,
-pleading, or making requests
-on behalf of another person or group.
-
-The term is commonly used in legal,
-social, and religious contexts.
+Intercession is the act of pleading or praying on behalf of another person.
 
 ---
 
 ## Biblical Usage
 
-Intercession appears throughout Scripture
-in connection with prayer, petitions,
-leaders, prophets, priests,
-and representatives.
+In Scripture, intercession refers to praying, pleading, or making requests to God on behalf of others.
 
-References occur in both the Old
-and New Testaments.
+Both the Old and New Testaments record individuals who interceded for people and nations.
 
 ---
 
-## Related Topics
+## Key References
+
+- Genesis 18:22-33
+- Exodus 32:11-14
+- 1 Samuel 7:5
+- Romans 8:26-27
+- Romans 8:34
+- Ephesians 6:18
+- 1 Timothy 2:1
+- Hebrews 7:25
+
+---
+
+## Related Terms
 
 - Prayer
-- Priest
 - Mediator
+- Supplication
+- Advocate
+- Priest

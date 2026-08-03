@@ -3,44 +3,94 @@ title: Inheritance
 
 term: inheritance
 
-shortMeaning: a possession, blessing, promise, or portion received from another
+shortMeaning: Property, possessions, rights, or responsibilities received from another, usually after death.
+
+biblicalUsage: >
+  In Scripture, inheritance refers to property, land, possessions, or
+  blessings passed from one person to another. The term is also used of
+  Israel's inheritance, the inheritance of believers, and promises given
+  by God.
+
+reference:
+  ref: Joshua 11:23
+  text: "So Joshua took the whole land, according to all that the LORD said unto Moses; and Joshua gave it for an inheritance unto Israel according to their divisions by their tribes..."
+
+featuredVerse:
+  ref: 1 Peter 1:4
+  text: "To an inheritance incorruptible, and undefiled, and that fadeth not away, reserved in heaven for you,"
+
+scriptures:
+  - Numbers 26:52-56
+  - Joshua 11:23
+  - Psalm 16:5-6
+  - Acts 20:32
+  - Romans 8:16-17
+  - Galatians 3:29
+  - Ephesians 1:11
+  - 1 Peter 1:3-4
 
 related:
   - promise
+  - blessing
+  - covenant
+  - possession
 
-scriptures:
-  - Genesis 15:7
-  - Psalm 16:5
-  - Ephesians 1:11
-  - Colossians 1:12
+aliases: []
 
-aliases:
-  - heritage
+seeAlso:
+  - kingdom
+  - heir
+  - tribe
+
+tags:
+  - inheritance
+  - promise
+  - blessing
+  - covenant
+
+hebrew:
+  word: נַחֲלָה
+  transliteration: nachalah
+  meaning: inheritance; possession
+
+greek:
+  word: κληρονομία
+  transliteration: klēronomia
+  meaning: inheritance
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Inheritance refers to a possession,
-blessing, promise, or portion received from another.
-
-The word is associated with ownership,
-succession, and receiving a promised portion.
+Inheritance is property, possessions, rights, or responsibilities received from another, usually after death.
 
 ---
 
 ## Biblical Usage
 
-Inheritance appears throughout Scripture
-in connection with land, promises,
-blessings, and God's people.
+In Scripture, inheritance refers to property, land, possessions, or blessings passed from one person to another.
 
-References to inheritance occur in both
-historical and teaching passages.
+The term is also used of Israel's inheritance, the inheritance of believers, and promises given by God.
 
 ---
 
-## Related Topics
+## Key References
+
+- Numbers 26:52-56
+- Joshua 11:23
+- Psalm 16:5-6
+- Acts 20:32
+- Romans 8:16-17
+- Galatians 3:29
+- Ephesians 1:11
+- 1 Peter 1:3-4
+
+---
+
+## Related Terms
 
 - Promise
+- Blessing
 - Covenant
-- Kingdom
+- Possession
+- Heir

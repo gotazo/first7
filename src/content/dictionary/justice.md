@@ -3,45 +3,93 @@ title: Justice
 
 term: justice
 
-shortMeaning: fair and impartial treatment according to what is right
+shortMeaning: Fair and impartial treatment according to what is right.
 
-related:
-  - righteousness
+biblicalUsage: >
+  In Scripture, justice refers to righteousness, fairness, and the proper
+  administration of judgment. It is associated with God's character and
+  with the conduct expected of rulers and individuals.
+
+reference:
+  ref: Micah 6:8
+  text: "He hath shewed thee, O man, what is good; and what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?"
+
+featuredVerse:
+  ref: Isaiah 61:8
+  text: "For I the LORD love judgment, I hate robbery for burnt offering..."
 
 scriptures:
-  - Deuteronomy 16:20
+  - Deuteronomy 16:18-20
+  - Psalm 33:5
   - Psalm 89:14
+  - Proverbs 21:3
+  - Isaiah 61:8
   - Micah 6:8
-  - Isaiah 1:17
+  - Matthew 23:23
+  - James 2:1-9
 
-aliases:
+related:
   - judgment
+  - righteousness
+  - law
+  - mercy
+
+aliases: []
+
+seeAlso:
+  - equity
+  - truth
+  - righteousness
+
+tags:
+  - justice
+  - righteousness
+  - law
+  - judgment
+
+hebrew:
+  word: מִשְׁפָּט
+  transliteration: mishpat
+  meaning: justice; judgment
+
+greek:
+  word: κρίμα
+  transliteration: krima
+  meaning: judgment; decision
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Justice refers to fairness,
-impartiality, and the proper
-administration of what is right.
-
-The word is associated with equity
-and moral responsibility.
+Justice is fair and impartial treatment according to what is right.
 
 ---
 
 ## Biblical Usage
 
-Justice appears throughout Scripture
-in connection with righteousness,
-judgment, and conduct.
+In Scripture, justice refers to righteousness, fairness, and the proper administration of judgment.
 
-References to justice occur in historical,
-prophetic, and teaching passages.
+It is associated with God's character and with the conduct expected of rulers and individuals.
 
 ---
 
-## Related Topics
+## Key References
 
-- Righteousness
+- Deuteronomy 16:18-20
+- Psalm 33:5
+- Psalm 89:14
+- Proverbs 21:3
+- Isaiah 61:8
+- Micah 6:8
+- Matthew 23:23
+- James 2:1-9
+
+---
+
+## Related Terms
+
 - Judgment
+- Righteousness
+- Law
+- Mercy
 - Truth

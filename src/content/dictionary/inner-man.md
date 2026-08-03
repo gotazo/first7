@@ -3,39 +3,83 @@ title: Inner Man
 
 term: inner man
 
-shortMeaning: the inward or inner aspect of a person's being, distinguished from the outward physical body
+shortMeaning: The inward or spiritual aspect of a person.
 
-related:
-  - terms/spirit
+biblicalUsage: >
+  In Scripture, the inner man refers to the inward person in contrast to
+  the outward body. The term is used in connection with spiritual
+  strength, delight in God's law, and inward renewal.
+
+reference:
+  ref: Romans 7:22
+  text: "For I delight in the law of God after the inward man:"
+
+featuredVerse:
+  ref: Ephesians 3:16
+  text: "That he would grant you, according to the riches of his glory, to be strengthened with might by his Spirit in the inner man;"
 
 scriptures:
   - Romans 7:22
   - 2 Corinthians 4:16
   - Ephesians 3:16
+  - Colossians 3:9-10
+  - 1 Peter 3:4
+
+related:
+  - heart
+  - spirit
+  - soul
+  - new man
 
 aliases:
   - inward man
-  - inward person
+
+seeAlso:
+  - old man
+  - new man
+  - heart
+
+tags:
+  - inner man
+  - spirit
+  - heart
+  - renewal
+
+greek:
+  word: ἔσω ἄνθρωπος
+  transliteration: esō anthrōpos
+  meaning: inner man; inward person
+
 ---
 
-## Basic Meaning
+## Meaning
 
-The term inner man refers to the inward
-or inner aspect of a person, as distinguished
-from the outward physical body.
+The inner man is the inward or spiritual aspect of a person.
 
 ---
 
 ## Biblical Usage
 
-The expression inner man appears in Scripture
-when describing the inward aspect of a person
-in contrast to the outward body.
+In Scripture, the inner man refers to the inward person in contrast to the outward body.
+
+The term is used in connection with spiritual strength, delight in God's law, and inward renewal.
 
 ---
 
-## Related Topics
+## Key References
 
+- Romans 7:22
+- 2 Corinthians 4:16
+- Ephesians 3:16
+- Colossians 3:9-10
+- 1 Peter 3:4
+
+---
+
+## Related Terms
+
+- Heart
 - Spirit
 - Soul
-- Heart
+- New Man
+- Old Man

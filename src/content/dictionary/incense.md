@@ -3,44 +3,93 @@ title: Incense
 
 term: incense
 
-shortMeaning: an aromatic substance that produces fragrant smoke when burned
+shortMeaning: A fragrant substance burned to produce a pleasing aroma.
 
-related:
-  - symbols/altar
+biblicalUsage: >
+  In Scripture, incense was burned as part of the worship prescribed for
+  the tabernacle and temple. It is also mentioned in visions and symbolic
+  passages in the Book of Revelation.
+
+reference:
+  ref: Exodus 30:34
+  text: "And the LORD said unto Moses, Take unto thee sweet spices..."
+
+featuredVerse:
+  ref: Revelation 8:4
+  text: "And the smoke of the incense, which came with the prayers of the saints, ascended up before God out of the angel's hand."
 
 scriptures:
-  - Exodus 30
-  - Leviticus 16
+  - Exodus 30:1-10
+  - Exodus 30:34-38
+  - Leviticus 16:12-13
   - Psalm 141:2
+  - Luke 1:8-11
+  - Hebrews 9:3-4
   - Revelation 5:8
-  - Revelation 8:3
+  - Revelation 8:3-4
 
-aliases:
-  - sweet incense
+related:
+  - altar
+  - prayer
+  - tabernacle
+  - temple
+
+aliases: []
+
+seeAlso:
+  - sacrifice
+  - priest
+  - holy place
+
+tags:
+  - incense
+  - worship
+  - tabernacle
+  - temple
+
+hebrew:
+  word: קְטֹרֶת
+  transliteration: qetoreth
+  meaning: incense
+
+greek:
+  word: θυμίαμα
+  transliteration: thymiama
+  meaning: incense
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Incense is an aromatic material that releases fragrant smoke
-when burned.
-
-It may be made from resins, gums, spices, woods,
-or other fragrant substances.
+Incense is a fragrant substance burned to produce a pleasing aroma.
 
 ---
 
 ## Biblical Usage
 
-Incense appears throughout Scripture in connection
-with worship, offerings, service, and the temple.
+In Scripture, incense was burned as part of the worship prescribed for the tabernacle and temple.
 
-References to incense occur in the Law,
-the Prophets, the Gospels, and Revelation.
+It is also mentioned in visions and symbolic passages in the Book of Revelation.
 
 ---
 
-## Related Topics
+## Key References
+
+- Exodus 30:1-10
+- Exodus 30:34-38
+- Leviticus 16:12-13
+- Psalm 141:2
+- Luke 1:8-11
+- Hebrews 9:3-4
+- Revelation 5:8
+- Revelation 8:3-4
+
+---
+
+## Related Terms
 
 - Altar
-- Temple
 - Prayer
+- Tabernacle
+- Temple
+- Sacrifice
