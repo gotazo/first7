@@ -3,49 +3,86 @@ title: Refuge
 
 term: refuge
 
-shortMeaning: a place, condition, or source of safety, shelter, or protection
+shortMeaning: A place of safety, shelter, or protection.
 
-related:
-  - sanctuary
+biblicalUsage: >
+  In Scripture, refuge refers to a place of safety or protection. The
+  term is used of physical places of shelter and figuratively of God as
+  a refuge.
+
+reference:
+  ref: Psalm 46:1
+  text: "God is our refuge and strength, a very present help in trouble."
+
+featuredVerse:
+  ref: Proverbs 18:10
+  text: "The name of the LORD is a strong tower: the righteous runneth into it, and is safe."
 
 scriptures:
+  - Numbers 35:9-15
+  - Deuteronomy 19:1-13
   - Psalm 46:1
-  - Psalm 91
+  - Psalm 91:2
   - Proverbs 18:10
   - Isaiah 25:4
-  - Nahum 1:7
+  - Hebrews 6:18
 
-aliases:
+related:
+  - fortress
+  - tower
+  - strength
+  - city of refuge
+
+aliases: []
+
+seeAlso:
   - shelter
+  - rock
+  - salvation
+
+tags:
+  - refuge
   - protection
-  - safe place
+  - safety
+  - strength
+
+hebrew:
+  word: מַחְסֶה
+  transliteration: machseh
+  meaning: refuge; shelter
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A refuge is a place, condition,
-or source of safety, shelter,
-protection, or security.
-
-The term is often used for protection
-during danger, hardship, or uncertainty.
+A refuge is a place of safety, shelter, or protection.
 
 ---
 
 ## Biblical Usage
 
-Refuge appears throughout Scripture in
-connection with safety, protection,
-cities of refuge, and places of shelter.
+In Scripture, refuge refers to a place of safety or protection.
 
-References occur in historical narratives,
-the Psalms, prophetic writings,
-and wisdom literature.
+The term is used of physical places of shelter and figuratively of God as a refuge.
 
 ---
 
-## Related Topics
+## Key References
 
-- Sanctuary
-- Protection
-- Hope
+- Numbers 35:9-15
+- Deuteronomy 19:1-13
+- Psalm 46:1
+- Psalm 91:2
+- Proverbs 18:10
+- Isaiah 25:4
+- Hebrews 6:18
+
+---
+
+## Related Terms
+
+- Fortress
+- Tower
+- Strength
+- City of Refuge
+- Rock

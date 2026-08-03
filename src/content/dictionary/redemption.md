@@ -3,42 +3,93 @@ title: Redemption
 
 term: redemption
 
-shortMeaning: deliverance through payment, rescue, or release from bondage
+shortMeaning: The act of redeeming, rescuing, or buying back.
 
-related:
-  - redeemer
+biblicalUsage: >
+  In Scripture, redemption refers to deliverance, release, or the act of
+  buying back. The term is used of people, property, and God's work of
+  redemption throughout the Bible.
+
+reference:
+  ref: Ephesians 1:7
+  text: "In whom we have redemption through his blood, the forgiveness of sins, according to the riches of his grace;"
+
+featuredVerse:
+  ref: Luke 21:28
+  text: "And when these things begin to come to pass, then look up, and lift up your heads; for your redemption draweth nigh."
 
 scriptures:
   - Exodus 6:6
+  - Leviticus 25:24-25
+  - Psalm 111:9
+  - Luke 21:28
+  - Romans 3:24
   - Ephesians 1:7
   - Colossians 1:14
+  - Hebrews 9:12
 
-aliases:
-  - redeemed
+related:
+  - redeemer
+  - ransom
+  - salvation
+  - forgiveness
+
+aliases: []
+
+seeAlso:
+  - covenant
+  - inheritance
+  - grace
+
+tags:
+  - redemption
+  - salvation
+  - grace
+  - covenant
+
+hebrew:
+  word: גְּאֻלָּה
+  transliteration: geullah
+  meaning: redemption
+
+greek:
+  word: ἀπολύτρωσις
+  transliteration: apolytrōsis
+  meaning: redemption
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Redemption refers to rescue,
-deliverance, or release through payment.
-
-The word is associated with freedom,
-restoration, and salvation.
+Redemption is the act of redeeming, rescuing, or buying back.
 
 ---
 
 ## Biblical Usage
 
-The concept of redemption appears throughout Scripture
-in connection with deliverance and salvation.
+In Scripture, redemption refers to deliverance, release, or the act of buying back.
 
-References to redemption occur in both
-historical and teaching passages.
+The term is used of people, property, and God's work of redemption throughout the Bible.
 
 ---
 
-## Related Topics
+## Key References
+
+- Exodus 6:6
+- Leviticus 25:24-25
+- Psalm 111:9
+- Luke 21:28
+- Romans 3:24
+- Ephesians 1:7
+- Colossians 1:14
+- Hebrews 9:12
+
+---
+
+## Related Terms
 
 - Redeemer
+- Ransom
 - Salvation
-- Covenant
+- Forgiveness
+- Grace

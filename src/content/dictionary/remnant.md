@@ -3,42 +3,91 @@ title: Remnant
 
 term: remnant
 
-shortMeaning: a remaining group preserved through judgment, difficulty, or adversity
+shortMeaning: A small remaining part of a larger group.
 
-related:
-  - nations/israel
+biblicalUsage: >
+  In Scripture, remnant refers to those who remain after others have been
+  removed, scattered, or destroyed. The term appears throughout both the
+  Old and New Testaments.
+
+reference:
+  ref: Isaiah 10:21
+  text: "The remnant shall return, even the remnant of Jacob, unto the mighty God."
+
+featuredVerse:
+  ref: Romans 11:5
+  text: "Even so then at this present time also there is a remnant according to the election of grace."
 
 scriptures:
-  - Isaiah 10:20
+  - 2 Kings 19:30-31
+  - Isaiah 10:20-22
+  - Jeremiah 23:3
   - Micah 2:12
+  - Zephaniah 3:13
+  - Romans 9:27
   - Romans 11:5
 
-aliases:
-  - faithful remnant
+related:
+  - israel
+  - nation
+  - covenant
+  - promise
+
+aliases: []
+
+seeAlso:
+  - restoration
+  - exile
+  - return
+
+tags:
+  - remnant
+  - israel
+  - prophecy
+  - covenant
+
+hebrew:
+  word: שְׁאֵרִית
+  transliteration: she'erith
+  meaning: remnant
+
+greek:
+  word: λεῖμμα
+  transliteration: leimma
+  meaning: remnant
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A remnant is a remaining portion
-left after a larger group has been reduced.
-
-The word often refers to survivors,
-those preserved, or those remaining faithful.
+A remnant is a small remaining part of a larger group.
 
 ---
 
 ## Biblical Usage
 
-The concept of a remnant appears throughout Scripture,
-particularly in connection with Israel.
+In Scripture, remnant refers to those who remain after others have been removed, scattered, or destroyed.
 
-Prophets frequently spoke of a remnant
-that would be preserved by God.
+The term appears throughout both the Old and New Testaments.
 
 ---
 
-## Related Topics
+## Key References
+
+- 2 Kings 19:30-31
+- Isaiah 10:20-22
+- Jeremiah 23:3
+- Micah 2:12
+- Zephaniah 3:13
+- Romans 9:27
+- Romans 11:5
+
+---
+
+## Related Terms
 
 - Israel
-- Restoration
+- Nation
 - Covenant
+- Promise
+- Restoration

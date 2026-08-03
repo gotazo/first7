@@ -3,45 +3,76 @@ title: Nephilim
 
 term: nephilim
 
-shortMeaning: a term appearing in certain biblical passages and commonly associated with giants or mighty men
+shortMeaning: A people mentioned in the Old Testament.
 
-related:
-  - people/nephilim
-  - people/giants
+biblicalUsage: >
+  In Scripture, the Nephilim are mentioned in the Old Testament. They are
+  referred to in Genesis before the flood and are mentioned again in the
+  report of the spies sent into the land of Canaan.
+
+reference:
+  ref: Genesis 6:4
+  text: "There were giants in the earth in those days; and also after that, when the sons of God came in unto the daughters of men, and they bare children to them, the same became mighty men which were of old, men of renown."
+
+featuredVerse:
+  ref: Numbers 13:33
+  text: "And there we saw the giants, the sons of Anak, which come of the giants: and we were in our own sight as grasshoppers, and so we were in their sight."
 
 scriptures:
   - Genesis 6:4
   - Numbers 13:33
 
-aliases:
+related:
+  - giants
+  - anakim
+  - rephaim
+  - flood
+
+aliases: []
+
+seeAlso:
+  - goliath
+  - og
+  - anak
+
+tags:
   - nephilim
+  - old testament
+  - people
+  - giants
+
+hebrew:
+  word: נְפִילִים
+  transliteration: nephilim
+  meaning: Nephilim
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Nephilim is a term that appears in a small number
-of biblical passages.
-
-The exact meaning of the word has been the subject
-of discussion and study for centuries.
+Nephilim is the name of a people mentioned in the Old Testament.
 
 ---
 
 ## Biblical Usage
 
-The term Nephilim appears in Genesis 6:4
-and Numbers 13:33.
+In Scripture, the Nephilim are mentioned in Genesis before the flood and again in the report of the spies who searched the land of Canaan.
 
-These passages associate the term with giants,
-mighty men, and people of notable stature.
-
-Different interpretations have been proposed
-regarding the identity of the Nephilim.
+The Bible does not further define the term in these passages.
 
 ---
 
-## Related Topics
+## Key References
+
+- Genesis 6:4
+- Numbers 13:33
+
+---
+
+## Related Terms
 
 - Giants
-- Mighty Men
-- Genesis 6
+- Anakim
+- Rephaim
+- Flood
+- Og

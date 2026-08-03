@@ -3,44 +3,89 @@ title: Repentance
 
 term: repentance
 
-shortMeaning: the act of changing one's mind, attitude, or direction after recognizing wrongdoing
+shortMeaning: The act of turning from sin or changing one's mind.
 
-related:
-  - salvation
+biblicalUsage: >
+  In Scripture, repentance refers to turning, changing one's mind, or
+  turning away from sin toward God. It is proclaimed throughout both the
+  Old and New Testaments.
+
+reference:
+  ref: Acts 3:19
+  text: "Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord;"
+
+featuredVerse:
+  ref: Luke 13:3
+  text: "I tell you, Nay: but, except ye repent, ye shall all likewise perish."
 
 scriptures:
+  - 2 Chronicles 7:14
+  - Ezekiel 18:30-32
   - Matthew 3:2
-  - Mark 1:15
+  - Luke 13:3
+  - Acts 2:38
   - Acts 3:19
+  - Acts 17:30
   - 2 Peter 3:9
+
+related:
+  - forgiveness
+  - conversion
+  - faith
+  - obedience
 
 aliases:
   - repent
+
+seeAlso:
+  - confession
+  - salvation
+  - mercy
+
+tags:
+  - repentance
+  - forgiveness
+  - salvation
+  - faith
+
+greek:
+  word: μετάνοια
+  transliteration: metanoia
+  meaning: repentance; change of mind
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Repentance refers to a change of mind,
-attitude, or direction after recognizing
-that something is wrong.
-
-The word is commonly associated with
-turning away from one course and choosing another.
+Repentance is the act of turning from sin or changing one's mind.
 
 ---
 
 ## Biblical Usage
 
-Repentance appears throughout Scripture
-in calls to turn to God and change one's ways.
+In Scripture, repentance refers to turning, changing one's mind, or turning away from sin toward God.
 
-References to repentance occur in the teachings
-of prophets, Jesus, the apostles, and other passages.
+It is proclaimed throughout both the Old and New Testaments.
 
 ---
 
-## Related Topics
+## Key References
 
-- Salvation
+- 2 Chronicles 7:14
+- Ezekiel 18:30-32
+- Matthew 3:2
+- Luke 13:3
+- Acts 2:38
+- Acts 3:19
+- Acts 17:30
+- 2 Peter 3:9
+
+---
+
+## Related Terms
+
 - Forgiveness
-- Grace
+- Conversion
+- Faith
+- Obedience
+- Confession

@@ -3,40 +3,88 @@ title: Mind
 
 term: mind
 
-shortMeaning: the part of a person responsible for thinking, reasoning, remembering, and understanding
+shortMeaning: The part of a person that thinks, understands, reasons, and remembers.
 
-related:
-  - terms/heart
+biblicalUsage: >
+  In Scripture, mind refers to understanding, thoughts, intentions,
+  reasoning, and attitudes. The term is used in connection with knowing
+  God, wisdom, discernment, and the inner life.
+
+reference:
+  ref: Romans 12:2
+  text: "And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God."
+
+featuredVerse:
+  ref: Matthew 22:37
+  text: "Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind."
 
 scriptures:
-  - Isaiah 26:3
-  - Romans 8:6
+  - Deuteronomy 6:5
+  - Psalm 139:23
+  - Proverbs 23:7
+  - Matthew 22:37
+  - Romans 8:5-7
   - Romans 12:2
   - Philippians 2:5
+  - Colossians 3:2
 
-aliases:
+related:
+  - heart
   - understanding
-  - intellect
+  - wisdom
+  - conscience
+
+aliases: []
+
+seeAlso:
+  - inner man
+  - soul
+  - spirit
+
+tags:
+  - mind
+  - wisdom
+  - understanding
+  - thoughts
+
+greek:
+  word: νοῦς
+  transliteration: nous
+  meaning: mind; understanding; intellect
+
 ---
 
-## Basic Meaning
+## Meaning
 
-The mind is the part of a person associated
-with thinking, reasoning, memory,
-understanding, and awareness.
+The mind is the part of a person that thinks, understands, reasons, and remembers.
 
 ---
 
 ## Biblical Usage
 
-The word mind appears throughout Scripture
-in passages concerning thought,
-understanding, wisdom, and purpose.
+In Scripture, mind refers to understanding, thoughts, intentions, reasoning, and attitudes.
+
+The term is used in connection with knowing God, wisdom, discernment, and the inner life.
 
 ---
 
-## Related Topics
+## Key References
+
+- Deuteronomy 6:5
+- Psalm 139:23
+- Proverbs 23:7
+- Matthew 22:37
+- Romans 8:5-7
+- Romans 12:2
+- Philippians 2:5
+- Colossians 3:2
+
+---
+
+## Related Terms
 
 - Heart
-- Wisdom
 - Understanding
+- Wisdom
+- Conscience
+- Inner Man

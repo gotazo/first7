@@ -3,44 +3,93 @@ title: Mercy
 
 term: mercy
 
-shortMeaning: compassion or forgiveness shown toward someone
+shortMeaning: Compassion or kindness shown toward someone in need or deserving punishment.
 
-related:
-  - people/david
+biblicalUsage: >
+  In Scripture, mercy refers to compassion, kindness, and pity shown by
+  God and by people. It is frequently associated with forgiveness,
+  compassion, and steadfast love.
+
+reference:
+  ref: Micah 6:8
+  text: "He hath shewed thee, O man, what is good; and what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?"
+
+featuredVerse:
+  ref: Lamentations 3:22
+  text: "It is of the LORD'S mercies that we are not consumed, because his compassions fail not."
 
 scriptures:
-  - Psalm 136
+  - Exodus 34:6-7
+  - Psalm 103:8-17
+  - Micah 6:8
   - Matthew 5:7
   - Luke 6:36
+  - Ephesians 2:4
   - Titus 3:5
+  - James 2:13
 
-aliases:
+related:
+  - grace
   - compassion
+  - forgiveness
+  - kindness
+
+aliases: []
+
+seeAlso:
+  - love
+  - justice
+  - repentance
+
+tags:
+  - mercy
+  - compassion
+  - grace
+  - forgiveness
+
+hebrew:
+  word: רַחֲמִים
+  transliteration: rachamim
+  meaning: mercy; compassion
+
+greek:
+  word: ἔλεος
+  transliteration: eleos
+  meaning: mercy
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Mercy refers to compassion,
-kindness, or forgiveness shown toward others.
-
-The word is often associated with
-leniency and care.
+Mercy is compassion or kindness shown toward someone in need or deserving punishment.
 
 ---
 
 ## Biblical Usage
 
-Mercy appears throughout Scripture
-in connection with God's compassion
-and dealings with people.
+In Scripture, mercy refers to compassion, kindness, and pity shown by God and by people.
 
-References to mercy occur in historical,
-poetic, prophetic, and teaching passages.
+It is frequently associated with forgiveness, compassion, and steadfast love.
 
 ---
 
-## Related Topics
+## Key References
+
+- Exodus 34:6-7
+- Psalm 103:8-17
+- Micah 6:8
+- Matthew 5:7
+- Luke 6:36
+- Ephesians 2:4
+- Titus 3:5
+- James 2:13
+
+---
+
+## Related Terms
 
 - Grace
 - Compassion
 - Forgiveness
+- Kindness
+- Love

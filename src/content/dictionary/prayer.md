@@ -3,50 +3,89 @@ title: Prayer
 
 term: prayer
 
-shortMeaning: the act of making a request, petition, or communication in a religious context
+shortMeaning: Speaking to or making requests to God.
 
-related:
-  - faith
-  - worship
+biblicalUsage: >
+  In Scripture, prayer refers to speaking with God through praise,
+  thanksgiving, confession, petitions, and intercession. Prayer is
+  practiced throughout both the Old and New Testaments.
+
+reference:
+  ref: Philippians 4:6
+  text: "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God."
+
+featuredVerse:
+  ref: Matthew 6:9
+  text: "After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name."
 
 scriptures:
-  - Matthew 6
-  - Luke 11
+  - 2 Chronicles 7:14
+  - Psalm 55:17
+  - Daniel 6:10
+  - Matthew 6:5-13
+  - Luke 18:1
   - Philippians 4:6
   - 1 Thessalonians 5:17
   - James 5:16
 
-aliases:
-  - supplication
-  - petition
+related:
   - intercession
+  - supplication
+  - thanksgiving
+  - worship
+
+aliases:
+  - pray
+
+seeAlso:
+  - fasting
+  - priest
+  - mediator
+
+tags:
+  - prayer
+  - worship
+  - faith
+  - intercession
+
+greek:
+  word: προσευχή
+  transliteration: proseuchē
+  meaning: prayer
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Prayer is the act of speaking, communicating,
-or making requests in a religious setting.
-
-The word is commonly associated with worship,
-devotion, petitions, and expressions directed
-toward a deity.
+Prayer is speaking to or making requests to God.
 
 ---
 
 ## Biblical Usage
 
-Prayer appears throughout Scripture in connection
-with worship, thanksgiving, confession,
-intercession, and requests made to God.
+In Scripture, prayer refers to speaking with God through praise, thanksgiving, confession, petitions, and intercession.
 
-References to prayer occur in historical narratives,
-wisdom literature, prophetic writings,
-the Gospels, and the epistles.
+Prayer is practiced throughout both the Old and New Testaments.
 
 ---
 
-## Related Topics
+## Key References
 
-- Faith
+- 2 Chronicles 7:14
+- Psalm 55:17
+- Daniel 6:10
+- Matthew 6:5-13
+- Luke 18:1
+- Philippians 4:6
+- 1 Thessalonians 5:17
+- James 5:16
+
+---
+
+## Related Terms
+
+- Intercession
+- Supplication
+- Thanksgiving
 - Worship
-- Hope
+- Fasting

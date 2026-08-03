@@ -3,45 +3,92 @@ title: Olive Tree
 
 term: olive tree
 
-shortMeaning: a tree cultivated for its fruit and oil
+shortMeaning: A tree cultivated for its fruit and oil.
 
-related:
-  - people/two-witnesses
+biblicalUsage: >
+  In Scripture, the olive tree is valued for its fruit and the oil it
+  produces. It is also used figuratively in several passages throughout
+  the Old and New Testaments.
+
+reference:
+  ref: Psalm 52:8
+  text: "But I am like a green olive tree in the house of God: I trust in the mercy of God for ever and ever."
+
+featuredVerse:
+  ref: Romans 11:24
+  text: "For if thou wert cut out of the olive tree which is wild by nature, and wert graffed contrary to nature into a good olive tree: how much more shall these, which be the natural branches, be graffed into their own olive tree?"
 
 scriptures:
-  - Judges 9:8
+  - Deuteronomy 8:8
   - Psalm 52:8
-  - Zechariah 4
-  - Romans 11
-  - Revelation 11:4
+  - Jeremiah 11:16
+  - Hosea 14:6
+  - Zechariah 4:2-3
+  - Romans 11:17-24
+  - Revelation 11:3-4
+
+related:
+  - oil
+  - olive
+  - branch
+  - fruit
 
 aliases:
   - olive
+
+seeAlso:
+  - vineyard
+  - fig tree
+  - vine
+
+tags:
+  - olive tree
+  - oil
+  - trees
+  - agriculture
+
+hebrew:
+  word: זַיִת
+  transliteration: zayith
+  meaning: olive tree
+
+greek:
+  word: ἐλαία
+  transliteration: elaia
+  meaning: olive tree
+
 ---
 
-## Basic Meaning
+## Meaning
 
 An olive tree is a tree cultivated for its fruit and oil.
-
-Olive trees have been grown for thousands of years
-throughout the Mediterranean region and are valued
-for food, oil, and agricultural use.
 
 ---
 
 ## Biblical Usage
 
-The term olive tree appears throughout Scripture
-in historical narratives, poetry, prophecy,
-and the New Testament.
+In Scripture, the olive tree is valued for its fruit and the oil it produces.
 
-References to olive trees occur in passages such as
-Zechariah 4, Romans 11, and Revelation 11.
+It is also used figuratively in several passages throughout the Old and New Testaments.
 
 ---
 
-## Related Topics
+## Key References
+
+- Deuteronomy 8:8
+- Psalm 52:8
+- Jeremiah 11:16
+- Hosea 14:6
+- Zechariah 4:2-3
+- Romans 11:17-24
+- Revelation 11:3-4
+
+---
+
+## Related Terms
 
 - Oil
-- Two Witnesses
-- Lampstand
+- Olive
+- Branch
+- Fruit
+- Vine

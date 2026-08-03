@@ -3,44 +3,93 @@ title: Oil
 
 term: oil
 
-shortMeaning: a liquid substance obtained from plants, seeds, or other sources
+shortMeaning: A liquid obtained from olives or other sources, used for food, light, medicine, and anointing.
 
-related:
-  - people/two-witnesses
+biblicalUsage: >
+  In Scripture, oil is used for food, lamps, medicine, offerings,
+  anointing, and worship. Olive oil is the most commonly mentioned oil in
+  the Bible.
+
+reference:
+  ref: Exodus 27:20
+  text: "And thou shalt command the children of Israel, that they bring thee pure oil olive beaten for the light, to cause the lamp to burn always."
+
+featuredVerse:
+  ref: James 5:14
+  text: "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord:"
 
 scriptures:
-  - Exodus 27
-  - Leviticus 24
+  - Genesis 28:18
+  - Exodus 27:20
+  - Leviticus 2:1-2
   - Psalm 23:5
-  - Zechariah 4
+  - Isaiah 61:3
+  - Matthew 25:1-13
+  - Mark 6:13
   - James 5:14
 
-aliases:
-  - olive oil
+related:
+  - anointing
+  - olive tree
+  - lamp
+  - incense
+
+aliases: []
+
+seeAlso:
+  - holy oil
+  - sacrifice
+  - priest
+
+tags:
+  - oil
+  - anointing
+  - worship
+  - lamp
+
+hebrew:
+  word: שֶׁמֶן
+  transliteration: shemen
+  meaning: oil
+
+greek:
+  word: ἔλαιον
+  transliteration: elaion
+  meaning: oil
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Oil is a liquid substance obtained from plants,
-seeds, fruits, or other natural sources.
-
-It has been used throughout history for food,
-lighting, medicine, and other practical purposes.
+Oil is a liquid obtained from olives or other sources, used for food, light, medicine, and anointing.
 
 ---
 
 ## Biblical Usage
 
-Oil appears throughout Scripture in historical accounts,
-laws, poetry, prophecy, and the New Testament.
+In Scripture, oil is used for food, lamps, medicine, offerings, anointing, and worship.
 
-References to oil occur in connection with lamps,
-offerings, daily life, and various ceremonies.
+Olive oil is the most commonly mentioned oil in the Bible.
 
 ---
 
-## Related Topics
+## Key References
 
+- Genesis 28:18
+- Exodus 27:20
+- Leviticus 2:1-2
+- Psalm 23:5
+- Isaiah 61:3
+- Matthew 25:1-13
+- Mark 6:13
+- James 5:14
+
+---
+
+## Related Terms
+
+- Anointing
 - Olive Tree
-- Lampstand
-- Temple
+- Lamp
+- Incense
+- Holy Oil

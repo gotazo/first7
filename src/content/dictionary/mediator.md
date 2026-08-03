@@ -3,50 +3,86 @@ title: Mediator
 
 term: mediator
 
-shortMeaning: a person who acts between two parties to help bring agreement or understanding
+shortMeaning: A person who stands between two parties to bring agreement or reconciliation.
 
-related:
-  - intercession
+biblicalUsage: >
+  In Scripture, a mediator is one who stands between two parties. The
+  Bible refers to Moses as a mediator of the law and identifies Jesus
+  Christ as the one mediator between God and men.
+
+reference:
+  ref: 1 Timothy 2:5
+  text: "For there is one God, and one mediator between God and men, the man Christ Jesus;"
+
+featuredVerse:
+  ref: Hebrews 9:15
+  text: "And for this cause he is the mediator of the new testament, that by means of death, for the redemption of the transgressions that were under the first testament, they which are called might receive the promise of eternal inheritance"
 
 scriptures:
-  - Job 9:33
+  - Exodus 20:19
+  - Deuteronomy 5:5
   - Galatians 3:19-20
   - 1 Timothy 2:5
   - Hebrews 8:6
+  - Hebrews 9:15
   - Hebrews 12:24
 
-aliases:
-  - intermediary
-  - go-between
-  - representative
+related:
+  - intercession
+  - covenant
+  - priest
+  - advocate
+
+aliases: []
+
+seeAlso:
+  - reconciliation
+  - new covenant
+  - high priest
+
+tags:
+  - mediator
+  - covenant
+  - priest
+  - reconciliation
+
+greek:
+  word: μεσίτης
+  transliteration: mesitēs
+  meaning: mediator
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A mediator is a person who acts
-between two parties in order to
-facilitate communication,
-understanding, or agreement.
-
-The term is commonly used in legal,
-social, diplomatic, and religious contexts.
+A mediator is a person who stands between two parties to bring agreement or reconciliation.
 
 ---
 
 ## Biblical Usage
 
-The word mediator appears in Scripture
-in connection with covenants,
-agreements, representation,
-and relationships between parties.
+In Scripture, a mediator is one who stands between two parties.
 
-References occur in both
-the Old and New Testaments.
+The Bible refers to Moses as a mediator of the law and identifies Jesus Christ as the one mediator between God and men.
 
 ---
 
-## Related Topics
+## Key References
+
+- Exodus 20:19
+- Deuteronomy 5:5
+- Galatians 3:19-20
+- 1 Timothy 2:5
+- Hebrews 8:6
+- Hebrews 9:15
+- Hebrews 12:24
+
+---
+
+## Related Terms
 
 - Intercession
 - Covenant
 - Priest
+- Advocate
+- High Priest

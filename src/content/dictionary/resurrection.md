@@ -3,45 +3,89 @@ title: Resurrection
 
 term: resurrection
 
-shortMeaning: the act of rising from the dead or being restored to life
+shortMeaning: The act of rising from the dead.
 
-related:
-  - timeline/resurrection
+biblicalUsage: >
+  In Scripture, resurrection refers to the raising of the dead to life.
+  The Bible records several resurrections and speaks of the resurrection
+  of Jesus Christ and the future resurrection of the dead.
+
+reference:
+  ref: John 11:25
+  text: "Jesus said unto her, I am the resurrection, and the life..."
+
+featuredVerse:
+  ref: 1 Corinthians 15:52
+  text: "In a moment, in the twinkling of an eye, at the last trump... and the dead shall be raised incorruptible..."
 
 scriptures:
+  - Job 19:25-27
   - Daniel 12:2
-  - John 5:28-29
-  - John 11:25
-  - 1 Corinthians 15
-  - Revelation 20
+  - John 11:25-26
+  - John 20:1-18
+  - Acts 24:15
+  - 1 Corinthians 15:20-58
+  - 1 Thessalonians 4:16
+  - Revelation 20:4-6
+
+related:
+  - death
+  - life
+  - grave
+  - redemption
 
 aliases:
-  - rising again
+  - rise again
+
+seeAlso:
+  - first resurrection
+  - second death
+  - judgment
+
+tags:
+  - resurrection
+  - life
+  - death
+  - prophecy
+
+greek:
+  word: ἀνάστασις
+  transliteration: anastasis
+  meaning: resurrection
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Resurrection refers to the act of rising from the dead
-or being restored to life.
-
-The term is used in connection with life,
-death, and restoration.
+Resurrection is the act of rising from the dead.
 
 ---
 
 ## Biblical Usage
 
-The word resurrection appears in the New Testament,
-while the subject is referenced in both
-the Old Testament and the New Testament.
+In Scripture, resurrection refers to the raising of the dead to life.
 
-References to resurrection occur in teachings,
-historical accounts, prophecy, and Revelation.
+The Bible records several resurrections and speaks of the resurrection of Jesus Christ and the future resurrection of the dead.
 
 ---
 
-## Related Topics
+## Key References
 
-- Life
+- Job 19:25-27
+- Daniel 12:2
+- John 11:25-26
+- John 20:1-18
+- Acts 24:15
+- 1 Corinthians 15:20-58
+- 1 Thessalonians 4:16
+- Revelation 20:4-6
+
+---
+
+## Related Terms
+
 - Death
+- Life
+- Grave
+- Redemption
 - Judgment

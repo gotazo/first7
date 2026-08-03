@@ -3,47 +3,93 @@ title: Obedience
 
 term: obedience
 
-shortMeaning: the act of following instructions, commands, laws, or authority
+shortMeaning: The act of following commands, instructions, or authority.
 
-related:
-  - covenant
+biblicalUsage: >
+  In Scripture, obedience refers to hearing and carrying out what God has
+  commanded. It is described throughout both the Old and New Testaments
+  in relation to God's commandments, His word, and His will.
+
+reference:
+  ref: Deuteronomy 11:1
+  text: "Therefore thou shalt love the LORD thy God, and keep his charge, and his statutes, and his judgments, and his commandments, alway."
+
+featuredVerse:
+  ref: John 14:15
+  text: "If ye love me, keep my commandments."
 
 scriptures:
-  - Deuteronomy 28
+  - Deuteronomy 11:1
   - 1 Samuel 15:22
+  - Psalm 119:60
+  - Matthew 7:24
   - John 14:15
-  - Romans 6
+  - Romans 6:16
+  - Hebrews 5:8-9
   - James 1:22
 
-aliases:
-  - compliance
-  - submission
-  - observance
+related:
+  - faith
+  - commandments
+  - law
+  - righteousness
+
+aliases: []
+
+seeAlso:
+  - covenant
+  - disciple
+  - wisdom
+
+tags:
+  - obedience
+  - commandments
+  - faith
+  - righteousness
+
+hebrew:
+  word: שָׁמַע
+  transliteration: shama
+  meaning: to hear; to obey
+
+greek:
+  word: ὑπακοή
+  transliteration: hypakoē
+  meaning: obedience
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Obedience is the act of following instructions,
-commands, laws, or the direction of authority.
-
-The term is commonly associated with
-submission, compliance, and responsiveness.
+Obedience is the act of following commands, instructions, or authority.
 
 ---
 
 ## Biblical Usage
 
-Obedience appears throughout Scripture in
-connection with commandments, covenants,
-leadership, and instruction.
+In Scripture, obedience refers to hearing and carrying out what God has commanded.
 
-References occur in both the Old
-and New Testaments.
+It is described throughout both the Old and New Testaments in relation to God's commandments, His word, and His will.
 
 ---
 
-## Related Topics
+## Key References
 
-- Covenant
+- Deuteronomy 11:1
+- 1 Samuel 15:22
+- Psalm 119:60
+- Matthew 7:24
+- John 14:15
+- Romans 6:16
+- Hebrews 5:8-9
+- James 1:22
+
+---
+
+## Related Terms
+
 - Faith
-- Wisdom
+- Commandments
+- Law
+- Righteousness
+- Covenant
