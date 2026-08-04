@@ -3,46 +3,93 @@ title: Sanctuary
 
 term: sanctuary
 
-shortMeaning: a sacred or protected place set apart for worship or religious purposes
+shortMeaning: A holy place set apart for worship or the presence of God.
 
-related:
-  - symbols/temple
-  - symbols/altar
+biblicalUsage: >
+  In Scripture, sanctuary refers to a holy place dedicated to God. The
+  term is used of the tabernacle, the temple, and other places set apart
+  for worship.
+
+reference:
+  ref: Exodus 25:8
+  text: "And let them make me a sanctuary; that I may dwell among them."
+
+featuredVerse:
+  ref: Psalm 73:17
+  text: "Until I went into the sanctuary of God; then understood I their end."
 
 scriptures:
-  - Exodus 25:8
+  - Exodus 25:8-9
+  - Leviticus 26:2
   - Psalm 73:17
-  - Daniel 8:11
-  - Daniel 8:13
-  - Hebrews 9:1
+  - Psalm 96:6
+  - Isaiah 8:14
+  - Ezekiel 37:26-28
+  - Hebrews 8:1-2
+  - Hebrews 9:1-12
 
-aliases:
+related:
+  - tabernacle
+  - temple
   - holy place
+  - worship
+
+aliases: []
+
+seeAlso:
+  - priest
+  - altar
+  - ark of the covenant
+
+tags:
+  - sanctuary
+  - tabernacle
+  - temple
+  - worship
+
+hebrew:
+  word: מִקְדָּשׁ
+  transliteration: miqdash
+  meaning: sanctuary; holy place
+
+greek:
+  word: ἁγιαστήριον
+  transliteration: hagiastērion
+  meaning: sanctuary
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A sanctuary is a sacred or protected place
-set apart for worship, devotion,
-or religious purposes.
-
-The word may also refer to a place of refuge or safety.
+A sanctuary is a holy place set apart for worship or the presence of God.
 
 ---
 
 ## Biblical Usage
 
-The word sanctuary appears throughout Scripture
-in connection with worship,
-holy places, and religious service.
+In Scripture, sanctuary refers to a holy place dedicated to God.
 
-References to sanctuaries occur in both
-the Old Testament and the New Testament.
+The term is used of the tabernacle, the temple, and other places set apart for worship.
 
 ---
 
-## Related Topics
+## Key References
 
+- Exodus 25:8-9
+- Leviticus 26:2
+- Psalm 73:17
+- Psalm 96:6
+- Isaiah 8:14
+- Ezekiel 37:26-28
+- Hebrews 8:1-2
+- Hebrews 9:1-12
+
+---
+
+## Related Terms
+
+- Tabernacle
 - Temple
-- Altar
 - Holy Place
+- Worship
+- Priest

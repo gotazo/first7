@@ -3,42 +3,88 @@ title: Watchman
 
 term: watchman
 
-shortMeaning: a guard, observer, or messenger appointed to watch and warn
+shortMeaning: A person appointed to keep watch, guard, or warn others.
 
-related:
-  - people/ezekiel
+biblicalUsage: >
+  In Scripture, a watchman was one who kept watch over a city or people,
+  warning of approaching danger. The term is also used figuratively of
+  those appointed to warn others according to God's message.
+
+reference:
+  ref: Ezekiel 33:7
+  text: "So thou, O son of man, I have set thee a watchman unto the house of Israel..."
+
+featuredVerse:
+  ref: Isaiah 62:6
+  text: "I have set watchmen upon thy walls, O Jerusalem, which shall never hold their peace day nor night..."
 
 scriptures:
+  - 2 Samuel 18:24-27
+  - Psalm 127:1
+  - Isaiah 21:6-9
   - Isaiah 62:6
+  - Jeremiah 6:17
   - Ezekiel 3:17
-  - Ezekiel 33:7
+  - Ezekiel 33:7-9
+  - Hebrews 13:17
+
+related:
+  - prophet
+  - warning
+  - vision
+  - trumpet
 
 aliases:
   - watchmen
+
+seeAlso:
+  - shepherd
+  - prophecy
+  - discernment
+
+tags:
+  - watchman
+  - prophet
+  - warning
+  - ministry
+
+hebrew:
+  word: צָפָה
+  transliteration: tsaphah
+  meaning: to watch; keep watch
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A watchman is a guard or observer
-appointed to watch and provide warning.
-
-The word is associated with vigilance,
-awareness, and responsibility.
+A watchman is a person appointed to keep watch, guard, or warn others.
 
 ---
 
 ## Biblical Usage
 
-Watchmen appear throughout Scripture
-in both literal and symbolic contexts.
+In Scripture, a watchman was one who kept watch over a city or people, warning of approaching danger.
 
-Ezekiel was specifically appointed
-as a watchman for Israel.
+The term is also used figuratively of those appointed to warn others according to God's message.
 
 ---
 
-## Related Topics
+## Key References
 
-- Ezekiel
+- 2 Samuel 18:24-27
+- Psalm 127:1
+- Isaiah 21:6-9
+- Isaiah 62:6
+- Jeremiah 6:17
+- Ezekiel 3:17
+- Ezekiel 33:7-9
+- Hebrews 13:17
+
+---
+
+## Related Terms
+
+- Prophet
 - Warning
-- Prophecy
+- Vision
+- Trumpet

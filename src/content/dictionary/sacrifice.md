@@ -3,45 +3,95 @@ title: Sacrifice
 
 term: sacrifice
 
-shortMeaning: the act of giving up something of value for a purpose, belief, or another person
+shortMeaning: The offering of a person, animal, or thing to God.
 
-related:
-  - symbols/altar
+biblicalUsage: >
+  In Scripture, sacrifice refers to offerings presented to God. Sacrifices
+  included burnt offerings, peace offerings, sin offerings, trespass
+  offerings, grain offerings, and other appointed sacrifices under the
+  law.
+
+reference:
+  ref: Leviticus 17:11
+  text: "For the life of the flesh is in the blood: and I have given it to you upon the altar to make an atonement for your souls..."
+
+featuredVerse:
+  ref: Hebrews 10:12
+  text: "But this man, after he had offered one sacrifice for sins for ever, sat down on the right hand of God;"
 
 scriptures:
-  - Genesis 22
-  - Leviticus 1
-  - Exodus 29
-  - Daniel 9:27
-  - Hebrews 10
+  - Genesis 4:3-5
+  - Genesis 22:13
+  - Leviticus 1:1-9
+  - Leviticus 17:11
+  - Psalm 51:17
+  - Hebrews 9:26
+  - Hebrews 10:1-14
+  - 1 Peter 1:18-19
+
+related:
+  - altar
+  - offering
+  - priest
+  - atonement
 
 aliases:
-  - offering
+  - sacrifices
+
+seeAlso:
+  - lamb
+  - passover
+  - redemption
+
+tags:
+  - sacrifice
+  - altar
+  - worship
+  - priest
+
+hebrew:
+  word: זֶבַח
+  transliteration: zevach
+  meaning: sacrifice
+
+greek:
+  word: θυσία
+  transliteration: thysia
+  meaning: sacrifice
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A sacrifice is the act of giving up something of value
-for a purpose, goal, belief, or another person.
-
-The word may also refer to an offering, object,
-or animal presented as part of a religious ceremony.
+Sacrifice is the offering of a person, animal, or thing to God.
 
 ---
 
 ## Biblical Usage
 
-The word sacrifice appears throughout Scripture,
-particularly in passages involving worship,
-offerings, the tabernacle, and the temple.
+In Scripture, sacrifice refers to offerings presented to God.
 
-References to sacrifice occur in historical,
-poetic, prophetic, and New Testament passages.
+Sacrifices included burnt offerings, peace offerings, sin offerings, trespass offerings, grain offerings, and other appointed sacrifices under the law.
 
 ---
 
-## Related Topics
+## Key References
+
+- Genesis 4:3-5
+- Genesis 22:13
+- Leviticus 1:1-9
+- Leviticus 17:11
+- Psalm 51:17
+- Hebrews 9:26
+- Hebrews 10:1-14
+- 1 Peter 1:18-19
+
+---
+
+## Related Terms
 
 - Altar
-- Temple
 - Offering
+- Priest
+- Atonement
+- Lamb

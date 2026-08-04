@@ -3,47 +3,82 @@ title: Suddenly
 
 term: suddenly
 
-shortMeaning: happening quickly, unexpectedly, or without warning
+shortMeaning: Happening quickly, unexpectedly, or without warning.
 
-related:
-  - terms/immediately
+biblicalUsage: >
+  In Scripture, suddenly describes events that occur unexpectedly or
+  without delay. The word is used in accounts of God's actions, miracles,
+  judgments, and other significant events.
+
+reference:
+  ref: Acts 2:2
+  text: "And suddenly there came a sound from heaven as of a rushing mighty wind..."
+
+featuredVerse:
+  ref: Mark 13:36
+  text: "Lest coming suddenly he find you sleeping."
 
 scriptures:
-  - Isaiah 48:3
-  - Malachi 3:1
+  - Numbers 6:9
+  - 2 Chronicles 29:36
+  - Proverbs 6:15
+  - Isaiah 29:5
   - Mark 13:36
+  - Luke 2:13
   - Acts 2:2
   - Acts 9:3
-  - Acts 16:26
-  - 1 Thessalonians 5
 
+related:
+  - day
+  - judgment
+  - resurrection
+  - prophecy
 
-aliases:
-  - unexpectedly
-  - at once
+aliases: []
+
+seeAlso:
+  - watch
+  - trumpet
+  - coming
+
+tags:
+  - suddenly
+  - prophecy
+  - judgment
+  - events
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Suddenly means happening quickly,
-unexpectedly, or without warning.
-
-It describes an event that occurs
-without gradual progression or delay.
+Suddenly means happening quickly, unexpectedly, or without warning.
 
 ---
 
 ## Biblical Usage
 
-The word suddenly appears throughout
-Scripture in historical accounts,
-prophecies, miracles, visions,
-judgment, and unexpected events.
+In Scripture, suddenly describes events that occur unexpectedly or without delay.
+
+The word is used in accounts of God's actions, miracles, judgments, and other significant events.
 
 ---
 
-## Related Topics
+## Key References
 
-- Immediately
-- Time
-- Watchfulness
+- Numbers 6:9
+- 2 Chronicles 29:36
+- Proverbs 6:15
+- Isaiah 29:5
+- Mark 13:36
+- Luke 2:13
+- Acts 2:2
+- Acts 9:3
+
+---
+
+## Related Terms
+
+- Day
+- Judgment
+- Resurrection
+- Prophecy

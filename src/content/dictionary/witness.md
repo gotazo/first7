@@ -3,46 +3,93 @@ title: Witness
 
 term: witness
 
-shortMeaning: a person who sees, hears, or has knowledge of an event and can testify about it
+shortMeaning: A person who sees an event or has knowledge of something and gives testimony about it.
 
-related:
-  - people/two-witnesses
+biblicalUsage: >
+  In Scripture, a witness is a person who gives testimony, confirms a
+  matter, or bears evidence. The term is also used of testimony given
+  concerning God, His works, and His truth.
+
+reference:
+  ref: Acts 1:8
+  text: "But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me..."
+
+featuredVerse:
+  ref: Deuteronomy 19:15
+  text: "One witness shall not rise up against a man for any iniquity..."
 
 scriptures:
+  - Exodus 20:16
   - Deuteronomy 19:15
   - Isaiah 43:10
   - Matthew 18:16
+  - Luke 24:48
   - Acts 1:8
-  - Revelation 11
+  - Hebrews 12:1
+  - Revelation 1:5
+
+related:
+  - testimony
+  - truth
+  - gospel
+  - disciple
 
 aliases:
-  - testimony
   - witnesses
+
+seeAlso:
+  - martyr
+  - evangelism
+  - word
+
+tags:
+  - witness
+  - testimony
+  - gospel
+  - truth
+
+hebrew:
+  word: עֵד
+  transliteration: ed
+  meaning: witness
+
+greek:
+  word: μάρτυς
+  transliteration: martys
+  meaning: witness
+
 ---
 
-## Basic Meaning
+## Meaning
 
-A witness is a person who sees, hears,
-or has knowledge of an event and can testify about it.
-
-The word may also refer to evidence,
-testimony, or the act of bearing witness.
+A witness is a person who sees an event or has knowledge of something and gives testimony about it.
 
 ---
 
 ## Biblical Usage
 
-The word witness appears throughout Scripture
-in legal, historical, prophetic,
-and New Testament contexts.
+In Scripture, a witness is a person who gives testimony, confirms a matter, or bears evidence.
 
-References to witnesses occur in the Law,
-the Prophets, the Gospels, Acts, and Revelation.
+The term is also used of testimony given concerning God, His works, and His truth.
 
 ---
 
-## Related Topics
+## Key References
+
+- Exodus 20:16
+- Deuteronomy 19:15
+- Isaiah 43:10
+- Matthew 18:16
+- Luke 24:48
+- Acts 1:8
+- Hebrews 12:1
+- Revelation 1:5
+
+---
+
+## Related Terms
 
 - Testimony
-- Two Witnesses
-- Prophecy
+- Truth
+- Gospel
+- Disciple

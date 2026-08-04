@@ -3,45 +3,94 @@ title: Strength
 
 term: strength
 
-shortMeaning: the quality of having power, force, endurance, or the ability to perform or withstand
+shortMeaning: The quality or state of being strong; power, force, or ability.
 
-related:
-  - courage
+biblicalUsage: >
+  In Scripture, strength refers to physical power, personal ability,
+  courage, or might. The term is also used of God's strength and the
+  strength He gives according to the context.
+
+reference:
+  ref: Isaiah 40:31
+  text: "But they that wait upon the LORD shall renew their strength..."
+
+featuredVerse:
+  ref: Philippians 4:13
+  text: "I can do all things through Christ which strengtheneth me."
 
 scriptures:
-  - Joshua 1:9
-  - Psalm 27:1
+  - Deuteronomy 6:5
+  - Psalm 18:1-2
+  - Psalm 28:7
   - Isaiah 40:31
-  - Ephesians 6:10
+  - Nahum 1:7
   - Philippians 4:13
+  - Ephesians 6:10
+  - 2 Timothy 2:1
 
-aliases:
+related:
   - power
+  - courage
+  - faith
+  - hope
+
+aliases: []
+
+seeAlso:
   - might
-  - endurance
+  - refuge
+  - fortress
+
+tags:
+  - strength
+  - power
+  - faith
+  - hope
+
+hebrew:
+  word: כֹּחַ
+  transliteration: koach
+  meaning: strength; power
+
+greek:
+  word: δύναμις
+  transliteration: dynamis
+  meaning: power; strength
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Strength is the quality of possessing
-power, force, endurance, or the ability
-to perform work or withstand pressure.
+Strength is the quality or state of being strong.
+
+It may refer to physical power, force, ability, or endurance.
 
 ---
 
 ## Biblical Usage
 
-Strength appears throughout Scripture in
-connection with individuals, nations,
-warfare, endurance, and service.
+In Scripture, strength refers to physical power, personal ability, courage, or might.
 
-References occur in historical books,
-poetry, prophecy, and the New Testament.
+The term is also used of God's strength and the strength He gives according to the context.
 
 ---
 
-## Related Topics
+## Key References
 
+- Deuteronomy 6:5
+- Psalm 18:1-2
+- Psalm 28:7
+- Isaiah 40:31
+- Nahum 1:7
+- Philippians 4:13
+- Ephesians 6:10
+- 2 Timothy 2:1
+
+---
+
+## Related Terms
+
+- Power
 - Courage
 - Faith
 - Hope

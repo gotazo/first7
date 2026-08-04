@@ -3,46 +3,93 @@ title: Spirit
 
 term: spirit
 
-shortMeaning: a non-physical reality associated with breath, life, presence, or spiritual existence
+shortMeaning: The non-physical part of a person or being; breath, disposition, or an immaterial being.
 
-related:
-  - soul
+biblicalUsage: >
+  In Scripture, the word spirit is used in various ways, including the
+  Spirit of God, the human spirit, angels, evil spirits, breath, and a
+  person's disposition, depending on the context.
+
+reference:
+  ref: John 4:24
+  text: "God is a Spirit: and they that worship him must worship him in spirit and in truth."
+
+featuredVerse:
+  ref: Romans 8:16
+  text: "The Spirit itself beareth witness with our spirit, that we are the children of God:"
 
 scriptures:
   - Genesis 1:2
-  - John 3
-  - Romans 8
-  - 1 Corinthians 2
-  - Galatians 5
+  - Job 32:8
+  - Ezekiel 36:26-27
+  - John 4:24
+  - John 14:26
+  - Romans 8:16
+  - 1 Corinthians 2:11
+  - Hebrews 1:14
+
+related:
+  - soul
+  - holy spirit
+  - breath
+  - comforter
 
 aliases:
-  - breath
-  - spirit being
+  - spirits
+
+seeAlso:
+  - wind
+  - ghost
+  - life
+
+tags:
+  - spirit
+  - holy spirit
+  - creation
+  - worship
+
+hebrew:
+  word: רוּחַ
+  transliteration: ruach
+  meaning: spirit; breath; wind
+
+greek:
+  word: πνεῦμα
+  transliteration: pneuma
+  meaning: spirit; breath; wind
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Spirit refers to a non-physical reality associated
-with breath, life, presence, consciousness,
-or spiritual existence.
+Spirit refers to the non-physical part of a person or being.
 
-The word is used in various ways across religious,
-philosophical, and cultural traditions.
+The word may also refer to breath, disposition, or an immaterial being.
 
 ---
 
 ## Biblical Usage
 
-The word spirit appears throughout Scripture in
-reference to God, angels, human beings,
-and spiritual realities.
-
-References occur from Genesis through Revelation.
+In Scripture, the word spirit is used in various ways, including the Spirit of God, the human spirit, angels, evil spirits, breath, and a person's disposition, depending on the context.
 
 ---
 
-## Related Topics
+## Key References
+
+- Genesis 1:2
+- Job 32:8
+- Ezekiel 36:26-27
+- John 4:24
+- John 14:26
+- Romans 8:16
+- 1 Corinthians 2:11
+- Hebrews 1:14
+
+---
+
+## Related Terms
 
 - Soul
-- Angel
 - Holy Spirit
+- Breath
+- Comforter

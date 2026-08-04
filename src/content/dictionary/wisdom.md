@@ -3,45 +3,92 @@ title: Wisdom
 
 term: wisdom
 
-shortMeaning: the ability to apply knowledge, understanding, and good judgment
+shortMeaning: The ability to apply knowledge, understanding, and sound judgment.
 
-related:
-  - truth
+biblicalUsage: >
+  In Scripture, wisdom refers to understanding, skill, discernment, and
+  the ability to judge or act rightly. The term is used of God, people,
+  leaders, craftsmen, and daily living.
+
+reference:
+  ref: Proverbs 9:10
+  text: "The fear of the LORD is the beginning of wisdom..."
+
+featuredVerse:
+  ref: James 1:5
+  text: "If any of you lack wisdom, let him ask of God..."
 
 scriptures:
-  - Proverbs 1:7
+  - Exodus 31:3
+  - Deuteronomy 4:6
+  - Proverbs 2:6
   - Proverbs 9:10
+  - Ecclesiastes 7:12
+  - Matthew 7:24
+  - 1 Corinthians 1:30
   - James 1:5
-  - Colossians 2:3
 
-aliases:
+related:
+  - knowledge
   - understanding
+  - discernment
+  - truth
+
+aliases: []
+
+seeAlso:
+  - proverb
+  - instruction
+  - fear of the lord
+
+tags:
+  - wisdom
+  - knowledge
+  - understanding
+  - truth
+
+hebrew:
+  word: חָכְמָה
+  transliteration: chokmah
+  meaning: wisdom
+
+greek:
+  word: σοφία
+  transliteration: sophia
+  meaning: wisdom
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Wisdom refers to the ability
-to apply knowledge, understanding,
-and sound judgment.
-
-The word is associated with insight
-and good decision-making.
+Wisdom is the ability to apply knowledge, understanding, and sound judgment.
 
 ---
 
 ## Biblical Usage
 
-Wisdom appears throughout Scripture
-in connection with understanding,
-guidance, and instruction.
+In Scripture, wisdom refers to understanding, skill, discernment, and the ability to judge or act rightly.
 
-References to wisdom occur in historical,
-poetic, and teaching passages.
+The term is used of God, people, leaders, craftsmen, and daily living.
 
 ---
 
-## Related Topics
+## Key References
 
-- Truth
-- Discernment
+- Exodus 31:3
+- Deuteronomy 4:6
+- Proverbs 2:6
+- Proverbs 9:10
+- Ecclesiastes 7:12
+- Matthew 7:24
+- 1 Corinthians 1:30
+- James 1:5
+
+---
+
+## Related Terms
+
 - Knowledge
+- Understanding
+- Discernment
+- Truth

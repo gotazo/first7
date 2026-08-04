@@ -3,7 +3,7 @@ title: Anakim
 
 term: anakim
 
-shortMeaning: A people of great stature who lived in the land of Canaan before the Israelite conquest.
+shortMeaning: A people mentioned in the Old Testament who lived in the land of Canaan.
 
 biblicalUsage: >
   In Scripture, the Anakim are described as a people of great size and
@@ -33,8 +33,7 @@ scriptures:
 related:
   - giants
   - canaan
-  - spies
-  - conquest
+
 
 aliases:
   - children of Anak
@@ -44,6 +43,8 @@ seeAlso:
   - nephilim
   - canaan
   - hebron
+  - spies
+  - conquest
 
 tags:
   - people
@@ -60,9 +61,9 @@ hebrew:
 
 ## Meaning
 
-The Anakim were a people of great stature who lived in the land of Canaan before the Israelites entered the Promised Land.
+The Anakim were a people mentioned in the Old Testament who lived in the land of Canaan.
 
-They are identified in Scripture as the descendants of Anak and are remembered for their impressive size and strength.
+They are identified as the descendants of Anak.
 
 ---
 

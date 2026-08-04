@@ -16,7 +16,7 @@ reference:
 
 featuredVerse:
   ref: Genesis 37:35
-  text: "For I will go down into the grave unto my son mourning..."
+  text: "And all his sons and all his daughters rose up to comfort him; but he refused to be comforted; and he said, For I will go down into the grave unto my son mourning. Thus his father wept for him."
 
 scriptures:
   - Genesis 37:35

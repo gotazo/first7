@@ -55,7 +55,7 @@ greek:
 
 ## Meaning
 
-Armageddon is a term used to describe a final great battle or conflict.
+Armageddon is the name of a place mentioned in the Book of Revelation.
 
 In the Bible, Armageddon is the name of the place where the kings of the earth are gathered together for battle on the great day of God Almighty.
 

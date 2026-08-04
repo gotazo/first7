@@ -3,47 +3,93 @@ title: Worship
 
 term: worship
 
-shortMeaning: the act of showing reverence, honor, respect, or devotion
+shortMeaning: The act of showing reverence, honor, or devotion to someone or something.
+
+biblicalUsage: >
+  In Scripture, worship refers to acts of reverence, honor, praise, and
+  service directed toward God. The Bible also records instances of
+  worship directed toward others, whether rightly or wrongly, depending
+  on the context.
+
+reference:
+  ref: John 4:24
+  text: "God is a Spirit: and they that worship him must worship him in spirit and in truth."
+
+featuredVerse:
+  ref: Psalm 95:6
+  text: "O come, let us worship and bow down: let us kneel before the LORD our maker."
+
+scriptures:
+  - Exodus 20:3-5
+  - Deuteronomy 6:13
+  - Psalm 95:6
+  - Matthew 4:10
+  - John 4:23-24
+  - Acts 17:22-31
+  - Philippians 3:3
+  - Revelation 22:8-9
 
 related:
   - praise
+  - prayer
+  - temple
+  - sacrifice
 
-scriptures:
-  - Exodus 20
-  - Psalm 95
-  - Psalm 100
-  - John 4:24
-  - Revelation 4
+aliases: []
 
-aliases:
-  - adoration
-  - reverence
-  - devotion
+seeAlso:
+  - thanksgiving
+  - singing
+  - offering
+
+tags:
+  - worship
+  - praise
+  - prayer
+  - temple
+
+hebrew:
+  word: שָׁחָה
+  transliteration: shachah
+  meaning: to bow down; worship
+
+greek:
+  word: προσκυνέω
+  transliteration: proskyneō
+  meaning: to worship
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Worship is the act of expressing reverence,
-honor, respect, or devotion toward a person,
-being, or object considered worthy of honor.
-
-The term is commonly associated with
-religious ceremonies and acts of devotion.
+Worship is the act of showing reverence, honor, or devotion to someone or something.
 
 ---
 
 ## Biblical Usage
 
-Worship appears throughout Scripture in
-connection with prayer, praise, offerings,
-temples, and gatherings.
+In Scripture, worship refers to acts of reverence, honor, praise, and service directed toward God.
 
-References occur from Genesis through Revelation.
+The Bible also records instances of worship directed toward others, whether rightly or wrongly, depending on the context.
 
 ---
 
-## Related Topics
+## Key References
 
-- Prayer
+- Exodus 20:3-5
+- Deuteronomy 6:13
+- Psalm 95:6
+- Matthew 4:10
+- John 4:23-24
+- Acts 17:22-31
+- Philippians 3:3
+- Revelation 22:8-9
+
+---
+
+## Related Terms
+
 - Praise
+- Prayer
 - Temple
+- Sacrifice

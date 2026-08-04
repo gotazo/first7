@@ -3,45 +3,89 @@ title: Sanctification
 
 term: sanctification
 
-shortMeaning: the process of being set apart for holy purposes
+shortMeaning: The act or process of setting apart for a holy purpose.
+
+biblicalUsage: >
+  In Scripture, sanctification refers to being set apart or made holy for
+  God's purposes. The term is used of people, conduct, and things devoted
+  to God.
+
+reference:
+  ref: 1 Thessalonians 4:3
+  text: "For this is the will of God, even your sanctification..."
+
+featuredVerse:
+  ref: Hebrews 10:10
+  text: "By the which will we are sanctified through the offering of the body of Jesus Christ once for all."
+
+scriptures:
+  - Exodus 19:10
+  - John 17:17
+  - Romans 6:22
+  - 1 Corinthians 1:30
+  - 1 Thessalonians 4:3-7
+  - 2 Thessalonians 2:13
+  - Hebrews 10:10
+  - 1 Peter 1:2
 
 related:
   - holiness
-
-scriptures:
-  - John 17:17
-  - Romans 6:22
-  - 1 Thessalonians 4:3
-  - Hebrews 12:14
+  - consecration
+  - righteousness
+  - purity
 
 aliases:
-  - sanctified
-  - set apart
+  - sanctify
+
+seeAlso:
+  - holy
+  - priest
+  - temple
+
+tags:
+  - sanctification
+  - holiness
+  - consecration
+  - purity
+
+greek:
+  word: ἁγιασμός
+  transliteration: hagiasmos
+  meaning: sanctification; holiness
+
 ---
 
-## Basic Meaning
+## Meaning
 
-Sanctification refers to being set apart
-for holy purposes.
-
-The word is associated with holiness,
-purity, and dedication to God.
+Sanctification is the act or process of setting apart for a holy purpose.
 
 ---
 
 ## Biblical Usage
 
-Scripture speaks of sanctification
-in connection with spiritual growth,
-obedience, and holy living.
+In Scripture, sanctification refers to being set apart or made holy for God's purposes.
 
-References to sanctification occur throughout
-the New Testament.
+The term is used of people, conduct, and things devoted to God.
 
 ---
 
-## Related Topics
+## Key References
+
+- Exodus 19:10
+- John 17:17
+- Romans 6:22
+- 1 Corinthians 1:30
+- 1 Thessalonians 4:3-7
+- 2 Thessalonians 2:13
+- Hebrews 10:10
+- 1 Peter 1:2
+
+---
+
+## Related Terms
 
 - Holiness
-- Obedience
+- Consecration
 - Righteousness
+- Purity
+- Holy
