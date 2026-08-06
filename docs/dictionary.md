@@ -264,6 +264,23 @@ For example:
 
 ------------------------------------------------------------------------
 
+## Name Meanings
+
+When Scripture explicitly explains the meaning of a biblical name,
+prefer the biblical explanation.
+
+When the meaning of a name is widely accepted from Hebrew, Aramaic, or
+Greek, present it concisely.
+
+When the meaning is uncertain or debated, state that it is uncertain or
+traditionally understood, rather than presenting a speculative meaning
+as fact.
+
+Avoid listing multiple scholarly theories unless they are necessary for
+understanding the biblical term.
+
+--------------------------------------------------
+
 Biblical Offices, Beings, and Titles
 
 For offices, beings, and titles, define the role.
