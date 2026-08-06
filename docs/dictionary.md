@@ -36,6 +36,7 @@ dictionaries, helping readers explore the Bible through clear
 definitions, meaningful cross-references, and an interconnected study
 experience.
 
+
 ------------------------------------------------------------------------
 
 Core Principles
@@ -87,7 +88,31 @@ the dictionary.
 
 ------------------------------------------------------------------------
 
-Bible Translation
+
+## Scope of the Dictionary
+
+The First7 Bible Dictionary is a reference work that defines biblical
+terms.
+
+Its purpose is to explain what a word or name means and describe how it
+is used in Scripture.
+
+The dictionary is not intended to provide complete biographies of
+biblical people, detailed histories of places, or comprehensive studies
+of biblical events.
+
+When a person, place, or event requires more detailed study, the
+dictionary should provide a concise description and direct readers to
+the appropriate First7 study resources.
+
+The dictionary should always answer two questions:
+
+1. What does this term mean?
+2. How is this term used in Scripture?
+
+---
+
+## Bible Translation
 
 The King James Version (KJV) is the only Bible translation used in
 First7.
@@ -132,6 +157,44 @@ Authority
   The power or right to command, govern, or make decisions.
 
 Do not explain biblical usage here.
+---
+
+## Multiple People Sharing the Same Name
+
+Many biblical names refer to more than one person.
+
+In the First7 Bible Dictionary, create a single dictionary entry for the
+name itself rather than separate entries for each individual.
+
+The **Meaning** section should define the name.
+
+The **Biblical Usage** section should briefly identify the different
+people who bear that name and provide representative Scripture
+references.
+
+Example:
+
+**Enoch**
+
+- Enoch, the son of Cain (Genesis 4:17)
+- Enoch, the descendant of Seth (Genesis 5:18–24)
+
+**James**
+
+- James, the son of Zebedee
+- James, the son of Alphaeus
+- James, the brother of Jesus
+
+**John**
+
+- John the Baptist
+- John the Apostle
+- John Mark
+
+This helps readers understand that the same name may refer to different
+individuals in Scripture while keeping the dictionary focused on the
+term itself.
+---
 
 ------------------------------------------------------------------------
 
@@ -537,6 +600,53 @@ Closely related entries should be connected through Related Terms and
 See Also, while each page remains focused on a single biblical concept.
 
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+## General Before Specific
+
+Whenever both a general concept and a specific biblical instance deserve
+their own dictionary entries, create separate entries for each.
+
+Write the broader concept first, then create separate entries for the
+specific biblical examples.
+
+This keeps each entry focused on one subject while allowing readers to
+move naturally from general concepts to specific biblical terms.
+
+Examples:
+
+General                Specific
+---------------------- ----------------------------------------------
+Tree                   Tree of Life
+Tree                   Tree of the Knowledge of Good and Evil
+
+Tower                  Tower of Babel
+
+Feast                  Feast of Passover
+Feast                  Feast of Trumpets
+Feast                  Feast of Tabernacles
+
+Offering               Burnt Offering
+Offering               Peace Offering
+Offering               Sin Offering
+
+Altar                  Brazen Altar
+Altar                  Golden Altar
+
+Priest                 High Priest
+
+Place                  Garden of Eden
+Region                 Eden
+
+When possible, readers should be able to begin with the general concept
+and continue to the more specific biblical entries through Related Terms
+and See Also.
+
+This principle helps build an interconnected Bible dictionary while
+keeping every page focused on a single biblical concept.
+
+--------------------------------------------------------------------
 
 Canonical Entry Names
 
