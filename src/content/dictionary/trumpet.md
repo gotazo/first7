@@ -12,11 +12,11 @@ biblicalUsage: >
 
 reference:
   ref: Numbers 10:2
-  text: "Make thee two trumpets of silver; of a whole piece shalt thou make them..."
+  text: "Make thee two trumpets of silver; of a whole piece shalt thou make them: that thou mayest use them for the calling of the assembly, and for the journeying of the camps"
 
 featuredVerse:
-  ref: 1 Corinthians 15:52
-  text: "In a moment, in the twinkling of an eye, at the last trump..."
+  ref:  Numbers 10:10
+  text: "Also in the day of your gladness, and in your solemn days, and in the beginnings of your months, ye shall blow with the trumpets over your burnt offerings, and over the sacrifices of your peace offerings; that they may be to you for a memorial before your God: I am the LORD your God."
 
 scriptures:
   - Exodus 19:16
