@@ -105,6 +105,69 @@
     }
   },
   {
+    "id": "keeping-your-mind-in-christ",
+    "title": "Keeping Your Mind In Christ",
+    "summary": "A mind that remains fixed upon the Lord finds strength, stability, and peace through every season of life.",
+    "topics": [
+      "Christian Living",
+      "Spiritual Growth",
+      "Faith"
+    ],
+    "keywords": [
+      "keeping your mind in Christ",
+      "peace",
+      "spiritual focus",
+      "trusting God",
+      "Christian living"
+    ],
+    "scripture": {
+      "ref": "Isaiah 26:3",
+      "text": "Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee."
+    }
+  },
+  {
+    "id": "leaving-the-old-life-behind",
+    "title": "Leaving The Old Life Behind",
+    "summary": "Following Christ requires leaving behind the old ways of life that hinder faithful obedience.",
+    "topics": [
+      "Christian Living",
+      "Spiritual Growth",
+      "Obedience"
+    ],
+    "keywords": [
+      "leaving the old life behind",
+      "new life",
+      "spiritual growth",
+      "obedience",
+      "John 5"
+    ],
+    "scripture": {
+      "ref": "John 5:8-9",
+      "text": "Jesus saith unto him, Rise, take up thy bed, and walk. And immediately the man was made whole, and took up his bed, and walked: and on the same day was the sabbath."
+    }
+  },
+  {
+    "id": "renewing-the-mind",
+    "title": "Renewing The Mind",
+    "summary": "God transforms believers by renewing their minds through His Word, enabling them to see life from His perspective.",
+    "topics": [
+      "Christian Living",
+      "Spiritual Growth",
+      "Faith"
+    ],
+    "keywords": [
+      "renewing the mind",
+      "transformation",
+      "God's Word",
+      "Christian living",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Romans 12:2",
+      "text": "And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God."
+    }
+  },
+  {
     "id": "fulfilled-in-christ",
     "title": "Fulfilled In Christ",
     "summary": "True satisfaction is found in Jesus Christ, who completely fulfills His people as their Good Shepherd.",
@@ -353,6 +416,27 @@
     }
   },
   {
+    "id": "dream-again",
+    "title": "Dream Again",
+    "summary": "God restores hope by renewing spiritual vision, enabling His people to trust Him again despite disappointment or loss.",
+    "topics": [
+      "Faith",
+      "Hope",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "dream again",
+      "hope",
+      "spiritual vision",
+      "faith",
+      "trusting God"
+    ],
+    "scripture": {
+      "ref": "Joel 2:25",
+      "text": "And I will restore to you the years that the locust hath eaten, the cankerworm, and the caterpiller, and the palmerworm, my great army which I sent among you."
+    }
+  },
+  {
     "id": "encourage-yourself-in-the-lord",
     "title": "Encourage Yourself in the Lord",
     "summary": "Believers are called to strengthen themselves in the Lord during seasons of hardship, trusting God's presence and faithfulness.",
@@ -453,6 +537,27 @@
     "scripture": {
       "ref": "Hebrews 11:1",
       "text": "Now faith is the substance of things hoped for, the evidence of things not seen."
+    }
+  },
+  {
+    "id": "faith-over-sight",
+    "title": "Faith Over Sight",
+    "summary": "Faith chooses to trust God's Word above what can be seen with natural eyes.",
+    "topics": [
+      "Faith",
+      "Christian Living",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "faith over sight",
+      "walk by faith",
+      "trusting God",
+      "spiritual vision",
+      "God's promises"
+    ],
+    "scripture": {
+      "ref": "2 Corinthians 5:7",
+      "text": "(For we walk by faith, not by sight:)"
     }
   },
   {
@@ -559,6 +664,27 @@
     }
   },
   {
+    "id": "guarding-your-inner-vision",
+    "title": "Guarding Your Inner Vision",
+    "summary": "Believers must guard their inner vision by fixing their hearts upon God's truth rather than the influences of the world.",
+    "topics": [
+      "Faith",
+      "Spiritual Growth",
+      "Christian Living"
+    ],
+    "keywords": [
+      "guarding your inner vision",
+      "spiritual vision",
+      "faith",
+      "heart",
+      "Christian living"
+    ],
+    "scripture": {
+      "ref": "Proverbs 4:23",
+      "text": "Keep thy heart with all diligence; for out of it are the issues of life."
+    }
+  },
+  {
     "id": "joy-is-spiritual",
     "title": "Joy Is Spiritual",
     "summary": "True joy is rooted in God, not changing circumstances.",
@@ -576,6 +702,27 @@
     "scripture": {
       "ref": "Nehemiah 8:10",
       "text": "Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto them for whom nothing is prepared: for this day is holy unto our Lord: neither be ye sorry; for the joy of the LORD is your strength."
+    }
+  },
+  {
+    "id": "letting-go-of-excuses",
+    "title": "Letting Go Of Excuses",
+    "summary": "Faith responds to God's call with obedience instead of allowing excuses to become barriers to His work.",
+    "topics": [
+      "Faith",
+      "Obedience",
+      "Christian Living"
+    ],
+    "keywords": [
+      "letting go of excuses",
+      "faith",
+      "obedience",
+      "John 5",
+      "excuses"
+    ],
+    "scripture": {
+      "ref": "John 5:7",
+      "text": "The impotent man answered him, Sir, I have no man, when the water is troubled, to put me into the pool: but while I am coming, another steppeth down before me."
     }
   },
   {
@@ -617,6 +764,27 @@
     "scripture": {
       "ref": "2 Kings 7:3",
       "text": "And there were four leprous men at the entering in of the gate: and they said one to another, Why sit we here until we die?"
+    }
+  },
+  {
+    "id": "moving-forward-in-faith",
+    "title": "Moving Forward In Faith",
+    "summary": "Faith moves forward in obedience even when the outcome is uncertain, trusting God with the results.",
+    "topics": [
+      "Faith",
+      "Obedience",
+      "Christian Living"
+    ],
+    "keywords": [
+      "moving forward in faith",
+      "faith",
+      "2 Kings 7",
+      "obedience",
+      "trusting God"
+    ],
+    "scripture": {
+      "ref": "2 Kings 7:4",
+      "text": "If we say, We will enter into the city, then the famine is in the city, and we shall die there: and if we sit still here, we die also: now therefore come, and let us fall unto the host of the Syrians: if they save us alive, we shall live; and if they kill us, we shall but die."
     }
   },
   {
@@ -683,6 +851,27 @@
     }
   },
   {
+    "id": "remembering-gods-faithfulness",
+    "title": "Remembering God's Faithfulness",
+    "summary": "Remembering God's past faithfulness strengthens believers to trust Him for present challenges and future promises.",
+    "topics": [
+      "Faith",
+      "Trust",
+      "Christian Living"
+    ],
+    "keywords": [
+      "remembering God's faithfulness",
+      "faith",
+      "trust",
+      "hope",
+      "God's promises"
+    ],
+    "scripture": {
+      "ref": "Psalm 77:11",
+      "text": "I will remember the works of the LORD: surely I will remember thy wonders of old."
+    }
+  },
+  {
     "id": "responding-to-gods-word",
     "title": "Responding To God's Word",
     "summary": "God's Word calls His people to respond in faith through obedient action rather than remaining spiritually stagnant.",
@@ -701,6 +890,153 @@
     "scripture": {
       "ref": "2 Kings 7:5",
       "text": "And they rose up in the twilight, to go unto the camp of the Syrians: and when they were come to the uttermost part of the camp of Syria, behold, there was no man there."
+    }
+  },
+  {
+    "id": "seeing-beyond-your-circumstances",
+    "title": "Seeing Beyond Your Circumstances",
+    "summary": "God calls His people to look beyond present circumstances and trust what He is able to accomplish.",
+    "topics": [
+      "Faith",
+      "Trust",
+      "Christian Living"
+    ],
+    "keywords": [
+      "seeing beyond your circumstances",
+      "faith",
+      "dry bones",
+      "trusting God",
+      "Ezekiel 37"
+    ],
+    "scripture": {
+      "ref": "Ezekiel 37:3",
+      "text": "And he said unto me, Son of man, can these bones live? And I answered, O Lord GOD, thou knowest."
+    }
+  },
+  {
+    "id": "seeing-by-faith",
+    "title": "Seeing By Faith",
+    "summary": "Faith sees God's promises with confidence before they become visible in the natural.",
+    "topics": [
+      "Faith",
+      "Spiritual Growth",
+      "Christian Living"
+    ],
+    "keywords": [
+      "seeing by faith",
+      "walk by faith",
+      "spiritual vision",
+      "God's promises",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "2 Corinthians 5:7",
+      "text": "(For we walk by faith, not by sight:)"
+    }
+  },
+  {
+    "id": "single-minded-faith",
+    "title": "Single-Minded Faith",
+    "summary": "Faith remains wholly focused upon God, allowing His truth to shape every thought, decision, and direction of life.",
+    "topics": [
+      "Faith",
+      "Spiritual Growth",
+      "Christian Living"
+    ],
+    "keywords": [
+      "single minded faith",
+      "spiritual focus",
+      "faith",
+      "Matthew 6",
+      "spiritual vision"
+    ],
+    "scripture": {
+      "ref": "Matthew 6:22",
+      "text": "The light of the body is the eye: if therefore thine eye be single, thy whole body shall be full of light."
+    }
+  },
+  {
+    "id": "speaking-what-god-shows-you",
+    "title": "Speaking What God Shows You",
+    "summary": "God calls His people to faithfully declare His Word according to what He has revealed rather than according to what they naturally see.",
+    "topics": [
+      "Faith",
+      "God's Word",
+      "Christian Living"
+    ],
+    "keywords": [
+      "speaking what God shows you",
+      "speak God's Word",
+      "prophecy",
+      "Ezekiel 37",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "Ezekiel 37:4",
+      "text": "Again he said unto me, Prophesy upon these bones, and say unto them, O ye dry bones, hear the word of the LORD."
+    }
+  },
+  {
+    "id": "the-inner-eye",
+    "title": "The Inner Eye",
+    "summary": "God enables His people to see beyond natural circumstances through the inner eye of faith.",
+    "topics": [
+      "Faith",
+      "Spiritual Growth",
+      "Christian Living"
+    ],
+    "keywords": [
+      "inner eye",
+      "spiritual vision",
+      "faith",
+      "Ezekiel 37",
+      "seeing spiritually"
+    ],
+    "scripture": {
+      "ref": "Ezekiel 37:3",
+      "text": "And he said unto me, Son of man, can these bones live? And I answered, O Lord GOD, thou knowest."
+    }
+  },
+  {
+    "id": "the-power-of-godly-vision",
+    "title": "The Power Of Godly Vision",
+    "summary": "Godly vision enables believers to see God's purposes before they become reality and to walk confidently in His promises.",
+    "topics": [
+      "Faith",
+      "Spiritual Growth",
+      "Christian Living"
+    ],
+    "keywords": [
+      "godly vision",
+      "spiritual vision",
+      "faith",
+      "God's promises",
+      "purpose"
+    ],
+    "scripture": {
+      "ref": "Proverbs 29:18",
+      "text": "Where there is no vision, the people perish: but he that keepeth the law, happy is he."
+    }
+  },
+  {
+    "id": "vision-before-victory",
+    "title": "Vision Before Victory",
+    "summary": "God often reveals His purposes before bringing them to pass, calling His people to trust Him by faith.",
+    "topics": [
+      "Faith",
+      "Hope",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "vision before victory",
+      "faith",
+      "God's promises",
+      "Ezekiel 37",
+      "spiritual vision"
+    ],
+    "scripture": {
+      "ref": "Ezekiel 37:4",
+      "text": "Again he said unto me, Prophesy upon these bones, and say unto them, O ye dry bones, hear the word of the LORD."
     }
   },
   {
@@ -1494,6 +1830,27 @@
     }
   },
   {
+    "id": "will-you-be-made-whole",
+    "title": "Will You Be Made Whole?",
+    "summary": "Jesus calls people to respond to His invitation to be made whole instead of remaining in the condition they have accepted.",
+    "topics": [
+      "Healing",
+      "Faith",
+      "Christian Living"
+    ],
+    "keywords": [
+      "will you be made whole",
+      "healing",
+      "John 5",
+      "faith",
+      "wholeness"
+    ],
+    "scripture": {
+      "ref": "John 5:6",
+      "text": "When Jesus saw him lie, and knew that he had been now a long time in that case, he saith unto him, Wilt thou be made whole?"
+    }
+  },
+  {
     "id": "a-sound-mind",
     "title": "A Sound Mind",
     "summary": "God gives His people a spirit of power, love, and a sound mind so they can faithfully live and serve without being ruled by fear.",
@@ -1820,6 +2177,27 @@
     "scripture": {
       "ref": "Galatians 5:16",
       "text": "This I say then, Walk in the Spirit, and ye shall not fulfil the lust of the flesh."
+    }
+  },
+  {
+    "id": "hope-in-dry-places",
+    "title": "Hope In Dry Places",
+    "summary": "God brings hope where life appears impossible by revealing His power and faithfulness through His Word.",
+    "topics": [
+      "Hope",
+      "Faith",
+      "Christian Living"
+    ],
+    "keywords": [
+      "hope in dry places",
+      "dry bones",
+      "restoration",
+      "hope",
+      "Ezekiel 37"
+    ],
+    "scripture": {
+      "ref": "Ezekiel 37:5",
+      "text": "Thus saith the Lord GOD unto these bones; Behold, I will cause breath to enter into you, and ye shall live."
     }
   },
   {
@@ -2433,6 +2811,27 @@
     "scripture": {
       "ref": "Mark 11:24",
       "text": "What things soever ye desire, when ye pray, believe that ye receive them, and ye shall have them."
+    }
+  },
+  {
+    "id": "praying-with-vision",
+    "title": "Praying With Vision",
+    "summary": "Faith-filled prayer looks beyond present circumstances and prays with confidence in what God has promised.",
+    "topics": [
+      "Prayer",
+      "Faith",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "praying with vision",
+      "prayer of faith",
+      "spiritual vision",
+      "believing prayer",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "James 1:6",
+      "text": "But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed."
     }
   },
   {
@@ -3140,6 +3539,27 @@
     }
   },
   {
+    "id": "freedom-from-the-past",
+    "title": "Freedom From The Past",
+    "summary": "Christ calls His people to walk in the freedom He provides instead of remaining bound by their past.",
+    "topics": [
+      "Spiritual Growth",
+      "Christian Living",
+      "Freedom"
+    ],
+    "keywords": [
+      "freedom from the past",
+      "new life",
+      "spiritual freedom",
+      "John 5",
+      "Christian growth"
+    ],
+    "scripture": {
+      "ref": "John 5:14",
+      "text": "Afterward Jesus findeth him in the temple, and said unto him, Behold, thou art made whole: sin no more, lest a worse thing come unto thee."
+    }
+  },
+  {
     "id": "god-restores-the-soul",
     "title": "God Restores The Soul",
     "summary": "God graciously restores His people by renewing their strength, forgiving their sins, and leading them back into faithful fellowship with Him.",
@@ -3198,6 +3618,27 @@
     "scripture": {
       "ref": "Proverbs 4:23",
       "text": "Keep thy heart with all diligence; for out of it are the issues of life."
+    }
+  },
+  {
+    "id": "preparing-for-the-evil-day",
+    "title": "Preparing For The Evil Day",
+    "summary": "God prepares His people through daily fellowship with Him so they are strengthened for seasons of testing.",
+    "topics": [
+      "Spiritual Growth",
+      "Christian Living",
+      "Perseverance"
+    ],
+    "keywords": [
+      "preparing for the evil day",
+      "spiritual preparation",
+      "strength",
+      "perseverance",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Ephesians 6:13",
+      "text": "Wherefore take unto you the whole armour of God, that ye may be able to withstand in the evil day, and having done all, to stand."
     }
   },
   {
@@ -3342,6 +3783,27 @@
     }
   },
   {
+    "id": "strengthening-the-inner-man",
+    "title": "Strengthening The Inner Man",
+    "summary": "God strengthens the inner person through His Spirit, preparing believers to live faithfully and endure every season of life.",
+    "topics": [
+      "Spiritual Growth",
+      "Holy Spirit",
+      "Christian Living"
+    ],
+    "keywords": [
+      "strengthening the inner man",
+      "inner man",
+      "spiritual strength",
+      "Holy Spirit",
+      "Christian growth"
+    ],
+    "scripture": {
+      "ref": "Ephesians 3:16",
+      "text": "That he would grant you, according to the riches of his glory, to be strengthened with might by his Spirit in the inner man;"
+    }
+  },
+  {
     "id": "strengthening-your-soul",
     "title": "Strengthening Your Soul",
     "summary": "A strengthened soul enables believers to endure trials, receive God's direction, and remain steadfast in faith.",
@@ -3360,6 +3822,69 @@
     "scripture": {
       "ref": "Isaiah 40:31",
       "text": "But they that wait upon the LORD shall renew their strength."
+    }
+  },
+  {
+    "id": "the-soul-and-the-spirit",
+    "title": "The Soul And The Spirit",
+    "summary": "God's Word helps believers distinguish between the soul and the spirit so they may grow in spiritual maturity.",
+    "topics": [
+      "Spiritual Growth",
+      "Faith",
+      "Christian Living"
+    ],
+    "keywords": [
+      "soul and spirit",
+      "spiritual discernment",
+      "Hebrews 4",
+      "spiritual maturity",
+      "God's Word"
+    ],
+    "scripture": {
+      "ref": "Hebrews 4:12",
+      "text": "For the word of God is quick, and powerful, and sharper than any twoedged sword, piercing even to the dividing asunder of soul and spirit, and of the joints and marrow, and is a discerner of the thoughts and intents of the heart."
+    }
+  },
+  {
+    "id": "the-word-separates-soul-and-spirit",
+    "title": "The Word Separates Soul And Spirit",
+    "summary": "God's Word reveals the difference between what is natural and what is spiritual, leading believers into greater discernment.",
+    "topics": [
+      "Spiritual Growth",
+      "Discernment",
+      "God's Word"
+    ],
+    "keywords": [
+      "word of God",
+      "soul and spirit",
+      "Hebrews 4",
+      "discernment",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Hebrews 4:12",
+      "text": "For the word of God is quick, and powerful, and sharper than any twoedged sword, piercing even to the dividing asunder of soul and spirit, and of the joints and marrow, and is a discerner of the thoughts and intents of the heart."
+    }
+  },
+  {
+    "id": "stop-empowering-the-enemy",
+    "title": "Stop Empowering The Enemy",
+    "summary": "Believers should refuse to give the enemy influence by remaining in patterns that oppose God's truth and instead walk in faithful obedience.",
+    "topics": [
+      "Spiritual Warfare",
+      "Christian Living",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "stop empowering the enemy",
+      "spiritual warfare",
+      "obedience",
+      "resisting the devil",
+      "Christian living"
+    ],
+    "scripture": {
+      "ref": "Ephesians 4:27",
+      "text": "Neither give place to the devil."
     }
   },
   {
