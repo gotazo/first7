@@ -39,16 +39,25 @@ const blog = defineCollection({
 });
 
 /* =========================
-   📥 RESOURCES
+📥 RESOURCES
 ========================= */
+
 const resources = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/resources" }),
+  loader: glob({
+    pattern: "**/*.md",
+    base: "./src/content/resources",
+  }),
+
   schema: z.object({
     title: z.string(),
     description: z.string(),
 
     type: z.string().optional(),
     category: z.string().optional(),
+
+    // Month number for monthly resources, especially Scripture Journals
+    // 1 = January ... 12 = December
+    month: z.number().min(1).max(12).optional(),
 
     cover: z.string().optional(),
 

@@ -1,0 +1,218 @@
+---
+export const prerender = true;
+
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+type Resource = CollectionEntry<"resources">;
+
+const resources = await getCollection("resources");
+
+/*
+ * Only resources inside the journals folder.
+ *
+ * Example:
+ * src/content/resources/journals/january-faith.md
+ *
+ * becomes:
+ * /resources/journals/january-faith
+ */
+const journals = resources
+  .filter((resource) => resource.id.startsWith("journals/"))
+  .sort(
+    (a, b) => (a.data.month ?? 99) - (b.data.month ?? 99)
+  );
+
+const getSlug = (resource: Resource) =>
+  resource.id.replace(/^journals\//, "");
+---
+
+<BaseLayout
+  title="Scripture Journals"
+  description="First7 Scripture Journals — guided journals built around Scripture, prayer, gratitude, reflection, and quiet time with God."
+>
+
+  <main class="max-w-6xl mx-auto px-4 py-16">
+
+    <!-- HERO -->
+    <header class="max-w-3xl mx-auto text-center mb-16">
+
+      <p
+        class="text-sm uppercase tracking-[0.18em] text-[var(--color-primary)] font-medium"
+      >
+        First7 Resources
+      </p>
+
+      <h1 class="mt-4 text-4xl md:text-5xl font-semibold tracking-tight">
+        Scripture Journals
+      </h1>
+
+      <p class="mt-5 text-lg leading-8 text-[var(--color-muted)]">
+        Guided journals built around Scripture, reflection, prayer, and
+        quiet time with God — one day at a time.
+      </p>
+
+    </header>
+
+
+    <!-- COLLECTION INTRO -->
+    <section
+      class="mb-14 rounded-3xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 p-8 md:p-10"
+    >
+
+      <div class="max-w-3xl">
+
+        <p
+          class="text-sm uppercase tracking-[0.16em] text-[var(--color-primary)] font-medium"
+        >
+          A Year in Scripture
+        </p>
+
+        <h2 class="mt-3 text-2xl md:text-3xl font-semibold">
+          Twelve months. One day at a time.
+        </h2>
+
+        <p class="mt-4 leading-7 text-[var(--color-muted)]">
+          Explore the First7 Scripture Journal collection, with a different
+          theme for each month. Use them as a simple daily rhythm of reading,
+          reflection, prayer, and journaling.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- JOURNAL GRID -->
+    <section>
+
+      <div class="flex items-end justify-between gap-4 mb-7">
+
+        <div>
+          <h2 class="text-2xl font-semibold">
+            Browse the Journals
+          </h2>
+
+          <p class="mt-1 text-sm text-[var(--color-muted)]">
+            {journals.length} {journals.length === 1 ? "journal" : "journals"}
+          </p>
+        </div>
+
+      </div>
+
+
+      {journals.length > 0 ? (
+
+        <div class="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
+
+          {journals.map((journal) => {
+
+            const slug = getSlug(journal);
+
+            return (
+              <a
+                href={`/resources/journals/${slug}`}
+                class="group block overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-elevated)] transition duration-200 hover:-translate-y-1 hover:shadow-lg"
+              >
+
+                <!-- COVER -->
+                {journal.data.cover ? (
+                  <div class="aspect-[3/4] overflow-hidden bg-[var(--color-bg-soft)]">
+                    <img
+                      src={journal.data.cover}
+                      alt={journal.data.title}
+                      class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+                      loading="lazy"
+                    />
+                  </div>
+                ) : (
+                  <div
+                    class="aspect-[3/4] flex items-center justify-center bg-[var(--color-primary)]/10 px-8 text-center"
+                  >
+                    <span class="text-xl font-semibold">
+                      {journal.data.title}
+                    </span>
+                  </div>
+                )}
+
+
+                <!-- CONTENT -->
+                <div class="p-6">
+
+                  {journal.data.category && (
+                    <p
+                      class="text-xs uppercase tracking-[0.14em] text-[var(--color-primary)] font-medium"
+                    >
+                      {journal.data.category}
+                    </p>
+                  )}
+
+                  <h3 class="mt-2 text-xl font-semibold leading-snug">
+                    {journal.data.title}
+                  </h3>
+
+                  <p class="mt-3 text-sm leading-6 text-[var(--color-muted)]">
+                    {journal.data.description}
+                  </p>
+
+                  <div
+                    class="mt-5 text-sm font-medium text-[var(--color-primary)]"
+                  >
+                    Explore Journal
+                    <span
+                      class="inline-block transition-transform duration-200 group-hover:translate-x-1"
+                    >
+                      →
+                    </span>
+                  </div>
+
+                </div>
+
+              </a>
+            );
+          })}
+
+        </div>
+
+      ) : (
+
+        <div
+          class="rounded-2xl border border-[var(--color-border)] p-10 text-center"
+        >
+          <h2 class="text-xl font-semibold">
+            Journals are coming soon.
+          </h2>
+
+          <p class="mt-3 text-[var(--color-muted)]">
+            New Scripture journals will be added here.
+          </p>
+        </div>
+
+      )}
+
+    </section>
+
+
+    <!-- SUPPORT / PRINTABLE CTA -->
+    <section
+      class="mt-20 rounded-3xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 p-8 md:p-10 text-center"
+    >
+
+      <h2 class="text-2xl font-semibold">
+        Want a printable copy?
+      </h2>
+
+      <p class="mt-4 max-w-2xl mx-auto leading-7 text-[var(--color-muted)]">
+        The digital editions are available through First7, with printable
+        and professionally printed options available when offered.
+      </p>
+
+      <p class="mt-4 text-sm text-[var(--color-muted)]">
+        Explore each journal to see its available formats.
+      </p>
+
+    </section>
+
+  </main>
+
+</BaseLayout>

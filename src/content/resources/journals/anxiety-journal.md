@@ -4,8 +4,8 @@ title: 7-Day Anxiety Journal — Release Control and Find Peace
 description: A simple 7-day anxiety journal to help you release control, reduce overwhelm, and find peace one day at a time.
 
 type: Journal
-category: Journal
-featured: true
+category: Scripture Journal
+featured: false
 
 cover: /images/anxiety.jpg
 
