@@ -105,6 +105,27 @@
     }
   },
   {
+    "id": "breaking-generational-patterns",
+    "title": "Breaking Generational Patterns",
+    "summary": "God's people are called to turn away from destructive patterns and walk in obedience rather than continue the failures of those who came before them.",
+    "topics": [
+      "Christian Living",
+      "Obedience",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "breaking generational patterns",
+      "generational patterns",
+      "obedience",
+      "repentance",
+      "Christian living"
+    ],
+    "scripture": {
+      "ref": "Ezekiel 18:20",
+      "text": "The soul that sinneth, it shall die. The son shall not bear the iniquity of the father, neither shall the father bear the iniquity of the son: the righteousness of the righteous shall be upon him, and the wickedness of the wicked shall be upon him."
+    }
+  },
+  {
     "id": "keeping-your-mind-in-christ",
     "title": "Keeping Your Mind In Christ",
     "summary": "A mind that remains fixed upon the Lord finds strength, stability, and peace through every season of life.",
@@ -165,6 +186,48 @@
     "scripture": {
       "ref": "Romans 12:2",
       "text": "And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God."
+    }
+  },
+  {
+    "id": "the-consequences-of-our-choices",
+    "title": "The Consequences Of Our Choices",
+    "summary": "Our choices can produce consequences that extend beyond our own lives and affect those who come after us.",
+    "topics": [
+      "Christian Living",
+      "Obedience",
+      "Responsibility"
+    ],
+    "keywords": [
+      "consequences of our choices",
+      "consequences",
+      "obedience",
+      "responsibility",
+      "biblical choices"
+    ],
+    "scripture": {
+      "ref": "Galatians 6:7",
+      "text": "Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap."
+    }
+  },
+  {
+    "id": "walking-in-gods-blessing",
+    "title": "Walking In God's Blessing",
+    "summary": "God's blessing is received and stewarded through faith, obedience, and a life directed toward Him.",
+    "topics": [
+      "Christian Living",
+      "Faith",
+      "Obedience"
+    ],
+    "keywords": [
+      "God's blessing",
+      "walking in God's blessing",
+      "obedience",
+      "faith",
+      "Christian living"
+    ],
+    "scripture": {
+      "ref": "Deuteronomy 28:1-2",
+      "text": "And it shall come to pass, if thou shalt hearken diligently unto the voice of the LORD thy God, to observe and to do all his commandments which I command thee this day, that the LORD thy God will set thee on high above all nations of the earth: And all these blessings shall come on thee, and overtake thee, if thou shalt hearken unto the voice of the LORD thy God."
     }
   },
   {
@@ -890,6 +953,27 @@
     "scripture": {
       "ref": "2 Kings 7:5",
       "text": "And they rose up in the twilight, to go unto the camp of the Syrians: and when they were come to the uttermost part of the camp of Syria, behold, there was no man there."
+    }
+  },
+  {
+    "id": "returning-to-gods-altar",
+    "title": "Returning To God's Altar",
+    "summary": "Returning to a place of worship and surrender helps believers refocus their hearts upon God and seek His direction.",
+    "topics": [
+      "Faith",
+      "Worship",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "returning to God's altar",
+      "altar",
+      "worship",
+      "seeking God",
+      "spiritual direction"
+    ],
+    "scripture": {
+      "ref": "Genesis 13:3-4",
+      "text": "And he went on his journeys from the south even to Bethel, unto the place where his tent had been at the first, between Bethel and Hai; Unto the place of the altar, which he had made there at the first: and there Abram called on the name of the LORD."
     }
   },
   {
@@ -2793,6 +2877,27 @@
     }
   },
   {
+    "id": "prayer-and-giving",
+    "title": "Prayer And Giving",
+    "summary": "Prayer and giving express dependence upon God and a willingness to honor Him with what He has entrusted to us.",
+    "topics": [
+      "Prayer",
+      "Giving",
+      "Christian Living"
+    ],
+    "keywords": [
+      "prayer and giving",
+      "prayer",
+      "giving",
+      "generosity",
+      "worship"
+    ],
+    "scripture": {
+      "ref": "Philippians 4:6",
+      "text": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God."
+    }
+  },
+  {
     "id": "praying-from-victory-not-defeat",
     "title": "Praying From Victory, Not Defeat",
     "summary": "Biblical prayer flows from faith in God's promises rather than fear, hopelessness, or a sense of defeat.",
@@ -3518,6 +3623,27 @@
     }
   },
   {
+    "id": "do-not-be-ignorant-of-spiritual-things",
+    "title": "Do Not Be Ignorant Of Spiritual Things",
+    "summary": "Believers are called to understand spiritual realities and remain alert to the devices that oppose their walk with God.",
+    "topics": [
+      "Spiritual Growth",
+      "Spiritual Warfare",
+      "Christian Living"
+    ],
+    "keywords": [
+      "spiritual things",
+      "spiritual discernment",
+      "devil's devices",
+      "spiritual warfare",
+      "Christian maturity"
+    ],
+    "scripture": {
+      "ref": "2 Corinthians 2:11",
+      "text": "Lest Satan should get an advantage of us: for we are not ignorant of his devices."
+    }
+  },
+  {
     "id": "encounters-do-not-transform-you",
     "title": "Encounters Do Not Transform You",
     "summary": "Spiritual encounters can reveal God's reality, but lasting transformation comes through repentance, obedience, and the renewing of the mind.",
@@ -3867,6 +3993,27 @@
     }
   },
   {
+    "id": "guarding-against-occult-practices",
+    "title": "Guarding Against Occult Practices",
+    "summary": "God calls His people to reject occult practices and remain separate from spiritual practices that oppose His Word.",
+    "topics": [
+      "Spiritual Warfare",
+      "Christian Living",
+      "Obedience"
+    ],
+    "keywords": [
+      "occult practices",
+      "witchcraft",
+      "divination",
+      "spiritual warfare",
+      "Deuteronomy 18"
+    ],
+    "scripture": {
+      "ref": "Deuteronomy 18:10-12",
+      "text": "There shall not be found among you any one that maketh his son or his daughter to pass through the fire, or that useth divination, or an observer of times, or an enchanter, or a witch, Or a charmer, or a consulter with familiar spirits, or a wizard, or a necromancer. For all that do these things are an abomination unto the LORD: and because of these abominations the LORD thy God doth drive them out from before thee."
+    }
+  },
+  {
     "id": "stop-empowering-the-enemy",
     "title": "Stop Empowering The Enemy",
     "summary": "Believers should refuse to give the enemy influence by remaining in patterns that oppose God's truth and instead walk in faithful obedience.",
@@ -3885,6 +4032,27 @@
     "scripture": {
       "ref": "Ephesians 4:27",
       "text": "Neither give place to the devil."
+    }
+  },
+  {
+    "id": "understanding-spiritual-warfare",
+    "title": "Understanding Spiritual Warfare",
+    "summary": "Believers must understand spiritual opposition and remain watchful so they can stand firmly in God's truth.",
+    "topics": [
+      "Spiritual Warfare",
+      "Spiritual Growth",
+      "Christian Living"
+    ],
+    "keywords": [
+      "understanding spiritual warfare",
+      "spiritual warfare",
+      "devil's devices",
+      "spiritual discernment",
+      "resisting the devil"
+    ],
+    "scripture": {
+      "ref": "2 Corinthians 2:11",
+      "text": "Lest Satan should get an advantage of us: for we are not ignorant of his devices."
     }
   },
   {
