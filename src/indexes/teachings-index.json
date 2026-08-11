@@ -168,6 +168,48 @@
     }
   },
   {
+    "id": "rejecting-jealousy-and-comparison",
+    "title": "Rejecting Jealousy And Comparison",
+    "summary": "Believers should reject jealousy and comparison and learn to rejoice in what God does for others.",
+    "topics": [
+      "Christian Living",
+      "Contentment",
+      "Love"
+    ],
+    "keywords": [
+      "jealousy",
+      "comparison",
+      "envy",
+      "contentment",
+      "rejoicing with others"
+    ],
+    "scripture": {
+      "ref": "Galatians 5:26",
+      "text": "Let us not be desirous of vain glory, provoking one another, envying one another."
+    }
+  },
+  {
+    "id": "renewing-the-mind-through-gods-word",
+    "title": "Renewing The Mind Through God's Word",
+    "summary": "God's Word renews the mind and brings transformation by exposing wrong patterns and leading believers into truth.",
+    "topics": [
+      "Christian Living",
+      "Spiritual Growth",
+      "God's Word"
+    ],
+    "keywords": [
+      "renewing the mind",
+      "God's Word",
+      "transformation",
+      "spiritual growth",
+      "Christian living"
+    ],
+    "scripture": {
+      "ref": "Romans 12:2",
+      "text": "And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God."
+    }
+  },
+  {
     "id": "renewing-the-mind",
     "title": "Renewing The Mind",
     "summary": "God transforms believers by renewing their minds through His Word, enabling them to see life from His perspective.",
@@ -207,6 +249,49 @@
     "scripture": {
       "ref": "Galatians 6:7",
       "text": "Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap."
+    }
+  },
+  {
+    "id": "the-works-of-the-flesh",
+    "title": "The Works Of The Flesh",
+    "summary": "The works of the flesh must be recognized and rejected as believers learn to walk according to the Spirit.",
+    "topics": [
+      "Christian Living",
+      "Spiritual Growth",
+      "Holy Spirit"
+    ],
+    "keywords": [
+      "works of the flesh",
+      "Galatians 5",
+      "flesh",
+      "jealousy",
+      "hatred",
+      "strife"
+    ],
+    "scripture": {
+      "ref": "Galatians 5:19-21",
+      "text": "Now the works of the flesh are manifest, which are these; Adultery, fornication, uncleanness, lasciviousness, Idolatry, witchcraft, hatred, variance, emulations, wrath, strife, seditions, heresies, Envyings, murders, drunkenness, revellings, and such like: of the which I tell you before, as I have also told you in time past, that they which do such things shall not inherit the kingdom of God."
+    }
+  },
+  {
+    "id": "walking-in-forgiveness-and-peace",
+    "title": "Walking In Forgiveness And Peace",
+    "summary": "Believers are called to forgive others, reject strife, and pursue peace as children of God.",
+    "topics": [
+      "Christian Living",
+      "Forgiveness",
+      "Peace"
+    ],
+    "keywords": [
+      "forgiveness",
+      "peace",
+      "Christian living",
+      "peacemakers",
+      "reconciliation"
+    ],
+    "scripture": {
+      "ref": "Matthew 5:9",
+      "text": "Blessed are the peacemakers: for they shall be called the children of God."
     }
   },
   {
@@ -3662,6 +3747,27 @@
     "scripture": {
       "ref": "Romans 12:2",
       "text": "And be not conformed to this world: but be ye transformed by the renewing of your mind."
+    }
+  },
+  {
+    "id": "examine-yourself-by-gods-word",
+    "title": "Examine Yourself By God's Word",
+    "summary": "God's Word acts as a mirror that reveals the condition of the heart and calls believers to respond with obedience.",
+    "topics": [
+      "Spiritual Growth",
+      "God's Word",
+      "Christian Living"
+    ],
+    "keywords": [
+      "examine yourself",
+      "God's Word",
+      "self examination",
+      "spiritual growth",
+      "James 1"
+    ],
+    "scripture": {
+      "ref": "James 1:23-25",
+      "text": "For if any be a hearer of the word, and not a doer, he is like unto a man beholding his natural face in a glass: For he beholdeth himself, and goeth his way, and straightway forgetteth what manner of man he was. But whoso looketh into the perfect law of liberty, and continueth therein, he being not a forgetful hearer, but a doer of the work, this man shall be blessed in his deed."
     }
   },
   {
