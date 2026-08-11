@@ -6,44 +6,50 @@ term: dream
 shortMeaning: A series of thoughts, images, or experiences occurring during sleep.
 
 biblicalUsage: >
-  In Scripture, dreams are recorded as occurring during sleep and are
-  sometimes used by God to communicate messages or reveal future events.
+  In Scripture, a dream is an experience occurring during sleep. Dreams
+  are recorded in both ordinary and revelatory contexts and are sometimes
+  associated with messages, warnings, or events revealed to people.
 
 reference:
-  ref: Job 33:15
-  text: "In a dream, in a vision of the night, when deep sleep falleth upon men..."
+  ref: Genesis 20:3
+  text: "But God came to Abimelech in a dream by night, and said to him, Behold, thou art but a dead man, for the woman which thou hast taken; for she is a man's wife."
 
 featuredVerse:
-  ref: Matthew 1:20
-  text: "But while he thought on these things, behold, the angel of the Lord appeared unto him in a dream..."
+  ref: Genesis 40:8
+  text: "And they said unto him, We have dreamed a dream, and there is no interpreter of it. And Joseph said unto them, Do not interpretations belong to God? tell me them, I pray you."
 
 scriptures:
-  - Genesis 20:3
+  - Genesis 20:3-7
+  - Genesis 28:10-17
+  - Genesis 31:10-24
   - Genesis 37:5-11
+  - Genesis 40:5-23
   - Genesis 41:1-36
-  - Daniel 2:1-45
-  - Job 33:14-18
-  - Matthew 1:20
-  - Matthew 2:12-13
+  - Numbers 12:6
+  - Deuteronomy 13:1-5
+  - Daniel 2
+  - Daniel 4
+  - Matthew 1:20-24
+  - Matthew 2:12-22
   - Acts 2:17
 
 related:
   - vision
-  - prophecy
   - revelation
-  - sleep
+  - prophecy
+  - joseph
 
 aliases: []
 
 seeAlso:
-  - joseph
-  - daniel
-  - vision
+  - prophet
+  - interpretation
 
 tags:
   - dream
   - revelation
   - prophecy
+  - patriarchs
 
 hebrew:
   word: חֲלוֹם
@@ -51,32 +57,43 @@ hebrew:
   meaning: dream
 
 greek:
-  word: ἐνύπνιον
-  transliteration: enypnion
+  word: ὄναρ
+  transliteration: onar
   meaning: dream
+
 ---
 
 ## Meaning
 
-A dream is a series of thoughts, images, or experiences occurring during sleep.
+A dream is a series of thoughts, images, or experiences occurring during
+sleep.
 
 ---
 
 ## Biblical Usage
 
-In Scripture, dreams are recorded as occurring during sleep and are sometimes used by God to communicate messages or reveal future events.
+In Scripture, a dream is an experience occurring during sleep.
+
+Dreams are recorded in both ordinary and revelatory contexts and are
+sometimes associated with messages, warnings, or events revealed to
+people.
 
 ---
 
 ## Key References
 
-- Genesis 20:3
+- Genesis 20:3-7
+- Genesis 28:10-17
+- Genesis 31:10-24
 - Genesis 37:5-11
+- Genesis 40:5-23
 - Genesis 41:1-36
-- Daniel 2:1-45
-- Job 33:14-18
-- Matthew 1:20
-- Matthew 2:12-13
+- Numbers 12:6
+- Deuteronomy 13:1-5
+- Daniel 2
+- Daniel 4
+- Matthew 1:20-24
+- Matthew 2:12-22
 - Acts 2:17
 
 ---
@@ -84,7 +101,6 @@ In Scripture, dreams are recorded as occurring during sleep and are sometimes us
 ## Related Terms
 
 - Vision
-- Prophecy
 - Revelation
-- Sleep
-- Daniel
+- Prophecy
+- Joseph

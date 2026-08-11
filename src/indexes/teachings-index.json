@@ -126,6 +126,48 @@
     }
   },
   {
+    "id": "doing-all-things-in-love",
+    "title": "Doing All Things In Love",
+    "summary": "God calls believers to express love through the ordinary things they do and to let love shape their actions toward others.",
+    "topics": [
+      "Christian Living",
+      "Love",
+      "Service"
+    ],
+    "keywords": [
+      "doing all things in love",
+      "love",
+      "Christian living",
+      "serving others",
+      "acts of kindness"
+    ],
+    "scripture": {
+      "ref": "1 Corinthians 16:14",
+      "text": "Let all your things be done with charity."
+    }
+  },
+  {
+    "id": "god-gives-strength-when-we-are-weary",
+    "title": "God Gives Strength When We Are Weary",
+    "summary": "God invites weary and burdened people to bring their burdens to Him and find rest in His strength.",
+    "topics": [
+      "Christian Living",
+      "Trust",
+      "Rest"
+    ],
+    "keywords": [
+      "God gives strength",
+      "weary",
+      "burdens",
+      "rest in God",
+      "trusting God"
+    ],
+    "scripture": {
+      "ref": "Matthew 11:28",
+      "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+    }
+  },
+  {
     "id": "keeping-your-mind-in-christ",
     "title": "Keeping Your Mind In Christ",
     "summary": "A mind that remains fixed upon the Lord finds strength, stability, and peace through every season of life.",
@@ -295,6 +337,27 @@
     }
   },
   {
+    "id": "walking-in-forgiveness",
+    "title": "Walking In Forgiveness",
+    "summary": "Believers are called to release resentment, forgive those who have wronged them, and respond to others with the mercy they have received from God.",
+    "topics": [
+      "Christian Living",
+      "Forgiveness",
+      "Love"
+    ],
+    "keywords": [
+      "walking in forgiveness",
+      "forgiveness",
+      "forgiving others",
+      "mercy",
+      "Christian living"
+    ],
+    "scripture": {
+      "ref": "Ephesians 4:32",
+      "text": "And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you."
+    }
+  },
+  {
     "id": "walking-in-gods-blessing",
     "title": "Walking In God's Blessing",
     "summary": "God's blessing is received and stewarded through faith, obedience, and a life directed toward Him.",
@@ -313,6 +376,27 @@
     "scripture": {
       "ref": "Deuteronomy 28:1-2",
       "text": "And it shall come to pass, if thou shalt hearken diligently unto the voice of the LORD thy God, to observe and to do all his commandments which I command thee this day, that the LORD thy God will set thee on high above all nations of the earth: And all these blessings shall come on thee, and overtake thee, if thou shalt hearken unto the voice of the LORD thy God."
+    }
+  },
+  {
+    "id": "what-we-sow-we-reap",
+    "title": "What We Sow We Reap",
+    "summary": "Our choices and actions produce consequences, calling us to sow what is good and pleasing to God.",
+    "topics": [
+      "Christian Living",
+      "Choices",
+      "Obedience"
+    ],
+    "keywords": [
+      "what we sow we reap",
+      "sowing and reaping",
+      "consequences",
+      "choices",
+      "Christian living"
+    ],
+    "scripture": {
+      "ref": "Galatians 6:7",
+      "text": "Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap."
     }
   },
   {

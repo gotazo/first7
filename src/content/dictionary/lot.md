@@ -3,7 +3,7 @@ title: Lot
 
 term: lot
 
-shortMeaning: A Hebrew proper name of uncertain meaning.
+shortMeaning: A proper name of uncertain meaning.
 
 biblicalUsage: >
   In Scripture, Lot was the nephew of Abraham. He lived in the region of
@@ -55,7 +55,7 @@ greek:
 
 ## Meaning
 
-Lot is a Hebrew proper name of uncertain meaning.
+Lot is a proper name of uncertain meaning.
 
 ---
 

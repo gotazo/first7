@@ -62,7 +62,8 @@ greek:
 
 ## Meaning
 
-A covenant is a formal agreement or binding arrangement between two or more parties.
+A covenant is a formal agreement or binding arrangement between two or
+more parties.
 
 It establishes agreed responsibilities or commitments.
 
@@ -70,7 +71,8 @@ It establishes agreed responsibilities or commitments.
 
 ## Biblical Usage
 
-In Scripture, a covenant is a formal agreement established between God and people or between individuals.
+In Scripture, a covenant is a formal agreement established between God
+and people or between individuals.
 
 The Bible records several covenants made throughout biblical history.
 

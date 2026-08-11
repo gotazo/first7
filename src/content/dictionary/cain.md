@@ -3,7 +3,7 @@ title: Cain
 
 term: cain
 
-shortMeaning: A Hebrew proper name of uncertain meaning, traditionally associated with "acquired" or "possession."
+shortMeaning: A proper name traditionally associated with "acquired" or "possession"; its etymology is uncertain.
 
 biblicalUsage: >
   In Scripture, Cain is the first son of Adam and Eve and the older
@@ -56,7 +56,7 @@ greek:
 
 ## Meaning
 
-Cain is a Hebrew proper name of uncertain meaning, traditionally associated with "acquired" or "possession."
+Cain is a proper name traditionally associated with "acquired" or "possession"; its etymology is uncertain.
 
 ---
 

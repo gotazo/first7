@@ -224,9 +224,19 @@ Do not expand into biblical explanation in the Meaning section.
 
 ## Proper Names
 
-For biblical proper names, the **Meaning** section should define the name itself before describing the biblical person, place, nation, or event.
+For biblical proper names, the **Meaning** section should define the name
+itself before describing the biblical person, place, nation, or event.
 
-When the original Hebrew, Aramaic, or Greek meaning of a proper name is clear or widely accepted and reasonably established, it should normally be reflected in the **Meaning** section.
+When the original language and meaning of a proper name are clear or
+widely accepted, the meaning should normally be reflected in the
+**Meaning** section.
+
+Biblical proper names may originate from different languages, including
+Hebrew, Aramaic, Greek, Latin, Persian, Egyptian, or other languages.
+Do not assume that every biblical proper name is Hebrew.
+
+When the original language is known, it should be recorded in the
+appropriate original-language metadata.
 
 Examples:
 
@@ -248,15 +258,27 @@ Examples:
 
 **Jerusalem**
 
-> A Hebrew place name traditionally understood as "foundation of peace" or "city of peace."
+> A Hebrew place name traditionally understood as "foundation of peace"
+> or "city of peace."
 
-The **Biblical Usage** section should then identify who or what the term refers to in Scripture and describe how the Bible uses it.
+When the meaning or origin of a proper name is uncertain, do not present
+a disputed or speculative meaning as established fact. Use wording such
+as:
+
+> A proper name of uncertain meaning.
+
+or:
+
+> A proper name traditionally associated with "..."
+
+The **Biblical Usage** section should then identify who or what the term
+refers to in Scripture and describe how the Bible uses it.
 
 For example:
 
 **Meaning**
 
-> Adam is a Hebrew proper name meaning "man," "mankind," or "humanity."
+> A Hebrew proper name meaning "man," "mankind," or "humanity."
 
 **Biblical Usage**
 
