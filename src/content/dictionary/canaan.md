@@ -3,7 +3,7 @@ title: Canaan
 
 term: canaan
 
-shortMeaning: A land in the eastern Mediterranean promised by God to Abraham and his descendants.
+shortMeaning: A land in the eastern Mediterranean associated in Scripture with the promises made by God to Abraham and his descendants..
 
 biblicalUsage: >
   In Scripture, Canaan is the land promised by God to Abraham, Isaac, and
@@ -52,7 +52,8 @@ tags:
 
 ## Meaning
 
-Canaan is a land in the eastern Mediterranean promised by God to Abraham and his descendants.
+Canaan is a land in the eastern Mediterranean promised by God to
+Abraham and his descendants
 
 It was inhabited by various nations before Israel entered the land.
 

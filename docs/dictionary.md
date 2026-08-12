@@ -442,17 +442,41 @@ Not:
 
 ------------------------------------------------------------------------
 
-Places
+## Places
 
-For places:
+For biblical places, the **Meaning** section should define the place
+itself and, when the linguistic meaning of the place name is sufficiently
+established, include that meaning as useful context.
 
-Explain:
+The established meaning of a place name should not replace the
+geographical or biblical identity of the place.
 
--   What the place is.
--   Where it appears in Scripture.
--   Why it is significant in the biblical record.
+Examples:
 
-Do not include unnecessary historical traditions.
+**Dothan**
+
+> Dothan is a Hebrew place name meaning "two wells." It was a city in
+> the land of Canaan where Joseph found his brothers.
+
+**Canaan**
+
+> Canaan is a land in the eastern Mediterranean associated in Scripture
+> with the promises made by God to Abraham and his descendants.
+
+**Sodom**
+
+> Sodom is a city in the plain of Jordan associated with the account of
+> Lot.
+
+When the linguistic origin or meaning of a place name is uncertain, do
+not manufacture or assume an etymology. Define the place itself using
+the biblical and geographical information that is established.
+
+The **Biblical Usage** section should then explain how the Bible uses the
+place and identify its significance within the biblical record.
+
+The Meaning section should remain concise and factual and should not
+contain theological interpretation.
 
 ------------------------------------------------------------------------
 
