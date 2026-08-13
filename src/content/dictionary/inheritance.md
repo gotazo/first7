@@ -13,7 +13,7 @@ biblicalUsage: >
 
 reference:
   ref: Joshua 11:23
-  text: "So Joshua took the whole land, according to all that the LORD said unto Moses; and Joshua gave it for an inheritance unto Israel according to their divisions by their tribes..."
+  text: "So Joshua took the whole land, according to all that the LORD said unto Moses; and Joshua gave it for an inheritance unto Israel according to their divisions by their tribes. And the land rested from war."
 
 featuredVerse:
   ref: 1 Peter 1:4
