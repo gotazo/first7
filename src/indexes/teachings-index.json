@@ -105,6 +105,27 @@
     }
   },
   {
+    "id": "trusting-god-in-the-valley",
+    "title": "Trusting God In The Valley",
+    "summary": "God's presence remains with His people even when they walk through dark and difficult seasons.",
+    "topics": [
+      "Assurance",
+      "Trust",
+      "Hope"
+    ],
+    "keywords": [
+      "trusting God in the valley",
+      "valley of the shadow of death",
+      "Psalm 23",
+      "trusting God",
+      "God's presence"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:4",
+      "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."
+    }
+  },
+  {
     "id": "breaking-generational-patterns",
     "title": "Breaking Generational Patterns",
     "summary": "God's people are called to turn away from destructive patterns and walk in obedience rather than continue the failures of those who came before them.",
@@ -186,6 +207,27 @@
     "scripture": {
       "ref": "Isaiah 26:3",
       "text": "Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee."
+    }
+  },
+  {
+    "id": "laying-down-your-life",
+    "title": "Laying Down Your Life",
+    "summary": "Following Christ means willingly giving ourselves for the good of others rather than living only for ourselves.",
+    "topics": [
+      "Christian Living",
+      "Love",
+      "Service"
+    ],
+    "keywords": [
+      "laying down your life",
+      "serving others",
+      "sacrificial love",
+      "following Christ",
+      "Christian service"
+    ],
+    "scripture": {
+      "ref": "John 10:15",
+      "text": "As the Father knoweth me, even so know I the Father: and I lay down my life for the sheep."
     }
   },
   {
@@ -917,6 +959,27 @@
     }
   },
   {
+    "id": "i-am-fulfilled-in-jesus",
+    "title": "I Am Fulfilled In Jesus",
+    "summary": "True contentment is found in being satisfied in Christ rather than depending upon circumstances or possessions for fulfillment.",
+    "topics": [
+      "Faith",
+      "Contentment",
+      "Christian Living"
+    ],
+    "keywords": [
+      "fulfilled in Jesus",
+      "contentment in Christ",
+      "satisfaction in Jesus",
+      "Psalm 23",
+      "Christian contentment"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:1",
+      "text": "The LORD is my shepherd; I shall not want."
+    }
+  },
+  {
     "id": "joy-is-spiritual",
     "title": "Joy Is Spiritual",
     "summary": "True joy is rooted in God, not changing circumstances.",
@@ -1143,6 +1206,27 @@
     "scripture": {
       "ref": "Genesis 13:3-4",
       "text": "And he went on his journeys from the south even to Bethel, unto the place where his tent had been at the first, between Bethel and Hai; Unto the place of the altar, which he had made there at the first: and there Abram called on the name of the LORD."
+    }
+  },
+  {
+    "id": "secure-in-the-shepherd",
+    "title": "Secure In The Shepherd",
+    "summary": "Believers can rest securely in God because the presence of the Shepherd is greater than the dangers around them.",
+    "topics": [
+      "Faith",
+      "Trust",
+      "Rest"
+    ],
+    "keywords": [
+      "secure in the Shepherd",
+      "Psalm 23",
+      "trusting God",
+      "security in God",
+      "God our Shepherd"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:2",
+      "text": "He maketh me to lie down in green pastures: he leadeth me beside the still waters."
     }
   },
   {
@@ -1771,6 +1855,27 @@
     }
   },
   {
+    "id": "when-god-closes-a-door",
+    "title": "When God Closes A Door",
+    "summary": "When circumstances do not unfold as we planned, believers can surrender their way to God and trust His direction.",
+    "topics": [
+      "Surrender",
+      "Trust",
+      "God's Will"
+    ],
+    "keywords": [
+      "when God closes a door",
+      "God's direction",
+      "God's will",
+      "surrender",
+      "trusting God's plan"
+    ],
+    "scripture": {
+      "ref": "Proverbs 16:9",
+      "text": "A man's heart deviseth his way: but the LORD directeth his steps."
+    }
+  },
+  {
     "id": "barrenness-season",
     "title": "Barrenness Is Not Permanent",
     "summary": "Seasons of waiting and delay do not mean God has forgotten you.",
@@ -2225,6 +2330,27 @@
     "scripture": {
       "ref": "Galatians 5:25",
       "text": "If we live in the Spirit, let us also walk in the Spirit."
+    }
+  },
+  {
+    "id": "living-waters-within",
+    "title": "Living Waters Within",
+    "summary": "Christ gives living water that becomes an inward source of spiritual life and refreshment.",
+    "topics": [
+      "Holy Spirit",
+      "Spiritual Growth",
+      "Faith"
+    ],
+    "keywords": [
+      "living waters",
+      "living water within",
+      "Holy Spirit",
+      "spiritual life",
+      "John 7"
+    ],
+    "scripture": {
+      "ref": "John 7:38-39",
+      "text": "He that believeth on me, as the scripture hath said, out of his belly shall flow rivers of living water. (But this spake he of the Spirit, which they that believe on him should receive: for the Holy Ghost was not yet given; because that Jesus was not yet glorified.)"
     }
   },
   {
@@ -3330,6 +3456,48 @@
     "scripture": {
       "ref": "Ephesians 2:10",
       "text": "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them."
+    }
+  },
+  {
+    "id": "god-teaches-us-to-rest",
+    "title": "God Teaches Us To Rest",
+    "summary": "God calls His people to rest in Him rather than live continually controlled by anxiety, striving, and fear.",
+    "topics": [
+      "Rest",
+      "Trust",
+      "Faith"
+    ],
+    "keywords": [
+      "God teaches us to rest",
+      "resting in God",
+      "spiritual rest",
+      "surrender",
+      "trusting God"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:2",
+      "text": "He maketh me to lie down in green pastures: he leadeth me beside the still waters."
+    }
+  },
+  {
+    "id": "god-is-our-place-of-healing-and-rest",
+    "title": "God Is Our Place Of Healing And Rest",
+    "summary": "God restores the soul and provides a place of spiritual rest, renewal, and fulfillment for those who trust Him.",
+    "topics": [
+      "Restoration",
+      "Rest",
+      "Faith"
+    ],
+    "keywords": [
+      "God is our place of healing",
+      "healing and rest",
+      "soul restoration",
+      "Psalm 23",
+      "resting in God"
+    ],
+    "scripture": {
+      "ref": "Psalm 23:2-3",
+      "text": "He maketh me to lie down in green pastures: he leadeth me beside the still waters. He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake."
     }
   },
   {
@@ -4547,6 +4715,27 @@
     "scripture": {
       "ref": "Proverbs 3:5",
       "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding."
+    }
+  },
+  {
+    "id": "you-are-not-in-control",
+    "title": "You Are Not In Control",
+    "summary": "Recognizing our lack of control teaches us to surrender our plans and trust God's wisdom and direction.",
+    "topics": [
+      "Trust",
+      "Surrender",
+      "Faith"
+    ],
+    "keywords": [
+      "you are not in control",
+      "surrender to God",
+      "God's will",
+      "trusting God's plan",
+      "surrender"
+    ],
+    "scripture": {
+      "ref": "Proverbs 3:5-6",
+      "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths."
     }
   },
   {
