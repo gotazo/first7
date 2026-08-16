@@ -12,6 +12,9 @@ from '../../components/tools/biblical-name-generator/BiblicalNameGenerator.astro
 import BibleReadingPlan
 from '../../components/tools/bible-reading-plan/BibleReadingPlan.astro';
 
+import QRCodeGenerator
+from '../../components/tools/qr-code/QRCodeGenerator.astro';
+
 type ToolEntry = CollectionEntry<'tools'>;
 
 export async function getStaticPaths() {
@@ -43,6 +46,7 @@ const components = {
   FinanceTool,
   BiblicalNameGenerator,
   BibleReadingPlan,
+  QRCodeGenerator,
 } as const;
 
 type ComponentKey = keyof typeof components;
