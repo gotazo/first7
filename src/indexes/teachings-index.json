@@ -126,6 +126,27 @@
     }
   },
   {
+    "id": "jesus-must-be-the-center",
+    "title": "Jesus Must Be The Center",
+    "summary": "Jesus must remain at the center of the believer's life because spiritual life, righteousness, and fruitfulness depend upon Him.",
+    "topics": [
+      "Christ",
+      "Spiritual Growth",
+      "Christian Living"
+    ],
+    "keywords": [
+      "Jesus must be the center",
+      "Christ centered life",
+      "abiding in Christ",
+      "Jesus",
+      "righteousness in Christ"
+    ],
+    "scripture": {
+      "ref": "John 15:5",
+      "text": "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing."
+    }
+  },
+  {
     "id": "breaking-generational-patterns",
     "title": "Breaking Generational Patterns",
     "summary": "God's people are called to turn away from destructive patterns and walk in obedience rather than continue the failures of those who came before them.",
@@ -144,6 +165,27 @@
     "scripture": {
       "ref": "Ezekiel 18:20",
       "text": "The soul that sinneth, it shall die. The son shall not bear the iniquity of the father, neither shall the father bear the iniquity of the son: the righteousness of the righteous shall be upon him, and the wickedness of the wicked shall be upon him."
+    }
+  },
+  {
+    "id": "do-not-live-as-a-victim",
+    "title": "Do Not Live As A Victim",
+    "summary": "Believers should not allow painful experiences to become their identity or prevent them from continuing in God's purpose.",
+    "topics": [
+      "Christian Living",
+      "Perseverance",
+      "Purpose"
+    ],
+    "keywords": [
+      "do not live as a victim",
+      "overcoming adversity",
+      "Christian perseverance",
+      "moving forward",
+      "purpose"
+    ],
+    "scripture": {
+      "ref": "Romans 8:37",
+      "text": "Nay, in all these things we are more than conquerors through him that loved us."
     }
   },
   {
@@ -460,6 +502,27 @@
     "scripture": {
       "ref": "Psalm 23:1",
       "text": "The LORD is my shepherd; I shall not want."
+    }
+  },
+  {
+    "id": "your-need-for-god",
+    "title": "Your Need For God",
+    "summary": "Spiritual life requires continual dependence upon God rather than independence from Him.",
+    "topics": [
+      "Dependence On God",
+      "Spiritual Growth",
+      "Prayer"
+    ],
+    "keywords": [
+      "need for God",
+      "dependence on God",
+      "communion with God",
+      "prayer",
+      "spiritual dependence"
+    ],
+    "scripture": {
+      "ref": "John 15:5",
+      "text": "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing."
     }
   },
   {
@@ -3090,6 +3153,27 @@
     }
   },
   {
+    "id": "when-circumstances-break-you",
+    "title": "When Circumstances Break You",
+    "summary": "Painful circumstances can wound the inner life, but believers are called to continue trusting God rather than allowing disappointment to destroy their hope and purpose.",
+    "topics": [
+      "Perseverance",
+      "Christian Living",
+      "Hope"
+    ],
+    "keywords": [
+      "circumstances",
+      "disappointment",
+      "perseverance",
+      "wounded spirit",
+      "trusting God through hardship"
+    ],
+    "scripture": {
+      "ref": "Proverbs 18:14",
+      "text": "The spirit of a man will sustain his infirmity: but a wounded spirit who can bear?"
+    }
+  },
+  {
     "id": "examine-yourself-before-prayer",
     "title": "Examine Yourself Before Prayer",
     "summary": "Spiritual maturity requires honest self-examination before approaching God.",
@@ -3436,6 +3520,27 @@
     "scripture": {
       "ref": "Romans 9:15",
       "text": "For he saith to Moses, I will have mercy on whom I will have mercy, and I will have compassion on whom I will have compassion."
+    }
+  },
+  {
+    "id": "living-for-gods-purpose",
+    "title": "Living For God's Purpose",
+    "summary": "Believers are called to continue living and serving according to God's purpose rather than allowing hardship to make them abandon their calling.",
+    "topics": [
+      "Purpose",
+      "Christian Living",
+      "Service"
+    ],
+    "keywords": [
+      "living for God's purpose",
+      "God's purpose",
+      "Christian calling",
+      "serving God",
+      "purpose in life"
+    ],
+    "scripture": {
+      "ref": "Ephesians 2:10",
+      "text": "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them."
     }
   },
   {
@@ -4532,6 +4637,27 @@
     "scripture": {
       "ref": "Deuteronomy 8:18",
       "text": "But thou shalt remember the LORD thy God: for it is he that giveth thee power to get wealth, that he may establish his covenant..."
+    }
+  },
+  {
+    "id": "a-broken-and-contrite-spirit",
+    "title": "A Broken And Contrite Spirit",
+    "summary": "God desires a spirit that is humble, surrendered, and dependent upon Him rather than sustained by self-reliance.",
+    "topics": [
+      "Surrender",
+      "Spiritual Growth",
+      "Christian Living"
+    ],
+    "keywords": [
+      "broken and contrite spirit",
+      "broken spirit",
+      "contrite heart",
+      "surrender to God",
+      "Psalm 51"
+    ],
+    "scripture": {
+      "ref": "Psalm 51:17",
+      "text": "The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise."
     }
   },
   {
