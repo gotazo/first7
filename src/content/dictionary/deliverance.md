@@ -34,8 +34,7 @@ related:
   - rescue
   - freedom
 
-aliases:
-  - deliver
+aliases: []
 
 seeAlso:
   - bondage
@@ -62,7 +61,8 @@ greek:
 
 ## Meaning
 
-Deliverance is the act of rescuing or setting someone free from danger, trouble, or captivity.
+Deliverance is the act of rescuing or setting someone free from danger,
+trouble, or captivity.
 
 It refers to being brought safely out of difficulty or oppression.
 
@@ -70,7 +70,8 @@ It refers to being brought safely out of difficulty or oppression.
 
 ## Biblical Usage
 
-In Scripture, deliverance refers to rescue, release, or preservation from enemies, oppression, danger, or other forms of distress.
+In Scripture, deliverance refers to rescue, release, or preservation from
+enemies, oppression, danger, or other forms of distress.
 
 God is frequently described as the one who delivers His people.
 

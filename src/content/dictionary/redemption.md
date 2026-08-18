@@ -67,9 +67,11 @@ Redemption is the act of redeeming, rescuing, or buying back.
 
 ## Biblical Usage
 
-In Scripture, redemption refers to deliverance, release, or the act of buying back.
+In Scripture, redemption refers to deliverance, release, or the act of
+buying back.
 
-The term is used of people, property, and God's work of redemption throughout the Bible.
+The term is used of people, property, and God's work of redemption
+throughout the Bible.
 
 ---
 

@@ -681,6 +681,33 @@ contain theological interpretation.
 
 **------------------------------------------------------------------------**
 
+### Multiple Locations with the Same Place Name
+
+A single biblical place name may refer to more than one geographical
+location.
+
+When this occurs, keep one canonical dictionary entry for the place name
+and distinguish the different locations in the Biblical Usage section.
+
+The Meaning section should define the place name itself and may briefly
+state that the name refers to more than one place.
+
+Do not create separate dictionary entries merely because the same place
+name occurs in different locations.
+
+Each distinct location should be identified clearly through its biblical
+context and relevant references.
+
+Example:
+
+Succoth is a Hebrew place name meaning "booths" or "shelters." The name
+is used for more than one place in Scripture.
+
+In Genesis, Succoth was a place where Jacob settled after meeting Esau.
+In Exodus, Succoth was the first named stopping place of the children of
+Israel after they departed from Rameses. Another Succoth was located east
+of the Jordan and is mentioned in the account of Gideon.
+
 Nations and People Groups
 
 Examples:
