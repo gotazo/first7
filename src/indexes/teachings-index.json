@@ -126,6 +126,27 @@
     }
   },
   {
+    "id": "understanding-your-authority-in-christ",
+    "title": "Understanding Your Authority In Christ",
+    "summary": "Understanding the authority God has given His people helps believers live according to their identity and responsibility before Him.",
+    "topics": [
+      "Authority",
+      "Christian Living",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "authority in Christ",
+      "Christian authority",
+      "authority of believers",
+      "dominion",
+      "spiritual authority"
+    ],
+    "scripture": {
+      "ref": "Genesis 1:26",
+      "text": "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth."
+    }
+  },
+  {
     "id": "jesus-at-the-center",
     "title": "Jesus At The Center",
     "summary": "Jesus must remain at the center of the believer's life, desires, worship, and surrender.",
@@ -1020,6 +1041,27 @@
     "scripture": {
       "ref": "Hebrews 11:1",
       "text": "Now faith is the substance of things hoped for, the evidence of things not seen."
+    }
+  },
+  {
+    "id": "faith-that-knows-who-god-is",
+    "title": "Faith That Knows Who God Is",
+    "summary": "Genuine faith trusts God's character and power even when circumstances are uncertain.",
+    "topics": [
+      "Faith",
+      "Trust",
+      "God's Character"
+    ],
+    "keywords": [
+      "faith that knows God",
+      "trusting God",
+      "faith in difficult circumstances",
+      "faith and fear",
+      "knowing God"
+    ],
+    "scripture": {
+      "ref": "Daniel 3:17-18",
+      "text": "If it be so, our God whom we serve is able to deliver us from the burning fiery furnace, and he will deliver us out of thine hand, O king. But if not, be it known unto thee, O king, that we will not serve thy gods, nor worship the golden image which thou hast set up."
     }
   },
   {
@@ -2810,6 +2852,27 @@
     }
   },
   {
+    "id": "know-your-position-in-christ",
+    "title": "Know Your Position In Christ",
+    "summary": "Knowing our position in Christ changes how we understand ourselves and face spiritual opposition.",
+    "topics": [
+      "Identity",
+      "Christ",
+      "Spiritual Warfare"
+    ],
+    "keywords": [
+      "position in Christ",
+      "identity in Christ",
+      "seated with Christ",
+      "spiritual position",
+      "believer's identity"
+    ],
+    "scripture": {
+      "ref": "Ephesians 2:6",
+      "text": "And hath raised us up together, and made us sit together in heavenly places in Christ Jesus:"
+    }
+  },
+  {
     "id": "security-in-christ",
     "title": "Security In Christ",
     "summary": "Believers can live with confidence because their security rests in the faithful power and promises of Jesus Christ.",
@@ -2993,6 +3056,27 @@
     "scripture": {
       "ref": "Galatians 1:10",
       "text": "For if I yet pleased men, I should not be the servant of Christ."
+    }
+  },
+  {
+    "id": "true-power-serves-rather-than-manipulates",
+    "title": "True Power Serves Rather Than Manipulates",
+    "summary": "Godly authority is expressed through service, protection, and responsibility rather than manipulation or control.",
+    "topics": [
+      "Leadership",
+      "Authority",
+      "Servanthood"
+    ],
+    "keywords": [
+      "godly authority",
+      "true power",
+      "servant leadership",
+      "Christian leadership",
+      "authority and service"
+    ],
+    "scripture": {
+      "ref": "Mark 10:43-45",
+      "text": "But so shall it not be among you: but whosoever will be great among you, shall be your minister: And whosoever of you will be the chiefest, shall be servant of all. For even the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many."
     }
   },
   {
@@ -3360,6 +3444,27 @@
     "scripture": {
       "ref": "Proverbs 18:14",
       "text": "The spirit of a man will sustain his infirmity: but a wounded spirit who can bear?"
+    }
+  },
+  {
+    "id": "diligence-in-prayer",
+    "title": "Diligence In Prayer",
+    "summary": "Diligent prayer requires persistent faith, continued seeking, and confidence in the God we are praying to.",
+    "topics": [
+      "Prayer",
+      "Faith",
+      "Spiritual Growth"
+    ],
+    "keywords": [
+      "diligence in prayer",
+      "persistent prayer",
+      "praying with faith",
+      "prayer and diligence",
+      "faithful prayer"
+    ],
+    "scripture": {
+      "ref": "Hebrews 11:6",
+      "text": "But without faith it is impossible to please him: for he that cometh to God must believe that he is, and that he is a rewarder of them that diligently seek him."
     }
   },
   {
@@ -4684,6 +4789,27 @@
     "scripture": {
       "ref": "Deuteronomy 18:10-12",
       "text": "There shall not be found among you any one that maketh his son or his daughter to pass through the fire, or that useth divination, or an observer of times, or an enchanter, or a witch, Or a charmer, or a consulter with familiar spirits, or a wizard, or a necromancer. For all that do these things are an abomination unto the LORD: and because of these abominations the LORD thy God doth drive them out from before thee."
+    }
+  },
+  {
+    "id": "spiritual-warfare-requires-discernment",
+    "title": "Spiritual Warfare Requires Discernment",
+    "summary": "Spiritual warfare requires believers to understand what they are facing and respond with the weapons God has provided.",
+    "topics": [
+      "Spiritual Warfare",
+      "Discernment",
+      "Christian Living"
+    ],
+    "keywords": [
+      "spiritual warfare",
+      "discernment in spiritual warfare",
+      "weapons of spiritual warfare",
+      "spiritual weapons",
+      "Christian discernment"
+    ],
+    "scripture": {
+      "ref": "Ephesians 6:11",
+      "text": "Put on the whole armour of God, that ye may be able to stand against the wiles of the devil."
     }
   },
   {
