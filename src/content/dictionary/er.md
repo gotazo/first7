@@ -3,24 +3,28 @@ title: Er
 
 term: er
 
-shortMeaning: A proper name of uncertain meaning.
+shortMeaning: A Hebrew and biblical masculine proper name traditionally associated with "awake" or "watchful."
 
 biblicalUsage: >
   In Scripture, Er was the firstborn son of Judah and the husband of
-  Tamar. He was slain by the LORD because of his wickedness.
+  Tamar. He was wicked in the sight of the LORD, and the LORD put him to
+  death. The name Er is also borne by another descendant of Judah
+  mentioned in the genealogy of 1 Chronicles.
 
 reference:
+  ref: Genesis 38:3
+  text: "And she conceived, and bare a son; and he called his name Er."
+
+featuredVerse:
   ref: Genesis 38:7
   text: "And Er, Judah's firstborn, was wicked in the sight of the LORD; and the LORD slew him."
 
-featuredVerse:
-  ref: Genesis 46:12
-  text: "And the sons of Judah; Er, and Onan, and Shelah, and Pharez, and Zerah: but Er and Onan died in the land of Canaan."
-
 scriptures:
-  - Genesis 38:1-7
+  - Genesis 38:3-7
   - Genesis 46:12
+  - Numbers 26:19
   - 1 Chronicles 2:3
+  - 1 Chronicles 4:21
 
 related:
   - judah
@@ -31,30 +35,28 @@ related:
 aliases: []
 
 seeAlso:
+  - firstborn
+  - genealogy
   - perez
-  - zerah
+  - z erah
 
 tags:
   - people
   - genesis
-  - family
-  - patriarchs
+  - judah
+  - genealogy
 
 hebrew:
   word: עֵר
   transliteration: Er
-  meaning: uncertain
-
-greek:
-  word: Ἤρ
-  transliteration: Er
-  meaning: Er
+  meaning: traditionally associated with "awake" or "watchful"
 
 ---
 
 ## Meaning
 
-Er is a proper name of uncertain meaning.
+Er is a Hebrew and biblical masculine proper name traditionally associated
+with "awake" or "watchful."
 
 ---
 
@@ -62,15 +64,20 @@ Er is a proper name of uncertain meaning.
 
 In Scripture, Er was the firstborn son of Judah and the husband of Tamar.
 
-He was slain by the LORD because of his wickedness.
+He was wicked in the sight of the LORD, and the LORD put him to death.
+
+The name Er is also borne by another descendant of Judah mentioned in the
+genealogy of 1 Chronicles.
 
 ---
 
 ## Key References
 
-- Genesis 38:1-7
+- Genesis 38:3-7
 - Genesis 46:12
+- Numbers 26:19
 - 1 Chronicles 2:3
+- 1 Chronicles 4:21
 
 ---
 
@@ -80,3 +87,5 @@ He was slain by the LORD because of his wickedness.
 - Tamar
 - Onan
 - Shelah
+- Firstborn
+- Genealogy

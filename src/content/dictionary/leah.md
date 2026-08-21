@@ -3,16 +3,17 @@ title: Leah
 
 term: leah
 
-shortMeaning: A proper name of uncertain meaning.
+shortMeaning: A Hebrew and biblical feminine proper name traditionally associated with "weary"; another proposed association is "wild cow."
 
 biblicalUsage: >
-  In Scripture, Leah was the elder daughter of Laban and the first wife
-  of Jacob. She was the mother of six of Jacob's sons and of his daughter
-  Dinah.
+  In Scripture, Leah was the elder daughter of Laban and the wife of
+  Jacob. She became the mother of Reuben, Simeon, Levi, Judah, Issachar,
+  Zebulun, and Dinah. Leah was buried with Jacob's family in the cave of
+  Machpelah.
 
 reference:
   ref: Genesis 29:16
-  text: "And Laban had two daughters: the name of the elder was Leah, and the name of the younger Rachel."
+  text: "And Laban had two daughters: the name of the elder was Leah, and the name of the younger was Rachel."
 
 featuredVerse:
   ref: Genesis 29:31
@@ -22,8 +23,9 @@ scriptures:
   - Genesis 29:16-35
   - Genesis 30:1-21
   - Genesis 31:4-16
-  - Genesis 33:1-2
+  - Genesis 33:1-7
   - Genesis 35:23
+  - Genesis 46:15
   - Genesis 49:31
   - Ruth 4:11
 
@@ -37,39 +39,41 @@ related:
 aliases: []
 
 seeAlso:
+  - issachar
+  - zebulun
+  - dinah
   - twelve tribes
-  - israel
 
 tags:
   - people
   - genesis
-  - patriarchs
+  - jacob
+  - israel
 
 hebrew:
   word: לֵאָה
   transliteration: Le'ah
-  meaning: uncertain
-
-greek:
-  word: Λεία
-  transliteration: Leia
-  meaning: Leah
+  meaning: traditionally associated with "weary"; another proposed association is "wild cow"
 
 ---
 
 ## Meaning
 
-Leah is a proper name of uncertain meaning.
+Leah is a Hebrew and biblical feminine proper name traditionally associated
+with "weary."
+
+Another proposed association connects the name with "wild cow."
 
 ---
 
 ## Biblical Usage
 
-In Scripture, Leah was the elder daughter of Laban and the first wife of Jacob.
+In Scripture, Leah was the elder daughter of Laban and the wife of Jacob.
 
-She was the mother of six of Jacob's sons: Reuben, Simeon, Levi, Judah, Issachar, and Zebulun. She was also the mother of his daughter Dinah.
+She became the mother of Reuben, Simeon, Levi, Judah, Issachar, Zebulun,
+and Dinah.
 
-Leah was buried in the cave of Machpelah.
+Leah was buried with Jacob's family in the cave of Machpelah.
 
 ---
 
@@ -78,8 +82,9 @@ Leah was buried in the cave of Machpelah.
 - Genesis 29:16-35
 - Genesis 30:1-21
 - Genesis 31:4-16
-- Genesis 33:1-2
+- Genesis 33:1-7
 - Genesis 35:23
+- Genesis 46:15
 - Genesis 49:31
 - Ruth 4:11
 
@@ -92,3 +97,6 @@ Leah was buried in the cave of Machpelah.
 - Laban
 - Reuben
 - Judah
+- Issachar
+- Zebulun
+- Dinah

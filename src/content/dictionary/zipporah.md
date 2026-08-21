@@ -3,7 +3,7 @@ title: Zipporah
 
 term: zipporah
 
-shortMeaning: A Hebrew proper name meaning "bird."
+shortMeaning: A Hebrew feminine proper name meaning "bird."
 
 biblicalUsage: >
   In Scripture, Zipporah is the daughter of Jethro, the priest of Midian,
@@ -54,18 +54,26 @@ hebrew:
 
 ## Meaning
 
-Zipporah is a Hebrew proper name meaning "bird."
+Zipporah is a Hebrew feminine proper name meaning "bird."
 
 ---
 
 ## Biblical Usage
 
-In Scripture, Zipporah is the daughter of Jethro, the priest of Midian,
+In Scripture, Zipporah was the daughter of Jethro, the priest of Midian,
 and the wife of Moses.
 
-She bore Moses two sons, Gershom and Eliezer, and appears in the account
-of the circumcision of their son.
+She bore Moses two sons, Gershom and Eliezer.
 
+When Moses was returning to Egypt, the LORD met him and sought to kill
+him. Zipporah then took a sharp stone, circumcised their son, and touched
+Moses' feet with the foreskin, saying, "Surely a bloody husband art thou
+to me."
+
+After this, the LORD let him go.
+
+The account connects the circumcision of their son with the LORD's
+judgment against Moses.
 ---
 
 ## Key References

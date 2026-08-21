@@ -3,12 +3,14 @@ title: Aaron
 
 term: aaron
 
-shortMeaning: A proper name of uncertain meaning; its etymology is uncertain.
+shortMeaning: A Hebrew and biblical masculine proper name traditionally associated with "exalted," "high mountain," or "mountain of strength"; the exact etymology is uncertain.
 
 biblicalUsage: >
-  In Scripture, Aaron is the elder brother of Moses and Miriam. He served
-  as Moses' spokesman before Pharaoh and was appointed by God as the first
-  high priest of Israel.
+  In Scripture, Aaron was the elder brother of Moses and Miriam and the
+  first high priest of Israel. God appointed Aaron and his sons to the
+  priesthood, and Aaron assisted Moses in speaking to Pharaoh and leading
+  the children of Israel out of Egypt. He served in the tabernacle and
+  was involved in significant events during Israel's wilderness journey.
 
 reference:
   ref: Exodus 4:14
@@ -20,47 +22,51 @@ featuredVerse:
 
 scriptures:
   - Exodus 4:14-16
-  - Exodus 7:1-2
+  - Exodus 7:1-12
   - Exodus 28:1-4
+  - Exodus 32:1-35
   - Leviticus 8:1-36
   - Leviticus 9:1-24
   - Numbers 12:1-15
   - Numbers 16:1-50
   - Numbers 17:1-13
   - Numbers 20:22-29
-  - Deuteronomy 10:6
-  - Psalm 106:16-23
-  - Hebrews 5:4
+  - Numbers 33:38-39
+  - Deuteronomy 9:20
+  - Psalm 106:16
+  - Luke 1:5
+  - Hebrews 5:1-5
   - Hebrews 7:11
 
 related:
   - moses
   - miriam
-  - nadab
-  - abihu
-  - eleazar
-  - ithamar
   - high priest
   - priest
+  - tabernacle
 
 aliases: []
 
 seeAlso:
-  - levite
-  - tabernacle
-  - priest
-  - high priest
+  - nadab
+  - abihu
+  - eleazar
+  - ithamar
+  - rod
+  - ephod
+  - breastplate
 
 tags:
   - people
   - exodus
   - priesthood
-  - levites
+  - israel
+  - tabernacle
 
 hebrew:
   word: אַהֲרֹן
   transliteration: Aharon
-  meaning: uncertain
+  meaning: traditionally associated with "exalted," "high mountain," or "mountain of strength"; etymology uncertain
 
 greek:
   word: Ἀαρών
@@ -71,36 +77,44 @@ greek:
 
 ## Meaning
 
-Aaron is a proper name of uncertain meaning; its etymology is uncertain.
+Aaron is a Hebrew and biblical masculine proper name traditionally
+associated with "exalted," "high mountain," or "mountain of strength."
+
+The exact etymology of the name is uncertain.
 
 ---
 
 ## Biblical Usage
 
-In Scripture, Aaron is the elder brother of Moses and Miriam.
+In Scripture, Aaron was the elder brother of Moses and Miriam and the
+first high priest of Israel.
 
-He served as Moses' spokesman before Pharaoh and was appointed by God as
-the first high priest of Israel.
+God appointed Aaron and his sons to the priesthood, and Aaron assisted
+Moses in speaking to Pharaoh and leading the children of Israel out of
+Egypt.
 
-Aaron was the son of Amram and Jochebed and the father of Nadab, Abihu,
-Eleazar, and Ithamar.
+Aaron served in the tabernacle and was involved in significant events
+during Israel's wilderness journey.
 
 ---
 
 ## Key References
 
 - Exodus 4:14-16
-- Exodus 7:1-2
+- Exodus 7:1-12
 - Exodus 28:1-4
+- Exodus 32:1-35
 - Leviticus 8:1-36
 - Leviticus 9:1-24
 - Numbers 12:1-15
 - Numbers 16:1-50
 - Numbers 17:1-13
 - Numbers 20:22-29
-- Deuteronomy 10:6
-- Psalm 106:16-23
-- Hebrews 5:4
+- Numbers 33:38-39
+- Deuteronomy 9:20
+- Psalm 106:16
+- Luke 1:5
+- Hebrews 5:1-5
 - Hebrews 7:11
 
 ---
@@ -109,9 +123,10 @@ Eleazar, and Ithamar.
 
 - Moses
 - Miriam
+- High Priest
+- Priest
+- Tabernacle
 - Nadab
 - Abihu
 - Eleazar
 - Ithamar
-- High Priest
-- Priest

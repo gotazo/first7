@@ -3,11 +3,13 @@ title: Zebulun
 
 term: zebulun
 
-shortMeaning: A Hebrew proper name associated with "dwelling" or "honor."
+shortMeaning: A Hebrew and biblical masculine proper name meaning "dwelling" or "habitation."
 
 biblicalUsage: >
-  In Scripture, Zebulun was the tenth son of Jacob and the sixth son
-  of Leah. He became the ancestor of the tribe of Zebulun.
+  In Scripture, Zebulun was the sixth son of Jacob and the youngest son
+  of Leah. He became the ancestor of the tribe of Zebulun, one of the
+  twelve tribes of Israel. His inheritance was located in northern
+  Canaan, and the tribe is mentioned throughout the history of Israel.
 
 reference:
   ref: Genesis 30:20
@@ -22,54 +24,69 @@ scriptures:
   - Genesis 35:23
   - Genesis 46:14
   - Genesis 49:13
-  - Exodus 1:3
   - Numbers 1:30-31
   - Numbers 26:26-27
   - Deuteronomy 33:18-19
   - Joshua 19:10-16
+  - Judges 4:6
+  - Judges 5:18
+  - Matthew 4:13-16
 
 related:
   - jacob
   - leah
   - issachar
   - tribe of zebulun
+  - canaan
 
 aliases: []
 
 seeAlso:
-  - twelve tribes
+  - naphtali
   - galilee
+  - twelve tribes
 
 tags:
   - people
   - genesis
-  - family
-  - patriarchs
+  - tribes
+  - israel
 
 hebrew:
-  word: זְבוּלוּן
-  transliteration: Zebulun
-  meaning: dwelling; honor
+  word: זְבוּלֻן
+  transliteration: Zevulun
+  meaning: dwelling; habitation
 
 greek:
   word: Ζαβουλών
-  transliteration: Zaboulōn
+  transliteration: Zabulōn
   meaning: Zebulun
 
 ---
 
 ## Meaning
 
-Zebulun is a Hebrew proper name associated with "dwelling" or "honor."
+Zebulun is a Hebrew and biblical masculine proper name meaning "dwelling"
+or "habitation."
+
+The name is connected with Leah's words that her husband would dwell with
+her after the birth of her sixth son.
 
 ---
 
 ## Biblical Usage
 
-In Scripture, Zebulun was the tenth son of Jacob and the sixth son of
+In Scripture, Zebulun was the sixth son of Jacob and the youngest son of
 Leah.
 
-He became the ancestor of the tribe of Zebulun.
+He became the ancestor of the tribe of Zebulun, one of the twelve tribes
+of Israel.
+
+His inheritance was located in northern Canaan, and the tribe is
+mentioned throughout the history of Israel.
+
+The region of Zebulun is also mentioned in the New Testament in
+connection with the beginning of Jesus' ministry in Galilee.
 
 ---
 
@@ -79,11 +96,13 @@ He became the ancestor of the tribe of Zebulun.
 - Genesis 35:23
 - Genesis 46:14
 - Genesis 49:13
-- Exodus 1:3
 - Numbers 1:30-31
 - Numbers 26:26-27
 - Deuteronomy 33:18-19
 - Joshua 19:10-16
+- Judges 4:6
+- Judges 5:18
+- Matthew 4:13-16
 
 ---
 
@@ -93,3 +112,6 @@ He became the ancestor of the tribe of Zebulun.
 - Leah
 - Issachar
 - Tribe of Zebulun
+- Canaan
+- Naphtali
+- Galilee

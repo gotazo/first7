@@ -3,77 +3,80 @@ title: Onan
 
 term: onan
 
-shortMeaning: A proper name of uncertain meaning.
+shortMeaning: A Hebrew and biblical masculine proper name traditionally associated with "strong" or "vigorous."
 
 biblicalUsage: >
-  In Scripture, Onan was the second son of Judah. After the death of his
-  brother Er, Onan was instructed to raise up seed for his brother through
-  Tamar. He refused to fulfill this obligation and was slain by the LORD.
+  In Scripture, Onan was the second son of Judah and the brother of Er and
+  Shelah. After the death of Er, Judah instructed Onan to fulfill his
+  family duty toward Tamar. Onan refused to provide offspring for his
+  brother's line, and the LORD judged him for his actions.
 
 reference:
-  ref: Genesis 38:8
-  text: "And Judah said unto Onan, Go in unto thy brother's wife, and marry her, and raise up seed to thy brother."
+  ref: Genesis 38:4
+  text: "And she conceived, and bare a son; and she called his name Onan."
 
 featuredVerse:
-  ref: Genesis 38:10
-  text: "And the thing which he did displeased the LORD: wherefore he slew him also."
+  ref: Genesis 38:9
+  text: "And Onan knew that the seed should not be his; and it came to pass, when he went in unto his brother's wife, that he spilled it on the ground, lest that he should give seed to his brother."
 
 scriptures:
-  - Genesis 38:6-10
+  - Genesis 38:4-10
   - Genesis 46:12
+  - Numbers 26:19
   - 1 Chronicles 2:3
 
 related:
   - judah
-  - tamar
   - er
+  - tamar
   - shelah
 
 aliases: []
 
 seeAlso:
   - firstborn
-  - inheritance
+  - perez
+  - genealogy
+  - levirate marriage
 
 tags:
   - people
   - genesis
-  - family
-  - patriarchs
+  - judah
+  - genealogy
 
 hebrew:
   word: אוֹנָן
   transliteration: Onan
-  meaning: uncertain
-
-greek:
-  word: Αὐνάν
-  transliteration: Aunan
-  meaning: Onan
+  meaning: strong; vigorous
 
 ---
 
 ## Meaning
 
-Onan is a proper name of uncertain meaning.
+Onan is a Hebrew and biblical masculine proper name traditionally
+associated with "strong" or "vigorous."
 
 ---
 
 ## Biblical Usage
 
-In Scripture, Onan was the second son of Judah.
+In Scripture, Onan was the second son of Judah and the brother of Er and
+Shelah.
 
-After the death of his brother Er, Onan was instructed to raise up seed
-for his brother through Tamar.
+After the death of Er, Judah instructed Onan to fulfill his family duty
+toward Tamar.
 
-He refused to fulfill this obligation and was slain by the LORD.
+Onan refused to provide offspring for his brother's line, and the LORD
+judged him for his actions.
 
 ---
 
 ## Key References
 
-- Genesis 38:6-10
+- Genesis 38:4-10
 - Genesis 46:12
+- Numbers 26:19
 - 1 Chronicles 2:3
 
 ---
@@ -81,6 +84,8 @@ He refused to fulfill this obligation and was slain by the LORD.
 ## Related Terms
 
 - Judah
-- Tamar
 - Er
+- Tamar
 - Shelah
+- Perez
+- Genealogy

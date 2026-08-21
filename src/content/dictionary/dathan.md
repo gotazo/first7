@@ -3,60 +3,61 @@ title: Dathan
 
 term: dathan
 
-shortMeaning: A proper name of uncertain meaning.
+shortMeaning: A Hebrew and biblical masculine proper name of uncertain etymology; it is traditionally associated with "fountain."
 
 biblicalUsage: >
   In Scripture, Dathan was a son of Eliab of the tribe of Reuben. He
-  joined Korah and Abiram in opposing Moses and Aaron in the wilderness.
-  He was among those judged by the LORD during the rebellion.
+  joined Korah and Abiram in opposing the authority of Moses and Aaron
+  during Israel's wilderness journey. Dathan and Abiram were judged by
+  the LORD when the earth opened and swallowed them and their households.
 
 reference:
-  ref: Exodus 6:14
-  text: "These be the heads of their fathers' houses: The sons of Reuben the firstborn of Israel; Hanoch, and Pallu, Hezron, and Carmi: these be the families of Reuben."
+  ref: Numbers 16:1
+  text: "Now Korah, the son of Izhar, the son of Kohath, the son of Levi, and Dathan and Abiram, the sons of Eliab, and On, the son of Peleth, sons of Reuben, took men:"
 
 featuredVerse:
-  ref: Numbers 16:12
-  text: "And Moses sent to call Dathan and Abiram, the sons of Eliab: which said, We will not come up:"
+  ref: Numbers 16:32
+  text: "And the earth opened her mouth, and swallowed them up, and their houses, and all the men that appertained unto Korah, and all their goods."
 
 scriptures:
-  - Exodus 6:14-25
   - Numbers 16:1-35
-  - Numbers 26:7-11
+  - Numbers 26:9-11
   - Deuteronomy 11:6
   - Psalm 106:16-18
 
 related:
-  - korah
   - abiram
-  - eliab
-  - reuben
+  - korah
   - moses
   - aaron
+  - reuben
 
 aliases: []
 
 seeAlso:
   - rebellion
-  - levite
   - wilderness
-  - israel
+  - judgment
 
 tags:
   - people
   - exodus
-  - rebellion
+  - wilderness
   - reuben
 
 hebrew:
   word: דָּתָן
   transliteration: Dathan
-  meaning: uncertain
+  meaning: traditionally associated with "fountain"; etymology uncertain
 
 ---
 
 ## Meaning
 
-Dathan is a proper name of uncertain meaning.
+Dathan is a Hebrew and biblical masculine proper name of uncertain
+etymology.
+
+The name is traditionally associated with "fountain."
 
 ---
 
@@ -64,18 +65,18 @@ Dathan is a proper name of uncertain meaning.
 
 In Scripture, Dathan was a son of Eliab of the tribe of Reuben.
 
-He joined Korah and Abiram in opposing Moses and Aaron in the
-wilderness.
+He joined Korah and Abiram in opposing the authority of Moses and Aaron
+during Israel's wilderness journey.
 
-He was among those judged by the LORD during the rebellion.
+Dathan and Abiram were judged by the LORD when the earth opened and
+swallowed them and their households.
 
 ---
 
 ## Key References
 
-- Exodus 6:14-25
 - Numbers 16:1-35
-- Numbers 26:7-11
+- Numbers 26:9-11
 - Deuteronomy 11:6
 - Psalm 106:16-18
 
@@ -83,9 +84,9 @@ He was among those judged by the LORD during the rebellion.
 
 ## Related Terms
 
-- Korah
 - Abiram
-- Eliab
-- Reuben
+- Korah
 - Moses
 - Aaron
+- Reuben
+- Rebellion

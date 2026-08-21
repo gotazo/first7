@@ -3,13 +3,13 @@ title: Hagar
 
 term: hagar
 
-shortMeaning: A proper name of uncertain meaning..
+shortMeaning: A biblical feminine proper name possibly meaning "flight"; the exact origin of the name is uncertain.
 
 biblicalUsage: >
-  In Scripture, Hagar was an Egyptian maidservant of Sarah and the
-  mother of Ishmael by Abraham. She is mentioned in the account of
-  Ishmael's birth and in the events surrounding her departure from
-  Abraham's household.
+  In Scripture, Hagar was an Egyptian handmaid of Sarai and the mother of
+  Ishmael. After Sarai gave Hagar to Abram as a wife, Hagar conceived
+  Ishmael. She was later sent away with Ishmael into the wilderness, where
+  the angel of the LORD met her and God heard the voice of the child.
 
 reference:
   ref: Genesis 16:1
@@ -17,62 +17,65 @@ reference:
 
 featuredVerse:
   ref: Genesis 16:13
-  text: "And she called the name of the LORD that spake unto her, Thou God seest me..."
+  text: "And she called the name of the LORD that spake unto her, Thou God seest me: for she said, Have I also here looked after him that seeth me?"
 
 scriptures:
-  - Genesis 16
+  - Genesis 16:1-16
   - Genesis 21:8-21
-  - Galatians 4:21-31
+  - Galatians 4:22-31
 
 related:
   - abraham
   - sarah
   - ishmael
+  - egypt
 
 aliases: []
 
 seeAlso:
-  - isaac
-  - egypt
+  - sojourner
+  - wilderness
+  - covenant
 
 tags:
   - people
-  - patriarchs
   - genesis
+  - egypt
+  - ishmael
 
 hebrew:
   word: הָגָר
-  transliteration: hagar
-  meaning: etymology uncertain
-
-greek:
-  word: Ἄγαρ
   transliteration: Hagar
-  meaning: Hagar
+  meaning: possibly "flight"; exact origin uncertain
 
 ---
 
 ## Meaning
 
-Hagar is a proper name of uncertain meaning.
+Hagar is a biblical feminine proper name possibly meaning "flight."
+
+The exact origin of the name is uncertain, and an Egyptian origin has also
+been proposed.
 
 ---
 
 ## Biblical Usage
 
-In Scripture, Hagar was an Egyptian maidservant of Sarah and the mother of Ishmael by Abraham.
+In Scripture, Hagar was an Egyptian handmaid of Sarai and the mother of
+Ishmael.
 
-She is mentioned in the account of Ishmael's birth and in the events surrounding her departure from Abraham's household.
+After Sarai gave Hagar to Abram as a wife, Hagar conceived Ishmael.
 
-Hagar is also mentioned by Paul in Galatians.
+She was later sent away with Ishmael into the wilderness, where the angel
+of the LORD met her and God heard the voice of the child.
 
 ---
 
 ## Key References
 
-- Genesis 16
+- Genesis 16:1-16
 - Genesis 21:8-21
-- Galatians 4:21-31
+- Galatians 4:22-31
 
 ---
 
@@ -81,3 +84,6 @@ Hagar is also mentioned by Paul in Galatians.
 - Abraham
 - Sarah
 - Ishmael
+- Egypt
+- Wilderness
+- Sojourner

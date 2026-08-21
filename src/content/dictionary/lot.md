@@ -3,78 +3,93 @@ title: Lot
 
 term: lot
 
-shortMeaning: A proper name of uncertain meaning.
+shortMeaning: A biblical masculine proper name traditionally associated with "covering" or "veil."
 
 biblicalUsage: >
-  In Scripture, Lot was the nephew of Abraham. He lived in the region of
-  Sodom and was delivered before the destruction of Sodom and Gomorrah.
+  In Scripture, Lot was the son of Haran and the nephew of Abraham. He
+  traveled with Abraham from Haran into Canaan and later settled in the
+  plain of Jordan near Sodom. Lot was delivered from Sodom before its
+  destruction.
 
 reference:
   ref: Genesis 11:31
-  text: "And Terah took Abram his son, and Lot the son of Haran his son's son, and Sarai his daughter in law, his son Abram's wife; and they went forth with them from Ur of the Chaldees, to go into the land of Canaan; and they came unto Haran, and dwelt there."
+  text: "And Terah took Abram his son, and Lot the son of Haran his son's son, and Sarai his daughter in law, his son Abram's wife; and they went forth with them from Ur of the Chaldees, to go into the land of Canaan..."
 
 featuredVerse:
   ref: Genesis 19:29
-  text: "And it came to pass, when God destroyed the cities of the plain, that God remembered Abraham, and sent Lot out of the midst of the overthrow, when he overthrew the cities in the which Lot dwelt."
+  text: "And it came to pass, when God destroyed the cities of the plain, that God remembered Abraham, and sent Lot out of the midst of the overthrow..."
 
 scriptures:
   - Genesis 11:27-32
-  - Genesis 13
-  - Genesis 14
-  - Genesis 19
+  - Genesis 12:4-5
+  - Genesis 13:1-13
+  - Genesis 14:11-16
+  - Genesis 18:16-33
+  - Genesis 19:1-38
+  - Deuteronomy 2:9
+  - Deuteronomy 2:19
+  - Psalm 83:8
   - Luke 17:28-32
   - 2 Peter 2:7-8
 
 related:
   - abraham
+  - haran
   - sodom
   - gomorrah
-  - zoar
+  - moab
+  - ammon
 
 aliases: []
 
 seeAlso:
-  - haran
+  - zoar
+  - jordan
+  - canaan
+  - deliverance
 
 tags:
   - people
-  - patriarchs
   - genesis
+  - patriarchs
+  - sodom
 
 hebrew:
   word: לוֹט
-  transliteration: lot
-  meaning: etymology uncertain
-
-greek:
-  word: Λώτ
-  transliteration: Lōt
-  meaning: Lot
+  transliteration: Lot
+  meaning: traditionally associated with "covering" or "veil"
 
 ---
 
 ## Meaning
 
-Lot is a proper name of uncertain meaning.
+Lot is a biblical masculine proper name traditionally associated with
+"covering" or "veil."
 
 ---
 
 ## Biblical Usage
 
-In Scripture, Lot was the nephew of Abraham.
+In Scripture, Lot was the son of Haran and the nephew of Abraham.
 
-He lived in the region of Sodom and was delivered before the destruction of Sodom and Gomorrah.
+He traveled with Abraham from Haran into Canaan and later settled in the
+plain of Jordan near Sodom.
 
-Lot is mentioned in both the Old and New Testaments.
+Lot was delivered from Sodom before its destruction.
 
 ---
 
 ## Key References
 
 - Genesis 11:27-32
-- Genesis 13
-- Genesis 14
-- Genesis 19
+- Genesis 12:4-5
+- Genesis 13:1-13
+- Genesis 14:11-16
+- Genesis 18:16-33
+- Genesis 19:1-38
+- Deuteronomy 2:9
+- Deuteronomy 2:19
+- Psalm 83:8
 - Luke 17:28-32
 - 2 Peter 2:7-8
 
@@ -83,6 +98,9 @@ Lot is mentioned in both the Old and New Testaments.
 ## Related Terms
 
 - Abraham
+- Haran
 - Sodom
 - Gomorrah
+- Moab
+- Ammon
 - Zoar

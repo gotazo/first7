@@ -3,13 +3,15 @@ title: Miriam
 
 term: miriam
 
-shortMeaning: A proper name of uncertain meaning; its etymology is uncertain.
+shortMeaning: A Hebrew and biblical feminine proper name of uncertain etymology, traditionally associated with meanings including "bitterness."
 
 biblicalUsage: >
-  In Scripture, Miriam is the sister of Moses and Aaron. She watched over
-  Moses when he was placed in the ark of bulrushes and later led the women
-  of Israel with timbrels and dances after the crossing of the Red sea.
-  She is also called a prophetess.
+  In Scripture, Miriam was the sister of Moses and Aaron. She watched over
+  Moses when he was placed in the ark of bulrushes and helped arrange for
+  their mother to nurse him. Miriam later led the women of Israel with
+  timbrels and dances after the crossing of the Red sea. She was also a
+  prophetess and was temporarily judged with leprosy after speaking
+  against Moses.
 
 reference:
   ref: Exodus 15:20
@@ -25,34 +27,34 @@ scriptures:
   - Numbers 12:1-15
   - Numbers 20:1
   - Numbers 26:59
-  - Deuteronomy 24:8-9
   - 1 Chronicles 6:3
   - Micah 6:4
 
 related:
   - moses
   - aaron
+  - jochebed
+  - amram
   - prophetess
-  - red sea
-  - israel
 
 aliases: []
 
 seeAlso:
-  - exodus
-  - women
+  - red sea
+  - timbrel
   - prophet
+  - egypt
 
 tags:
   - people
   - exodus
-  - women
-  - prophets
+  - israel
+  - prophetess
 
 hebrew:
   word: מִרְיָם
   transliteration: Miryam
-  meaning: uncertain
+  meaning: etymology uncertain; traditionally associated with "bitterness"
 
 greek:
   word: Μαριάμ
@@ -63,19 +65,26 @@ greek:
 
 ## Meaning
 
-Miriam is a proper name of uncertain meaning; its etymology is uncertain.
+Miriam is a Hebrew and biblical feminine proper name of uncertain
+etymology.
+
+The name has traditionally been associated with meanings including
+"bitterness."
 
 ---
 
 ## Biblical Usage
 
-In Scripture, Miriam is the sister of Moses and Aaron.
+In Scripture, Miriam was the sister of Moses and Aaron.
 
 She watched over Moses when he was placed in the ark of bulrushes and
-later led the women of Israel with timbrels and dances after the
+helped arrange for their mother to nurse him.
+
+Miriam later led the women of Israel with timbrels and dances after the
 crossing of the Red sea.
 
-She is also called a prophetess.
+She was also a prophetess and was temporarily judged with leprosy after
+speaking against Moses.
 
 ---
 
@@ -86,7 +95,6 @@ She is also called a prophetess.
 - Numbers 12:1-15
 - Numbers 20:1
 - Numbers 26:59
-- Deuteronomy 24:8-9
 - 1 Chronicles 6:3
 - Micah 6:4
 
@@ -96,6 +104,7 @@ She is also called a prophetess.
 
 - Moses
 - Aaron
+- Jochebed
+- Amram
 - Prophetess
 - Red Sea
-- Israel
