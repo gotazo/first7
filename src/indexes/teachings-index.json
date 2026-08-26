@@ -2086,6 +2086,27 @@
     }
   },
   {
+    "id": "anchored-in-gods-word",
+    "title": "Anchored In God's Word",
+    "summary": "Believers become established through the wilderness by anchoring themselves in what God has spoken rather than depending upon their own solutions.",
+    "topics": [
+      "God's Word",
+      "Spiritual Growth",
+      "Faith"
+    ],
+    "keywords": [
+      "anchored in God's Word",
+      "God's Word",
+      "standing on God's promises",
+      "Scripture and faith",
+      "spiritual foundation"
+    ],
+    "scripture": {
+      "ref": "Matthew 4:4",
+      "text": "But he answered and said, It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God."
+    }
+  },
+  {
     "id": "freedom-from-legalism",
     "title": "Freedom From Legalism",
     "summary": "Salvation and righteousness are found through faith in Christ rather than through human performance or religious works.",
@@ -2829,6 +2850,27 @@
     "scripture": {
       "ref": "Ezekiel 37:5",
       "text": "Thus saith the Lord GOD unto these bones; Behold, I will cause breath to enter into you, and ye shall live."
+    }
+  },
+  {
+    "id": "when-hope-seems-dead",
+    "title": "When Hope Seems Dead",
+    "summary": "God can bring life and restoration into situations that appear completely beyond hope.",
+    "topics": [
+      "Hope",
+      "Restoration",
+      "Faith"
+    ],
+    "keywords": [
+      "when hope seems dead",
+      "dry bones",
+      "hope in impossible situations",
+      "God restores",
+      "biblical hope"
+    ],
+    "scripture": {
+      "ref": "Ezekiel 37:3",
+      "text": "And he said unto me, Son of man, can these bones live? And I answered, O Lord GOD, thou knowest."
     }
   },
   {
@@ -4359,6 +4401,27 @@
     }
   },
   {
+    "id": "know-where-you-are-spiritually",
+    "title": "Know Where You Are Spiritually",
+    "summary": "Spiritual maturity includes recognizing where you are in your spiritual journey and responding according to God's Word rather than merely reacting to outward circumstances.",
+    "topics": [
+      "Spiritual Discernment",
+      "Spiritual Growth",
+      "Christian Living"
+    ],
+    "keywords": [
+      "know where you are spiritually",
+      "spiritual discernment",
+      "spiritual maturity",
+      "spiritual journey",
+      "discerning spiritual seasons"
+    ],
+    "scripture": {
+      "ref": "Ephesians 5:15-16",
+      "text": "See then that ye walk circumspectly, not as fools, but as wise, Redeeming the time, because the days are evil."
+    }
+  },
+  {
     "id": "breaking-generational-patterns",
     "title": "Breaking Generational Patterns",
     "summary": "Through spiritual renewal and obedience to God, believers can overcome destructive patterns that are repeated from one generation to another.",
@@ -4750,6 +4813,27 @@
     }
   },
   {
+    "id": "the-wilderness-builds-spiritual-strength",
+    "title": "The Wilderness Builds Spiritual Strength",
+    "summary": "The wilderness is a difficult season in which believers are tested, strengthened, and taught to depend upon what God has spoken.",
+    "topics": [
+      "Spiritual Growth",
+      "Wilderness",
+      "Faith"
+    ],
+    "keywords": [
+      "wilderness season",
+      "spiritual strength",
+      "growing through trials",
+      "wilderness and faith",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Luke 4:1",
+      "text": "And Jesus being full of the Holy Ghost returned from Jordan, and was led by the Spirit into the wilderness,"
+    }
+  },
+  {
     "id": "the-word-separates-soul-and-spirit",
     "title": "The Word Separates Soul And Spirit",
     "summary": "God's Word reveals the difference between what is natural and what is spiritual, leading believers into greater discernment.",
@@ -4768,6 +4852,27 @@
     "scripture": {
       "ref": "Hebrews 4:12",
       "text": "For the word of God is quick, and powerful, and sharper than any twoedged sword, piercing even to the dividing asunder of soul and spirit, and of the joints and marrow, and is a discerner of the thoughts and intents of the heart."
+    }
+  },
+  {
+    "id": "do-not-mistake-survival-for-growth",
+    "title": "Do Not Mistake Survival For Growth",
+    "summary": "Becoming accustomed to struggle is not the same as building a life that shows evidence of spiritual growth.",
+    "topics": [
+      "Spiritual Maturity",
+      "Spiritual Growth",
+      "Christian Living"
+    ],
+    "keywords": [
+      "survival versus growth",
+      "spiritual maturity",
+      "growing through struggle",
+      "evidence of growth",
+      "spiritual development"
+    ],
+    "scripture": {
+      "ref": "James 1:4",
+      "text": "But let patience have her perfect work, that ye may be perfect and entire, wanting nothing."
     }
   },
   {
