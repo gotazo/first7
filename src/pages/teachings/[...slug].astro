@@ -4,7 +4,6 @@ export const prerender = true;
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
 import StudyHero from "../../components/study/common/StudyHero.astro";
-
 import StudyHeroMeta from "../../components/study/common/StudyHeroMeta.astro";
 import StudyShare from "../../components/study/common/StudyShare.astro";
 import StudyBreadcrumb from "../../components/study/common/StudyBreadcrumb.astro";
@@ -19,6 +18,10 @@ import RelatedTopics from "../../components/prophecy/RelatedTopics.astro";
 import {
   getCollection,
 } from "astro:content";
+
+import {
+  teachingTopics,
+} from "../../data/teachings/teachingTopics";
 
 export async function getStaticPaths() {
 
@@ -55,6 +58,25 @@ export async function getStaticPaths() {
 
 const { teaching } =
   Astro.props;
+
+/**
+ * 📚 Teaching Topic Labels
+ *
+ * The teaching Markdown files store canonical
+ * topic IDs. The registry provides the
+ * human-readable display labels.
+ *
+ * Example:
+ * "holy-spirit" → "Holy Spirit"
+ * "spiritual-growth" → "Spiritual Growth"
+ */
+const teachingTopicLabels =
+  Object.fromEntries(
+    teachingTopics.map((topic) => [
+      topic.id,
+      topic.label,
+    ])
+  );
 
 /**
  * 📚 Collections
@@ -105,234 +127,232 @@ const dictionaryTerms =
   title={teaching.data.title}
 >
 
+  <!-- Main -->
 
-
-    <!-- Main -->
-    <main
-  data-reading-title={teaching.data.title}
-  data-reading-description={teaching.data.summary}
-  data-reading-category={teaching.data.topics?.[0]}
->
-
-      <article
-        class="
-          mx-auto
-          w-full
-          max-w-4xl
-          space-y-10
-        "
-      >
-
-        <!-- Header -->
-        <StudyBreadcrumb
-  items={[
-    { label: "Home", href: "/" },
-    { label: "Teachings", href: "/teachings" },
-    { label: teaching.data.title },
-  ]}
-/>
-
-<StudyHero
-  section="Teaching"
-  title={teaching.data.title}
-  description={teaching.data.summary}
->
-
-  <StudyHeroMeta
-    slot="meta"
-    label="Topics"
-    items={teaching.data.topics}
-    href="/teachings"
-    linkLabel="View all topics"
-  />
-
-  <StudyShare
-    slot="actions"
-    title={teaching.data.title}
-  />
-
-</StudyHero>
-
-        <!-- Scripture -->
-        
-        <StudyScripture
-          reference={teaching.data.scripture.ref}
-          text={teaching.data.scripture.text}
-        />
-
-        <!-- Truth -->
-        <StudySection title="Truth">
-
-  <p>
-
-    {teaching.data.truth}
-
-  </p>
-
-</StudySection>
-
-        <!-- Insight -->
-        <StudySection title="Insight">
-
-  <ul
-    class="
-      list-disc
-      space-y-2
-      pl-6
-    "
+  <main
+    data-reading-title={teaching.data.title}
+    data-reading-description={teaching.data.summary}
+    data-reading-category={teaching.data.topics?.[0]}
   >
 
-    {teaching.data.insight.map(
-      (i: string) => (
-
-        <li>
-
-          {i}
-
-        </li>
-
-      )
-    )}
-
-  </ul>
-
-</StudySection>
-
-        <!-- Application -->
-        <StudySection title="Application">
-
-  <ul
-    class="
-      list-disc
-      space-y-2
-      pl-6
-    "
-  >
-
-    {teaching.data.application.map(
-      (a: string) => (
-
-        <li>
-
-          {a}
-
-        </li>
-
-      )
-    )}
-
-  </ul>
-
-</StudySection>
-
-        <!-- Prayer -->
-{teaching.data.prayer && (
-  <section class="space-y-3">
-
-    <h2
+    <article
       class="
-        text-xl
-        font-medium
+        mx-auto
+        w-full
+        max-w-4xl
+        space-y-10
       "
     >
 
-      Prayer
+      <!-- Header -->
 
-    </h2>
+      <StudyBreadcrumb
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Teachings", href: "/teachings" },
+          { label: teaching.data.title },
+        ]}
+      />
 
-    <p>
+      <StudyHero
+        section="Teaching"
+        title={teaching.data.title}
+        description={teaching.data.summary}
+      >
 
-      {teaching.data.prayer}
+        <StudyHeroMeta
+          slot="meta"
+          label="Topics"
+          items={teaching.data.topics}
+          itemLabels={teachingTopicLabels}
+          href="/teachings"
+          linkLabel="View all topics"
+        />
 
-    </p>
+        <StudyShare
+          slot="actions"
+          title={teaching.data.title}
+        />
 
-  </section>
-)}
+      </StudyHero>
 
-        <!-- Related Scriptures -->
-        {teaching.data.scriptures?.length > 0 && (
+      <!-- Scripture -->
 
-          <RelatedScriptures
-            scriptures={
-              teaching.data.scriptures
-            }
-          />
+      <StudyScripture
+        reference={teaching.data.scripture.ref}
+        text={teaching.data.scripture.text}
+      />
 
-        )}
+      <!-- Truth -->
 
-        <!-- Related Dictionary -->
-        {dictionaryTerms.length > 0 && (
+      <StudySection title="Truth">
 
-          <StudyTerms
-            terms={dictionaryTerms}
-          />
+        <p>
+          {teaching.data.truth}
+        </p>
 
-        )}
+      </StudySection>
 
-        <!-- Related Prophecy -->
-        {relatedProphecy.length > 0 && (
+      <!-- Insight -->
 
-          <RelatedTopics
-            topics={relatedProphecy}
-          />
+      <StudySection title="Insight">
 
-        )}
-
-        <!-- Footer -->
-        <section
+        <ul
           class="
-            space-y-4
-            border-t
-            border-[var(--color-border)]
-            pt-6
+            list-disc
+            space-y-2
+            pl-6
           "
         >
 
-          <p
+          {teaching.data.insight.map(
+            (i: string) => (
+
+              <li>
+                {i}
+              </li>
+
+            )
+          )}
+
+        </ul>
+
+      </StudySection>
+
+      <!-- Application -->
+
+      <StudySection title="Application">
+
+        <ul
+          class="
+            list-disc
+            space-y-2
+            pl-6
+          "
+        >
+
+          {teaching.data.application.map(
+            (a: string) => (
+
+              <li>
+                {a}
+              </li>
+
+            )
+          )}
+
+        </ul>
+
+      </StudySection>
+
+      <!-- Prayer -->
+
+      {teaching.data.prayer && (
+
+        <section class="space-y-3">
+
+          <h2
             class="
-              text-sm
-              leading-relaxed
-              text-[var(--color-muted)]
-            "
-          >
-
-            These teachings are prayerfully
-            developed through Scripture study,
-            sermon preparation, biblical research,
-            and insights learned from various
-            pastors and teachers.
-
-            Content is carefully rewritten and
-            organized to encourage spiritual
-            growth while remaining grounded
-            in Scripture.
-
-          </p>
-
-          <a
-            href="/share"
-            class="
-              btn
-              inline-block
-              rounded-lg
-              px-5
-              py-2.5
-              text-sm
+              text-xl
               font-medium
             "
           >
+            Prayer
+          </h2>
 
-            Share a reflection or testimony →
-
-          </a>
+          <p>
+            {teaching.data.prayer}
+          </p>
 
         </section>
 
-      </article>
+      )}
 
-    </main>
+      <!-- Related Scriptures -->
 
- 
+      {teaching.data.scriptures?.length > 0 && (
+
+        <RelatedScriptures
+          scriptures={
+            teaching.data.scriptures
+          }
+        />
+
+      )}
+
+      <!-- Related Dictionary -->
+
+      {dictionaryTerms.length > 0 && (
+
+        <StudyTerms
+          terms={dictionaryTerms}
+        />
+
+      )}
+
+      <!-- Related Prophecy -->
+
+      {relatedProphecy.length > 0 && (
+
+        <RelatedTopics
+          topics={relatedProphecy}
+        />
+
+      )}
+
+      <!-- Footer -->
+
+      <section
+        class="
+          space-y-4
+          border-t
+          border-[var(--color-border)]
+          pt-6
+        "
+      >
+
+        <p
+          class="
+            text-sm
+            leading-relaxed
+            text-[var(--color-muted)]
+          "
+        >
+
+          These teachings are prayerfully
+          developed through Scripture study,
+          sermon preparation, biblical research,
+          and insights learned from various
+          pastors and teachers.
+
+          Content is carefully rewritten and
+          organized to encourage spiritual
+          growth while remaining grounded
+          in Scripture.
+
+        </p>
+
+        <a
+          href="/share"
+          class="
+            btn
+            inline-block
+            rounded-lg
+            px-5
+            py-2.5
+            text-sm
+            font-medium
+          "
+        >
+          Share a reflection or testimony →
+        </a>
+
+      </section>
+
+    </article>
+
+  </main>
+
 </BaseLayout>
 
 <script>
@@ -340,6 +360,7 @@ const dictionaryTerms =
   /**
    * 📖 Continue Reading
    */
+
   const main =
     document.querySelector("main");
 
@@ -374,6 +395,7 @@ const dictionaryTerms =
   /**
    * 🔗 Share Button
    */
+
   const shareButton =
     document.querySelector(
       "[data-teaching-share]"

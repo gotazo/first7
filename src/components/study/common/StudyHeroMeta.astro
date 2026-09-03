@@ -4,6 +4,7 @@ interface Props {
   items: string[];
   href?: string;
   linkLabel?: string;
+  itemLabels?: Record<string, string>;
 }
 
 const {
@@ -11,11 +12,30 @@ const {
   items,
   href,
   linkLabel,
+  itemLabels,
 } = Astro.props;
+
+/**
+ * Resolve display labels when a label map is provided.
+ *
+ * The stored value remains the canonical ID.
+ * Only the displayed text is changed.
+ *
+ * Example:
+ * "holy-spirit" → "Holy Spirit"
+ * "spiritual-growth" → "Spiritual Growth"
+ *
+ * If no matching label exists, the original item
+ * is displayed unchanged.
+ */
+const displayItems = items.map((item) => ({
+  id: item,
+  label: itemLabels?.[item] ?? item,
+}));
 ---
 
 {
-  items.length > 0 && (
+  displayItems.length > 0 && (
 
     <div class="space-y-3">
 
@@ -39,7 +59,7 @@ const {
         "
       >
 
-        {items.map((item) => (
+        {displayItems.map(({ label: itemLabel }) => (
 
           <span
             class="
@@ -52,7 +72,7 @@ const {
               text-sm
             "
           >
-            {item}
+            {itemLabel}
           </span>
 
         ))}
