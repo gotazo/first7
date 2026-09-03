@@ -1,73 +1,102 @@
 ---
-
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import TeachingSidebar from "../../components/TeachingSidebar.astro";
 import { getCollection } from "astro:content";
+import { teachingTopics } from "../../data/teachings/teachingTopics";
 
-const teachings =
-await getCollection("teachings");
+const teachings = await getCollection("teachings");
 
 /**
+ * Canonical teaching topic registry
+ *
+ * teachingTopics.ts is the single source of truth for:
+ * - topic IDs
+ * - display labels
+ *
+ * Example:
+ * "holy-spirit" → "Holy Spirit"
+ * "spiritual-growth" → "Spiritual Growth"
+ */
+const topicMap = new Map<string, string>(
+  teachingTopics.map((topic) => [
+    topic.id,
+    topic.label,
+  ])
+);
 
-* Get unique topics
-  */
-  const topics = Array.from(
+/**
+ * Build unique canonical topics used by teachings.
+ *
+ * The Markdown files continue to store topic IDs.
+ * We do not modify the teaching Markdown files here.
+ */
+const usedTopicIds = Array.from(
   new Set(
-  teachings.flatMap(
-  (t) => t.data.topics
+    teachings.flatMap(
+      (teaching) => teaching.data.topics
+    )
   )
-  )
-  ).sort();
+);
 
 /**
-
-* Group topics by first letter
-  */
-  const groupedTopics = topics.reduce(
-  (groups, topic) => {
-
-  const letter =
-  topic.charAt(0).toUpperCase();
-
-  if (!groups[letter]) {
-  groups[letter] = [];
-  }
-
-  groups[letter].push({
-  topic,
-
-  teachings:
-  teachings
-  .filter((t) =>
-  t.data.topics.includes(
-  topic
-  )
-  )
+ * Keep only topics that exist in the canonical registry.
+ *
+ * This prevents arbitrary topic strings from becoming
+ * visible topic cards.
+ */
+const topics = usedTopicIds
+  .filter((topicId) => topicMap.has(topicId))
+  .map((topicId) => ({
+    id: topicId,
+    label: topicMap.get(topicId)!,
+  }))
   .sort((a, b) =>
-  a.data.title.localeCompare(
-  b.data.title
-  )
-  ),
-  });
+    a.label.localeCompare(b.label)
+  );
 
-  return groups;
+/**
+ * Group topics alphabetically by their canonical label.
+ */
+const groupedTopics = topics.reduce(
+  (groups, topic) => {
+    const letter =
+      topic.label.charAt(0).toUpperCase();
 
-},
-{} as Record<
-string,
-{
-topic: string;
-teachings: typeof teachings;
-}[]
+    if (!groups[letter]) {
+      groups[letter] = [];
+    }
 
->
+    groups[letter].push({
+      topic,
+      teachings: teachings
+        .filter((teaching) =>
+          teaching.data.topics.includes(
+            topic.id
+          )
+        )
+        .sort((a, b) =>
+          a.data.title.localeCompare(
+            b.data.title
+          )
+        ),
+    });
 
+    return groups;
+  },
+  {} as Record<
+    string,
+    {
+      topic: {
+        id: string;
+        label: string;
+      };
+      teachings: typeof teachings;
+    }[]
+  >
 );
 
 const letters =
-Object.keys(groupedTopics)
-.sort();
-
+  Object.keys(groupedTopics).sort();
 ---
 
 <BaseLayout title="Library">
@@ -81,246 +110,241 @@ Object.keys(groupedTopics)
     "
   >
 
-<TeachingSidebar />
+    <TeachingSidebar />
 
-<main class="flex-1">
+    <main class="flex-1">
 
-  <section class="space-y-8">
+      <section class="space-y-8">
 
-    <header class="space-y-4">
+        <header class="space-y-4">
 
-      <h1
-        class="
-          text-3xl
-          font-semibold
-        "
-      >
-        Library
-      </h1>
-
-      <p
-        class="
-          max-w-3xl
-          text-[var(--color-muted)]
-        "
-      >
-        Explore structured biblical
-        teachings organized by topic.
-        Study doctrine, Christian living,
-        prophecy, prayer, discipleship,
-        and spiritual growth through
-        Scripture.
-      </p>
-
-      <div
-        class="
-          flex
-          flex-wrap
-          gap-6
-          text-sm
-          text-[var(--color-muted)]
-        "
-      >
-
-        <span>
-          {teachings.length}
-          Teachings
-        </span>
-
-        <span>
-          {topics.length}
-          Topics
-        </span>
-
-      </div>
-
-    </header>
-
-    <!-- A-Z Navigation -->
-
-    <section
-      class="
-        flex
-        flex-wrap
-        gap-2
-      "
-    >
-
-      {letters.map(
-        (letter) => (
-
-          <a
-            href={`#${letter}`}
+          <h1
             class="
-              rounded-lg
-              border
-              border-[var(--color-border)]
-              px-3
-              py-2
-              text-sm
-              transition
-              hover:border-[var(--color-primary)]
+              text-3xl
+              font-semibold
             "
           >
-            {letter}
-          </a>
+            Library
+          </h1>
 
-        )
-      )}
+          <p
+            class="
+              max-w-3xl
+              text-[var(--color-muted)]
+            "
+          >
+            Explore structured biblical
+            teachings organized by topic.
+            Study doctrine, Christian living,
+            prophecy, prayer, discipleship,
+            and spiritual growth through
+            Scripture.
+          </p>
 
-    </section>
-
-    <!-- Topic Groups -->
-
-    <section
-      class="
-        mt-8
-        space-y-16
-      "
-    >
-
-      {letters.map(
-        (letter) => (
-
-          <section
-            id={letter}
-            class="space-y-6"
+          <div
+            class="
+              flex
+              flex-wrap
+              gap-6
+              text-sm
+              text-[var(--color-muted)]
+            "
           >
 
-            <div
-              class="
-                flex
-                items-center
-                gap-4
-              "
-            >
+            <span>
+              {teachings.length}
+              Teachings
+            </span>
 
-              <h2
+            <span>
+              {topics.length}
+              Topics
+            </span>
+
+          </div>
+
+        </header>
+
+        <!-- A-Z Navigation -->
+
+        <section
+          class="
+            flex
+            flex-wrap
+            gap-2
+          "
+        >
+
+          {letters.map(
+            (letter) => (
+
+              <a
+                href={`#${letter}`}
                 class="
-                  text-4xl
-                  font-bold
+                  rounded-lg
+                  border
+                  border-[var(--color-border)]
+                  px-3
+                  py-2
+                  text-sm
+                  transition
+                  hover:border-[var(--color-primary)]
                 "
               >
                 {letter}
-              </h2>
+              </a>
 
-              <div
-                class="
-                  h-px
-                  flex-1
-                  bg-[var(--color-border)]
-                "
-              />
+            )
+          )}
 
-            </div>
+        </section>
 
-            <div
-              class="
-                grid
-                gap-4
-                md:grid-cols-2
-                xl:grid-cols-3
-              "
-            >
+        <!-- Topic Groups -->
 
-              {groupedTopics[
-                letter
-              ].map(
-                ({
-                  topic,
-                  teachings,
-                }) => (
+        <section
+          class="
+            mt-8
+            space-y-16
+          "
+        >
 
-                  <section
+          {letters.map(
+            (letter) => (
+
+              <section
+                id={letter}
+                class="space-y-6"
+              >
+
+                <div
+                  class="
+                    flex
+                    items-center
+                    gap-4
+                  "
+                >
+
+                  <h2
                     class="
-                      rounded-2xl
-                      border
-                      border-[var(--color-border)]
-                      p-5
+                      text-4xl
+                      font-bold
                     "
                   >
+                    {letter}
+                  </h2>
 
-                    <div
-                      class="
-                        flex
-                        items-center
-                        justify-between
-                        gap-4
-                      "
-                    >
+                  <div
+                    class="
+                      h-px
+                      flex-1
+                      bg-[var(--color-border)]
+                    "
+                  />
 
-                      <h3
+                </div>
+
+                <div
+                  class="
+                    grid
+                    gap-4
+                    md:grid-cols-2
+                    xl:grid-cols-3
+                  "
+                >
+
+                  {groupedTopics[
+                    letter
+                  ].map(
+                    ({
+                      topic,
+                      teachings,
+                    }) => (
+
+                      <section
                         class="
-                          text-lg
-                          font-semibold
-                          capitalize
+                          rounded-2xl
+                          border
+                          border-[var(--color-border)]
+                          p-5
                         "
                       >
-                        {topic}
-                      </h3>
 
-                      <span
-                        class="
-                          text-xs
-                          text-[var(--color-muted)]
-                        "
-                      >
-                        {
-                          teachings.length
-                        }
-                      </span>
+                        <div
+                          class="
+                            flex
+                            items-center
+                            justify-between
+                            gap-4
+                          "
+                        >
 
-                    </div>
+                          <h3
+                            class="
+                              text-lg
+                              font-semibold
+                            "
+                          >
+                            {topic.label}
+                          </h3>
 
-                    <ul
-                      class="
-                        mt-4
-                        space-y-2
-                      "
-                    >
+                          <span
+                            class="
+                              text-xs
+                              text-[var(--color-muted)]
+                            "
+                          >
+                            {teachings.length}
+                          </span>
 
-                      {teachings.map(
-                        (
-                          teaching
-                        ) => (
+                        </div>
 
-                          <li>
+                        <ul
+                          class="
+                            mt-4
+                            space-y-2
+                          "
+                        >
 
-                            <a
-                              href={`/teachings/${teaching.id}`}
-                              class="
-                                text-sm
-                                text-[var(--color-muted)]
-                                hover:text-[var(--color-text)]
-                              "
-                            >
-                              {teaching.data.title}
-                            </a>
+                          {teachings.map(
+                            (teaching) => (
 
-                          </li>
+                              <li>
 
-                        )
-                      )}
+                                <a
+                                  href={`/teachings/${teaching.id}`}
+                                  class="
+                                    text-sm
+                                    text-[var(--color-muted)]
+                                    hover:text-[var(--color-text)]
+                                  "
+                                >
+                                  {teaching.data.title}
+                                </a>
 
-                    </ul>
+                              </li>
 
-                  </section>
+                            )
+                          )}
 
-                )
-              )}
+                        </ul>
 
-            </div>
+                      </section>
 
-          </section>
+                    )
+                  )}
 
-        )
-      )}
+                </div>
 
-    </section>
+              </section>
 
-  </section>
+            )
+          )}
 
-</main>
+        </section>
+
+      </section>
+
+    </main>
 
   </div>
 
