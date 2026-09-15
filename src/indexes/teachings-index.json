@@ -1003,6 +1003,31 @@
     }
   },
   {
+    "id": "faith-must-rest-in-the-power-of-god",
+    "title": "Faith Must Rest In The Power Of God",
+    "summary": "Biblical faith should rest in the power of God rather than in human wisdom, ability, or persuasive words.",
+    "topics": [
+      "faith",
+      "power of god",
+      "holy spirit",
+      "spiritual growth"
+    ],
+    "keywords": [
+      "faith",
+      "power of God",
+      "human wisdom",
+      "God's power",
+      "Holy Spirit",
+      "trusting God",
+      "spiritual faith",
+      "gospel"
+    ],
+    "scripture": {
+      "ref": "1 Corinthians 2:5",
+      "text": "That your faith should not stand in the wisdom of men, but in the power of God."
+    }
+  },
+  {
     "id": "faith-over-sight",
     "title": "Faith Over Sight",
     "summary": "Faith chooses to trust God's Word above what can be seen with natural eyes.",
@@ -1749,6 +1774,31 @@
     "scripture": {
       "ref": "1 Corinthians 3:11",
       "text": "For other foundation can no man lay than that is laid, which is Jesus Christ."
+    }
+  },
+  {
+    "id": "jesus-christ-must-remain-the-center",
+    "title": "Jesus Christ Must Remain The Center",
+    "summary": "The Christian faith must remain centered on Jesus Christ and Him crucified, because everything we believe and do rests upon the work of Christ.",
+    "topics": [
+      "foundations",
+      "jesus christ",
+      "the cross",
+      "faith"
+    ],
+    "keywords": [
+      "Jesus Christ",
+      "Christ crucified",
+      "the cross",
+      "Christian faith",
+      "gospel",
+      "foundation",
+      "Jesus",
+      "salvation"
+    ],
+    "scripture": {
+      "ref": "1 Corinthians 2:2",
+      "text": "For I determined not to know any thing among you, save Jesus Christ, and him crucified."
     }
   },
   {
@@ -2730,6 +2780,31 @@
     }
   },
   {
+    "id": "spiritual-gifts-are-for-the-good-of-others",
+    "title": "Spiritual Gifts Are Given For The Good Of Others",
+    "summary": "God gives spiritual gifts to believers so that what He has given to one can benefit and strengthen others.",
+    "topics": [
+      "holy spirit",
+      "spiritual gifts",
+      "service",
+      "spiritual growth"
+    ],
+    "keywords": [
+      "spiritual gifts",
+      "gifts of the Spirit",
+      "Holy Spirit",
+      "serving others",
+      "edification",
+      "ministry",
+      "spiritual growth",
+      "body of Christ"
+    ],
+    "scripture": {
+      "ref": "1 Corinthians 12:7",
+      "text": "But the manifestation of the Spirit is given to every man to profit withal."
+    }
+  },
+  {
     "id": "strength-in-weakness",
     "title": "Strength In Weakness",
     "summary": "God demonstrates His strength through those who humbly depend upon Him in their weakness.",
@@ -2768,6 +2843,30 @@
     "scripture": {
       "ref": "1 Corinthians 2:12",
       "text": "Now we have received, not the spirit of the world, but the spirit which is of God; that we might know the things that are freely given to us of God."
+    }
+  },
+  {
+    "id": "the-power-of-god-transforms",
+    "title": "The Power Of God Transforms",
+    "summary": "God's power is not merely demonstrated through outward signs but works within people to transform the heart and enable them to serve others.",
+    "topics": [
+      "holy spirit",
+      "spiritual growth",
+      "transformation"
+    ],
+    "keywords": [
+      "power of God",
+      "Holy Spirit",
+      "transformation",
+      "transformed heart",
+      "spiritual power",
+      "spiritual growth",
+      "service",
+      "faith"
+    ],
+    "scripture": {
+      "ref": "1 Corinthians 2:4",
+      "text": "And my speech and my preaching was not with enticing words of man's wisdom, but in demonstration of the Spirit and of power:"
     }
   },
   {
@@ -4548,6 +4647,31 @@
     }
   },
   {
+    "id": "gods-power-is-more-than-words",
+    "title": "God's Power Is More Than Words",
+    "summary": "The work of God in a believer's life should not remain merely in words but should be seen in a life transformed and directed by the Holy Spirit.",
+    "topics": [
+      "spiritual growth",
+      "holy spirit",
+      "power of god",
+      "christian living"
+    ],
+    "keywords": [
+      "power of God",
+      "Holy Spirit",
+      "Christian life",
+      "transformation",
+      "spiritual growth",
+      "witness",
+      "faith",
+      "God's work"
+    ],
+    "scripture": {
+      "ref": "Acts 1:8",
+      "text": "But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth."
+    }
+  },
+  {
     "id": "grow-in-grace",
     "title": "Grow in Grace",
     "summary": "Spiritual life is intended to continually mature as believers grow in the knowledge and grace of the Lord.",
@@ -5078,6 +5202,31 @@
     "scripture": {
       "ref": "Deuteronomy 8:18",
       "text": "But thou shalt remember the LORD thy God: for it is he that giveth thee power to get wealth, that he may establish his covenant..."
+    }
+  },
+  {
+    "id": "gods-power-works-through-human-weakness",
+    "title": "God's Power Works Through Human Weakness",
+    "summary": "Human weakness does not prevent God from working; His power can be manifested through those who recognize their dependence upon Him.",
+    "topics": [
+      "strength",
+      "holy spirit",
+      "spiritual growth",
+      "weakness"
+    ],
+    "keywords": [
+      "power of God",
+      "human weakness",
+      "God's strength",
+      "spiritual strength",
+      "weakness",
+      "grace",
+      "Holy Spirit",
+      "dependence on God"
+    ],
+    "scripture": {
+      "ref": "2 Corinthians 12:9",
+      "text": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness."
     }
   },
   {
