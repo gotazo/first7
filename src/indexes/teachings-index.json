@@ -189,6 +189,50 @@
     }
   },
   {
+    "id": "living-from-your-identity-in-christ",
+    "title": "Living From Your Identity in Christ",
+    "summary": "Believers are called to understand their new life in Christ and live according to the identity they have received in Him.",
+    "topics": [
+      "Christian Identity",
+      "New Life",
+      "Jesus Christ"
+    ],
+    "keywords": [
+      "identity in Christ",
+      "Christ lives in me",
+      "new life in Christ",
+      "crucified with Christ",
+      "sonship",
+      "Galatians 2:20"
+    ],
+    "scripture": {
+      "ref": "Galatians 2:20",
+      "text": "I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me."
+    }
+  },
+  {
+    "id": "walk-as-children-of-god",
+    "title": "Walk as Children of God",
+    "summary": "Those who belong to God are called to live as His children, reflecting His character through the way they walk and love others.",
+    "topics": [
+      "Christian Identity",
+      "Christian Living",
+      "Love"
+    ],
+    "keywords": [
+      "children of God",
+      "walk as children",
+      "walk in love",
+      "imitate God",
+      "sonship",
+      "Ephesians 5:1-2"
+    ],
+    "scripture": {
+      "ref": "Ephesians 5:1-2",
+      "text": "Be ye therefore followers of God, as dear children; And walk in love, as Christ also hath loved us, and hath given himself for us an offering and a sacrifice to God for a sweetsmelling savour."
+    }
+  },
+  {
     "id": "breaking-generational-patterns",
     "title": "Breaking Generational Patterns",
     "summary": "God's people are called to turn away from destructive patterns and walk in obedience rather than continue the failures of those who came before them.",
@@ -207,6 +251,28 @@
     "scripture": {
       "ref": "Ezekiel 18:20",
       "text": "The soul that sinneth, it shall die. The son shall not bear the iniquity of the father, neither shall the father bear the iniquity of the son: the righteousness of the righteous shall be upon him, and the wickedness of the wicked shall be upon him."
+    }
+  },
+  {
+    "id": "do-all-in-the-name-of-the-lord-jesus",
+    "title": "Do All in the Name of the Lord Jesus",
+    "summary": "Believers are called to let the name of Jesus shape everything they say and do, living in a way that honors Him.",
+    "topics": [
+      "Christian Living",
+      "Jesus Christ",
+      "Obedience"
+    ],
+    "keywords": [
+      "name of Jesus",
+      "do all in the name of Jesus",
+      "Christian conduct",
+      "authority of Jesus",
+      "word and deed",
+      "Colossians 3:17"
+    ],
+    "scripture": {
+      "ref": "Colossians 3:17",
+      "text": "And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him."
     }
   },
   {
@@ -270,6 +336,28 @@
     "scripture": {
       "ref": "Matthew 11:28",
       "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+    }
+  },
+  {
+    "id": "guard-your-heart-from-bitterness",
+    "title": "Guard Your Heart From Bitterness",
+    "summary": "Believers are called to put away bitterness, anger, and malice and respond to others with kindness, forgiveness, and love.",
+    "topics": [
+      "The Heart",
+      "Christian Character",
+      "Relationships"
+    ],
+    "keywords": [
+      "bitterness",
+      "guard your heart",
+      "anger",
+      "forgiveness",
+      "kindness",
+      "Ephesians 4:31-32"
+    ],
+    "scripture": {
+      "ref": "Ephesians 4:31-32",
+      "text": "Let all bitterness, and wrath, and anger, and clamour, and evil speaking, be put away from you, with all malice: And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you."
     }
   },
   {
@@ -526,6 +614,27 @@
     }
   },
   {
+    "id": "what-is-in-the-heart-comes-out",
+    "title": "What Is in the Heart Comes Out",
+    "summary": "Jesus teaches that what fills the heart eventually becomes evident through a person's words and actions.",
+    "topics": [
+      "The Heart",
+      "Speech",
+      "Christian Living"
+    ],
+    "keywords": [
+      "abundance of the heart",
+      "out of the heart",
+      "words reveal the heart",
+      "heart and speech",
+      "Matthew 12:34-35"
+    ],
+    "scripture": {
+      "ref": "Matthew 12:34-35",
+      "text": "O generation of vipers, how can ye, being evil, speak good things? for out of the abundance of the heart the mouth speaketh. A good man out of the good treasure of the heart bringeth forth good things: and an evil man out of the evil treasure bringeth forth evil things."
+    }
+  },
+  {
     "id": "what-we-sow-we-reap",
     "title": "What We Sow We Reap",
     "summary": "Our choices and actions produce consequences, calling us to sow what is good and pleasing to God.",
@@ -544,6 +653,27 @@
     "scripture": {
       "ref": "Galatians 6:7",
       "text": "Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap."
+    }
+  },
+  {
+    "id": "your-response-matters",
+    "title": "Your Response Matters",
+    "summary": "Believers cannot always control what they encounter, but they can choose how they respond and should respond with wisdom, self-control, and obedience to God.",
+    "topics": [
+      "Christian Living",
+      "Temptation",
+      "Self-Control"
+    ],
+    "keywords": [
+      "response matters",
+      "responding to temptation",
+      "self-control",
+      "responding wisely",
+      "Proverbs 15:1"
+    ],
+    "scripture": {
+      "ref": "Proverbs 15:1",
+      "text": "A soft answer turneth away wrath: but grievous words stir up anger."
     }
   },
   {
@@ -4656,6 +4786,114 @@
     }
   },
   {
+    "id": "confession-is-the-beginning-of-repentance",
+    "title": "Confession Is the Beginning of Repentance",
+    "summary": "Honest confession acknowledges sin before God and opens the way for a person to turn from it and walk in a different direction.",
+    "topics": [
+      "Spiritual Discipline",
+      "Repentance",
+      "Confession"
+    ],
+    "keywords": [
+      "confession",
+      "repentance",
+      "confess sin",
+      "forgiveness",
+      "acknowledge sin",
+      "1 John 1:9"
+    ],
+    "scripture": {
+      "ref": "1 John 1:9",
+      "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness."
+    }
+  },
+  {
+    "id": "guard-your-heart",
+    "title": "Guard Your Heart",
+    "summary": "God calls His people to carefully guard their hearts because the condition of the heart affects the direction of their lives.",
+    "topics": [
+      "The Heart",
+      "Spiritual Discipline",
+      "Christian Living"
+    ],
+    "keywords": [
+      "guard your heart",
+      "keep thy heart",
+      "condition of the heart",
+      "spiritual discipline",
+      "Proverbs 4:23"
+    ],
+    "scripture": {
+      "ref": "Proverbs 4:23",
+      "text": "Keep thy heart with all diligence; for out of it are the issues of life."
+    }
+  },
+  {
+    "id": "keep-your-heart-pure",
+    "title": "Keep Your Heart Pure",
+    "summary": "God calls His people to pursue purity of heart so that their words, attitudes, and conduct reflect what is pleasing to Him.",
+    "topics": [
+      "Purity",
+      "The Heart",
+      "Christian Living"
+    ],
+    "keywords": [
+      "pure heart",
+      "purity of heart",
+      "clean heart",
+      "holiness",
+      "Matthew 5:8"
+    ],
+    "scripture": {
+      "ref": "Matthew 5:8",
+      "text": "Blessed are the pure in heart: for they shall see God."
+    }
+  },
+  {
+    "id": "let-god-search-your-heart",
+    "title": "Let God Search Your Heart",
+    "summary": "God calls His people to allow Him to examine their hearts, reveal what needs to change, and lead them in His way.",
+    "topics": [
+      "Spiritual Discipline",
+      "Repentance",
+      "The Heart"
+    ],
+    "keywords": [
+      "search your heart",
+      "God searches the heart",
+      "spiritual examination",
+      "conviction",
+      "repentance",
+      "Psalm 139"
+    ],
+    "scripture": {
+      "ref": "Psalm 139:23-24",
+      "text": "Search me, O God, and know my heart: try me, and know my thoughts: And see if there be any wicked way in me, and lead me in the way everlasting."
+    }
+  },
+  {
+    "id": "repentance-requires-a-changed-life",
+    "title": "Repentance Requires a Changed Life",
+    "summary": "Biblical repentance involves turning to God and producing a life that reflects that change.",
+    "topics": [
+      "Spiritual Discipline",
+      "Repentance",
+      "Christian Living"
+    ],
+    "keywords": [
+      "repentance",
+      "changed life",
+      "turn to God",
+      "works meet for repentance",
+      "changed behavior",
+      "Acts 26:20"
+    ],
+    "scripture": {
+      "ref": "Acts 26:20",
+      "text": "But shewed first unto them of Damascus, and at Jerusalem, and throughout all the coasts of Judaea, and then to the Gentiles, that they should repent and turn to God, and do works meet for repentance."
+    }
+  },
+  {
     "id": "breaking-generational-patterns",
     "title": "Breaking Generational Patterns",
     "summary": "Through spiritual renewal and obedience to God, believers can overcome destructive patterns that are repeated from one generation to another.",
@@ -5664,6 +5902,27 @@
     "scripture": {
       "ref": "Genesis 22:12",
       "text": "And he said, Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me."
+    }
+  },
+  {
+    "id": "jesus-response-to-temptation",
+    "title": "Jesus' Response to Temptation",
+    "summary": "Jesus responded to temptation by standing firmly on the Word of God and remaining obedient to the Father.",
+    "topics": [
+      "Temptation",
+      "Obedience",
+      "Jesus Christ"
+    ],
+    "keywords": [
+      "Jesus and temptation",
+      "response to temptation",
+      "it is written",
+      "overcoming temptation",
+      "Matthew 4"
+    ],
+    "scripture": {
+      "ref": "Matthew 4:1-11",
+      "text": "Then was Jesus led up of the spirit into the wilderness to be tempted of the devil. And when he had fasted forty days and forty nights, he was afterward an hungred. And when the tempter came to him, he said, If thou be the Son of God, command that these stones be made bread. But he answered and said, It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God. Then the devil taketh him up into the holy city, and setteth him on a pinnacle of the temple, And saith unto him, If thou be the Son of God, cast thyself down: for it is written, He shall give his angels charge concerning thee: and in their hands they shall bear thee up, lest at any time thou dash thy foot against a stone. Jesus said unto him, It is written again, Thou shalt not tempt the Lord thy God. Again, the devil taketh him up into an exceeding high mountain, and sheweth him all the kingdoms of the world, and the glory of them; And saith unto him, All these things will I give thee, if thou wilt fall down and worship me. Then saith Jesus unto him, Get thee hence, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve. Then the devil leaveth him, and, behold, angels came and ministered unto him."
     }
   },
   {

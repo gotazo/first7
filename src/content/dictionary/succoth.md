@@ -6,21 +6,31 @@ term: succoth
 shortMeaning: A Hebrew place name meaning "booths" or "shelters." Succoth was the name of places where temporary shelters were made or where people dwelt.
 
 biblicalUsage: >
+
   In Genesis, Succoth was a place where Jacob settled after meeting Esau
+
   and built booths for his cattle. In Exodus, Succoth was the first
+
   named stopping place of the children of Israel after they departed from
+
   Rameses. Another Succoth was a place east of the Jordan mentioned in
+
   the accounts of Gideon.
 
 reference:
+
   ref: Genesis 33:17
+
   text: "And Jacob journeyed to Succoth, and built him an house, and made booths for his cattle: therefore the name of the place is called Succoth."
 
 featuredVerse:
+
   ref: Exodus 12:37
+
   text: "And the children of Israel journeyed from Rameses to Succoth, about six hundred thousand on foot that were men, beside children."
 
 scriptures:
+
   - Genesis 33:17
   - Exodus 12:37
   - Exodus 13:20
@@ -31,34 +41,40 @@ scriptures:
   - Psalm 108:7
 
 related:
-  - jacob
-  - esau
-  - moses
-  - israel
-  - gideon
-  - booths
+
+  - Jacob
+  - Esau
+  - Moses
+  - Israel
+  - Gideon
+  - Booths
 
 aliases: []
 
 seeAlso:
-  - peniel
-  - jordan
-  - manasseh
-  - gad
-  - egypt
-  - raamses
-  - etham
+
+  - Peniel
+  - Jordan
+  - Manasseh
+  - Gad
+  - Egypt
+  - Raamses
+  - Etham
 
 tags:
+
   - places
-  - genesis
-  - exodus
+  - Genesis
+  - Exodus
   - patriarchs
-  - judges
+  - Judges
 
 hebrew:
+
   word: סֻכּוֹת
+
   transliteration: Sukkoth
+
   meaning: booths; shelters
 
 ---
@@ -73,14 +89,11 @@ The name was used for more than one place mentioned in Scripture.
 
 ## Biblical Usage
 
-In Genesis, Succoth was a place where Jacob settled after meeting Esau
-and built booths for his cattle.
+In Genesis, Succoth was a place where Jacob settled after meeting Esau and built booths for his cattle.
 
-In Exodus, Succoth was the first named stopping place of the children of
-Israel after they departed from Rameses.
+In Exodus, Succoth was the first named stopping place of the children of Israel after they departed from Rameses.
 
-Another place called Succoth is mentioned in the account of Gideon and was
-located east of the Jordan.
+Another place called Succoth is mentioned in the account of Gideon and was located east of the Jordan.
 
 ---
 
