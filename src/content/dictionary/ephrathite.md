@@ -3,17 +3,13 @@ title: Ephrathite
 
 term: ephrathite
 
-shortMeaning: A person identified with Ephrath or Bethlehem in Judah.
+shortMeaning: A person identified with Ephrath or, in certain contexts, with the region or people associated with Ephraim.
 
 biblicalUsage: >
 
-  Ephrathite is a designation used in the Bible for a person associated with
-  Ephrath or Bethlehem in Judah. In Ruth, Elimelech is identified as an
-  Ephrathite from Bethlehemjudah.
+  In Scripture, Ephrathite is used as a designation of identity rather than as the name of a separate people. In the Book of Ruth, Elimelech and his family are called Ephrathites of Bethlehemjudah, connecting the term with Ephrath and Bethlehem.
 
-  The term is also used in the accounts of David's family and in other
-  historical passages. Its meaning is determined by context, and it should
-  be distinguished from the place names Ephrath and Bethlehem.
+  David's father Jesse is also called an Ephrathite of Bethlehemjudah. The term must be understood according to its context, because a related form is also used of Jeroboam, who is described as an Ephrathite of Zereda and is associated with Ephraim.
 
 reference:
 
@@ -29,34 +25,35 @@ featuredVerse:
 
 scriptures:
 
-  - Ruth 1:2
+  - Ruth 1:1-2
   - 1 Samuel 17:12
   - 1 Kings 11:26
 
 related:
 
-  - Ephrath
   - Bethlehem
   - Elimelech
   - Jesse
   - David
+  - Ephrath
 
 aliases: []
 
 seeAlso:
 
-  - Judah
   - Moab
-  - Ephrathite
-  - Bethlehemjudah
+  - Kindred
+  - Genealogy
+  - Judah
+  - Ephraim
 
 tags:
 
   - people
   - identity
-  - Judah
   - Bethlehem
-  - Ephrath
+  - Judah
+  - Ephraim
 
 hebrew:
 
@@ -64,7 +61,7 @@ hebrew:
 
   transliteration: Ephrathi
 
-  meaning: Ephrathite; inhabitant of Ephrath
+  meaning: Ephrathite; Ephraimite, according to context
 
 greek:
 
@@ -78,21 +75,21 @@ greek:
 
 ## Meaning
 
-An **Ephrathite** is a person identified with Ephrath or Bethlehem in Judah.
+A person identified with Ephrath or, in certain contexts, with the region or people associated with Ephraim.
 
 ---
 
 ## Biblical Usage
 
-In Ruth, Elimelech and his sons are identified as Ephrathites of Bethlehemjudah. The same designation is used for Jesse, David's father, in the account of David's introduction.
+In Ruth, Elimelech and his family are called Ephrathites of Bethlehemjudah. Jesse, David's father, is likewise called an Ephrathite of Bethlehemjudah in 1 Samuel.
 
-The term identifies a person's geographical or family association rather than describing a separate tribe or nation. It should therefore be distinguished from the place names **Ephrath** and **Bethlehem**.
+A related use appears in 1 Kings 11:26, where Jeroboam is called an Ephrathite of Zereda. The context connects Jeroboam with Ephraim rather than Bethlehem, so the term should not automatically be treated as referring to the same geographic identity in every occurrence.
 
 ---
 
 ## Key References
 
-- Ruth 1:2
+- Ruth 1:1-2
 - 1 Samuel 17:12
 - 1 Kings 11:26
 
@@ -100,8 +97,8 @@ The term identifies a person's geographical or family association rather than de
 
 ## Related Terms
 
-- Ephrath
 - Bethlehem
 - Elimelech
 - Jesse
 - David
+- Ephraim

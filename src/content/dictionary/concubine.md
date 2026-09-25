@@ -3,13 +3,13 @@ title: Concubine
 
 term: concubine
 
-shortMeaning: A woman in a recognized secondary marital relationship with a man, having a status distinct from that of a primary wife.
+shortMeaning: A woman in a recognized secondary marital relationship with a man, distinct from his primary wife or wives.
 
 biblicalUsage: >
 
-  In the Bible, a concubine was a woman who lived in a recognized relationship with a man but had a status distinct from that of a wife. Concubines appear in the patriarchal period, during the time of the judges, and in the history of Israel's kings.
+  In Scripture, a concubine was a woman who had a recognized marital relationship with a man but held a different status from his wife or wives. Concubines appear in the accounts of patriarchs, kings, and other men.
 
-  Biblical accounts show that concubines could bear children and be part of a household, while their position was distinct from that of wives. The practice is recorded historically rather than presented as a command for marriage, and several narratives involving concubines describe serious family and social conflicts.
+  The Bible records children born through concubines and describes the social and family relationships associated with them. Concubines are mentioned throughout the Old Testament and also appear in passages describing the royal household.
 
 reference:
 
@@ -33,32 +33,29 @@ scriptures:
   - 2 Samuel 16:21-22
   - 1 Kings 11:1-3
   - Esther 2:14
-  - Daniel 5:2-3
   - Song of Solomon 6:8-9
-  - Matthew 19:4-6
 
 related:
 
-  - Wife
   - Marriage
   - Husband
-  - Adultery
-  - Harlot
+  - Wife
+  - Family
 
 aliases: []
 
 seeAlso:
 
-  - Family
-  - Household
-  - Woman
-  - Sexual Immorality
+  - Adultery
+  - Fornication
+  - Kindred
+  - Daughter-in-law
 
 tags:
 
   - marriage
   - family
-  - household
+  - women
   - relationships
 
 hebrew:
@@ -81,15 +78,15 @@ greek:
 
 ## Meaning
 
-A **concubine** is a woman in a recognized secondary marital relationship with a man, having a status distinct from that of a primary wife.
+A woman in a recognized secondary marital relationship with a man, distinct from his primary wife or wives.
 
 ---
 
 ## Biblical Usage
 
-In the Bible, concubines appear in households of patriarchs, judges, kings, and other men. They could bear children and have an established place within a household, but their status was distinct from that of wives.
+In Scripture, a concubine was a woman who had a recognized marital relationship with a man but held a different status from his wife or wives. Concubines appear in accounts involving patriarchs, judges, kings, and other men.
 
-The biblical narratives record the practice without presenting it as a universal command for marriage. Some accounts involving concubines also reveal serious consequences involving family relationships, inheritance, sexual violence, and political conflict.
+The Bible records children born through concubines and describes the effects of these relationships within families and royal households. The term appears primarily in the Old Testament.
 
 ---
 
@@ -108,8 +105,7 @@ The biblical narratives record the practice without presenting it as a universal
 
 ## Related Terms
 
-- Wife
 - Marriage
 - Husband
-- Adultery
-- Harlot
+- Wife
+- Family

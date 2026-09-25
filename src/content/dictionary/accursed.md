@@ -1,24 +1,15 @@
 ---
-
 title: Accursed
 
 term: accursed
 
-shortMeaning: Under a curse or regarded as devoted to destruction or condemnation.
+shortMeaning: Under a curse, condemned, or devoted to destruction.
 
 biblicalUsage: >
 
-  In Scripture, accursed describes a person, thing, or condition associated
+  In Scripture, accursed describes a person, thing, or condition that is under a curse or placed under a stated judgment. The word can refer to divine judgment, separation, or something devoted to destruction according to God's command.
 
-  with a curse. In the Old Testament, the term is especially associated with
-
-  things devoted to destruction or placed under a ban. At Jericho, certain
-
-  things were declared accursed and were not to be taken for personal use.
-
-  The term is also used in the New Testament in statements concerning a curse
-
-  or condemnation.
+  In Joshua, the things of Jericho were described as accursed, meaning they were devoted to destruction and were not to be taken as personal spoil. In the New Testament, the word is also used of a person who is under condemnation or of a message or teaching rejected as accursed.
 
 reference:
 
@@ -35,48 +26,34 @@ featuredVerse:
 scriptures:
 
   - Joshua 6:17-18
-
   - Joshua 7:1
-
   - Joshua 7:11-15
-
   - Joshua 7:20-26
-
   - Romans 9:3
-
   - 1 Corinthians 16:22
-
   - Galatians 1:8-9
 
 related:
 
-  - curse
-
-  - destruction
-
-  - sin
-
-  - judgment
+  - Curse
+  - Judgment
+  - Destruction
+  - Spoil
 
 aliases: []
 
 seeAlso:
 
-  - Jericho
-
-  - Achan
-
-  - trespass
+  - Sin
+  - Disobedience
+  - Vengeance
 
 tags:
 
   - judgment
-
-  - sin
-
   - curse
-
-  - law
+  - destruction
+  - sin
 
 hebrew:
 
@@ -84,7 +61,7 @@ hebrew:
 
   transliteration: cherem
 
-  meaning: devoted thing; thing devoted to destruction; ban
+  meaning: devoted thing; thing devoted to destruction
 
 greek:
 
@@ -92,23 +69,21 @@ greek:
 
   transliteration: anathema
 
-  meaning: accursed; devoted to destruction; under a curse
+  meaning: accursed; devoted to destruction; separated
 
 ---
 
 ## Meaning
 
-Accursed means under a curse or regarded as devoted to destruction or condemnation.
+Under a curse, condemned, or devoted to destruction.
 
 ---
 
 ## Biblical Usage
 
-In Scripture, accursed describes a person, thing, or condition associated with a curse.
+In Scripture, accursed describes something or someone placed under a curse or judgment. The term can refer to divine judgment, separation, or something devoted to destruction according to God's command.
 
-In the Old Testament, the term is especially associated with things devoted to destruction or placed under a ban. At Jericho, the city and certain things within it were declared accursed, and Israel was warned not to take the accursed thing for personal use.
-
-The term is also used in the New Testament in statements concerning a curse or condemnation.
+In Joshua, Jericho and its possessions were placed under this designation, while Achan was judged for taking what had been devoted. In the New Testament, the term is also used for a person under condemnation or for a message rejected as accursed.
 
 ---
 
@@ -116,7 +91,6 @@ The term is also used in the New Testament in statements concerning a curse or c
 
 - Joshua 6:17-18
 - Joshua 7:1
-- Joshua 7:11-15
 - Joshua 7:20-26
 - Romans 9:3
 - 1 Corinthians 16:22
@@ -127,9 +101,6 @@ The term is also used in the New Testament in statements concerning a curse or c
 ## Related Terms
 
 - Curse
-- Destruction
-- Sin
 - Judgment
-- Jericho
-- Achan
-- Trespass
+- Destruction
+- Spoil

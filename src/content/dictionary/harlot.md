@@ -1,22 +1,15 @@
 ---
-
 title: Harlot
 
 term: harlot
 
-shortMeaning: A woman who engages in sexual relations for payment or who is regarded as sexually immoral.
+shortMeaning: A woman who engages in sexual relations for payment; the word can also be used figuratively for a person or community associated with sexual or spiritual unfaithfulness.
 
 biblicalUsage: >
 
-  In Scripture, harlot refers primarily to a woman who engages in prostitution.
+  In Scripture, harlot describes a woman engaged in prostitution and is also used more broadly in figurative language. Rahab is called a harlot when she receives and hides the spies sent to Jericho.
 
-  The term is also used figuratively for a person, city, or people associated
-
-  with unfaithfulness to God. In the Old Testament, harlots appear in accounts
-
-  involving prostitution, hospitality, and sexual immorality. Rahab is identified
-
-  as a harlot when the spies entered Jericho.
+  The prophets frequently use harlotry as an image of unfaithfulness, particularly when describing Israel or Judah's departure from the LORD and their association with other gods. The New Testament also uses the term in both literal and figurative contexts.
 
 reference:
 
@@ -33,56 +26,37 @@ featuredVerse:
 scriptures:
 
   - Genesis 38:15-24
-
   - Joshua 2:1-21
-
   - Judges 16:1
-
   - Proverbs 7:10-27
-
   - Isaiah 1:21
-
   - Jeremiah 3:3
-
   - Ezekiel 16:15-34
-
-  - Hosea 4:13-15
-
   - Matthew 21:31-32
-
   - Revelation 17:1-5
 
 related:
 
-  - fornication
-
-  - adultery
-
-  - whoredom
-
-  - prostitution
+  - Adultery
+  - Fornication
+  - Unfaithfulness
+  - Whoredom
 
 aliases: []
 
 seeAlso:
 
-  - sin
-
-  - immorality
-
-  - marriage
-
+  - Marriage
+  - Idolatry
+  - Babylon
   - Rahab
 
 tags:
 
-  - sexual-immorality
-
-  - prostitution
-
-  - adultery
-
-  - figurative-language
+  - people
+  - sexual conduct
+  - unfaithfulness
+  - idolatry
 
 hebrew:
 
@@ -104,15 +78,15 @@ greek:
 
 ## Meaning
 
-A harlot is a woman who engages in sexual relations for payment or who is regarded as sexually immoral.
+A woman who engages in sexual relations for payment; the word can also be used figuratively for a person or community associated with sexual or spiritual unfaithfulness.
 
 ---
 
 ## Biblical Usage
 
-In Scripture, harlot refers primarily to a woman who engages in prostitution. Harlots appear in accounts involving prostitution, sexual immorality, and interactions with other people.
+In Scripture, harlot describes a woman engaged in prostitution. Rahab is called a harlot when she receives and hides the spies sent to Jericho.
 
-The term is also used figuratively for a person, city, or people associated with unfaithfulness to God. Rahab is identified as a harlot when the spies entered Jericho.
+The prophets also use harlotry figuratively for unfaithfulness, particularly when describing Israel or Judah's departure from the LORD and their association with other gods. The New Testament continues both the literal and figurative uses of the term.
 
 ---
 
@@ -132,10 +106,7 @@ The term is also used figuratively for a person, city, or people associated with
 
 ## Related Terms
 
-- Fornication
 - Adultery
+- Fornication
+- Unfaithfulness
 - Whoredom
-- Prostitution
-- Sin
-- Immorality
-- Marriage
