@@ -16,9 +16,6 @@ interface Props {
   /** Show Clear button */
   showClear?: boolean;
 
-  /** Enable rotating placeholder (future use) */
-  rotatePlaceholder?: boolean;
-
   /** Auto focus input */
   autofocus?: boolean;
 }
@@ -29,7 +26,6 @@ const {
   inputId = "search-input",
   name = "q",
   showClear = true,
-  rotatePlaceholder = false,
   autofocus = false,
 } = Astro.props;
 ---
