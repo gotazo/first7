@@ -7,6 +7,7 @@ import StudyHero from "../../components/study/common/StudyHero.astro";
 import StudyHeroMeta from "../../components/study/common/StudyHeroMeta.astro";
 import StudyShare from "../../components/study/common/StudyShare.astro";
 import StudyBreadcrumb from "../../components/study/common/StudyBreadcrumb.astro";
+import StudyPreviousNext from "../../components/study/common/StudyPreviousNext.astro";
 
 import StudySection from "../../components/study/common/StudySection.astro";
 import StudyScripture from "../../components/study/teachings/StudyScripture.astro";
@@ -28,18 +29,61 @@ export async function getStaticPaths() {
   const teachings =
     await getCollection("teachings");
 
+  const orderedTeachings =
+    [...teachings].sort((a, b) => {
+
+      const aOrder =
+        a.data.order ?? Number.POSITIVE_INFINITY;
+
+      const bOrder =
+        b.data.order ?? Number.POSITIVE_INFINITY;
+
+      if (aOrder !== bOrder) {
+        return aOrder - bOrder;
+      }
+
+      return a.id.localeCompare(b.id);
+
+    });
+
   const paths =
-    teachings.map((t) => ({
+    orderedTeachings.map((t, index) => {
 
-      params: {
-        slug: String(t.id),
-      },
+      const previous =
+        orderedTeachings[index - 1];
 
-      props: {
-        teaching: t,
-      },
+      const next =
+        orderedTeachings[index + 1];
 
-    }));
+      return {
+
+        params: {
+          slug: String(t.id),
+        },
+
+        props: {
+
+          teaching: t,
+
+          previous: previous
+            ? {
+                title: previous.data.title,
+                href: `/teachings/${previous.id}`,
+              }
+            : undefined,
+
+          next: next
+            ? {
+                title: next.data.title,
+                href: `/teachings/${next.id}`,
+              }
+            : undefined,
+
+        },
+
+      };
+
+    });
 
   if (
     import.meta.env.BUILD_TRACE
@@ -56,8 +100,11 @@ export async function getStaticPaths() {
 
 }
 
-const { teaching } =
-  Astro.props;
+const {
+  teaching,
+  previous,
+  next,
+} = Astro.props;
 
 /**
  * 📚 Teaching Topic Labels
@@ -299,6 +346,13 @@ const dictionaryTerms =
         />
 
       )}
+
+       <!-- Previous / Next -->
+
+      <StudyPreviousNext
+        previous={previous}
+        next={next}
+      />
 
       <!-- Footer -->
 
