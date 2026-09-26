@@ -1,10 +1,8 @@
 ---
-import type { ComponentType } from "astro";
-
 interface Props {
   title: string;
   description?: string;
-  icon?: ComponentType;
+  icon?: (props: Record<string, unknown>) => unknown;
   id?: string;
 }
 
