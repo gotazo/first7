@@ -1,0 +1,176 @@
+
+---
+export const prerender = true;
+
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const books = await getCollection("books");
+
+  return books.map((book) => ({
+    params: {
+      slug: book.id.replace(/\/$/, ""),
+    },
+    props: {
+      book,
+    },
+  }));
+}
+
+const { book } = Astro.props;
+const { Content } = await render(book);
+
+const editions = [
+  {
+    key: "digital",
+    title: "Digital Edition",
+    description: "A PDF edition for reading on your phone, tablet, or computer.",
+    enabled: book.data.digital_enabled,
+    priceInr: book.data.digital_price_inr,
+    priceUsd: book.data.digital_price_usd,
+    url: book.data.digital_url,
+    label: book.data.digital_label || "Get the Digital Edition",
+  },
+  {
+    key: "printable",
+    title: "Printable Edition",
+    description: "A PDF edition prepared for printing at home.",
+    enabled: book.data.printable_enabled,
+    priceInr: book.data.printable_price_inr,
+    priceUsd: book.data.printable_price_usd,
+    url: book.data.printable_url,
+    label: book.data.printable_label || "Get the Printable Edition",
+  },
+  {
+    key: "paperback",
+    title: "Paperback",
+    description: "A physical printed edition.",
+    enabled: book.data.paperback_enabled,
+    priceInr: book.data.paperback_price,
+    priceUsd: undefined,
+    url: book.data.paperback_url,
+    label: book.data.paperback_label || "Get the Paperback",
+  },
+].filter((edition) => edition.enabled);
+---
+
+<BaseLayout
+  title={book.data.title}
+  description={book.data.description}
+>
+  <main class="mx-auto max-w-6xl px-4 py-12 md:py-16">
+    <nav aria-label="Breadcrumb" class="mb-8 text-sm text-[var(--color-muted)]">
+      <a
+        href="/books/"
+        class="hover:text-[var(--color-primary)] hover:underline"
+      >
+        Books
+      </a>
+      <span aria-hidden="true"> / </span>
+      <span class="text-[var(--color-text)]">{book.data.title}</span>
+    </nav>
+
+    <header class="grid items-start gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
+      <div class="flex justify-center rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 p-6 md:p-8">
+        {book.data.cover ? (
+          <img
+            src={book.data.cover}
+            alt={`Cover of ${book.data.title}`}
+            class="max-h-[32rem] w-auto max-w-full rounded-md object-contain shadow-lg"
+          />
+        ) : (
+          <div class="flex min-h-64 w-full items-center justify-center">
+            <span class="text-xl font-semibold text-[var(--color-primary)]">
+              First7 Books
+            </span>
+          </div>
+        )}
+      </div>
+
+      <div>
+        {book.data.category && (
+          <p class="text-sm font-medium uppercase tracking-wide text-[var(--color-primary)]">
+            {book.data.category}
+          </p>
+        )}
+
+        <h1 class="mt-3 text-4xl font-semibold leading-tight md:text-5xl">
+          {book.data.title}
+        </h1>
+
+        {book.data.subtitle && (
+          <p class="mt-4 text-xl leading-relaxed text-[var(--color-muted)]">
+            {book.data.subtitle}
+          </p>
+        )}
+
+        <p class="mt-6 leading-7 text-[var(--color-muted)]">
+          {book.data.description}
+        </p>
+
+        <div class="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm text-[var(--color-muted)]">
+          <span>By {book.data.author}</span>
+          {book.data.pages && <span>{book.data.pages} pages</span>}
+          {book.data.year && <span>{book.data.year}</span>}
+        </div>
+
+        {editions.length > 0 && (
+          <section class="mt-8" aria-labelledby="editions-heading">
+            <h2 id="editions-heading" class="text-2xl font-semibold">
+              Choose Your Edition
+            </h2>
+
+            <div class="mt-5 space-y-4">
+              {editions.map((edition) => (
+                <article class="rounded-xl border border-[var(--color-border)] p-5">
+                  <h3 class="text-lg font-semibold">{edition.title}</h3>
+
+                  <p class="mt-2 text-sm leading-6 text-[var(--color-muted)]">
+                    {edition.description}
+                  </p>
+
+                  {(edition.priceInr || edition.priceUsd) && (
+                    <p class="mt-3 font-semibold">
+                      {[edition.priceInr, edition.priceUsd]
+                        .filter(Boolean)
+                        .join(" / ")}
+                    </p>
+                  )}
+
+                  <div class="mt-4">
+                    {edition.url ? (
+                      <a
+                        href={edition.url}
+                        class="inline-flex items-center justify-center rounded-lg bg-[var(--color-primary)] px-5 py-3 font-medium text-white transition hover:opacity-90"
+                      >
+                        {edition.label}
+                      </a>
+                    ) : (
+                      <p class="text-sm text-[var(--color-muted)]">
+                        Purchase details will be announced soon.
+                      </p>
+                    )}
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+      </div>
+    </header>
+
+    <article class="prose prose-lg mt-16 max-w-none">
+      <Content />
+    </article>
+
+    <div class="mt-12 border-t border-[var(--color-border)] pt-8">
+      <a
+        href="/books/"
+        class="font-medium text-[var(--color-primary)] hover:underline"
+      >
+        ← Browse all books
+      </a>
+    </div>
+  </main>
+</BaseLayout>

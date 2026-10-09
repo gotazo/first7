@@ -1,0 +1,120 @@
+
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const books = await getCollection("books");
+
+const sortedBooks = [...books].sort((a, b) => {
+  if (a.data.featured !== b.data.featured) {
+    return a.data.featured ? -1 : 1;
+  }
+
+  return a.data.title.localeCompare(b.data.title);
+});
+---
+
+<BaseLayout
+  title="Books"
+  description="Explore practical Christian books from First7, created to help you grow in biblical understanding and faithful living."
+>
+  <main class="mx-auto max-w-5xl space-y-12 px-4 py-16">
+    <header class="max-w-3xl">
+      <p class="text-sm font-medium uppercase tracking-wide text-[var(--color-primary)]">
+        First7 Publications
+      </p>
+
+      <h1 class="mt-3 text-4xl font-semibold leading-tight md:text-5xl">
+        Books
+      </h1>
+
+      <p class="mt-5 text-lg text-[var(--color-muted)]">
+        Practical, Scripture-centered resources to help you understand,
+        grow, and put what you learn into practice.
+      </p>
+    </header>
+
+    {sortedBooks.length > 0 ? (
+      <section aria-label="Available books">
+        <div class="grid gap-8 md:grid-cols-2">
+          {sortedBooks.map((book) => (
+            <article
+              class="overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 transition hover:shadow-md"
+            >
+              <a
+                href={`/books/${book.id.replace(/\/$/, "")}/`}
+                class="block"
+                aria-label={`View ${book.data.title}`}
+              >
+                {book.data.cover ? (
+                  <div class="flex justify-center bg-[var(--color-primary)]/5 p-8">
+                    <img
+                      src={book.data.cover}
+                      alt={`Cover of ${book.data.title}`}
+                      class="max-h-80 w-auto max-w-full rounded-md object-contain shadow-md"
+                      loading="lazy"
+                    />
+                  </div>
+                ) : (
+                  <div class="flex min-h-48 items-center justify-center bg-[var(--color-primary)]/10 p-8">
+                    <span class="text-lg font-semibold text-[var(--color-primary)]">
+                      First7 Books
+                    </span>
+                  </div>
+                )}
+
+                <div class="p-6">
+                  {book.data.category && (
+                    <p class="text-xs font-medium uppercase tracking-wide text-[var(--color-primary)]">
+                      {book.data.category}
+                    </p>
+                  )}
+
+                  <h2 class="mt-2 text-2xl font-semibold">
+                    {book.data.title}
+                  </h2>
+
+                  {book.data.subtitle && (
+                    <p class="mt-2 text-sm font-medium">
+                      {book.data.subtitle}
+                    </p>
+                  )}
+
+                  <p class="mt-4 text-sm leading-6 text-[var(--color-muted)]">
+                    {book.data.description}
+                  </p>
+
+                  <div class="mt-6 flex flex-wrap items-center justify-between gap-3">
+                    <span class="text-sm text-[var(--color-muted)]">
+                      By {book.data.author}
+                    </span>
+
+                    <span class="font-medium text-[var(--color-primary)]">
+                      View Book →
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </article>
+          ))}
+        </div>
+      </section>
+    ) : (
+      <section class="rounded-2xl border border-[var(--color-border)] p-8">
+        <h2 class="text-xl font-semibold">Books are being prepared</h2>
+        <p class="mt-3 text-[var(--color-muted)]">
+          New First7 publications will appear here.
+        </p>
+      </section>
+    )}
+
+    <section class="rounded-2xl border border-[var(--color-border)] bg-[var(--color-primary)]/5 p-8">
+      <h2 class="text-2xl font-semibold">Rooted in Scripture</h2>
+      <p class="mt-4 max-w-3xl leading-7 text-[var(--color-muted)]">
+        First7 continues to make biblical teaching freely accessible.
+        Our books provide structured resources for readers who want to
+        study a subject more deeply and put what they learn into practice.
+      </p>
+    </section>
+  </main>
+</BaseLayout>

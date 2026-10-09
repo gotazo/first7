@@ -79,6 +79,57 @@ const resources = defineCollection({
 });
 
 /* =========================
+   📚 BOOKS
+========================= */
+
+const books = defineCollection({
+  loader: glob({
+    pattern: "**/*.md",
+    base: "./src/content/books",
+  }),
+
+  schema: z.object({
+    title: z.string(),
+    subtitle: z.string().optional(),
+    description: z.string(),
+
+    author: z.string().default("First7"),
+
+    cover: z.string().optional(),
+
+    // Publishing
+    pages: z.number().optional(),
+    year: z.number().optional(),
+
+    // Digital Edition
+    digital_enabled: z.boolean().default(false),
+    digital_price_inr: z.string().optional(),
+    digital_price_usd: z.string().optional(),
+    digital_url: z.url().optional(),
+    digital_label: z.string().optional(),
+
+    // Printable Edition
+    printable_enabled: z.boolean().default(false),
+    printable_price_inr: z.string().optional(),
+    printable_price_usd: z.string().optional(),
+    printable_url: z.url().optional(),
+    printable_label: z.string().optional(),
+
+    // Physical / distribution
+    paperback_enabled: z.boolean().default(false),
+    paperback_url: z.url().optional(),
+    paperback_label: z.string().optional(),
+    paperback_price: z.string().optional(),
+
+    // Discovery
+    category: z.string().optional(),
+    tags: z.array(z.string()).default([]),
+
+    featured: z.boolean().default(false),
+  }),
+});
+
+/* =========================
    🚀 PLANS
 ========================= */
 const start = defineCollection({
@@ -388,6 +439,7 @@ export const collections = {
   reflections,
   blog,
   resources,
+  books,
   start,
   guides,
   verses,
