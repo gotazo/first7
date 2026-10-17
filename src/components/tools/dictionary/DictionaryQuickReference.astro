@@ -280,50 +280,6 @@ const currentLetter =
       </div>
     )}
 
-    <!-- Related -->
-
-    {resolvedRelatedTerms.length > 0 && (
-      <div>
-        <h3
-          class="
-            text-sm
-            font-semibold
-            uppercase
-            tracking-wide
-            text-[var(--color-muted)]
-          "
-        >
-          Related Terms
-        </h3>
-
-        <div
-          class="
-            mt-2
-            flex
-            flex-wrap
-            gap-2
-          "
-        >
-          {resolvedRelatedTerms.map((item) => (
-            <a
-              href={item.href}
-              class="
-                rounded-full
-                border
-                border-[var(--color-border)]
-                px-3
-                py-1
-                text-sm
-                transition
-                hover:border-[var(--color-primary)]
-              "
-            >
-              {item.title}
-            </a>
-          ))}
-        </div>
-      </div>
-    )}
   </div>
 
   <!-- Original Language -->
