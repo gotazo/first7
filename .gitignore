@@ -35,3 +35,7 @@ logs/
 
 # Local migration and comparison files
 /tmp/
+
+# Temporary KJV migration verification scripts
+/scripts/inspectKjvDifferences.mjs
+/scripts/prepareKjvMigration.mjs
