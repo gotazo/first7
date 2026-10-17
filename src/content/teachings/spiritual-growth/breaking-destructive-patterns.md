@@ -1,7 +1,7 @@
 ---
-id: breaking-generational-patterns
+id: breaking-destructive-patterns
 
-title: Breaking Generational Patterns
+title: Breaking destructive Patterns
 
 summary: Through spiritual renewal and obedience to God, believers can overcome destructive patterns that are repeated from one generation to another.
 

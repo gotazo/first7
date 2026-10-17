@@ -21,27 +21,6 @@
     }
   },
   {
-    "id": "built-on-the-rock",
-    "title": "Built On The Rock",
-    "summary": "A life grounded in Christ remains stable through pressure, storms, and uncertainty.",
-    "topics": [
-      "altar",
-      "faith"
-    ],
-    "keywords": [
-      "foundation",
-      "Christ",
-      "obedience",
-      "stability",
-      "wisdom",
-      "faith"
-    ],
-    "scripture": {
-      "ref": "Matthew 7:24",
-      "text": "Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock."
-    }
-  },
-  {
     "id": "the-altar-you-sow-into-matters",
     "title": "The Altar You Sow Into Matters",
     "summary": "Scripture teaches the importance of discernment, wisdom, and spiritual understanding in giving.",
@@ -1119,26 +1098,6 @@
     }
   },
   {
-    "id": "encourage-yourself-in-the-lord",
-    "title": "Encourage Yourself in the Lord",
-    "summary": "Believers are called to strengthen themselves in the Lord during seasons of hardship, trusting God's presence and faithfulness.",
-    "topics": [
-      "faith",
-      "encouragement"
-    ],
-    "keywords": [
-      "encourage yourself",
-      "strengthen yourself",
-      "trust",
-      "hope",
-      "faithfulness"
-    ],
-    "scripture": {
-      "ref": "1 Samuel 30:6",
-      "text": "But David encouraged himself in the LORD his God."
-    }
-  },
-  {
     "id": "eyes-on-jesus",
     "title": "Keep Your Eyes On Jesus",
     "summary": "Spiritual stability comes from focusing on Christ above circumstances.",
@@ -1558,27 +1517,6 @@
     }
   },
   {
-    "id": "praying-from-victory-not-defeat",
-    "title": "Praying from Victory, Not Defeat",
-    "summary": "Biblical prayer begins with confidence in God's promises rather than fear, doubt, or hopelessness.",
-    "topics": [
-      "faith",
-      "prayer"
-    ],
-    "keywords": [
-      "victory",
-      "prayer",
-      "faith",
-      "confidence",
-      "trust",
-      "promises"
-    ],
-    "scripture": {
-      "ref": "Mark 11:24",
-      "text": "What things soever ye desire, when ye pray, believe that ye receive them, and ye shall have them."
-    }
-  },
-  {
     "id": "receive-what-god-has-provided",
     "title": "Receive What God Has Provided",
     "summary": "God provided Joshua with a change of raiment after removing his filthy garments, showing that His work includes both removing what defiles and providing what is needed for a new way of life.",
@@ -1726,27 +1664,6 @@
     "scripture": {
       "ref": "Genesis 13:3-4",
       "text": "And he went on his journeys from the south even to Bethel, unto the place where his tent had been at the first, between Bethel and Hai; Unto the place of the altar, which he had made there at the first: and there Abram called on the name of the LORD."
-    }
-  },
-  {
-    "id": "secure-in-the-shepherd",
-    "title": "Secure In The Shepherd",
-    "summary": "Believers can rest securely in God because the presence of the Shepherd is greater than the dangers around them.",
-    "topics": [
-      "Faith",
-      "Trust",
-      "Rest"
-    ],
-    "keywords": [
-      "secure in the Shepherd",
-      "Psalm 23",
-      "trusting God",
-      "security in God",
-      "God our Shepherd"
-    ],
-    "scripture": {
-      "ref": "Psalm 23:2",
-      "text": "He maketh me to lie down in green pastures: he leadeth me beside the still waters."
     }
   },
   {
@@ -1999,27 +1916,6 @@
     }
   },
   {
-    "id": "ancient-foundations",
-    "title": "Ancient Foundations",
-    "summary": "Godly foundations built through truth, obedience, and faithfulness create lasting spiritual stability.",
-    "topics": [
-      "foundations",
-      "obedience"
-    ],
-    "keywords": [
-      "foundations",
-      "stability",
-      "obedience",
-      "wisdom",
-      "truth",
-      "spiritual growth"
-    ],
-    "scripture": {
-      "ref": "Jeremiah 6:16",
-      "text": "Thus saith the LORD, Stand ye in the ways, and see, and ask for the old paths, where is the good way, and walk therein."
-    }
-  },
-  {
     "id": "built-on-the-rock",
     "title": "Built On The Rock",
     "summary": "A life grounded in Christ remains steady through storms, pressure, and uncertainty.",
@@ -2059,6 +1955,27 @@
     "scripture": {
       "ref": "1 Corinthians 3:11",
       "text": "For other foundation can no man lay than that is laid, which is Jesus Christ."
+    }
+  },
+  {
+    "id": "godly-foundations",
+    "title": "Godly Foundations",
+    "summary": "Godly foundations built through truth, obedience, and faithfulness create lasting spiritual stability.",
+    "topics": [
+      "foundations",
+      "obedience"
+    ],
+    "keywords": [
+      "foundations",
+      "stability",
+      "obedience",
+      "wisdom",
+      "truth",
+      "spiritual growth"
+    ],
+    "scripture": {
+      "ref": "Jeremiah 6:16",
+      "text": "Thus saith the LORD, Stand ye in the ways, and see, and ask for the old paths, where is the good way, and walk therein."
     }
   },
   {
@@ -4603,27 +4520,6 @@
     }
   },
   {
-    "id": "the-cost-of-spiritual-sacrifice",
-    "title": "The Cost of Spiritual Sacrifice",
-    "summary": "Genuine sacrifice involves surrendering something valuable in order to honor God and pursue spiritual growth.",
-    "topics": [
-      "sacrifice",
-      "worship"
-    ],
-    "keywords": [
-      "sacrifice",
-      "surrender",
-      "worship",
-      "obedience",
-      "cost",
-      "devotion"
-    ],
-    "scripture": {
-      "ref": "2 Samuel 24:24",
-      "text": "And the king said unto Araunah, Nay; but I will surely buy it of thee at a price: neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing."
-    }
-  },
-  {
     "id": "understanding-spiritual-exchange",
     "title": "Understanding Spiritual Exchange",
     "summary": "Biblical sacrifice involves more than giving something away; it reflects trust, surrender, and a desire to honor God.",
@@ -5161,8 +5057,8 @@
     }
   },
   {
-    "id": "breaking-generational-patterns",
-    "title": "Breaking Generational Patterns",
+    "id": "breaking-destructive-patterns",
+    "title": "Breaking destructive Patterns",
     "summary": "Through spiritual renewal and obedience to God, believers can overcome destructive patterns that are repeated from one generation to another.",
     "topics": [
       "spiritual growth",
@@ -5487,26 +5383,6 @@
     "scripture": {
       "ref": "2 Peter 3:18",
       "text": "But grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ. To him be glory both now and for ever. Amen."
-    }
-  },
-  {
-    "id": "guard-your-heart",
-    "title": "Guard Your Heart",
-    "summary": "Scripture instructs believers to carefully guard the heart because it influences every area of life.",
-    "topics": [
-      "spiritual growth",
-      "wisdom"
-    ],
-    "keywords": [
-      "heart",
-      "wisdom",
-      "discernment",
-      "peace",
-      "vigilance"
-    ],
-    "scripture": {
-      "ref": "Proverbs 4:23",
-      "text": "Keep thy heart with all diligence; for out of it are the issues of life."
     }
   },
   {

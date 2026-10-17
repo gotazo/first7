@@ -176,7 +176,7 @@ const dictionaryTerms =
 
   <!-- Main -->
 
-  <main
+  <div
     data-reading-title={teaching.data.title}
     data-reading-description={teaching.data.summary}
     data-reading-category={teaching.data.topics?.[0]}
@@ -405,45 +405,24 @@ const dictionaryTerms =
 
     </article>
 
-  </main>
+  </div>
 
 </BaseLayout>
 
 <script>
+  import { saveContinueReading } from "../../lib/reading/continueReading";
 
-  /**
-   * 📖 Continue Reading
-   */
-
-  const main =
-    document.querySelector("main");
+  // 📖 Save continuation when browser storage is available. Reading remains usable
+  // even when localStorage is disabled or full.
+  const main = document.querySelector("[data-reading-title]");
 
   if (main instanceof HTMLElement) {
-
-    const reading = {
-
-      title:
-        main.dataset.readingTitle ?? "",
-
-      description:
-        main.dataset.readingDescription ?? "",
-
-      category:
-        main.dataset.readingCategory,
-
-      url:
-        window.location.pathname,
-
-      lastRead:
-        new Date().toISOString(),
-
-    };
-
-    localStorage.setItem(
-      "continue-reading",
-      JSON.stringify(reading)
-    );
-
+    saveContinueReading({
+      title: main.dataset.readingTitle ?? "",
+      description: main.dataset.readingDescription ?? "",
+      category: main.dataset.readingCategory,
+      url: window.location.pathname,
+    });
   }
 
   /**

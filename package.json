@@ -11,7 +11,10 @@
     "build": "npm run build:index && astro build",
     "preview": "astro preview",
     "build:index": "node scripts/buildTeachingsIndex.mjs",
-    "astro": "astro"
+    "test": "node --experimental-strip-types --test src/lib/study-more/__tests__/explicit-relationships.test.ts src/lib/reading/continueReading.test.ts src/lib/bible/normalizeBibleReference.test.ts",
+    "astro": "astro",
+    "audit:site": "node scripts/auditSite.mjs",
+    "check:site": "npm run build && npm run audit:site -- --strict"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.3",

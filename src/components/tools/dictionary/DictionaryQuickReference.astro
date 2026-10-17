@@ -1,6 +1,13 @@
+
 ---
 import type { CollectionEntry } from "astro:content";
 import DictionaryBreadcrumb from "./DictionaryBreadcrumb.astro";
+
+interface ResolvedRelatedTerm {
+  id: string;
+  title: string;
+  href: string;
+}
 
 interface Props {
   entry: CollectionEntry<"dictionary">;
@@ -11,11 +18,14 @@ interface Props {
     prophecy: CollectionEntry<"prophecy">[];
     numbers: CollectionEntry<"numbers">[];
   };
+
+  resolvedRelatedTerms: ResolvedRelatedTerm[];
 }
 
 const {
   entry,
   collections,
+  resolvedRelatedTerms,
 } = Astro.props;
 
 const sortedDictionary = [...collections.dictionary].sort((a, b) =>
@@ -42,7 +52,6 @@ const currentLetter =
     p-6
   "
 >
-
   <h2
     class="
       text-xl
@@ -73,7 +82,6 @@ const currentLetter =
       md:grid-cols-3
     "
   >
-
     <div
       class="
         rounded-xl
@@ -83,7 +91,6 @@ const currentLetter =
         text-center
       "
     >
-
       <p
         class="
           text-xs
@@ -104,7 +111,6 @@ const currentLetter =
       >
         {totalTerms}
       </p>
-
     </div>
 
     <div
@@ -116,7 +122,6 @@ const currentLetter =
         text-center
       "
     >
-
       <p
         class="
           text-xs
@@ -138,7 +143,6 @@ const currentLetter =
       >
         {currentIndex + 1} of {totalTerms}
       </p>
-
     </div>
 
     <div
@@ -150,7 +154,6 @@ const currentLetter =
         text-center
       "
     >
-
       <p
         class="
           text-xs
@@ -171,9 +174,7 @@ const currentLetter =
       >
         {currentLetter}
       </p>
-
     </div>
-
   </div>
 
   <!-- Main Reference Information -->
@@ -186,11 +187,9 @@ const currentLetter =
       lg:grid-cols-2
     "
   >
-
     <!-- Meaning -->
 
     <div>
-
       <h3
         class="
           text-sm
@@ -206,15 +205,12 @@ const currentLetter =
       <p class="mt-2 leading-relaxed">
         {entry.data.shortMeaning}
       </p>
-
     </div>
 
     <!-- Scriptures -->
 
     {entry.data.scriptures?.length > 0 && (
-
       <div>
-
         <h3
           class="
             text-sm
@@ -233,27 +229,19 @@ const currentLetter =
             space-y-1
           "
         >
-
           {entry.data.scriptures.map((scripture) => (
-
             <li>
               {scripture}
             </li>
-
           ))}
-
         </ul>
-
       </div>
-
     )}
 
     <!-- Aliases -->
 
     {entry.data.aliases?.length > 0 && (
-
       <div>
-
         <h3
           class="
             text-sm
@@ -274,9 +262,7 @@ const currentLetter =
             gap-2
           "
         >
-
           {entry.data.aliases.map((alias) => (
-
             <span
               class="
                 rounded-full
@@ -289,21 +275,15 @@ const currentLetter =
             >
               {alias}
             </span>
-
           ))}
-
         </div>
-
       </div>
-
     )}
 
     <!-- Related -->
 
-    {entry.data.related?.length > 0 && (
-
+    {resolvedRelatedTerms.length > 0 && (
       <div>
-
         <h3
           class="
             text-sm
@@ -324,11 +304,9 @@ const currentLetter =
             gap-2
           "
         >
-
-          {entry.data.related.map((item) => (
-
+          {resolvedRelatedTerms.map((item) => (
             <a
-              href={`/dictionary/${item}`}
+              href={item.href}
               class="
                 rounded-full
                 border
@@ -340,23 +318,17 @@ const currentLetter =
                 hover:border-[var(--color-primary)]
               "
             >
-              {item}
+              {item.title}
             </a>
-
           ))}
-
         </div>
-
       </div>
-
     )}
-
   </div>
 
   <!-- Original Language -->
 
   {(entry.data.hebrew || entry.data.greek) && (
-
     <div
       class="
         mt-8
@@ -365,7 +337,6 @@ const currentLetter =
         pt-8
       "
     >
-
       <h3
         class="
           text-sm
@@ -386,11 +357,9 @@ const currentLetter =
           md:grid-cols-2
         "
       >
-
         <!-- Hebrew -->
 
         {entry.data.hebrew && (
-
           <div
             class="
               rounded-xl
@@ -399,7 +368,6 @@ const currentLetter =
               p-5
             "
           >
-
             <p
               class="
                 text-xs
@@ -435,7 +403,6 @@ const currentLetter =
             </p>
 
             {entry.data.hebrew.meaning && (
-
               <p
                 class="
                   mt-2
@@ -444,17 +411,13 @@ const currentLetter =
               >
                 {entry.data.hebrew.meaning}
               </p>
-
             )}
-
           </div>
-
         )}
 
         <!-- Greek -->
 
         {entry.data.greek && (
-
           <div
             class="
               rounded-xl
@@ -463,7 +426,6 @@ const currentLetter =
               p-5
             "
           >
-
             <p
               class="
                 text-xs
@@ -498,7 +460,6 @@ const currentLetter =
             </p>
 
             {entry.data.greek.meaning && (
-
               <p
                 class="
                   mt-2
@@ -507,17 +468,10 @@ const currentLetter =
               >
                 {entry.data.greek.meaning}
               </p>
-
             )}
-
           </div>
-
         )}
-
       </div>
-
     </div>
-
   )}
-
 </section>

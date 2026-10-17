@@ -1,79 +1,32 @@
 ---
+import { normalizeBibleReference } from "../../lib/bible/normalizeBibleReference";
+
 interface Props {
   scriptures: string[];
 }
 
 const { scriptures } = Astro.props;
-
-/**
- * Converts:
- * "Revelation 13:8"
- * -> { book: "revelation", chapter: "13", verse: "8" }
- */
-function parseScripture(scripture: string) {
-
-  const match =
-    scripture
-      .trim()
-      .match(/^(.+?)\s+(\d+)(?::(\d+))?$/);
-
-  if (!match) {
-
-    return null;
-
-  }
-
-  const book =
-    match[1]
-      .trim()
-      .toLowerCase()
-      .replace(/\s+/g, "-");
-
-  const chapter =
-    match[2];
-
-  const verse =
-    match[3];
-
-  return {
-    book,
-    chapter,
-    verse,
-  };
-
-}
 ---
 
 <section class="space-y-5">
-
   <h2 class="text-2xl font-semibold">
     Related Scriptures
   </h2>
 
   <div class="flex flex-wrap gap-3">
-
     {scriptures.map((scripture) => {
+      const normalized = normalizeBibleReference(scripture);
 
-      const parsed =
-        parseScripture(scripture);
-
-      if (!parsed) return null;
+      if (!normalized) return null;
 
       return (
-
         <a
-          href={`/bible/${parsed.book}/${parsed.chapter}${parsed.verse ? `#v${parsed.verse}` : ""}`}
+          href={normalized.path}
           class="rounded-full border border-[var(--color-border)] px-4 py-2 text-sm transition hover:border-[var(--color-primary)] hover:bg-[var(--color-primary)]/5"
         >
-
           {scripture}
-
         </a>
-
       );
-
     })}
-
   </div>
-
 </section>

@@ -105,6 +105,7 @@ const pathname = Astro.url.pathname;
               transition-transform
               duration-200
               group-hover:rotate-180
+              group-focus-within:rotate-180
             "
           />
 
@@ -124,7 +125,9 @@ const pathname = Astro.url.pathname;
             transition-all
             duration-200
             group-hover:visible
+            group-focus-within:visible
             group-hover:opacity-100
+            group-focus-within:opacity-100
           "
         >
 
@@ -171,7 +174,7 @@ const pathname = Astro.url.pathname;
                   Strength
                 </a>
 
-                <a href="/verses/bible-verses-for-love" class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]">
+                <a href="/verses/bible-verses-about-love/" class="block rounded-xl px-3 py-2 transition hover:bg-[var(--color-bg-soft)]">
                   Love
                 </a>
 
@@ -206,7 +209,8 @@ const pathname = Astro.url.pathname;
           <span>Prayers</span>
 
           <ChevronDown
-            class="h-4 w-4 transition-transform duration-200 group-hover:rotate-180"
+            class="h-4 w-4 transition-transform duration-200 group-hover:rotate-180
+              group-focus-within:rotate-180"
           />
 
         </a>
@@ -225,7 +229,9 @@ const pathname = Astro.url.pathname;
             transition-all
             duration-200
             group-hover:visible
+            group-focus-within:visible
             group-hover:opacity-100
+            group-focus-within:opacity-100
           "
         >
 
@@ -332,6 +338,7 @@ const pathname = Astro.url.pathname;
               transition-transform
               duration-200
               group-hover:rotate-180
+              group-focus-within:rotate-180
             "
           />
 
@@ -351,7 +358,9 @@ const pathname = Astro.url.pathname;
             transition-all
             duration-200
             group-hover:visible
+            group-focus-within:visible
             group-hover:opacity-100
+            group-focus-within:opacity-100
           "
         >
 
@@ -560,8 +569,7 @@ const pathname = Astro.url.pathname;
 
           <a href="/verses/bible-verses-for-depression" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Depression</a>
 
-          <a href="/verses/bible-verses-for-love" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Love</a>
-
+          <a href="/verses/bible-verses-about-love/" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Love</a>
           <a href="/verses/bible-verses-for-healing" class="block rounded-lg px-3 py-2 hover:bg-[var(--color-bg-soft)]">Healing</a>
 
         </div>

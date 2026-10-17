@@ -1,0 +1,210 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const resourceGroups = [
+  {
+    id: "read",
+    eyebrow: "Begin with Scripture",
+    title: "Read",
+    description: "Start with the Bible itself and explore Scripture in context.",
+    resources: [
+      {
+        title: "Read the Bible",
+        description: "Browse Bible books and chapters in the King James Version.",
+        href: "/bible/",
+        action: "Open the Bible",
+      },
+      {
+        title: "Verse Library",
+        description: "Find collections of Bible verses for encouragement, comfort, and reflection.",
+        href: "/verses/",
+        action: "Browse verses",
+      },
+    ],
+  },
+  {
+    id: "study",
+    eyebrow: "Understand the Word",
+    title: "Study",
+    description: "Explore biblical words, teachings, and subjects with Scripture as the foundation.",
+    resources: [
+      {
+        title: "Bible Dictionary",
+        description: "Explore biblical people, places, words, and concepts.",
+        href: "/dictionary/",
+        action: "Explore definitions",
+      },
+      {
+        title: "Teachings",
+        description: "Study concise lessons with Scripture, insight, application, and prayer where provided.",
+        href: "/teachings/",
+        action: "Browse teachings",
+      },
+      {
+        title: "Biblical Numbers",
+        description: "Explore entries about numbers and their use in the Bible.",
+        href: "/number/",
+        action: "Explore numbers",
+      },
+    ],
+  },
+  {
+    id: "explore",
+    eyebrow: "Follow a subject",
+    title: "Explore",
+    description: "Continue your study through related biblical subjects and collections.",
+    resources: [
+      {
+        title: "Prophecy",
+        description: "Browse the First7 prophecy collection and its Scripture references.",
+        href: "/prophecy/",
+        action: "Explore prophecy",
+      },
+      {
+        title: "Bible Study Guides",
+        description: "Find guides designed to support focused, Scripture-centred study.",
+        href: "/guides/",
+        action: "Browse guides",
+      },
+      {
+        title: "Search First7",
+        description: "Look across the site for a topic, term, or resource to study next.",
+        href: "/search/",
+        action: "Search resources",
+      },
+    ],
+  },
+  {
+    id: "grow",
+    eyebrow: "Put study into practice",
+    title: "Grow and reflect",
+    description: "Make space for prayer, reflection, and a steady rhythm in Scripture.",
+    resources: [
+      {
+        title: "Reading Plans",
+        description: "Follow a guided reading plan one day at a time.",
+        href: "/plans/",
+        action: "View reading plans",
+      },
+      {
+        title: "Prayers",
+        description: "Browse prayers rooted in faith and the needs of daily life.",
+        href: "/prayers/",
+        action: "Browse prayers",
+      },
+      {
+        title: "Reflections",
+        description: "Pause for thoughtful reflections alongside your Bible study.",
+        href: "/reflections/",
+        action: "Read reflections",
+      },
+      {
+        title: "Verse Jar",
+        description: "Discover Scripture cards for encouragement and personal reflection.",
+        href: "/verse-jar/",
+        action: "Open Verse Jar",
+      },
+    ],
+  },
+  {
+    id: "resources",
+    eyebrow: "Practical materials",
+    title: "Guides and resources",
+    description: "Find additional materials that support personal study and spiritual growth.",
+    resources: [
+      {
+        title: "All Resources",
+        description: "Explore available study resources, journals, and printable materials.",
+        href: "/resources/",
+        action: "View resources",
+      },
+      {
+        title: "Journals",
+        description: "Browse the available guided journals and related study materials.",
+        href: "/resources/journals/",
+        action: "Browse journals",
+      },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Bible Study Library | First7"
+  description="Explore First7's free KJV Bible study library: Scripture, Dictionary, teachings, prophecy, biblical numbers, reading plans, prayers, reflections, and more."
+>
+  <div class="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6 md:py-16">
+    <header class="mx-auto max-w-3xl text-center">
+      <p class="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--color-primary)]">
+        First7 Bible Study Library
+      </p>
+      <h1 class="mt-4 text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
+        Discover more in God's Word.
+      </h1>
+      <p class="mt-6 text-base leading-relaxed text-[var(--color-muted)] sm:text-lg">
+        Read Scripture, explore biblical words and themes, and find resources that help you continue studying. First7 brings these free resources together with the King James Version as our Scripture text.
+      </p>
+      <a
+        href="/bible/"
+        class="mt-8 inline-flex min-h-11 items-center justify-center rounded-xl bg-[var(--color-primary)] px-6 py-3 font-medium text-white transition hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-primary)]"
+      >
+        Begin with the Bible <span aria-hidden="true" class="ml-2">→</span>
+      </a>
+    </header>
+
+    <nav aria-label="Library sections" class="mx-auto mt-10 flex max-w-4xl flex-wrap justify-center gap-2">
+      {resourceGroups.map((group) => (
+        <a
+          href={`#${group.id}`}
+          class="rounded-full border border-[var(--color-border)] px-4 py-2 text-sm transition hover:bg-[var(--color-bg-soft)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+        >
+          {group.title}
+        </a>
+      ))}
+    </nav>
+
+    <div class="mt-16 space-y-16">
+      {resourceGroups.map((group) => (
+        <section id={group.id} aria-labelledby={`${group.id}-heading`} class="scroll-mt-24">
+          <div class="mb-6 max-w-2xl">
+            <p class="text-sm font-medium text-[var(--color-primary)]">{group.eyebrow}</p>
+            <h2 id={`${group.id}-heading`} class="mt-2 text-2xl font-semibold sm:text-3xl">
+              {group.title}
+            </h2>
+            <p class="mt-3 leading-relaxed text-[var(--color-muted)]">{group.description}</p>
+          </div>
+
+          <ul class="grid list-none grid-cols-1 gap-4 p-0 sm:grid-cols-2 lg:grid-cols-3">
+            {group.resources.map((resource) => (
+              <li class="h-full">
+                <a
+                  href={resource.href}
+                  class="group flex h-full flex-col rounded-2xl border border-[var(--color-border)] p-5 transition hover:-translate-y-0.5 hover:border-[var(--color-primary)] hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-[var(--color-primary)]"
+                >
+                  <h3 class="text-lg font-semibold">{resource.title}</h3>
+                  <p class="mt-3 flex-1 text-sm leading-relaxed text-[var(--color-muted)]">
+                    {resource.description}
+                  </p>
+                  <span class="mt-5 inline-flex items-center text-sm font-medium text-[var(--color-primary)]">
+                    {resource.action} <span aria-hidden="true" class="ml-2 transition-transform group-hover:translate-x-1">→</span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+
+    <aside class="mt-16 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-soft)] p-6 sm:p-8" aria-labelledby="continue-study-heading">
+      <h2 id="continue-study-heading" class="text-xl font-semibold">Not sure where to continue?</h2>
+      <p class="mt-3 max-w-2xl leading-relaxed text-[var(--color-muted)]">
+        Start with a passage, look up an unfamiliar word in the Dictionary, or read a related teaching. You can move between these resources at your own pace.
+      </p>
+      <div class="mt-5 flex flex-wrap gap-3">
+        <a href="/search/" class="rounded-lg border border-[var(--color-border)] px-4 py-2.5 text-sm font-medium transition hover:bg-[var(--color-bg)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]">Search First7</a>
+        <a href="/teachings/" class="rounded-lg border border-[var(--color-border)] px-4 py-2.5 text-sm font-medium transition hover:bg-[var(--color-bg)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]">Browse teachings</a>
+      </div>
+    </aside>
+  </div>
+</BaseLayout>

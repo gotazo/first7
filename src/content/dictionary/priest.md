@@ -23,9 +23,15 @@ scriptures:
   - Leviticus 8:1-13
   - Numbers 18:1-7
   - Psalm 110:4
-  - Malachi 2:7
-  - Hebrews 4:14-16
-  - Hebrews 7:23-28
+  - Joshua 3:6-17
+  - Joshua 4:9-18
+  - 1 Samuel 2:12-17
+  - 2 Chronicles 29:11
+  - Ezra 6:18
+  - Matthew 8:4
+  - Luke 1:5-23
+  - Hebrews 5:1-10
+  - Hebrews 7:20-28
   - 1 Peter 2:9
 
 related:

@@ -1,3 +1,4 @@
+
 ---
 import type { CollectionEntry } from "astro:content";
 
@@ -8,6 +9,12 @@ import DictionaryPreviousNext from "./DictionaryPreviousNext.astro";
 import DictionaryQuickReference from "./DictionaryQuickReference.astro";
 import DictionaryStudyMore from "./DictionaryStudyMore.astro";
 
+interface ResolvedRelatedTerm {
+  id: string;
+  title: string;
+  href: string;
+}
+
 interface Props {
   entry: CollectionEntry<"dictionary">;
 
@@ -17,11 +24,14 @@ interface Props {
     prophecy: CollectionEntry<"prophecy">[];
     numbers: CollectionEntry<"numbers">[];
   };
+
+  resolvedRelatedTerms: ResolvedRelatedTerm[];
 }
 
 const {
   entry,
   collections,
+  resolvedRelatedTerms,
 } = Astro.props;
 ---
 
@@ -34,7 +44,6 @@ const {
     sm:px-6
   "
 >
-
   <!-- Hero -->
 
   <StudyHero
@@ -45,22 +54,19 @@ const {
 
   <!-- Sticky Navigation -->
 
-<DictionaryNavigation
-  entries={collections.dictionary}
-  currentEntry={entry.id}
-/>
-
-
+  <DictionaryNavigation
+    entries={collections.dictionary}
+    currentEntry={entry.id}
+  />
 
   <!-- Quick Reference -->
 
   <div class="mt-8">
-
     <DictionaryQuickReference
-     entry={entry}
-     collections={collections}
+      entry={entry}
+      collections={collections}
+      resolvedRelatedTerms={resolvedRelatedTerms}
     />
-
   </div>
 
   <!-- Main Content -->
@@ -74,23 +80,21 @@ const {
       max-w-4xl
     "
   >
-
     <slot />
-
   </article>
 
   <!-- Study More -->
 
-    <DictionaryStudyMore
-        entry={entry}
-        collections={collections}
-/>
+  <DictionaryStudyMore
+    entry={entry}
+    collections={collections}
+    resolvedRelatedTerms={resolvedRelatedTerms}
+  />
 
   <!-- Previous / Next -->
 
-<DictionaryPreviousNext
-  entries={collections.dictionary}
-  currentEntry={entry.id}
-/>
-
+  <DictionaryPreviousNext
+    entries={collections.dictionary}
+    currentEntry={entry.id}
+  />
 </div>

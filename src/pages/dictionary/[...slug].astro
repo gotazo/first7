@@ -1,76 +1,74 @@
+
 ---
 export const prerender = true;
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
-
-import DictionaryLayout
-  from "../../components/tools/dictionary/DictionaryLayout.astro";
+import DictionaryLayout from "../../components/tools/dictionary/DictionaryLayout.astro";
 
 import {
   getCollection,
   render,
 } from "astro:content";
 
-export async function getStaticPaths() {
+import {
+  buildStudyMoreIndex,
+  getStudyMoreResult,
+} from "../../lib/study-more";
 
-  const entries =
-    await getCollection("dictionary");
+export async function getStaticPaths() {
+  const entries = await getCollection("dictionary");
 
   return entries.map((entry) => ({
-
     params: {
       slug: entry.id,
     },
-
     props: {
       entry,
     },
-
   }));
-
 }
 
 const { entry } = Astro.props;
 
-/**
- * Render Markdown
- */
-const { Content } =
-  await render(entry);
+const { Content } = await render(entry);
 
-/**
- * Collections
- */
-const allDictionary =
-  await getCollection("dictionary");
+const [allDictionary, allTeachings, allProphecy, allNumbers] =
+  await Promise.all([
+    getCollection("dictionary"),
+    getCollection("teachings"),
+    getCollection("prophecy"),
+    getCollection("numbers"),
+  ]);
 
-const allTeachings =
-  await getCollection("teachings");
+const collections = {
+  dictionary: allDictionary,
+  teachings: allTeachings,
+  prophecy: allProphecy,
+  numbers: allNumbers,
+};
 
-const allProphecy =
-  await getCollection("prophecy");
+const relationshipIndex = await buildStudyMoreIndex();
 
-const allNumbers =
-  await getCollection("numbers");
+const studyMore = getStudyMoreResult(relationshipIndex, {
+  kind: "dictionary",
+  id: entry.id,
+});
+
+const resolvedRelatedTerms =
+  studyMore.groups
+    .filter((group) => group.kind === "dictionary")
+    .flatMap((group) => group.items);
 ---
 
 <BaseLayout
   title={`${entry.data.title} Meaning`}
   description={entry.data.shortMeaning}
 >
-
-<DictionaryLayout
-  entry={entry}
-  collections={{
-    dictionary: allDictionary,
-    teachings: allTeachings,
-    prophecy: allProphecy,
-    numbers: allNumbers,
-  }}
->
-
+  <DictionaryLayout
+    entry={entry}
+    collections={collections}
+    resolvedRelatedTerms={resolvedRelatedTerms}
+  >
     <Content />
-
   </DictionaryLayout>
-
 </BaseLayout>

@@ -51,4 +51,4 @@ application:
   - Reject doubt and uncertainty
   - Act upon what God has spoken
 
-------
+---

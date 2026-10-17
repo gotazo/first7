@@ -1,7 +1,7 @@
 ---
-id: ancient-foundations
+id: godly-foundations
 
-title: Ancient Foundations
+title: Godly Foundations
 
 summary: Godly foundations built through truth, obedience, and faithfulness create lasting spiritual stability.
 

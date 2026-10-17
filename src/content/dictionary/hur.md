@@ -1,86 +1,71 @@
 ---
-title: Zipporah
-
-term: zipporah
-
-shortMeaning: A Hebrew proper name meaning "bird."
-
+title: Hur
+term: hur
+shortMeaning: A Hebrew proper name borne by more than one man in the Old Testament.
 biblicalUsage: >
-  In Scripture, Zipporah is the daughter of Jethro, the priest of Midian,
-  and the wife of Moses. She bore Moses two sons, Gershom and Eliezer, and
-  appears in the account of the circumcision of their son.
-
+  In Scripture, Hur is the name of several men. One Hur accompanied Moses
+  and Aaron when Israel fought Amalek and helped hold up Moses' hands.
+  Moses later left Aaron and Hur with the elders while he went up into
+  the mount to receive the tables of stone.
 reference:
-  ref: Exodus 2:21
-  text: "And Moses was content to dwell with the man: and he gave Moses Zipporah his daughter."
-
+  ref: Exodus 17:12
+  text: "But Moses' hands were heavy; and they took a stone, and put it under him, and he sat thereon; and Aaron and Hur stayed up his hands, the one on the one side, and the other on the other side; and his hands were steady until the going down of the sun."
 featuredVerse:
-  ref: Exodus 4:25
-  text: "Then Zipporah took a sharp stone, and cut off the foreskin of her son, and cast it at his feet, and said, Surely a bloody husband art thou to me."
+  ref: Exodus 24:14
+  text: "And he said unto the elders, Tarry ye here for us, until we come again unto you: and, behold, Aaron and Hur are with you: if any man have any matters to do, let him come unto them."
 
 scriptures:
-  - Exodus 2:16-22
-  - Exodus 4:24-26
-  - Exodus 18:1-6
-  - Numbers 12:1
+  - Exodus 17:10-12
+  - Exodus 24:14
+  - Exodus 31:2
+  - Exodus 35:30
+  - 1 Chronicles 2:19-20
+  - 1 Chronicles 2:50
+  - 1 Chronicles 4:1
+  - 2 Chronicles 1:5
 
 related:
   - moses
-  - jethro
-  - gershom
-  - eliezer
-  - midian
+  - aaron
+  - bezalel
+  - uri
 
 aliases: []
 
 seeAlso:
-  - circumcision
-  - midian
-  - moses
-  - jethro
+  - amalek
+  - tabernacle
 
 tags:
   - people
   - exodus
-  - family
-  - midian
-
-hebrew:
-  word: צִפֹּרָה
-  transliteration: Tsipporah
-  meaning: bird
-
+  - israel
 ---
 
 ## Meaning
 
-Zipporah is a Hebrew proper name meaning "bird."
-
----
+Hur is a Hebrew proper name borne by more than one man in the Old Testament.
 
 ## Biblical Usage
 
-In Scripture, Zipporah is the daughter of Jethro, the priest of Midian,
-and the wife of Moses.
+One Hur accompanied Moses and Aaron when Israel fought Amalek. When Moses' hands grew heavy, Aaron and Hur supported them until sunset. Moses later left Aaron and Hur with the elders while he went up into the mount.
 
-She bore Moses two sons, Gershom and Eliezer, and appears in the account
-of the circumcision of their son.
-
----
+The name Hur also appears in genealogies and in accounts concerning Bezalel, the craftsman appointed for the work of the tabernacle. The passages should be read in context to distinguish the individuals.
 
 ## Key References
 
-- Exodus 2:16-22
-- Exodus 4:24-26
-- Exodus 18:1-6
-- Numbers 12:1
-
----
+- Exodus 17:10-12
+- Exodus 24:14
+- Exodus 31:2
+- Exodus 35:30
+- 1 Chronicles 2:19-20
+- 1 Chronicles 2:50
+- 1 Chronicles 4:1
+- 2 Chronicles 1:5
 
 ## Related Terms
 
 - Moses
-- Jethro
-- Gershom
-- Eliezer
-- Midian
+- Aaron
+- Bezalel
+- Uri

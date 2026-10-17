@@ -6,7 +6,7 @@ slug: bible-reading-plan
 component: BibleReadingPlan
 featured: true
 order: 3
---------
+---
 
 ## Build a Consistent Bible Reading Habit
 

@@ -3,7 +3,7 @@
 title: Bible Verses for Anxiety (KJV) – Find Peace and Calm
 description: Discover powerful Bible verses for anxiety and worry from the KJV. Find peace, comfort, and strength through God’s Word.
 slug: bible-verses-for-anxiety
-------------------------------
+---
 
 Struggling with anxiety or constant worry? These Bible verses remind us that God is near, present, and in control—even in uncertain moments.
 

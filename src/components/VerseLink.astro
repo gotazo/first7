@@ -1,31 +1,15 @@
 ---
+import { normalizeBibleReference } from "../lib/bible/normalizeBibleReference";
+
 interface Props {
-  verse: string; // "Genesis 1:3"
+  verse: string;
 }
 
 const { verse } = Astro.props;
 
-const match =
-  verse
-    .trim()
-    .match(/^(.+?)\s+(\d+)(?::(\d+))?$/);
+const normalized = normalizeBibleReference(verse);
 
-const book =
-  match?.[1]
-    .trim()
-    .toLowerCase()
-    .replace(/\s+/g, "-");
-
-const chapter =
-  match?.[2];
-
-const verseNum =
-  match?.[3];
-
-const url =
-  book && chapter
-    ? `/bible/${book}/${chapter}${verseNum ? `#v${verseNum}` : ""}`
-    : "/bible";
+const url = normalized?.path ?? "/bible";
 ---
 
 <a href={url} class="bible-link">

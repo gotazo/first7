@@ -32,3 +32,6 @@ logs/
 
 .codex-build-trace.err.log
 .codex-build-trace.out.log
+
+# Local migration and comparison files
+/tmp/
