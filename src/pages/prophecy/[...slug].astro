@@ -26,16 +26,40 @@ import {
   render,
 } from "astro:content";
 
+import {
+  buildStudyMoreIndex,
+  getStudyMoreResult,
+} from "../../lib/study-more";
+
 export async function getStaticPaths() {
 
   const entries =
     await getCollection("prophecy");
 
+  const relationshipIndex = await buildStudyMoreIndex();
+
   return entries
     .filter(
       (entry) => !entry.data.draft
     )
-    .map((entry) => ({
+    .map((entry) => {
+      const studyMore = getStudyMoreResult(
+        relationshipIndex,
+        {
+          kind: "prophecy",
+          id: entry.id,
+        },
+      );
+
+      const relatedDictionaryIds = studyMore.groups
+        .filter((group) => group.kind === "dictionary")
+        .flatMap((group) => group.items.map((item) => item.id));
+
+      const relatedProphecyIds = studyMore.groups
+        .filter((group) => group.kind === "prophecy")
+        .flatMap((group) => group.items.map((item) => item.id));
+
+      return ({
 
       params: {
         slug: entry.id,
@@ -43,13 +67,20 @@ export async function getStaticPaths() {
 
       props: {
         entry,
+        relatedDictionaryIds,
+        relatedProphecyIds,
       },
 
-    }));
+    });
+    });
 
 }
 
-const { entry } = Astro.props;
+const {
+  entry,
+  relatedDictionaryIds,
+  relatedProphecyIds,
+} = Astro.props;
 
 /**
  * 📄 Render markdown
@@ -70,10 +101,10 @@ const allDictionary =
  * 🔗 Related prophecy topics
  */
 const relatedTopics =
-  allProphecy.filter((item) =>
-    entry.data.related.includes(
-      item.id
-    )
+  allProphecy.filter(
+    (item) =>
+      relatedProphecyIds.includes(item.id) &&
+      !item.data.draft
   );
 
 /**
@@ -89,7 +120,8 @@ const dictionaryTerms =
   allDictionary.filter((term) =>
     prophecyTerms.includes(
       term.data.term.toLowerCase()
-    )
+    ) ||
+    relatedDictionaryIds.includes(term.id)
   );
 ---
 

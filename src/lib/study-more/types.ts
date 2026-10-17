@@ -32,7 +32,7 @@ export type RelationshipProvenance =
     }
   | {
       kind: "canonical-term-match";
-      sourceField: "term" | "terms";
+      sourceField: "term" | "terms" | "keywords";
       matchedValue: string;
     }
   | {
@@ -69,7 +69,7 @@ export interface RelationshipEdge {
 
 export interface RelationshipDiagnostic {
   source: ContentKey;
-  field: "id" | "related" | "seeAlso" | "numbers" | "draft";
+  field: "id" | "related" | "seeAlso" | "numbers" | "draft" | "keywords" | "terms";
   authoredValue: string;
   reason:
     | "unresolved"
@@ -99,12 +99,16 @@ export interface TeachingContentRecord extends BaseContentRecord {
   kind: "teachings";
   authoredId: string;
   related: string[];
+  keywords: string[];
+  scriptures: string[];
 }
 
 export interface ProphecyContentRecord extends BaseContentRecord {
   kind: "prophecy";
   related: string[];
   numbers: number[];
+  scriptures: string[];
+  terms: string[];
   draft: boolean;
 }
 
@@ -112,6 +116,7 @@ export interface NumberContentRecord extends BaseContentRecord {
   kind: "numbers";
   number: number;
   related: string[];
+  terms: string[];
 }
 
 export interface RelationshipCollections {

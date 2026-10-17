@@ -21,5 +21,6 @@ export function adaptNumberEntries(
     href: `/number/${entry.id}`,
     number: entry.data.number,
     related: [...(entry.data.related ?? [])],
+    terms: [...(entry.data.terms ?? [])],
   }));
 }

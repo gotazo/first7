@@ -24,10 +24,17 @@ import {
   teachingTopics,
 } from "../../data/teachings/teachingTopics";
 
+import {
+  buildStudyMoreIndex,
+  getStudyMoreResult,
+} from "../../lib/study-more";
+
 export async function getStaticPaths() {
 
   const teachings =
     await getCollection("teachings");
+
+  const relationshipIndex = await buildStudyMoreIndex();
 
   const orderedTeachings =
     [...teachings].sort((a, b) => {
@@ -55,6 +62,22 @@ export async function getStaticPaths() {
       const next =
         orderedTeachings[index + 1];
 
+      const studyMore = getStudyMoreResult(
+        relationshipIndex,
+        {
+          kind: "teachings",
+          id: t.id,
+        },
+      );
+
+      const relatedDictionaryIds = studyMore.groups
+        .filter((group) => group.kind === "dictionary")
+        .flatMap((group) => group.items.map((item) => item.id));
+
+      const relatedProphecyIds = studyMore.groups
+        .filter((group) => group.kind === "prophecy")
+        .flatMap((group) => group.items.map((item) => item.id));
+
       return {
 
         params: {
@@ -64,6 +87,8 @@ export async function getStaticPaths() {
         props: {
 
           teaching: t,
+          relatedDictionaryIds,
+          relatedProphecyIds,
 
           previous: previous
             ? {
@@ -104,6 +129,8 @@ const {
   teaching,
   previous,
   next,
+  relatedDictionaryIds,
+  relatedProphecyIds,
 } = Astro.props;
 
 /**
@@ -136,38 +163,35 @@ const allDictionary =
 
 /**
  * 🔮 Related prophecy
+ *
+ * IDs come from the shared Study More resolver.
+ * Map them back to Astro entries for the existing
+ * RelatedTopics component.
  */
-const relatedProphecy =
-  allProphecy.filter((entry) =>
-
-    entry.data.scriptures?.some(
-      (scripture: string) =>
-
-        teaching.data.scriptures?.includes(
-          scripture
-        )
-
-    )
-
-  );
+const relatedProphecy = allProphecy.filter(
+  (entry) =>
+    relatedProphecyIds.includes(entry.id) &&
+    !entry.data.draft
+);
 
 /**
  * 📘 Related dictionary
+ *
+ * Map resolver IDs back to full Astro entries so
+ * StudyTerms retains its existing data contract.
  */
-const teachingKeywords =
-  teaching.data.keywords.map(
-    (keyword: string) =>
-      keyword.toLowerCase()
-  );
+const teachingKeywords = teaching.data.keywords.map(
+  (keyword: string) => keyword.toLowerCase()
+);
 
-const dictionaryTerms =
-  allDictionary.filter((entry) =>
-
-    teachingKeywords.includes(
-      entry.data.term.toLowerCase()
-    )
-
-  );
+// Preserve the legacy case-insensitive matches while also
+// including any additional Dictionary relationships resolved
+// by Study More. Keep the original collection order.
+const dictionaryTerms = allDictionary.filter(
+  (entry) =>
+    teachingKeywords.includes(entry.data.term.toLowerCase()) ||
+    relatedDictionaryIds.includes(entry.id)
+);
 ---
 
 <BaseLayout

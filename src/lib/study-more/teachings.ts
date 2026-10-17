@@ -8,6 +8,8 @@ interface TeachingEntryLike {
     id: string;
     title: string;
     related?: string[];
+    keywords?: string[];
+    scriptures?: string[];
   };
 }
 
@@ -21,5 +23,7 @@ export function adaptTeachingEntries(
     href: `/teachings/${entry.id}`,
     authoredId: entry.data.id,
     related: [...(entry.data.related ?? [])],
+    keywords: [...(entry.data.keywords ?? [])],
+    scriptures: [...(entry.data.scriptures ?? [])],
   }));
 }

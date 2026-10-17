@@ -36,6 +36,9 @@ function teaching(
   id: string,
   authoredId: string,
   related: string[] = [],
+  options: Partial<
+    Pick<TeachingContentRecord, "keywords" | "scriptures">
+  > = {},
 ): TeachingContentRecord {
   return {
     kind: "teachings",
@@ -44,13 +47,15 @@ function teaching(
     title: authoredId,
     href: `/teachings/${id}`,
     related,
+    keywords: options.keywords ?? [],
+    scriptures: options.scriptures ?? [],
   };
 }
 
 function prophecy(
   id: string,
   options: Partial<
-    Pick<ProphecyContentRecord, "related" | "numbers" | "draft">
+    Pick<ProphecyContentRecord, "related" | "numbers" | "draft" | "scriptures" | "terms">
   > = {},
 ): ProphecyContentRecord {
   return {
@@ -61,6 +66,8 @@ function prophecy(
     related: options.related ?? [],
     numbers: options.numbers ?? [],
     draft: options.draft ?? false,
+    scriptures: options.scriptures ?? [],
+    terms: options.terms ?? [],
   };
 }
 
@@ -68,6 +75,7 @@ function numberEntry(
   id: string,
   number: number,
   related: string[] = [],
+  terms: string[] = [],
 ): NumberContentRecord {
   return {
     kind: "numbers",
@@ -76,6 +84,7 @@ function numberEntry(
     title: `Number ${number}`,
     href: `/number/${id}`,
     related,
+    terms,
   };
 }
 
@@ -105,6 +114,41 @@ function edgeFor(
       edge.target.id === targetId,
   );
 }
+
+test("Number terms resolve unique canonical Dictionary terms ignoring case", () => {
+  const index = buildRelationshipIndex(
+    collections({
+      dictionary: [dictionary("faith", "Faith")],
+      numbers: [numberEntry("7", 7, [], ["  FAITH  "])],
+    }),
+  );
+
+  assert.ok(edgeFor(index, "numbers", "7", "dictionary", "faith"));
+});
+
+test("ambiguous Number terms are diagnosed without guessing", () => {
+  const index = buildRelationshipIndex(
+    collections({
+      dictionary: [
+        dictionary("faith-one", "Faith"),
+        dictionary("faith-two", " faith "),
+      ],
+      numbers: [numberEntry("7", 7, [], ["FAITH"])],
+    }),
+  );
+
+  assert.equal(index.edges.length, 0);
+  assert.ok(
+    index.diagnostics.some(
+      (item) =>
+        item.source.kind === "numbers" &&
+        item.source.id === "7" &&
+        item.field === "terms" &&
+        item.authoredValue === "FAITH" &&
+        item.reason === "ambiguous",
+    ),
+  );
+});
 
 test("Dictionary related resolves an exact canonical entry.id first", () => {
   const index = buildRelationshipIndex(
@@ -463,4 +507,169 @@ test("Unresolved references never produce broken hrefs", () => {
 
   assert.deepEqual(result.groups, []);
   assert.equal(index.edges.length, 0);
+});
+
+test("Teaching keywords match unique canonical Dictionary terms ignoring case", () => {
+  const index = buildRelationshipIndex(
+    collections({
+      dictionary: [dictionary("grace", "Grace")],
+      teachings: [
+        teaching("topic", "topic", [], { keywords: ["GRACE"] }),
+      ],
+    }),
+  );
+
+  const edge = edgeFor(index, "teachings", "topic", "dictionary", "grace");
+  assert.ok(edge);
+  assert.ok(
+    edge.evidence.some(
+      (item) =>
+        item.provenance.kind === "canonical-term-match" &&
+        item.provenance.sourceField === "keywords" &&
+        item.provenance.matchedValue === "GRACE",
+    ),
+  );
+});
+
+test("ambiguous Teaching keywords are diagnosed without guessing", () => {
+  const index = buildRelationshipIndex(
+    collections({
+      dictionary: [
+        dictionary("grace-a", "Grace"),
+        dictionary("grace-b", "Grace"),
+      ],
+      teachings: [
+        teaching("topic", "topic", [], { keywords: ["Grace"] }),
+      ],
+    }),
+  );
+
+  assert.equal(
+    edgeFor(index, "teachings", "topic", "dictionary", "grace-a"),
+    undefined,
+  );
+  assert.equal(
+    edgeFor(index, "teachings", "topic", "dictionary", "grace-b"),
+    undefined,
+  );
+  assert.ok(
+    index.diagnostics.some(
+      (item) =>
+        item.source.kind === "teachings" &&
+        item.source.id === "topic" &&
+        item.field === "keywords" &&
+        item.authoredValue === "Grace" &&
+        item.reason === "ambiguous",
+    ),
+  );
+});
+
+test("Teaching Scripture overlap links published Prophecy and excludes drafts", () => {
+  const index = buildRelationshipIndex(
+    collections({
+      teachings: [
+        teaching("topic", "topic", [], {
+          scriptures: ["Daniel 6:22", "John 3:16", "Daniel 6:22"],
+        }),
+      ],
+      prophecy: [
+        prophecy("published", { scriptures: ["Daniel 6:22"] }),
+        prophecy("draft", {
+          scriptures: ["Daniel 6:22"],
+          draft: true,
+        }),
+      ],
+    }),
+  );
+
+  const edge = edgeFor(index, "teachings", "topic", "prophecy", "published");
+  assert.ok(edge);
+  assert.equal(
+    edge.evidence.filter(
+      (item) =>
+        item.provenance.kind === "scripture-overlap" &&
+        item.provenance.matchedValue === "Daniel 6:22",
+    ).length,
+    1,
+  );
+  assert.equal(
+    edgeFor(index, "teachings", "topic", "prophecy", "draft"),
+    undefined,
+  );
+});
+
+test("Teaching Scripture overlap requires an exact reference string", () => {
+  const index = buildRelationshipIndex(
+    collections({
+      teachings: [
+        teaching("topic", "topic", [], {
+          scriptures: ["Daniel 6:22"],
+        }),
+      ],
+      prophecy: [
+        prophecy("different", { scriptures: ["Daniel 6: 22"] }),
+      ],
+    }),
+  );
+
+  assert.equal(
+    edgeFor(index, "teachings", "topic", "prophecy", "different"),
+    undefined,
+  );
+});
+
+
+test("Prophecy terms match unique canonical Dictionary terms ignoring case", () => {
+  const index = buildRelationshipIndex(
+    collections({
+      dictionary: [dictionary("grace", "Grace")],
+      prophecy: [
+        prophecy("topic", { terms: ["GRACE"] }),
+      ],
+    }),
+  );
+
+  const edge = edgeFor(index, "prophecy", "topic", "dictionary", "grace");
+  assert.ok(edge);
+  assert.ok(
+    edge.evidence.some(
+      (item) =>
+        item.provenance.kind === "canonical-term-match" &&
+        item.provenance.sourceField === "terms" &&
+        item.provenance.matchedValue === "GRACE",
+    ),
+  );
+});
+
+test("ambiguous Prophecy terms are diagnosed without guessing", () => {
+  const index = buildRelationshipIndex(
+    collections({
+      dictionary: [
+        dictionary("grace-a", "Grace"),
+        dictionary("grace-b", "Grace"),
+      ],
+      prophecy: [
+        prophecy("topic", { terms: ["Grace"] }),
+      ],
+    }),
+  );
+
+  assert.equal(
+    edgeFor(index, "prophecy", "topic", "dictionary", "grace-a"),
+    undefined,
+  );
+  assert.equal(
+    edgeFor(index, "prophecy", "topic", "dictionary", "grace-b"),
+    undefined,
+  );
+  assert.ok(
+    index.diagnostics.some(
+      (item) =>
+        item.source.kind === "prophecy" &&
+        item.source.id === "topic" &&
+        item.field === "terms" &&
+        item.authoredValue === "Grace" &&
+        item.reason === "ambiguous",
+    ),
+  );
 });

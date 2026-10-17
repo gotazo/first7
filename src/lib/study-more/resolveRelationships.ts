@@ -28,10 +28,17 @@ const GROUP_TITLES: Record<ContentKind, string> = {
   prophecy: "Prophecy",
   numbers: "Numbers",
 };
-  type ExplicitRelationshipProvenance = Extract<
-    RelationshipProvenance,
-    { kind: "explicit-related" | "explicit-see-also" | "explicit-prophecy-number" }
-  >;
+type ExplicitRelationshipProvenance = Extract<
+  RelationshipProvenance,
+  { kind: "explicit-related" | "explicit-see-also" | "explicit-prophecy-number" }
+>;
+
+type SupportedRelationshipProvenance =
+  | ExplicitRelationshipProvenance
+  | Extract<
+      RelationshipProvenance,
+      { kind: "canonical-term-match" | "scripture-overlap" }
+    >;
 
 function compareText(left: string, right: string): number {
   return left < right ? -1 : left > right ? 1 : 0;
@@ -188,7 +195,7 @@ function lookupUnique<T>(records: readonly T[] | undefined): LookupResult<T> {
 
 function addEvidence(
   edge: RelationshipEdge,
-    provenance: ExplicitRelationshipProvenance,
+  provenance: SupportedRelationshipProvenance,
 ): void {
   const evidenceKey = provenanceKey(provenance);
 
@@ -255,7 +262,7 @@ export function buildRelationshipIndex(
   const appendEdge = (
     source: RelationshipContentRecord,
     target: RelationshipContentRecord,
-      provenance: ExplicitRelationshipProvenance,
+    provenance: SupportedRelationshipProvenance,
   ): void => {
     if (sameKey(source, target)) {
       diagnostics.push(
@@ -403,6 +410,8 @@ export function buildRelationshipIndex(
     }
   }
 
+  const prophecyRecords = [...collections.prophecy].sort(compareKeys);
+
   const teachingRecords = [...collections.teachings].sort(compareKeys);
 
   for (const source of teachingRecords) {
@@ -471,9 +480,41 @@ export function buildRelationshipIndex(
         );
       }
     }
-  }
+    for (const authoredValue of source.keywords) {
+      const match = lookupUnique(
+        dictionaryByTerm.get(normalizeDictionaryValue(authoredValue)),
+      );
 
-  const prophecyRecords = [...collections.prophecy].sort(compareKeys);
+      if (match.status === "ambiguous") {
+        diagnostics.push(
+          diagnostic(source, "keywords", authoredValue, "ambiguous"),
+        );
+        continue;
+      }
+
+      if (match.status === "resolved") {
+        appendEdge(source, match.record, {
+          kind: "canonical-term-match",
+          sourceField: "keywords",
+          matchedValue: authoredValue,
+        });
+      }
+    }
+
+    for (const authoredValue of new Set(source.scriptures)) {
+      for (const target of prophecyRecords) {
+        if (target.draft || !target.scriptures.includes(authoredValue)) {
+          continue;
+        }
+
+        appendEdge(source, target, {
+          kind: "scripture-overlap",
+          sourceField: "scriptures",
+          matchedValue: authoredValue,
+        });
+      }
+    }
+  }
 
   for (const source of prophecyRecords) {
     if (source.draft) {
@@ -511,6 +552,27 @@ export function buildRelationshipIndex(
         },
       );
     }
+
+    for (const authoredValue of source.terms) {
+      const match = lookupUnique(
+        dictionaryByTerm.get(normalizeDictionaryValue(authoredValue)),
+      );
+
+      if (match.status === "ambiguous") {
+        diagnostics.push(
+          diagnostic(source, "terms", authoredValue, "ambiguous"),
+        );
+        continue;
+      }
+
+      if (match.status === "resolved") {
+        appendEdge(source, match.record, {
+          kind: "canonical-term-match",
+          sourceField: "terms",
+          matchedValue: authoredValue,
+        });
+      }
+    }
   }
 
   const numberRecords = [...collections.numbers].sort(compareKeys);
@@ -528,6 +590,27 @@ export function buildRelationshipIndex(
           authoredValue,
         },
       );
+    }
+
+    for (const authoredValue of source.terms) {
+      const match = lookupUnique(
+        dictionaryByTerm.get(normalizeDictionaryValue(authoredValue)),
+      );
+
+      if (match.status === "ambiguous") {
+        diagnostics.push(
+          diagnostic(source, "terms", authoredValue, "ambiguous"),
+        );
+        continue;
+      }
+
+      if (match.status === "resolved") {
+        appendEdge(source, match.record, {
+          kind: "canonical-term-match",
+          sourceField: "terms",
+          matchedValue: authoredValue,
+        });
+      }
     }
   }
 
