@@ -42,7 +42,7 @@ truth: God can use painful circumstances to accomplish His purposes and bring go
 
 insight:
   - Affliction can bring believers to recognize the limits of their own strength and depend more fully upon God.
-  - - The account of Joseph shows that God can bring good out of what others intended for evil, even when the people experiencing the harm cannot yet see the outcome.
+  - The account of Joseph shows that God can bring good out of what others intended for evil, even when the people experiencing the harm cannot yet see the outcome.
   - Believers should not automatically assume the cause of every painful circumstance but should seek God's wisdom and direction in responding to it.
   - Trials can develop patience and spiritual maturity when believers endure them in faith and allow patience to have its perfect work.
   - Even when believers cannot understand their circumstances, they can trust that God is able to work all things together for good according to His purpose.
