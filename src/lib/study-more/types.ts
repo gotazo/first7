@@ -69,7 +69,19 @@ export interface RelationshipEdge {
 
 export interface RelationshipDiagnostic {
   source: ContentKey;
-  field: "id" | "related" | "seeAlso" | "numbers" | "draft" | "keywords" | "terms";
+  field:
+    | "id"
+    | "related"
+    | "seeAlso"
+    | "numbers"
+    | "draft"
+    | "keywords"
+    | "terms"
+    | "term"
+    | "scriptures"
+    | "scripture.ref"
+    | "reference.ref"
+    | "featuredVerse.ref";
   authoredValue: string;
   reason:
     | "unresolved"

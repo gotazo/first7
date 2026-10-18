@@ -222,7 +222,6 @@ export function buildRelationshipIndex(
 
   const diagnostics: RelationshipDiagnostic[] = [];
   const edgesByKey = new Map<string, RelationshipEdge>();
-  const recordsByKey = groupBy(records, keyOf);
   const dictionaryById = groupBy(collections.dictionary, (record) => record.id);
   const dictionaryByTerm = groupBy(
     collections.dictionary,
@@ -265,14 +264,22 @@ export function buildRelationshipIndex(
     provenance: SupportedRelationshipProvenance,
   ): void => {
     if (sameKey(source, target)) {
+      const value =
+        provenance.kind === "explicit-related" ||
+        provenance.kind === "explicit-see-also" ||
+        provenance.kind === "explicit-prophecy-number"
+          ? String(provenance.authoredValue)
+          : provenance.matchedValue;
+
       diagnostics.push(
         diagnostic(
           source,
           provenance.sourceField,
-          String(provenance.authoredValue),
+          value,
           "self-reference",
         ),
       );
+
       return;
     }
 

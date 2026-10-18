@@ -8,6 +8,7 @@ interface NumberEntryLike {
     title: string;
     number: number;
     related?: string[];
+    terms?: string[];
   };
 }
 
