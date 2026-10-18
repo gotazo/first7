@@ -3,6 +3,7 @@ type NormalizedBibleReference = {
   book: string;
   chapter: number;
   verse?: number;
+  endVerse?: number;
   path: string;
 };
 
@@ -130,21 +131,31 @@ const SINGLE_CHAPTER_BOOKS = new Set([
 export function normalizeBibleReference(
   input: string,
 ): NormalizedBibleReference | null {
-  if (!input) return null;
+  if (!input.trim()) return null;
 
   const normalized = input.trim().toLowerCase().replace(/\s+/g, " ");
 
-  const match = normalized.match(/^(.+?)\s+(\d+)(?::(\d+))?$/);
+  const match = normalized.match(
+    /^(.+?)\s+(\d+)(?::(\d+)(?:-(\d+))?|-(\d+))?$/,
+  );
 
   if (!match) return null;
 
   const rawBook = match[1].trim();
   const number = Number(match[2]);
   const explicitVerse = match[3] ? Number(match[3]) : undefined;
+  const colonRangeEnd = match[4] ? Number(match[4]) : undefined;
+  const singleChapterRangeEnd = match[5] ? Number(match[5]) : undefined;
 
   if (!Number.isInteger(number) || number < 1) return null;
 
-  if (match[3] && (!Number.isInteger(explicitVerse) || explicitVerse! < 1)) {
+  if (
+    (match[3] && (!Number.isInteger(explicitVerse) || explicitVerse! < 1)) ||
+    (match[4] && (!Number.isInteger(colonRangeEnd) || colonRangeEnd! < 1)) ||
+    (match[5] &&
+      (!Number.isInteger(singleChapterRangeEnd) ||
+        singleChapterRangeEnd! < 1))
+  ) {
     return null;
   }
 
@@ -153,28 +164,40 @@ export function normalizeBibleReference(
   if (!book) return null;
 
   if (SINGLE_CHAPTER_BOOKS.has(book)) {
-    // Without a colon, interpret the number as a verse in chapter 1.
-    // With a colon, require chapter 1 explicitly.
-    if (explicitVerse !== undefined && number !== 1) {
-      return null;
-    }
+    if (explicitVerse !== undefined && number !== 1) return null;
 
     const verse = explicitVerse ?? number;
+    const endVerse = colonRangeEnd ?? singleChapterRangeEnd;
+
+    if (endVerse !== undefined && endVerse < verse) return null;
 
     return {
       book,
       chapter: 1,
       verse,
+      ...(endVerse !== undefined ? { endVerse } : {}),
       path: `/bible/${book}/1#v${verse}`,
     };
   }
 
+  // A range without a colon is ambiguous for multi-chapter books.
+  if (singleChapterRangeEnd !== undefined) return null;
+
   const chapter = number;
+
+  if (
+    explicitVerse !== undefined &&
+    colonRangeEnd !== undefined &&
+    colonRangeEnd < explicitVerse
+  ) {
+    return null;
+  }
 
   return {
     book,
     chapter,
     ...(explicitVerse !== undefined ? { verse: explicitVerse } : {}),
+    ...(colonRangeEnd !== undefined ? { endVerse: colonRangeEnd } : {}),
     path: `/bible/${book}/${chapter}${
       explicitVerse !== undefined ? `#v${explicitVerse}` : ""
     }`,

@@ -1,161 +1,413 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getBibleBookDisplayName } from "../../lib/bible/bookNames.ts";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
 
 type BibleData = {
   book: string;
   chapters: Record<string, string[]>;
 };
 
-/**
- * 🚀 Load ALL books from JSON
- */
+type BookRecord = {
+  slug: string;
+  title: string;
+  chapters: number[];
+};
+
 const bibleModules = import.meta.glob(
-  '../../data/bible/*.json',
-  { eager: true }
+  "../../data/bible/*.json",
+  { eager: true },
 ) as Record<string, { default: BibleData }>;
 
-const allBooks = Object.values(bibleModules).map((mod) => mod.default);
-
-/**
- * 📚 Normalize structure
- */
-const books: Record<string, { chapter: number }[]> = Object.create(null);
-
-for (const bookData of allBooks) {
-  const bookName = bookData.book.toLowerCase();
-
-  books[bookName] = Object.keys(bookData.chapters).map((ch) => ({
-    chapter: Number(ch)
-  }));
-}
-
-/**
- * 🧠 Helpers
- */
-const formatBook = (book: string) =>
-  book.replace(/\b\w/g, (l) => l.toUpperCase());
-
-const slugify = (book: string) =>
-  book.toLowerCase().replace(/\s+/g, '-');
-
-/**
- * 📖 Testament lists
- */
 const oldTestament = [
-  "genesis","exodus","leviticus","numbers","deuteronomy",
-  "joshua","judges","ruth","1 samuel","2 samuel",
-  "1 kings","2 kings","1 chronicles","2 chronicles",
-  "ezra","nehemiah","esther","job","psalms","proverbs",
-  "ecclesiastes","song of solomon","isaiah","jeremiah",
-  "lamentations","ezekiel","daniel","hosea","joel","amos",
-  "obadiah","jonah","micah","nahum","habakkuk","zephaniah",
-  "haggai","zechariah","malachi"
+  "genesis", "exodus", "leviticus", "numbers", "deuteronomy",
+  "joshua", "judges", "ruth", "1 samuel", "2 samuel",
+  "1 kings", "2 kings", "1 chronicles", "2 chronicles",
+  "ezra", "nehemiah", "esther", "job", "psalms", "proverbs",
+  "ecclesiastes", "song of solomon", "isaiah", "jeremiah",
+  "lamentations", "ezekiel", "daniel", "hosea", "joel", "amos",
+  "obadiah", "jonah", "micah", "nahum", "habakkuk", "zephaniah",
+  "haggai", "zechariah", "malachi",
 ];
 
 const newTestament = [
-  "matthew","mark","luke","john","acts","romans",
-  "1 corinthians","2 corinthians","galatians","ephesians",
-  "philippians","colossians","1 thessalonians","2 thessalonians",
-  "1 timothy","2 timothy","titus","philemon","hebrews",
-  "james","1 peter","2 peter","1 john","2 john","3 john",
-  "jude","revelation"
+  "matthew", "mark", "luke", "john", "acts", "romans",
+  "1 corinthians", "2 corinthians", "galatians", "ephesians",
+  "philippians", "colossians", "1 thessalonians", "2 thessalonians",
+  "1 timothy", "2 timothy", "titus", "philemon", "hebrews",
+  "james", "1 peter", "2 peter", "1 john", "2 john", "3 john",
+  "jude", "revelation",
 ];
+
+// Derive route slugs from filenames, not display titles.
+const allBooks: BookRecord[] = Object.entries(bibleModules).map(
+  ([path, module]) => ({
+    slug: path.split("/").pop()!.replace(/\.json$/, ""),
+    title: getBibleBookDisplayName(
+      path.split("/").pop()!.replace(/\.json$/, ""),
+    ),
+    chapters: Object.keys(module.default.chapters)
+      .map(Number)
+      .sort((a, b) => a - b),
+  }),
+);
+
+const oldBooks = oldTestament
+  .map((name) => allBooks.find(
+    (book) => book.title.toLowerCase() === name,
+  ))
+  .filter((book): book is BookRecord => Boolean(book));
+
+const newBooks = newTestament
+  .map((name) => allBooks.find(
+    (book) => book.title.toLowerCase() === name,
+  ))
+  .filter((book): book is BookRecord => Boolean(book));
+
+const totalChapters = allBooks.reduce(
+  (total, book) => total + book.chapters.length,
+  0,
+);
+
+const bibleReferenceData = Object.fromEntries(
+  Object.entries(bibleModules).map(([path, module]) => {
+    const slug = path.split("/").pop()!.replace(/\.json$/, "");
+
+    const chapters = Object.fromEntries(
+      Object.entries(module.default.chapters).map(([chapter, verses]) => [
+        chapter,
+        verses.length,
+      ]),
+    );
+
+    return [slug, { chapters }];
+  }),
+);
+
+const formatCount = (count: number) =>
+  new Intl.NumberFormat("en").format(count);
 ---
 
-<BaseLayout title="Bible">
+<BaseLayout title="The Holy Bible — King James Version">
+  <div class="mx-auto max-w-6xl space-y-10 px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
 
-  <div class="max-w-5xl mx-auto px-4 py-16 space-y-16">
+    <!-- Hero -->
+    <header class="relative isolate overflow-hidden rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-soft)] px-6 py-8 sm:px-10 sm:py-12">
+      <div class="pointer-events-none absolute -right-16 -top-24 -z-10 h-64 w-64 rounded-full bg-[var(--color-primary)] opacity-[0.08] blur-3xl"></div>
 
-    <!-- Header -->
-    <div class="space-y-2">
-      <h1 class="text-3xl font-semibold">
-        The Holy <span class="text-[var(--color-primary)]">Bible</span>
-      </h1>
+      <div class="max-w-3xl space-y-5">
+        <div class="inline-flex items-center gap-2 rounded-full border border-[var(--color-border)] bg-[var(--color-bg)] px-3 py-1.5 text-xs font-medium tracking-wide">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-4 w-4" aria-hidden="true">
+            <path d="M12 7v14M12 7C9 4.5 5.5 4 2.5 5v14c3-1 6.5-.5 9.5 2M12 7c3-2.5 6.5-3 9.5-2v14c-3-1-6.5-.5-9.5 2"/>
+          </svg>
+          KING JAMES VERSION
+        </div>
 
-      <p class="text-sm opacity-70">
-        New to the KJV?
-        <a href="/preface" class="underline">
-          Read the Preface
+        <h1 class="text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">
+          The Holy <span class="text-[var(--color-primary)]">Bible</span>
+        </h1>
+
+        <p class="max-w-2xl text-base leading-7 text-[var(--color-muted)] sm:text-lg">
+          Explore the Scriptures one book and one chapter at a time.
+          Find a passage, continue your reading, and discover the Word of God.
+        </p>
+
+        <a href="/preface" class="inline-flex items-center gap-2 font-medium text-[var(--color-primary)] underline-offset-4 hover:underline">
+          Read the KJV Preface
+          <span aria-hidden="true">→</span>
         </a>
+      </div>
+
+      <div class="mt-8 grid max-w-xl grid-cols-3 gap-3 border-t border-[var(--color-border)] pt-6">
+        <div>
+          <p class="text-2xl font-semibold tabular-nums">{allBooks.length}</p>
+          <p class="mt-1 text-xs text-[var(--color-muted)] sm:text-sm">Books available</p>
+        </div>
+        <div>
+          <p class="text-2xl font-semibold tabular-nums">{formatCount(totalChapters)}</p>
+          <p class="mt-1 text-xs text-[var(--color-muted)] sm:text-sm">Chapters</p>
+        </div>
+        <div>
+          <p class="text-2xl font-semibold tabular-nums">KJV</p>
+          <p class="mt-1 text-xs text-[var(--color-muted)] sm:text-sm">Bible text</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Search -->
+    <section aria-labelledby="browse-heading" class="space-y-5">
+      <div class="space-y-1">
+        <h2 id="browse-heading" class="text-2xl font-semibold tracking-tight">
+          Find a book
+        </h2>
+        <p class="text-sm text-[var(--color-muted)]">
+          Search by book name, or browse the Testaments below.
+        </p>
+      </div>
+
+      <label for="bible-book-search" class="sr-only">Search Bible books</label>
+      <div class="relative max-w-2xl">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-[var(--color-muted)]" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"/>
+          <path d="m16 16 4 4"/>
+        </svg>
+        <input
+          id="bible-book-search"
+          type="search"
+          placeholder="Try “Genesis”, “John”, or “Psalms”…"
+          autocomplete="off"
+          class="w-full rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] py-3.5 pl-12 pr-4 text-base outline-none transition placeholder:text-[var(--color-muted)] focus:border-[var(--color-primary)] focus:ring-2 focus:ring-[var(--color-primary)]/20"
+        />
+      </div>
+
+      <p id="bible-search-status" class="text-sm text-[var(--color-muted)]" aria-live="polite"></p>
+
+      <div id="bible-reference-result" hidden class="rounded-xl border border-[var(--color-border)] bg-[var(--color-bg-soft)] p-4">
+        <p class="text-sm font-medium">Scripture reference</p>
+        <a id="bible-reference-link" class="mt-1 inline-block font-semibold text-[var(--color-primary)] underline underline-offset-4"></a>
+        <p id="bible-reference-detail" class="mt-1 text-sm text-[var(--color-muted)]"></p>
+      </div>
+
+      <!-- Old Testament -->
+      <details
+        id="old-testament"
+        data-testament-panel
+        data-default-open="true"
+        open
+        class="group overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)]"
+      >
+        <summary class="flex cursor-pointer list-none items-center gap-4 p-4 transition hover:bg-[var(--color-bg-soft)] sm:p-5 [&::-webkit-details-marker]:hidden">
+          <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[var(--color-primary)]/10 text-[var(--color-primary)]">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-6 w-6" aria-hidden="true">
+              <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5z"/>
+              <path d="M4 5.5v16M8 7h8M8 11h8"/>
+            </svg>
+          </span>
+          <span class="min-w-0 flex-1">
+            <span class="block text-lg font-semibold">Old Testament</span>
+            <span class="mt-0.5 block text-sm text-[var(--color-muted)]">
+              {oldBooks.length} books · Law, history, poetry and prophets
+            </span>
+          </span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5 shrink-0 text-[var(--color-muted)] transition-transform group-open:rotate-180" aria-hidden="true">
+            <path d="m6 9 6 6 6-6"/>
+          </svg>
+        </summary>
+
+        <div class="border-t border-[var(--color-border)] p-3 sm:p-5">
+          <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {oldBooks.map((book) => (
+              <details
+                data-book-card
+                data-book-name={book.title.toLowerCase()}
+                class="group/book min-w-0 rounded-xl border border-[var(--color-border)] bg-[var(--color-bg)] transition hover:border-[var(--color-primary)]/50 open:border-[var(--color-primary)]/50 open:bg-[var(--color-bg-soft)]"
+              >
+                <summary class="flex cursor-pointer list-none items-center gap-3 rounded-xl p-3.5 [&::-webkit-details-marker]:hidden">
+                  <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[var(--color-bg-soft)] text-sm font-semibold tabular-nums">
+                    {String(oldBooks.indexOf(book) + 1).padStart(2, "0")}
+                  </span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block truncate font-medium">{book.title}</span>
+                    <span class="mt-0.5 block text-xs text-[var(--color-muted)]">
+                      {book.chapters.length} {book.chapters.length === 1 ? "chapter" : "chapters"}
+                    </span>
+                  </span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-4 w-4 shrink-0 text-[var(--color-muted)] transition-transform group-open/book:rotate-180" aria-hidden="true">
+                    <path d="m6 9 6 6 6-6"/>
+                  </svg>
+                </summary>
+
+                <div class="border-t border-[var(--color-border)] px-3 pb-3 pt-3">
+                  <p class="mb-2 text-xs font-medium text-[var(--color-muted)]">CHOOSE A CHAPTER</p>
+                  <div class="grid grid-cols-5 gap-1.5 sm:grid-cols-6">
+                    {book.chapters.map((chapter) => (
+                      <a
+                        href={`/bible/${book.slug}/${chapter}`}
+                        class="flex min-h-9 items-center justify-center rounded-lg border border-[var(--color-border)] px-1 text-sm tabular-nums transition hover:border-[var(--color-primary)] hover:bg-[var(--color-primary)]/10 hover:text-[var(--color-primary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-primary)]"
+                      >
+                        {chapter}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </details>
+
+      <!-- New Testament -->
+      <details
+        id="new-testament"
+        data-testament-panel
+        data-default-open="false"
+        class="group overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)]"
+      >
+        <summary class="flex cursor-pointer list-none items-center gap-4 p-4 transition hover:bg-[var(--color-bg-soft)] sm:p-5 [&::-webkit-details-marker]:hidden">
+          <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[var(--color-primary)]/10 text-[var(--color-primary)]">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" class="h-6 w-6" aria-hidden="true">
+              <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5z"/>
+              <path d="M4 5.5v16M8 7h8M8 11h8"/>
+              <path d="M14 13v5m-2.5-2.5h5"/>
+            </svg>
+          </span>
+          <span class="min-w-0 flex-1">
+            <span class="block text-lg font-semibold">New Testament</span>
+            <span class="mt-0.5 block text-sm text-[var(--color-muted)]">
+              {newBooks.length} books · Gospels, Church and Epistles
+            </span>
+          </span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5 shrink-0 text-[var(--color-muted)] transition-transform group-open:rotate-180" aria-hidden="true">
+            <path d="m6 9 6 6 6-6"/>
+          </svg>
+        </summary>
+
+        <div class="border-t border-[var(--color-border)] p-3 sm:p-5">
+          <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {newBooks.map((book) => (
+              <details
+                data-book-card
+                data-book-name={book.title.toLowerCase()}
+                class="group/book min-w-0 rounded-xl border border-[var(--color-border)] bg-[var(--color-bg)] transition hover:border-[var(--color-primary)]/50 open:border-[var(--color-primary)]/50 open:bg-[var(--color-bg-soft)]"
+              >
+                <summary class="flex cursor-pointer list-none items-center gap-3 rounded-xl p-3.5 [&::-webkit-details-marker]:hidden">
+                  <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[var(--color-bg-soft)] text-sm font-semibold tabular-nums">
+                    {String(newBooks.indexOf(book) + 1).padStart(2, "0")}
+                  </span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block truncate font-medium">{book.title}</span>
+                    <span class="mt-0.5 block text-xs text-[var(--color-muted)]">
+                      {book.chapters.length} {book.chapters.length === 1 ? "chapter" : "chapters"}
+                    </span>
+                  </span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-4 w-4 shrink-0 text-[var(--color-muted)] transition-transform group-open/book:rotate-180" aria-hidden="true">
+                    <path d="m6 9 6 6 6-6"/>
+                  </svg>
+                </summary>
+
+                <div class="border-t border-[var(--color-border)] px-3 pb-3 pt-3">
+                  <p class="mb-2 text-xs font-medium text-[var(--color-muted)]">CHOOSE A CHAPTER</p>
+                  <div class="grid grid-cols-5 gap-1.5 sm:grid-cols-6">
+                    {book.chapters.map((chapter) => (
+                      <a
+                        href={`/bible/${book.slug}/${chapter}`}
+                        class="flex min-h-9 items-center justify-center rounded-lg border border-[var(--color-border)] px-1 text-sm tabular-nums transition hover:border-[var(--color-primary)] hover:bg-[var(--color-primary)]/10 hover:text-[var(--color-primary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-primary)]"
+                      >
+                        {chapter}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </details>
+
+      <p id="bible-no-results" hidden class="rounded-xl border border-[var(--color-border)] p-6 text-center text-sm text-[var(--color-muted)]">
+        No matching Bible book found. Try another name.
       </p>
-    </div>
-
-    <!-- OLD TESTAMENT -->
-    <section class="space-y-8">
-      <h2 class="text-2xl font-semibold">Old Testament</h2>
-
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
-        {oldTestament
-          .filter((book) => books[book])
-          .map((book) => {
-            const chapters = [...(books[book] || [])].sort(
-              (a, b) => a.chapter - b.chapter
-            );
-
-            return (
-              <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-4 hover:bg-[var(--color-primary)]/5 transition">
-
-                <h3 class="font-semibold text-lg">
-                  {formatBook(book)}
-                </h3>
-
-                <div class="flex flex-wrap gap-2">
-                  {chapters.map((entry) => (
-                    <a
-                      href={`/bible/${slugify(book)}/${entry.chapter}`}
-                      class="px-2.5 py-1 text-sm rounded-md border border-[var(--color-border)] hover:bg-[var(--color-primary)]/10 transition"
-                    >
-                      {entry.chapter}
-                    </a>
-                  ))}
-                </div>
-
-              </div>
-            );
-          })}
-
-      </div>
     </section>
-
-    <!-- NEW TESTAMENT -->
-    <section class="space-y-8">
-      <h2 class="text-2xl font-semibold">New Testament</h2>
-
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
-        {newTestament
-          .filter((book) => books[book])
-          .map((book) => {
-            const chapters = [...(books[book] || [])].sort(
-              (a, b) => a.chapter - b.chapter
-            );
-
-            return (
-              <div class="rounded-2xl border border-[var(--color-border)] p-5 space-y-4 hover:bg-[var(--color-primary)]/5 transition">
-
-                <h3 class="font-semibold text-lg">
-                  {formatBook(book)}
-                </h3>
-
-                <div class="flex flex-wrap gap-2">
-                  {chapters.map((entry) => (
-                    <a
-                      href={`/bible/${slugify(book)}/${entry.chapter}`}
-                      class="px-2.5 py-1 text-sm rounded-md border border-[var(--color-border)] hover:bg-[var(--color-primary)]/10 transition"
-                    >
-                      {entry.chapter}
-                    </a>
-                  ))}
-                </div>
-
-              </div>
-            );
-          })}
-
-      </div>
-    </section>
-
   </div>
 
+
+<script
+  is:inline
+  type="application/json"
+  id="bible-reference-data"
+  set:html={JSON.stringify(bibleReferenceData)}
+></script>
+
+<script>
+  import { normalizeBibleReference } from "../../lib/bible/normalizeBibleReference.ts";
+  import { validateBibleReference } from "../../lib/bible/validateBibleReference.ts";
+
+  const searchInput = document.querySelector<HTMLInputElement>("#bible-book-search");
+  const searchStatus = document.querySelector<HTMLElement>("#bible-search-status");
+  const noResults = document.querySelector<HTMLElement>("#bible-no-results");
+  const referenceResult = document.querySelector<HTMLElement>("#bible-reference-result");
+  const referenceLink = document.querySelector<HTMLAnchorElement>("#bible-reference-link");
+  const referenceDetail = document.querySelector<HTMLElement>("#bible-reference-detail");
+
+  const panels = Array.from(
+    document.querySelectorAll<HTMLDetailsElement>("[data-testament-panel]"),
+  );
+  const referenceDataElement =
+    document.querySelector<HTMLScriptElement>("#bible-reference-data");
+
+  const bibleBooks = referenceDataElement
+    ? (JSON.parse(referenceDataElement.textContent ?? "{}") as Record<
+        string,
+        { chapters: Record<string, number> }
+      >)
+    : {};
+
+  searchInput?.addEventListener("input", () => {
+    const query = searchInput.value.trim().toLowerCase();
+    let totalMatches = 0;
+
+    for (const panel of panels) {
+      let panelMatches = 0;
+
+      const panelCards = Array.from(
+        panel.querySelectorAll<HTMLDetailsElement>("[data-book-card]"),
+      );
+
+      for (const card of panelCards) {
+        const matches = (card.dataset.bookName ?? "").includes(query);
+        card.hidden = !matches;
+        card.open = query.length > 0 && matches;
+
+        if (matches) {
+          panelMatches += 1;
+          totalMatches += 1;
+        }
+      }
+
+      panel.hidden = query.length > 0 && panelMatches === 0;
+
+      if (query.length > 0 && panelMatches > 0) {
+        panel.open = true;
+      } else if (query.length === 0) {
+        panel.open = panel.dataset.defaultOpen === "true";
+      }
+    }
+
+    const normalized = normalizeBibleReference(searchInput.value);
+    const validReference = normalized
+      ? validateBibleReference(searchInput.value, bibleBooks)
+      : null;
+
+    if (referenceResult && referenceLink && referenceDetail) {
+      referenceResult.hidden = !validReference;
+
+      if (validReference) {
+        referenceLink.href = validReference.path;
+        referenceLink.textContent = searchInput.value.trim();
+        referenceDetail.textContent =
+          validReference.endVerse !== undefined
+            ? `Open ${validReference.book} chapter ${validReference.chapter}, verses ${validReference.verse}-${validReference.endVerse}.`
+            : validReference.verse !== undefined
+              ? `Open ${validReference.book} chapter ${validReference.chapter}, verse ${validReference.verse}.`
+              : `Open ${validReference.book} chapter ${validReference.chapter}.`;
+      }
+    }
+
+    if (noResults) {
+      noResults.hidden = query.length === 0 || totalMatches > 0 || Boolean(validReference);
+    }
+
+    if (searchStatus) {
+      if (query.length === 0) {
+        searchStatus.textContent = "";
+      } else if (validReference && totalMatches === 0) {
+        searchStatus.textContent = "Scripture reference found";
+      } else if (totalMatches > 0) {
+        searchStatus.textContent = `${totalMatches} ${totalMatches === 1 ? "book" : "books"} found`;
+      } else {
+        searchStatus.textContent = "No matching book or valid Scripture reference";
+      }
+    }
+  });
+</script>
 </BaseLayout>

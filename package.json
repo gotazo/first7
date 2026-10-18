@@ -11,7 +11,7 @@
     "build": "npm run build:index && astro build",
     "preview": "astro preview",
     "build:index": "node scripts/buildTeachingsIndex.mjs",
-    "test": "node --experimental-strip-types --test src/lib/study-more/__tests__/explicit-relationships.test.ts src/lib/reading/continueReading.test.ts src/lib/bible/normalizeBibleReference.test.ts",
+    "test": "node --experimental-strip-types --test src/lib/study-more/__tests__/explicit-relationships.test.ts src/lib/reading/continueReading.test.ts src/lib/bible/normalizeBibleReference.test.ts src/lib/bible/validateBibleReference.test.ts src/lib/bible/matchesBibleChapter.test.ts src/lib/bible/getChapterRelatedContent.test.ts",
     "astro": "astro",
     "audit:site": "node scripts/auditSite.mjs",
     "check:site": "npm run build && npm run audit:site -- --strict"

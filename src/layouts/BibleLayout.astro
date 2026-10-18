@@ -1,4 +1,5 @@
 ---
+import { getBibleBookDisplayName } from "../lib/bible/bookNames.ts";
 import BaseLayout from "./BaseLayout.astro";
 
 const {
@@ -28,6 +29,20 @@ const bibleModules = import.meta.glob(
 
 const allBooks = Object.values(bibleModules).map(
   (m) => m.default
+);
+
+const bibleReferenceData = Object.fromEntries(
+  Object.entries(bibleModules).map(([filePath, module]) => {
+    const slug = filePath.split("/").pop()!.replace(/\.json$/, "");
+    const chapters = Object.fromEntries(
+      Object.entries(module.default.chapters).map(([chapter, verses]) => [
+        chapter,
+        verses.length,
+      ]),
+    );
+
+    return [slug, { chapters }];
+  }),
 );
 
 const books: Record<string, number[]> = {};
@@ -63,13 +78,7 @@ const nextChapter =
     : null;
 
 function formatBook(book: string) {
-
-  return book
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (l) =>
-      l.toUpperCase()
-    );
-
+  return getBibleBookDisplayName(book);
 }
 ---
 
@@ -316,6 +325,13 @@ function formatBook(book: string) {
             </button>
 
           </div>
+
+          <p
+            id="bible-search-status"
+            class="mt-2 text-sm text-[var(--color-muted)]"
+            role="status"
+            aria-live="polite"
+          ></p>
 
         </div>
 
@@ -694,231 +710,98 @@ function formatBook(book: string) {
   </div>
 
   <!-- 🚀 SCRIPT -->
-  <script is:inline>
+  <script
+    is:inline
+    type="application/json"
+    id="bible-reference-data"
+    set:html={JSON.stringify(bibleReferenceData)}
+  ></script>
 
-    const bookSelect =
-      document.getElementById(
-        "book-select"
-      );
+  <script>
+    import { normalizeBibleReference } from "../lib/bible/normalizeBibleReference.ts";
+    import { validateBibleReference } from "../lib/bible/validateBibleReference.ts";
 
-    const chapterSelect =
-      document.getElementById(
-        "chapter-select"
-      );
+    const bookSelect = document.getElementById("book-select") as HTMLSelectElement | null;
+    const chapterSelect = document.getElementById("chapter-select") as HTMLSelectElement | null;
+    const searchBtn = document.getElementById("search-btn") as HTMLButtonElement | null;
+    const searchInput = document.getElementById("bible-search") as HTMLInputElement | null;
+    const searchStatus = document.getElementById("bible-search-status");
 
     function navigateBible() {
-
-      const book =
-        bookSelect?.value;
-
-      const chapter =
-        chapterSelect?.value;
+      const book = bookSelect?.value;
+      const chapter = chapterSelect?.value;
 
       if (book && chapter) {
-
-        window.location.href =
-          `/bible/${book}/${chapter}`;
-
+        window.location.href = `/bible/${book}/${chapter}`;
       }
-
     }
 
-    bookSelect?.addEventListener(
-      "change",
-      () => {
-
-        window.location.href =
-          `/bible/${bookSelect.value}/1`;
-
+    bookSelect?.addEventListener("change", () => {
+      if (bookSelect.value) {
+        window.location.href = `/bible/${bookSelect.value}/1`;
       }
-    );
+    });
 
-    chapterSelect?.addEventListener(
-      "change",
-      navigateBible
-    );
+    chapterSelect?.addEventListener("change", navigateBible);
 
-    const searchBtn =
-      document.getElementById(
-        "search-btn"
-      );
+    const referenceDataElement =
+      document.getElementById("bible-reference-data");
 
-    const searchInput =
-      document.getElementById(
-        "bible-search"
-      );
+    const bibleBooks = referenceDataElement
+      ? (JSON.parse(referenceDataElement.textContent ?? "{}") as Record<
+          string,
+          { chapters: Record<string, number> }
+        >)
+      : {};
 
-    /**
-     * 📖 Normalize Bible reference
-     */
-    function normalizeBibleReference(
-      input
-    ) {
+    function searchBibleReference() {
+      const value = searchInput?.value.trim() ?? "";
 
-      const aliases = {
-
-        "gen": "genesis",
-        "exo": "exodus",
-        "lev": "leviticus",
-        "num": "numbers",
-        "deut": "deuteronomy",
-
-        "josh": "joshua",
-        "judg": "judges",
-
-        "1 sam": "1-samuel",
-        "2 sam": "2-samuel",
-
-        "1 kings": "1-kings",
-        "2 kings": "2-kings",
-
-        "1 chron": "1-chronicles",
-        "1 chr": "1-chronicles",
-
-        "2 chron": "2-chronicles",
-        "2 chr": "2-chronicles",
-
-        "psalm": "psalms",
-        "psa": "psalms",
-
-        "prov": "proverbs",
-
-        "song": "song-of-solomon",
-        "songs": "song-of-solomon",
-        "sos": "song-of-solomon",
-        "canticles": "song-of-solomon",
-
-        "isa": "isaiah",
-        "jer": "jeremiah",
-        "ezek": "ezekiel",
-        "dan": "daniel",
-
-        "matt": "matthew",
-        "rom": "romans",
-
-        "1 cor": "1-corinthians",
-        "2 cor": "2-corinthians",
-
-        "1 thess": "1-thessalonians",
-        "2 thess": "2-thessalonians",
-
-        "1 tim": "1-timothy",
-        "2 tim": "2-timothy",
-
-        "1 pet": "1-peter",
-        "2 pet": "2-peter",
-
-        "1 john": "1-john",
-        "2 john": "2-john",
-        "3 john": "3-john",
-
-        "rev": "revelation",
-
-      };
-
-      const normalized =
-        input
-          .trim()
-          .toLowerCase()
-          .replace(/\s+/g, " ");
-
-      const match =
-        normalized.match(
-          /^(.+?)\s+(\d+)(?::(\d+))?$/
-        );
-
-      if (!match) {
-
-        return null;
-
+      if (!value) {
+        if (searchStatus) searchStatus.textContent = "Enter a Bible reference, such as John 3:16.";
+        searchInput?.focus();
+        return;
       }
 
-      let book =
-        match[1].trim();
+      const normalized = normalizeBibleReference(value);
+      const reference = normalized
+        ? validateBibleReference(value, bibleBooks)
+        : null;
 
-      const chapter =
-        Number(match[2]);
-
-      if (!chapter) {
-
-        return null;
-
+      if (!reference) {
+        if (searchStatus) {
+          searchStatus.textContent =
+            "That reference could not be validated. Check the book, chapter, and verse numbers.";
+        }
+        searchInput?.setAttribute("aria-invalid", "true");
+        return;
       }
 
-      const verse =
-        match[3]
-          ? Number(match[3])
-          : undefined;
+      searchInput?.removeAttribute("aria-invalid");
 
-      if (match[3] && !verse) {
-
-        return null;
-
+      if (searchStatus) {
+        searchStatus.textContent =
+          reference.endVerse !== undefined
+            ? `Opening ${value} (verses ${reference.verse}-${reference.endVerse}).`
+            : `Opening ${value}.`;
       }
 
-      book =
-        aliases[book] || book;
-
-      book =
-        book.replace(/\s+/g, "-");
-
-      return {
-        path: verse
-          ? `/bible/${book}/${chapter}/#v${verse}`
-          : `/bible/${book}/${chapter}`
-      };
-
+      window.location.href = reference.path;
     }
 
-    /**
-     * 🚀 Search
-     */
-    searchBtn?.addEventListener(
-      "click",
-      () => {
+    searchBtn?.addEventListener("click", searchBibleReference);
 
-        const value =
-          searchInput?.value?.trim();
+    searchInput?.addEventListener("input", () => {
+      searchInput.removeAttribute("aria-invalid");
+      if (searchStatus) searchStatus.textContent = "";
+    });
 
-        if (!value) return;
-
-        const result =
-          normalizeBibleReference(
-            value
-          );
-
-        if (!result) {
-
-          alert(
-            "Could not recognize Bible reference."
-          );
-
-          return;
-
-        }
-
-        window.location.href =
-          result.path;
-
+    searchInput?.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        searchBibleReference();
       }
-    );
-
-    /**
-     * ⌨️ Enter key
-     */
-    searchInput?.addEventListener(
-      "keydown",
-      (event) => {
-
-        if (event.key === "Enter") {
-
-          searchBtn?.click();
-
-        }
-
-      }
-    );
-
+    });
   </script>
 
 </BaseLayout>
