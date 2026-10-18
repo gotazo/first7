@@ -36,7 +36,7 @@ function withStorage<T>(run: (store: Map<string, string>) => T): T {
     if (originalWindow) {
       Object.defineProperty(globalThis, "window", originalWindow);
     } else {
-      delete (globalThis as typeof globalThis & { window?: unknown }).window;
+      Reflect.deleteProperty(globalThis, "window");
     }
   }
 }
@@ -104,7 +104,7 @@ test("returns safely when browser storage throws", () => {
     if (originalWindow) {
       Object.defineProperty(globalThis, "window", originalWindow);
     } else {
-      delete (globalThis as typeof globalThis & { window?: unknown }).window;
+      Reflect.deleteProperty(globalThis, "window");
     }
   }
 });
