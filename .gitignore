@@ -39,3 +39,8 @@ logs/
 # Temporary KJV migration verification scripts
 /scripts/inspectKjvDifferences.mjs
 /scripts/prepareKjvMigration.mjs
+
+# Local dictionary candidate-checking files
+/dictionary-candidates.txt
+/dictionary-missing.txt
+/scripts/check-dictionary-terms.mjs
