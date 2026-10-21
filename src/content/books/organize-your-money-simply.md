@@ -12,14 +12,11 @@ pages: 167
 year: 2026
 
 digital_enabled: true
-digital_price_inr: "₹249"
 digital_price_usd: "$2.99"
-digital_label: "Get the Digital Edition"
+digital_url: "https://payhip.com/b/ku1DH"
+digital_label: "Get the Ebook on Payhip"
 
-printable_enabled: true
-printable_price_inr: "₹299"
-printable_price_usd: "$3.99"
-printable_label: "Get the Printable Edition"
+printable_enabled: false
 
 paperback_enabled: false
 
@@ -56,19 +53,13 @@ The book combines practical financial organization with biblical principles of s
 - How to review your finances simply
 - How to keep your financial life understandable
 
-## Editions
+## The Digital Edition
 
-### Digital Edition
+Get the digital PDF edition to read on your phone, tablet, computer, or another compatible device.
 
-A digital PDF edition for reading on your phone, tablet, computer, or other device.
+**Price: $2.99 USD**
 
-**₹249 / $2.99**
-
-### Printable Edition
-
-A PDF edition prepared for readers who want to print the book at home.
-
-**₹299 / $3.99**
+The ebook is available through Payhip.
 
 ## A Simple Approach
 
@@ -76,6 +67,8 @@ The goal is not to make money complicated.
 
 It is to help you understand what you have, be honest about what happened, know what your money is for, plan wisely, and handle it faithfully.
 
-## Start Reading
+## Get the Book
 
-A preview of the book will be available so you can see what is inside before purchasing.
+Ready to bring more clarity and order to your finances?
+
+Purchase *Organize Your Money Simply* through Payhip.

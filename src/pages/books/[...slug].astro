@@ -1,4 +1,3 @@
-
 ---
 export const prerender = true;
 
@@ -140,12 +139,14 @@ const editions = [
 
                   <div class="mt-4">
                     {edition.url ? (
-                      <a
-                        href={edition.url}
-                        class="inline-flex items-center justify-center rounded-lg bg-[var(--color-primary)] px-5 py-3 font-medium text-white transition hover:opacity-90"
-                      >
-                        {edition.label}
-                      </a>
+                    <a
+                      href={edition.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn rounded-lg px-5 py-2.5"
+                    >
+                      {edition.label}
+                    </a>
                     ) : (
                       <p class="text-sm text-[var(--color-muted)]">
                         Purchase details will be announced soon.
